@@ -76,7 +76,7 @@ This overview and checklist provide a structured approach for developer contribu
    git checkout -b v1/feature/my-feature
    ```
    ```
-   git checkout -b v1/bugfix/my-feature
+   git checkout -b v1/bug/my-fix
    ```
 2. Make necessary changes to the website pages or styles using ASTRO
 3. Commit changes to your branch
@@ -89,7 +89,7 @@ This overview and checklist provide a structured approach for developer contribu
    git push origin v1/feature/my-feature
    ```
    ```
-   git push origin v1/bugfix/my-feature
+   git push origin v1/bug/my-fix
    ```
 5. Go to your forked repository on GitHub and submit a pull request, with a clear description of the changes you made, to the v1 branch of the repo.
 #### After submission
