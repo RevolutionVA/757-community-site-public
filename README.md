@@ -51,14 +51,15 @@ This page would dive a bit deeper into what makes our community great and the bo
 ### "Get involved" page
 This page would highlight how folks could get involved and who they should contact if they're interested
 
-## Brand guidelines
-For the time being we're keeping things as general as possible so please don't venture off the path that AstroWind has set from a branding, color, font, imagery perspective. This will all be talked about and settled at a later date.
+## Brand & style guidelines
+For the time being we're keeping things as general as possible so please don't venture off the path that AstroWind has set from a branding, color, font, imagery, and CSS perspective. To learn more about the CSS framework that AstroWind is built on top of, please scroll to the bottom of the page and read through the "Helpful links" sections. Future improvements to this will be talked about and settled at a later date, but until then lets focus on the bones and content of the site first. 
 
 ## Get involved
 With this being a community-run project, we are absolutely looking for artists, writers, developers, etc. to get involved. If you're wanting to roll up your sleeves and start building or just want to pass along some suggestions, reach out to [Ted Patterson](https://www.linkedin.com/in/tedjpatterson) to ask further questions and get access.
 
 ### For developer contributors
 This overview and checklist provide a structured approach for developer contributors to efficiently contribute to the 757tech website project on GitHub.
+
 #### Before starting
 1. Fork the repository to your GitHub account
 2. Clone the forked repository to your local machine:
@@ -69,6 +70,7 @@ This overview and checklist provide a structured approach for developer contribu
    ```
    npm install
    ```
+
 #### Development process
 1. Create a branch off of v1
    Create a new branch for your feature or bug fix:
@@ -92,10 +94,12 @@ This overview and checklist provide a structured approach for developer contribu
    git push origin v1/bug/my-fix
    ```
 5. Go to your forked repository on GitHub and submit a pull request, with a clear description of the changes you made, to the v1 branch of the repo.
+   
 #### After submission
 1. Participate in the code review process as needed
 2. Make changes and push them to your branch. The pull request will update automatically
 3. Once approved, your pull request will be merged into the v1 branch of the repository
+   
 ### Helpful links
 - GitHub tutorials
   - [Creating an Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
@@ -106,3 +110,6 @@ This overview and checklist provide a structured approach for developer contribu
 - AstroWind theme
   - [Github repo & documentation](https://github.com/onwidget/astrowind)
   - [Site demo](https://astrowind.vercel.app/)
+- Tailwind
+  - [Documentation](https://tailwindcss.com/docs/installation)
+  - [Component examples](https://tailwindflex.com/)
