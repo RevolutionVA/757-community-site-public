@@ -46,7 +46,7 @@ page that have clear, concise intros, labels, supporting platform (Meetup.com, L
 - Beginnger-friendly
 
 ### "About" page
-This page would dive a bit deeper into what makes our community great and the board that pushing this umbrella org forward. More info coming on this soon.
+This page would dive a bit deeper into what makes our community great, some history around the region, our sponsors, and the board/chairs pushing this umbrella org forward. More info coming on this soon.
 
 ### "Get involved" page
 This page would highlight how folks could get involved and who they should contact if they're interested
