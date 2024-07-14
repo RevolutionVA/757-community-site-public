@@ -15,18 +15,22 @@ page that have clear, concise intros, labels, supporting platform (Meetup.com, L
 
 #### Potential group list
 - 757dev
-- The Digital Builders 757
 - 757 Makerspace
-- 757 ColorCoded
-- Gay in Tech
 - Norfolk.js
+- 757 ColorCoded
+- The Digital Builders 757
+- Gay in Tech
+- Hampton Roads .NET 
 - Interaction Design Association (IxDA) Hampton Roads
 - 757 Build Weekend
 - Geeks at a Bar
 - Hampton Roads Cyber Security for Control Systems
+- Mid Atlantic Tech Bridge (MATB)
 - Late Night Coders
+- Crypto Over Coffee
 - Hampton Roads SQL Server
 - Platform Engineering & DevOps - Hampton Roads
+- Information Systems Security Association (ISSA) Hampton Roads
 
 #### Potential labels
 - AI/ML/LLM
@@ -44,6 +48,9 @@ page that have clear, concise intros, labels, supporting platform (Meetup.com, L
 - Software Development
 - Game Development
 - Beginnger-friendly
+- Free
+- In-person
+- Online
 
 ### "About" page
 This page would dive a bit deeper into what makes our community great, some history around the region, our sponsors, and the board/chairs pushing this umbrella org forward. More info coming on this soon.
