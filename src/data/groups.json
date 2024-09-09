@@ -1,0 +1,37 @@
+[
+    {
+        "name": "757dev",
+        "description": "757dev is a group of developers in the Hampton Roads area.",
+        "url": "https://www.meetup.com/757dev/",
+        "platform": "Meetup",
+        "tags": ["AI/ML/LLM", "IoT", "Robotics", "3D Printing", "Blockchain", "Cybersecurity", "VR/AR", "Cloud Computing", "Big Data", "Quantum Computing", "Embedded Systems", "Open Source Projects", "Software Development", "Game Development", "Beginnger-friendly", "Free", "In-person", "Online"]
+    },
+    {
+        "name": "757 Makerspace",
+        "description": "757 Makerspace is a group of makers in the Hampton Roads area.",
+        "url": "https://www.meetup.com/757makerspace/",
+        "platform": "Meetup",
+        "tags": ["AI/ML/LLM", "IoT", "Robotics", "3D Printing", "Blockchain", "Cybersecurity", "VR/AR", "Cloud Computing", "Big Data", "Quantum Computing", "Embedded Systems", "Open Source Projects", "Software Development", "Game Development", "Beginnger-friendly", "Free", "In-person", "Online"]
+    },
+    {
+        "name": "Norfolk.js",
+        "description": "Norfolk.js is a group of developers in the Hampton Roads area.",
+        "url": "https://www.meetup.com/norfolkjs/",
+        "platform": "Meetup",
+        "tags": ["AI/ML/LLM", "IoT", "Robotics", "3D Printing", "Blockchain", "Cybersecurity", "VR/AR", "Cloud Computing", "Big Data", "Quantum Computing", "Embedded Systems", "Open Source Projects", "Software Development", "Game Development", "Beginnger-friendly", "Free", "In-person", "Online"]
+    },
+    {
+        "name": "757 ColorCoded",
+        "description": "757 ColorCoded is a group of developers in the Hampton Roads area.",
+        "url": "https://www.meetup.com/757colorcoded/",
+        "platform": "Meetup",
+        "tags": ["AI/ML/LLM", "IoT", "Robotics", "3D Printing", "Blockchain", "Cybersecurity", "VR/AR", "Cloud Computing", "Big Data", "Quantum Computing", "Embedded Systems", "Open Source Projects", "Software Development", "Game Development", "Beginnger-friendly", "Free", "In-person", "Online"]    
+    },
+    {
+        "name": "Hampton Roads .NET",
+        "description": "Hampton Roads .NET is a group of developers in the Hampton Roads area.",
+        "url": "https://www.meetup.com/hampton-roads-net-users-group/",
+        "platform": "Meetup",
+        "tags": ["AI/ML/LLM", "IoT", "Robotics", "3D Printing", "Blockchain", "Cybersecurity", "VR/AR", "Cloud Computing", "Big Data", "Quantum Computing", "Embedded Systems", "Open Source Projects", "Software Development", "Game Development", "Beginnger-friendly", "Free", "In-person", "Online"]
+    }
+]
