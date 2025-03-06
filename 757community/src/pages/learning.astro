@@ -1,0 +1,118 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import Card from '../components/Card.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+
+// In a real implementation, this data would come from a database or API
+// For this example, we're hardcoding some sample data
+const educationalInstitutions = [
+  {
+    name: "Old Dominion University",
+    url: "https://www.odu.edu/",
+    description: "Public research university in Norfolk"
+  },
+  {
+    name: "Tidewater Community College",
+    url: "https://www.tcc.edu/",
+    description: "Community college with multiple campuses"
+  },
+  {
+    name: "ECPI",
+    url: "https://www.ecpi.edu/",
+    description: "Private university focused on technology"
+  },
+  {
+    name: "Hampton University",
+    url: "https://www.hamptonu.edu/",
+    description: "Private university in Hampton"
+  },
+  {
+    name: "The Apprentice School",
+    url: "https://www.apprenticeschool.com/",
+    description: "Apprenticeship program at Newport News Shipbuilding"
+  }
+];
+
+const onlineLearningResources = [
+  {
+    name: "757ColorCoded",
+    url: "https://www.757colorcoded.org/",
+    description: "Providing resources and support for underrepresented groups in tech"
+  },
+  {
+    name: "757 Digital Builders",
+    url: "https://www.meetup.com/digital-builders-757/",
+    description: "Workshops and learning events for digital builders"
+  }
+];
+---
+
+<MainLayout title="Learning">
+  <div class="hero">
+    <div class="container">
+      <h1>Learning</h1>
+      <p>Discover educational resources and institutions in the Hampton Roads area to help you grow your tech skills.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="section">
+      <SectionDivider title="Educational Institutions" />
+      <div class="grid">
+        {educationalInstitutions.map(institution => (
+          <Card title={institution.name} href={institution.url}>
+            <p>{institution.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Online Learning Resources" />
+      <div class="grid">
+        {onlineLearningResources.map(resource => (
+          <Card title={resource.name} href={resource.url}>
+            <p>{resource.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="🏄🏽‍♀️ Keep surfing" />
+      <div class="grid-3">
+        <FeatureCard 
+          title="Home" 
+          href="/" 
+          image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+        <FeatureCard 
+          title="Meetups" 
+          href="/meetups" 
+          image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+        <FeatureCard 
+          title="Communities" 
+          href="/communities" 
+          image="/pexels-karolina-grabowska-4476606.jpg" 
+        />
+        <FeatureCard 
+          title="Hackathons" 
+          href="/hackathons" 
+          image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+        <FeatureCard 
+          title="Work" 
+          href="/work" 
+          image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+        <FeatureCard 
+          title="Conferences" 
+          href="/conferences" 
+          image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+      </div>
+    </section>
+  </div>
+</MainLayout> 

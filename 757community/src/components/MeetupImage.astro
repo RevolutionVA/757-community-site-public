@@ -1,0 +1,153 @@
+---
+interface Props {
+  meetupUrl: string;
+  title: string;
+  fallbackImage?: string;
+  showMetadata?: boolean;
+}
+
+const { meetupUrl, title, fallbackImage = '/images/default-meetup.jpg', showMetadata = false } = Astro.props;
+
+// Determine the type of URL
+const isMeetupUrl = meetupUrl.includes('meetup.com');
+const isLinkedInUrl = meetupUrl.includes('linkedin.com');
+const isExternalUrl = !isMeetupUrl && !isLinkedInUrl;
+
+// Default image to use if we can't fetch one
+const defaultImage = fallbackImage;
+
+// For different URL types, use platform-specific default images
+let imageUrl = defaultImage;
+if (isLinkedInUrl) {
+  imageUrl = '/images/linkedin-default.jpg';
+} else if (isExternalUrl) {
+  imageUrl = '/images/external-default.jpg';
+}
+---
+
+<div class="meetup-container">
+  <div class="url-image" data-url={meetupUrl}>
+    <img 
+      src={imageUrl} 
+      alt={title} 
+      class="cover-image loading"
+      loading="lazy"
+    />
+    <noscript>
+      <img src={imageUrl} alt={title} class="cover-image" />
+    </noscript>
+  </div>
+  {showMetadata && (
+    <div class="url-metadata">
+      <h3 class="og-title"><a href={meetupUrl} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+      <div class="og-description"></div>
+    </div>
+  )}
+</div>
+
+<script>
+  // Function to fetch metadata
+  async function fetchUrlMetadata(url: string): Promise<{imageUrl: string, title?: string, description?: string} | null> {
+    try {
+      const response = await fetch(`/api/meetup-image.json?url=${encodeURIComponent(url)}`);
+      if (!response.ok) throw new Error('Failed to fetch metadata');
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching metadata:', error);
+      return null;
+    }
+  }
+
+  // Find all URL image containers and load their images and metadata
+  document.addEventListener('DOMContentLoaded', () => {
+    const urlImages = document.querySelectorAll<HTMLElement>('.url-image');
+    
+    urlImages.forEach(async (container) => {
+      const url = container.dataset.url;
+      const img = container.querySelector('img');
+      
+      if (url && img) {
+        const metadata = await fetchUrlMetadata(url);
+        if (metadata) {
+          // Update the image
+          if (metadata.imageUrl) {
+            img.src = metadata.imageUrl;
+            img.classList.remove('loading');
+          }
+          
+          // Update metadata if available
+          const parentContainer = container.closest('.meetup-container');
+          if (parentContainer) {
+            const titleEl = parentContainer.querySelector('.og-title a');
+            const descEl = parentContainer.querySelector('.og-description');
+            
+            if (titleEl && metadata.title) {
+              titleEl.textContent = metadata.title;
+            }
+            
+            if (descEl && metadata.description) {
+              descEl.textContent = metadata.description;
+            }
+          }
+        }
+      }
+    });
+  });
+</script>
+
+<style>
+  .meetup-container {
+    width: 100%;
+  }
+  
+  .url-image {
+    width: 100%;
+    position: relative;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    max-height: 150px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .cover-image.loading {
+    opacity: 0.7;
+    filter: blur(2px);
+  }
+  
+  .url-metadata {
+    margin-top: 0.5rem;
+  }
+  
+  .og-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+  }
+  
+  .og-title a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .og-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .og-description {
+    font-size: 0.8rem;
+    color: #666;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style> 

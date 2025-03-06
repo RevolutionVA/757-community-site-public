@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<div class="section-divider">
+  <h2>{title}</h2>
+  <div class="divider-line"></div>
+</div>
+
+<style>
+  .section-divider {
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .divider-line {
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #0077cc, transparent);
+    width: 100%;
+  }
+</style> 
