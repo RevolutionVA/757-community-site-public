@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Meetups",
+  "description": "Schema for meetups data in the 757 Community site",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "url", "tags", "category"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the meetup"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "The URL to the meetup's website or page"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "An array of tags that describe the meetup"
+      },
+      "category": {
+        "type": "string",
+        "enum": ["Development", "Technology", "Design"],
+        "description": "The category of the meetup"
+      },
+      "coverImage": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to a fallback cover image for the meetup"
+      }
+    },
+    "additionalProperties": false
+  }
+} 

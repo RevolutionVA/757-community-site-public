@@ -46,3 +46,40 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## JSON Data Validation
+
+This project uses JSON Schema validation to ensure data integrity. The validation is performed in two ways:
+
+1. **GitHub Actions**: Automatically validates JSON files against their schemas on push and pull requests.
+2. **Local Validation**: You can validate JSON files locally using the following command:
+
+```bash
+npm run validate
+```
+
+### Setting up Git Hooks (Optional)
+
+To automatically validate JSON files before each commit, you can set up a pre-commit hook:
+
+1. Install husky:
+```bash
+npm install husky --save-dev
+npx husky install
+```
+
+2. Add the pre-commit hook:
+```bash
+npx husky add .husky/pre-commit "npm run validate"
+```
+
+This will prevent commits if the JSON files don't conform to their schemas.
+
+### JSON Schemas
+
+The JSON schemas are located in the `src/data/schemas` directory:
+
+- `conferences.schema.json`: Schema for conference data
+- `meetups.schema.json`: Schema for meetup data
+
+When adding or modifying data in the JSON files, make sure they conform to these schemas.

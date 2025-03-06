@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Conferences",
+  "description": "Schema for conferences data in the 757 Community site",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "url", "description", "date", "location", "tags"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the conference"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "The URL to the conference's website"
+      },
+      "description": {
+        "type": "string",
+        "description": "A brief description of the conference"
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "description": "The start date of the conference in YYYY-MM-DD format"
+      },
+      "endDate": {
+        "type": "string",
+        "format": "date",
+        "description": "The end date of the conference in YYYY-MM-DD format"
+      },
+      "location": {
+        "type": "string",
+        "description": "The location of the conference"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "An array of tags that describe the conference"
+      },
+      "coverImage": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to a fallback cover image for the conference"
+      }
+    },
+    "additionalProperties": false
+  }
+} 

@@ -39,7 +39,7 @@ if (isLinkedInUrl) {
   </div>
   {showMetadata && (
     <div class="url-metadata">
-      <h3 class="og-title"><a href={meetupUrl} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+      <h3 class="og-title"><a href={meetupUrl} target="_blank" rel="noopener noreferrer" data-original-title={title}>{title}</a></h3>
       <div class="og-description"></div>
     </div>
   )}
@@ -68,6 +68,7 @@ if (isLinkedInUrl) {
       const img = container.querySelector('img');
       
       if (url && img) {
+        const isLinkedInUrl = url.includes('linkedin.com');
         const metadata = await fetchUrlMetadata(url);
         if (metadata) {
           // Update the image
@@ -79,11 +80,17 @@ if (isLinkedInUrl) {
           // Update metadata if available
           const parentContainer = container.closest('.meetup-container');
           if (parentContainer) {
-            const titleEl = parentContainer.querySelector('.og-title a');
+            const titleEl = parentContainer.querySelector('.og-title a') as HTMLAnchorElement;
             const descEl = parentContainer.querySelector('.og-description');
             
+            // For LinkedIn URLs, we keep the original title
             if (titleEl && metadata.title) {
-              titleEl.textContent = metadata.title;
+              if (!isLinkedInUrl) {
+                titleEl.textContent = metadata.title;
+              } else if (titleEl.dataset.originalTitle) {
+                // For LinkedIn URLs, restore the original title from the data attribute
+                titleEl.textContent = titleEl.dataset.originalTitle;
+              }
             }
             
             if (descEl && metadata.description) {

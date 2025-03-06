@@ -29,21 +29,6 @@ const onlineCommunities = [
     name: "757dev - Discord",
     url: "https://discord.gg/757dev",
     description: "A Discord community for developers in the 757 area"
-  },
-  {
-    name: "757 Digital Builders",
-    url: "https://www.meetup.com/digital-builders-757/",
-    description: "A community for digital builders in the 757 area"
-  },
-  {
-    name: "UX UI • Hampton Roads, Virginia",
-    url: "https://www.meetup.com/ux-ui-hampton-roads-virginia/",
-    description: "A community for UX/UI designers in Hampton Roads"
-  },
-  {
-    name: "757 AI & No-code Creators",
-    url: "https://www.meetup.com/757-ai-no-code-creators/",
-    description: "A community for AI and no-code enthusiasts"
   }
 ];
 ---
@@ -58,9 +43,9 @@ const onlineCommunities = [
 
   <div class="container">
     <section class="section">
-      <SectionDivider title="In-person" />
+      <SectionDivider title="Online" />
       <div class="grid">
-        {inPersonCommunities.map(community => (
+        {onlineCommunities.map(community => (
           <Card title={community.name} href={community.url}>
             <p>{community.description}</p>
           </Card>
@@ -69,9 +54,9 @@ const onlineCommunities = [
     </section>
 
     <section class="section">
-      <SectionDivider title="Online" />
+      <SectionDivider title="In-person" />
       <div class="grid">
-        {onlineCommunities.map(community => (
+        {inPersonCommunities.map(community => (
           <Card title={community.name} href={community.url}>
             <p>{community.description}</p>
           </Card>
@@ -96,11 +81,6 @@ const onlineCommunities = [
           title="Learning" 
           href="/learning" 
           image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Hackathons" 
-          href="/hackathons" 
-          image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
         />
         <FeatureCard 
           title="Work" 

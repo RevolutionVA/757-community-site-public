@@ -43,7 +43,14 @@ import Card from '../components/Card.astro';
         <h2>Organize an Event</h2>
         <p>
           If you see a gap in the community, consider organizing your own event. It could be a small workshop, 
-          a hackathon, or even a new regular meetup group. The community will support you!
+          a conference, or even a new regular meetup group. The community will support you!
+        </p>
+        
+        <p>
+          Not sure if there's enough interest in your topic? Consider reaching out to 
+          <a href="https://www.meetup.com/757dev/" target="_blank" rel="noopener noreferrer">757 Developers on Meetup</a> 
+          to host a session first. It's a great way to test your topic and gauge interest before committing to starting 
+          your own meetup group.
         </p>
       </div>
 
@@ -89,6 +96,10 @@ import Card from '../components/Card.astro';
   }
 
   .content-box p {
+    margin-bottom: 1rem;
+  }
+  
+  .content-box p:last-child {
     margin-bottom: 0;
   }
 </style> 

@@ -39,7 +39,7 @@ if (isLinkedInUrl) {
   </div>
   {showMetadata && (
     <div class="url-metadata">
-      <h3 class="og-title"><a href={url} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+      <h3 class="og-title"><a href={url} target="_blank" rel="noopener noreferrer" data-original-title={title}>{title}</a></h3>
       <div class="og-description"></div>
     </div>
   )}
@@ -50,12 +50,40 @@ if (isLinkedInUrl) {
   async function fetchUrlMetadata(url: string): Promise<{imageUrl: string, title?: string, description?: string} | null> {
     try {
       const response = await fetch(`/api/meetup-image.json?url=${encodeURIComponent(url)}`);
-      if (!response.ok) throw new Error('Failed to fetch metadata');
+      
+      // Even if we get a non-200 response, try to parse the JSON as our API now returns useful fallbacks with 200
       const data = await response.json();
-      return data;
+      
+      // If we have data with at least an imageUrl, return it
+      if (data && data.imageUrl) {
+        return data;
+      }
+      
+      // If we don't have useful data, create a fallback
+      return {
+        imageUrl: '/images/external-default.jpg',
+        title: new URL(url).hostname.replace('www.', ''),
+        description: "Click to visit this website and learn more."
+      };
     } catch (error) {
       console.error('Error fetching metadata:', error);
-      return null;
+      
+      // Create a fallback with domain name as title
+      try {
+        const domain = new URL(url).hostname.replace('www.', '');
+        return {
+          imageUrl: '/images/external-default.jpg',
+          title: domain,
+          description: "Click to visit this website and learn more."
+        };
+      } catch (e) {
+        // Last resort fallback
+        return {
+          imageUrl: '/images/external-default.jpg',
+          title: "External Link",
+          description: "Click to visit this website and learn more."
+        };
+      }
     }
   }
 
@@ -68,6 +96,7 @@ if (isLinkedInUrl) {
       const img = container.querySelector('img');
       
       if (url && img) {
+        const isLinkedInUrl = url.includes('linkedin.com');
         const metadata = await fetchUrlMetadata(url);
         if (metadata) {
           // Update the image
@@ -79,11 +108,17 @@ if (isLinkedInUrl) {
           // Update metadata if available
           const parentContainer = container.closest('.url-container');
           if (parentContainer) {
-            const titleEl = parentContainer.querySelector('.og-title a');
+            const titleEl = parentContainer.querySelector('.og-title a') as HTMLAnchorElement;
             const descEl = parentContainer.querySelector('.og-description');
             
+            // For LinkedIn URLs, we keep the original title
             if (titleEl && metadata.title) {
-              titleEl.textContent = metadata.title;
+              if (!isLinkedInUrl) {
+                titleEl.textContent = metadata.title;
+              } else if (titleEl.dataset.originalTitle) {
+                // For LinkedIn URLs, restore the original title from the data attribute
+                titleEl.textContent = titleEl.dataset.originalTitle;
+              }
             }
             
             if (descEl && metadata.description) {

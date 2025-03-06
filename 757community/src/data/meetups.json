@@ -42,12 +42,6 @@
     "category": "Development"
   },
   {
-    "name": "Digital Builders 757",
-    "url": "https://www.meetup.com/digital-builders-757/",
-    "tags": ["General"],
-    "category": "Development"
-  },
-  {
     "name": "WordPress Hampton Roads",
     "url": "https://www.meetup.com/WordPresshr/",
     "tags": ["WordPress", "Web development"],
@@ -121,7 +115,7 @@
     "category": "Technology"
   },
   {
-    "name": "IxDA Hampton Roads",
+    "name": "IxDA Hampton Roads (UX/UI Research & Design)",
     "url": "https://www.linkedin.com/company/ixdahr/",
     "tags": ["UX", "UI"],
     "category": "Design",
@@ -134,7 +128,7 @@
     "category": "Design"
   },
   {
-    "name": "UX UI • Hampton Roads, Virginia",
+    "name": "UX/UI • Hampton Roads, Virginia",
     "url": "https://www.meetup.com/ux-ui-hampton-roads-virginia/",
     "tags": ["UX", "UI"],
     "category": "Design"
