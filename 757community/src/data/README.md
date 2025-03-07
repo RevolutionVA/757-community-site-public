@@ -115,6 +115,56 @@ This dynamic categorization ensures that the website always shows the most relev
 
 After adding or updating a conference, the changes will be reflected on the website after the next build.
 
+## Calendar Events
+
+The `calendar-events.json` file contains upcoming tech events in the Hampton Roads area. This file is automatically updated every 3 hours by a GitHub Action that fetches events from various sources, including Meetup.com RSS feeds.
+
+### Adding Events
+
+There are two ways to add events to the calendar:
+
+1. **Automatic (for Meetup groups)**: If your event is hosted on Meetup.com, you can add your group's RSS feed to the `meetup-feeds.json` file. The GitHub Action will automatically fetch events from your feed.
+
+2. **Manual**: You can manually add events to the `calendar-events.json` file by creating a pull request. This is useful for events that are not hosted on Meetup.com.
+
+### Event Format
+
+Each event in the `calendar-events.json` file should have the following format:
+
+```json
+{
+  "title": "Event Title",
+  "link": "https://example.com/event",
+  "date": "2023-06-15T18:30:00.000Z",
+  "description": "A brief description of the event.",
+  "source": "meetup|eventbrite|website|other",
+  "group": "Organizing Group Name"
+}
+```
+
+- `title`: The title of the event
+- `link`: A URL to the event page
+- `date`: The date and time of the event in ISO 8601 format
+- `description`: A brief description of the event
+- `source`: The source of the event (e.g., "meetup", "eventbrite", "website", "other")
+- `group`: The name of the organizing group
+
+### Adding a Meetup Group
+
+To add a Meetup group to the automatic updates, add an entry to the `meetup-feeds.json` file with the following format:
+
+```json
+{
+  "name": "Group Name",
+  "rssFeed": "https://www.meetup.com/group-url-name/events/rss/"
+}
+```
+
+- `name`: The name of the group
+- `rssFeed`: The URL to the group's RSS feed for events
+
+After adding your group, create a pull request. Once merged, the GitHub Action will automatically fetch events from your group's feed.
+
 ## Contributing
 
 1. Fork the repository

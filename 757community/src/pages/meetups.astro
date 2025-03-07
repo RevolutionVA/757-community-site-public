@@ -32,6 +32,9 @@ const hideTitle = true;
           meetups data file
         </a>.
       </p>
+      <p class="calendar-link">
+        <a href="/calendar" class="btn btn-primary">View Upcoming Events Calendar</a>
+      </p>
     </div>
   </div>
 
@@ -103,13 +106,6 @@ const hideTitle = true;
     </section>
 
     <section class="section">
-      <SectionDivider title="Calendar" />
-      <div class="coming-soon">
-        <p>Coming soon</p>
-      </div>
-    </section>
-
-    <section class="section">
       <SectionDivider title="🏄🏽‍♀️ Keep surfing" />
       <div class="grid-3">
         <FeatureCard 
@@ -118,9 +114,9 @@ const hideTitle = true;
           image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
         />
         <FeatureCard 
-          title="Learning" 
-          href="/learning" 
-          image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+          title="Calendar" 
+          href="/calendar" 
+          image="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
         />
         <FeatureCard 
           title="Communities" 
@@ -128,14 +124,14 @@ const hideTitle = true;
           image="/pexels-karolina-grabowska-4476606.jpg" 
         />
         <FeatureCard 
+          title="Learning" 
+          href="/learning" 
+          image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        />
+        <FeatureCard 
           title="Work" 
           href="/work" 
           image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Conferences" 
-          href="/conferences" 
-          image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
         />
       </div>
     </section>
@@ -158,16 +154,6 @@ const hideTitle = true;
     font-size: 0.875rem;
   }
 
-  .coming-soon {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-size: 1.25rem;
-    color: #6c757d;
-  }
-
   .data-note {
     font-size: 0.9rem;
     margin-top: 1rem;
@@ -181,5 +167,37 @@ const hideTitle = true;
 
   .data-note a:hover {
     text-decoration: none;
+  }
+
+  .calendar-link {
+    margin-top: 1.5rem;
+  }
+
+  .btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
   }
 </style> 
