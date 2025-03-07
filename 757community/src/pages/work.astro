@@ -1,0 +1,125 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import Card from '../components/Card.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import KeepSurfing from '../components/KeepSurfing.astro';
+
+// In a real implementation, this data would come from a database or API
+// For this example, we're hardcoding some sample data
+const companies = [
+  {
+    name: "Marathon Consulting",
+    location: "Virginia Beach",
+    description: "IT consulting firm specializing in custom software development",
+    url: "https://www.marathonus.com/"
+  },
+  {
+    name: "Dominion Enterprises",
+    location: "Norfolk",
+    description: "Media and information services company",
+    url: "https://www.dominionenterprises.com/"
+  },
+  {
+    name: "STIHL Inc.",
+    location: "Virginia Beach",
+    description: "Manufacturer of outdoor power equipment",
+    url: "https://www.stihlusa.com/"
+  },
+  {
+    name: "LifeNet Health",
+    location: "Virginia Beach",
+    description: "Non-profit global leader in regenerative medicine",
+    url: "https://www.lifenethealth.org/"
+  }
+];
+
+const jobBoards = [
+  {
+    name: "757 Jobs",
+    description: "Local job board for Hampton Roads tech jobs",
+    url: "#"
+  },
+  {
+    name: "LinkedIn - Hampton Roads",
+    description: "LinkedIn jobs filtered for Hampton Roads",
+    url: "https://www.linkedin.com/jobs/"
+  },
+  {
+    name: "Indeed - Hampton Roads",
+    description: "Indeed jobs filtered for Hampton Roads",
+    url: "https://www.indeed.com/"
+  }
+];
+---
+
+<MainLayout title="Work">
+  <div class="hero">
+    <div class="container">
+      <h1>Work</h1>
+      <p>Discover tech job opportunities and companies in the Hampton Roads area.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="section">
+      <SectionDivider title="Notable Tech Companies" />
+      <div class="grid">
+        {companies.map(company => (
+          <Card title={company.name} href={company.url}>
+            <p class="location">{company.location}</p>
+            <p>{company.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Job Boards" />
+      <div class="grid">
+        {jobBoards.map(board => (
+          <Card title={board.name} href={board.url}>
+            <p>{board.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Remote Work" />
+      <div class="content-box">
+        <h3>Working Remotely from Hampton Roads</h3>
+        <p>
+          Hampton Roads is a great place to work remotely! With a lower cost of living than major tech hubs, 
+          beautiful beaches, and a growing tech community, it's an ideal location for remote workers.
+        </p>
+        <p>
+          Check out local coworking spaces like <a href="#">757 Coworking</a> and <a href="#">Percolator</a> 
+          to connect with other remote workers in the area.
+        </p>
+      </div>
+    </section>
+
+    <KeepSurfing />
+  </div>
+</MainLayout>
+
+<style>
+  .location {
+    color: #0077cc;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .content-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+
+  .content-box h3 {
+    color: #0077cc;
+    margin-top: 0;
+  }
+</style> 

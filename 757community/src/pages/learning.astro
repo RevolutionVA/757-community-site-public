@@ -1,0 +1,60 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import Card from '../components/Card.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import KeepSurfing from '../components/KeepSurfing.astro';
+
+// In a real implementation, this data would come from a database or API
+// For this example, we're hardcoding some sample data
+const educationalInstitutions = [
+  {
+    name: "Old Dominion University",
+    url: "https://www.odu.edu/",
+    description: "Public research university in Norfolk"
+  },
+  {
+    name: "Tidewater Community College",
+    url: "https://www.tcc.edu/",
+    description: "Community college with multiple campuses"
+  },
+  {
+    name: "ECPI",
+    url: "https://www.ecpi.edu/",
+    description: "Private university focused on technology"
+  },
+  {
+    name: "Hampton University",
+    url: "https://www.hamptonu.edu/",
+    description: "Private university in Hampton"
+  }
+];
+
+// Removing the online learning resources array
+---
+
+<MainLayout title="Learning">
+  <div class="hero">
+    <div class="container">
+      <h1>Learning</h1>
+      <p>Discover educational resources and institutions in the Hampton Roads area to help you grow your tech skills.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="section">
+      <SectionDivider title="Educational Institutions" />
+      <div class="grid">
+        {educationalInstitutions.map(institution => (
+          <Card title={institution.name} href={institution.url}>
+            <p>{institution.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    {/* Removing the Online Learning Resources section */}
+
+    <KeepSurfing />
+  </div>
+</MainLayout> 

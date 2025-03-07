@@ -1,0 +1,43 @@
+---
+interface Props {
+  value: string;
+  label: string;
+  emoji?: string;
+}
+
+const { value, label, emoji } = Astro.props;
+---
+
+<div class="stat-card">
+  {emoji && <div class="emoji">{emoji}</div>}
+  <div class="value">{value}</div>
+  <div class="label">{label}</div>
+</div>
+
+<style>
+  .stat-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+
+  .emoji {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0077cc;
+  }
+
+  .label {
+    font-size: 1rem;
+    color: #666;
+  }
+</style> 

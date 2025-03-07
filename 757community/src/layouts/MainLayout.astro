@@ -1,0 +1,51 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Technology community in Hampton Roads, Virginia" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} | 757 Tech Community</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="logo">757tech</a>
+        <nav>
+          <ul>
+            <li><a href="/meetups">Meetups</a></li>
+            <li><a href="/calendar">Calendar</a></li>
+            <li><a href="/conferences">Conferences</a></li>
+            <li><a href="/learning">Learning</a></li>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/get-involved">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          ✨ This site is supported by the great folks at <a href="https://revolutionva.org">RevolutionVA</a> 
+          (a 501c3 non-profit supporting developer education in Southeast Virginia) and was built by 
+          <a href="https://www.linkedin.com/in/tedjpatterson/">Ted Patterson</a> & 
+          <a href="https://www.linkedin.com/in/1kevgriff">Kevin Griffin</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html> 

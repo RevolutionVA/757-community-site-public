@@ -1,0 +1,204 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import Card from '../components/Card.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import KeepSurfing from '../components/KeepSurfing.astro';
+
+// Import the conferences data from the JSON file
+import conferencesData from '../data/conferences.json';
+
+// Define the Conference interface
+interface Conference {
+  name: string;
+  url: string;
+  description: string;
+  date: string;
+  endDate?: string;
+  location: string;
+  tags: string[];
+  coverImage?: string;
+}
+
+// Get the current date
+const currentDate = new Date();
+
+// Sort conferences into upcoming and past based on their dates
+const upcomingConferences = (conferencesData as Conference[])
+  .filter(conference => new Date(conference.date) > currentDate)
+  .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+const pastConferences = (conferencesData as Conference[])
+  .filter(conference => new Date(conference.date) <= currentDate)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()); // Sort past conferences in reverse chronological order
+
+// Format date function
+function formatDate(dateString: string): string {
+  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Date(dateString).toLocaleDateString('en-US', options);
+}
+
+// Default cover image for conferences without one
+const defaultCoverImage = "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb";
+
+// Enable metadata display
+const showMetadata = true;
+// Hide the original title to avoid duplication with OG title
+const hideTitle = true;
+---
+
+<MainLayout title="Conferences">
+  <div class="hero">
+    <div class="container">
+      <h1>Conferences</h1>
+      <p>Discover tech conferences in the Hampton Roads area to expand your knowledge and network.</p>
+      <p class="data-note">
+        Want to add or update a conference? Check out our 
+        <a href="https://github.com/your-org/757community/blob/main/src/data/conferences.json" target="_blank" rel="noopener noreferrer">
+          conferences data file
+        </a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="section">
+      <SectionDivider title="Upcoming Conferences" />
+      {upcomingConferences.length > 0 ? (
+        <div class="grid">
+          {upcomingConferences.map(conference => (
+            <Card 
+              title={conference.name} 
+              href={conference.url}
+              coverImage={conference.coverImage || defaultCoverImage}
+              useDynamicImage={!conference.coverImage}
+              showMetadata={!conference.coverImage && showMetadata}
+              hideTitle={!conference.coverImage && hideTitle}
+            >
+              <p class="date">{formatDate(conference.date)}{conference.endDate && conference.date !== conference.endDate ? ` - ${formatDate(conference.endDate)}` : ''}</p>
+              <p class="location">{conference.location}</p>
+              <p>{conference.description}</p>
+              <div class="tags">
+                {conference.tags.map(tag => (
+                  <span class="tag">{tag}</span>
+                ))}
+              </div>
+            </Card>
+          ))}
+        </div>
+      ) : (
+        <div class="content-box">
+          <p class="none-scheduled">None currently scheduled</p>
+          <p>
+            Check back later for information about upcoming conferences in the Hampton Roads area.
+            Want to be the first to know? Join our <a href="https://757dev.org">community Slack</a>.
+          </p>
+        </div>
+      )}
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Past Conferences" />
+      <div class="grid">
+        {pastConferences.map(conference => (
+          <Card 
+            title={conference.name} 
+            href={conference.url}
+            coverImage={conference.coverImage || defaultCoverImage}
+            useDynamicImage={!conference.coverImage}
+            showMetadata={!conference.coverImage && showMetadata}
+            hideTitle={!conference.coverImage && hideTitle}
+          >
+            <p class="date">{formatDate(conference.date)}{conference.endDate && conference.date !== conference.endDate ? ` - ${formatDate(conference.endDate)}` : ''}</p>
+            <p class="location">{conference.location}</p>
+            <p>{conference.description}</p>
+            <div class="tags">
+              {conference.tags.map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Want to organize a conference?" />
+      <div class="content-box">
+        <p>
+          Interested in organizing a tech conference in Hampton Roads? The community is here to support you! 
+          Reach out to <a href="https://revolutionva.org">RevolutionVA</a> for guidance and resources.
+        </p>
+        <a href="/get-involved" class="cta-button">Get involved</a>
+      </div>
+    </section>
+
+    <KeepSurfing />
+  </div>
+</MainLayout>
+
+<style>
+  .date {
+    color: #0077cc;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .location {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+
+  .content-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .none-scheduled {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #0077cc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-top: 1rem;
+  }
+
+  .cta-button:hover {
+    background-color: #005fa3;
+    text-decoration: none;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+  }
+
+  .data-note {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 1rem;
+  }
+</style> 

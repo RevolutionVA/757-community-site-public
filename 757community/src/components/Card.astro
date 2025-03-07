@@ -1,0 +1,83 @@
+---
+import UrlImage from './UrlImage.astro';
+
+interface Props {
+  title: string;
+  href: string;
+  image?: string;
+  coverImage?: string;
+  useDynamicImage?: boolean;
+  showMetadata?: boolean;
+  hideTitle?: boolean;
+}
+
+const { 
+  title, 
+  href, 
+  image, 
+  coverImage, 
+  useDynamicImage = false,
+  showMetadata = false,
+  hideTitle = false
+} = Astro.props;
+
+const displayImage = coverImage || image;
+// Hide the title if we're showing metadata for any URL
+const shouldHideTitle = hideTitle || (showMetadata && useDynamicImage);
+---
+
+<div class="card">
+  {useDynamicImage ? (
+    <UrlImage 
+      url={href} 
+      title={title} 
+      fallbackImage={displayImage}
+      showMetadata={showMetadata}
+    />
+  ) : displayImage && (
+    <img src={displayImage} alt={title} />
+  )}
+  {!shouldHideTitle && (
+    <h3><a href={href} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+  )}
+  <slot />
+</div>
+
+<style>
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    max-height: 150px;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .card a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
+</style> 

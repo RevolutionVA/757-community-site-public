@@ -1,0 +1,62 @@
+---
+interface Props {
+  title: string;
+  href: string;
+  image: string;
+}
+
+const { title, href, image } = Astro.props;
+---
+
+<div class="feature-card">
+  <a href={href} target="_blank" rel="noopener noreferrer">
+    <div class="image-container">
+      <img src={image} alt={title} />
+    </div>
+    <h3>{title}</h3>
+  </a>
+</div>
+
+<style>
+  .feature-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .image-container {
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .feature-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .feature-card:hover img {
+    transform: scale(1.05);
+  }
+
+  .feature-card h3 {
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    color: #333;
+  }
+
+  .feature-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+</style> 
