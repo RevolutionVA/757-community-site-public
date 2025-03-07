@@ -1,0 +1,121 @@
+name: Process Event Submission
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process-event:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Get issue data
+        id: issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+            
+            // Parse the issue body to extract event details
+            const body = issue.data.body;
+            
+            // Extract event details using regex
+            const eventName = body.match(/### Event Name\s*\n\s*(.*)/)?.[1] || '';
+            const venue = body.match(/### Venue\s*\n\s*(.*)/)?.[1] || '';
+            const address = body.match(/### Address\s*\n\s*(.*)/)?.[1] || '';
+            const date = body.match(/### Event Date\s*\n\s*(.*)/)?.[1] || '';
+            const url = body.match(/### Event URL\s*\n\s*(.*)/)?.[1] || '';
+            const description = body.match(/### Description\s*\n\s*([\s\S]*?)(?=###|$)/)?.[1]?.trim() || '';
+            const eventType = body.match(/### Event Type\s*\n\s*(.*)/)?.[1] || '';
+            
+            // Format date to ISO string
+            let formattedDate;
+            try {
+              formattedDate = new Date(date).toISOString();
+            } catch (e) {
+              formattedDate = new Date().toISOString(); // Fallback to current date
+            }
+            
+            // Create event object
+            const event = {
+              title: eventName,
+              link: url,
+              date: formattedDate,
+              description: description,
+              source: "community-submission",
+              venue: venue,
+              address: address,
+              type: eventType.toLowerCase()
+            };
+            
+            return {
+              event: event,
+              issueTitle: issue.data.title
+            };
+      
+      - name: Add event to calendar
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Get the event data from previous step
+            const eventData = JSON.parse('${{ steps.issue.outputs.result }}');
+            const event = eventData.event;
+            
+            // Read the current calendar events
+            const calendarPath = path.join(process.env.GITHUB_WORKSPACE, 'src/data/calendar-events.json');
+            const calendarEvents = JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
+            
+            // Add the new event
+            calendarEvents.push(event);
+            
+            // Sort events by date
+            calendarEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+            
+            // Write the updated calendar back to the file
+            fs.writeFileSync(calendarPath, JSON.stringify(calendarEvents, null, 2));
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add src/data/calendar-events.json
+          git commit -m "Add event from issue #${{ github.event.issue.number }}: ${{ fromJSON(steps.issue.outputs.result).issueTitle }}"
+          git push
+      
+      - name: Close issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '✅ This event has been approved and added to the calendar! The issue will now be closed.'
+            });
+            
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            }); 

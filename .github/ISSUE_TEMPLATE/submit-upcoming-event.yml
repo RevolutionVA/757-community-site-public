@@ -1,0 +1,91 @@
+name: Submit Upcoming Event
+description: Submit a new event to be added to the 757 Tech Community calendar
+title: "[Event]: "
+labels: ["event", "needs-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for submitting an event!
+        Please fill out the information below to help us add your event to the 757 Tech Community calendar.
+        
+        Once reviewed and approved, your event will be automatically added to the site.
+
+  - type: input
+    id: event-name
+    attributes:
+      label: Event Name
+      description: The full name of the event
+      placeholder: "e.g., Hampton Roads .NET User Group Monthly Meeting"
+    validations:
+      required: true
+
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: The name of the venue where the event will be held
+      placeholder: "e.g., 757 Collab, DOMA Technologies, etc."
+    validations:
+      required: true
+
+  - type: input
+    id: address
+    attributes:
+      label: Address
+      description: The full address including City, State, and Zip Code
+      placeholder: "e.g., 585 London Bridge Rd, Virginia Beach, VA 23454"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Event Date
+      description: The date and time of the event
+      placeholder: "YYYY-MM-DD HH:MM AM/PM"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Event URL
+      description: The URL where people can find more information or register
+      placeholder: "https://www.meetup.com/group-name/events/123456789/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A detailed description of the event
+      placeholder: "Provide details about the event, speakers, topics, etc."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: event-type
+    attributes:
+      label: Event Type
+      description: What type of event is this?
+      options:
+        - Meetup
+        - Conference
+        - Workshop
+        - Hackathon
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this event, you agree to follow our community guidelines
+      options:
+        - label: I agree to follow the 757 Tech Community Code of Conduct
+          required: true 
