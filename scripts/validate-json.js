@@ -5,11 +5,16 @@
  * Run it with: node scripts/validate-json.js
  */
 
-const Ajv = require('ajv');
-const addFormats = require('ajv-formats');
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
+import Ajv from 'ajv';
+import addFormats from 'ajv-formats';
+import fs from 'fs';
+import path from 'path';
+import chalk from 'chalk';
+import { fileURLToPath } from 'url';
+
+// Get current file's directory
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Create Ajv instance
 const ajv = new Ajv({ allErrors: true });

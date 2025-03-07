@@ -44,8 +44,7 @@
       },
       "coverImage": {
         "type": "string",
-        "format": "uri",
-        "description": "URL to a fallback cover image for the conference"
+        "description": "Path to a fallback cover image for the conference (can be a relative path or full URL)"
       }
     },
     "additionalProperties": false
