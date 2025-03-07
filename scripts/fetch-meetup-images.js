@@ -175,47 +175,17 @@ async function processMeetups() {
     if (isLinkedInUrl) {
       console.log(chalk.yellow(`Processing LinkedIn meetup: ${name}`));
       
-      // Always use the coverImage from meetups.json for LinkedIn URLs
-      if (meetup.coverImage) {
-        console.log(chalk.blue(`Using coverImage from meetups.json for LinkedIn meetup: ${name}`));
-        metadata[url] = {
-          imageUrl: meetup.coverImage,
-          title: name,
-          description: `${name} - A professional group on LinkedIn. Click to learn more.`
-        };
-        successCount++;
-        continue;
-      }
-      
-      // Otherwise, create a placeholder image
+      // Always use the LinkedIn default image for LinkedIn meetups
       const filename = getSafeFilename(url);
       const imagePath = path.join(meetupsImagesDir, filename);
-      const relativeImagePath = `/images/meetups/${filename}`;
+      const relativeImagePath = `/images/linkedin-default.jpg`;
       
-      // Copy the LinkedIn default image to the meetups directory with the meetup-specific filename
-      try {
-        fs.copyFileSync(
-          path.join(publicDir, 'images/linkedin-default.jpg'),
-          imagePath
-        );
-        console.log(chalk.green(`Created placeholder image for LinkedIn meetup: ${name}`));
-        
-        metadata[url] = {
-          imageUrl: relativeImagePath,
-          title: name,
-          description: `${name} - A professional group on LinkedIn. Click to learn more.`
-        };
-        successCount++;
-      } catch (error) {
-        console.error(chalk.red(`Error creating placeholder image for ${name}:`), error.message);
-        metadata[url] = {
-          imageUrl: '/images/linkedin-default.jpg',
-          title: name,
-          description: `${name} - A professional group on LinkedIn. Click to learn more.`
-        };
-        failureCount++;
-      }
-      
+      metadata[url] = {
+        imageUrl: relativeImagePath,
+        title: name,
+        description: `${name} - A professional group on LinkedIn. Click to learn more.`
+      };
+      successCount++;
       continue;
     }
     

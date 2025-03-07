@@ -55,7 +55,7 @@
     "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
   },
   "https://www.linkedin.com/company/757ainocodecreators/": {
-    "imageUrl": "https://media.licdn.com/dms/image/D560BAQHYxjzwkwVLQA/company-logo_200_200/0/1698764735526?e=1717027200&v=beta&t=Ij9-VYe_nVkiMn3nYqf9L_5zYGFYqSPIrHLOc_Xq_Oc",
+    "imageUrl": "/images/linkedin-default.jpg",
     "title": "757 AI & No-code Creators",
     "description": "757 AI & No-code Creators - A professional group on LinkedIn. Click to learn more."
   },
@@ -95,7 +95,7 @@
     "description": "We are the official ISSA Meetup group for computer security professionals in Hampton Roads, Virginia.  Our members are from both sides of the James River who are interested in securing their digital information against the growing threats of hackers, malware, and insider threats.  ISSA is the premie"
   },
   "https://www.linkedin.com/company/ixdahr/": {
-    "imageUrl": "https://media.licdn.com/dms/image/C4E0BAQGfQRqvgWnUVA/company-logo_200_200/0/1630633913001?e=1717027200&v=beta&t=Ij9-VYe_nVkiMn3nYqf9L_5zYGFYqSPIrHLOc_Xq_Oc",
+    "imageUrl": "/images/linkedin-default.jpg",
     "title": "IxDA Hampton Roads (UX/UI Research & Design)",
     "description": "IxDA Hampton Roads (UX/UI Research & Design) - A professional group on LinkedIn. Click to learn more."
   },

@@ -18,9 +18,10 @@ const defaultImage = fallbackImage;
 
 // For different URL types, use platform-specific default images
 let imageUrl = defaultImage;
-// Don't override LinkedIn images with default images
-// Instead, let the metadata API provide the correct image
-if (isExternalUrl && !isLinkedInUrl) {
+// Always use LinkedIn default image for LinkedIn URLs
+if (isLinkedInUrl) {
+  imageUrl = '/images/linkedin-default.jpg';
+} else if (isExternalUrl) {
   imageUrl = '/images/external-default.jpg';
 }
 ---
@@ -52,6 +53,12 @@ if (isExternalUrl && !isLinkedInUrl) {
       const response = await fetch(`/api/meetup-image.json?url=${encodeURIComponent(url)}`);
       if (!response.ok) throw new Error('Failed to fetch metadata');
       const data = await response.json();
+      
+      // For LinkedIn URLs, always use the LinkedIn default image
+      if (url.includes('linkedin.com')) {
+        data.imageUrl = '/images/linkedin-default.jpg';
+      }
+      
       return data;
     } catch (error) {
       console.error('Error fetching metadata:', error);

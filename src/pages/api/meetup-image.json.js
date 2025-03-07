@@ -27,6 +27,27 @@ export const GET = async ({ params, request }) => {
       });
     }
     
+    // Determine if this is a LinkedIn URL
+    const isLinkedInUrl = targetUrl.includes('linkedin.com');
+    
+    // For LinkedIn URLs, always use the LinkedIn default image
+    if (isLinkedInUrl) {
+      // Find the meetup in meetupsData to get the name
+      const linkedInMeetup = meetupsData.find(meetup => meetup.url === targetUrl);
+      const meetupName = linkedInMeetup ? linkedInMeetup.name : "LinkedIn Profile";
+      
+      return new Response(JSON.stringify({
+        imageUrl: '/images/linkedin-default.jpg',
+        title: meetupName,
+        description: `${meetupName} - A professional group on LinkedIn. Click to learn more.`
+      }), {
+        status: 200,
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+    }
+    
     // Check if we have pre-fetched metadata for this URL
     if (meetupMetadata[targetUrl]) {
       return new Response(JSON.stringify(meetupMetadata[targetUrl]), {
@@ -39,7 +60,6 @@ export const GET = async ({ params, request }) => {
     
     // Determine the type of URL for platform-specific handling
     const isMeetupUrl = targetUrl.includes('meetup.com');
-    const isLinkedInUrl = targetUrl.includes('linkedin.com');
     
     // Create static fallback metadata based on URL type
     const metadata = {
@@ -68,17 +88,6 @@ export const GET = async ({ params, request }) => {
       } catch (e) {
         console.error('Error extracting meetup name from URL:', e);
       }
-    } else if (isLinkedInUrl) {
-      // For LinkedIn URLs, try to find the coverImage in meetups.json
-      const linkedInMeetup = meetupsData.find(meetup => meetup.url === targetUrl);
-      if (linkedInMeetup && linkedInMeetup.coverImage) {
-        metadata.imageUrl = linkedInMeetup.coverImage;
-        metadata.title = linkedInMeetup.name;
-      } else {
-        metadata.imageUrl = '/images/linkedin-default.jpg';
-        metadata.title = "LinkedIn Profile";
-      }
-      metadata.description = "A professional profile or company on LinkedIn. Click to learn more.";
     }
     
     // Return the static metadata

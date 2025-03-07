@@ -30,20 +30,21 @@ let imageUrl = fallbackImage;
 let metadataTitle = title;
 let metadataDescription = '';
 
-if (typedMeetupMetadata[url]) {
-  // Use the pre-fetched metadata
+// For LinkedIn URLs, always use the LinkedIn default image
+if (isLinkedInUrl) {
+  imageUrl = '/images/linkedin-default.jpg';
+  if (typedMeetupMetadata[url]) {
+    metadataTitle = typedMeetupMetadata[url].title || title;
+    metadataDescription = typedMeetupMetadata[url].description || '';
+  }
+} else if (typedMeetupMetadata[url]) {
+  // Use the pre-fetched metadata for non-LinkedIn URLs
   imageUrl = typedMeetupMetadata[url].imageUrl;
   metadataTitle = typedMeetupMetadata[url].title || title;
   metadataDescription = typedMeetupMetadata[url].description || '';
-} else {
+} else if (isExternalUrl) {
   // Use platform-specific default images if no pre-fetched metadata
-  // Only use default LinkedIn image if we don't have metadata for this URL
-  if (isExternalUrl && !isLinkedInUrl) {
-    imageUrl = '/images/external-default.jpg';
-  } else if (isLinkedInUrl) {
-    // For LinkedIn URLs without metadata, use the LinkedIn default image
-    imageUrl = '/images/linkedin-default.jpg';
-  }
+  imageUrl = '/images/external-default.jpg';
 }
 ---
 
