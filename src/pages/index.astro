@@ -5,6 +5,7 @@ import StatCard from '../components/StatCard.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
 import KeepSurfing from '../components/KeepSurfing.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -22,6 +23,25 @@ import KeepSurfing from '../components/KeepSurfing.astro';
 	</div>
 
 	<div class="container">
+		<section class="section newsletter-section">
+			<SectionDivider title="Stay Connected" />
+			<div class="newsletter-container">
+				<div class="newsletter-content">
+					<h3>Join Our Mailing List</h3>
+					<p>Stay updated with the latest tech events, news, and opportunities in the 757 community. We'll keep you informed about:</p>
+					<ul>
+						<li>Upcoming meetups and conferences</li>
+						<li>Job opportunities in the tech sector</li>
+						<li>Community initiatives and projects</li>
+						<li>Learning resources and workshops</li>
+					</ul>
+				</div>
+				<div class="newsletter-form">
+					<NewsletterSignup />
+				</div>
+			</div>
+		</section>
+
 		<section class="section">
 			<SectionDivider title="About our region" />
 			
@@ -105,6 +125,54 @@ import KeepSurfing from '../components/KeepSurfing.astro';
 	.feature-content h3 {
 		margin-top: 0;
 		color: #0077cc;
+	}
+
+	.newsletter-section {
+		margin-bottom: 2rem;
+	}
+
+	.newsletter-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		background-color: #f5f5f5;
+		padding: 2rem;
+		border-radius: 12px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+		transition: all 0.3s ease;
+	}
+
+	.newsletter-content h3 {
+		margin-top: 0;
+		color: #0077cc;
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.newsletter-content p {
+		margin-bottom: 1rem;
+		line-height: 1.5;
+	}
+	
+	.newsletter-content ul {
+		padding-left: 1.5rem;
+		margin-bottom: 0;
+	}
+	
+	.newsletter-content li {
+		margin-bottom: 0.5rem;
+		line-height: 1.4;
+	}
+	
+	.newsletter-content li:last-child {
+		margin-bottom: 0;
+	}
+
+	@media (max-width: 768px) {
+		.newsletter-container {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
 	}
 
 	.get-involved {

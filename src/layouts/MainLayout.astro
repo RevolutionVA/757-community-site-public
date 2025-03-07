@@ -5,6 +5,7 @@ interface Props {
 }
 
 const { title, description = "Technology community in Hampton Roads, Virginia" } = Astro.props;
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 ---
 
 <!DOCTYPE html>
@@ -39,13 +40,69 @@ const { title, description = "Technology community in Hampton Roads, Virginia" }
 
     <footer>
       <div class="container">
-        <p>
-          ✨ This site is supported by the great folks at <a href="https://revolutionva.org">RevolutionVA</a> 
-          (a 501c3 non-profit supporting developer education in Southeast Virginia) and was built by 
-          <a href="https://www.linkedin.com/in/tedjpatterson/">Ted Patterson</a> & 
-          <a href="https://www.linkedin.com/in/1kevgriff">Kevin Griffin</a>
-        </p>
+        <div class="footer-content">
+          <div class="footer-newsletter">
+            <h3>Stay Connected</h3>
+            <p>Join our mailing list to receive updates about tech events and news in the 757 community.</p>
+            <NewsletterSignup />
+          </div>
+          
+          <div class="footer-info">
+            <p>
+              ✨ This site is supported by the great folks at <a href="https://revolutionva.org">RevolutionVA</a> 
+              (a 501c3 non-profit supporting developer education in Southeast Virginia) and was built by 
+              <a href="https://www.linkedin.com/in/tedjpatterson/">Ted Patterson</a> & 
+              <a href="https://www.linkedin.com/in/1kevgriff">Kevin Griffin</a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
+    
+    <style>
+      .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 2rem 0;
+      }
+      
+      .footer-newsletter h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+        color: #0077cc;
+      }
+      
+      .footer-newsletter p {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+      
+      .footer-info {
+        display: flex;
+        align-items: center;
+      }
+      
+      .footer-info p {
+        margin: 0;
+        line-height: 1.6;
+      }
+      
+      @media (max-width: 768px) {
+        .footer-content {
+          grid-template-columns: 1fr;
+          gap: 1.5rem;
+        }
+        
+        .footer-newsletter {
+          order: 1;
+        }
+        
+        .footer-info {
+          order: 2;
+        }
+      }
+    </style>
   </body>
 </html> 

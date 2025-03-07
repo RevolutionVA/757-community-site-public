@@ -1,0 +1,82 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+---
+
+<MainLayout title="Join Our Newsletter">
+  <div class="container">
+    <div class="newsletter-page">
+      <h1>Stay Connected with the 757 Tech Community</h1>
+      
+      <p class="lead">
+        Join our mailing list to receive updates about upcoming tech events, 
+        community news, job opportunities, and more in the Hampton Roads area.
+      </p>
+      
+      <div class="signup-container">
+        <NewsletterSignup />
+      </div>
+      
+      <div class="benefits">
+        <h2>Why Subscribe?</h2>
+        <ul>
+          <li>
+            <strong>Stay Informed:</strong> Get updates on local tech events, meetups, and conferences
+          </li>
+          <li>
+            <strong>Community News:</strong> Learn about what's happening in the 757 tech community
+          </li>
+          <li>
+            <strong>Opportunities:</strong> Discover job openings, speaking opportunities, and ways to get involved
+          </li>
+          <li>
+            <strong>Resources:</strong> Access to learning resources and community initiatives
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .newsletter-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0 4rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .signup-container {
+    margin-bottom: 3rem;
+  }
+  
+  .benefits {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .benefits h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .benefits ul {
+    padding-left: 1.5rem;
+  }
+  
+  .benefits li {
+    margin-bottom: 1rem;
+  }
+</style> 
