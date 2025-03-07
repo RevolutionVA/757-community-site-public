@@ -14,6 +14,12 @@ const technologyMeetups = meetupsData.filter(meetup => meetup.category === "Tech
 const designMeetups = meetupsData.filter(meetup => meetup.category === "Design");
 const cloudMeetups = meetupsData.filter(meetup => meetup.category === "Cloud");
 
+// Sort each category of meetups alphabetically by name
+const sortedDevelopmentMeetups = [...developmentMeetups].sort((a, b) => a.name.localeCompare(b.name));
+const sortedTechnologyMeetups = [...technologyMeetups].sort((a, b) => a.name.localeCompare(b.name));
+const sortedDesignMeetups = [...designMeetups].sort((a, b) => a.name.localeCompare(b.name));
+const sortedCloudMeetups = [...cloudMeetups].sort((a, b) => a.name.localeCompare(b.name));
+
 // Define the Meetup type
 interface Meetup {
   name: string;
@@ -82,7 +88,7 @@ const hideTitle = false;
     <section class="section">
       <SectionDivider title="Development" />
       <div class="grid">
-        {developmentMeetups.map(meetup => (
+        {sortedDevelopmentMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 
@@ -104,7 +110,7 @@ const hideTitle = false;
     <section class="section">
       <SectionDivider title="Cloud" />
       <div class="grid">
-        {cloudMeetups.map(meetup => (
+        {sortedCloudMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 
@@ -126,7 +132,7 @@ const hideTitle = false;
     <section class="section">
       <SectionDivider title="Design" />
       <div class="grid">
-        {designMeetups.map(meetup => (
+        {sortedDesignMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 
@@ -148,7 +154,7 @@ const hideTitle = false;
     <section class="section">
       <SectionDivider title="Technology" />
       <div class="grid">
-        {technologyMeetups.map(meetup => (
+        {sortedTechnologyMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 

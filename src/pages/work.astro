@@ -31,8 +31,41 @@ const companies = [
     location: "Virginia Beach",
     description: "Non-profit global leader in regenerative medicine",
     url: "https://www.lifenethealth.org/"
+  },
+  {
+    name: "Issuetrak",
+    location: "Virginia Beach",
+    description: "Software company providing issue tracking and process management solutions",
+    url: "https://www.issuetrak.com/"
+  },
+  {
+    name: "Yellow Dog Software",
+    location: "Norfolk",
+    description: "Provider of inventory management systems for hospitality, sports, and retail markets",
+    url: "https://www.yellowdogsoftware.com/"
+  },
+  {
+    name: "Techark",
+    location: "Norfolk",
+    description: "Digital innovation company offering web development, software, and mobile app solutions",
+    url: "https://gotechark.com/"
+  },
+  {
+    name: "Decisions",
+    location: "Virginia Beach",
+    description: "No-code, rules-driven platform for business process automation",
+    url: "https://decisions.com/"
+  },
+  {
+    name: "MAXX Potential",
+    location: "Norfolk & Richmond",
+    description: "IT apprenticeship and staffing company providing tech talent solutions",
+    url: "https://maxxpotential.com/"
   }
 ];
+
+// Sort companies alphabetically by name
+const sortedCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <MainLayout title="Work">
@@ -47,7 +80,7 @@ const companies = [
     <section class="section">
       <SectionDivider title="Notable Tech Companies" />
       <div class="grid">
-        {companies.map(company => (
+        {sortedCompanies.map(company => (
           <Card title={company.name} href={company.url}>
             <p class="location">{company.location}</p>
             <p>{company.description}</p>
