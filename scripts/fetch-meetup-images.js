@@ -175,9 +175,9 @@ async function processMeetups() {
     if (isLinkedInUrl) {
       console.log(chalk.yellow(`Processing LinkedIn meetup: ${name}`));
       
-      // If the meetup has a coverImage, use it
+      // Always use the coverImage from meetups.json for LinkedIn URLs
       if (meetup.coverImage) {
-        console.log(chalk.blue(`Using existing coverImage for LinkedIn meetup: ${name}`));
+        console.log(chalk.blue(`Using coverImage from meetups.json for LinkedIn meetup: ${name}`));
         metadata[url] = {
           imageUrl: meetup.coverImage,
           title: name,
@@ -219,16 +219,9 @@ async function processMeetups() {
       continue;
     }
     
-    // Skip only if the meetup has a non-default coverImage defined
-    if (meetup.coverImage && !defaultImagePaths.includes(meetup.coverImage)) {
-      console.log(chalk.blue(`Skipping ${name} - already has custom coverImage defined`));
-      metadata[url] = {
-        imageUrl: meetup.coverImage,
-        title: name,
-        description: `${name} - A meetup in the Hampton Roads area.`
-      };
-      continue;
-    }
+    // Remove the skip logic for custom coverImages - always fetch from source
+    // Instead of skipping, we'll fetch the image from the source
+    console.log(chalk.blue(`Fetching metadata for: ${url}`));
     
     // Fetch metadata for non-LinkedIn URLs
     const ogMetadata = await fetchOgMetadata(url);

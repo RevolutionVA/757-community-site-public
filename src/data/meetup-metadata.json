@@ -5,14 +5,14 @@
     "description": "Are you passionate about building and maintaining robust, scalable, and efficient technology platforms? Do you thrive in the world of DevOps, automation, and continuous improvement? If so, you&#x27;ve found your tribe in the Platform Engineering and DevOps community of Hampton Roads!**Who We Are:** Forme"
   },
   "https://www.meetup.com/NorfolkJS/": {
-    "imageUrl": "https://757.community/images/default-meetup.jpg",
-    "title": "Norfolk.js",
-    "description": "Norfolk.js - A meetup in the Hampton Roads area."
+    "imageUrl": "/images/meetups/meetup-com-norfolkjs.jpg",
+    "title": "Norfolk.js | Meetup",
+    "description": "Join us in talking about, brainstorming, and building Javascript tools and applications. See more information at norfolkjs.org or github.com/norfolkjs.Please review our Code of Conduct here: https://github.com/norfolkjs/general-info/blob/master/CODEOFCONDUCT.md"
   },
   "https://www.meetup.com/757colorcoded/": {
-    "imageUrl": "https://757.community/images/default-meetup.jpg",
-    "title": "757ColorCoded",
-    "description": "757ColorCoded - A meetup in the Hampton Roads area."
+    "imageUrl": "/images/meetups/meetup-com-757colorcoded.jpg",
+    "title": "757ColorCoded Meetup | Meetup",
+    "description": "Get together with people of color in technology to share your experiences in the industry, learn about new&amp;nbsp;tech, and work towards enriching the local community.&amp;nbsp;See our code of conduct:&amp;nbsp;https://coc.757colorcoded.org/You can also join us on Slack at the 757ColorCoded workspace: http://"
   },
   "https://www.meetup.com/hampton-roads-azure-users-group/": {
     "imageUrl": "/images/meetups/meetup-com-hampton-roads-azure-users-group.jpg",
@@ -20,9 +20,9 @@
     "description": "The Hampton Roads Azure Users Group is a community of technology professionals and enthusiasts interested in Microsoft Azure. The group is based in the Hampton Roads area of Virginia, including Norfolk, Virginia Beach, Chesapeake, Suffolk, Portsmouth, and Hampton.The Hampton Roads Azure Users Group "
   },
   "https://www.meetup.com/757dev/": {
-    "imageUrl": "https://757.community/images/default-meetup.jpg",
-    "title": "757 Developers",
-    "description": "757 Developers - A meetup in the Hampton Roads area."
+    "imageUrl": "/images/meetups/meetup-com-757dev.jpg",
+    "title": "757 Developers | Meetup",
+    "description": "The 757 area has a ton of great developer groups that make up the greater developer community. &amp;nbsp;Our goal is to promote events (no matter what the size) that don&#x27;t have a good fit within another area group.If you are interested in a meetup idea, but don&#x27;t want to invest in Meetup fees -- post yo"
   },
   "https://www.meetup.com/hampton-roads-net-users-group/": {
     "imageUrl": "/images/meetups/meetup-com-hampton-roads-net-users-group.jpg",
