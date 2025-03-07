@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://757tech.org/sitemap.xml 
+Sitemap: https://757tech.org/sitemap-index.xml 
