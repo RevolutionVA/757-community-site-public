@@ -1,0 +1,116 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Thank You for Subscribing" description="Thank you for subscribing to the 757 Tech Community newsletter">
+  <div class="container thank-you-container">
+    <div class="thank-you-card">
+      <h1>Thank You for Subscribing!</h1>
+      <div class="icon-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#0077cc" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>
+      </div>
+      <p>You've successfully subscribed to the 757 Tech Community newsletter.</p>
+      <p>We'll keep you updated with the latest tech events, news, and opportunities in the Hampton Roads area.</p>
+      <div class="actions">
+        <a href="/" class="btn primary">Return to Home</a>
+        <a href="/calendar" class="btn secondary">View Upcoming Events</a>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 2rem 1rem;
+  }
+
+  .thank-you-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  h1 {
+    color: #0077cc;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .icon-container {
+    margin: 1.5rem 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .btn.primary {
+    background-color: #0077cc;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn.primary:hover {
+    background-color: #005fa3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn.secondary {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+
+  .btn.secondary:hover {
+    background-color: #e9e9e9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 768px) {
+    .thank-you-card {
+      padding: 2rem 1.5rem;
+    }
+
+    .actions {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+</style> 
