@@ -94,7 +94,7 @@ jobs:
             const path = require('path');
             
             // Get the event data from previous step
-            const issueData = JSON.parse('${{ steps.issue.outputs.result }}');
+            const issueData = JSON.parse('${{ toJSON(steps.issue.outputs.result) }}');
             const event = issueData.event;
             
             // Read the current calendar events
