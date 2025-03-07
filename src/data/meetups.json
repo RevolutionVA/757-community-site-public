@@ -10,14 +10,14 @@
     "url": "https://www.meetup.com/NorfolkJS/",
     "tags": ["Javascript", "Web development"],
     "category": "Development",
-    "coverImage": "/images/default-meetup.jpg"
+    "coverImage": "https://757.community/images/default-meetup.jpg"
   },
   {
     "name": "757ColorCoded",
     "url": "https://www.meetup.com/757colorcoded/",
     "tags": ["DEI", "General", "Learning"],
     "category": "Development",
-    "coverImage": "/images/default-meetup.jpg"
+    "coverImage": "https://757.community/images/default-meetup.jpg"
   },
   {
     "name": "Hampton Roads Azure Users Group",
@@ -30,7 +30,7 @@
     "url": "https://www.meetup.com/757dev/",
     "tags": ["General"],
     "category": "Development",
-    "coverImage": "/images/default-meetup.jpg"
+    "coverImage": "https://757.community/images/default-meetup.jpg"
   },
   {
     "name": "Hampton Roads .NET User Group",
