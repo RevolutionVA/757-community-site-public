@@ -89,12 +89,13 @@ jobs:
       - name: Add event to calendar
         uses: actions/github-script@v6
         with:
+          result-encoding: string
           script: |
             const fs = require('fs');
             const path = require('path');
             
             // Get the event data from previous step
-            const issueData = JSON.parse('${{ toJSON(steps.issue.outputs.result) }}');
+            const issueData = JSON.parse(process.env.ISSUE_RESULT);
             const event = issueData.event;
             
             // Read the current calendar events
@@ -109,6 +110,10 @@ jobs:
             
             // Write the updated calendar back to the file
             fs.writeFileSync(calendarPath, JSON.stringify(calendarEvents, null, 2));
+            
+            return "Event added successfully";
+        env:
+          ISSUE_RESULT: ${{ steps.issue.outputs.result }}
       
       - name: Commit and push changes
         run: |
