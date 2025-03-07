@@ -18,9 +18,9 @@ const defaultImage = fallbackImage;
 
 // For different URL types, use platform-specific default images
 let imageUrl = defaultImage;
-if (isLinkedInUrl) {
-  imageUrl = '/images/linkedin-default.jpg';
-} else if (isExternalUrl) {
+// Don't override LinkedIn images with default images
+// Instead, let the metadata API provide the correct image
+if (isExternalUrl && !isLinkedInUrl) {
   imageUrl = '/images/external-default.jpg';
 }
 ---

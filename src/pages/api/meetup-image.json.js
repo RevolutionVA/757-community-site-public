@@ -6,6 +6,8 @@ export const prerender = true;
 
 // Import the pre-fetched meetup metadata
 import meetupMetadata from '../../data/meetup-metadata.json';
+// Import meetups data to get LinkedIn image URLs if needed
+import meetupsData from '../../data/meetups.json';
 
 export const GET = async ({ params, request }) => {
   try {
@@ -67,8 +69,15 @@ export const GET = async ({ params, request }) => {
         console.error('Error extracting meetup name from URL:', e);
       }
     } else if (isLinkedInUrl) {
-      metadata.imageUrl = '/images/linkedin-default.jpg';
-      metadata.title = "LinkedIn Profile";
+      // For LinkedIn URLs, try to find the coverImage in meetups.json
+      const linkedInMeetup = meetupsData.find(meetup => meetup.url === targetUrl);
+      if (linkedInMeetup && linkedInMeetup.coverImage) {
+        metadata.imageUrl = linkedInMeetup.coverImage;
+        metadata.title = linkedInMeetup.name;
+      } else {
+        metadata.imageUrl = '/images/linkedin-default.jpg';
+        metadata.title = "LinkedIn Profile";
+      }
       metadata.description = "A professional profile or company on LinkedIn. Click to learn more.";
     }
     

@@ -37,10 +37,12 @@ if (typedMeetupMetadata[url]) {
   metadataDescription = typedMeetupMetadata[url].description || '';
 } else {
   // Use platform-specific default images if no pre-fetched metadata
-  if (isLinkedInUrl) {
-    imageUrl = '/images/linkedin-default.jpg';
-  } else if (isExternalUrl) {
+  // Only use default LinkedIn image if we don't have metadata for this URL
+  if (isExternalUrl && !isLinkedInUrl) {
     imageUrl = '/images/external-default.jpg';
+  } else if (isLinkedInUrl) {
+    // For LinkedIn URLs without metadata, use the LinkedIn default image
+    imageUrl = '/images/linkedin-default.jpg';
   }
 }
 ---
