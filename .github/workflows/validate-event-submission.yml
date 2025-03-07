@@ -1,0 +1,184 @@
+name: Validate Event Submission
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  validate-event:
+    if: contains(github.event.issue.labels.*.name, 'event-submission') || contains(github.event.issue.labels.*.name, 'event') || contains(github.event.issue.title, '[Event]')
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Get issue data
+        id: issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+            
+            // Parse the issue body to extract event details
+            const body = issue.data.body;
+            
+            // Extract event details using regex
+            const eventName = body.match(/### Event Name\s*\n\s*(.*)/)?.[1] || '';
+            const venue = body.match(/### Venue\s*\n\s*(.*)/)?.[1] || '';
+            const address = body.match(/### Address\s*\n\s*(.*)/)?.[1] || '';
+            const startDate = body.match(/### Start Date\s*\n\s*(.*)/)?.[1] || '';
+            const endDate = body.match(/### End Date\s*\n\s*(.*)/)?.[1] || '';
+            const url = body.match(/### Event URL\s*\n\s*(.*)/)?.[1] || '';
+            const description = body.match(/### Description\s*\n\s*([\s\S]*?)(?=###|$)/)?.[1]?.trim() || '';
+            const eventType = body.match(/### Event Type\s*\n\s*(.*)/)?.[1] || '';
+            
+            // Validation checks
+            const validationErrors = [];
+            
+            if (!eventName.trim()) {
+              validationErrors.push("Event Name is required");
+            }
+            
+            if (!venue.trim()) {
+              validationErrors.push("Venue is required");
+            }
+            
+            if (!address.trim()) {
+              validationErrors.push("Address is required");
+            }
+            
+            if (!startDate.trim()) {
+              validationErrors.push("Start Date is required");
+            }
+            
+            if (!url.trim()) {
+              validationErrors.push("Event URL is required");
+            } else if (!url.match(/^https?:\/\/.+/)) {
+              validationErrors.push("Event URL must be a valid URL starting with http:// or https://");
+            }
+            
+            if (!description.trim()) {
+              validationErrors.push("Description is required");
+            }
+            
+            if (!eventType.trim()) {
+              validationErrors.push("Event Type is required");
+            }
+            
+            // Format start date to ISO string
+            if (startDate.trim()) {
+              try {
+                const startDateObj = new Date(startDate);
+                // Check if the date is valid (not Invalid Date)
+                if (isNaN(startDateObj.getTime())) {
+                  validationErrors.push("Start Date is not a valid date format. Please use YYYY-MM-DD HH:MM AM/PM format.");
+                }
+              } catch (e) {
+                validationErrors.push("Start Date is not a valid date format. Please use YYYY-MM-DD HH:MM AM/PM format.");
+              }
+            }
+            
+            // Format end date to ISO string if provided
+            if (endDate && endDate.trim()) {
+              try {
+                const endDateObj = new Date(endDate);
+                // Check if the date is valid (not Invalid Date)
+                if (isNaN(endDateObj.getTime())) {
+                  validationErrors.push("End Date is not a valid date format. Please use YYYY-MM-DD HH:MM AM/PM format.");
+                }
+              } catch (e) {
+                validationErrors.push("End Date is not a valid date format. Please use YYYY-MM-DD HH:MM AM/PM format.");
+              }
+            }
+            
+            return {
+              hasErrors: validationErrors.length > 0,
+              errors: validationErrors,
+              isFirstValidation: !body.includes("## ❌ Validation Errors") // Check if this is the first validation
+            };
+      
+      - name: Process validation results
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const validationResult = JSON.parse('${{ steps.issue.outputs.result }}');
+            
+            // If there are validation errors
+            if (validationResult.hasErrors) {
+              const errorList = validationResult.errors.map(error => `- ${error}`).join('\n');
+              
+              // Only add a comment if this is the first validation or if it's an edit
+              if (validationResult.isFirstValidation || context.payload.action === 'edited') {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body: `## ❌ Validation Errors\n\nThe following errors were found in your event submission:\n\n${errorList}\n\nPlease update your submission to fix these issues.`
+                });
+              }
+              
+              // Add needs-fix label if not already present
+              const issue = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              });
+              
+              if (!issue.data.labels.some(label => label.name === 'needs-fix')) {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  labels: ['needs-fix']
+                });
+              }
+              
+              // Remove needs-review label if present
+              if (issue.data.labels.some(label => label.name === 'needs-review')) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  name: 'needs-review'
+                });
+              }
+            } else {
+              // No validation errors
+              const issue = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              });
+              
+              // Remove needs-fix label if present
+              if (issue.data.labels.some(label => label.name === 'needs-fix')) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  name: 'needs-fix'
+                });
+              }
+              
+              // Add needs-review label if not already present
+              if (!issue.data.labels.some(label => label.name === 'needs-review')) {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  labels: ['needs-review']
+                });
+              }
+              
+              // Add a validation success comment if this is an edit that fixed previous errors
+              if (context.payload.action === 'edited' && issue.data.labels.some(label => label.name === 'needs-fix')) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body: `## ✅ Validation Successful\n\nYour event submission has passed validation and is ready for review.`
+                });
+              }
+            } 

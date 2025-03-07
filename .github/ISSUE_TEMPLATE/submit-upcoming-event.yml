@@ -4,6 +4,7 @@ title: "[Event]: "
 labels: 
   - event
   - needs-review
+  - event-submission
 assignees:
   - 1kevgriff
 
