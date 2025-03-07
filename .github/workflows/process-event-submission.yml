@@ -81,6 +81,9 @@ jobs:
               event.endDate = formattedEndDate;
             }
             
+            // Note: We intentionally don't include a 'group' field for community submissions
+            // This ensures they're displayed differently from meetup/group events
+            
             return {
               event: event,
               issueTitle: issue.data.title
