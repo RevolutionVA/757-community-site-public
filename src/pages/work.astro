@@ -33,31 +33,13 @@ const companies = [
     url: "https://www.lifenethealth.org/"
   }
 ];
-
-const jobBoards = [
-  {
-    name: "757 Jobs",
-    description: "Local job board for Hampton Roads tech jobs",
-    url: "#"
-  },
-  {
-    name: "LinkedIn - Hampton Roads",
-    description: "LinkedIn jobs filtered for Hampton Roads",
-    url: "https://www.linkedin.com/jobs/"
-  },
-  {
-    name: "Indeed - Hampton Roads",
-    description: "Indeed jobs filtered for Hampton Roads",
-    url: "https://www.indeed.com/"
-  }
-];
 ---
 
 <MainLayout title="Work">
   <div class="hero">
     <div class="container">
       <h1>Work</h1>
-      <p>Discover tech job opportunities and companies in the Hampton Roads area.</p>
+      <p>Discover tech companies in the Hampton Roads area.</p>
     </div>
   </div>
 
@@ -71,32 +53,6 @@ const jobBoards = [
             <p>{company.description}</p>
           </Card>
         ))}
-      </div>
-    </section>
-
-    <section class="section">
-      <SectionDivider title="Job Boards" />
-      <div class="grid">
-        {jobBoards.map(board => (
-          <Card title={board.name} href={board.url}>
-            <p>{board.description}</p>
-          </Card>
-        ))}
-      </div>
-    </section>
-
-    <section class="section">
-      <SectionDivider title="Remote Work" />
-      <div class="content-box">
-        <h3>Working Remotely from Hampton Roads</h3>
-        <p>
-          Hampton Roads is a great place to work remotely! With a lower cost of living than major tech hubs, 
-          beautiful beaches, and a growing tech community, it's an ideal location for remote workers.
-        </p>
-        <p>
-          Check out local coworking spaces like <a href="#">757 Coworking</a> and <a href="#">Percolator</a> 
-          to connect with other remote workers in the area.
-        </p>
       </div>
     </section>
 
