@@ -9,13 +9,15 @@
     "name": "Norfolk.js",
     "url": "https://www.meetup.com/NorfolkJS/",
     "tags": ["Javascript", "Web development"],
-    "category": "Development"
+    "category": "Development",
+    "coverImage": "/images/default-meetup.jpg"
   },
   {
     "name": "757ColorCoded",
     "url": "https://www.meetup.com/757colorcoded/",
     "tags": ["DEI", "General", "Learning"],
-    "category": "Development"
+    "category": "Development",
+    "coverImage": "/images/default-meetup.jpg"
   },
   {
     "name": "Hampton Roads Azure Users Group",
@@ -27,7 +29,8 @@
     "name": "757 Developers",
     "url": "https://www.meetup.com/757dev/",
     "tags": ["General"],
-    "category": "Development"
+    "category": "Development",
+    "coverImage": "/images/default-meetup.jpg"
   },
   {
     "name": "Hampton Roads .NET User Group",
@@ -125,12 +128,6 @@
     "name": "Hampton Roads Designer Collective",
     "url": "https://www.meetup.com/hampton-roads-designer-collective/",
     "tags": ["Game design", "Graphic design"],
-    "category": "Design"
-  },
-  {
-    "name": "UX/UI • Hampton Roads, Virginia",
-    "url": "https://www.meetup.com/ux-ui-hampton-roads-virginia/",
-    "tags": ["UX", "UI"],
     "category": "Design"
   }
 ] 

@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import Card from '../components/Card.astro';
 import FeatureCard from '../components/FeatureCard.astro';
+import meetupMetadata from '../data/meetup-metadata.json';
 
 // Import the meetups data from the JSON file
 import meetupsData from '../data/meetups.json';
@@ -12,13 +13,51 @@ const developmentMeetups = meetupsData.filter(meetup => meetup.category === "Dev
 const technologyMeetups = meetupsData.filter(meetup => meetup.category === "Technology");
 const designMeetups = meetupsData.filter(meetup => meetup.category === "Design");
 
-// Default cover image for meetups without one
-const defaultCoverImage = "/images/default-meetup.jpg";
+// Define the Meetup type
+interface Meetup {
+  name: string;
+  url: string;
+  tags: string[];
+  category: string;
+  coverImage?: string;
+}
 
-// Enable metadata display
-const showMetadata = true;
-// Hide the original title to avoid duplication with OG title
-const hideTitle = true;
+// Define the MeetupMetadata type
+interface MeetupMetadata {
+  imageUrl: string;
+  title?: string;
+  description?: string;
+}
+
+// Type assertion for the imported JSON
+const typedMeetupMetadata = meetupMetadata as Record<string, MeetupMetadata>;
+
+// Function to get the best image for a meetup
+function getBestImage(meetup: Meetup) {
+  // First check if we have pre-fetched metadata for this meetup
+  if (typedMeetupMetadata[meetup.url] && typedMeetupMetadata[meetup.url].imageUrl) {
+    return typedMeetupMetadata[meetup.url].imageUrl;
+  }
+  
+  // If not, use the coverImage property if it exists
+  if (meetup.coverImage) {
+    return meetup.coverImage;
+  }
+  
+  // Otherwise, use platform-specific default images
+  if (meetup.url.includes('meetup.com')) {
+    return '/images/default-meetup.jpg';
+  } else if (meetup.url.includes('linkedin.com')) {
+    return '/images/linkedin-default.jpg';
+  } else {
+    return '/images/external-default.jpg';
+  }
+}
+
+// Enable metadata display for cards that need it
+const showMetadata = false;
+// Hide the title only when showing metadata
+const hideTitle = false;
 ---
 
 <MainLayout title="Meetups">
@@ -46,8 +85,8 @@ const hideTitle = true;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={meetup.coverImage || defaultCoverImage}
-            useDynamicImage={true}
+            coverImage={getBestImage(meetup)}
+            useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
           >
@@ -68,8 +107,8 @@ const hideTitle = true;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={meetup.coverImage || defaultCoverImage}
-            useDynamicImage={true}
+            coverImage={getBestImage(meetup)}
+            useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
           >
@@ -90,8 +129,8 @@ const hideTitle = true;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={meetup.coverImage || defaultCoverImage}
-            useDynamicImage={true}
+            coverImage={getBestImage(meetup)}
+            useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
           >

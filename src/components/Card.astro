@@ -35,7 +35,9 @@ const shouldHideTitle = hideTitle || (showMetadata && useDynamicImage);
       showMetadata={showMetadata}
     />
   ) : displayImage && (
-    <img src={displayImage} alt={title} />
+    <a href={href} target="_blank" rel="noopener noreferrer" class="image-link">
+      <img src={displayImage} alt={title} loading="lazy" />
+    </a>
   )}
   {!shouldHideTitle && (
     <h3><a href={href} target="_blank" rel="noopener noreferrer">{title}</a></h3>
@@ -65,6 +67,13 @@ const shouldHideTitle = hideTitle || (showMetadata && useDynamicImage);
     object-fit: cover;
     aspect-ratio: 16/9;
     max-height: 150px;
+  }
+
+  .image-link {
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 1rem;
   }
 
   .card h3 {

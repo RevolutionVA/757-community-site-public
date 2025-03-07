@@ -1,10 +1,22 @@
 ---
+import meetupMetadata from '../data/meetup-metadata.json';
+
 interface Props {
   url: string;
   title: string;
   fallbackImage?: string;
   showMetadata?: boolean;
 }
+
+// Define the type for meetup metadata
+interface MeetupMetadata {
+  imageUrl: string;
+  title?: string;
+  description?: string;
+}
+
+// Type assertion for the imported JSON
+const typedMeetupMetadata = meetupMetadata as Record<string, MeetupMetadata>;
 
 const { url, title, fallbackImage = '/images/default-meetup.jpg', showMetadata = false } = Astro.props;
 
@@ -13,123 +25,46 @@ const isMeetupUrl = url.includes('meetup.com');
 const isLinkedInUrl = url.includes('linkedin.com');
 const isExternalUrl = !isMeetupUrl && !isLinkedInUrl;
 
-// Default image to use if we can't fetch one
-const defaultImage = fallbackImage;
+// Check if we have pre-fetched metadata for this URL
+let imageUrl = fallbackImage;
+let metadataTitle = title;
+let metadataDescription = '';
 
-// For different URL types, use platform-specific default images
-let imageUrl = defaultImage;
-if (isLinkedInUrl) {
-  imageUrl = '/images/linkedin-default.jpg';
-} else if (isExternalUrl) {
-  imageUrl = '/images/external-default.jpg';
+if (typedMeetupMetadata[url]) {
+  // Use the pre-fetched metadata
+  imageUrl = typedMeetupMetadata[url].imageUrl;
+  metadataTitle = typedMeetupMetadata[url].title || title;
+  metadataDescription = typedMeetupMetadata[url].description || '';
+} else {
+  // Use platform-specific default images if no pre-fetched metadata
+  if (isLinkedInUrl) {
+    imageUrl = '/images/linkedin-default.jpg';
+  } else if (isExternalUrl) {
+    imageUrl = '/images/external-default.jpg';
+  }
 }
 ---
 
 <div class="url-container">
-  <div class="url-image" data-url={url}>
-    <img 
-      src={imageUrl} 
-      alt={title} 
-      class="cover-image loading"
-      loading="lazy"
-    />
-    <noscript>
-      <img src={imageUrl} alt={title} class="cover-image" />
-    </noscript>
+  <div class="url-image">
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      <img 
+        src={imageUrl} 
+        alt={title} 
+        class="cover-image"
+        loading="lazy"
+      />
+    </a>
   </div>
   {showMetadata && (
     <div class="url-metadata">
-      <h3 class="og-title"><a href={url} target="_blank" rel="noopener noreferrer" data-original-title={title}>{title}</a></h3>
-      <div class="og-description"></div>
+      <h3 class="og-title"><a href={url} target="_blank" rel="noopener noreferrer">{metadataTitle}</a></h3>
+      {metadataDescription && (
+        <div class="og-description">{metadataDescription}</div>
+      )}
     </div>
   )}
 </div>
-
-<script>
-  // Function to fetch metadata
-  async function fetchUrlMetadata(url: string): Promise<{imageUrl: string, title?: string, description?: string} | null> {
-    try {
-      const response = await fetch(`/api/meetup-image.json?url=${encodeURIComponent(url)}`);
-      
-      // Even if we get a non-200 response, try to parse the JSON as our API now returns useful fallbacks with 200
-      const data = await response.json();
-      
-      // If we have data with at least an imageUrl, return it
-      if (data && data.imageUrl) {
-        return data;
-      }
-      
-      // If we don't have useful data, create a fallback
-      return {
-        imageUrl: '/images/external-default.jpg',
-        title: new URL(url).hostname.replace('www.', ''),
-        description: "Click to visit this website and learn more."
-      };
-    } catch (error) {
-      console.error('Error fetching metadata:', error);
-      
-      // Create a fallback with domain name as title
-      try {
-        const domain = new URL(url).hostname.replace('www.', '');
-        return {
-          imageUrl: '/images/external-default.jpg',
-          title: domain,
-          description: "Click to visit this website and learn more."
-        };
-      } catch (e) {
-        // Last resort fallback
-        return {
-          imageUrl: '/images/external-default.jpg',
-          title: "External Link",
-          description: "Click to visit this website and learn more."
-        };
-      }
-    }
-  }
-
-  // Find all URL image containers and load their images and metadata
-  document.addEventListener('DOMContentLoaded', () => {
-    const urlImages = document.querySelectorAll<HTMLElement>('.url-image');
-    
-    urlImages.forEach(async (container) => {
-      const url = container.dataset.url;
-      const img = container.querySelector('img');
-      
-      if (url && img) {
-        const isLinkedInUrl = url.includes('linkedin.com');
-        const metadata = await fetchUrlMetadata(url);
-        if (metadata) {
-          // Update the image
-          if (metadata.imageUrl) {
-            img.src = metadata.imageUrl;
-            img.classList.remove('loading');
-          }
-          
-          // Update metadata if available
-          const parentContainer = container.closest('.url-container');
-          if (parentContainer) {
-            const titleEl = parentContainer.querySelector('.og-title a') as HTMLAnchorElement;
-            const descEl = parentContainer.querySelector('.og-description');
-            
-            // For LinkedIn URLs, we keep the original title
-            if (titleEl && metadata.title) {
-              if (!isLinkedInUrl) {
-                titleEl.textContent = metadata.title;
-              } else if (titleEl.dataset.originalTitle) {
-                // For LinkedIn URLs, restore the original title from the data attribute
-                titleEl.textContent = titleEl.dataset.originalTitle;
-              }
-            }
-            
-            if (descEl && metadata.description) {
-              descEl.textContent = metadata.description;
-            }
-          }
-        }
-      }
-    });
-  });
-</script>
 
 <style>
   .url-container {
@@ -149,11 +84,6 @@ if (isLinkedInUrl) {
     aspect-ratio: 16/9;
     max-height: 150px;
     transition: opacity 0.3s ease;
-  }
-  
-  .cover-image.loading {
-    opacity: 0.7;
-    filter: blur(2px);
   }
   
   .url-metadata {

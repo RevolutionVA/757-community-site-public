@@ -1,8 +1,11 @@
 // This file has been modified to support static site generation
-// Instead of fetching metadata at runtime, it returns static fallback data
+// Instead of fetching metadata at runtime, it uses pre-fetched metadata from the build process
 
 // Enable prerendering for static mode
 export const prerender = true;
+
+// Import the pre-fetched meetup metadata
+import meetupMetadata from '../../data/meetup-metadata.json';
 
 export const GET = async ({ params, request }) => {
   try {
@@ -16,6 +19,16 @@ export const GET = async ({ params, request }) => {
         error: 'Missing URL parameter' 
       }), {
         status: 400,
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+    }
+    
+    // Check if we have pre-fetched metadata for this URL
+    if (meetupMetadata[targetUrl]) {
+      return new Response(JSON.stringify(meetupMetadata[targetUrl]), {
+        status: 200,
         headers: {
           'Content-Type': 'application/json'
         }
@@ -38,48 +51,25 @@ export const GET = async ({ params, request }) => {
       metadata.imageUrl = '/images/default-meetup.jpg';
       metadata.title = "Meetup Group";
       metadata.description = "A meetup group on Meetup.com. Click to learn more and join upcoming events.";
+      
+      // Try to extract the meetup name from the URL
+      try {
+        const urlObj = new URL(targetUrl);
+        const pathParts = urlObj.pathname.split('/').filter(Boolean);
+        if (pathParts.length > 0) {
+          const meetupName = pathParts[0]
+            .split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+          metadata.title = meetupName;
+        }
+      } catch (e) {
+        console.error('Error extracting meetup name from URL:', e);
+      }
     } else if (isLinkedInUrl) {
       metadata.imageUrl = '/images/linkedin-default.jpg';
       metadata.title = "LinkedIn Profile";
       metadata.description = "A professional profile or company on LinkedIn. Click to learn more.";
-      
-      // Extract company or profile name from LinkedIn URL
-      try {
-        const urlObj = new URL(targetUrl);
-        const pathParts = urlObj.pathname.split('/').filter(Boolean);
-        if (pathParts.length > 0) {
-          // For company URLs like linkedin.com/company/companyname
-          if (pathParts[0] === 'company' && pathParts[1]) {
-            metadata.title = pathParts[1]
-              .split('-')
-              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-              .join(' ');
-            metadata.title += " on LinkedIn";
-          }
-        }
-      } catch (e) {
-        console.error('Error extracting title from LinkedIn URL:', e);
-      }
-    }
-    
-    // Try to extract some information from the URL if not LinkedIn
-    if (!isLinkedInUrl) {
-      try {
-        const urlObj = new URL(targetUrl);
-        const pathParts = urlObj.pathname.split('/').filter(Boolean);
-        if (pathParts.length > 0) {
-          const name = pathParts[pathParts.length - 1]
-            .split('-')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ');
-          metadata.title = name;
-        } else {
-          // Use hostname as fallback
-          metadata.title = urlObj.hostname.replace('www.', '');
-        }
-      } catch (e) {
-        console.error('Error extracting title from URL:', e);
-      }
     }
     
     // Return the static metadata
@@ -95,25 +85,10 @@ export const GET = async ({ params, request }) => {
     // Create a fallback response with default values
     const fallbackMetadata = {
       error: 'Failed to generate metadata',
-      details: error.message,
       imageUrl: '/images/external-default.jpg',
       title: "External Link",
       description: "Click to visit this website and learn more."
     };
-    
-    // Try to extract some information from the URL
-    try {
-      const urlObj = new URL(request.url);
-      const targetUrl = urlObj.searchParams.get('url');
-      if (targetUrl) {
-        const domainMatch = targetUrl.match(/https?:\/\/(?:www\.)?([^\/]+)/i);
-        if (domainMatch && domainMatch[1]) {
-          fallbackMetadata.title = domainMatch[1];
-        }
-      }
-    } catch (e) {
-      console.error('Error creating fallback metadata:', e);
-    }
     
     return new Response(JSON.stringify(fallbackMetadata), {
       status: 200,
