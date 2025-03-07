@@ -26,7 +26,7 @@
       },
       "category": {
         "type": "string",
-        "enum": ["Development", "Technology", "Design"],
+        "enum": ["Development", "Technology", "Design", "Cloud"],
         "description": "The category of the meetup"
       },
       "coverImage": {
