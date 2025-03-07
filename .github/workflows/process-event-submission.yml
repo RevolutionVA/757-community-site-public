@@ -123,6 +123,21 @@ jobs:
           git commit -m "Add event from issue #${{ github.event.issue.number }}: ${{ fromJSON(steps.issue.outputs.result).issueTitle }}"
           git push
       
+      - name: Trigger Azure Static Web Apps deployment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Create a repository dispatch event to trigger the Azure Static Web Apps workflow
+            await github.rest.repos.createDispatchEvent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              event_type: 'event-added',
+              client_payload: {
+                message: 'Event added via issue #${{ github.event.issue.number }}'
+              }
+            });
+      
       - name: Close issue
         uses: actions/github-script@v6
         with:
@@ -131,7 +146,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: '✅ This event has been approved and added to the calendar! The issue will now be closed.'
+              body: '✅ This event has been approved and added to the calendar! The issue will now be closed. The website will be updated shortly.'
             });
             
             await github.rest.issues.update({
