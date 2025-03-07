@@ -88,6 +88,17 @@
     "group": "Norfolk.js"
   },
   {
+    "title": "Code and Coffee",
+    "link": "https://757tech.org/",
+    "date": "2025-04-01T08:00:00.000Z",
+    "description": "We're going to have coffee and talk code.",
+    "source": "community-submission",
+    "venue": "Starbucks",
+    "address": "1000 Independence Blvd, Virginia Beach, VA 23456",
+    "type": "meetup",
+    "endDate": "2025-04-01T10:00:00.000Z"
+  },
+  {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
     "link": "https://www.meetup.com/issa-hampton-roads/events/305689698/",
     "date": "2025-04-01T21:30:00.000Z",
