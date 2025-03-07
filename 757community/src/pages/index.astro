@@ -3,6 +3,8 @@ import MainLayout from '../layouts/MainLayout.astro';
 import FeatureCard from '../components/FeatureCard.astro';
 import StatCard from '../components/StatCard.astro';
 import SectionDivider from '../components/SectionDivider.astro';
+import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
+import KeepSurfing from '../components/KeepSurfing.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -52,7 +54,7 @@ import SectionDivider from '../components/SectionDivider.astro';
 				</div>
 
 				<div class="feature-content">
-					<h3>�� Quality of life</h3>
+					<h3>🏖️ Quality of life</h3>
 					<p>
 						At the intersection of technology and lifestyle, we're leveraging innovation to enhance the way we live and work in Hampton Roads. 
 						Discover how local tech advancements are solving real-world problems—from healthcare to transportation—making our area a hub for 
@@ -72,35 +74,11 @@ import SectionDivider from '../components/SectionDivider.astro';
 		</section>
 
 		<section class="section">
-			<SectionDivider title="🏄🏽‍♀️ Keep surfing" />
-			<div class="grid-3">
-				<FeatureCard 
-					title="Meetups" 
-					href="/meetups" 
-					image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-				/>
-				<FeatureCard 
-					title="Learning" 
-					href="/learning" 
-					image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-				/>
-				<FeatureCard 
-					title="Communities" 
-					href="/communities" 
-					image="/pexels-karolina-grabowska-4476606.jpg" 
-				/>
-				<FeatureCard 
-					title="Work" 
-					href="/work" 
-					image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-				/>
-				<FeatureCard 
-					title="Conferences" 
-					href="/conferences" 
-					image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-				/>
-			</div>
+			<SectionDivider title="Meetups This Week" />
+			<ThisWeekMeetups />
 		</section>
+
+		<KeepSurfing />
 
 		<section class="section">
 			<SectionDivider title="Want to make your mark?" />

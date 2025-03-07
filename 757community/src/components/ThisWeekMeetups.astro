@@ -1,0 +1,166 @@
+---
+import calendarEvents from '../data/calendar-events.json';
+
+// Define types for our events
+interface CalendarEvent {
+  title: string;
+  link: string;
+  date: string;
+  description: string;
+  source: string;
+  group: string;
+}
+
+// Get today's date and set to beginning of day
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// Get date 7 days from now
+const oneWeekFromNow = new Date(today);
+oneWeekFromNow.setDate(today.getDate() + 7);
+
+// Filter events to only include those happening in the next 7 days
+const thisWeekEvents = calendarEvents
+  .filter((event: CalendarEvent) => {
+    const eventDate = new Date(event.date);
+    return eventDate >= today && eventDate <= oneWeekFromNow;
+  })
+  .sort((a: CalendarEvent, b: CalendarEvent) => {
+    return new Date(a.date).getTime() - new Date(b.date).getTime();
+  });
+
+// Format date to display day and time
+function formatEventDate(dateString: string) {
+  const date = new Date(dateString);
+  const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short' });
+  const month = date.toLocaleDateString('en-US', { month: 'short' });
+  const dayOfMonth = date.toLocaleDateString('en-US', { day: 'numeric' });
+  const time = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  return `${dayOfWeek}, ${month} ${dayOfMonth} @ ${time}`;
+}
+---
+
+<div class="this-week-meetups">
+  <h3>Meetups This Week</h3>
+  
+  {thisWeekEvents.length > 0 ? (
+    <ul class="event-list">
+      {thisWeekEvents.map((event) => (
+        <li class="event-item">
+          <div class="event-date">{formatEventDate(event.date)}</div>
+          <div class="event-details">
+            <a href={event.link} target="_blank" rel="noopener noreferrer" class="event-title">
+              {event.title}
+            </a>
+            <div class="event-group">{event.group}</div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p class="no-events">No meetups scheduled for this week.</p>
+  )}
+  
+  <div class="view-all">
+    <a href="/calendar" class="view-all-link">View all upcoming events →</a>
+  </div>
+</div>
+
+<style>
+  .this-week-meetups {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .this-week-meetups h3 {
+    margin-top: 0;
+    color: #0077cc;
+    margin-bottom: 1rem;
+  }
+
+  .event-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .event-item {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+  }
+
+  .event-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .event-date {
+    flex: 0 0 160px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .event-details {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .event-title {
+    display: block;
+    font-weight: bold;
+    color: #0077cc;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+  }
+
+  .event-title:hover {
+    text-decoration: underline;
+  }
+
+  .event-group {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .no-events {
+    color: #666;
+    font-style: italic;
+  }
+
+  .view-all {
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  .view-all-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .event-item {
+      flex-direction: column;
+    }
+
+    .event-date {
+      flex: 0 0 auto;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-details {
+      flex: 1 0 100%;
+    }
+  }
+</style> 

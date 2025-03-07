@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import Card from '../components/Card.astro';
 import FeatureCard from '../components/FeatureCard.astro';
+import KeepSurfing from '../components/KeepSurfing.astro';
 
 // In a real implementation, this data would come from a database or API
 // For this example, we're hardcoding some sample data
@@ -54,35 +55,6 @@ const educationalInstitutions = [
 
     {/* Removing the Online Learning Resources section */}
 
-    <section class="section">
-      <SectionDivider title="🏄🏽‍♀️ Keep surfing" />
-      <div class="grid-3">
-        <FeatureCard 
-          title="Home" 
-          href="/" 
-          image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Meetups" 
-          href="/meetups" 
-          image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Communities" 
-          href="/communities" 
-          image="/pexels-karolina-grabowska-4476606.jpg" 
-        />
-        <FeatureCard 
-          title="Work" 
-          href="/work" 
-          image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Conferences" 
-          href="/conferences" 
-          image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-      </div>
-    </section>
+    <KeepSurfing />
   </div>
 </MainLayout> 

@@ -1,48 +1,92 @@
 [
   {
-    "name": "RevolutionConf",
-    "url": "https://revolutionconf.com/",
-    "description": "A two-day, multi-track technology conference in Virginia Beach",
-    "date": "2023-06-15",
-    "endDate": "2023-06-16",
-    "location": "Virginia Beach, VA",
-    "tags": ["Web", "Mobile", "Cloud", "DevOps"]
-  },
-  {
-    "name": "Hampton Roads DevFest",
-    "url": "https://devfest.gdghr.org/",
+    "name": "Hampton Roads DevFest 2024",
+    "url": "https://hrdevfest.org/",
     "description": "A community-run developer conference focused on Google technologies",
-    "date": "2023-10-21",
-    "endDate": "2023-10-21",
+    "date": "2024-05-31",
+    "endDate": "2024-05-31",
     "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"]
+    "tags": ["Google", "Android", "Web", "Cloud"],
+    "coverImage": "/images/devfest.png"
   },
   {
-    "name": "Tidal",
+    "name": "Hampton Roads DevFest 2018",
+    "url": "https://hrdevfest.org/",
+    "description": "A community-run developer conference focused on Google technologies",
+    "date": "2018-11-16",
+    "endDate": "2018-11-16",
+    "location": "Norfolk, VA",
+    "tags": ["Google", "Android", "Web", "Cloud"],
+    "coverImage": "/images/devfest.png"
+  },
+  {
+    "name": "Hampton Roads DevFest 2017",
+    "url": "https://hrdevfest.org/",
+    "description": "A community-run developer conference focused on Google technologies",
+    "date": "2017-11-10",
+    "endDate": "2017-11-10",
+    "location": "Norfolk, VA",
+    "tags": ["Google", "Android", "Web", "Cloud"],
+    "coverImage": "/images/devfest.png"
+  },
+  {
+    "name": "Hampton Roads DevFest 2016",
+    "url": "https://hrdevfest.org/",
+    "description": "A community-run developer conference focused on Google technologies",
+    "date": "2016-11-04",
+    "endDate": "2016-11-04",
+    "location": "Norfolk, VA",
+    "tags": ["Google", "Android", "Web", "Cloud"],
+    "coverImage": "/images/devfest.png"
+  },
+  {
+    "name": "Tidal 2024",
     "url": "https://tidalconf.com/",
     "description": "A conference focused on design and technology in Hampton Roads",
-    "date": "2023-09-08",
-    "endDate": "2023-09-09",
+    "date": "2024-11-09",
+    "endDate": "2024-11-09",
     "location": "Norfolk, VA",
-    "tags": ["Design", "UX", "Technology"]
+    "tags": ["Design", "UX", "Technology"],
+    "coverImage": "/images/tidal.png"
   },
   {
-    "name": "RevolutionConf 2024",
+    "name": "RevolutionConf 2019",
     "url": "https://revolutionconf.com/",
     "description": "A two-day, multi-track technology conference in Virginia Beach",
-    "date": "2024-06-13",
-    "endDate": "2024-06-14",
+    "date": "2019-06-06",
+    "endDate": "2019-06-07",
     "location": "Virginia Beach, VA",
     "tags": ["Web", "Mobile", "Cloud", "DevOps"],
-    "coverImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+    "coverImage": "/images/revolutionconf.png"
   },
   {
-    "name": "Hampton Roads DevFest 2024",
-    "url": "https://devfest.gdghr.org/",
-    "description": "A community-run developer conference focused on Google technologies",
-    "date": "2024-11-15",
-    "endDate": "2024-11-15",
-    "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"]
+    "name": "RevolutionConf 2018",
+    "url": "https://revolutionconf.com/",
+    "description": "A two-day, multi-track technology conference in Virginia Beach",
+    "date": "2018-05-17",
+    "endDate": "2018-05-18",
+    "location": "Virginia Beach, VA",
+    "tags": ["Web", "Mobile", "Cloud", "DevOps"],
+    "coverImage": "/images/revolutionconf.png"
+  },
+  {
+    "name": "RevolutionConf 2017",
+    "url": "https://revolutionconf.com/",
+    "description": "A two-day, multi-track technology conference in Virginia Beach",
+    "date": "2017-06-01",
+    "endDate": "2017-06-02",
+    "location": "Virginia Beach, VA",
+    "tags": ["Web", "Mobile", "Cloud", "DevOps"],
+    "coverImage": "/images/revolutionconf.png"
+  },
+  {
+    "name": "RevolutionConf 2016",
+    "url": "https://revolutionconf.com/",
+    "description": "A two-day, multi-track technology conference in Virginia Beach",
+    "date": "2016-05-13",
+    "endDate": "2016-05-13",
+    "location": "Virginia Beach, VA",
+    "tags": ["Web", "Mobile", "Cloud", "DevOps"],
+    "coverImage": "/images/revolutionconf.png"
   }
 ] 

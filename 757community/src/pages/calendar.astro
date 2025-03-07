@@ -5,6 +5,7 @@ import FeatureCard from '../components/FeatureCard.astro';
 import calendarEvents from '../data/calendar-events.json';
 import meetups from '../data/meetups.json';
 import { marked } from 'marked';
+import KeepSurfing from '../components/KeepSurfing.astro';
 
 // Configure marked options
 marked.setOptions({
@@ -197,36 +198,7 @@ function findMeetupUrl(groupName: string): string | null {
       )}
     </section>
 
-    <section class="section">
-      <SectionDivider title="🏄🏽‍♀️ Keep surfing" />
-      <div class="grid-3">
-        <FeatureCard 
-          title="Home" 
-          href="/" 
-          image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Meetups" 
-          href="/meetups" 
-          image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Communities" 
-          href="/communities" 
-          image="/pexels-karolina-grabowska-4476606.jpg" 
-        />
-        <FeatureCard 
-          title="Learning" 
-          href="/learning" 
-          image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-        <FeatureCard 
-          title="Work" 
-          href="/work" 
-          image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
-        />
-      </div>
-    </section>
+    <KeepSurfing />
   </div>
 </MainLayout>
 
