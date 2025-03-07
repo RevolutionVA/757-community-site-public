@@ -12,6 +12,7 @@ import meetupsData from '../data/meetups.json';
 const developmentMeetups = meetupsData.filter(meetup => meetup.category === "Development");
 const technologyMeetups = meetupsData.filter(meetup => meetup.category === "Technology");
 const designMeetups = meetupsData.filter(meetup => meetup.category === "Design");
+const cloudMeetups = meetupsData.filter(meetup => meetup.category === "Cloud");
 
 // Define the Meetup type
 interface Meetup {
@@ -101,9 +102,9 @@ const hideTitle = false;
     </section>
 
     <section class="section">
-      <SectionDivider title="Technology" />
+      <SectionDivider title="Cloud" />
       <div class="grid">
-        {technologyMeetups.map(meetup => (
+        {cloudMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 
@@ -126,6 +127,28 @@ const hideTitle = false;
       <SectionDivider title="Design" />
       <div class="grid">
         {designMeetups.map(meetup => (
+          <Card 
+            title={meetup.name} 
+            href={meetup.url} 
+            coverImage={getBestImage(meetup)}
+            useDynamicImage={false}
+            showMetadata={showMetadata}
+            hideTitle={hideTitle}
+          >
+            <div class="tags">
+              {meetup.tags.map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </Card>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Technology" />
+      <div class="grid">
+        {technologyMeetups.map(meetup => (
           <Card 
             title={meetup.name} 
             href={meetup.url} 
