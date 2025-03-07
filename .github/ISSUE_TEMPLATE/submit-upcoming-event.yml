@@ -1,8 +1,11 @@
 name: Submit Upcoming Event
 description: Submit a new event to be added to the 757 Tech Community calendar
 title: "[Event]: "
-labels: ["event", "needs-review"]
-assignees: []
+labels: 
+  - event
+  - needs-review
+assignees:
+  - 1kevgriff
 
 body:
   - type: markdown
@@ -41,13 +44,22 @@ body:
       required: true
 
   - type: input
-    id: date
+    id: start-date
     attributes:
-      label: Event Date
-      description: The date and time of the event
+      label: Start Date
+      description: The start date and time of the event
       placeholder: "YYYY-MM-DD HH:MM AM/PM"
     validations:
       required: true
+
+  - type: input
+    id: end-date
+    attributes:
+      label: End Date
+      description: The end date and time of the event (if different from start date)
+      placeholder: "YYYY-MM-DD HH:MM AM/PM"
+    validations:
+      required: false
 
   - type: input
     id: url

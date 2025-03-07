@@ -40,24 +40,86 @@ jobs:
             const eventName = body.match(/### Event Name\s*\n\s*(.*)/)?.[1] || '';
             const venue = body.match(/### Venue\s*\n\s*(.*)/)?.[1] || '';
             const address = body.match(/### Address\s*\n\s*(.*)/)?.[1] || '';
-            const date = body.match(/### Event Date\s*\n\s*(.*)/)?.[1] || '';
+            const startDate = body.match(/### Start Date\s*\n\s*(.*)/)?.[1] || '';
+            const endDate = body.match(/### End Date\s*\n\s*(.*)/)?.[1] || '';
             const url = body.match(/### Event URL\s*\n\s*(.*)/)?.[1] || '';
             const description = body.match(/### Description\s*\n\s*([\s\S]*?)(?=###|$)/)?.[1]?.trim() || '';
             const eventType = body.match(/### Event Type\s*\n\s*(.*)/)?.[1] || '';
             
-            // Format date to ISO string
-            let formattedDate;
+            // Validation checks
+            const validationErrors = [];
+            
+            if (!eventName.trim()) {
+              validationErrors.push("Event Name is required");
+            }
+            
+            if (!venue.trim()) {
+              validationErrors.push("Venue is required");
+            }
+            
+            if (!address.trim()) {
+              validationErrors.push("Address is required");
+            }
+            
+            if (!startDate.trim()) {
+              validationErrors.push("Start Date is required");
+            }
+            
+            if (!url.trim()) {
+              validationErrors.push("Event URL is required");
+            } else if (!url.match(/^https?:\/\/.+/)) {
+              validationErrors.push("Event URL must be a valid URL starting with http:// or https://");
+            }
+            
+            if (!description.trim()) {
+              validationErrors.push("Description is required");
+            }
+            
+            if (!eventType.trim()) {
+              validationErrors.push("Event Type is required");
+            }
+            
+            // Format start date to ISO string
+            let formattedStartDate;
             try {
-              formattedDate = new Date(date).toISOString();
+              formattedStartDate = new Date(startDate).toISOString();
+              // Check if the date is valid (not Invalid Date)
+              if (isNaN(new Date(startDate).getTime())) {
+                validationErrors.push("Start Date is not a valid date format");
+              }
             } catch (e) {
-              formattedDate = new Date().toISOString(); // Fallback to current date
+              validationErrors.push("Start Date is not a valid date format");
+              formattedStartDate = new Date().toISOString(); // Fallback to current date
+            }
+            
+            // Format end date to ISO string if provided
+            let formattedEndDate = null;
+            if (endDate && endDate.trim()) {
+              try {
+                formattedEndDate = new Date(endDate).toISOString();
+                // Check if the date is valid (not Invalid Date)
+                if (isNaN(new Date(endDate).getTime())) {
+                  validationErrors.push("End Date is not a valid date format");
+                }
+              } catch (e) {
+                validationErrors.push("End Date is not a valid date format");
+              }
+            }
+            
+            // If there are validation errors, return them
+            if (validationErrors.length > 0) {
+              return {
+                success: false,
+                errors: validationErrors,
+                issueTitle: issue.data.title
+              };
             }
             
             // Create event object
             const event = {
               title: eventName,
               link: url,
-              date: formattedDate,
+              date: formattedStartDate,
               description: description,
               source: "community-submission",
               venue: venue,
@@ -65,12 +127,60 @@ jobs:
               type: eventType.toLowerCase()
             };
             
+            // Add end date if provided
+            if (formattedEndDate) {
+              event.endDate = formattedEndDate;
+            }
+            
             return {
+              success: true,
               event: event,
               issueTitle: issue.data.title
             };
       
+      - name: Check for validation errors
+        id: validation
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueData = JSON.parse('${{ steps.issue.outputs.result }}');
+            
+            // If there are validation errors, post them back to the issue
+            if (!issueData.success) {
+              const errorList = issueData.errors.map(error => `- ${error}`).join('\n');
+              
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `## ❌ Validation Errors\n\nThe following errors were found in your event submission:\n\n${errorList}\n\nPlease update your submission and we'll try again.`
+              });
+              
+              // Remove the approved label
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'approved'
+              });
+              
+              // Add a needs-fix label
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['needs-fix']
+              });
+              
+              return core.setFailed('Validation errors found');
+            }
+            
+            return {
+              success: true
+            };
+      
       - name: Add event to calendar
+        if: fromJSON(steps.validation.outputs.result).success
         uses: actions/github-script@v6
         with:
           script: |
@@ -78,8 +188,8 @@ jobs:
             const path = require('path');
             
             // Get the event data from previous step
-            const eventData = JSON.parse('${{ steps.issue.outputs.result }}');
-            const event = eventData.event;
+            const issueData = JSON.parse('${{ steps.issue.outputs.result }}');
+            const event = issueData.event;
             
             // Read the current calendar events
             const calendarPath = path.join(process.env.GITHUB_WORKSPACE, 'src/data/calendar-events.json');
@@ -95,6 +205,7 @@ jobs:
             fs.writeFileSync(calendarPath, JSON.stringify(calendarEvents, null, 2));
       
       - name: Commit and push changes
+        if: fromJSON(steps.validation.outputs.result).success
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
@@ -103,6 +214,7 @@ jobs:
           git push
       
       - name: Close issue
+        if: fromJSON(steps.validation.outputs.result).success
         uses: actions/github-script@v6
         with:
           script: |
