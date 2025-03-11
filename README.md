@@ -55,3 +55,14 @@ When adding or modifying data in the JSON files, make sure they conform to these
 ### Automated Calendar Updates
 
 This project includes a GitHub Actions workflow that automatically updates calendar events every 6 hours. The workflow can also be triggered manually. See `.github/workflows/update-calendar.yml` for details.
+
+### Weekly Meetups Report
+
+A GitHub Actions workflow automatically generates a weekly report of upcoming meetups every Monday at 6:00 AM UTC. The report is saved as a markdown file in the `weekly-meetups` directory with the filename format `YYYY-MM-DD-weekly-meetups.md`, where the date represents the Monday of that week.
+
+The weekly report includes:
+- A list of all meetups happening during the current week
+- Meetups organized by day
+- Details for each meetup including time, group, link, and description
+
+This workflow can also be triggered manually through the GitHub Actions interface. See `.github/workflows/weekly-meetups.yml` for details.

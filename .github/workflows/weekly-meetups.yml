@@ -1,0 +1,45 @@
+name: Generate Weekly Meetups
+
+on:
+  schedule:
+    # Run every Monday at 6:00 AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  generate-weekly-meetups:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for proper date calculations
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run weekly meetups script
+        run: node scripts/generate-weekly-meetups.js
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git status
+          git diff --exit-code --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add weekly-meetups/
+          git commit -m "Generate weekly meetups for $(date +%Y-%m-%d)"
+          git push 
