@@ -33,9 +33,6 @@ jobs:
       # Run validation
       - name: Run JSON validation
         run: npm run validate
-      # Update calendar if needed
-      - name: Update calendar
-        run: npm run update-calendar
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
