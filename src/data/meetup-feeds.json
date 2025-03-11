@@ -90,5 +90,13 @@
   {
     "name": "Leetcode Problem Solving",
     "rssFeed": "https://www.meetup.com/leetcode-problem-solving/events/rss/"
+  },
+  {
+    "name": "757 Python Users Group",
+    "rssFeed": "https://www.meetup.com/757-python-users-group/events/rss/"
+  },
+  {
+    "name": "The Williamsburg Software Developers Group",
+    "rssFeed": "https://www.meetup.com/the-williamsburg-software-developers-group/events/rss/"
   }
 ] 

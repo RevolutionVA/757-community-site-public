@@ -129,5 +129,17 @@
     "url": "https://www.meetup.com/leetcode-problem-solving/",
     "tags": ["Leetcode", "Coding"],
     "category": "Development"
+  },
+  {
+    "name": "757 Python Users Group",
+    "url": "https://www.meetup.com/757-python-users-group/",
+    "tags": ["Python", "Programming"],
+    "category": "Development"
+  },
+  {
+    "name": "The Williamsburg Software Developers Group",
+    "url": "https://www.meetup.com/the-williamsburg-software-developers-group/",
+    "tags": ["Software Development", "Programming"],
+    "category": "Development"
   }
 ] 
