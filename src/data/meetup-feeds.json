@@ -86,5 +86,9 @@
   {
     "name": "UX/UI • Hampton Roads, Virginia",
     "rssFeed": "https://www.meetup.com/ux-ui-hampton-roads-virginia/events/rss/"
+  },
+  {
+    "name": "Leetcode Problem Solving",
+    "rssFeed": "https://www.meetup.com/leetcode-problem-solving/events/rss/"
   }
 ] 
