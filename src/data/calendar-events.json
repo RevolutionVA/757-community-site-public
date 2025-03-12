@@ -1,19 +1,19 @@
 [
   {
-    "title": "Chaos Monkeys, Open Telemetry, and .NET Aspire: Taming Complexity in Modern Apps",
-    "link": "https://www.meetup.com/hampton-roads-net-users-group/events/305972002/",
-    "date": "2025-03-11T22:00:00.000Z",
-    "description": "**IN PERSON ONLY. NO VIRTUAL OPTION. Come on out, network, and learn something!**\n\nJoin us for another great meeting! Come at 6pm to network and have conversations with fellow attendees. The meeting presentation starts around 6:15 pm.\n\n**Abstract:**\n.NET Aspire is far more than just a sleek dashboard for wowing your boss and co-workers. It's also a gateway to increased observability with open telemetry, better fault tolerance to fend off chaos monkeys, and a drastically improved onboarding experience for new developers.\nThis session will explore Microsoft's latest guidance for building distributed, cloud-first applications, with practical strategies for enhancing simpler existing apps. You'll discover the inner workings of Aspire, from installation to customization, and learn how it streamlines integration with performance boosters like Redis. Most importantly, you'll see why scalable microservices architectures can be challenging—and how Aspire helps simplify the journey.",
-    "source": "meetup",
-    "group": "Hampton Roads .NET User Group"
-  },
-  {
     "title": "(CS)²AI Symposium: Cyber Security for Electric Sector",
     "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/306475081/",
     "date": "2025-03-12T17:00:00.000Z",
     "description": "The ***[Cyber Security for Electric Sector Symposium](https://events.zoom.us/ev/Ai7wUv8GifT8qdmJ_cwJms4XFYjRhvkOb_tznLOJ5UCe_3WXBO_q~AqewgSl_c9NzCcEAKVFKAr8FQl-n-A_hGHO6iMVHCDMoaY_jJ58s1hOb_OZ2Cox55qfpZYkE1d74MUIgJOgI0SJOAw)*** will provide tangible recommendations and best practices for electric utilities to address current and upcoming compliance and cybersecurity challenges. Industry practitioners will share their experience on technology solutions and process improvements to mitigate risk faster and build a strong culture of cyber resiliency.\n\nThe symposium will provide ample opportunities throughout the event to interact, ask questions, and leverage the shared expertise of the (CS)²AI community.\n\n***[Click Here to REGISTER](https://events.zoom.us/ev/Ai7wUv8GifT8qdmJ_cwJms4XFYjRhvkOb_tznLOJ5UCe_3WXBO_q~AqewgSl_c9NzCcEAKVFKAr8FQl-n-A_hGHO6iMVHCDMoaY_jJ58s1hOb_OZ2Cox55qfpZYkE1d74MUIgJOgI0SJOAw)***\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nBecoming a paid member is quick and easy \\(and helps us keep offering these educational opportunities\\!\\)\\. Please join now\\! \\[https://www\\.cs2ai\\.org/plans\\-pricing\\]\\(https://www\\.cs2ai\\.org/plans\\-pricing\\)\n\nAll past seminars and symposiums are available to paid CS2AI.ORG members. Check out the Resources area of our website in the Members Portal [[https://www.cs2ai.org/\\](https://www.cs2ai.org/)](https://www.cs2ai.org/](https://www.cs2ai.org/))\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event.https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.",
     "source": "meetup",
     "group": "Hampton Roads Cyber Security for Control Systems"
+  },
+  {
+    "title": "WSDG March Technical Presentation",
+    "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/306246778/",
+    "date": "2025-03-12T22:30:00.000Z",
+    "description": "Garmin FIT Files: Data Engineering and Analysis for Bicycling Data\nby Jon Meek\n\nAbstract:\nData hungry cyclists can collect a lot of data these days including GPS position, altitude, temperature, speed, heart rate, power output, gearing, tire pressure, counts and speeds of passing vehicles. In the Garmin ecosystem of cycling computers and watches data are stored in \"Fit Files\" as a summary of each ride and per second measurements.\n\nWhile the example is cycling data from Garmin devices, and largely implemented in R, topics presented will be generally applicable to data in general and other modern programming languages. Raw data are converted into per-ride Apache Parquet files and rolled up in various ways, including being loaded into DuckDB for analysis. We will look at generating reports for the data using Quarto which works with Python, R, Julia, and Observable to produce HTML, PDF, MS Word, and ePub files. Data visualization examples will include various descriptive statistics plots and geographic maps with interactive data.\n\nBio:\nJon Meek, an Experimental Physicist by training, has had a single job for most of the past 41 years in several roles including building laboratory instrumentation, managing analytical chemistry and IT, and network protection engineering.\n\\-\\-\\-\\-\\-\\-\\-\\-\nThis hybrid meeting will be available both in-person and remotely. For those attending in person, we will be at the Williamsburg Regional Library, Conference Room B.\n\nFor online access, the Zoom info is:\nhttps://us06web.zoom.us/j/2562166096?omn=87827725603\nMeeting ID: 256 216 6096\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule:\n\nApril 9, 6:00 PM - Social Event\n\nMay 14, 6:30 PM - Williamsburg Library, Conference Room B\nAleksandr Podyachev will talk about [Nest.js.](http://nest.js./)\n\nJune 11, 6:00 PM - Social Event\n\nJuly 9, 6:30 PM - Williamsburg Library, Conference Room B\nSujith Paul will present on a topic TBA.\n\nAugust 13, 6:00 PM - Social Event\n\nSeptember 10, 6:30 PM - Williamsburg Library, Conference Room B\nTimothy Stone will discuss Git Commitizenship.\n\nOctober 8, 6:00 PM - Social Event\n\nNovember 12, 6:30 PM - Williamsburg Library, Conference Room B\nPaul Doolittle will present on python in Excel.\n\nDecember 10, 6:00 PM - Social Event",
+    "source": "meetup",
+    "group": "The Williamsburg Software Developers Group"
   },
   {
     "title": "Platform & DevOps Engineering - March 2025 Meeting @ DOMA",
@@ -120,6 +120,14 @@
     "group": "Tidewater Youtube Creators Group"
   },
   {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/305737683/",
+    "date": "2025-04-07T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
+  },
+  {
     "title": "Uncover the Power of Azure AI Search: Navigating Data Made Easy",
     "link": "https://www.meetup.com/hampton-roads-azure-users-group/events/306048077/",
     "date": "2025-04-08T22:00:00.000Z",
@@ -174,6 +182,14 @@
     "description": "Are you ready to take your Youtube channel and digital marketing to the next level in 2024? Well let's take a look at your channel and your plan to make sure you're on the right track.\nSince 2017 I've been serious about serving my community and helping people earn extra income online. Now is the time to set yourself up for multiple streams of income because as I'm sure you've noticed, EVERYTHING COSTS MORE!\nJoin us for a virtual meeting w/ like minds to see how we can all learn and grow together. Here's the link to the virtual class starting at 1:30pm EST: https://streamyard.com/p857p2pqeg",
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group"
+  },
+  {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhchbcb/",
+    "date": "2025-05-01T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
   },
   {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
@@ -256,6 +272,14 @@
     "group": "Virginia Beach Bitcoin"
   },
   {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhcjbhb/",
+    "date": "2025-06-05T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
+  },
+  {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
     "link": "https://www.meetup.com/tidewater-youtube-creators-group/events/306574140/",
     "date": "2025-06-12T18:00:00.000Z",
@@ -302,6 +326,14 @@
     "description": "Bitcoin education / presentation / workshop meetup.\n\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin"
+  },
+  {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhckbfb/",
+    "date": "2025-07-03T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
   },
   {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
@@ -368,12 +400,28 @@
     "group": "Virginia Beach Bitcoin"
   },
   {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhclbkb/",
+    "date": "2025-08-07T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
+  },
+  {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
     "link": "https://www.meetup.com/757dev/events/jnvfvsyhclbjc/",
     "date": "2025-08-26T23:30:00.000Z",
     "description": "Do you work with technology or for a tech company? Do you speak geek? Come network with other technology industry workers for a casual, conversational happy hour.\n\nThis meetup is loosely organized, but very consistently scheduled. If you want to meet up somewhere else, share it in the #peninsula channel at 757dev.org Slack, or in the comments.",
     "source": "meetup",
     "group": "757 Developers"
+  },
+  {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhcmbgb/",
+    "date": "2025-09-04T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -384,12 +432,28 @@
     "group": "757 Developers"
   },
   {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhcnbdb/",
+    "date": "2025-10-02T23:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
+  },
+  {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
     "link": "https://www.meetup.com/757dev/events/jnvfvsyhcnblc/",
     "date": "2025-10-28T23:30:00.000Z",
     "description": "Do you work with technology or for a tech company? Do you speak geek? Come network with other technology industry workers for a casual, conversational happy hour.\n\nThis meetup is loosely organized, but very consistently scheduled. If you want to meet up somewhere else, share it in the #peninsula channel at 757dev.org Slack, or in the comments.",
     "source": "meetup",
     "group": "757 Developers"
+  },
+  {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhcpbjb/",
+    "date": "2025-11-07T00:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -400,11 +464,27 @@
     "group": "757 Developers"
   },
   {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhcqbgb/",
+    "date": "2025-12-05T00:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
+  },
+  {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
     "link": "https://www.meetup.com/757dev/events/jnvfvsyhcqbfc/",
     "date": "2025-12-24T00:30:00.000Z",
     "description": "Do you work with technology or for a tech company? Do you speak geek? Come network with other technology industry workers for a casual, conversational happy hour.\n\nThis meetup is loosely organized, but very consistently scheduled. If you want to meet up somewhere else, share it in the #peninsula channel at 757dev.org Slack, or in the comments.",
     "source": "meetup",
     "group": "757 Developers"
+  },
+  {
+    "title": "Leetcode problem solving",
+    "link": "https://www.meetup.com/leetcode-problem-solving/events/vqnsptyjccbcb/",
+    "date": "2026-01-02T00:00:00.000Z",
+    "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
+    "source": "meetup",
+    "group": "Leetcode Problem Solving"
   }
 ]
