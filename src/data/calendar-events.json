@@ -296,6 +296,14 @@
     "group": "Virginia Beach Bitcoin"
   },
   {
+    "title": "Joey D'Antoni: Why SQL Server is Still Worth It",
+    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/306772557/",
+    "date": "2025-05-21T22:00:00.000Z",
+    "description": "**IN PERSON MEETING!!!!!**\nYou hear a lot in the tech media about the movement to open source databases to reduce the overall cost of applications. Sure databases like PostgreSQL and DuckDB do specific things well, but they do have tradeoffs. In this session you will learn about when it can be a good idea to choose an open-source database for your application, but you will also learn about some of the features that make SQL Server (and all of the related Azure services) stand out ahead of the “free” open-source databases.",
+    "source": "meetup",
+    "group": "Hampton Roads SQL Server User Group"
+  },
+  {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
     "link": "https://www.meetup.com/757dev/events/jnvfvsyhchbkc/",
     "date": "2025-05-27T23:30:00.000Z",
@@ -486,6 +494,14 @@
     "description": "Obtain your (ISC)2 Certified in Cybersecurity certification. - $50\n\nThis is a Members Only course - Join BUiLT [HERE](https://builtinternational.org/sign-up/#join).\nSign up for the course [HERE](https://builtinternational.org/traininglist/).\n\nAttend the 4 weeks of online self-paced training and study group review sessions to obtain the ISC2 certified in cybersecurity certification. The course provides a self-paced study guide, certification test voucher, and a weekly study group review of the subject matter published in the (ISC)² Certified in Cybersecurity exam outline, which shares the security concepts on which certification candidates will be evaluated, including:\n\n* Security Principles, Business Continuity, Disaster Recovery (DR)\n* Incident Response and Access Controls\n* Network Security\n* Security Operations\n\nThose who earn the ISC2 Certified in Cybersecurity demonstrate to employers that they have the foundational knowledge, skills, and abilities necessary for an entry-level cybersecurity role.\n\nCohort Sessions Are:\nAugust 8, 6:00 - 7:00 pm CST on Security Principles, BC, DR\nAugust 15, 6:00 - 7:00 pm CST on Incident Response and Access Controls\nAugust 22, 6:00 - 7:00 pm CST on Network Operations\nAugust 29, 6:00 - 7:00 pm CST on Security Operations",
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads"
+  },
+  {
+    "title": "Aleksandr Podyachev- PostgreSQL: The Database Of The 21st Century",
+    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/306772539/",
+    "date": "2025-08-20T22:00:00.000Z",
+    "description": "**IN PERSON MEETING!!!!!**\nAbstract: PostgreSQL is a relational database that is free and open source and is becoming popular. It is extensible and free to use commercially. You have the option to use both relational database features and Json storage features. It is also very performant, so it can be used in production.",
+    "source": "meetup",
+    "group": "Hampton Roads SQL Server User Group"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
