@@ -32,8 +32,9 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git status
-          git diff --exit-code --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Commit and push if changes
         if: steps.check_changes.outputs.changes == 'true'
