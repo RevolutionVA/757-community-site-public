@@ -1,13 +1,5 @@
 [
   {
-    "title": "(CS)²AI Online™ Seminar: Capturing ICS/OT Firmware Changes",
-    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/306702761/",
-    "date": "2025-03-19T17:00:00.000Z",
-    "description": "To **JOIN** the event, **[REGISTER Here](https://events.zoom.us/ev/Assa-6cO-OFgiyw3FaGEfryP7cedzIZHMAAgvw6qOtQLRS7K7CQA~AhnxEvUUAWLzhJ02155bKRgUuDgCsbFnIB51kV7PAve3rHinUBwnohaFCnxVlKkA5nE2NuhnPjct5Ynxg8gAUBgzJw)**\n\nJoin us for an insightful session of (CS)²AI Online™, where we dive into the critical topic of capturing firmware changes in Industrial Control Systems (ICS) and Operational Technology (OT) environments. As cyber threats evolve, understanding and managing firmware integrity has become a cornerstone of ICS/OT security.\n\n*In this session, you'll learn:*\n\n* The importance of tracking and analyzing firmware changes in ICS/OT systems.\n* Best practices for maintaining operational continuity and security.\n* Techniques to detect unauthorized or unexpected modifications to firmware.\n* Tools and strategies for automating firmware change management.\n\nWhether you're an ICS/OT engineer, cybersecurity professional, or decision-maker, this event will equip you with the knowledge to safeguard your systems and stay ahead of potential threats.\n\n**[REGISTER NOW](https://events.zoom.us/ev/Assa-6cO-OFgiyw3FaGEfryP7cedzIZHMAAgvw6qOtQLRS7K7CQA~AhnxEvUUAWLzhJ02155bKRgUuDgCsbFnIB51kV7PAve3rHinUBwnohaFCnxVlKkA5nE2NuhnPjct5Ynxg8gAUBgzJw)**\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nBecoming a paid member is quick and easy \\(and helps us keep offering these educational opportunities\\!\\)\\. Please join now\\! \\[https://www\\.cs2ai\\.org/plans\\-pricing\\]\\(https://www\\.cs2ai\\.org/plans\\-pricing\\)\n\nAll past seminars and symposiums are available to paid CS2AI.ORG members. Check out the Resources area of our website in the Members Portal [[https://www.cs2ai.org/\\](https://www.cs2ai.org/)](https://www.cs2ai.org/](https://www.cs2ai.org/))\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event.https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.",
-    "source": "meetup",
-    "group": "Hampton Roads Cyber Security for Control Systems"
-  },
-  {
     "title": "Carlos Chacon: All about Microsoft Fabric",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/305595958/",
     "date": "2025-03-19T22:00:00.000Z",
@@ -206,6 +198,14 @@
     "description": "Obtain your (ISC)2 Certified in Cybersecurity certification. - $50\n\nThis is a Members Only course - Join BUiLT [HERE](https://builtinternational.org/sign-up/#join).\nSign up for the course [HERE](https://builtinternational.org/traininglist/).\n\nAttend the 4 weeks of online self-paced training and study group review sessions to obtain the ISC2 certified in cybersecurity certification. The course provides a self-paced study guide, certification test voucher, and a weekly study group review of the subject matter published in the (ISC)² Certified in Cybersecurity exam outline, which shares the security concepts on which certification candidates will be evaluated, including:\n\n* Security Principles, Business Continuity, Disaster Recovery (DR)\n* Incident Response and Access Controls\n* Network Security\n* Security Operations\n\nThose who earn the ISC2 Certified in Cybersecurity demonstrate to employers that they have the foundational knowledge, skills, and abilities necessary for an entry-level cybersecurity role.\n\nCohort Sessions Are:\nFebruary 7, 6:00 - 7:00 pm CST on Security Principles, BC, DR\nFebruary 14, 6:00 - 7:00 pm CST on Incident Response and Access Controls\nFebruary 21, 6:00 - 7:00 pm CST on Network Operations\nFebruary 28, 6:00 - 7:00 pm CST on Security Operations",
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads"
+  },
+  {
+    "title": "\"How I Didn't Build 757tech.org\" presented by Kevin Griffin",
+    "link": "https://www.meetup.com/norfolkjs/events/306808944/",
+    "date": "2025-04-28T22:30:00.000Z",
+    "description": "\"How I Didn't Build 757tech.org\" presented by Kevin Griffin\n\nKevin has built many things, but 757tech.org isn't one of them. Have you ever wondered about the limits of not doing anything? Join us for a look inside the latest community platform that Kevin didn't make.\n\nAll skill levels are welcome! If you've ever been interested in web development, come on by.\n\nAs always, HUGE thanks to Assembly for hosting.\nLearn more about the amenities and community of Assembly at [https://www.assemblynfk.com/](https://www.assemblynfk.com/)",
+    "source": "meetup",
+    "group": "Norfolk.js"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
