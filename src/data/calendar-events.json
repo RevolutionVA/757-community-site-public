@@ -1,13 +1,5 @@
 [
   {
-    "title": "Carlos Chacon: All about Microsoft Fabric",
-    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/305595958/",
-    "date": "2025-03-19T22:00:00.000Z",
-    "description": "**IN PERSON MEETING!!!!!**\n\nAll about Microsoft Fabric\nLet's explore the incredible potential of Microsoft Fabric, a cutting-edge data platform designed to unlock the full power of your data and artificial intelligence (AI). With its robust suite of capabilities, Microsoft Fabric empowers organizations to leverage data effectively and extract actionable insights. Join us as we dive into the key components of Microsoft Fabric, including OneLake, the revolutionary \"OneDrive for data\" solution that simplifies data storage, organization, and sharing. From leveraging lakehouses and notebooks, to data warehousing and data movement with Pipelines and Dataflows, we will also delve into how this empowers Power BI, Microsoft's leading business intelligence tool, which allows users to visualize data and gain valuable insights through interactive dashboards and reports. Whether you're a data scientist, analyst, or business professional seeking to harness the potential of your data, AI and drive informed decision-making, this session will provide you with a comprehensive overview of Microsoft Fabric's capabilities. Join us to discover how to leverage OneLake, Power BI, and Synapse Data Engineering and more to accelerate your journey towards data-driven success.",
-    "source": "meetup",
-    "group": "Hampton Roads SQL Server User Group"
-  },
-  {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
     "link": "https://www.meetup.com/tidewater-youtube-creators-group/events/305698046/",
     "date": "2025-03-20T18:00:00.000Z",
