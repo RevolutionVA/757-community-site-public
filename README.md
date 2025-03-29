@@ -67,4 +67,4 @@ The weekly report includes:
 
 This workflow can also be triggered manually through the GitHub Actions interface. See `.github/workflows/weekly-meetups.yml` for details.
 
-Yay!
+Yay!!
