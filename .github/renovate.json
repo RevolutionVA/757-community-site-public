@@ -21,5 +21,11 @@
   "baseBranches": ["main"],
   "constraints": {
     "npm": "^9.0.0"
-  }
+  },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am on monday"]
+  },
+  "packageManager": "yarn",
+  "commitMessageAction": "Update"
 } 
