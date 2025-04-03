@@ -40,7 +40,7 @@ function formatEventDate(dateString: string) {
     minute: '2-digit',
     timeZone: 'America/New_York'
   });
-  return `${dayOfWeek}, ${month} ${dayOfMonth} @ ${time}`;
+  return `${dayOfWeek}, ${month} ${dayOfMonth} · ${time}`;
 }
 ---
 
@@ -51,7 +51,7 @@ function formatEventDate(dateString: string) {
     <ul class="event-list">
       {thisWeekEvents.map((event) => (
         <li class="event-item">
-          <div class="event-date">{formatEventDate(event.date)}</div>
+          <div class="event-date" title={formatEventDate(event.date)}>{formatEventDate(event.date)}</div>
           <div class="event-details">
             <a href={event.link} target="_blank" rel="noopener noreferrer" class="event-title">
               {event.title}
@@ -105,9 +105,12 @@ function formatEventDate(dateString: string) {
   }
 
   .event-date {
-    flex: 0 0 160px;
+    flex: 0 0 auto;
     font-weight: bold;
     color: #555;
+    white-space: nowrap;
+    margin-right: 1rem;
+    min-width: 180px;
   }
 
   .event-details {
@@ -161,10 +164,19 @@ function formatEventDate(dateString: string) {
     .event-date {
       flex: 0 0 auto;
       margin-bottom: 0.5rem;
+      margin-right: 0;
+      min-width: unset;
     }
 
     .event-details {
       flex: 1 0 100%;
+    }
+  }
+
+  /* Medium screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .event-date {
+      min-width: 160px;
     }
   }
 </style> 
