@@ -1,36 +1,6 @@
 *Meetups This Week (Monday - Sunday)*
 
-*8 Meetups This Week*
-
-*Monday, March 31*
-• *Level Zero Conference* - 12:00 PM
-  Hampton Roads Cyber Security for Control Systems
-  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/305762670/ (Event Link)
-
-• *Hands-on Workshop: REST APIs to Praise Cage!* - 10:30 PM
-  Norfolk.js
-  https://www.meetup.com/norfolkjs/events/306400168/ (Event Link)
-
-
-*Tuesday, April 1*
-• *Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking* - 09:30 PM
-  Information Systems Security Association ISSA Hampton Roads
-  https://www.meetup.com/issa-hampton-roads/events/305689698/ (Event Link)
-
-• *AI Cybersecurity -ISSA-HR Monthly Meeting - Creating your own private AI System* - 09:30 PM
-  Information Systems Security Association ISSA Hampton Roads
-  https://www.meetup.com/issa-hampton-roads/events/305689698/ (Event Link)
-
-
-*Wednesday, April 2*
-• *Bitcoin meetup Educational* - 10:30 PM
-  Virginia Beach Bitcoin
-  https://www.meetup.com/virginia-beach-bitcoin/events/qtjhqtyhcgbdb/ (Event Link)
-
-• *Truth About Black Tech Overcomers - Through Extended Job Searches* - 11:00 PM
-  Blacks United in Leading Technology - Hampton Roads
-  https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307016986/ (Event Link)
-
+*2 Meetups This Week*
 
 *Thursday, April 3*
 • *How to start & GROW your Youtube Channel for FUN and Profit* - 06:00 PM
