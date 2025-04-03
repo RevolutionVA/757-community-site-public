@@ -5,7 +5,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["name", "url", "tags", "category", "rssFeed", "metadata"],
+    "required": ["name", "url", "tags", "category", "metadata"],
     "properties": {
       "name": {
         "type": "string",
@@ -40,8 +40,8 @@
         "properties": {
           "imageUrl": {
             "type": "string",
-            "format": "uri",
-            "description": "URL to the meetup's cover image"
+            "pattern": "^/images/.*$",
+            "description": "URL to the meetup's cover image (must be a relative path starting with /images/)"
           },
           "title": {
             "type": "string",
