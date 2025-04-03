@@ -31,7 +31,7 @@ const filesToValidate = [
     schemaFile: 'conferences.schema.json' 
   },
   { 
-    dataFile: 'meetups.json', 
+    dataFile: 'meetup-groups.json', 
     schemaFile: 'meetups.schema.json' 
   }
 ];

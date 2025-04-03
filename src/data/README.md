@@ -4,18 +4,19 @@ This directory contains data files used by the 757 Community website.
 
 ## Meetups Data
 
-The `meetups.json` file contains information about all the meetups in the Hampton Roads area. The data is organized as an array of objects, with each object representing a meetup.
+The `meetup-groups.json` file contains information about all the meetups in the Hampton Roads area. The data is organized as an array of objects, with each object representing a meetup.
 
 ### Adding or Updating a Meetup
 
-To add a new meetup or update an existing one, edit the `meetups.json` file. Each meetup object should have the following properties:
+To add a new meetup or update an existing one, edit the `meetup-groups.json` file. Each meetup object should have the following properties:
 
 ```json
 {
   "name": "Name of the Meetup",
   "url": "https://url-to-the-meetup.com",
   "tags": ["Tag1", "Tag2"],
-  "category": "Development | Technology | Design",
+  "category": "Development | Technology | Design | Cloud",
+  "rssFeed": "https://url-to-the-meetup.com/events/rss/",
   "coverImage": "https://url-to-cover-image.com/image.jpg"
 }
 ```
@@ -23,7 +24,8 @@ To add a new meetup or update an existing one, edit the `meetups.json` file. Eac
 - **name**: The name of the meetup
 - **url**: The URL to the meetup's website or page
 - **tags**: An array of tags that describe the meetup
-- **category**: The category of the meetup (must be one of: "Development", "Technology", or "Design")
+- **category**: The category of the meetup (must be one of: "Development", "Technology", "Design", or "Cloud")
+- **rssFeed**: The URL to the meetup's RSS feed for events
 - **coverImage**: (Optional) URL to a fallback cover image for the meetup
 
 ### Dynamic Metadata Loading
@@ -55,7 +57,8 @@ If the metadata extraction fails, the system will use:
   "name": "Norfolk.js",
   "url": "https://www.meetup.com/NorfolkJS/",
   "tags": ["Javascript", "Web development"],
-  "category": "Development"
+  "category": "Development",
+  "rssFeed": "https://www.meetup.com/NorfolkJS/events/rss/"
 }
 ```
 
@@ -123,7 +126,7 @@ The `calendar-events.json` file contains upcoming tech events in the Hampton Roa
 
 There are two ways to add events to the calendar:
 
-1. **Automatic (for Meetup groups)**: If your event is hosted on Meetup.com, you can add your group's RSS feed to the `meetup-feeds.json` file. The GitHub Action will automatically fetch events from your feed.
+1. **Automatic (for Meetup groups)**: If your event is hosted on Meetup.com, you can add your group's RSS feed to the `meetup-groups.json` file. The GitHub Action will automatically fetch events from your feed.
 
 2. **Manual**: You can manually add events to the `calendar-events.json` file by creating a pull request. This is useful for events that are not hosted on Meetup.com.
 
@@ -151,24 +154,6 @@ Each event in the `calendar-events.json` file should have the following format:
 
 ### Adding a Meetup Group
 
-To add a Meetup group to the automatic updates, add an entry to the `meetup-feeds.json` file with the following format:
+To add a Meetup group to the automatic updates, add an entry to the `meetup-groups.json` file with the following format:
 
-```json
-{
-  "name": "Group Name",
-  "rssFeed": "https://www.meetup.com/group-url-name/events/rss/"
-}
 ```
-
-- `name`: The name of the group
-- `rssFeed`: The URL to the group's RSS feed for events
-
-After adding your group, create a pull request. Once merged, the GitHub Action will automatically fetch events from your group's feed.
-
-## Contributing
-
-1. Fork the repository
-2. Make your changes to the `meetups.json` file
-3. Submit a pull request
-
-Thank you for contributing to the 757 Community website! 

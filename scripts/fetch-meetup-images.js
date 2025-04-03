@@ -23,7 +23,7 @@ const __dirname = path.dirname(__filename);
 const dataDir = path.join(__dirname, '../src/data');
 const publicDir = path.join(__dirname, '../public');
 const meetupsImagesDir = path.join(publicDir, 'images/meetups');
-const metadataOutputPath = path.join(dataDir, 'meetup-metadata.json');
+const metadataOutputPath = path.join(dataDir, 'meetup-groups.json');
 
 // Create meetups images directory if it doesn't exist
 if (!fs.existsSync(meetupsImagesDir)) {
@@ -32,7 +32,7 @@ if (!fs.existsSync(meetupsImagesDir)) {
 }
 
 // Load meetups data
-const meetupsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'meetups.json'), 'utf8'));
+const meetupsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'meetup-groups.json'), 'utf8'));
 console.log(chalk.blue(`Loaded ${meetupsData.length} meetups from data file`));
 
 // Function to extract Open Graph metadata from a URL
@@ -157,7 +157,7 @@ async function processMeetups() {
     const exists = await urlExists(url);
     if (!exists) {
       console.log(chalk.red(`Warning: Meetup URL does not exist: ${url}`));
-      console.log(chalk.yellow(`Consider removing or updating the entry for "${name}" in meetups.json`));
+      console.log(chalk.yellow(`Consider removing or updating the entry for "${name}" in meetup-groups.json`));
       
       // Add to metadata with a special note
       metadata[url] = {
@@ -234,7 +234,7 @@ async function processMeetups() {
   }
   
   if (nonExistentCount > 0) {
-    console.log(chalk.red(`Found ${nonExistentCount} non-existent meetups (consider removing them from meetups.json)`));
+    console.log(chalk.red(`Found ${nonExistentCount} non-existent meetups (consider removing them from meetup-groups.json)`));
   }
 }
 

@@ -1,5 +1,5 @@
 import Parser from 'rss-parser';
-import meetupFeeds from '../../data/meetup-feeds.json';
+import meetupGroups from '../../data/meetup-groups.json';
 
 // Create a new RSS parser instance
 const parser = new Parser();
@@ -27,7 +27,7 @@ export async function GET({ request }) {
     }
 
     // Fetch all RSS feeds in parallel
-    const feedPromises = meetupFeeds.map(async (meetup) => {
+    const feedPromises = meetupGroups.map(async (meetup) => {
       try {
         // In a real implementation, we would fetch the actual RSS feed
         // For now, we'll use a proxy or mock data
@@ -92,8 +92,8 @@ function getMockEvents() {
     const eventDate = new Date(today);
     eventDate.setDate(today.getDate() + Math.floor(Math.random() * 180)); // Random date in next 6 months
     
-    const meetupIndex = Math.floor(Math.random() * meetupFeeds.length);
-    const meetup = meetupFeeds[meetupIndex];
+    const meetupIndex = Math.floor(Math.random() * meetupGroups.length);
+    const meetup = meetupGroups[meetupIndex];
     
     mockEvents.push({
       title: `${meetup.name} Meetup - ${i + 1}`,

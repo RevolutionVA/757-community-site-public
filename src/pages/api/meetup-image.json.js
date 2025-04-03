@@ -7,7 +7,7 @@ export const prerender = true;
 // Import the pre-fetched meetup metadata
 import meetupMetadata from '../../data/meetup-metadata.json';
 // Import meetups data to get LinkedIn image URLs if needed
-import meetupsData from '../../data/meetups.json';
+import meetupGroups from '../../data/meetup-groups.json';
 
 export const GET = async ({ params, request }) => {
   try {
@@ -33,7 +33,7 @@ export const GET = async ({ params, request }) => {
     // For LinkedIn URLs, always use the LinkedIn default image
     if (isLinkedInUrl) {
       // Find the meetup in meetupsData to get the name
-      const linkedInMeetup = meetupsData.find(meetup => meetup.url === targetUrl);
+      const linkedInMeetup = meetupGroups.find(meetup => meetup.url === targetUrl);
       const meetupName = linkedInMeetup ? linkedInMeetup.name : "LinkedIn Profile";
       
       return new Response(JSON.stringify({

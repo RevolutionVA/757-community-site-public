@@ -1,5 +1,5 @@
 ---
-import meetupMetadata from '../data/meetup-metadata.json';
+import meetupGroups from '../data/meetup-groups.json';
 
 interface Props {
   url: string;
@@ -16,7 +16,7 @@ interface MeetupMetadata {
 }
 
 // Type assertion for the imported JSON
-const typedMeetupMetadata = meetupMetadata as Record<string, MeetupMetadata>;
+const typedMeetupMetadata = meetupGroups as Record<string, MeetupMetadata>;
 
 const { url, title, fallbackImage = '/images/default-meetup.jpg', showMetadata = false } = Astro.props;
 

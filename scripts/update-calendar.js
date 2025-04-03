@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 // Path to the calendar events JSON file
 const CALENDAR_FILE_PATH = path.join(__dirname, '..', 'src', 'data', 'calendar-events.json');
 // Path to the meetup feeds JSON file
-const MEETUP_FEEDS_PATH = path.join(__dirname, '..', 'src', 'data', 'meetup-feeds.json');
+const MEETUP_FEEDS_PATH = path.join(__dirname, '..', 'src', 'data', 'meetup-groups.json');
 
 // Flag to use mock data if no real events are found
 const USE_MOCK_DATA_IF_EMPTY = false;

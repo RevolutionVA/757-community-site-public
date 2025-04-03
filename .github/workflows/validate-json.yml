@@ -29,6 +29,6 @@ jobs:
         run: |
           ajv validate -s src/data/schemas/conferences.schema.json -d src/data/conferences.json --strict=false --all-errors
 
-      - name: Validate meetups.json
+      - name: Validate meetup-groups.json
         run: |
-          ajv validate -s src/data/schemas/meetups.schema.json -d src/data/meetups.json --strict=false --all-errors
+          ajv validate -s src/data/schemas/meetups.schema.json -d src/data/meetup-groups.json --strict=false --all-errors
