@@ -105,8 +105,10 @@ function parseDate(dateStr) {
     // Try parsing as ISO date or GMT date
     const date = new Date(dateStr);
     if (!isNaN(date.getTime())) {
-      // Convert from GMT to Eastern time
-      const easternDate = new Date(date.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      // Properly handle timezone conversion
+      // Instead of using toLocaleString which creates incorrect timezone results
+      // Convert to ISO string and adjust for Eastern Time (UTC-4 or UTC-5 depending on DST)
+      const easternDate = new Date(date.getTime());
       log(`Successfully parsed date: ${dateStr} -> ${easternDate.toISOString()}`, LOG_LEVELS.DEBUG);
       return easternDate;
     }
@@ -127,7 +129,7 @@ function parseDate(dateStr) {
       if (ampm === 'PM' && hours < 12) hours += 12;
       if (ampm === 'AM' && hours === 12) hours = 0;
       
-      // Create date in Eastern timezone
+      // Create date in local timezone (don't try to convert)
       const parsedDate = new Date(
         parseInt(year, 10),
         months[month],
@@ -136,12 +138,9 @@ function parseDate(dateStr) {
         parseInt(minute, 10)
       );
       
-      // Convert to Eastern timezone
-      const easternDate = new Date(parsedDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-      
-      if (!isNaN(easternDate.getTime())) {
-        log(`Successfully parsed date using regex: ${dateStr} -> ${easternDate.toISOString()}`, LOG_LEVELS.DEBUG);
-        return easternDate;
+      if (!isNaN(parsedDate.getTime())) {
+        log(`Successfully parsed date using regex: ${dateStr} -> ${parsedDate.toISOString()}`, LOG_LEVELS.DEBUG);
+        return parsedDate;
       }
     }
     
@@ -202,10 +201,9 @@ async function extractEventDateFromEventPage(eventUrl) {
           const eventDate = new Date(jsonLd.startDate);
           
           if (!isNaN(eventDate.getTime())) {
-            // Convert from GMT to Eastern time
-            const easternDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-            log(`Successfully extracted event date from page: ${easternDate.toISOString()}`, LOG_LEVELS.INFO);
-            return easternDate;
+            // Use the date directly without timezone conversion
+            log(`Successfully extracted event date from page: ${eventDate.toISOString()}`, LOG_LEVELS.INFO);
+            return eventDate;
           }
         }
       } catch (jsonError) {
@@ -225,10 +223,9 @@ async function extractEventDateFromEventPage(eventUrl) {
       
       const eventDate = new Date(dateStr);
       if (!isNaN(eventDate.getTime())) {
-        // Convert from GMT to Eastern time
-        const easternDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-        log(`Successfully extracted date from HTML: ${easternDate.toISOString()}`, LOG_LEVELS.INFO);
-        return easternDate;
+        // Use the date directly without timezone conversion
+        log(`Successfully extracted date from HTML: ${eventDate.toISOString()}`, LOG_LEVELS.INFO);
+        return eventDate;
       }
     }
     
@@ -536,6 +533,12 @@ async function fetchUrl(url) {
  */
 async function fetchMeetupEvents(meetup) {
   try {
+    // Check if the meetup has a valid RSS feed
+    if (!meetup.rssFeed) {
+      log(`No RSS feed available for ${meetup.name}, skipping`, LOG_LEVELS.WARN);
+      return [];
+    }
+    
     log(`Fetching events for ${meetup.name} from ${meetup.rssFeed}`, LOG_LEVELS.INFO);
     
     // Add a timeout to the parser.parseURL call
@@ -636,6 +639,95 @@ async function fetchMeetupEvents(meetup) {
 }
 
 /**
+ * Alternative method to fetch meetup events when RSS feed is not available
+ * @param {Object} meetup - The meetup object with name and url properties
+ * @returns {Promise<Array>} - A promise that resolves to an array of events
+ */
+async function fetchMeetupEventsAlternative(meetup) {
+  try {
+    if (!meetup.url) {
+      log(`No URL available for ${meetup.name}, cannot fetch events`, LOG_LEVELS.WARN);
+      return [];
+    }
+    
+    log(`Attempting to fetch events for ${meetup.name} from ${meetup.url} using alternative method`, LOG_LEVELS.INFO);
+    
+    // Fetch the meetup page HTML
+    const html = await fetchUrl(meetup.url);
+    
+    // Extract upcoming events from the HTML
+    // This is a simplified approach and may need to be adjusted based on the meetup platform's HTML structure
+    const events = [];
+    
+    // Look for event data in the page (this pattern will need customization based on the actual HTML structure)
+    const eventBlocks = html.match(/<div[^>]*?event-card[^>]*?>[\s\S]*?<\/div>/g) || [];
+    log(`Found ${eventBlocks.length} potential event blocks for ${meetup.name}`, LOG_LEVELS.DEBUG);
+    
+    for (const block of eventBlocks) {
+      try {
+        // Extract title
+        const titleMatch = block.match(/<h3[^>]*?>([\s\S]*?)<\/h3>/) || 
+                           block.match(/data-event-title="([^"]+)"/) ||
+                           block.match(/<div[^>]*?event-title[^>]*?>([\s\S]*?)<\/div>/);
+        if (!titleMatch) continue;
+        
+        const title = titleMatch[1].replace(/<[^>]*>/g, '').trim();
+        
+        // Extract link
+        const linkMatch = block.match(/href="([^"]+)"/);
+        if (!linkMatch) continue;
+        
+        let link = linkMatch[1];
+        // Make sure the link is absolute
+        if (link.startsWith('/')) {
+          const urlObj = new URL(meetup.url);
+          link = `${urlObj.protocol}//${urlObj.host}${link}`;
+        }
+        
+        // Extract date (this will be highly dependent on the site structure)
+        const dateMatch = block.match(/datetime="([^"]+)"/) || 
+                          block.match(/data-event-date="([^"]+)"/) ||
+                          block.match(/<time[^>]*?>([\s\S]*?)<\/time>/);
+        
+        if (!dateMatch) continue;
+        
+        const dateStr = dateMatch[1];
+        const date = parseDate(dateStr);
+        
+        if (!date) continue;
+        
+        // Extract description (if available)
+        const descMatch = block.match(/<p[^>]*?description[^>]*?>([\s\S]*?)<\/p>/) || 
+                          block.match(/<div[^>]*?description[^>]*?>([\s\S]*?)<\/div>/);
+        const description = descMatch ? cleanDescription(descMatch[1]) : '';
+        
+        // Create the event object
+        const event = {
+          title,
+          link,
+          date: date.toISOString(),
+          description,
+          source: 'meetup-alt',
+          group: meetup.name
+        };
+        
+        events.push(event);
+        log(`Added event from alternative source: ${event.title} on ${event.date}`, LOG_LEVELS.DEBUG);
+      } catch (blockError) {
+        log(`Error processing event block for ${meetup.name}: ${blockError.message}`, LOG_LEVELS.ERROR);
+        // Continue with next block
+      }
+    }
+    
+    log(`Fetched ${events.length} events for ${meetup.name} using alternative method`, LOG_LEVELS.INFO);
+    return events;
+  } catch (error) {
+    log(`Error fetching events for ${meetup.name} using alternative method: ${error.message}`, LOG_LEVELS.ERROR);
+    return [];
+  }
+}
+
+/**
  * Creates manual test events for development
  * @returns {Array} - An array of test events
  */
@@ -725,33 +817,64 @@ async function fetchAllEvents() {
       throw new Error('Meetups data is not an array');
     }
     
-    // Process feeds sequentially to avoid too many concurrent requests
-    log(`Fetching events from ${meetups.length} meetups`, LOG_LEVELS.INFO);
+    // Split meetups into those with and without RSS feeds
+    const meetupsWithRssFeeds = meetups.filter(m => m.rssFeed);
+    const meetupsWithoutRssFeeds = meetups.filter(m => !m.rssFeed);
+    
+    if (meetupsWithoutRssFeeds.length > 0) {
+      log(`Note: ${meetupsWithoutRssFeeds.length} meetups don't have RSS feeds and will be processed differently:`, LOG_LEVELS.INFO);
+      meetupsWithoutRssFeeds.forEach(m => {
+        log(`  - ${m.name}`, LOG_LEVELS.INFO);
+      });
+    }
+    
+    // Process meetups with RSS feeds
+    log(`Fetching events from ${meetupsWithRssFeeds.length} meetups with RSS feeds`, LOG_LEVELS.INFO);
     const meetupEvents = [];
     
     // Process feeds in batches to avoid overwhelming the server
     const BATCH_SIZE = 3;
     
-    for (let i = 0; i < meetups.length; i += BATCH_SIZE) {
-      const batch = meetups.slice(i, i + BATCH_SIZE);
-      log(`Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(meetups.length / BATCH_SIZE)}`, LOG_LEVELS.DEBUG);
+    for (let i = 0; i < meetupsWithRssFeeds.length; i += BATCH_SIZE) {
+      const batch = meetupsWithRssFeeds.slice(i, i + BATCH_SIZE);
+      log(`Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(meetupsWithRssFeeds.length / BATCH_SIZE)}`, LOG_LEVELS.DEBUG);
       
       const batchResults = await Promise.all(batch.map(meetup => fetchMeetupEvents(meetup)));
       batchResults.forEach(events => meetupEvents.push(...events));
       
       // Add a small delay between batches to be nice to the server
-      if (i + BATCH_SIZE < meetups.length) {
+      if (i + BATCH_SIZE < meetupsWithRssFeeds.length) {
         log(`Waiting before processing next batch...`, LOG_LEVELS.DEBUG);
         await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
       }
     }
     
-    log(`Fetched a total of ${meetupEvents.length} events from meetups`, LOG_LEVELS.INFO);
+    log(`Fetched a total of ${meetupEvents.length} events from meetups with RSS feeds`, LOG_LEVELS.INFO);
+    
+    // Process meetups without RSS feeds using alternative method
+    log(`Fetching events from ${meetupsWithoutRssFeeds.length} meetups without RSS feeds`, LOG_LEVELS.INFO);
+    const alternativeEvents = [];
+    
+    for (let i = 0; i < meetupsWithoutRssFeeds.length; i += BATCH_SIZE) {
+      const batch = meetupsWithoutRssFeeds.slice(i, i + BATCH_SIZE);
+      log(`Processing alternative batch ${i / BATCH_SIZE + 1} of ${Math.ceil(meetupsWithoutRssFeeds.length / BATCH_SIZE)}`, LOG_LEVELS.DEBUG);
+      
+      const batchResults = await Promise.all(batch.map(meetup => fetchMeetupEventsAlternative(meetup)));
+      batchResults.forEach(events => alternativeEvents.push(...events));
+      
+      // Add a small delay between batches
+      if (i + BATCH_SIZE < meetupsWithoutRssFeeds.length) {
+        log(`Waiting before processing next alternative batch...`, LOG_LEVELS.DEBUG);
+        await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+      }
+    }
+    
+    log(`Fetched a total of ${alternativeEvents.length} events from meetups without RSS feeds`, LOG_LEVELS.INFO);
     
     // TODO: Add more sources here (e.g., Eventbrite, custom websites, etc.)
     
     // Combine all events
-    let allEvents = [...meetupEvents];
+    let allEvents = [...meetupEvents, ...alternativeEvents];
     
     // If no events were found, create manual test events for development
     if (allEvents.length === 0 && USE_MOCK_DATA_IF_EMPTY) {

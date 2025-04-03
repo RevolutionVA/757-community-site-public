@@ -11,7 +11,10 @@
     "validate": "node scripts/validate-json.js",
     "precommit": "npm run validate",
     "update-calendar": "node scripts/update-calendar.js",
-    "fetch-meetup-images": "node scripts/fetch-meetup-images.js"
+    "fetch-meetup-images": "node scripts/fetch-meetup-images.js",
+    "rebuild-calendar": "node scripts/rebuild-calendar.js && node scripts/deduplicate-calendar.js",
+    "deduplicate-calendar": "node scripts/deduplicate-calendar.js",
+    "fix-calendar": "node scripts/fix-calendar-duplicates.js"
   },
   "dependencies": {
     "@astrojs/node": "^9.1.3",
