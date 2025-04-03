@@ -18,8 +18,9 @@ function getCurrentWeekDates() {
   // Get the current day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
   const currentDay = now.getDay();
   
-  // Calculate days to subtract to get to Monday (if today is Sunday, we need to go back 6 days)
-  const daysToMonday = currentDay === 0 ? 6 : currentDay - 1;
+  // If today is Monday, use today's date
+  // Otherwise, go back to the previous Monday
+  const daysToMonday = currentDay === 1 ? 0 : currentDay === 0 ? 6 : currentDay - 1;
   
   // Create date objects for the start (Monday) and end (Sunday) of the week
   const monday = new Date(now);
