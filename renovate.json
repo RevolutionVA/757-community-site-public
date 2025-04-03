@@ -24,16 +24,9 @@
     "yarn install"
   ],
   "updateLockFiles": true,
-  "lockFileMaintenanceOptions": {
-    "recreateWhen": "always",
-    "rebaseStalePrs": true
-  },
   "npmrc": "legacy-peer-deps=true",
   "packageFiles": [
     "package.json"
-  ],
-  "lockFiles": [
-    "yarn.lock"
   ],
   "ignoreDeps": [
     "node"
