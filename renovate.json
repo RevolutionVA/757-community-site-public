@@ -23,9 +23,6 @@
   },
   "rangeStrategy": "update-lockfile",
   "ignorePaths": ["**/node_modules/**"],
-  "allowedPostUpgradeCommands": [
-    "yarn install"
-  ],
   "updateLockFiles": true,
   "npmrc": "legacy-peer-deps=true",
   "packageFiles": [
