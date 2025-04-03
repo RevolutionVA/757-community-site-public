@@ -13,18 +13,21 @@ const __dirname = path.dirname(__filename);
 
 // Function to get the start and end of the current week (Monday to Sunday)
 function getCurrentWeekDates() {
+  // Create date in Eastern Time
   const now = new Date();
+  const options = { timeZone: 'America/New_York' };
+  const etNow = new Date(now.toLocaleString('en-US', options));
   
   // Get the current day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
-  const currentDay = now.getDay();
+  const currentDay = etNow.getDay();
   
   // If today is Monday, use today's date
   // Otherwise, go back to the previous Monday
   const daysToMonday = currentDay === 1 ? 0 : currentDay === 0 ? 6 : currentDay - 1;
   
   // Create date objects for the start (Monday) and end (Sunday) of the week
-  const monday = new Date(now);
-  monday.setDate(now.getDate() - daysToMonday);
+  const monday = new Date(etNow);
+  monday.setDate(etNow.getDate() - daysToMonday);
   monday.setHours(0, 0, 0, 0);
   
   const sunday = new Date(monday);
@@ -42,7 +45,8 @@ function formatDate(date) {
     month: 'long', 
     day: 'numeric',
     hour: '2-digit',
-    minute: '2-digit'
+    minute: '2-digit',
+    timeZone: 'America/New_York'
   };
   return date.toLocaleDateString('en-US', options);
 }
@@ -66,17 +70,25 @@ async function generateWeeklyMeetups() {
     // Filter events happening this week
     const thisWeekEvents = calendarEvents.filter(event => {
       const eventDate = new Date(event.date);
-      return eventDate >= monday && eventDate <= sunday;
+      const etEventDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      return etEventDate >= monday && etEventDate <= sunday;
     });
     
     // Sort events by date
-    thisWeekEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+    thisWeekEvents.sort((a, b) => {
+      const dateA = new Date(a.date);
+      const dateB = new Date(b.date);
+      const etDateA = new Date(dateA.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      const etDateB = new Date(dateB.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      return etDateA - etDateB;
+    });
     
     // Group events by day
     const eventsByDay = {};
     thisWeekEvents.forEach(event => {
       const eventDate = new Date(event.date);
-      const dayKey = eventDate.toDateString();
+      const etEventDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      const dayKey = etEventDate.toDateString();
       
       if (!eventsByDay[dayKey]) {
         eventsByDay[dayKey] = [];
