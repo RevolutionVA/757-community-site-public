@@ -3,7 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import FeatureCard from '../components/FeatureCard.astro';
 import calendarEvents from '../data/calendar-events.json';
-import meetups from '../data/meetups.json';
+import meetupsData from '../data/meetups-combined.json';
 import { marked } from 'marked';
 import KeepSurfing from '../components/KeepSurfing.astro';
 
@@ -112,7 +112,7 @@ function formatDescription(description: string): string {
 
 // Function to find meetup URL for a group name
 function findMeetupUrl(groupName: string): string | null {
-  const meetup = meetups.find(m => m.name === groupName);
+  const meetup = meetupsData.find(m => m.name === groupName);
   return meetup ? meetup.url : null;
 }
 ---

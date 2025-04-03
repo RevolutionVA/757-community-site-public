@@ -1,24 +1,32 @@
 ---
-import meetupMetadata from '../data/meetup-metadata.json';
+import meetupsData from '../data/meetups-combined.json';
 
 interface Props {
   url: string;
-  title: string;
+  title?: string;
   fallbackImage?: string;
   showMetadata?: boolean;
 }
 
-// Define the type for meetup metadata
 interface MeetupMetadata {
   imageUrl: string;
   title?: string;
   description?: string;
 }
 
-// Type assertion for the imported JSON
-const typedMeetupMetadata = meetupMetadata as Record<string, MeetupMetadata>;
-
 const { url, title, fallbackImage = '/images/default-meetup.jpg', showMetadata = false } = Astro.props;
+
+// Find the meetup in our data
+const meetup = meetupsData.find(m => m.url === url);
+
+// Get the image URL from the meetup's metadata if available
+let imageUrl = meetup?.metadata?.imageUrl || fallbackImage;
+
+// Get the title from the meetup's metadata if available
+const meetupTitle = meetup?.metadata?.title || title || 'Meetup';
+
+// Get the description from the meetup's metadata if available
+const meetupDescription = meetup?.metadata?.description || '';
 
 // Determine the type of URL
 const isMeetupUrl = url.includes('meetup.com');
@@ -26,22 +34,16 @@ const isLinkedInUrl = url.includes('linkedin.com');
 const isExternalUrl = !isMeetupUrl && !isLinkedInUrl;
 
 // Check if we have pre-fetched metadata for this URL
-let imageUrl = fallbackImage;
-let metadataTitle = title;
-let metadataDescription = '';
+let metadataTitle = meetupTitle;
+let metadataDescription = meetupDescription;
 
 // For LinkedIn URLs, always use the LinkedIn default image
 if (isLinkedInUrl) {
   imageUrl = '/images/linkedin-default.jpg';
-  if (typedMeetupMetadata[url]) {
-    metadataTitle = typedMeetupMetadata[url].title || title;
-    metadataDescription = typedMeetupMetadata[url].description || '';
+  if (meetup) {
+    metadataTitle = meetup.metadata?.title || title || 'Meetup';
+    metadataDescription = meetup.metadata?.description || '';
   }
-} else if (typedMeetupMetadata[url]) {
-  // Use the pre-fetched metadata for non-LinkedIn URLs
-  imageUrl = typedMeetupMetadata[url].imageUrl;
-  metadataTitle = typedMeetupMetadata[url].title || title;
-  metadataDescription = typedMeetupMetadata[url].description || '';
 } else if (isExternalUrl) {
   // Use platform-specific default images if no pre-fetched metadata
   imageUrl = '/images/external-default.jpg';

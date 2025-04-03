@@ -16,8 +16,8 @@ const __dirname = path.dirname(__filename);
 
 // Path to the calendar events JSON file
 const CALENDAR_FILE_PATH = path.join(__dirname, '..', 'src', 'data', 'calendar-events.json');
-// Path to the meetup feeds JSON file
-const MEETUP_FEEDS_PATH = path.join(__dirname, '..', 'src', 'data', 'meetup-feeds.json');
+// Path to the meetups data file
+const MEETUPS_PATH = path.join(__dirname, '..', 'src', 'data', 'meetups-combined.json');
 
 // Flag to use mock data if no real events are found
 const USE_MOCK_DATA_IF_EMPTY = false;
@@ -702,51 +702,51 @@ async function fetchAllEvents() {
   try {
     log('Starting to fetch events from all sources', LOG_LEVELS.INFO);
     
-    // Check if meetup feeds file exists
-    if (!fs.existsSync(MEETUP_FEEDS_PATH)) {
-      throw new Error(`Meetup feeds file not found at ${MEETUP_FEEDS_PATH}`);
+    // Check if meetups file exists
+    if (!fs.existsSync(MEETUPS_PATH)) {
+      throw new Error(`Meetups file not found at ${MEETUPS_PATH}`);
     }
     
-    // Read the meetup feeds JSON file
-    log(`Reading meetup feeds from ${MEETUP_FEEDS_PATH}`, LOG_LEVELS.DEBUG);
-    const meetupFeedsData = await fs.promises.readFile(MEETUP_FEEDS_PATH, 'utf8');
+    // Read the meetups JSON file
+    log(`Reading meetups from ${MEETUPS_PATH}`, LOG_LEVELS.DEBUG);
+    const meetupsData = await fs.promises.readFile(MEETUPS_PATH, 'utf8');
     
     // Parse the JSON data
-    let meetupFeeds;
+    let meetups;
     try {
-      meetupFeeds = JSON.parse(meetupFeedsData);
-      log(`Successfully parsed meetup feeds, found ${meetupFeeds.length} feeds`, LOG_LEVELS.INFO);
+      meetups = JSON.parse(meetupsData);
+      log(`Successfully parsed meetups, found ${meetups.length} meetups`, LOG_LEVELS.INFO);
     } catch (error) {
-      throw new Error(`Failed to parse meetup feeds JSON: ${error.message}`);
+      throw new Error(`Failed to parse meetups JSON: ${error.message}`);
     }
     
-    // Validate the meetup feeds data
-    if (!Array.isArray(meetupFeeds)) {
-      throw new Error('Meetup feeds data is not an array');
+    // Validate the meetups data
+    if (!Array.isArray(meetups)) {
+      throw new Error('Meetups data is not an array');
     }
     
     // Process feeds sequentially to avoid too many concurrent requests
-    log(`Fetching events from ${meetupFeeds.length} meetup feeds`, LOG_LEVELS.INFO);
+    log(`Fetching events from ${meetups.length} meetups`, LOG_LEVELS.INFO);
     const meetupEvents = [];
     
     // Process feeds in batches to avoid overwhelming the server
-    const BATCH_SIZE = 3; // Process 3 feeds at a time
+    const BATCH_SIZE = 3;
     
-    for (let i = 0; i < meetupFeeds.length; i += BATCH_SIZE) {
-      const batch = meetupFeeds.slice(i, i + BATCH_SIZE);
-      log(`Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(meetupFeeds.length / BATCH_SIZE)}`, LOG_LEVELS.DEBUG);
+    for (let i = 0; i < meetups.length; i += BATCH_SIZE) {
+      const batch = meetups.slice(i, i + BATCH_SIZE);
+      log(`Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(meetups.length / BATCH_SIZE)}`, LOG_LEVELS.DEBUG);
       
-      const batchResults = await Promise.all(batch.map(feed => fetchMeetupEvents(feed)));
+      const batchResults = await Promise.all(batch.map(meetup => fetchMeetupEvents(meetup)));
       batchResults.forEach(events => meetupEvents.push(...events));
       
       // Add a small delay between batches to be nice to the server
-      if (i + BATCH_SIZE < meetupFeeds.length) {
+      if (i + BATCH_SIZE < meetups.length) {
         log(`Waiting before processing next batch...`, LOG_LEVELS.DEBUG);
         await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
       }
     }
     
-    log(`Fetched a total of ${meetupEvents.length} events from meetup feeds`, LOG_LEVELS.INFO);
+    log(`Fetched a total of ${meetupEvents.length} events from meetups`, LOG_LEVELS.INFO);
     
     // TODO: Add more sources here (e.g., Eventbrite, custom websites, etc.)
     
