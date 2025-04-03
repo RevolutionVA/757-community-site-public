@@ -15,20 +15,26 @@
   ],
   "prHourlyLimit": 4,
   "prConcurrentLimit": 5,
-  "schedule": ["every weekend"],
+  "schedule": [
+    "every weekend"
+  ],
   "timezone": "America/New_York",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["before 5am on monday"]
+    "schedule": [
+      "before 5am on monday"
+    ]
   },
   "rangeStrategy": "update-lockfile",
-  "ignorePaths": ["**/node_modules/**"],
+  "ignorePaths": [
+    "**/node_modules/**"
+  ],
   "updateLockFiles": true,
   "npmrc": "legacy-peer-deps=true",
-  "packageFiles": [
+  "includePaths": [
     "package.json"
   ],
   "ignoreDeps": [
     "node"
   ]
-} 
+}
