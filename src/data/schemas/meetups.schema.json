@@ -5,7 +5,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["name", "url", "tags", "category"],
+    "required": ["name", "url", "tags", "category", "rssFeed", "metadata"],
     "properties": {
       "name": {
         "type": "string",
@@ -29,10 +29,30 @@
         "enum": ["Development", "Technology", "Design", "Cloud"],
         "description": "The category of the meetup"
       },
-      "coverImage": {
+      "rssFeed": {
         "type": "string",
         "format": "uri",
-        "description": "URL to a fallback cover image for the meetup"
+        "description": "The RSS feed URL for the meetup's events"
+      },
+      "metadata": {
+        "type": "object",
+        "required": ["imageUrl"],
+        "properties": {
+          "imageUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the meetup's cover image"
+          },
+          "title": {
+            "type": "string",
+            "description": "The title of the meetup from metadata"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of the meetup from metadata"
+          }
+        },
+        "additionalProperties": false
       }
     },
     "additionalProperties": false

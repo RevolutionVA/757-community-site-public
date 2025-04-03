@@ -1,84 +1,54 @@
 import Parser from 'rss-parser';
-import meetupFeeds from '../../data/meetup-feeds.json';
+import { getCollection } from 'astro:content';
+import meetupsData from '../../data/meetups-combined.json';
 
 // Create a new RSS parser instance
 const parser = new Parser();
 
-export async function GET({ request }) {
+export const GET = async () => {
   try {
-    // Set up CORS headers
-    const headers = new Headers({
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type'
-    });
-
-    // Handle preflight requests
-    if (request.method === 'OPTIONS') {
-      return new Response(null, { headers, status: 204 });
-    }
-
-    // Use mock data for development if needed
-    const useMockData = false;
-    
-    if (useMockData) {
-      return new Response(JSON.stringify(getMockEvents()), { headers });
-    }
-
     // Fetch all RSS feeds in parallel
-    const feedPromises = meetupFeeds.map(async (meetup) => {
-      try {
-        // In a real implementation, we would fetch the actual RSS feed
-        // For now, we'll use a proxy or mock data
-        const feed = await parser.parseURL(meetup.rssFeed);
-        
-        // Add the meetup name to each event
-        const events = feed.items.map(item => ({
-          ...item,
-          meetupName: meetup.name
-        }));
-        
-        return events;
-      } catch (error) {
-        console.error(`Error fetching RSS feed for ${meetup.name}:`, error);
-        return [];
-      }
-    });
+    const feedPromises = meetupsData
+      .filter(meetup => meetup.rssFeed) // Only process meetups with RSS feeds
+      .map(async (meetup) => {
+        try {
+          const feed = await parser.parseURL(meetup.rssFeed);
+          return feed.items.map(item => ({
+            title: item.title,
+            link: item.link,
+            date: item.pubDate,
+            description: item.content,
+            meetupName: meetup.name,
+            meetupUrl: meetup.url
+          }));
+        } catch (error) {
+          console.error(`Error fetching RSS feed for ${meetup.name}:`, error);
+          return [];
+        }
+      });
 
     // Wait for all feeds to be fetched
-    const allEvents = await Promise.all(feedPromises);
+    const eventsArrays = await Promise.all(feedPromises);
     
-    // Flatten the array of arrays into a single array of events
-    const flattenedEvents = allEvents.flat();
-    
-    // Sort events by date
-    const sortedEvents = flattenedEvents.sort((a, b) => {
-      return new Date(a.isoDate).getTime() - new Date(b.isoDate).getTime();
-    });
-    
-    // Filter out past events
-    const futureEvents = sortedEvents.filter(event => {
-      const eventDate = new Date(event.isoDate);
-      const today = new Date();
-      today.setHours(0, 0, 0, 0);
-      return eventDate >= today;
-    });
-    
-    // Return the events as JSON
-    return new Response(JSON.stringify(futureEvents), { headers });
-  } catch (error) {
-    console.error('Error fetching meetup events:', error);
-    return new Response(
-      JSON.stringify({ error: 'Failed to fetch meetup events' }), 
-      { 
-        status: 500, 
-        headers: {
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*'
-        } 
+    // Flatten the arrays and sort by date
+    const events = eventsArrays
+      .flat()
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    return new Response(JSON.stringify(events), {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json'
       }
-    );
+    });
+  } catch (error) {
+    console.error('Error fetching events:', error);
+    return new Response(JSON.stringify({ error: 'Failed to fetch events' }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
   }
 }
 
@@ -92,8 +62,8 @@ function getMockEvents() {
     const eventDate = new Date(today);
     eventDate.setDate(today.getDate() + Math.floor(Math.random() * 180)); // Random date in next 6 months
     
-    const meetupIndex = Math.floor(Math.random() * meetupFeeds.length);
-    const meetup = meetupFeeds[meetupIndex];
+    const meetupIndex = Math.floor(Math.random() * meetupsData.length);
+    const meetup = meetupsData[meetupIndex];
     
     mockEvents.push({
       title: `${meetup.name} Meetup - ${i + 1}`,

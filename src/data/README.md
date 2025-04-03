@@ -1,65 +1,85 @@
-# 757 Community Data Files
-
-This directory contains data files used by the 757 Community website.
+# Data Files
 
 ## Meetups Data
 
-The `meetups.json` file contains information about all the meetups in the Hampton Roads area. The data is organized as an array of objects, with each object representing a meetup.
+The `meetups-combined.json` file contains information about all the meetups in the Hampton Roads area. The data is organized as an array of objects, with each object representing a meetup.
 
-### Adding or Updating a Meetup
+### Meetup Properties
 
-To add a new meetup or update an existing one, edit the `meetups.json` file. Each meetup object should have the following properties:
+To add a new meetup or update an existing one, edit the `meetups-combined.json` file. Each meetup object should have the following properties:
 
 ```json
 {
-  "name": "Name of the Meetup",
-  "url": "https://url-to-the-meetup.com",
+  "name": "Meetup Name",
+  "url": "https://meetup.com/group-url",
   "tags": ["Tag1", "Tag2"],
-  "category": "Development | Technology | Design",
-  "coverImage": "https://url-to-cover-image.com/image.jpg"
+  "category": "Development|Technology|Design|Cloud",
+  "rssFeed": "https://meetup.com/group-url/events/rss/",
+  "metadata": {
+    "imageUrl": "/images/meetups/group-image.jpg",
+    "title": "Meetup Title",
+    "description": "Meetup Description"
+  }
 }
 ```
 
-- **name**: The name of the meetup
-- **url**: The URL to the meetup's website or page
-- **tags**: An array of tags that describe the meetup
-- **category**: The category of the meetup (must be one of: "Development", "Technology", or "Design")
-- **coverImage**: (Optional) URL to a fallback cover image for the meetup
+### Categories
 
-### Dynamic Metadata Loading
+Meetups are organized into the following categories:
 
-The website automatically attempts to fetch Open Graph metadata from any URL at runtime. This means you don't need to manually specify cover images, titles, or descriptions for most meetups.
+- **Development**: Programming, software development, and related technologies
+- **Technology**: General technology, hardware, and other tech-related groups
+- **Design**: UX, UI, graphic design, and related fields
+- **Cloud**: Cloud computing, DevOps, and related technologies
 
-The system supports various platforms:
-- **Meetup.com**: Extracts images, titles, and descriptions from Meetup group pages
-- **LinkedIn**: Extracts metadata from LinkedIn company and profile pages
-- **Other websites**: Works with any website that provides Open Graph metadata
+### Tags
 
-The system will extract and display:
-- **Open Graph Image**: The main image from the page's metadata
-- **Open Graph Title**: The title specified in the page's metadata
-- **Open Graph Description**: A brief description from the page's metadata
+Tags help categorize meetups more specifically. Some common tags include:
 
-This provides visitors with more context about each meetup without requiring manual data entry.
+- Programming languages (JavaScript, Python, .NET, etc.)
+- Technologies (Web development, Mobile, AI, etc.)
+- Topics (Security, Cloud, DevOps, etc.)
+- Community (DEI, General, Learning, etc.)
 
-If the metadata extraction fails, the system will use:
-1. The `coverImage` specified in the JSON file (if provided)
-2. A platform-specific default image (different for Meetup.com, LinkedIn, etc.)
-3. The original title from the JSON file
-4. A platform-appropriate generic description
+### Automatic Event Updates
 
-### Example
+The site automatically fetches events from Meetup.com groups using their RSS feeds. To add a Meetup group to the automatic updates, add an entry to the `meetups-combined.json` file with the following format:
 
 ```json
 {
-  "name": "Norfolk.js",
-  "url": "https://www.meetup.com/NorfolkJS/",
-  "tags": ["Javascript", "Web development"],
-  "category": "Development"
+  "name": "Meetup Group Name",
+  "url": "https://meetup.com/group-url",
+  "tags": ["Tag1", "Tag2"],
+  "category": "Development|Technology|Design|Cloud",
+  "rssFeed": "https://meetup.com/group-url/events/rss/",
+  "metadata": {
+    "imageUrl": "/images/meetups/group-image.jpg",
+    "title": "Meetup Title",
+    "description": "Meetup Description"
+  }
 }
 ```
 
-After adding or updating a meetup, the changes will be reflected on the website after the next build.
+### Adding a New Meetup
+
+1. Make your changes to the `meetups-combined.json` file
+2. Run the validation script to ensure your changes are valid
+3. Submit a pull request with your changes
+
+### Validation
+
+The site uses JSON Schema to validate the meetups data. The schema is defined in `src/data/schemas/meetups.schema.json`. You can validate your changes by running:
+
+```bash
+npm run validate-json
+```
+
+This will check that:
+- All required fields are present
+- URLs are valid
+- Categories are valid
+- Tags are valid
+- The data structure is correct
 
 ## Conferences Data
 
@@ -168,7 +188,7 @@ After adding your group, create a pull request. Once merged, the GitHub Action w
 ## Contributing
 
 1. Fork the repository
-2. Make your changes to the `meetups.json` file
+2. Make your changes to the `meetups-combined.json` file
 3. Submit a pull request
 
 Thank you for contributing to the 757 Community website! 

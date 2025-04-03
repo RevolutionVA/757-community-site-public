@@ -3,10 +3,9 @@ import MainLayout from '../layouts/MainLayout.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import Card from '../components/Card.astro';
 import FeatureCard from '../components/FeatureCard.astro';
-import meetupMetadata from '../data/meetup-metadata.json';
 
 // Import the meetups data from the JSON file
-import meetupsData from '../data/meetups.json';
+import meetupsData from '../data/meetups-combined.json';
 
 // Filter meetups by category
 const developmentMeetups = meetupsData.filter(meetup => meetup.category === "Development");
@@ -26,39 +25,27 @@ interface Meetup {
   url: string;
   tags: string[];
   category: string;
-  coverImage?: string;
+  rssFeed: string;
+  metadata: {
+    imageUrl: string;
+    title?: string;
+    description?: string;
+  };
 }
-
-// Define the MeetupMetadata type
-interface MeetupMetadata {
-  imageUrl: string;
-  title?: string;
-  description?: string;
-}
-
-// Type assertion for the imported JSON
-const typedMeetupMetadata = meetupMetadata as Record<string, MeetupMetadata>;
 
 // Function to get the best image for a meetup
-function getBestImage(meetup: Meetup) {
-  // First check if we have pre-fetched metadata for this meetup
-  if (typedMeetupMetadata[meetup.url] && typedMeetupMetadata[meetup.url].imageUrl) {
-    return typedMeetupMetadata[meetup.url].imageUrl;
-  }
-  
-  // If not, use the coverImage property if it exists
-  if (meetup.coverImage) {
-    return meetup.coverImage;
-  }
-  
-  // Otherwise, use platform-specific default images
-  if (meetup.url.includes('meetup.com')) {
-    return '/images/default-meetup.jpg';
-  } else if (meetup.url.includes('linkedin.com')) {
-    return '/images/linkedin-default.jpg';
-  } else {
-    return '/images/external-default.jpg';
-  }
+function getMeetupImage(meetup: Meetup): string {
+  return meetup.metadata.imageUrl;
+}
+
+// Function to get the best title for a meetup
+function getMeetupTitle(meetup: Meetup): string {
+  return meetup.metadata.title || meetup.name;
+}
+
+// Function to get the best description for a meetup
+function getMeetupDescription(meetup: Meetup): string {
+  return meetup.metadata.description || `${meetup.name} - A meetup in the Hampton Roads area.`;
 }
 
 // Enable metadata display for cards that need it
@@ -95,7 +82,7 @@ const hideTitle = false;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={getBestImage(meetup)}
+            coverImage={getMeetupImage(meetup)}
             useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
@@ -117,7 +104,7 @@ const hideTitle = false;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={getBestImage(meetup)}
+            coverImage={getMeetupImage(meetup)}
             useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
@@ -139,7 +126,7 @@ const hideTitle = false;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={getBestImage(meetup)}
+            coverImage={getMeetupImage(meetup)}
             useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
@@ -161,7 +148,7 @@ const hideTitle = false;
           <Card 
             title={meetup.name} 
             href={meetup.url} 
-            coverImage={getBestImage(meetup)}
+            coverImage={getMeetupImage(meetup)}
             useDynamicImage={false}
             showMetadata={showMetadata}
             hideTitle={hideTitle}
