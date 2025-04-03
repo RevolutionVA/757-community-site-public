@@ -32,10 +32,14 @@ const thisWeekEvents = calendarEvents
 // Format date to display day and time
 function formatEventDate(dateString: string) {
   const date = new Date(dateString);
-  const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short' });
-  const month = date.toLocaleDateString('en-US', { month: 'short' });
-  const dayOfMonth = date.toLocaleDateString('en-US', { day: 'numeric' });
-  const time = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'America/New_York' });
+  const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'America/New_York' });
+  const dayOfMonth = date.toLocaleDateString('en-US', { day: 'numeric', timeZone: 'America/New_York' });
+  const time = date.toLocaleTimeString('en-US', { 
+    hour: 'numeric', 
+    minute: '2-digit',
+    timeZone: 'America/New_York'
+  });
   return `${dayOfWeek}, ${month} ${dayOfMonth} @ ${time}`;
 }
 ---

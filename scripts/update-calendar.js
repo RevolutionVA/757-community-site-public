@@ -102,11 +102,13 @@ function parseDate(dateStr) {
   if (!dateStr) return null;
   
   try {
-    // Try parsing as ISO date
+    // Try parsing as ISO date or GMT date
     const date = new Date(dateStr);
     if (!isNaN(date.getTime())) {
-      log(`Successfully parsed date: ${dateStr} -> ${date.toISOString()}`, LOG_LEVELS.DEBUG);
-      return date;
+      // Convert from GMT to Eastern time
+      const easternDate = new Date(date.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      log(`Successfully parsed date: ${dateStr} -> ${easternDate.toISOString()}`, LOG_LEVELS.DEBUG);
+      return easternDate;
     }
     
     // Try parsing other formats
@@ -125,6 +127,7 @@ function parseDate(dateStr) {
       if (ampm === 'PM' && hours < 12) hours += 12;
       if (ampm === 'AM' && hours === 12) hours = 0;
       
+      // Create date in Eastern timezone
       const parsedDate = new Date(
         parseInt(year, 10),
         months[month],
@@ -133,9 +136,12 @@ function parseDate(dateStr) {
         parseInt(minute, 10)
       );
       
-      if (!isNaN(parsedDate.getTime())) {
-        log(`Successfully parsed date using regex: ${dateStr} -> ${parsedDate.toISOString()}`, LOG_LEVELS.DEBUG);
-        return parsedDate;
+      // Convert to Eastern timezone
+      const easternDate = new Date(parsedDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      
+      if (!isNaN(easternDate.getTime())) {
+        log(`Successfully parsed date using regex: ${dateStr} -> ${easternDate.toISOString()}`, LOG_LEVELS.DEBUG);
+        return easternDate;
       }
     }
     
@@ -196,8 +202,10 @@ async function extractEventDateFromEventPage(eventUrl) {
           const eventDate = new Date(jsonLd.startDate);
           
           if (!isNaN(eventDate.getTime())) {
-            log(`Successfully extracted event date from page: ${eventDate.toISOString()}`, LOG_LEVELS.INFO);
-            return eventDate;
+            // Convert from GMT to Eastern time
+            const easternDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+            log(`Successfully extracted event date from page: ${easternDate.toISOString()}`, LOG_LEVELS.INFO);
+            return easternDate;
           }
         }
       } catch (jsonError) {
@@ -217,8 +225,10 @@ async function extractEventDateFromEventPage(eventUrl) {
       
       const eventDate = new Date(dateStr);
       if (!isNaN(eventDate.getTime())) {
-        log(`Successfully extracted date from HTML: ${eventDate.toISOString()}`, LOG_LEVELS.INFO);
-        return eventDate;
+        // Convert from GMT to Eastern time
+        const easternDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+        log(`Successfully extracted date from HTML: ${easternDate.toISOString()}`, LOG_LEVELS.INFO);
+        return easternDate;
       }
     }
     
