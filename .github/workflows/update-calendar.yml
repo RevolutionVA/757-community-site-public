@@ -37,10 +37,4 @@ jobs:
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
           git add src/data/calendar-events.json
-          
-          # Run CI if there are changes, skip CI if no new events
-          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
-            git commit -m "Update calendar events with new data" && git push
-          else
-            git diff --quiet && git diff --staged --quiet || (git commit -m "Update calendar events [skip ci]" && git push)
-          fi
+          git commit -m "Update calendar events with new data" && git push
