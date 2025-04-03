@@ -67,4 +67,15 @@ The weekly report includes:
 
 This workflow can also be triggered manually through the GitHub Actions interface. See `.github/workflows/weekly-meetups.yml` for details.
 
+### Dependency Management with Renovate
+
+This project uses [Renovate](https://github.com/renovatebot/renovate) for automated dependency updates. Renovate will:
+
+- Scan the repository for dependencies
+- Create pull requests to update outdated dependencies
+- Automatically merge minor and patch updates (for stable versions)
+- Run on a weekly schedule (weekends)
+
+The Renovate configuration is defined in `renovate.json` in the root of the repository.
+
 Yay!!
