@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "local>757-community-site-public" 
+  ],
+  "repositories": ["757-community-site-public"],
+  "enabledManagers": ["npm"],
+  "npmrc": "legacy-peer-deps=true",
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "packagePatterns": ["*"],
+      "rangeStrategy": "replace",
+      "semanticCommitType": "fix"
+    }
+  ],
+  "separateMajorMinor": true,
+  "separateMinorPatch": false,
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dashboard",
+  "branchPrefix": "renovate/",
+  "baseBranches": ["main"],
+  "constraints": {
+    "npm": "^9.0.0"
+  }
+} 
