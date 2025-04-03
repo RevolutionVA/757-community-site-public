@@ -15,8 +15,30 @@
   ],
   "prHourlyLimit": 4,
   "prConcurrentLimit": 5,
-  "schedule": [
-    "every weekend"
+  "schedule": ["every weekend"],
+  "timezone": "America/New_York",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am on monday"]
+  },
+  "rangeStrategy": "update-lockfile",
+  "ignorePaths": ["**/node_modules/**"],
+  "allowedPostUpgradeCommands": [
+    "yarn install"
   ],
-  "timezone": "America/New_York"
-}
+  "updateLockFiles": true,
+  "lockFileMaintenanceOptions": {
+    "recreateWhen": "always",
+    "rebaseStalePrs": true
+  },
+  "npmrc": "legacy-peer-deps=true",
+  "packageFiles": [
+    "package.json"
+  ],
+  "lockFiles": [
+    "yarn.lock"
+  ],
+  "ignoreDeps": [
+    "node"
+  ]
+} 
