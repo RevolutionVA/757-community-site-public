@@ -13,7 +13,7 @@
       },
       "url": {
         "type": "string",
-        "format": "uri",
+        "pattern": "^https?://[^\\s/$.?#].[^\\s]*$",
         "description": "The URL to the meetup's website or page"
       },
       "tags": {
@@ -31,7 +31,7 @@
       },
       "rssFeed": {
         "type": "string",
-        "format": "uri",
+        "pattern": "^https?://[^\\s/$.?#].[^\\s]*$",
         "description": "The RSS feed URL for the meetup's events"
       },
       "metadata": {
