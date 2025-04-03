@@ -1,14 +1,14 @@
-# Meetups This Week (Monday - Sunday)
+# Meetups This Week (Sunday - Sunday)
 
-Generated on: 2025-04-03T01:42:45.744Z
+Generated on: 2025-04-03T01:45:04.563Z
 
 ## 2 Meetups This Week
 
-### Thursday, April 3
+### Wednesday, April 2
 
 #### How to start & GROW your Youtube Channel for FUN and Profit
 
-- **Time:** 06:00 PM
+- **Time:** 02:00 PM
 - **Group:** Tidewater Youtube Creators Group
 - **Link:** [Event Link](https://www.meetup.com/tidewater-youtube-creators-group/events/305698049/)
 
@@ -19,11 +19,9 @@ Join us for a virtual meeting w/ like minds to see how we can all learn and grow
 
 ---
 
-### Friday, April 4
-
 #### Late Night Coders
 
-- **Time:** 01:00 AM
+- **Time:** 09:00 PM
 - **Group:** 757 Developers
 - **Link:** [Event Link](https://www.meetup.com/757dev/events/306905547/)
 
