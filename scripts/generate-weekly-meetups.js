@@ -122,7 +122,11 @@ async function generateWeeklyMeetups() {
         
         dayEvents.forEach(event => {
           const eventDate = new Date(event.date);
-          const timeString = eventDate.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+          const timeString = eventDate.toLocaleTimeString('en-US', { 
+            hour: '2-digit', 
+            minute: '2-digit',
+            timeZone: 'America/New_York'
+          });
           
           markdownContent += `#### ${event.title}\n\n`;
           markdownContent += `- **Time:** ${timeString}\n`;
