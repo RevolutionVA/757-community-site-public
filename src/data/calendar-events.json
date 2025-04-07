@@ -1,21 +1,5 @@
 [
   {
-    "title": "How to start & GROW your Youtube Channel for FUN and Profit",
-    "link": "https://www.meetup.com/tidewater-youtube-creators-group/events/305698049/",
-    "date": "2025-04-03T18:00:00.000Z",
-    "description": "Are you ready to take your Youtube channel and digital marketing to the next level in 2024? Well let's take a look at your channel and your plan to make sure you're on the right track.\nSince 2017 I've been serious about serving my community and helping people earn extra income online. Now is the time to set yourself up for multiple streams of income because as I'm sure you've noticed, EVERYTHING COSTS MORE!\nJoin us for a virtual meeting w/ like minds to see how we can all learn and grow together. Here's the link to the virtual class starting at 1:30pm EST: https://streamyard.com/p857p2pqeg",
-    "source": "meetup",
-    "group": "Tidewater Youtube Creators Group"
-  },
-  {
-    "title": "Late Night Coders",
-    "link": "https://www.meetup.com/757dev/events/306905547/",
-    "date": "2025-04-04T01:00:00.000Z",
-    "description": "Can't sleep? Stay up all night coding? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Coders is a meetup for the rest of us.\n\nLet's get together and share what we're working on, co-work, or get help on any problems we're running into. Some code challenge keeping you up? Bring it to us!\n\nAnyone is welcome at any experience or sleep-deprivation level. Bring your laptop! Or just come hang out with cool people.\n\nTurned off guest options, bring whoever is interested in coming.",
-    "source": "meetup",
-    "group": "757 Developers"
-  },
-  {
     "title": "Leetcode problem solving",
     "link": "https://www.meetup.com/leetcode-problem-solving/events/305737683/",
     "date": "2025-04-07T23:00:00.000Z",
@@ -54,6 +38,14 @@
     "description": "Join us at Green Leafe Cafe for food, drinks, and fascinating technical discussions. The restaurant doesn't take reservations, so if you get there first just find a big table. Parking is mostly on the street, further down Scotland Street.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule:\n\nMay 14, 6:30 PM - Williamsburg Library, Conference Room B\nAleksandr Podyachev will talk about Nest.js .\n\nJune 11, 6:00 PM - Social Event\n\nJuly 9, 6:30 PM - Williamsburg Library, Conference Room B\nSujith Paul will present on a topic TBA.\n\nAugust 13, 6:00 PM - Social Event\n\nSeptember 10, 6:30 PM - Williamsburg Library, Conference Room B\nTimothy Stone will discuss Git Commitizenship.\n\nOctober 8, 6:00 PM - Social Event\n\nNovember 12, 6:30 PM - Williamsburg Library, Conference Room B\nPaul Doolittle will present on python in Excel.\n\nDecember 10, 6:00 PM - Social Event",
     "source": "meetup",
     "group": "The Williamsburg Software Developers Group"
+  },
+  {
+    "title": "Get in tech with Scrum",
+    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307150498/",
+    "date": "2025-04-09T23:00:00.000Z",
+    "description": "Join this 1-hour technical primer on What is a Scrum Master.\n\nA Scrum Master is a professional who leads a team to manage the flow of information between team members. A Scrum Master helps streamline project processes to achieve goals faster.\n\nPeople who have strong interpersonal skills like empathy and active listening are core skills to building positive relationships with others. A Scrum Master must effectively facilitate meetings (such as daily stand-ups, sprint planning, and retrospectives) to ensure they are productive and stay on track. A scrum master is supposed to be an experienced negotiator and facilitator to handle disagreements and find a satisfactory solution for everyone involved.\n\nSalaries as Scrum Master often range from $106,000 - $120,000. There's a huge demand for Scrum Masters who can help departments increase the efficiency of teams, and help organizations respond to rapidly changing market conditions.\n\n**The course is open to the public.**\n[https://bit.ly/BUiLT_Trained](https://bit.ly/BUiLT_Trained)",
+    "source": "meetup",
+    "group": "Blacks United in Leading Technology - Hampton Roads"
   },
   {
     "title": "Open Conversations: April Edition",
@@ -424,6 +416,14 @@
     "group": "Hampton Roads SQL Server User Group"
   },
   {
+    "title": "How to start & GROW your Youtube Channel for FUN and Profit",
+    "link": "https://www.meetup.com/tidewater-youtube-creators-group/events/jbgpptyhclbcc/",
+    "date": "2025-08-21T18:00:00.000Z",
+    "description": "Are you ready to take your Youtube channel and digital marketing to the next level in 2024? Well let's take a look at your channel and your plan to make sure you're on the right track.\nSince 2017 I've been serious about serving my community and helping people earn extra income online. Now is the time to set yourself up for multiple streams of income because as I'm sure you've noticed, EVERYTHING COSTS MORE!\nJoin us for a virtual meeting w/ like minds to see how we can all learn and grow together. Here's the link to the virtual class starting at 1:30pm EST: https://streamyard.com/p857p2pqeg",
+    "source": "meetup",
+    "group": "Tidewater Youtube Creators Group"
+  },
+  {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyhclbcc/",
     "date": "2025-08-21T22:30:00.000Z",
@@ -542,5 +542,13 @@
     "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
     "source": "meetup",
     "group": "Leetcode Problem Solving"
+  },
+  {
+    "title": "Geeks at a Bar- Peninsula Happy Hour",
+    "link": "https://www.meetup.com/757dev/events/jnvfvsyjccbkc/",
+    "date": "2026-01-28T00:30:00.000Z",
+    "description": "Do you work with technology or for a tech company? Do you speak geek? Come network with other technology industry workers for a casual, conversational happy hour.\n\nThis meetup is loosely organized, but very consistently scheduled. If you want to meet up somewhere else, share it in the #peninsula channel at 757dev.org Slack, or in the comments.",
+    "source": "meetup",
+    "group": "757 Developers"
   }
 ]
