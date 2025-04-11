@@ -135,7 +135,7 @@ function findMeetupUrl(groupName: string): string | null {
   </div>
 
   <div class="container">
-    <section class="section">
+    <section class="section calendar-section">
       <SectionDivider title="Upcoming Events" />
       {upcomingEvents.length === 0 ? (
         <div class="no-events">
@@ -148,7 +148,9 @@ function findMeetupUrl(groupName: string): string | null {
         <div class="calendar-container">
           {monthsInOrder.map(monthYear => (
             <div class="month-section">
-              <h3 class="month-heading">{monthYear}</h3>
+              <div class="sticky-header">
+                <h3 class="month-heading">{monthYear}</h3>
+              </div>
               <div class="events-list">
                 {eventsByMonth[monthYear].map((event: CalendarEvent) => (
                   <div class="event-card">
@@ -207,7 +209,7 @@ function findMeetupUrl(groupName: string): string | null {
 </MainLayout>
 
 <script>
-  // No filtering functionality needed
+  // No JavaScript needed for this approach
 </script>
 
 <style>
@@ -270,6 +272,10 @@ function findMeetupUrl(groupName: string): string | null {
     border-color: #0062cc;
   }
 
+  .calendar-section {
+    position: relative;
+  }
+
   .calendar-container {
     display: flex;
     flex-direction: column;
@@ -280,7 +286,16 @@ function findMeetupUrl(groupName: string): string | null {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
   }
 
   .month-heading {
@@ -290,6 +305,7 @@ function findMeetupUrl(groupName: string): string | null {
     font-size: 1.5rem;
     color: #343a40;
     border-bottom: 1px solid #e9ecef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 
   .events-list {
@@ -297,6 +313,7 @@ function findMeetupUrl(groupName: string): string | null {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    position: relative;
   }
 
   .event-card {
