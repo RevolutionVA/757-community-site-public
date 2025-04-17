@@ -1,21 +1,5 @@
 [
   {
-    "title": "Joshua Higginbotham Lessons from the Front Lines: A Consultant’s Guide to Fabric",
-    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/307177314/",
-    "date": "2025-04-16T22:00:00.000Z",
-    "description": "**IN PERSON MEETING!!!!!**\nWhat happens when the rubber meets the OneLake? This session shares real-world lessons from a Microsoft Fabric consultant who’s helped multiple clients build modern data platforms using Lakehouse architecture, Fabric pipelines, Power BI, and more. We’ll explore what works, what doesn’t, and the best practices that have emerged across industries. Whether you're a data engineer, architect, or BI developer, expect practical guidance and honest insights to help you get the most out of your Fabric investment.",
-    "source": "meetup",
-    "group": "Hampton Roads SQL Server User Group"
-  },
-  {
-    "title": "Truth About Black Tech Overcomers - Through Extended Job Searches",
-    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307291528/",
-    "date": "2025-04-16T23:00:00.000Z",
-    "description": "Attend our 4-part series ... where we tell the truth.\nRegister today: https://bit.ly/BlackTechOvercomers\n\nLike many others, Black people are resilient in solving problems and living lives fraught with obstacles and setbacks. Black tech professionals are no different, and their ability to solve problems in life makes them uniquely qualified to solve some of the toughest business problems.\n\nThe research is in that minorities who live in majority communities often have advantages in the workforce of:\n\n· Adaptability & Resilience\n· Stronger Problem-Solving & Creativity\n· Cross-Cultural Communication & Collaboration\n· High Emotional Intelligence & Empathy\n· Comfort with Change & Uncertainty\n· Conflict Resolution & Mediation Skills\n· Awareness of Bias & Inclusion Strategies\n\nIn the Truth About Black Tech Overcomers series, we discuss the situation and techniques some Black Technologists have employed to remain upbeat during extended job searches.\n\nEmployers, if you want to get added exposure and recognition for the impact you provide, you can participate as a sponsor. [https://builtinternational.org/built-truth-about/](https://builtinternational.org/built-truth-about/)\n\nAttend to be inspired and learn each week as we highlight the careers and successes of two Black tech job seekers who are overcoming or have overcome, each and every day.\n\n**Also, if you'd like to be featured in the series, let us know @ info@builtintl.org.** Also, if you have succeeded in obtaining a job after an extended transition of 6 months or more, let us know, too.\n\nHost: Peter Beasley, Executive Director, BUiLT\nCo-Hostess: Tricia Simone Vincent, Career Coach and Consultant, Launch Your Influence\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nMarch 26 Overcomers: What is an Overcomer?\n\nApril 2 Overcomers: Diane Reeves, IT Project Manager,\nhttps://www.linkedin.com/in/dianereeves/\nMichael Whitaker, Chief of Staff,\nhttps://www.linkedin.com/in/mwdwhit/\n\nApril 16 Overcomers: Karen Rosser-Newbold,\nhttps://www.linkedin.com/in/karenrossernewbold/",
-    "source": "meetup",
-    "group": "Blacks United in Leading Technology - Hampton Roads"
-  },
-  {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
     "link": "https://www.meetup.com/tidewater-youtube-creators-group/events/305698051/",
     "date": "2025-04-17T18:00:00.000Z",
@@ -310,6 +294,14 @@
     "description": "**Attention Information Security and Cybersecurity Professionals!**\nAre you looking to meet new people who share your interests? Whether you're thinking about entering cybersecurity, have recently entered the field, or are a seasoned professional, we welcome all to join us for an evening of networking, learning, and fun.\n**Why Attend?**\nEnjoy a night out at the cozy and welcoming **Farmhouse** in Virginia Beach, where you can connect with like-minded individuals. We love bringing people together to share insights and build lasting connections. Join us for some beers—or not, if that's your preference. Our goal is to help you forge meaningful relationships in the cybersecurity community.\n**About ISSA-HR**\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) hosts social events throughout the region, providing a space for cybersecurity professionals and enthusiasts to get together, share stories, learn new information, and meet new people. With years of cybersecurity expertise, ISSA-HR is committed to promoting the industry and nurturing the next generation of cybersecurity professionals.\n\n**RSVP now and bring a friend!** We look forward to seeing you there!\n\n**Location:** Farmhouse, 1805 Kempsville Rd, Virginia Beach, VA\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads"
+  },
+  {
+    "title": "Meagan Longoria: Populate Your DW with a Metadata-Driven, Pattern-based Approach",
+    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/307326801/",
+    "date": "2025-06-18T22:00:00.000Z",
+    "description": "**IN PERSON MEETING!!!!!**\n**Populate Your Data Warehouse with a Metadata-Driven, Pattern-based Approach**\nThis demo-filled session will show how to populate a data warehouse (SQL Server, Azure SQL, or Fabric warehouse) by using a meta-data driven, parameterized approach with Data Factory.\nWe'll discuss what metadata needs to be captured to achieve goals such as increased reusability and restartability and minimized deployment and maintenance effort. And we'll look at common Data Factory orchestration and execution patterns.",
+    "source": "meetup",
+    "group": "Hampton Roads SQL Server User Group"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
