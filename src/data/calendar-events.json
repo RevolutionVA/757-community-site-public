@@ -574,5 +574,13 @@
     "description": "Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!",
     "source": "meetup",
     "group": "Leetcode Problem Solving"
+  },
+  {
+    "title": "Geeks at a Bar- Peninsula Happy Hour",
+    "link": "https://www.meetup.com/757dev/events/jnvfvsyjcdbgc/",
+    "date": "2026-02-25T00:30:00.000Z",
+    "description": "Do you work with technology or for a tech company? Do you speak geek? Come network with other technology industry workers for a casual, conversational happy hour.\n\nThis meetup is loosely organized, but very consistently scheduled. If you want to meet up somewhere else, share it in the #peninsula channel at 757dev.org Slack, or in the comments.",
+    "source": "meetup",
+    "group": "757 Developers"
   }
 ]
