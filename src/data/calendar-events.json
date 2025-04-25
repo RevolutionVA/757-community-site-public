@@ -160,6 +160,14 @@
     "group": "Information Systems Security Association ISSA Hampton Roads"
   },
   {
+    "title": "Cloud Skills for the Real World : Session 1: CI/CD for Static Sites with GitHub",
+    "link": "https://www.meetup.com/757colorcoded/events/307475083/",
+    "date": "2025-05-17T14:00:00.000Z",
+    "description": "This is the first of a two part series. In this session, we’ll walk through how developers ship code with confidence using CI/CD. You’ll set up a GitHub repo, build a static site, and create a GitHub Actions workflow that automatically deploys your site to AWS S3 every time you push changes.\n\n**You’ll leave with:**\n\n* A deployed static site you can share\n* A working CI/CD pipeline using GitHub Actions\n* Hands-on AWS experience\n* A real example to talk about in interviews or on your resume\n\n**Pre-reqs:**\n\n* Basic comfort with using a computer\n* A GitHub account (sign up beforehand) and exposure to Git\n* Some experience editing or reading HTML/CSS\n* Bring a laptop — this is hands-on\n\nIt will be held at:\n**ASSEMBLY**\n**400 Granby St., Norfolk, VA**",
+    "source": "meetup",
+    "group": "757ColorCoded"
+  },
+  {
     "title": "Joey D'Antoni: Why SQL Server is Still Worth It",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/306772557/",
     "date": "2025-05-21T22:00:00.000Z",
