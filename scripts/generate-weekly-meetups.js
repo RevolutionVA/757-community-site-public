@@ -62,6 +62,9 @@ async function generateWeeklyMeetups() {
     // Get the current week's dates
     const { monday, sunday } = getCurrentWeekDates();
     
+    // Debug log to see what dates are being calculated
+    console.log(`Calculated week: ${monday.toDateString()} to ${sunday.toDateString()}`);
+    
     // Read the calendar events
     const rootDir = path.resolve(__dirname, '..');
     const calendarEventsPath = path.join(rootDir, 'src', 'data', 'calendar-events.json');
@@ -98,11 +101,11 @@ async function generateWeeklyMeetups() {
     });
     
     // Generate markdown content
-    let markdownContent = `# Meetups This Week (${formatDate(monday).split(',')[0]} - ${formatDate(sunday).split(',')[0]})\n\n`;
+    let markdownContent = `# Meetups This Week (Monday - Sunday)\n\n`;
     markdownContent += `Generated on: ${new Date().toISOString()}\n\n`;
     
     // Generate Slack-friendly format
-    let slackContent = `*Meetups This Week (${formatDate(monday).split(',')[0]} - ${formatDate(sunday).split(',')[0]})*\n\n`;
+    let slackContent = `*Meetups This Week (Monday - Sunday)*\n\n`;
     
     if (thisWeekEvents.length === 0) {
       markdownContent += "No meetups scheduled for this week.\n";
