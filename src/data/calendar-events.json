@@ -176,6 +176,14 @@
     "group": "Tidewater Youtube Creators Group"
   },
   {
+    "title": "Cloud Skills for the Real World : Session 2: Go Serverless with AWS Lambda and A",
+    "link": "https://www.meetup.com/757colorcoded/events/307515224/",
+    "date": "2025-05-31T14:00:00.000Z",
+    "description": "Now that you’ve deployed a site, we’ll take it further. In this session, you’ll build a cloud API using AWS Lambda and API Gateway. We’ll write a simple function, connect it to the web, and call it from the frontend.\n\n**You’ll leave with:**\n\n* A working serverless API you built yourself\n* A deeper understanding of how cloud services work together\n* The confidence to build and scale more complex projects\n\n**Pre-req:**\n\n* Everything from Session 1\n* Basic comfort writing/editing code (JavaScript is helpful)\n* Bring a laptop\n\n**Nice to have (optional):**\n\n* Experience making API calls or working with JSON\n* Some understanding of how frontends talk to backends\n\n**Certificate of Proficiency**\n\nParticipants who complete both sessions and submit a working project (details provided during the workshop) will receive a certificate showing what they’ve built and the skills they demonstrated. Something real you can show on LinkedIn, in interviews, or to your employer.\n\nIt will be held at:\nASSEMBLY\n400 Granby St., Norfolk, VA",
+    "source": "meetup",
+    "group": "757ColorCoded"
+  },
+  {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
     "link": "https://www.meetup.com/issa-hampton-roads/events/305690139/",
     "date": "2025-06-03T21:30:00.000Z",
