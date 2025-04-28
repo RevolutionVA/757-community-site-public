@@ -55,6 +55,10 @@ function getCurrentWeekDates() {
 
 // Function to format a date in a readable format
 function formatDate(date) {
+  // Ensure we're working with a Date object
+  const dateObj = new Date(date);
+  
+  // Create a properly formatted date in Eastern Time
   const options = { 
     weekday: 'long', 
     year: 'numeric', 
@@ -64,7 +68,12 @@ function formatDate(date) {
     minute: '2-digit',
     timeZone: 'America/New_York'
   };
-  return date.toLocaleDateString('en-US', options);
+  
+  console.log(`Formatting date: ${dateObj.toISOString()} to ET`);
+  const formatted = dateObj.toLocaleString('en-US', options);
+  console.log(`Formatted result: ${formatted}`);
+  
+  return formatted;
 }
 
 // Function to format a date for the filename (YYYY-MM-DD)
@@ -119,10 +128,20 @@ async function generateWeeklyMeetups() {
     const eventsByDay = {};
     thisWeekEvents.forEach(event => {
       const eventDate = new Date(event.date);
-      const etEventDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-      const dayKey = etEventDate.toDateString();
+      // Convert to Eastern Time
+      const etOptions = { timeZone: 'America/New_York' };
+      const etEventDate = new Intl.DateTimeFormat('en-US', etOptions).format(eventDate);
       
-      console.log(`Grouping event: ${event.title} on ${dayKey}`);
+      // Create a consistent key format
+      const year = eventDate.getFullYear();
+      const month = eventDate.getMonth();
+      const day = eventDate.getDate();
+      
+      // Create a new date object set to midnight ET of the event day
+      const dayDate = new Date(Date.UTC(year, month, day));
+      const dayKey = dayDate.toISOString().split('T')[0]; // YYYY-MM-DD format
+      
+      console.log(`Grouping event: ${event.title} on ${dayKey} (original: ${event.date})`);
       
       if (!eventsByDay[dayKey]) {
         eventsByDay[dayKey] = [];
@@ -151,10 +170,23 @@ async function generateWeeklyMeetups() {
       slackContent += `*${thisWeekEvents.length} Meetups This Week*\n\n`;
       
       // Add events grouped by day
-      Object.keys(eventsByDay).sort((a, b) => new Date(a) - new Date(b)).forEach(dayKey => {
+      Object.keys(eventsByDay).sort((a, b) => a.localeCompare(b)).forEach(dayKey => {
         const dayEvents = eventsByDay[dayKey];
-        const dayDate = new Date(dayKey);
-        const dayFormatted = formatDate(dayDate).split(',').slice(0, 2).join(',');
+        
+        // Parse the dayKey back to a Date object
+        const [year, month, day] = dayKey.split('-').map(num => parseInt(num, 10));
+        const dayDate = new Date(Date.UTC(year, month - 1, day));
+        
+        // Format the date for display in ET timezone
+        const etOptions = { 
+          timeZone: 'America/New_York', 
+          weekday: 'long', 
+          month: 'long', 
+          day: 'numeric' 
+        };
+        const dayFormatted = dayDate.toLocaleDateString('en-US', etOptions);
+        
+        console.log(`Formatting day: ${dayKey} as ${dayFormatted}`);
         
         markdownContent += `### ${dayFormatted}\n\n`;
         slackContent += `*${dayFormatted}*\n`;
