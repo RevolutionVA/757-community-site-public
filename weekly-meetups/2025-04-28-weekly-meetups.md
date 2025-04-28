@@ -1,10 +1,10 @@
 # Meetups This Week (Monday - Sunday)
 
-Generated on: 2025-04-28T23:43:59.954Z
+Generated on: 2025-04-28T23:46:14.202Z
 
 ## 5 Meetups This Week
 
-### Sunday, April 27
+### Monday, April 28, 2025
 
 #### "How I Didn't Build 757tech.org" presented by Kevin Griffin
 
@@ -24,7 +24,33 @@ Learn more about the amenities and community of Assembly at [https://www.assembl
 
 ---
 
-### Tuesday, April 29
+### Thursday, May 1
+
+#### How to start & GROW your Youtube Channel for FUN and Profit
+
+- **Time:** 02:00 PM
+- **Group:** Tidewater Youtube Creators Group
+- **Link:** [Event Link](https://www.meetup.com/tidewater-youtube-creators-group/events/305698061/)
+
+**Description:**
+Are you ready to take your Youtube channel and digital marketing to the next level in 2024? Well let's take a look at your channel and your plan to make sure you're on the right track.
+Since 2017 I've been serious about serving my community and helping people earn extra income online. Now is the time to set yourself up for multiple streams of income because as I'm sure you've noticed, EVERYTHING COSTS MORE!
+Join us for a virtual meeting w/ like minds to see how we can all learn and grow together. Here's the link to the virtual class starting at 1:30pm EST: https://streamyard.com/p857p2pqeg
+
+---
+
+#### Leetcode problem solving
+
+- **Time:** 07:00 PM
+- **Group:** Leetcode Problem Solving
+- **Link:** [Event Link](https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhchbcb/)
+
+**Description:**
+Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!
+
+---
+
+### Wednesday, April 30
 
 #### REPLAY: Stopping Exploits That Can Kill
 
@@ -68,32 +94,6 @@ I﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our 
 
 Location: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456
 Time: **6:00 - 8:00 PM**
-
----
-
-### Wednesday, April 30
-
-#### How to start & GROW your Youtube Channel for FUN and Profit
-
-- **Time:** 02:00 PM
-- **Group:** Tidewater Youtube Creators Group
-- **Link:** [Event Link](https://www.meetup.com/tidewater-youtube-creators-group/events/305698061/)
-
-**Description:**
-Are you ready to take your Youtube channel and digital marketing to the next level in 2024? Well let's take a look at your channel and your plan to make sure you're on the right track.
-Since 2017 I've been serious about serving my community and helping people earn extra income online. Now is the time to set yourself up for multiple streams of income because as I'm sure you've noticed, EVERYTHING COSTS MORE!
-Join us for a virtual meeting w/ like minds to see how we can all learn and grow together. Here's the link to the virtual class starting at 1:30pm EST: https://streamyard.com/p857p2pqeg
-
----
-
-#### Leetcode problem solving
-
-- **Time:** 07:00 PM
-- **Group:** Leetcode Problem Solving
-- **Link:** [Event Link](https://www.meetup.com/leetcode-problem-solving/events/vqnsptyhchbcb/)
-
-**Description:**
-Join me for the first meetup! I’ll be picking a leetcode problem, where we have 30 minutes to individually solve it - and then presenting a solution. Others will have time to present theirs as well. Location to be announced!
 
 ---
 
