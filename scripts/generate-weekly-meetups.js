@@ -15,15 +15,20 @@ const __dirname = path.dirname(__filename);
 function getCurrentWeekDates() {
   // Create date in Eastern Time
   const now = new Date();
+  console.log(`Current UTC time: ${now.toISOString()}`);
+  
   const options = { timeZone: 'America/New_York' };
   const etNow = new Date(now.toLocaleString('en-US', options));
+  console.log(`Current ET time: ${etNow.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
   
   // Get the current day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
   const currentDay = etNow.getDay();
+  console.log(`Current day of week (0=Sunday, 1=Monday, etc.): ${currentDay}`);
   
   // If today is Monday, use today's date
   // Otherwise, go back to the previous Monday
   const daysToMonday = currentDay === 1 ? 0 : currentDay === 0 ? 6 : currentDay - 1;
+  console.log(`Days to go back to Monday: ${daysToMonday}`);
   
   // Create date objects for the start (Monday) and end (Sunday) of the week
   const monday = new Date(etNow);
@@ -33,6 +38,13 @@ function getCurrentWeekDates() {
   const sunday = new Date(monday);
   sunday.setDate(monday.getDate() + 6);
   sunday.setHours(23, 59, 59, 999);
+  
+  // Debug log to verify the dates
+  console.log(`Monday date (ISO): ${monday.toISOString()}`);
+  console.log(`Monday date (ET): ${monday.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
+  console.log(`Sunday date (ISO): ${sunday.toISOString()}`);
+  console.log(`Sunday date (ET): ${sunday.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
+  console.log(`Calculated week: ${monday.toDateString()} to ${sunday.toDateString()}`);
   
   return { monday, sunday };
 }
@@ -59,6 +71,8 @@ function formatDateForFilename(date) {
 // Main function
 async function generateWeeklyMeetups() {
   try {
+    console.log("Starting weekly meetups generation...");
+    
     // Get the current week's dates
     const { monday, sunday } = getCurrentWeekDates();
     
@@ -68,14 +82,25 @@ async function generateWeeklyMeetups() {
     // Read the calendar events
     const rootDir = path.resolve(__dirname, '..');
     const calendarEventsPath = path.join(rootDir, 'src', 'data', 'calendar-events.json');
+    console.log(`Reading calendar events from: ${calendarEventsPath}`);
+    
     const calendarEvents = JSON.parse(fs.readFileSync(calendarEventsPath, 'utf8'));
+    console.log(`Total calendar events: ${calendarEvents.length}`);
     
     // Filter events happening this week
     const thisWeekEvents = calendarEvents.filter(event => {
       const eventDate = new Date(event.date);
       const etEventDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-      return etEventDate >= monday && etEventDate <= sunday;
+      const isInRange = etEventDate >= monday && etEventDate <= sunday;
+      
+      if (isInRange) {
+        console.log(`Event in range: ${event.title} on ${etEventDate.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
+      }
+      
+      return isInRange;
     });
+    
+    console.log(`Events this week: ${thisWeekEvents.length}`);
     
     // Sort events by date
     thisWeekEvents.sort((a, b) => {
@@ -93,11 +118,18 @@ async function generateWeeklyMeetups() {
       const etEventDate = new Date(eventDate.toLocaleString('en-US', { timeZone: 'America/New_York' }));
       const dayKey = etEventDate.toDateString();
       
+      console.log(`Grouping event: ${event.title} on ${dayKey}`);
+      
       if (!eventsByDay[dayKey]) {
         eventsByDay[dayKey] = [];
       }
       
       eventsByDay[dayKey].push(event);
+    });
+    
+    console.log(`Days with events: ${Object.keys(eventsByDay).length}`);
+    Object.keys(eventsByDay).forEach(day => {
+      console.log(`- ${day}: ${eventsByDay[day].length} events`);
     });
     
     // Generate markdown content
