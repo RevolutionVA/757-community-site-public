@@ -31,22 +31,26 @@ function getCurrentWeekDates() {
   console.log(`Days to go back to Monday: ${daysToMonday}`);
   
   // Create date objects for the start (Monday) and end (Sunday) of the week
+  // Use a different approach to ensure correct timezone handling
   const monday = new Date(etNow);
   monday.setDate(etNow.getDate() - daysToMonday);
   monday.setHours(0, 0, 0, 0);
   
-  const sunday = new Date(monday);
-  sunday.setDate(monday.getDate() + 6);
+  // Convert back to UTC for consistent handling
+  const mondayUTC = new Date(monday.toISOString());
+  
+  const sunday = new Date(mondayUTC);
+  sunday.setDate(mondayUTC.getDate() + 6);
   sunday.setHours(23, 59, 59, 999);
   
   // Debug log to verify the dates
-  console.log(`Monday date (ISO): ${monday.toISOString()}`);
+  console.log(`Monday date (ISO): ${mondayUTC.toISOString()}`);
   console.log(`Monday date (ET): ${monday.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
   console.log(`Sunday date (ISO): ${sunday.toISOString()}`);
   console.log(`Sunday date (ET): ${sunday.toLocaleString('en-US', { timeZone: 'America/New_York' })}`);
   console.log(`Calculated week: ${monday.toDateString()} to ${sunday.toDateString()}`);
   
-  return { monday, sunday };
+  return { monday: mondayUTC, sunday };
 }
 
 // Function to format a date in a readable format
