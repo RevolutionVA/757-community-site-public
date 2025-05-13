@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from '../components/ThemeToggle.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -45,12 +47,29 @@ const fullTitle = `${title} | 757 Tech Community`;
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={`${siteUrl}${image}`} />
     
+    <!-- Theme CSS needs to be loaded before global.css -->
+    <link rel="stylesheet" href="/styles/theme.css" />
     <link rel="stylesheet" href="/styles/global.css" />
+
+    <!-- Initial script to prevent flash of wrong theme -->
+    <script is:inline>
+      // Check for saved theme or system preference
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      // Apply dark class early to prevent flash
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <a href="/" class="logo">757tech</a>
+        <div style="display: flex; align-items: center;">
+          <a href="/" class="logo">757tech</a>
+          <ThemeToggle />
+        </div>
         <nav>
           <ul>
             <li><a href="/meetups">Meetups</a></li>
