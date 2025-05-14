@@ -1,13 +1,5 @@
 [
   {
-    "title": "Hexagonal and Screaming Architecture in .NET",
-    "link": "https://www.meetup.com/hampton-roads-net-users-group/events/305991366/",
-    "date": "2025-05-13T22:00:00.000Z",
-    "description": "**IN PERSON ONLY. NO VIRTUAL OPTION. Come hang out, network, and learn something!**\n\nAbstract:\nHexagonal architecture is an architectural pattern designed to create loosely coupled application components that can seamlessly connect to their software environment using ports and adapters. This approach makes components interchangeable at any level and facilitates test automation, offering a robust alternative to the traditional layered architecture. In hexagonal architecture, each component communicates with others through well-defined \"ports,\" following a specified interface to ensure loose coupling and flexibility.\n\nScreaming architecture, a concept introduced by Robert Martin (Uncle Bob), emphasizes that a software system’s structure should clearly communicate its purpose. Much like a building blueprint reveals the function of a structure, a well-designed software architecture should make its intent immediately apparent.\n\nIn this talk, we will briefly explore both hexagonal and screaming architecture patterns, then dive into code to see how these concepts can be applied to a modern .NET codebase. Additionally, we will discuss how these architectural principles can assist in planning and estimating work more effectively.",
-    "source": "meetup",
-    "group": "Hampton Roads .NET User Group"
-  },
-  {
     "title": "(CS)²AI Symposium: Cyber Security for Healthcare Sector",
     "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/307460734/",
     "date": "2025-05-14T17:00:00.000Z",
