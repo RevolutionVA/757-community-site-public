@@ -1,0 +1,33 @@
+*Meetups This Week (Monday - Sunday)*
+
+*5 Meetups This Week*
+
+*Monday, May 19*
+• *Introduction to Git versioning* - 07:00 PM
+  757 Python Users Group
+  https://www.meetup.com/757-python-users-group/events/307546263/ (Event Link)
+
+
+*Saturday, May 24*
+• *SAFe Product Owner / Product Manager* - 09:00 AM
+  Blacks United in Leading Technology - Hampton Roads
+  https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307791482/ (Event Link)
+
+
+*Wednesday, May 21*
+• *Fellow Fireside Chat: Getting into the ICS/OT Cybersecurity Field* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/307801986/ (Event Link)
+
+• *Joey D'Antoni: Why SQL Server is Still Worth It* - 06:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/306772557/ (Event Link)
+
+• *Get in tech with Scrum* - 07:00 PM
+  Blacks United in Leading Technology - Hampton Roads
+  https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307673281/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
