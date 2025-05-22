@@ -1,21 +1,5 @@
 [
   {
-    "title": "Joey D'Antoni: Why SQL Server is Still Worth It",
-    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/306772557/",
-    "date": "2025-05-21T22:00:00.000Z",
-    "description": "**IN PERSON MEETING!!!!!**\nYou hear a lot in the tech media about the movement to open source databases to reduce the overall cost of applications. Sure databases like PostgreSQL and DuckDB do specific things well, but they do have tradeoffs. In this session you will learn about when it can be a good idea to choose an open-source database for your application, but you will also learn about some of the features that make SQL Server (and all of the related Azure services) stand out ahead of the “free” open-source databases.",
-    "source": "meetup",
-    "group": "Hampton Roads SQL Server User Group"
-  },
-  {
-    "title": "Get in tech with Scrum",
-    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307673281/",
-    "date": "2025-05-21T23:00:00.000Z",
-    "description": "Join this 1-hour technical primer on What is a Scrum Master.\n\nA Scrum Master is a professional who leads a team to manage the flow of information between team members. A Scrum Master helps streamline project processes to achieve goals faster.\n\nPeople who have strong interpersonal skills like empathy and active listening are core skills to building positive relationships with others. A Scrum Master must effectively facilitate meetings (such as daily stand-ups, sprint planning, and retrospectives) to ensure they are productive and stay on track. A scrum master is supposed to be an experienced negotiator and facilitator to handle disagreements and find a satisfactory solution for everyone involved.\n\nSalaries as Scrum Master often range from $106,000 - $120,000. There's a huge demand for Scrum Masters who can help departments increase the efficiency of teams, and help organizations respond to rapidly changing market conditions.\n\n**The course is open to the public.**\n[https://bit.ly/BUiLT_Trained](https://bit.ly/BUiLT_Trained)",
-    "source": "meetup",
-    "group": "Blacks United in Leading Technology - Hampton Roads"
-  },
-  {
     "title": "SAFe Product Owner / Product Manager",
     "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/307791482/",
     "date": "2025-05-24T13:00:00.000Z",
