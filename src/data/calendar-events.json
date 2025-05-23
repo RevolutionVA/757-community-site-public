@@ -192,6 +192,14 @@
     "group": "Tidewater Youtube Creators Group"
   },
   {
+    "title": "Hands-on Workshop: REST APIs to Praise Cage! Part 2!",
+    "link": "https://www.meetup.com/norfolkjs/events/308002954/",
+    "date": "2025-06-30T22:30:00.000Z",
+    "description": "You asked for it, and we're going to do it! By popular demand, we'll have a **hands-on workshop** to *design, build, and deploy a REST API* to Praise Cage! The focus will be on doing, so bring your laptops and have a GitHub account.\n\n**We will add JWT authentication to our APIs in part two of this workshop.**\n\nAll skill levels are welcome! If you've ever been interested in web development, come on by.\n\nAs always, HUGE thanks to Assembly for hosting.\nLearn more about the amenities and community of Assembly at [https://www.assemblynfk.com/](https://www.assemblynfk.com/)",
+    "source": "meetup",
+    "group": "Norfolk.js"
+  },
+  {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/zpwsqtyhckbdb/",
     "date": "2025-07-02T22:30:00.000Z",
