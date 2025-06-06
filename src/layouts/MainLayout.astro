@@ -46,6 +46,16 @@ const fullTitle = `${title} | 757 Tech Community`;
     <meta property="twitter:image" content={`${siteUrl}${image}`} />
     
     <link rel="stylesheet" href="/styles/global.css" />
+    
+    <!-- Bento Tracking -->
+    <script src="https://fast.bentonow.com?site_uuid=57d9b8196b2b704a30da5ac245bf2cfe&js=true" async defer></script>
+    <script>
+      if (typeof(bento$) != 'undefined') {
+        bento$(function() {
+          bento.view();
+        });
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
