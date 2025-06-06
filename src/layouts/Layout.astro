@@ -6,6 +6,21 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
+		<!-- Theme CSS needs to be loaded before global.css -->
+		<link rel="stylesheet" href="/styles/theme.css" />
+		<link rel="stylesheet" href="/styles/global.css" />
+
+		<!-- Initial script to prevent flash of wrong theme -->
+		<script is:inline>
+			// Check for saved theme or system preference
+			const savedTheme = localStorage.getItem('theme');
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			
+			// Apply dark class early to prevent flash
+			if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script>
 	</head>
 	<body>
 		<slot />

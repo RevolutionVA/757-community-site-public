@@ -214,28 +214,28 @@ function findMeetupUrl(groupName: string): string | null {
 
 <style>
   .coming-soon {
-    background-color: #fff;
+    background-color: var(--color-card-bg);
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--color-card-shadow);
     text-align: center;
     font-size: 1.25rem;
-    color: #6c757d;
+    color: var(--color-secondary);
   }
 
   .no-events {
-    background-color: #fff;
+    background-color: var(--color-card-bg);
     padding: 3rem 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--color-card-shadow);
     text-align: center;
-    color: #6c757d;
+    color: var(--color-secondary);
   }
 
   .no-events h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #343a40;
+    color: var(--color-text);
   }
 
   .no-events p {
@@ -262,14 +262,14 @@ function findMeetupUrl(groupName: string): string | null {
 
   .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
   }
 
   .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
   }
 
   .calendar-section {
@@ -283,9 +283,9 @@ function findMeetupUrl(groupName: string): string | null {
   }
 
   .month-section {
-    background-color: #fff;
+    background-color: var(--color-card-bg);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--color-card-shadow);
     position: relative;
     margin-bottom: 2rem;
   }
@@ -294,18 +294,18 @@ function findMeetupUrl(groupName: string): string | null {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #f8f9fa;
+    background-color: var(--color-header-bg);
     border-radius: 8px 8px 0 0;
   }
 
   .month-heading {
-    background-color: #f8f9fa;
+    background-color: var(--color-header-bg);
     padding: 1rem;
     margin: 0;
     font-size: 1.5rem;
-    color: #343a40;
-    border-bottom: 1px solid #e9ecef;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 4px var(--color-card-shadow);
   }
 
   .events-list {
@@ -321,13 +321,14 @@ function findMeetupUrl(groupName: string): string | null {
     gap: 1rem;
     padding: 1rem;
     border-radius: 4px;
-    background-color: #f8f9fa;
+    background-color: var(--color-hover);
+    border: 1px solid var(--color-border);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
   .event-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--color-card-shadow);
   }
 
   .event-date {
@@ -337,7 +338,7 @@ function findMeetupUrl(groupName: string): string | null {
     justify-content: center;
     min-width: 60px;
     padding: 0.5rem;
-    background-color: #007bff;
+    background-color: var(--color-primary);
     color: white;
     border-radius: 4px;
     text-align: center;
@@ -364,25 +365,25 @@ function findMeetupUrl(groupName: string): string | null {
   }
 
   .event-title a {
-    color: #343a40;
+    color: var(--color-text);
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
   .event-title a:hover {
-    color: #007bff;
+    color: var(--color-primary);
   }
 
   .event-group {
     margin: 0 0 0.25rem 0;
     font-size: 0.875rem;
     display: inline-block;
-    background-color: #e9ecef;
-    color: #495057;
+    background-color: var(--color-hover);
+    color: var(--color-text);
     font-weight: 600;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    border-left: 3px solid #007bff;
+    border-left: 3px solid var(--color-primary);
     transition: transform 0.2s ease;
   }
   
@@ -420,12 +421,12 @@ function findMeetupUrl(groupName: string): string | null {
   .event-time {
     margin: 0 0 0.5rem 0;
     font-size: 0.875rem;
-    color: #6c757d;
+    color: var(--color-secondary);
   }
 
   .event-description {
     font-size: 0.875rem;
-    color: #495057;
+    color: var(--color-text);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     line-height: 1.5;
@@ -447,7 +448,7 @@ function findMeetupUrl(groupName: string): string | null {
   }
 
   .event-description a {
-    color: #007bff;
+    color: var(--color-primary);
     text-decoration: none;
   }
 
@@ -466,7 +467,7 @@ function findMeetupUrl(groupName: string): string | null {
   }
 
   .event-description code {
-    background-color: #f1f1f1;
+    background-color: var(--color-hover);
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
     font-family: monospace;
@@ -478,8 +479,8 @@ function findMeetupUrl(groupName: string): string | null {
 
   .source-tag {
     display: inline-block;
-    background-color: #e9ecef;
-    color: #495057;
+    background-color: var(--color-hover);
+    color: var(--color-secondary);
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.75rem;

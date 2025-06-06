@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When asked to perform a task, update [TODO.md](mdc:TODO.md) with the list of tasks that need to be performed.
