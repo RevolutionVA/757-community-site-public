@@ -5,6 +5,7 @@ import StatCard from '../components/StatCard.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
 import KeepSurfing from '../components/KeepSurfing.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -78,6 +79,7 @@ import KeepSurfing from '../components/KeepSurfing.astro';
 
 		<section class="section">
 			<SectionDivider title="Meetups This Week" />
+			<NewsletterSignup />
 			<ThisWeekMeetups />
 		</section>
 
@@ -103,6 +105,11 @@ import KeepSurfing from '../components/KeepSurfing.astro';
 		padding: 1.5rem;
 		border-radius: 8px;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+
+	.newsletter-container {
+		max-width: 600px;
+		margin: 0 auto;
 	}
 
 	.feature-content h3 {

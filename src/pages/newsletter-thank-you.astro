@@ -1,0 +1,84 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout 
+	title="Thank You for Subscribing" 
+	description="Thank you for subscribing to the 757tech newsletter. Stay tuned for weekly updates, special event offers, and volunteer opportunities in Hampton Roads."
+>
+	<div class="container">
+		<section class="section thank-you-section">
+			<h1>Welcome to the 757tech Community! 🎉</h1>
+			<p>
+				Thanks for joining our newsletter. You'll now receive:
+			</p>
+			<ul>
+				<li>Weekly updates on tech events, meetups, and happenings across Hampton Roads</li>
+				<li>Exclusive offers and early access to major events like Hampton Roads DevFest and RevolutionConf</li>
+				<li>Opportunities to volunteer and make an impact in our growing tech community</li>
+			</ul>
+			<p>
+				Your first update is on its way! In the meantime, check out our upcoming events and see how you can get involved.
+			</p>
+			<div class="cta-container">
+				<a href="/" class="cta-button">Return to Home</a>
+			</div>
+		</section>
+	</div>
+</MainLayout>
+
+<style>
+	.thank-you-section {
+		max-width: 800px;
+		margin: 4rem auto;
+		text-align: center;
+		background-color: #fff;
+		padding: 3rem;
+		border-radius: 12px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+
+	h1 {
+		color: #0077cc;
+		margin-bottom: 1.5rem;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 2rem 0;
+	}
+
+	li {
+		margin: 1rem 0;
+		font-size: 1.1rem;
+		color: #333;
+	}
+
+	p {
+		font-size: 1.1rem;
+		line-height: 1.6;
+		color: #444;
+		margin: 1.5rem 0;
+	}
+
+	.cta-container {
+		margin-top: 3rem;
+	}
+
+	.cta-button {
+		display: inline-block;
+		background-color: #0077cc;
+		color: white;
+		padding: 0.75rem 1.5rem;
+		border-radius: 4px;
+		font-weight: bold;
+		text-decoration: none;
+		transition: background-color 0.2s ease;
+	}
+
+	.cta-button:hover {
+		background-color: #005fa3;
+		text-decoration: none;
+	}
+</style> 

@@ -6,6 +6,7 @@ import calendarEvents from '../data/calendar-events.json';
 import meetupsData from '../data/meetups-combined.json';
 import { marked } from 'marked';
 import KeepSurfing from '../components/KeepSurfing.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 
 // Configure marked options
 marked.setOptions({
@@ -135,6 +136,7 @@ function findMeetupUrl(groupName: string): string | null {
   </div>
 
   <div class="container">
+    <NewsletterSignup />
     <section class="section calendar-section">
       <SectionDivider title="Upcoming Events" />
       {upcomingEvents.length === 0 ? (

@@ -4,6 +4,7 @@ import SectionDivider from '../components/SectionDivider.astro';
 import Card from '../components/Card.astro';
 import FeatureCard from '../components/FeatureCard.astro';
 import KeepSurfing from '../components/KeepSurfing.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 ---
 
 <MainLayout title="Get Involved">
@@ -15,6 +16,12 @@ import KeepSurfing from '../components/KeepSurfing.astro';
   </div>
 
   <div class="container">
+    <section class="section">
+      <div class="newsletter-container">
+        <NewsletterSignup />
+      </div>
+    </section>
+
     <section class="section">
       <div class="content-box">
         <h2>Join a Meetup</h2>
@@ -92,6 +99,11 @@ import KeepSurfing from '../components/KeepSurfing.astro';
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .newsletter-container {
+    max-width: 600px;
+    margin: 0 auto 2rem;
   }
 
   .content-box h2 {
