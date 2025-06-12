@@ -617,6 +617,7 @@ async function fetchMeetupEvents(meetup) {
           description: description,
           source: 'meetup',
           group: meetup.name,
+          featuredEvent: false,
           createdDate: new Date().toISOString(),
           updatedDate: new Date().toISOString()
         };
@@ -711,6 +712,7 @@ async function fetchMeetupEventsAlternative(meetup) {
           description,
           source: 'meetup-alt',
           group: meetup.name,
+          featuredEvent: false,
           createdDate: new Date().toISOString(),
           updatedDate: new Date().toISOString()
         };
@@ -783,6 +785,7 @@ function createManualTestEvents() {
       description: descriptions[topicIndex],
       source: 'manual',
       group: groups[groupIndex],
+      featuredEvent: false,
       createdDate: new Date().toISOString(),
       updatedDate: new Date().toISOString()
     });
@@ -962,6 +965,10 @@ async function updateCalendarEvents() {
       }
       if (!event.updatedDate) {
         event.updatedDate = new Date().toISOString();
+      }
+      // Add featuredEvent field if it doesn't exist
+      if (event.featuredEvent === undefined) {
+        event.featuredEvent = false;
       }
       eventMap.set(key, event);
     }

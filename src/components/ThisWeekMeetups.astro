@@ -9,6 +9,9 @@ interface CalendarEvent {
   description: string;
   source: string;
   group: string;
+  featuredEvent?: boolean;
+  createdDate?: string;
+  updatedDate?: string;
 }
 
 // Get today's date and set to beginning of day
@@ -19,13 +22,22 @@ today.setHours(0, 0, 0, 0);
 const oneWeekFromNow = new Date(today);
 oneWeekFromNow.setDate(today.getDate() + 7);
 
-// Filter events to only include those happening in the next 7 days
+// Filter events to include all featured events and non-featured events from next 7 days
 const thisWeekEvents = calendarEvents
   .filter((event: CalendarEvent) => {
     const eventDate = new Date(event.date);
-    return eventDate >= today && eventDate <= oneWeekFromNow;
+    const isFeatured = (event as any).featuredEvent === true;
+    return isFeatured || (eventDate >= today && eventDate <= oneWeekFromNow);
   })
   .sort((a: CalendarEvent, b: CalendarEvent) => {
+    // First sort by featured status (featured events first)
+    const aFeatured = (a as any).featuredEvent === true;
+    const bFeatured = (b as any).featuredEvent === true;
+    
+    if (aFeatured && !bFeatured) return -1;
+    if (!aFeatured && bFeatured) return 1;
+    
+    // Then sort by date
     return new Date(a.date).getTime() - new Date(b.date).getTime();
   });
 
@@ -45,21 +57,25 @@ function formatEventDate(dateString: string) {
 ---
 
 <div class="this-week-meetups">
-  <h3>Meetups This Week</h3>
+  <h3>Upcoming Meetups</h3>
   
   {thisWeekEvents.length > 0 ? (
     <ul class="event-list">
-      {thisWeekEvents.map((event) => (
-        <li class="event-item">
-          <div class="event-date" title={formatEventDate(event.date)}>{formatEventDate(event.date)}</div>
-          <div class="event-details">
-            <a href={event.link} target="_blank" rel="noopener noreferrer" class="event-title">
-              {event.title}
-            </a>
-            <div class="event-group">{event.group}</div>
-          </div>
-        </li>
-      ))}
+      {thisWeekEvents.map((event) => {
+        const isFeatured = (event as any).featuredEvent === true;
+        return (
+          <li class={`event-item ${isFeatured ? 'featured-event' : ''}`}>
+            {isFeatured && <div class="featured-badge">Featured</div>}
+            <div class="event-date" title={formatEventDate(event.date)}>{formatEventDate(event.date)}</div>
+            <div class="event-details">
+              <a href={event.link} target="_blank" rel="noopener noreferrer" class="event-title">
+                {event.title}
+              </a>
+              <div class="event-group">{event.group}</div>
+            </div>
+          </li>
+        );
+      })}
     </ul>
   ) : (
     <p class="no-events">No meetups scheduled for this week.</p>
@@ -96,12 +112,34 @@ function formatEventDate(dateString: string) {
     padding-bottom: 1rem;
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
+    position: relative;
   }
 
   .event-item:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: none;
+  }
+
+  .featured-event {
+    background-color: #f8f9fa;
+    border-left: 4px solid #0077cc;
+    padding-left: 1rem;
+    margin-left: -1rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .featured-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0077cc;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
   }
 
   .event-date {
@@ -170,6 +208,12 @@ function formatEventDate(dateString: string) {
 
     .event-details {
       flex: 1 0 100%;
+    }
+    
+    .featured-badge {
+      position: static;
+      display: inline-block;
+      margin-bottom: 0.5rem;
     }
   }
 

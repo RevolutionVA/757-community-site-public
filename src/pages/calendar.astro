@@ -22,6 +22,7 @@ interface CalendarEvent {
   description: string;
   source: string;
   group: string;
+  featuredEvent?: boolean;
 }
 
 // Filter events to only include future events
@@ -42,9 +43,13 @@ const upcomingEvents = calendarEvents
     return new Date(a.date).getTime() - new Date(b.date).getTime();
   });
 
+// Separate featured events
+const featuredEvents = upcomingEvents.filter((event: CalendarEvent) => event.featuredEvent === true);
+const regularEvents = upcomingEvents.filter((event: CalendarEvent) => event.featuredEvent !== true);
+
 // Group events by month
 const eventsByMonth: Record<string, CalendarEvent[]> = {};
-upcomingEvents.forEach((event: CalendarEvent) => {
+regularEvents.forEach((event: CalendarEvent) => {
   const date = new Date(event.date);
   const monthYear = date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
   
@@ -137,9 +142,65 @@ function findMeetupUrl(groupName: string): string | null {
 
   <div class="container">
     <NewsletterSignup />
+    
+    {featuredEvents.length > 0 && (
+      <section class="section featured-section">
+        <SectionDivider title="Featured Events" />
+        <div class="calendar-container">
+          <div class="events-list">
+            {featuredEvents.map((event: CalendarEvent) => (
+              <div class="event-card featured-event">
+                <div class="event-date">
+                  <span class="day">{new Date(event.date).getDate()}</span>
+                  <span class="weekday">{new Date(event.date).toLocaleDateString('en-US', { weekday: 'short' })}</span>
+                </div>
+                <div class="event-details">
+                  <h4 class="event-title">
+                    <a href={event.link} target="_blank" rel="noopener noreferrer">
+                      {event.title}
+                    </a>
+                  </h4>
+                  {(() => {
+                    const meetupUrl = findMeetupUrl(event.group);
+                    return (
+                      <p class="event-group">
+                        <span class="group-icon">👥</span> 
+                        {meetupUrl ? (
+                          <a href={meetupUrl} target="_blank" rel="noopener noreferrer" class="group-link">
+                            {event.group}
+                            <span class="link-icon">↗</span>
+                          </a>
+                        ) : (
+                          <span>{event.group}</span>
+                        )}
+                      </p>
+                    );
+                  })()}
+                  <p class="event-time">
+                    {new Date(event.date).toLocaleTimeString('en-US', { 
+                      hour: 'numeric', 
+                      minute: '2-digit',
+                      hour12: true,
+                      timeZone: 'America/New_York'
+                    })}
+                  </p>
+                  {event.description && (
+                    <div class="event-description" set:html={formatDescription(event.description)} />
+                  )}
+                  <div class="event-source">
+                    <span class="source-tag">{event.source}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
     <section class="section calendar-section">
       <SectionDivider title="Upcoming Events" />
-      {upcomingEvents.length === 0 ? (
+      {regularEvents.length === 0 ? (
         <div class="no-events">
           <h2>No Events Scheduled</h2>
           <p>There are currently no upcoming events scheduled in the next six months.</p>
@@ -518,5 +579,18 @@ function findMeetupUrl(groupName: string): string | null {
     .day {
       margin-right: 0.5rem;
     }
+  }
+
+  .featured-event {
+    border-left: 4px solid #007bff;
+    background-color: #f8f9fa;
+  }
+
+  .featured-event .event-title a {
+    color: #007bff;
+  }
+
+  .featured-event .event-date {
+    background-color: #007bff;
   }
 </style> 

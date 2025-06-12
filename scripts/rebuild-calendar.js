@@ -100,6 +100,7 @@ try {
       // Check for duplicates with the same title, date (ignoring time), and group
       const eventMap = new Map();
       const duplicates = [];
+      let featuredCount = 0;
       
       for (const event of events) {
         // Extract date part only for comparison (ignore time)
@@ -108,6 +109,11 @@ try {
         
         // Create a key from title and date part
         const key = `${event.title}|${datePart}|${event.group}`;
+        
+        // Count featured events
+        if (event.featuredEvent === true) {
+          featuredCount++;
+        }
         
         if (eventMap.has(key)) {
           duplicates.push({
@@ -118,6 +124,8 @@ try {
           eventMap.set(key, event);
         }
       }
+      
+      console.log(`Found ${featuredCount} featured events`);
       
       if (duplicates.length > 0) {
         console.warn(`WARNING: Found ${duplicates.length} potential duplicate events in the new file:`);
