@@ -30,6 +30,11 @@ jobs:
       - name: Run update-calendar script
         run: node scripts/update-calendar.js
       
+      - name: Check for stale events and create issues
+        run: node scripts/check-stale-events.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Check for changes
         id: check_changes
         run: |

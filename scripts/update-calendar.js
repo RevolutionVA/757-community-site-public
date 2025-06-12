@@ -616,7 +616,10 @@ async function fetchMeetupEvents(meetup) {
           date: date.toISOString(),
           description: description,
           source: 'meetup',
-          group: meetup.name
+          group: meetup.name,
+          featuredEvent: false,
+          createdDate: new Date().toISOString(),
+          updatedDate: new Date().toISOString()
         };
         
         events.push(event);
@@ -708,7 +711,10 @@ async function fetchMeetupEventsAlternative(meetup) {
           date: date.toISOString(),
           description,
           source: 'meetup-alt',
-          group: meetup.name
+          group: meetup.name,
+          featuredEvent: false,
+          createdDate: new Date().toISOString(),
+          updatedDate: new Date().toISOString()
         };
         
         events.push(event);
@@ -778,7 +784,10 @@ function createManualTestEvents() {
       date: eventDate.toISOString(),
       description: descriptions[topicIndex],
       source: 'manual',
-      group: groups[groupIndex]
+      group: groups[groupIndex],
+      featuredEvent: false,
+      createdDate: new Date().toISOString(),
+      updatedDate: new Date().toISOString()
     });
   }
   
@@ -950,6 +959,17 @@ async function updateCalendarEvents() {
     // First, add existing events to the map
     for (const event of existingEvents) {
       const key = `${event.title}|${event.date}|${event.group}`;
+      // Add metadata fields if they don't exist
+      if (!event.createdDate) {
+        event.createdDate = new Date().toISOString();
+      }
+      if (!event.updatedDate) {
+        event.updatedDate = new Date().toISOString();
+      }
+      // Add featuredEvent field if it doesn't exist
+      if (event.featuredEvent === undefined) {
+        event.featuredEvent = false;
+      }
       eventMap.set(key, event);
     }
     
@@ -962,6 +982,12 @@ async function updateCalendarEvents() {
         eventMap.set(key, newEvent);
         newEventsCount++;
         log(`Adding new event: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.DEBUG);
+      } else {
+        // Update the existing event's updatedDate
+        const existingEvent = eventMap.get(key);
+        existingEvent.updatedDate = new Date().toISOString();
+        eventMap.set(key, existingEvent);
+        log(`Updating existing event: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.DEBUG);
       }
     }
     
