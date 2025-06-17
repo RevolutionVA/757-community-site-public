@@ -205,6 +205,11 @@ async function checkStaleEvents() {
     
     // Find stale events
     const staleEvents = events.filter(event => {
+      // Only check Meetup events for staleness
+      if (event.source !== 'meetup') {
+        return false;
+      }
+      
       if (!event.updatedDate) {
         // Events without updatedDate are considered stale
         return true;
