@@ -7,7 +7,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:38.526Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -19,7 +19,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-06-12T18:05:32.809Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -29,7 +29,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:15.124Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -40,8 +40,19 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:54.650Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
+  },
+  {
+    "title": "Thriving with Careers: Exciting Updates to BUiLT Events and Membership",
+    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/308627203/",
+    "date": "2025-06-26T23:00:00.000Z",
+    "description": "**AI is eliminating jobs and transforming most of the rest.** And what about us humans? An MIT study raises concerns that AI tools may hinder critical thinking and promote passive acceptance of algorithm-driven content.\n\nHave you heard ... BUiLT is pivoting to 1) ensure you stay relevant in your careers, 2) that you find great career opportunities, and 3) that you find the best talent for your teams.\n\nMeet and hear the BUiLT leadership team's plans on:\n\n* Upcoming training and certification program on enhancing our human skills to stay ahead of AI job elimination\n* Badging and credential programs\n* Where to find BUiLT's events\n* Local programming for your area\n\nWe'll have a 30-minute presentation and then open the floor.\n\nAsk us anything about how we are pivoting to meet your needs.\n\n**Remaining Human**\nStrategic, creative, and supervisory positions are more resistant to AI-driven elimination because they rely on human judgment, emotional intelligence, contextual awareness, and innovation—areas where AI still struggles or lacks the flexibility and trust needed.\nTo thrive in an AI-driven tech workforce, professionals must enroll in programs to enhance “uniquely human” competencies, trainable through targeted learning.",
+    "source": "meetup",
+    "group": "Blacks United in Leading Technology - Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2025-06-24T18:05:53.036Z",
+    "updatedDate": "2025-06-24T18:05:53.036Z"
   },
   {
     "title": "757 Build Weekend",
@@ -55,6 +66,17 @@
     "featuredEvent": true
   },
   {
+    "title": "757 Build Weekend 2025",
+    "link": "https://www.meetup.com/757dev/events/308631384/",
+    "date": "2025-06-27T17:00:00.000Z",
+    "description": "*\\*\\*Sponsored by [Assembly](https://www.assemblynfk.com/), [757 Collab](https://757collab.org), and [TechArk](https://gotechark.com)\\*\\**\n\n**💫 What is 757 Build Weekend?**\nIf you like to build and create, this event is for you. Picture a vibrant space where entrepreneurs, students, and professionals converge to build whatever they want—from innovative new projects to wacky ideas. The best projects, as determined by our panel of expert and investor judges, will have opportunities to win prizes and bragging rights. From the initial brainstorming to the final pitch, you'll experience a weekend-long version of the entrepreneurial journey. Check out some [projects](https://devpost.com/software) from [past hackathons](https://devpost.com/hackathons) for inspiration.\n\nThis year 757 Build Weekend will take place alongside [CTRL+ALT+PLAY](https://www.digitalbuilders757.com). Presented by Digital Builders in partnership with Assembly, this event reprograms the way people engage with tech, bringing together gaming, music, AI, and hands-on exploration in an electrifying, culture-rich atmosphere.\n\nUnlike a traditional \"[hackathon](https://guide.mlh.io/overview/why-organize-a-hackathon),” we have a broad sense of the word \"build\" — whether you're technical or non-technical, we want you to build together! This event is also an ideal platform to find talent or collaborators to bring your idea to life. The event will occur over three days at the 757 Startup Studios within the Assembly campus in Norfolk, VA and the winners will take home $1000 cash and other prizes!\n\n**Registration to this meetup alone is not your ticket:**\n💡 Apply to participate [here](https://757-build-weekend-2025.devpost.com/)!\n\n### **Wednesday, June 25th**\n\n**7pm-9pm** The Build Up Mixer @ Assembly\nMeet other participants, socialize ideas, form teams 🤝\n\n### **Friday, June 27th**\n\n* **12 PM-6:30PM** Check-in, open networking, final team formation ✅\n* **1-6 PM** Workshops! 🪚\n* 1pm - Intro to no-code / low code tools with [Ted Patterson](https://www.linkedin.com/in/tedjpatterson/) and [Yasmin Johnson](https://www.linkedin.com/in/yasminsjohnson)\n* 2pm - Pitching with [Tim Ryan](https://www.linkedin.com/in/ryantnt/)\n* 3pm - Vibe Coding with [Emanuel Perez](https://www.linkedin.com/in/emanuelperez8/)\n* 4pm - Coding an MVP with [Jake Spracher](https://www.linkedin.com/in/jakespracher/)\n* 5pm - Design with [Farid Mokraoui](https://www.linkedin.com/in/farmok/)\n* **6:30 PM** Building starts 🎉\n* **6:30-11PM** Build at Assembly! 🛠️\n\n### **Friday, June 27th - Sunday, June 29th**\n\n* **9am-11pm** Build at Assembly! 🛠️\n* **Saturday June 28th:** Ctrl+Alt+Play 10-11PM 🪩\n\n### **Sunday, June 29th**\n\n* **9am-12pm** Build at Assembly! 🛠️\n* **12 PM** Building stops 🛑",
+    "source": "meetup",
+    "group": "757 Developers",
+    "featuredEvent": false,
+    "createdDate": "2025-06-24T18:05:26.152Z",
+    "updatedDate": "2025-06-24T18:05:26.152Z"
+  },
+  {
     "title": "757COLOR CODED Community Service: Trash Pickup",
     "link": "https://www.meetup.com/757colorcoded/events/308377771/",
     "date": "2025-06-28T14:00:00.000Z",
@@ -62,7 +84,7 @@
     "source": "meetup",
     "group": "757ColorCoded",
     "createdDate": "2025-06-12T12:55:33.986Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -73,8 +95,19 @@
     "source": "meetup",
     "group": "Norfolk.js",
     "createdDate": "2025-06-12T12:55:35.035Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
+  },
+  {
+    "title": "Thriving with Careers: Exciting Updates to BUiLT Events and Membership",
+    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/308630324/",
+    "date": "2025-06-30T23:00:00.000Z",
+    "description": "**AI is eliminating jobs and transforming most of the rest.** And what about us humans? An MIT study raises concerns that AI tools may hinder critical thinking and promote passive acceptance of algorithm-driven content.\n\nHave you heard ... BUiLT is pivoting to 1) ensure you stay relevant in your careers, 2) that you find great career opportunities, and 3) that you find the best talent for your teams.\n\nMeet and hear the BUiLT leadership team's plans on:\n\n* Upcoming training and certification program on enhancing our human skills to stay ahead of AI job elimination\n* Badging and credential programs\n* Where to find BUiLT's events\n* Local programming for your area\n\nWe'll have a 30-minute presentation and then open the floor.\n\nAsk us anything about how we are pivoting to meet your needs.\n\n**Remaining Human**\nStrategic, creative, and supervisory positions are more resistant to AI-driven elimination because they rely on human judgment, emotional intelligence, contextual awareness, and innovation—areas where AI still struggles or lacks the flexibility and trust needed.\nTo thrive in an AI-driven tech workforce, professionals must enroll in programs to enhance “uniquely human” competencies, trainable through targeted learning.",
+    "source": "meetup",
+    "group": "Blacks United in Leading Technology - Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2025-06-24T18:05:54.097Z",
+    "updatedDate": "2025-06-24T18:05:54.097Z"
   },
   {
     "title": "(CS)²AI Author Spotlight™: Featuring Paul Smith",
@@ -85,7 +118,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-06-20T00:18:02.040Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -95,7 +128,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:13.955Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -107,7 +140,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-06-20T06:05:54.844Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Get in tech with Scrum",
@@ -128,7 +161,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:16.312Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -140,7 +173,7 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2025-06-18T18:05:31.109Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "WSDG July Technical Presentation",
@@ -151,7 +184,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2025-06-12T18:06:06.710Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Get in tech with Scrum",
@@ -161,7 +194,7 @@
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "createdDate": "2025-06-12T12:56:07.995Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -172,7 +205,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:55.744Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -183,7 +216,7 @@
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "createdDate": "2025-06-12T12:55:50.174Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -194,7 +227,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:15.000Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -205,8 +238,19 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:16.985Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
+  },
+  {
+    "title": "Creating Responsible AI with SCRUM",
+    "link": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/308628314/",
+    "date": "2025-07-19T13:00:00.000Z",
+    "description": "Attend this half-day, instructor-led training and certification course.\nAchieving Responsible AI is a SAFe Micro-credential course designed to equip Agile professionals with the skills to implement Responsible AI in their organizations. This course is a blended learning experience that combines a one-hour self-paced eLearning module with a half-day facilitated session focused on practical applications and real-world scenarios. Participants will learn to identify key stakeholders, evaluate RAI policies, draft Epic hypothesis statements, and create actionable plans for continuous improvement in Responsible AI practices.\nAchieving Responsible AI will make you stand out as a leader in implementing responsible AI by providing hands-on experience and practical skills that ensure your AI projects are transparent, accountable, and aligned with human values.\nThrough immersive learning and practical activities, you’ll develop the capability to ensure your AI systems are fair, transparent, and accountable.\n\n\\*All SAFe courses include the workbook and exam cost. Exams must be taken within 30 days of course completion.\n\n**Eligibility for Certification Exam**\nTo ensure you gain the full value of our training and are well-prepared for the certification exam, we require **100% attendance** in all scheduled course sessions.\n\nPlease note, attendance is not only critical for your learning but also a mandatory requirement to qualify for the certification exam.\n\n* **Full Attendance Requirement:** You must attend every session in its entirety to be eligible to take the certification exam.\n* **Missed Sessions:** If any session is missed, regardless of the reason, you will forfeit your eligibility to sit for the exam and, unfortunately, your training cost will not be refunded.\n\n#### Attendees will learn:\n\n* Explore and evaluate examples of RAI policies for potential application within your organization.\n* Develop a concise elevator pitch to advocate for RAI initiatives.\n* Create an action plan for continuous learning and sharing of best practices in RAI.\n\n**Course Curriculum:**\n\n* Self-paced, on-demand eLearning (1 hour) introducing the topic of Responsible AI.\n* Activity 1 – Identifying Stakeholders (\\~30 minutes)\n* Activity 2 – Evaluating RAI Policies (\\~25 minutes)\n* Activity 3 – Communicating the Need for RAI (\\~30 minutes)\n* Activity 4 – Writing an RAI Epic Hypothesis Statement (\\~35 minutes)\n\n**Cancellation and Refund Eligibility**\n\n* **Within 7 Days of Scheduled Training:** We understand that last-minute changes can happen, but unfortunately, cancellations made within 7 days of the scheduled training are not eligible for a refund.\n* **Prior to 7 Days of Scheduled Training:** If you need to cancel more than 7 calendar days before the start date of your training, we’re happy to offer a full refund of your booking fees. Please note that transaction processing charges will apply.\n\nThis course with its discounted pricing is for BUiLT members only. Join BUiLT today - memberships from $45 a year.\n\nJoin [HERE](https://builtinternational.org/sign-up/)",
+    "source": "meetup",
+    "group": "Blacks United in Leading Technology - Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2025-06-24T18:05:56.813Z",
+    "updatedDate": "2025-06-24T18:05:56.813Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -216,7 +260,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:39.535Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -227,7 +271,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:56.670Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -239,7 +283,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2025-06-18T18:05:27.695Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -249,7 +293,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:17.947Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -260,7 +304,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:18.977Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -271,7 +315,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:16.112Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -282,7 +326,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:57.724Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -293,7 +337,7 @@
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "createdDate": "2025-06-12T12:56:09.025Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -305,7 +349,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2025-06-18T00:17:48.636Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -315,7 +359,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:20.162Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -326,7 +370,7 @@
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "createdDate": "2025-06-12T12:55:51.155Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -337,7 +381,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:58.700Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -359,7 +403,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:16.935Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -370,7 +414,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:41.328Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -381,7 +425,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:20.941Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -392,7 +436,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:17.913Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -403,7 +447,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:59.714Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -414,7 +458,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:21.942Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -425,7 +469,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:22.994Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -436,7 +480,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:00.928Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -447,7 +491,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:18.931Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -458,7 +502,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:41.582Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -470,7 +514,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-06-14T00:17:59.552Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -480,7 +524,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:19.972Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -491,7 +535,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:01.927Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -502,7 +546,7 @@
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "createdDate": "2025-06-12T12:56:10.403Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -524,7 +568,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:03.448Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -535,7 +579,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:20.921Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -546,7 +590,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:42.658Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -558,7 +602,7 @@
     "group": "Tidewater Youtube Creators Group",
     "featuredEvent": false,
     "createdDate": "2025-06-13T00:18:34.399Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -568,7 +612,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:21.983Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -580,7 +624,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-06-20T06:06:36.174Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z"
+    "updatedDate": "2025-06-24T18:06:16.041Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -590,7 +634,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:43.603Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -601,7 +645,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:44.601Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
@@ -612,7 +656,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:45.590Z",
-    "updatedDate": "2025-06-24T12:07:46.154Z",
+    "updatedDate": "2025-06-24T18:06:16.041Z",
     "featuredEvent": false
   },
   {
