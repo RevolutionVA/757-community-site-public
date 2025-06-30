@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # npm lock file (using yarn)
 package-lock.json
+
+# backup files
+*.backup
