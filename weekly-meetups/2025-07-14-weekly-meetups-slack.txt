@@ -1,6 +1,28 @@
 *Meetups This Week (Monday - Sunday)*
 
-*5 Meetups This Week*
+*6 Meetups This Week*
+
+*Tuesday, July 15*
+• *Vibecoding 201: Teach your app new tricks* - 05:00 PM
+  The AI Collective - Hampton Roads
+  https://lu.ma/nbnzpmoc (Event Link)
+
+
+*Wednesday, July 16*
+• *Ask Me Anything: Current Trends and Developments in ICS Cybersecurity* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/308871721/ (Event Link)
+
+• *DOUBLE MEETING! Join us of Rob Sewell & Traci Sewell. Details Below* - 06:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/307919018/ (Event Link)
+
+
+*Thursday, July 17*
+• *Bitcoin meetup Open Discussion* - 06:30 PM
+  Virginia Beach Bitcoin
+  https://www.meetup.com/virginia-beach-bitcoin/events/308418489/ (Event Link)
+
 
 *Friday, July 18*
 • *Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)* - 06:00 PM
@@ -12,22 +34,6 @@
 • *Creating Responsible AI with SCRUM* - 09:00 AM
   Blacks United in Leading Technology - Hampton Roads
   https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/308628314/ (Event Link)
-
-
-*Thursday, July 17*
-• *Bitcoin meetup Open Discussion* - 06:30 PM
-  Virginia Beach Bitcoin
-  https://www.meetup.com/virginia-beach-bitcoin/events/308418489/ (Event Link)
-
-
-*Wednesday, July 16*
-• *Ask Me Anything: Current Trends and Developments in ICS Cybersecurity* - 01:00 PM
-  Hampton Roads Cyber Security for Control Systems
-  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/308871721/ (Event Link)
-
-• *DOUBLE MEETING! Join us of Rob Sewell & Traci Sewell. Details Below* - 06:00 PM
-  Hampton Roads SQL Server User Group
-  https://www.meetup.com/hampton-roads-sql-server-user-group/events/307919018/ (Event Link)
 
 
 
