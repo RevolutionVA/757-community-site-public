@@ -165,8 +165,13 @@ async function generateWeeklyMeetups() {
       markdownContent += `## ${thisWeekEvents.length} Meetups This Week\n\n`;
       slackContent += `*${thisWeekEvents.length} Meetups This Week*\n\n`;
       
-      // Add events grouped by day
-      Object.keys(eventsByDay).sort().forEach(dayKey => {
+      // Add events grouped by day - sort by day of week order instead of alphabetically
+      const dayOrder = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      Object.keys(eventsByDay).sort((a, b) => {
+        const dayA = a.split(',')[0]; // Extract day name from "Wednesday, July 16"
+        const dayB = b.split(',')[0]; // Extract day name from "Thursday, July 17"
+        return dayOrder.indexOf(dayA) - dayOrder.indexOf(dayB);
+      }).forEach(dayKey => {
         const dayEvents = eventsByDay[dayKey];
         
         console.log(`Processing day: ${dayKey}`);
