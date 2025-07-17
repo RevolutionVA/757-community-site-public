@@ -1,16 +1,5 @@
 [
   {
-    "title": "DOUBLE MEETING! Join us of Rob Sewell & Traci Sewell. Details Below",
-    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/307919018/",
-    "date": "2025-07-16T22:00:00.000Z",
-    "description": "**DOUBLE MEETING!!!!!**\n\n**Rob Sewell** -\n**Commits - What's the point? Tips for data professionals**\nCommitting code is an integral part of the development lifecycle. However, not all commits\nor commit messages are created equal. As more data professionals are required or expected to use source control within a continuous integration or deployment solution, a lack of good information is reducing the efficacy and usefulness of commit messages.\nIn this session we will explore the source control system git, what makes a commit and what a commit message is for.\nWe will also learn what makes a good, and a bad, commit message and how to automatically link commit messages to User Stories and release notes.\n\n**Traci Sewell**\n\n**When the firehose causes the burnout**\n**How Do we create a firebreak?**\n\nBurnout is complex, and as it is unique to every person, it can be difficult to define and identify. Let me help you with that.\nOver the past few years burnout has become commonly mentioned in conversations about work life balance, about work from home, about hybrid working, about returning to the office.\nAs is often the case when a newer issue becomes a commonly used buzzword, it's true definition and potential causes have become watered down. Even the description of the recognized symptoms, prevention and treatments has become diluted. The realities of dealing with burnout, both in the workplace and in our personal lives, have been lost in the smoke.\nIn this session we will be reminded of what burnout actually looks like, how it is correctly defined, and how we can avoid some of the triggers.\nI will share my professional experiences with a variety of different symptoms and issues and introduce you to some of the approaches that I encourage people to use.\nYou will leave this session having added tools to your toolbox that are relatively straightforward, hopefully memorable, and generic enough that they will apply to the majority of us.",
-    "source": "meetup",
-    "group": "Hampton Roads SQL Server User Group",
-    "createdDate": "2025-06-12T12:55:50.174Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
-    "featuredEvent": false
-  },
-  {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/308418489/",
     "date": "2025-07-17T22:30:00.000Z",
@@ -18,7 +7,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:15.000Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.508Z",
     "featuredEvent": false
   },
   {
@@ -29,7 +18,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:16.985Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -41,7 +30,7 @@
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-06-24T18:05:56.813Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -51,7 +40,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:39.535Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -63,7 +52,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-07-05T00:17:19.623Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -73,7 +62,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:56.670Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -85,7 +74,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2025-06-18T18:05:27.695Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "(CS)²AI Author Spotlight™: Featuring Ernie Hayden",
@@ -96,7 +85,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-07-05T00:17:20.361Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -106,7 +95,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:17.947Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -117,7 +106,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:18.977Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -128,7 +117,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:16.112Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -139,7 +128,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:57.724Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -150,7 +139,7 @@
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "createdDate": "2025-06-12T12:56:09.025Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -162,7 +151,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2025-06-18T00:17:48.636Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "August June Social Event",
@@ -173,7 +162,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2025-07-13T00:21:33.619Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -183,7 +172,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:20.162Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -194,7 +183,7 @@
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "createdDate": "2025-06-12T12:55:51.155Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -205,7 +194,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:58.700Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -227,7 +216,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:16.935Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -238,7 +227,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:41.328Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -249,7 +238,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:20.941Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -260,7 +249,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:17.913Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -271,7 +260,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:55:59.714Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -282,7 +271,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:21.942Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -293,7 +282,7 @@
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "createdDate": "2025-06-12T12:56:22.994Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -304,7 +293,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:00.928Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -315,7 +304,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:18.931Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -326,7 +315,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:41.582Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -338,7 +327,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-06-14T00:17:59.552Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -348,7 +337,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:19.972Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -359,7 +348,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:01.927Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -371,7 +360,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-06-26T00:18:45.457Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Get Certified in Cybersecurity - 4 Week Cohort (wk. 1)",
@@ -381,7 +370,7 @@
     "source": "meetup",
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "createdDate": "2025-06-12T12:56:10.403Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -393,7 +382,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-09T06:07:11.782Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "757 Technite",
@@ -415,7 +404,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2025-07-15T18:06:13.506Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -425,7 +414,7 @@
     "source": "meetup",
     "group": "Tidewater Youtube Creators Group",
     "createdDate": "2025-06-12T12:56:03.448Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -436,7 +425,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:20.921Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -447,7 +436,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:42.658Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -459,7 +448,7 @@
     "group": "Tidewater Youtube Creators Group",
     "featuredEvent": false,
     "createdDate": "2025-06-13T00:18:34.399Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -469,7 +458,7 @@
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "createdDate": "2025-06-12T12:56:21.983Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -481,7 +470,7 @@
     "group": "Tidewater Youtube Creators Group",
     "featuredEvent": false,
     "createdDate": "2025-06-27T00:19:01.305Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -492,7 +481,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-06-20T06:06:36.174Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -502,7 +491,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:43.603Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -514,7 +503,7 @@
     "group": "Tidewater Youtube Creators Group",
     "featuredEvent": false,
     "createdDate": "2025-07-11T00:18:52.844Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -525,7 +514,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-03T06:06:53.546Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -535,7 +524,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:44.601Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -546,7 +535,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:45.590Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -557,7 +546,7 @@
     "source": "meetup",
     "group": "757 Developers",
     "createdDate": "2025-06-12T12:55:46.719Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z",
+    "updatedDate": "2025-07-17T00:19:55.509Z",
     "featuredEvent": false
   },
   {
@@ -569,7 +558,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-06-30T18:05:53.238Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -580,6 +569,6 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-04T06:06:33.640Z",
-    "updatedDate": "2025-07-16T18:06:37.320Z"
+    "updatedDate": "2025-07-17T00:19:55.509Z"
   }
 ]
