@@ -14,7 +14,8 @@
     "fetch-meetup-images": "node scripts/fetch-meetup-images.js",
     "rebuild-calendar": "node scripts/rebuild-calendar.js && node scripts/deduplicate-calendar.js",
     "deduplicate-calendar": "node scripts/deduplicate-calendar.js",
-    "fix-calendar": "node scripts/fix-calendar-duplicates.js"
+    "fix-calendar": "node scripts/fix-calendar-duplicates.js",
+    "add-meetup": "node scripts/add-meetup.js"
   },
   "dependencies": {
     "@astrojs/node": "^9.1.3",

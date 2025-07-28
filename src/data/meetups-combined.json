@@ -1,31 +1,62 @@
 [
   {
-    "name": "Platform Engineering and DevOps - Hampton Roads",
-    "url": "https://www.meetup.com/platform-eng-and-devops/",
+    "name": "757 AI & No-code Creators",
+    "url": "https://www.linkedin.com/company/757ainocodecreators/",
     "tags": [
-      "DevOps"
+      "AI",
+      "No-code"
     ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/platform-eng-and-devops/events/rss/",
+    "category": "Technology",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-platform-eng-and-devops.jpg",
-      "title": "Platform and DevOps Engineering - Hampton Roads | Meetup",
-      "description": "Are you passionate about building and maintaining robust, scalable, and efficient technology platforms? Do you thrive in the world of DevOps, automation, and continuous improvement? If so, you&#x27;ve found your tribe in the Platform Engineering and DevOps community of Hampton Roads!**Who We Are:** Forme"
+      "imageUrl": "/images/linkedin-default.jpg",
+      "title": "757 AI & No-code Creators",
+      "description": "757 AI & No-code Creators - A professional group on LinkedIn. Click to learn more."
     }
   },
   {
-    "name": "Norfolk.js",
-    "url": "https://www.meetup.com/NorfolkJS/",
+    "name": "757 Artificial Intelligence Collective",
+    "url": "https://www.meetup.com/757-artificial-intelligence",
     "tags": [
-      "Javascript",
-      "Web development"
+      "ai",
+      "artificial intelligence",
+      "open source",
+      "cloud computing"
+    ],
+    "category": "Technology",
+    "rssFeed": "https://www.meetup.com/757-artificial-intelligence/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-757-artificial-intelligence.jpg",
+      "title": "757 Artificial Intelligence Collective | Meetup",
+      "description": "Discord group: https://discord.gg/pMpdNHJDEJWelcome to the 757 Artificial Intelligence Collective! Our group is dedicated to exploring the latest advancements in AI, science, open-source intelligence, and cloud computing. We are a community of like-minded individuals who are passionate about helping"
+    }
+  },
+  {
+    "name": "757 Developers",
+    "url": "https://www.meetup.com/757dev/",
+    "tags": [
+      "General"
     ],
     "category": "Development",
-    "rssFeed": "https://www.meetup.com/NorfolkJS/events/rss/",
+    "rssFeed": "https://www.meetup.com/757dev/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-norfolkjs.jpg",
-      "title": "Norfolk.js | Meetup",
-      "description": "Join us in talking about, brainstorming, and building Javascript tools and applications. See more information at norfolkjs.org or github.com/norfolkjs.Please review our Code of Conduct here: https://github.com/norfolkjs/general-info/blob/master/CODEOFCONDUCT.md"
+      "imageUrl": "/images/meetups/meetup-com-757dev.jpg",
+      "title": "757 Developers | Meetup",
+      "description": "The 757 area has a ton of great developer groups that make up the greater developer community. &amp;nbsp;Our goal is to promote events (no matter what the size) that don&#x27;t have a good fit within another area group.If you are interested in a meetup idea, but don&#x27;t want to invest in Meetup fees -- post yo"
+    }
+  },
+  {
+    "name": "757 Python Users Group",
+    "url": "https://www.meetup.com/757-python-users-group/",
+    "tags": [
+      "Python",
+      "Programming"
+    ],
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/757-python-users-group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-757-python-users-group.jpg",
+      "title": "Norfolk Python Users Group | Meetup",
+      "description": "Welcome to the Norfolk Python Software meetup. This group is for anyone interested in all aspects of the Python programming language. Whether you use Python professionally, as a hobbyist, or just looking for a great language to learn, you&#x27;re welcome here!Currently meeting online with discord: https:"
     }
   },
   {
@@ -45,131 +76,18 @@
     }
   },
   {
-    "name": "Hampton Roads Azure Users Group",
-    "url": "https://www.meetup.com/hampton-roads-azure-users-group/",
+    "name": "Blacks United in Leading Technology - Hampton Roads",
+    "url": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/",
     "tags": [
-      "Azure",
-      "Cloud"
-    ],
-    "category": "Cloud",
-    "rssFeed": "https://www.meetup.com/hampton-roads-azure-users-group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-hampton-roads-azure-users-group.jpg",
-      "title": "Hampton Roads Azure Users Group | Meetup",
-      "description": "The Hampton Roads Azure Users Group is a community of technology professionals and enthusiasts interested in Microsoft Azure. The group is based in the Hampton Roads area of Virginia, including Norfolk, Virginia Beach, Chesapeake, Suffolk, Portsmouth, and Hampton.The Hampton Roads Azure Users Group "
-    }
-  },
-  {
-    "name": "757 Developers",
-    "url": "https://www.meetup.com/757dev/",
-    "tags": [
-      "General"
-    ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/757dev/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-757dev.jpg",
-      "title": "757 Developers | Meetup",
-      "description": "The 757 area has a ton of great developer groups that make up the greater developer community. &amp;nbsp;Our goal is to promote events (no matter what the size) that don&#x27;t have a good fit within another area group.If you are interested in a meetup idea, but don&#x27;t want to invest in Meetup fees -- post yo"
-    }
-  },
-  {
-    "name": "Hampton Roads .NET User Group",
-    "url": "https://www.meetup.com/hampton-roads-net-users-group/",
-    "tags": [
-      ".NET"
-    ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/hampton-roads-net-users-group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-hampton-roads-net-users-group.jpg",
-      "title": "Hampton Roads .NET Users Group | Meetup",
-      "description": "Hampton Roads .NET Users Group caters to anyone interested in developing against Microsoft tools and services.  Whether you are a .NET developer, new or old, or deploying code to Microsoft Azure - we are the group for you!We offer meetings on various subjects, and we welcome developers of any skill "
-    }
-  },
-  {
-    "name": "Hampton Roads SQL Server User Group",
-    "url": "https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/",
-    "tags": [
-      "SQL"
-    ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-hampton-roads-sql-server-user-group.jpg",
-      "title": "Hampton Roads SQL Server User Group | Meetup",
-      "description": "The HRSSUG is focused on Microsoft SQL Server software and the tools related to its use for all users starting with novices all the way up to experts.[Code of Conduct](https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/pages/32522408/Anti-Harassment_Policy_Code_of_Conduct/)Join us for HRSSUG"
-    }
-  },
-  {
-    "name": "WordPress Hampton Roads",
-    "url": "https://www.meetup.com/WordPresshr/",
-    "tags": [
-      "WordPress",
-      "Web development"
-    ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/WordPresshr/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-wordpresshr.jpg",
-      "title": "WordPress Hampton Roads | Meetup",
-      "description": "This group offers an exchange of ideas, examples, support &amp; answers regarding WordPress.WordPress Hampton Roads is open to WordPress.org and WordPress.com users alike.Discussion will include:• Newbies Guide to WordPress • Plugin development • Theme creation &amp; integration• Admin customization &amp; basic"
-    }
-  },
-  {
-    "name": "Hampton Roads Cyber Security for Control Systems",
-    "url": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/",
-    "tags": [
-      "Cyber Security"
+      "General",
+      "DEI"
     ],
     "category": "Technology",
-    "rssFeed": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/rss/",
+    "rssFeed": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-norfolk-cyber-security-for-control-systems.jpg",
-      "title": "Hampton Roads Cyber Security for Control Systems | Meetup",
-      "description": "Welcome! This meetup dedicated to all professionals involved in Cyber Security for Automated Processes and Control Systems including security for Operating Technology (OT), Industrial Control Systems (ICS), SCADA Systems, Transportation Systems, Building Control Systems (BCS), and even emerging Indu"
-    }
-  },
-  {
-    "name": "Hampton Roads Amazon Web Services User Group",
-    "url": "https://www.meetup.com/hampton-roads-amazon-web-services-user-group/",
-    "tags": [
-      "AWS"
-    ],
-    "category": "Cloud",
-    "rssFeed": "https://www.meetup.com/hampton-roads-amazon-web-services-user-group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-hampton-roads-amazon-web-services-user-group.jpg",
-      "title": "Hampton Roads Amazon Web Services User Group | Meetup",
-      "description": "EC2 and Lambda and S3 -- oh my!Are you interested in AWS, new to AWS, or an AWS Veteran? Join and help us grow an AWS User Group in Hampton Roads. Meetings are free and open to the public on the first Tuesday of every month at 6 PM.We meet at DOMA Technologies every month. Please check out our event"
-    }
-  },
-  {
-    "name": "757 AI & No-code Creators",
-    "url": "https://www.linkedin.com/company/757ainocodecreators/",
-    "tags": [
-      "AI",
-      "No-code"
-    ],
-    "category": "Technology",
-    "metadata": {
-      "imageUrl": "/images/linkedin-default.jpg",
-      "title": "757 AI & No-code Creators",
-      "description": "757 AI & No-code Creators - A professional group on LinkedIn. Click to learn more."
-    }
-  },
-  {
-    "name": "Tidewater Youtube Creators Group",
-    "url": "https://www.meetup.com/tidewater-youtube-creators-group/",
-    "tags": [
-      "Youtube"
-    ],
-    "category": "Technology",
-    "rssFeed": "https://www.meetup.com/tidewater-youtube-creators-group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-tidewater-youtube-creators-group.jpg",
-      "title": "Tidewater Youtube Creators Group | Meetup",
-      "description": "This group is to assist Youtube creators in getting more video views, growing subscribers &amp; building an online presence. Learn different video techniques and what gear other creators are using. This group is for serious creators that want to grow their business through Youtube &amp; want to share with o"
+      "imageUrl": "/images/default-meetup.jpg",
+      "title": "Blacks United in Leading Technology - Hampton Roads",
+      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
     }
   },
   {
@@ -187,32 +105,106 @@
     }
   },
   {
-    "name": "Blacks United in Leading Technology - Hampton Roads",
-    "url": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/",
+    "name": "Hampton Roads .NET User Group",
+    "url": "https://www.meetup.com/hampton-roads-net-users-group/",
     "tags": [
-      "General",
-      "DEI"
+      ".NET"
     ],
-    "category": "Technology",
-    "rssFeed": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/rss/",
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/hampton-roads-net-users-group/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-blacks-united-in-leading-technology-hampton-roads.jpg",
-      "title": "Blacks United in Leading Technology - Hampton Roads | Meetup",
-      "description": "Welcome! Blacks United in Leading Technology - Hampton Roads is the official, chartered chapter for Hampton Roads, Virginia of the dynamic, growing, vibrant [Blacks United in Leading Technology International non-profit corporation](https://builtinternational.org/).Our Chapters are operated under the"
+      "imageUrl": "/images/meetups/meetup-com-hampton-roads-net-users-group.jpg",
+      "title": "Hampton Roads .NET Users Group | Meetup",
+      "description": "Hampton Roads .NET Users Group caters to anyone interested in developing against Microsoft tools and services.  Whether you are a .NET developer, new or old, or deploying code to Microsoft Azure - we are the group for you!We offer meetings on various subjects, and we welcome developers of any skill "
     }
   },
   {
-    "name": "Virginia Beach Wix Studio Community",
-    "url": "https://www.meetup.com/virginia-beach-wix-studio-community/",
+    "name": "Hampton Roads Amazon Web Services User Group",
+    "url": "https://www.meetup.com/hampton-roads-amazon-web-services-user-group/",
     "tags": [
-      "WIX"
+      "AWS"
+    ],
+    "category": "Cloud",
+    "rssFeed": "https://www.meetup.com/hampton-roads-amazon-web-services-user-group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-hampton-roads-amazon-web-services-user-group.jpg",
+      "title": "Hampton Roads Amazon Web Services User Group | Meetup",
+      "description": "EC2 and Lambda and S3 -- oh my!Are you interested in AWS, new to AWS, or an AWS Veteran? Join and help us grow an AWS User Group in Hampton Roads. Meetings are free and open to the public on the first Tuesday of every month at 6 PM.We meet at DOMA Technologies every month. Please check out our event"
+    }
+  },
+  {
+    "name": "Hampton Roads Azure Users Group",
+    "url": "https://www.meetup.com/hampton-roads-azure-users-group/",
+    "tags": [
+      "Azure",
+      "Cloud"
+    ],
+    "category": "Cloud",
+    "rssFeed": "https://www.meetup.com/hampton-roads-azure-users-group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-hampton-roads-azure-users-group.jpg",
+      "title": "Hampton Roads Azure Users Group | Meetup",
+      "description": "The Hampton Roads Azure Users Group is a community of technology professionals and enthusiasts interested in Microsoft Azure. The group is based in the Hampton Roads area of Virginia, including Norfolk, Virginia Beach, Chesapeake, Suffolk, Portsmouth, and Hampton.The Hampton Roads Azure Users Group "
+    }
+  },
+  {
+    "name": "Hampton Roads Cyber Security for Control Systems",
+    "url": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/",
+    "tags": [
+      "Cyber Security"
     ],
     "category": "Technology",
-    "rssFeed": "https://www.meetup.com/virginia-beach-wix-studio-community/events/rss/",
+    "rssFeed": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-virginia-beach-wix-studio-community.jpg",
-      "title": "Virginia Beach Wix Studio Community | Meetup",
-      "description": "Hey there! We&#x27;re excited you&#x27;re a part of the Virginia Beach Studio community. Join us for one of our face-to-face events or hop into a virtual gathering, where incredible company awaits. Got your event idea? Share it with us on the Virginia Beach Studio Community Discord channel. We&#x27;d love to help "
+      "imageUrl": "/images/meetups/meetup-com-norfolk-cyber-security-for-control-systems.jpg",
+      "title": "Hampton Roads Cyber Security for Control Systems | Meetup",
+      "description": "Welcome! This meetup dedicated to all professionals involved in Cyber Security for Automated Processes and Control Systems including security for Operating Technology (OT), Industrial Control Systems (ICS), SCADA Systems, Transportation Systems, Building Control Systems (BCS), and even emerging Indu"
+    }
+  },
+  {
+    "name": "Hampton Roads Designer Collective",
+    "url": "https://www.meetup.com/hampton-roads-designer-collective/",
+    "tags": [
+      "Game design",
+      "Graphic design"
+    ],
+    "category": "Design",
+    "rssFeed": "https://www.meetup.com/hampton-roads-designer-collective/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/default-meetup.jpg",
+      "title": "Hampton Roads Designer Collective",
+      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
+    }
+  },
+  {
+    "name": "Hampton Roads Java Users Group",
+    "url": "https://www.meetup.com/hampton-roads-java-users-group",
+    "tags": [
+      "java",
+      "kotlin",
+      "scala",
+      "clojure"
+    ],
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/hampton-roads-java-users-group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-hampton-roads-java-users-group.jpg",
+      "title": "Hampton Roads Java Users Group | Meetup",
+      "description": "This is a group dedicated to the learning, discussion, and usage of the Java Programming language and other JVM based languages like Kotlin, Scala, and Clojure. we also do networking with other developers."
+    }
+  },
+  {
+    "name": "Hampton Roads SQL Server User Group",
+    "url": "https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/",
+    "tags": [
+      "SQL"
+    ],
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-hampton-roads-sql-server-user-group.jpg",
+      "title": "Hampton Roads SQL Server User Group | Meetup",
+      "description": "The HRSSUG is focused on Microsoft SQL Server software and the tools related to its use for all users starting with novices all the way up to experts.[Code of Conduct](https://www.meetup.com/Hampton-Roads-SQL-Server-User-Group/pages/32522408/Anti-Harassment_Policy_Code_of_Conduct/)Join us for HRSSUG"
     }
   },
   {
@@ -228,21 +220,6 @@
       "imageUrl": "/images/meetups/meetup-com-hampton-roads-unity-user-group.jpg",
       "title": "Hampton Roads Unity User Group | Meetup",
       "description": "Unity 3D is a game and software development tool for beginners and experts alike. Our group is focused on individuals seeking more knowledge about the Unity 3D platform, sharing personal experiences as a Unity user, and learning tips and tricks to help streamline productivity. Our meetup is a casual"
-    }
-  },
-  {
-    "name": "Virginia Beach Bitcoin",
-    "url": "https://www.meetup.com/virginia-beach-bitcoin/",
-    "tags": [
-      "Crypto",
-      "Bitcoin"
-    ],
-    "category": "Technology",
-    "rssFeed": "https://www.meetup.com/virginia-beach-bitcoin/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-virginia-beach-bitcoin.jpg",
-      "title": "Virginia Beach Bitcoin | Meetup",
-      "description": "Hello! We are a growing, grassroots, bitcoin meetup. We meet to discuss, learn and share about how bitcoin is reshaping money, finance, economics and the way we live our lives. We are pushing some new initiatives with our growth and starting May 2024 meetups will occur twice a month as follows:First"
     }
   },
   {
@@ -275,21 +252,6 @@
     }
   },
   {
-    "name": "Hampton Roads Designer Collective",
-    "url": "https://www.meetup.com/hampton-roads-designer-collective/",
-    "tags": [
-      "Game design",
-      "Graphic design"
-    ],
-    "category": "Design",
-    "rssFeed": "https://www.meetup.com/hampton-roads-designer-collective/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-hampton-roads-designer-collective.jpg",
-      "title": "Hampton Roads Designer Collective | Meetup",
-      "description": "Are you a UX Designer, Game Designer, Graphic Designer, Graphic Artist, Creative or Design Director who resides in Hampton Roads and wants to network, hang out and talk creative or collaborate? Then this is a Group for you :)"
-    }
-  },
-  {
     "name": "Leetcode Problem Solving",
     "url": "https://www.meetup.com/leetcode-problem-solving/",
     "tags": [
@@ -299,24 +261,38 @@
     "category": "Development",
     "rssFeed": "https://www.meetup.com/leetcode-problem-solving/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-leetcode-problem-solving.jpg",
-      "title": "Leetcode Problem Solving | Meetup",
-      "description": "Preparing for software engineering interviews can be tough, but this meetup is here to make it easier and more engaging. We’ll tackle LeetCode problems together in a collaborative, community-driven format—perfect for both aspiring and seasoned engineers. Join us for networking, problem-solving, and "
+      "imageUrl": "/images/default-meetup.jpg",
+      "title": "Leetcode Problem Solving",
+      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
     }
   },
   {
-    "name": "757 Python Users Group",
-    "url": "https://www.meetup.com/757-python-users-group/",
+    "name": "Norfolk.js",
+    "url": "https://www.meetup.com/NorfolkJS/",
     "tags": [
-      "Python",
-      "Programming"
+      "Javascript",
+      "Web development"
     ],
     "category": "Development",
-    "rssFeed": "https://www.meetup.com/757-python-users-group/events/rss/",
+    "rssFeed": "https://www.meetup.com/NorfolkJS/events/rss/",
     "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-757-python-users-group.jpg",
-      "title": "Norfolk Python Users Group | Meetup",
-      "description": "Welcome to the Norfolk Python Software meetup. This group is for anyone interested in all aspects of the Python programming language. Whether you use Python professionally, as a hobbyist, or just looking for a great language to learn, you&#x27;re welcome here![Current site for the meetup.](757pug.org)Our"
+      "imageUrl": "/images/meetups/meetup-com-norfolkjs.jpg",
+      "title": "Norfolk.js | Meetup",
+      "description": "Join us in talking about, brainstorming, and building Javascript tools and applications. See more information at norfolkjs.org or github.com/norfolkjs.Please review our Code of Conduct here: https://github.com/norfolkjs/general-info/blob/master/CODEOFCONDUCT.md"
+    }
+  },
+  {
+    "name": "Platform Engineering and DevOps - Hampton Roads",
+    "url": "https://www.meetup.com/platform-eng-and-devops/",
+    "tags": [
+      "DevOps"
+    ],
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/platform-eng-and-devops/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-platform-eng-and-devops.jpg",
+      "title": "Platform and DevOps Engineering - Hampton Roads | Meetup",
+      "description": "Are you passionate about building and maintaining robust, scalable, and efficient technology platforms? Do you thrive in the world of DevOps, automation, and continuous improvement? If so, you&#x27;ve found your tribe in the Platform Engineering and DevOps community of Hampton Roads!**Who We Are:** Forme"
     }
   },
   {
@@ -332,6 +308,64 @@
       "imageUrl": "/images/meetups/meetup-com-the-williamsburg-software-developers-group.jpg",
       "title": "The Williamsburg Software Developers Group | Meetup",
       "description": "Our members are involved in conceptualizing, designing, developing, testing, marketing and deploying software. We want to expand our knowledge of local resources and to bring our valuable skills to the attention of others who might send business or resources our way.We represent a variety of softwar"
+    }
+  },
+  {
+    "name": "Tidewater Youtube Creators Group",
+    "url": "https://www.meetup.com/tidewater-youtube-creators-group/",
+    "tags": [
+      "Youtube"
+    ],
+    "category": "Technology",
+    "rssFeed": "https://www.meetup.com/tidewater-youtube-creators-group/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-tidewater-youtube-creators-group.jpg",
+      "title": "Tidewater Youtube Creators Group | Meetup",
+      "description": "This group is to assist Youtube creators in getting more video views, growing subscribers &amp; building an online presence. Learn different video techniques and what gear other creators are using. This group is for serious creators that want to grow their business through Youtube &amp; want to share with o"
+    }
+  },
+  {
+    "name": "Virginia Beach Bitcoin",
+    "url": "https://www.meetup.com/virginia-beach-bitcoin/",
+    "tags": [
+      "Crypto",
+      "Bitcoin"
+    ],
+    "category": "Technology",
+    "rssFeed": "https://www.meetup.com/virginia-beach-bitcoin/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-virginia-beach-bitcoin.jpg",
+      "title": "Virginia Beach Bitcoin | Meetup",
+      "description": "Hello! We are a growing, grassroots, bitcoin meetup. We meet to discuss, learn and share about how bitcoin is reshaping money, finance, economics and the way we live our lives. We are pushing some new initiatives with our growth and starting May 2024 meetups will occur twice a month as follows:First"
+    }
+  },
+  {
+    "name": "Virginia Beach Wix Studio Community",
+    "url": "https://www.meetup.com/virginia-beach-wix-studio-community/",
+    "tags": [
+      "WIX"
+    ],
+    "category": "Technology",
+    "rssFeed": "https://www.meetup.com/virginia-beach-wix-studio-community/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-virginia-beach-wix-studio-community.jpg",
+      "title": "Virginia Beach Wix Studio Community | Meetup",
+      "description": "Hey there! We&#x27;re excited you&#x27;re a part of the Virginia Beach Studio community. Join us for one of our face-to-face events or hop into a virtual gathering, where incredible company awaits. Got your event idea? Share it with us on the Virginia Beach Studio Community Discord channel. We&#x27;d love to help "
+    }
+  },
+  {
+    "name": "WordPress Hampton Roads",
+    "url": "https://www.meetup.com/WordPresshr/",
+    "tags": [
+      "WordPress",
+      "Web development"
+    ],
+    "category": "Development",
+    "rssFeed": "https://www.meetup.com/WordPresshr/events/rss/",
+    "metadata": {
+      "imageUrl": "/images/meetups/meetup-com-wordpresshr.jpg",
+      "title": "WordPress Hampton Roads | Meetup",
+      "description": "This group offers an exchange of ideas, examples, support &amp; answers regarding WordPress.WordPress Hampton Roads is open to WordPress.org and WordPress.com users alike.Discussion will include:• Newbies Guide to WordPress • Plugin development • Theme creation &amp; integration• Admin customization &amp; basic"
     }
   }
 ]
