@@ -149,8 +149,22 @@ async function processMeetups() {
     '/images/external-default.jpg'
   ];
   
+  // Helper to check if an image is a manually uploaded custom image
+  function isCustomImage(imageUrl) {
+    if (!imageUrl) return false;
+    // Check if it's not a default image and not in the auto-generated meetups folder
+    return !defaultImagePaths.includes(imageUrl) && !imageUrl.startsWith('/images/meetups/');
+  }
+  
   for (const meetup of meetupsData) {
     const { name, url } = meetup;
+    
+    // Check if meetup has a custom manually uploaded image - if so, skip processing
+    if (meetup.metadata && isCustomImage(meetup.metadata.imageUrl)) {
+      console.log(chalk.cyan(`Preserving custom image for ${name}: ${meetup.metadata.imageUrl}`));
+      successCount++;
+      continue;
+    }
     
     // Check if the meetup URL exists (skipping LinkedIn URLs)
     const exists = await urlExists(url);
