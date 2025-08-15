@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@astrojs/internal-helpers/-/internal-helpers-0.7.1.tgz#50ce657c415b18b88369e9c6eeb12da208783905"
   integrity sha512-7dwEVigz9vUWDw3nRwLQ/yH/xYovlUA0ZD86xoeKEBmkz9O6iELG1yri67PgAPW6VLL/xInA4t7H0CK6VmtkKQ==
 
+"@astrojs/internal-helpers@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/internal-helpers/-/internal-helpers-0.7.2.tgz#e7915913a9ad0b6e56d2c89bcc26b22d36006f27"
+  integrity sha512-KCkCqR3Goym79soqEtbtLzJfqhTWMyVaizUi35FLzgGSzBotSw8DB1qwsu7U96ihOJgYhDk2nVPz+3LnXPeX6g==
+
 "@astrojs/markdown-remark@6.3.5":
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-6.3.5.tgz#4049142d402cd5de28b2dbc7cf3cb8d25df866d3"
@@ -40,11 +45,11 @@
     vfile "^6.0.3"
 
 "@astrojs/node@^9.1.3":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-9.4.0.tgz#e6de4c4ca814378f27891b7cb1db1928e7ed901b"
-  integrity sha512-Gxs0iVUvOmQmK+H1DBoabcgvdSDg277SwbujRv2cUBlnpcOTJQDFRhRvyJ7G+Zkd06/jhRphsTTmmrBY0PqI4g==
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-9.4.2.tgz#ec9582657fa1759c735e0352cf5a639a52c695b9"
+  integrity sha512-4whvXWUIL7yi84ayEXCZd/G2sLMqJKiA7hKps2Z3AVPlymXWY7qyafJ/5gphD6CzRjen6+mqPRYeqxnJG8VcDw==
   dependencies:
-    "@astrojs/internal-helpers" "0.7.1"
+    "@astrojs/internal-helpers" "0.7.2"
     send "^1.2.0"
     server-destroy "^1.0.1"
 
