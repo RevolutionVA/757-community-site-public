@@ -1,5 +1,14 @@
 [
   {
+    "name": "Startup World Cup Virginia Qualifier",
+    "url": "https://ti.to/innovate757/startup-world-cup-virginia-qualifier",
+    "description": "Join the biggest business event of the summer, where the region's top leaders gather to celebrate innovation and showcase why Virginia is a powerhouse of entrepreneurship.",
+    "date": "2025-08-21",
+    "endDate": "2025-08-21",
+    "location": "Virginia Beach, VA",
+    "tags": ["Entrepreneurship", "Innovation", "Business", "Startup"]
+  },
+  {
     "name": "Hampton Roads DevFest 2024",
     "url": "https://hrdevfest.org/",
     "description": "A community-run developer conference focused on Google technologies",
