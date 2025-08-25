@@ -1,0 +1,37 @@
+*Meetups This Week (Monday - Sunday)*
+
+*6 Meetups This Week*
+
+*Monday, August 25*
+• *JS x Interactive : Creative Coding with p5.js, Johnny-Five, and Strudel* - 06:30 PM
+  Norfolk.js
+  https://www.meetup.com/norfolkjs/events/310107060/ (Event Link)
+
+
+*Tuesday, August 26*
+• *Platform & DevOps Engineering - August 2025 Meeting @ Three Notch’d* - 06:00 PM
+  Platform Engineering and DevOps - Hampton Roads
+  https://www.meetup.com/platform-and-devops-eng/events/310089548/ (Event Link)
+
+• *Geeks at a Bar- Peninsula Happy Hour* - 07:30 PM
+  757 Developers
+  https://www.meetup.com/757dev/events/308682623/ (Event Link)
+
+
+*Wednesday, August 27*
+• *(CS)²AI Online™: Rolling Power: Cybersecurity of Electric Vehicles & Automations* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/310648078/ (Event Link)
+
+• *Geeks at a Bar- Peninsula Happy Hour* - 02:30 PM
+  757 Developers
+  https://www.meetup.com/757dev/events/308682623/ (Event Link)
+
+• *Cybersecurity Social/Happy Hour meetup for networking, meeting new people* - 06:00 PM
+  Information Systems Security Association ISSA Hampton Roads
+  https://www.meetup.com/issa-hampton-roads/events/305687946/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
