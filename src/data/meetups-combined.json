@@ -255,21 +255,6 @@
     }
   },
   {
-    "name": "Leetcode Problem Solving",
-    "url": "https://www.meetup.com/leetcode-problem-solving/",
-    "tags": [
-      "Leetcode",
-      "Coding"
-    ],
-    "category": "Development",
-    "rssFeed": "https://www.meetup.com/leetcode-problem-solving/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/default-meetup.jpg",
-      "title": "Leetcode Problem Solving",
-      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
-    }
-  },
-  {
     "name": "Norfolk.js",
     "url": "https://www.meetup.com/NorfolkJS/",
     "tags": [
@@ -311,20 +296,6 @@
       "imageUrl": "/images/meetups/meetup-com-the-williamsburg-software-developers-group.jpg",
       "title": "The Williamsburg Software Developers Group | Meetup",
       "description": "Our members are involved in conceptualizing, designing, developing, testing, marketing and deploying software. We want to expand our knowledge of local resources and to bring our valuable skills to the attention of others who might send business or resources our way.We represent a variety of softwar"
-    }
-  },
-  {
-    "name": "Tidewater Youtube Creators Group",
-    "url": "https://www.meetup.com/tidewater-youtube-creators-group/",
-    "tags": [
-      "Youtube"
-    ],
-    "category": "Technology",
-    "rssFeed": "https://www.meetup.com/tidewater-youtube-creators-group/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/meetups/meetup-com-tidewater-youtube-creators-group.jpg",
-      "title": "Tidewater Youtube Creators Group | Meetup",
-      "description": "This group is to assist Youtube creators in getting more video views, growing subscribers &amp; building an online presence. Learn different video techniques and what gear other creators are using. This group is for serious creators that want to grow their business through Youtube &amp; want to share with o"
     }
   },
   {
