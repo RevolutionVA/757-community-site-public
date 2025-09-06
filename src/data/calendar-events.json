@@ -1,16 +1,5 @@
 [
   {
-    "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/307303749/",
-    "date": "2025-09-05T22:00:00.000Z",
-    "description": "**Attention Information Security and Cybersecurity Professionals!**\nAre you looking to meet new people who share your interests? Whether you're thinking about entering cybersecurity, have recently entered the field, or are a seasoned professional, we welcome all to join us for an evening of networking, learning, and fun.\n**Why Attend?**\nEnjoy a night out at the cozy and welcoming **Farmhouse** in Virginia Beach, where you can connect with like-minded individuals. We love bringing people together to share insights and build lasting connections. Join us for some beers—or not, if that's your preference. Our goal is to help you forge meaningful relationships in the cybersecurity community.\n**About ISSA-HR**\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) hosts social events throughout the region, providing a space for cybersecurity professionals and enthusiasts to get together, share stories, learn new information, and meet new people. With years of cybersecurity expertise, ISSA-HR is committed to promoting the industry and nurturing the next generation of cybersecurity professionals.\n\n**RSVP now and bring a friend!** We look forward to seeing you there!\n\n**Location:** Farmhouse, 1805 Kempsville Rd, Virginia Beach, VA\nTime: **6:00 - 8:00 PM**",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2025-07-28T14:13:36.147Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
-  },
-  {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/309098577/",
     "date": "2025-09-09T18:30:00.000Z",
@@ -41,7 +30,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-26T06:06:27.560Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "(CS)²AI Fellow Fireside Chat: Building OT Capacity for IR and Pentesting",
@@ -52,7 +41,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-08-29T12:06:53.486Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -74,7 +63,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2025-08-18T18:06:23.126Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -107,7 +96,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-09-01T18:05:40.856Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "AI for Real Estate: Generate Leads, Nurture Clients & Close More",
@@ -132,6 +121,17 @@
     "updatedDate": "2025-09-01T12:07:48.435Z"
   },
   {
+    "title": "AI for Real Estate: Generate Leads, Nurture Clients & Close More",
+    "link": "https://www.meetup.com/aicollectivehr/events/310091431/",
+    "date": "2025-09-18T21:30:00.000Z",
+    "description": "## The AI-Powered Real Estate Team\n\nAre you a real estate agent or broker struggling to keep up with lead follow-up, client nurturing, and the endless demands of marketing? What if you could build a virtual team that works for you 24/7, never misses a call, and nurtures every prospect perfectly?\nJoin **Your AI Group** for a game-changing meetup in Virginia Beach, where we’ll pull back the curtain on the AI tools that are transforming the real estate industry. This is not about complex coding or abstract concepts; this is a high-level overview of practical, accessible tools you can use to automate your business, save dozens of hours per week, and provide a superior client experience.\nYou will leave knowing exactly which AI tools are available and have a clear understanding of how they can be integrated into your daily operations.\n\n### **What You'll Discover:**\n\n* **The 24/7 AI Receptionist (Vapi Demo):** Witness a live demonstration of an AI voice agent built for real estate. We'll show you:\n* **Live Inbound Calls:** You'll be able to call our demo number and interact with an AI that answers property-specific questions and qualifies leads on the spot.\n* **Instant Outbound Qualifying:** See how an AI can instantly call a new website lead to qualify their interest and schedule a follow-up. We'll even give you a peek under the hood at the Vapi setup.\n* **Automated Client Nurture (GoHighLevel Overview):** Discover how an all-in-one platform like GHL can act as your central command center. We will focus on how to automate client and lead nurturing through:\n* Automated, personalized email and SMS campaigns.\n* Review generation systems to boost your reputation.\n* Multi-channel chatbots and seamless ad integration.\n* **The Modern Agent's AI Toolkit:** We'll provide a high-level overview of powerful tools to automate every part of your business, including:\n* **Effortless Content & Ads:** See how tools like **Blotato** can automate your social media and how our custom **Veo3 Ads Creator** can streamline ad creation.\n* **Supercharged Lead Generation:** Learn about AI strategies for cold outbound (email, calls), cold inbound (ads), and warm inbound (SEO, referrals) leads.\n* **Streamlined Transactions:** Understand how AI can be used for administrative tasks like virtual staging for your listings and summarizing transaction documents.\n\n### **Who Should Attend:**\n\nThis event is specifically designed for individual real estate agents, team leads, and brokers in the Hampton Roads area who are curious about AI. If you are a beginner with technology and want a clear, straightforward guide to what's possible, this meetup is for you. No technical experience is necessary!\n\n### **What to Bring:**\n\nPlease bring your **smartphone** to participate in the live Vapi demo. A laptop may be helpful for note-taking but is completely optional.\n**Space is limited to ensure a quality experience. RSVP today to secure your spot and start building your AI-powered real estate team!**\n\nSlides for this presentation will be available on our Discord prior to the event \\*\\*[https://discord.gg/DVkh4c2J**](https://discord.gg/DVkh4c2J**)",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2025-09-06T00:15:55.932Z",
+    "updatedDate": "2025-09-06T00:15:55.932Z"
+  },
+  {
     "title": "Game Night: Spades, Dominoes, and Tech",
     "link": "https://www.meetup.com/757colorcoded/events/310837798/",
     "date": "2025-09-18T22:00:00.000Z",
@@ -140,7 +140,7 @@
     "group": "757ColorCoded",
     "featuredEvent": false,
     "createdDate": "2025-09-03T00:16:18.730Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -151,7 +151,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:51.556Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -162,7 +162,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:11.442Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -173,7 +173,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:38.165Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Git On The Trail: A Workshop on Version Control Basics presented by Tim Baines",
@@ -184,7 +184,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2025-08-26T18:06:09.111Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "757 AI Collective: Kickoff Meetup – Connecting Hampton Roads AI Enthusiasts",
@@ -206,7 +206,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:44.279Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -217,7 +217,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:52.567Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -239,7 +239,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:39.173Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Get Certified in Cybersecurity - 4 Week Cohort (wk. 1)",
@@ -250,7 +250,7 @@
     "group": "Blacks United in Leading Technology - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:22.653Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
@@ -261,7 +261,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:40.181Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "757 AI Collective: Kickoff Meetup – Connecting Hampton Roads AI Enthusiasts",
@@ -283,7 +283,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:25.805Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Connecting Hampton Roads AI Enthusiasts",
@@ -294,7 +294,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:45.314Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -316,7 +316,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:53.578Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -327,7 +327,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:41.192Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "757 AI Collective: Kickoff Meetup – Connecting Hampton Roads AI Enthusiasts",
@@ -349,7 +349,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:46.340Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -360,7 +360,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:12.450Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -382,7 +382,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-31T00:19:38.452Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -393,7 +393,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:54.592Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "757 AI Collective: Kickoff Meetup – Connecting Hampton Roads AI Enthusiasts",
@@ -415,7 +415,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:47.479Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -437,7 +437,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-06T06:08:00.501Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -448,7 +448,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-16T00:17:46.171Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -459,7 +459,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:55.601Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "757 AI Collective: Kickoff Meetup – Connecting Hampton Roads AI Enthusiasts",
@@ -481,7 +481,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:48.297Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -492,7 +492,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:13.457Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -514,7 +514,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-28T00:17:38.704Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -525,7 +525,18 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:56.608Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
+  },
+  {
+    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+    "link": "https://www.meetup.com/issa-hampton-roads/events/305687955/",
+    "date": "2025-12-10T23:00:00.000Z",
+    "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
+    "source": "meetup",
+    "group": "Information Systems Security Association ISSA Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2025-09-06T00:16:24.649Z",
+    "updatedDate": "2025-09-06T00:16:24.649Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -547,7 +558,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:57.615Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -558,7 +569,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:14.463Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "How to start & GROW your Youtube Channel for FUN and Profit",
@@ -580,7 +591,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-08-07T06:07:52.634Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -591,7 +602,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-08-22T06:06:49.516Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -602,7 +613,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:15.464Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -613,7 +624,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-09-04T06:06:44.418Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -624,7 +635,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:16.476Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -635,7 +646,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -646,7 +657,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -657,7 +668,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -668,6 +679,6 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2025-09-05T18:06:36.224Z"
+    "updatedDate": "2025-09-06T00:16:40.487Z"
   }
 ]
