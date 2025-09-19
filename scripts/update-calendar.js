@@ -973,28 +973,50 @@ async function updateCalendarEvents() {
       eventMap.set(key, event);
     }
     
-    // Add new events that don't already exist
+    // Add new events that don't already exist or update existing ones
+    let updatedEventsCount = 0;
     for (const newEvent of futureEvents) {
       const key = `${newEvent.title}|${newEvent.date}|${newEvent.group}`;
-      
+
       // Check if we already have this event (by title, date, and group)
       if (!eventMap.has(key)) {
         eventMap.set(key, newEvent);
         newEventsCount++;
         log(`Adding new event: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.DEBUG);
       } else {
-        // Update the existing event's updatedDate
+        // Check if the existing event has been updated
         const existingEvent = eventMap.get(key);
-        existingEvent.updatedDate = new Date().toISOString();
-        eventMap.set(key, existingEvent);
-        log(`Updating existing event: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.DEBUG);
+
+        // Compare relevant fields to detect changes
+        const hasChanges =
+          existingEvent.description !== newEvent.description ||
+          existingEvent.link !== newEvent.link ||
+          existingEvent.title !== newEvent.title;
+
+        if (hasChanges) {
+          // Update the existing event with new data while preserving metadata
+          const updatedEvent = {
+            ...newEvent,
+            createdDate: existingEvent.createdDate || new Date().toISOString(),
+            updatedDate: new Date().toISOString(),
+            featuredEvent: existingEvent.featuredEvent !== undefined ? existingEvent.featuredEvent : false
+          };
+          eventMap.set(key, updatedEvent);
+          updatedEventsCount++;
+          log(`Updated event content: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.INFO);
+        } else {
+          // Just update the timestamp if no content changes
+          existingEvent.updatedDate = new Date().toISOString();
+          eventMap.set(key, existingEvent);
+          log(`Event unchanged, updating timestamp: ${newEvent.title} on ${newEvent.date}`, LOG_LEVELS.DEBUG);
+        }
       }
     }
     
     // Convert the map back to an array
     const uniqueEvents = Array.from(eventMap.values());
     
-    log(`Added ${newEventsCount} new events`, LOG_LEVELS.INFO);
+    log(`Added ${newEventsCount} new events, updated ${updatedEventsCount} events`, LOG_LEVELS.INFO);
     
     // Sort events by date
     const sortedEvents = uniqueEvents
@@ -1014,7 +1036,7 @@ async function updateCalendarEvents() {
     log(`Writing updated calendar events to ${CALENDAR_FILE_PATH}`, LOG_LEVELS.INFO);
     await fs.promises.writeFile(CALENDAR_FILE_PATH, JSON.stringify(sortedEvents, null, 2));
     
-    log(`Successfully updated calendar events: ${sortedEvents.length} events (${newEventsCount} new)`, LOG_LEVELS.INFO);
+    log(`Successfully updated calendar events: ${sortedEvents.length} events (${newEventsCount} new, ${updatedEventsCount} updated)`, LOG_LEVELS.INFO);
     
     // Print a summary of the events by month
     const eventsByMonth = {};
