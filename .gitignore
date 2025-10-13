@@ -28,3 +28,5 @@ package-lock.json
 
 # backup files
 *.backup
+*.bak
+*.orig
