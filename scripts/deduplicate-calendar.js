@@ -68,12 +68,16 @@ try {
 				duplicateTitle: event.title,
 				originalDate: existingEvent.date,
 				duplicateDate: event.date,
+				existingUpdated: existingEvent.updatedDate,
+				duplicateUpdated: event.updatedDate,
 			});
 
-			// Keep the event with the earlier time
-			const dateObj = new Date(event.date);
-			const existingDateObj = new Date(existingEvent.date);
-			if (dateObj < existingDateObj) {
+			// Keep the event with the most recent updatedDate (latest info from source)
+			const eventUpdated = new Date(event.updatedDate || event.date);
+			const existingUpdated = new Date(
+				existingEvent.updatedDate || existingEvent.date,
+			);
+			if (eventUpdated > existingUpdated) {
 				uniqueEventsMap.set(key, event);
 			}
 		} else {
@@ -94,14 +98,16 @@ try {
 
 	// Log the duplicates that were found
 	if (duplicatesFound.length > 0) {
-		console.log(`Duplicates found (keeping the earliest time for each):`);
+		console.log(
+			`Duplicates found (keeping the most recently updated version):`,
+		);
 		for (const dup of duplicatesFound) {
 			console.log(`  Key: ${dup.key}`);
 			console.log(
-				`    Existing: "${dup.existingTitle}" at ${dup.originalDate}`,
+				`    Existing: "${dup.existingTitle}" (updated: ${dup.existingUpdated})`,
 			);
 			console.log(
-				`    Duplicate: "${dup.duplicateTitle}" at ${dup.duplicateDate}`,
+				`    Duplicate: "${dup.duplicateTitle}" (updated: ${dup.duplicateUpdated})`,
 			);
 		}
 	}
