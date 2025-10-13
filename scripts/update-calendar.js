@@ -1245,13 +1245,41 @@ async function updateCalendarEvents() {
 
 						updatedEventsCount++;
 					} else {
-						// Same URL and same key - just update the timestamp
-						previousEvent.updatedDate = new Date().toISOString();
-						eventMap.set(prevKey, previousEvent);
-						log(
-							`Refreshing existing event: ${newEvent.title} on ${newEvent.date}`,
-							LOG_LEVELS.DEBUG,
-						);
+						// Same URL and same key - check for content changes
+						const hasChanges =
+							previousEvent.description !== newEvent.description ||
+							previousEvent.link !== newEvent.link ||
+							previousEvent.title !== newEvent.title;
+
+						if (hasChanges) {
+							// Update the existing event with new data while preserving metadata
+							const updatedEvent = {
+								...newEvent,
+								createdDate:
+									previousEvent.createdDate || new Date().toISOString(),
+								updatedDate: new Date().toISOString(),
+								featuredEvent:
+									previousEvent.featuredEvent !== undefined
+										? previousEvent.featuredEvent
+										: false,
+							};
+							eventMap.set(prevKey, updatedEvent);
+							eventUrlMap.set(newEvent.link, updatedEvent);
+							updatedEventsCount++;
+							log(
+								`Updated event content: ${newEvent.title} on ${newEvent.date}`,
+								LOG_LEVELS.INFO,
+							);
+						} else {
+							// Just update the timestamp if no content changes
+							previousEvent.updatedDate = new Date().toISOString();
+							eventMap.set(prevKey, previousEvent);
+							eventUrlMap.set(newEvent.link, previousEvent);
+							log(
+								`Event unchanged, updating timestamp: ${newEvent.title} on ${newEvent.date}`,
+								LOG_LEVELS.DEBUG,
+							);
+						}
 						continue;
 					}
 				} else {
@@ -1276,14 +1304,41 @@ async function updateCalendarEvents() {
 					);
 					eventMap.set(key, newEvent);
 				} else {
-					// Update the existing event's updatedDate
+					// Check if the existing event has been updated
 					const existingEvent = eventMap.get(key);
-					existingEvent.updatedDate = new Date().toISOString();
-					eventMap.set(key, existingEvent);
-					log(
-						`Updating existing event: ${newEvent.title} on ${newEvent.date}`,
-						LOG_LEVELS.DEBUG,
-					);
+
+					// Compare relevant fields to detect changes
+					const hasChanges =
+						existingEvent.description !== newEvent.description ||
+						existingEvent.link !== newEvent.link ||
+						existingEvent.title !== newEvent.title;
+
+					if (hasChanges) {
+						// Update the existing event with new data while preserving metadata
+						const updatedEvent = {
+							...newEvent,
+							createdDate: existingEvent.createdDate || new Date().toISOString(),
+							updatedDate: new Date().toISOString(),
+							featuredEvent:
+								existingEvent.featuredEvent !== undefined
+									? existingEvent.featuredEvent
+									: false,
+						};
+						eventMap.set(key, updatedEvent);
+						updatedEventsCount++;
+						log(
+							`Updated event content: ${newEvent.title} on ${newEvent.date}`,
+							LOG_LEVELS.INFO,
+						);
+					} else {
+						// Just update the timestamp if no content changes
+						existingEvent.updatedDate = new Date().toISOString();
+						eventMap.set(key, existingEvent);
+						log(
+							`Event unchanged, updating timestamp: ${newEvent.title} on ${newEvent.date}`,
+							LOG_LEVELS.DEBUG,
+						);
+					}
 				}
 			}
 		}
@@ -1292,7 +1347,7 @@ async function updateCalendarEvents() {
 		const uniqueEvents = Array.from(eventMap.values());
 
 		log(
-			`Added ${newEventsCount} new events, detected ${updatedEventsCount} updated events`,
+			`Added ${newEventsCount} new events, updated ${updatedEventsCount} events`,
 			LOG_LEVELS.INFO,
 		);
 
