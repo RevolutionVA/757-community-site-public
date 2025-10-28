@@ -1,16 +1,5 @@
 [
   {
-    "title": "State of Vue.js in 2025 with Aleksandr Podyachev",
-    "link": "https://www.meetup.com/norfolkjs/events/311408386/",
-    "date": "2025-10-27T22:30:00.000Z",
-    "description": "State of Vue.js in 2025 with Aleksandr Podyachev -\n\"[Vue.js](http://vue.js/) is a new JavaScript framework that is a rising star among JavaScript frameworks. [Vue.js](http://vue.js/) was invented by Evan You as a simple JavaScript framework because he wanted a more lightweight version of AngularJS. The idea behind it is that it is a middle ground between React and Angular, with Angular being heavier and React being lighter. The purpose is that you have the option to use more advanced features if you want to, but you don't need to have them. The other notable thing is that it is maintained by Evan You and the Vue community, as opposed to React being maintained by Facebook and Angular being maintained by Google.\"\n\nAll skill levels are welcome! If you've ever been interested in web development, come on by.\n\nAs always, HUGE thanks to Assembly for hosting. Learn more about the amenities and community of Assembly at [https://www.assemblynfk.com/](https://www.assemblynfk.com/)\n\nStreet parking is free after 6 pm. From 6:30-7:00 pm, we will have someone at the door to let you in. After 7, message the #javascript channel on 757Dev Slack. We meet in the Fur Room on the 4th floor.",
-    "source": "meetup",
-    "group": "Norfolk.js",
-    "featuredEvent": false,
-    "createdDate": "2025-10-06T18:06:13.141Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
-  },
-  {
     "title": "🧜‍♀️ The AI Collective HR • A Community Town Hall on Navigating the Age of AGI",
     "link": "https://www.meetup.com/aicollectivehr/events/310091445/",
     "date": "2025-10-28T22:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-10-10T12:07:06.617Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -30,7 +19,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:12.450Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "(CS)²AI Online™ Symposium: Cyber Security for Rails Sector",
@@ -41,7 +30,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-10-10T06:06:58.421Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Supercharge Your Java Development Experience with Open Source Tools",
@@ -52,7 +41,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-10-06T18:05:58.786Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Automate Your Social Media - Online Only",
@@ -63,7 +52,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-10-22T12:07:33.861Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "(CS)²AI Online™ Seminar: Keeping Defense Simple and Practical",
@@ -74,7 +63,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2025-10-24T18:06:10.825Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
@@ -85,7 +74,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-07-31T00:19:38.452Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -96,7 +85,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-10-17T00:18:04.796Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Late Night Coders",
@@ -107,7 +96,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-10-27T00:19:19.615Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "WSDG November Technical Presentation",
@@ -118,7 +107,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2025-10-12T00:18:25.480Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Vibecoding 101: Launch your idea today",
@@ -129,7 +118,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-08-20T18:05:47.479Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -140,7 +129,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-06T06:08:00.501Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Platform & DevOps Engineering Social @ Voodoo Brewing",
@@ -151,7 +140,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-10-21T06:07:31.516Z",
-    "updatedDate": "2025-10-27T18:06:50.149Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -162,7 +151,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-16T00:17:46.171Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Connecting Hampton Roads AI Enthusiasts",
@@ -184,7 +173,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-09-19T00:16:49.051Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -195,7 +184,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:55.601Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Connecting Hampton Roads AI Enthusiasts",
@@ -217,7 +206,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:13.457Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity: ISSA-HR Monthly Meeting - Professional Development, Networking",
@@ -228,7 +217,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-08-28T00:17:38.704Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -239,7 +228,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:56.608Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Get on the Bus! The Azure Service Bus with Matthew Hess",
@@ -250,7 +239,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2025-10-17T18:05:49.867Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -261,7 +250,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-09-06T00:16:24.649Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective HR • Connecting Hampton Roads AI Enthusiasts",
@@ -272,7 +261,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-09-19T00:16:50.096Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -283,7 +272,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:57.615Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -294,7 +283,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-09-10T06:06:59.706Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -305,7 +294,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:14.463Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -316,7 +305,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-08-07T06:07:52.634Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -327,7 +316,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-08-22T06:06:49.516Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -338,7 +327,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:15.464Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -349,7 +338,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-09-04T06:06:44.418Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -360,7 +349,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-09-19T06:07:13.749Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -371,7 +360,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:16.476Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -382,7 +371,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-10-02T06:07:10.944Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -393,7 +382,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-10-17T06:07:00.343Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -404,7 +393,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -415,7 +404,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -426,7 +415,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -437,7 +426,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2025-10-27T18:06:50.150Z"
+    "updatedDate": "2025-10-28T00:17:41.948Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
