@@ -1,5 +1,15 @@
 [
   {
+    "name": "Hampton Roads DevFest 2026",
+    "url": "https://hrdevfest.org/",
+    "description": "A community-run developer conference focused on Google technologies",
+    "date": "2026-02-27",
+    "endDate": "2026-02-27",
+    "location": "Virginia Beach, VA",
+    "tags": ["Google", "Android", "Web", "Cloud"],
+    "coverImage": "/images/devfest.png"
+  },
+  {
     "name": "Hampton Roads DevFest 2024",
     "url": "https://hrdevfest.org/",
     "description": "A community-run developer conference focused on Google technologies",
