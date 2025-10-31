@@ -2,51 +2,51 @@
   {
     "name": "Hampton Roads DevFest 2026",
     "url": "https://hrdevfest.org/",
-    "description": "A community-run developer conference focused on Google technologies",
+    "description": "A unique gathering spotlighting local speakers and showcasing our community's diverse talent. Organized by RevolutionVA, a 501(c)(3) non-profit dedicated to advancing software development education throughout Virginia. Ideal for developers, industry veterans, students, and tech enthusiasts looking to network, learn, and celebrate Hampton Roads' tech achievements.",
     "date": "2026-02-27",
     "endDate": "2026-02-27",
     "location": "Virginia Beach, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"],
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
     "coverImage": "/images/devfest.png"
   },
   {
     "name": "Hampton Roads DevFest 2024",
     "url": "https://hrdevfest.org/",
-    "description": "A community-run developer conference focused on Google technologies",
+    "description": "A unique gathering spotlighting local speakers and showcasing our community's diverse talent. Organized by RevolutionVA, a 501(c)(3) non-profit dedicated to advancing software development education throughout Virginia. Ideal for developers, industry veterans, students, and tech enthusiasts looking to network, learn, and celebrate Hampton Roads' tech achievements.",
     "date": "2024-05-31",
     "endDate": "2024-05-31",
     "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"],
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
     "coverImage": "/images/devfest.png"
   },
   {
     "name": "Hampton Roads DevFest 2018",
     "url": "https://hrdevfest.org/",
-    "description": "A community-run developer conference focused on Google technologies",
+    "description": "A unique gathering spotlighting local speakers and showcasing our community's diverse talent. Organized by RevolutionVA, a 501(c)(3) non-profit dedicated to advancing software development education throughout Virginia. Ideal for developers, industry veterans, students, and tech enthusiasts looking to network, learn, and celebrate Hampton Roads' tech achievements.",
     "date": "2018-11-16",
     "endDate": "2018-11-16",
     "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"],
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
     "coverImage": "/images/devfest.png"
   },
   {
     "name": "Hampton Roads DevFest 2017",
     "url": "https://hrdevfest.org/",
-    "description": "A community-run developer conference focused on Google technologies",
+    "description": "A unique gathering spotlighting local speakers and showcasing our community's diverse talent. Organized by RevolutionVA, a 501(c)(3) non-profit dedicated to advancing software development education throughout Virginia. Ideal for developers, industry veterans, students, and tech enthusiasts looking to network, learn, and celebrate Hampton Roads' tech achievements.",
     "date": "2017-11-10",
     "endDate": "2017-11-10",
     "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"],
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
     "coverImage": "/images/devfest.png"
   },
   {
     "name": "Hampton Roads DevFest 2016",
     "url": "https://hrdevfest.org/",
-    "description": "A community-run developer conference focused on Google technologies",
+    "description": "A unique gathering spotlighting local speakers and showcasing our community's diverse talent. Organized by RevolutionVA, a 501(c)(3) non-profit dedicated to advancing software development education throughout Virginia. Ideal for developers, industry veterans, students, and tech enthusiasts looking to network, learn, and celebrate Hampton Roads' tech achievements.",
     "date": "2016-11-04",
     "endDate": "2016-11-04",
     "location": "Norfolk, VA",
-    "tags": ["Google", "Android", "Web", "Cloud"],
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
     "coverImage": "/images/devfest.png"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "RevolutionConf 2016",
     "url": "https://revolutionconf.com/",
-    "description": "A two-day, multi-track technology conference in Virginia Beach",
+    "description": "A one-day, multi-track technology conference in Virginia Beach",
     "date": "2016-05-13",
     "endDate": "2016-05-13",
     "location": "Virginia Beach, VA",
