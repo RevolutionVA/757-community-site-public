@@ -20,22 +20,31 @@ interface Conference {
   coverImage?: string;
 }
 
+// Helper function to parse date strings as local dates (avoiding UTC timezone issues)
+function parseLocalDate(dateString: string): Date {
+  // If date string includes time, use as-is, otherwise append noon local time
+  return new Date(dateString.includes('T') ? dateString : `${dateString}T12:00:00`);
+}
+
 // Get the current date
 const currentDate = new Date();
 
 // Sort conferences into upcoming and past based on their dates
 const upcomingConferences = (conferencesData as Conference[])
-  .filter(conference => new Date(conference.date) > currentDate)
-  .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  .filter(conference => parseLocalDate(conference.date) > currentDate)
+  .sort((a, b) => parseLocalDate(a.date).getTime() - parseLocalDate(b.date).getTime());
 
 const pastConferences = (conferencesData as Conference[])
-  .filter(conference => new Date(conference.date) <= currentDate)
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()); // Sort past conferences in reverse chronological order
+  .filter(conference => parseLocalDate(conference.date) <= currentDate)
+  .sort((a, b) => parseLocalDate(b.date).getTime() - parseLocalDate(a.date).getTime()); // Sort past conferences in reverse chronological order
 
 // Format date function
 function formatDate(dateString: string): string {
   const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(dateString).toLocaleDateString('en-US', options);
+  // Handle date-only strings by appending time to avoid timezone issues
+  // Date-only strings are interpreted as UTC, so we append T12:00:00 to use noon local time
+  const dateToFormat = dateString.includes('T') ? dateString : `${dateString}T12:00:00`;
+  return new Date(dateToFormat).toLocaleDateString('en-US', options);
 }
 
 // Default cover image for conferences without one
