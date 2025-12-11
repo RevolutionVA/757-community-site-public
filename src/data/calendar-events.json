@@ -1,27 +1,5 @@
 [
   {
-    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/305687955/",
-    "date": "2025-12-10T23:00:00.000Z",
-    "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2025-09-06T00:16:24.649Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
-  },
-  {
-    "title": "WSDG December Social Event",
-    "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/312038452/",
-    "date": "2025-12-10T23:00:00.000Z",
-    "description": "Our next social event will be at Bangkok Garden, a Thai restaurant on Richmond Road. (Please note this is different from Lanna Thai Cuisine, two buildings down the street.)\n\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule for 2026:\n\nJanuary 14, 6:30 PM - Williamsburg Library, Conference Room B.\nBrandon Atkinson will present Hexagonal and Screaming Architecture in .NET.\n\nFebruary 11, 6:00 PM - Social Event\n\nMarch 11, 6:30 PM - Williamsburg Library, Conference Room B.\nJon Meek will present Local HPC.\n\nApril 8, 6:00 PM - Social Event\n\nMay 13, 6:30 PM - Williamsburg Library, Conference Room B.\nAlex Podyachev will discuss quantum computing.\n\nJune 10, 6:00 PM - Social Event\n\nJuly 8, 6:30 PM - Williamsburg Library, Conference Room B.\nKelly Shaw will discuss AI programming vs. human programmers.\n\nAugust 12, 6:00 PM - Social Event\n\nSeptember 9, 6:30 PM - Williamsburg Library, Conference Room B.\nTechnical Presentation\n\nOctober 14, 6:00 PM - Social Event\n\nNovember 10, 6:30 PM - Williamsburg Library, Conference Room B.\n(Note this is a Tuesday, since the library is closed on Veterans Day.)\nTechnical Presentation\n\nDecember 9, 6:00 PM - Social Event",
-    "source": "meetup",
-    "group": "The Williamsburg Software Developers Group",
-    "featuredEvent": false,
-    "createdDate": "2025-11-17T00:18:43.191Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
-  },
-  {
     "title": "Holiday Social",
     "link": "https://www.meetup.com/757dev/events/311993847/",
     "date": "2025-12-11T23:00:00.000Z",
@@ -30,7 +8,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-11-14T00:17:57.310Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Holiday Social (Joint meeting with 757 developers)",
@@ -41,7 +19,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-11-24T18:06:36.604Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Skillshare Thursday #2: Lighting a Scene with Unity URP",
@@ -52,7 +30,7 @@
     "group": "Hampton Roads Unity User Group",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:34.219Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z",
+    "updatedDate": "2025-12-11T00:19:30.431Z",
     "previousVersion": {
       "title": "Skillshare Thursday #2: Lighting a Scene with Unity URP",
       "date": "2025-12-18T21:00:00.000Z"
@@ -67,7 +45,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2025-09-19T00:16:50.096Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z",
+    "updatedDate": "2025-12-11T00:19:30.431Z",
     "previousVersion": {
       "title": "🧜‍♀️ The AI Collective HR • AI & Startups",
       "date": "2025-12-18T23:00:00.000Z"
@@ -82,7 +60,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-29T00:17:45.339Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -93,7 +71,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-09-10T06:06:59.706Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -104,7 +82,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2025-12-10T18:06:43.540Z",
-    "updatedDate": "2025-12-10T18:06:43.540Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -115,7 +93,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-04T06:06:56.290Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -126,7 +104,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-10T18:06:49.748Z",
-    "updatedDate": "2025-12-10T18:06:49.748Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Late Night Coders",
@@ -137,7 +115,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-05T00:19:03.788Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -148,7 +126,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-08-22T06:06:49.516Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -159,7 +137,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:15.464Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -170,7 +148,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:44.944Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -181,7 +159,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-09-19T06:07:13.749Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -192,7 +170,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:16.476Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Hampton Roads DevFest 2026",
@@ -214,7 +192,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:46.961Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -225,7 +203,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-10-17T06:07:00.343Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -236,7 +214,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -247,7 +225,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:49.006Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -258,7 +236,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -269,7 +247,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -280,7 +258,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-04T06:07:29.540Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -291,7 +269,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -302,7 +280,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -313,7 +291,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-24T06:06:50.330Z",
-    "updatedDate": "2025-12-10T18:07:01.970Z"
+    "updatedDate": "2025-12-11T00:19:30.431Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
