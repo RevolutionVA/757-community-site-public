@@ -1,10 +1,10 @@
 # Meetups This Week (Monday - Sunday)
 
-Generated on: 2025-12-29T06:06:27.921Z
+Generated on: 2025-12-29T15:19:34.219Z
 
 ## 2 Meetups This Week
 
-### Tuesday, December 30
+### Monday, December 29
 
 #### We're getting the band back together.
 
