@@ -53,24 +53,20 @@ function getCurrentWeekDates() {
   return { monday: mondayUTC, sunday };
 }
 
-// Function to format a date in a readable format
+// Function to format a date in a readable format (converts to Eastern Time)
 function formatDate(date) {
   const dateObj = new Date(date);
-  
-  // Get day of week
-  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  const dayOfWeek = days[dateObj.getDay()];
-  
-  // Get month
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-  const month = months[dateObj.getMonth()];
-  
-  // Get day and year
-  const day = dateObj.getDate();
-  const year = dateObj.getFullYear();
-  
-  // Format like "Monday, April 28"
-  return `${dayOfWeek}, ${month} ${day}`;
+
+  // Convert to Eastern Time for display
+  const options = {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'America/New_York'
+  };
+
+  // Format like "Monday, December 29"
+  return dateObj.toLocaleDateString('en-US', options);
 }
 
 // Function to format a date for the filename (YYYY-MM-DD)
