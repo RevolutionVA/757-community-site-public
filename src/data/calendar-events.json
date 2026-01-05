@@ -8,7 +8,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-01-03T00:18:33.344Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -19,7 +19,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-10T18:06:49.748Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Late Night Coders",
@@ -30,7 +30,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-05T00:19:03.788Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Post Quantum Cryptography in .NET 10",
@@ -41,7 +41,7 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2025-12-11T18:06:07.058Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Seminar: New Era of Defense Cybersecurity: Understanding CMMC 2.0",
@@ -52,7 +52,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-01-04T00:21:42.844Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "WSDG January Technical Presentation",
@@ -63,7 +63,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2025-12-15T00:21:05.844Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -74,7 +74,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-27T06:07:05.172Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Balakumaran Sugumar- Handling Large Scale Banking Data in Microsoft SQL Server",
@@ -85,7 +85,18 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2025-12-18T18:07:11.521Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
+  },
+  {
+    "title": "val.town - a nice place for javascript",
+    "link": "https://www.meetup.com/norfolkjs/events/312720895/",
+    "date": "2026-01-26T23:30:00.000Z",
+    "description": "Last year, my most recommended service was https://val.town, a place that can run javascript and typescript with ease, nothing else quite like it. Join us for a walkthrough of val.town, and how I used it all year long. This is our first meeting back after holiday break, so I'm really excited to see everyone!\n\nBe sure to tell your coworkers, friends, and neighbors about Norfolkjs and bring a buddy.\n\nAll skill levels are welcome! If you've ever been interested in web development, come on by.\n\nAs always, HUGE thanks to Assembly for hosting. Learn more about the amenities and community of Assembly at [https://www.assemblynfk.com/](https://www.assemblynfk.com/)\n\nStreet parking is free after 6 pm. From 6:30-7:00 pm, we will have someone at the door to let you in. After 7, message the #javascript channel on 757Dev Slack. We meet in the Fur Room on the 4th floor.",
+    "source": "meetup",
+    "group": "Norfolk.js",
+    "featuredEvent": false,
+    "createdDate": "2026-01-05T00:21:57.027Z",
+    "updatedDate": "2026-01-05T00:21:57.027Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -96,7 +107,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:15.464Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -107,7 +118,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:44.944Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Android App Development 101",
@@ -118,7 +129,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-19T00:19:45.778Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -129,7 +140,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-09-19T06:07:13.749Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -140,7 +151,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:16.476Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Hampton Roads DevFest 2026",
@@ -162,7 +173,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:46.961Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "10 Years A Kotlin Dev",
@@ -173,7 +184,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-30T06:07:12.872Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -184,7 +195,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-10-17T06:07:00.343Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -195,7 +206,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -206,7 +217,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:49.006Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -217,7 +228,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -228,7 +239,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -239,7 +250,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-04T06:07:29.540Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -250,7 +261,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -261,7 +272,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -272,7 +283,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -283,7 +294,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-24T06:06:50.330Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -294,7 +305,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-11-07T06:06:45.397Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -305,6 +316,6 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-24T06:07:11.759Z",
-    "updatedDate": "2026-01-04T18:06:25.640Z"
+    "updatedDate": "2026-01-05T00:22:10.243Z"
   }
 ]
