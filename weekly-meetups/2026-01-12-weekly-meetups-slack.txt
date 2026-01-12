@@ -1,0 +1,33 @@
+*Meetups This Week (Monday - Sunday)*
+
+*5 Meetups This Week*
+
+*Tuesday, January 13*
+• *Bug Bounty: From Beginner to Real-World Vulnerability Hunter* - 05:30 PM
+  Information Systems Security Association ISSA Hampton Roads
+  https://www.meetup.com/issa-hampton-roads/events/312776816/ (Event Link)
+
+• *Post Quantum Cryptography in .NET 10* - 06:00 PM
+  Hampton Roads .NET User Group
+  https://www.meetup.com/hampton-roads-net-users-group/events/312393645/ (Event Link)
+
+
+*Wednesday, January 14*
+• *Seminar: New Era of Defense Cybersecurity: Understanding CMMC 2.0* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/312701729/ (Event Link)
+
+• *WSDG January Technical Presentation* - 06:30 PM
+  The Williamsburg Software Developers Group
+  https://www.meetup.com/the-williamsburg-software-developers-group/events/312436860/ (Event Link)
+
+
+*Thursday, January 15*
+• *Bitcoin meetup Open Discussion* - 06:30 PM
+  Virginia Beach Bitcoin
+  https://www.meetup.com/virginia-beach-bitcoin/events/312590541/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
