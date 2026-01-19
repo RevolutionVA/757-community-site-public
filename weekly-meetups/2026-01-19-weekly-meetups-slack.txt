@@ -1,0 +1,39 @@
+*Meetups This Week (Monday - Sunday)*
+
+*6 Meetups This Week*
+
+*Tuesday, January 20*
+• *Norfolk Cybersecurity Networking & Happy Hour* - 06:00 PM
+  Information Systems Security Association ISSA Hampton Roads
+  https://www.meetup.com/issa-hampton-roads/events/312903556/ (Event Link)
+
+
+*Wednesday, January 21*
+• *(CS)²AI Online™ Seminar: OT Monitoring & the OT SOC* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/312895502/ (Event Link)
+
+• *Balakumaran Sugumar- Handling Large Scale Banking Data in Microsoft SQL Server* - 06:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/312487250/ (Event Link)
+
+
+*Thursday, January 22*
+• *SQL Engine Improvements -SQL Community Engineering Connection* - 12:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/312730532/ (Event Link)
+
+• *🧜‍♀️ The AI Collective Hampton Roads | Making Multi-Agent systems with CrewAI* - 06:30 PM
+  757 Artificial Intelligence Collective
+  https://www.meetup.com/aicollectivehr/events/312748157/ (Event Link)
+
+
+*Saturday, January 24*
+• *🧜‍♀️ The AI Collective HR | Decide, Commit, Execute: Using AI to Plan Your Year* - 10:00 AM
+  757 Artificial Intelligence Collective
+  https://www.meetup.com/aicollectivehr/events/312751893/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
