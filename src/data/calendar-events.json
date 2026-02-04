@@ -1,20 +1,5 @@
 [
   {
-    "title": "ISSA-HR Presents: Jack of all Trades: A journey into Cybersecurity",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/313049979/",
-    "date": "2026-02-03T22:30:00.000Z",
-    "description": "Speaker Bio: Sherawn Jackson - A Senior Information Security Engineer on Wells Fargo’s Offensive Security Research Team with a nontraditional background spanning computer animation, film, education, and nonprofit IT. She brings a unique perspective on leveraging transferable skills and community involvement to build a successful cybersecurity career.\n\nTalk Description: Sherawn Jackson shares her nontraditional journey into cybersecurity, transitioning from a creative career in computer animation and the movie industry to roles in education, business, and nonprofit IT. A military spouse of nearly 16 years, she now serves as a Senior Information Security Engineer on Wells Fargo’s Offensive Security Research Team, highlighting how transferable skills, community involvement through WiCyS, and continuous learning can open doors for career changers and cybersecurity professionals alike.\n\nSponsored by https://swishshdata.com/\n\n### **After-Social:**\n\nAs soon as the meeting is over, we will take all our chatting over to Plaza Degollado Mexican Grill. It is down the street from ECPI on the corner of Newtown Road. Let’s have some fun together.\n\n### **Schedule:**\n\n5:30 PM – 6:00 PM Meet, Greet and Network\n6:00 PM – 6:15 PM Introduction and upcoming events discussion\n6:15 PM – 7:15 PM Speakers Presentation and Q&A\n7:15 PM – 7:45 PM ISSA-HR Business Meeting (Meeting ends)\n7:45 PM – Unofficial social @ Plaza Degollado Mexican Grill\n\n## Registration:\n\n**Eventbrite:** https://www.eventbrite.com/e/1980747453955",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-01-25T18:06:20.476Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z",
-    "previousVersion": {
-      "title": "Monthly ISSA business meeting for February",
-      "date": "2026-02-03T22:30:00.000Z"
-    }
-  },
-  {
     "title": "(CS)²AI Online™:Using Cyber Security Framework 2.0 to Bring Order to Chaos!",
     "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/313025711/",
     "date": "2026-02-04T18:00:00.000Z",
@@ -23,7 +8,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-01-24T00:19:36.316Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -34,7 +19,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:27.711Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "SQL Engineering Connection Series",
@@ -45,7 +30,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-03T18:19:48.041Z",
-    "updatedDate": "2026-02-03T18:19:48.041Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Late Night Coders",
@@ -56,7 +41,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-01-13T00:16:31.349Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Building Enterprise RAG Systems with Foundry IQ",
@@ -67,7 +52,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2026-01-09T18:07:25.127Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Platform & DevOps Engineering - February 2026 Meeting @ Commence",
@@ -78,7 +63,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-01-17T18:06:46.298Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "WSDG February Social Event",
@@ -89,18 +74,22 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-01-19T00:21:26.518Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
-    "title": "From Intelligence to Authority: Securing AI in 2026",
+    "title": "🧜‍♀️ The AI Collective Hampton Roads | Securing AI in 2026",
     "link": "https://www.meetup.com/aicollectivehr/events/313066851/",
     "date": "2026-02-13T00:00:00.000Z",
-    "description": "# From Intelligence to Authority: Securing AI in 2026\n\n*Why AI makes security architecture more important, not less.*\nThis is a **live, digital-only event** focused on how AI is reshaping cybersecurity, identity, and enterprise architecture. No in-person attendance. Join from anywhere.\nAs AI systems become embedded into security workflows, identity systems, and automation pipelines, the real risk isn’t that AI might be wrong. The real risk is giving a probabilistic system authority in places that require certainty.\nThis session reframes AI security from “model safety” to **architecture safety**.\nWe’ll explore how trust, identity, governance, and control planes must evolve as intelligence becomes non-deterministic.\nIf you work in cybersecurity, cloud, or engineering, this is how you stay ahead of the threat landscape going into 2026.\nJoin Andrew Stafford for a practical, architect-level breakdown of what secure AI systems must look like at enterprise scale.\n\n***\n\n# 🔍 What You’ll Learn\n\n**Why AI changes the fundamentals of security architecture**\nHow probabilistic systems break assumptions behind IAM, RBAC, and traditional controls.\n**The real AI threat model for 2026**\nPrompt injection, over-permissioned agents, shadow AI, and why these are architectural failures, not model failures.\n**Why AI must never sit in the authority path**\nThe critical boundary between planning, policy, and execution.\n**The control plane vs data plane model for AI security**\nWhere AI belongs, where it must never go, and how this separation prevents catastrophic failure.\n**Plan → Verify → Execute: the secure AI pattern**\nHow AI proposes, security decides, and systems act.\n**AI agents as identities**\nWhy agents must be treated like PAM workloads with strict scoping, short-lived credentials, and approval paths.\n**Guardrails that actually work**\nWhere enforcement must happen:\n\n* Before retrieval\n* Before execution\n* Before data leaves your system\n\n**What “explainability” really means in enterprise security**\nNot how the model thinks, but why the system acted.\n**How secure systems should fail**\nLoss of intelligence is acceptable. Loss of control is not.\nYou’ll leave with a new mental model for designing AI systems that are **controllable, auditable, and defensible**.\n\n***\n\n# 🎙️ Your Speaker\n\n## Andrew Stafford\n\nCo-Lead of The AI Collective Hampton Roads\n25+ years across cybersecurity, cloud, and AI architecture including work with Amazon, NASA, healthcare platforms, and enterprise security systems.\nSpecializes in designing AI systems that remain secure, explainable, and governable at scale.\n\n***\n\n# Who should attend?\n\n* Cybersecurity professionals\n* Cloud & platform engineers\n* Identity & IAM architects\n* Security leaders and CISOs\n* AI engineers building production systems\n* Anyone responsible for deploying AI in regulated or high-trust environments\n\n***\n\n# Why this matters\n\nWe’re entering an era where intelligence is cheap and uncertainty is embedded into systems.\nSecurity can no longer assume:\n\n* Deterministic logic\n* Predictable behavior\n* Clear trust boundaries\n\nAI forces us to move from **trusting intelligence** to **controlling authority**.\nThis talk shows how to build AI systems that can:\n\n* Be paused\n* Be explained\n* Be audited\n* Be contained\n\nBecause in 2026, the most valuable AI systems won’t be the smartest.\nThey’ll be the ones that remain safe when something goes wrong.\n\n**Organizers & Partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**Platinum partner**\n[TechArk Solutions](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n\n**Silver partner**\n[Assembly Norfolk](https://www.assemblynfk.com/)\n[TEKsystems](https://www.teksystems.com/en/)\n\n**Space partner**\n757 Collab\n\n\\- \\- \\-\n\n**Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 100,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing\n\n*All attendees and organizers at events affiliated with The AI Collective are subject to our* ***[Code of Conduct](https://www.aicollective.com/files/Code%20of%20Conduct.pdf)****\\*\\*.*",
+    "description": "**From Intelligence to Authority: Securing AI in 2026**\n\n*Why AI makes security architecture more important, not less.*\n\nThis is a **live, digital-only event** focused on how AI is reshaping cybersecurity, identity, and enterprise architecture. No in-person attendance. Join from anywhere.\n\nAs AI systems become embedded into security workflows, identity systems, and automation pipelines, the real risk isn’t that AI might be wrong. The real risk is giving a probabilistic system authority in places that require certainty.\n\nThis session reframes AI security from “model safety” to **architecture safety**.\n\nWe’ll explore how trust, identity, governance, and control planes must evolve as intelligence becomes non-deterministic.\n\nIf you work in cybersecurity, cloud, or engineering, this is how you stay ahead of the threat landscape going into 2026.\n\nJoin Andrew Stafford for a practical, architect-level breakdown of what secure AI systems must look like at enterprise scale.\n\n**🔍 What You’ll Learn**\n\n**Why AI changes the fundamentals of security architecture**\nHow probabilistic systems break assumptions behind IAM, RBAC, and traditional controls.\n\n**The real AI threat model for 2026**\nPrompt injection, over-permissioned agents, shadow AI, and why these are architectural failures, not model failures.\n\n**Why AI must never sit in the authority path**\nThe critical boundary between planning, policy, and execution.\n\n**The control plane vs data plane model for AI security**\nWhere AI belongs, where it must never go, and how this separation prevents catastrophic failure.\n\n**Plan → Verify → Execute: the secure AI pattern**\nHow AI proposes, security decides, and systems act.\n\n**AI agents as identities**\nWhy agents must be treated like PAM workloads with strict scoping, short-lived credentials, and approval paths.\n\n**Guardrails that actually work**\nWhere enforcement must happen:\n\n* Before retrieval\n* Before execution\n* Before data leaves your system\n\n**What “explainability” really means in enterprise security**\nNot how the model thinks, but why the system acted.\n\n**How secure systems should fail**\nLoss of intelligence is acceptable. Loss of control is not.\nYou’ll leave with a new mental model for designing AI systems that are **controllable, auditable, and defensible**.\n\n**🎙️ Your speaker**\n\n**Andrew Stafford**\nCo-Lead of The AI Collective Hampton Roads\n25+ years across cybersecurity, cloud, and AI architecture including work with Amazon, NASA, healthcare platforms, and enterprise security systems.\nSpecializes in designing AI systems that remain secure, explainable, and governable at scale.\n\n**Who should attend?**\n\n* Cybersecurity professionals\n* Cloud & platform engineers\n* Identity & IAM architects\n* Security leaders and CISOs\n* AI engineers building production systems\n* Anyone responsible for deploying AI in regulated or high-trust environments\n\n**Why this matters**\n\nWe’re entering an era where intelligence is cheap and uncertainty is embedded into systems.\nSecurity can no longer assume:\n\n* Deterministic logic\n* Predictable behavior\n* Clear trust boundaries\n\nAI forces us to move from **trusting intelligence** to **controlling authority**.\nThis talk shows how to build AI systems that can:\n\n* Be paused\n* Be explained\n* Be audited\n* Be contained\n\nBecause in 2026, the most valuable AI systems won’t be the smartest.\nThey’ll be the ones that remain safe when something goes wrong.\n\n**Organizers & Partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**Platinum partner**\n[TechArk Solutions](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n\n**Silver partner**\n[Assembly Norfolk](https://www.assemblynfk.com/)\n[TEKsystems](https://www.teksystems.com/en/)\n\n**Space partner**\n757 Collab\n\n\\- \\- \\-\n\n**Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 100,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing\n\n*All attendees and organizers at events affiliated with The AI Collective are subject to our* ***[Code of Conduct](https://www.aicollective.com/files/Code%20of%20Conduct.pdf)****\\*\\*.*",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-01-26T18:07:43.113Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:21:32.666Z",
+    "previousVersion": {
+      "title": "From Intelligence to Authority: Securing AI in 2026",
+      "date": "2026-02-13T00:00:00.000Z"
+    }
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -111,7 +100,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:02.074Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Android App Development 101",
@@ -122,7 +111,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-19T00:19:45.778Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Kalyan Inturi-Designing a Central Identity DB Unifying Authentication",
@@ -133,7 +122,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:22.811Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "SQL Engineering Connection Series",
@@ -144,18 +133,22 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-03T18:19:50.135Z",
-    "updatedDate": "2026-02-03T18:19:50.135Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
-    "title": "🧜‍♀️AI Collective-HR | Business Ideation, Research, and Validation Using AI",
+    "title": "🧜‍♀️AI Collective-HR | AI ideation, research, and validation",
     "link": "https://www.meetup.com/aicollectivehr/events/313055653/",
     "date": "2026-02-19T23:00:00.000Z",
-    "description": "## Using AI to Think Like a Successful Entrepreneur\n\n### How to ideate, research, and validate ideas faster—without fooling yourself\n\nMost people think entrepreneurship starts with a great idea.\nIn reality, it starts with **a hypothesis**—and most hypotheses are wrong.\nAI has dramatically lowered the cost of ideation, research, and execution. But it has *not* lowered the cost of being wrong. In fact, used carelessly, AI can help founders move faster in the wrong direction.\nThis live session shows how to use AI the way strong entrepreneurs do:\nas a **thinking system** that accelerates learning, sharpens judgment, and helps you discover what the market actually wants.\nThis is **not** a prompt demo or a tool roundup.\nIt’s a practical walkthrough of the entrepreneurial discovery process—and where AI fits (and where it doesn’t).\n\n***\n\n## What You’ll Learn\n\n### Entrepreneurship as a discoverable process\n\nWhy successful founders follow the same core steps across industries—and how skipping steps dramatically lowers your odds of success.\n\n### AI’s proper role in entrepreneurship\n\nHow AI can expand options, compress research time, and pressure-test assumptions—without replacing market contact or real-world learning.\n\n### Step 1: Ideation (Diverge first)\n\nHow to use AI to:\n\n* Generate many problem hypotheses inside a niche\n* Surface recurring frustrations and “workarounds people tolerate”\n* Avoid prematurely falling in love with an idea\n\nWhy most ideas *should* die early—and how to kill them quickly and cheaply.\n\n### Step 2: Research the human reality\n\nHow to stop guessing and use AI to:\n\n* Draft and refine ICP hypotheses\n* Understand incentives, constraints, and customer language\n* Identify what people are actually doing today—and why\n\nWhy competitors are rarely the real threat—and what you’re actually replacing.\n\n### Step 3: Validation is behavioral\n\nWhy interest doesn’t equal validation—and what *does*:\n\n* Time committed\n* Money risked\n* Behavior changed\n\nHow to design the **smallest honest test** (landing pages, pre-sales, concierge MVPs, pilots) to answer:\n\n> “Is this problem worth solving for this group at this price?”\n\n### Letting the market answer\n\nHow to interpret:\n\n* No response\n* Some interest, no commitment\n* Strong response\n\n—and what the *correct move* is in each case (refine, step back, or double down).\n\n***\n\n## Who Should Attend\n\n* Aspiring founders exploring ideas but unsure what’s worth pursuing\n* Early-stage founders stuck in research, planning, or endless iteration\n* Builders who want to use AI for *thinking*, not just output\n* Anyone who wants to reduce wasted effort and learn faster from the market\n\n***\n\n## Why This Matters\n\nAI makes it easy to generate ideas, write plans, and build quickly.\nIt does **not** make it easy to discover truth.\nYour advantage isn’t speed alone—it’s:\n\n* Asking better questions\n* Testing the right assumptions\n* Learning faster from reality\n\nThis session shows how to use AI to support that process—without mistaking activity for progress.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n\n**​Silver partners**\n[TEKsystems](https://www.teksystems.com/en/)\n[Assembly](https://www.assemblynfk.com/)\n\n**​Space partner**\n[757 Collab](https://757collab.org/)\n[The Hive by Virginia Beach](https://yesvirginiabeach.com/the-hive)\n[NSU Innovation Center](https://www.nsu.edu/Academics/Research/Foundations-and-Centers-of-Excellence/NSU-Innovation-Center)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
+    "description": "## **Using AI to Think Like a Successful Entrepreneur**\n\n*An AI-powered ideation, research, and validation workshop*\n\nBuilding ideas is easy. Proving they matter is hard.\n\nThis hands-on workshop is designed to help you use AI as a thinking partner to move faster from vague ideas to clearer, validated directions. Instead of guessing or relying on gut instinct alone, you will learn practical ways to use AI to challenge assumptions, explore markets, and pressure-test ideas before you invest too much time or energy.\nThis session focuses on how founders, builders, and teams can use AI to think more clearly, ask better questions, and make more informed decisions. No hype. No pitch decks. Just practical frameworks you can apply right away.\n\n**🔍 What you’ll learn**\n\n* How to use AI to generate and refine early-stage ideas\n* Turning assumptions into research questions instead of guesses\n* Exploring customer and market perspectives with AI support\n* Simple validation techniques you can use immediately\n* How to move from intuition-driven thinking to evidence-informed decisions\n\nThis is not about memorizing prompts or chasing tools. It is about learning how to think better with AI in the loop.\n\n**🧠 Your facilitators**\n**[Andrew Stafford](https://www.linkedin.com/in/theandrewstafford/)** is a Fractional Chief AI Officer and Director of Technology and Global Alliances at The AI Collective. He works with executive teams to establish clear ownership of AI decisions, focus on real ROI, and avoid unnecessary risk, tool sprawl, and hype-driven strategy.\n\n**[Ted Patterson](https://www.linkedin.com/in/tedjpatterson/)** is a Product and GTM Engineer at Reelist and a founding leader of The AI Collective Hampton Roads. With nearly 20 years of experience across product, research, design, and systems, he focuses on turning complex ideas into testable hypotheses, clear narratives, and practical next steps.\n\nTogether, Andrew and Ted will guide you through an end-to-end ideation, research, and validation flow that blends strategic thinking with hands-on experimentation.\n\n**👥 Who should attend?**\n\n* Founders and early-stage startup teams\n* Product managers, designers, and engineers\n* No-code and automation builders\n* Researchers and analysts\n* Students and career switchers exploring entrepreneurship\n* Anyone curious about using AI to think more clearly about ideas and markets\n\nNo prior AI experience required.\n\n**⚡ Why this matters**\nAI is changing how ideas are formed, tested, and funded. The real advantage is not knowing more tools. It is knowing how to ask better questions, challenge assumptions earlier, and validate faster.\nThis session is about building that muscle.\n\n**ℹ️ FAQs**\n**Is there free parking?**\nYes. There is plenty of free parking available on the ECPI University campus.\n\n**Is this event free?**\nYes. Space is limited, so please RSVP and cancel if your plans change.\n\n**Will food or drinks be provided?**\nLight snacks and drinks will be available.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n\n**​Silver partners**\n[TEKsystems](https://www.teksystems.com/en/)\n[Assembly](https://www.assemblynfk.com/)\n\n**​Space partner**\n[757 Collab](https://757collab.org/)\n[The Hive by Virginia Beach](https://yesvirginiabeach.com/the-hive)\n[NSU Innovation Center](https://www.nsu.edu/Academics/Research/Foundations-and-Centers-of-Excellence/NSU-Innovation-Center)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-02-03T00:24:52.948Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:21:33.217Z",
+    "previousVersion": {
+      "title": "🧜‍♀️AI Collective-HR | Business Ideation, Research, and Validation Using AI",
+      "date": "2026-02-19T23:00:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -166,7 +159,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-06T00:20:12.924Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -177,7 +170,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:02.640Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "HRDevFest Pre-Show 2026",
@@ -188,7 +181,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-01-29T00:23:15.957Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -199,7 +192,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:16.476Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -210,7 +203,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:03.790Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective Hampton Roads | AI after hours",
@@ -221,7 +214,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-02-03T00:24:54.129Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Hampton Roads DevFest 2026",
@@ -243,7 +236,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-02-01T18:07:32.893Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -254,7 +247,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:46.961Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -265,7 +258,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:04.660Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "10 Years A Kotlin Dev",
@@ -276,7 +269,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-30T06:07:12.872Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -287,7 +280,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-06T00:20:14.926Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -298,7 +291,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:05.597Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -309,7 +302,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:06.579Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -320,7 +313,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -331,7 +324,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-01T21:56:49.006Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -342,7 +335,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:07.719Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -353,7 +346,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -364,7 +357,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:08.723Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -375,7 +368,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -386,7 +379,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -397,7 +390,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-04T06:07:29.540Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
@@ -408,7 +401,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -419,7 +412,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -430,7 +423,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -441,7 +434,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-08T06:07:51.631Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -452,7 +445,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -463,7 +456,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.664Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -474,7 +467,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -485,7 +478,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -496,7 +489,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-24T06:06:50.330Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -507,7 +500,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-11-07T06:06:45.397Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -518,7 +511,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-24T06:07:11.759Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -529,6 +522,6 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-01-09T06:07:15.352Z",
-    "updatedDate": "2026-02-03T18:20:15.191Z"
+    "updatedDate": "2026-02-04T00:22:18.665Z"
   }
 ]
