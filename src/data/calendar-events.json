@@ -1,16 +1,5 @@
 [
   {
-    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/313165335/",
-    "date": "2026-02-25T23:00:00.000Z",
-    "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-02-02T06:25:03.790Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
-  },
-  {
     "title": "Skillshare #3: Our Favorite Advocacy Assets and Sample Packages",
     "link": "https://www.meetup.com/hampton-roads-unity-user-group/events/313400895/",
     "date": "2026-02-26T17:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "Hampton Roads Unity User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-18T00:25:18.142Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "🧜‍♀️ The AI Collective Hampton Roads | Connections & (grocery) carts",
@@ -30,7 +19,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-02-03T00:24:54.129Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Hampton Roads DevFest 2026",
@@ -52,7 +41,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-23T18:22:37.474Z",
-    "updatedDate": "2026-02-25T18:24:30.295Z",
+    "updatedDate": "2026-02-26T00:23:00.428Z",
     "previousVersion": {
       "title": "ISSA-HR Presents: AI Poisoning: How Data Manipulation Undermines AI",
       "date": "2026-03-03T22:30:00.000Z"
@@ -67,7 +56,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-02-01T18:07:32.893Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -78,7 +67,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-13T06:23:15.177Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "SQL Engineering Connection Series",
@@ -89,7 +78,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-18T18:16:58.390Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Late Night Coders",
@@ -100,7 +89,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-02-13T12:11:52.021Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "WSDG March Technical Presentation",
@@ -111,7 +100,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-02-14T00:25:18.963Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -122,7 +111,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:04.660Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Brian Knox: Stop Rewriting DAX: User-Defined Functions & the DAX Lib Ecosystem",
@@ -133,7 +122,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-25T18:24:28.234Z",
-    "updatedDate": "2026-02-25T18:24:28.234Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "10 Years A Kotlin Dev",
@@ -144,7 +133,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-30T06:07:12.872Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -155,7 +144,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-06T00:20:14.926Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -166,7 +155,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:05.597Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -177,7 +166,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:06.579Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -188,7 +177,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:17.514Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -199,7 +188,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-19T00:26:00.735Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -210,7 +199,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:07.719Z",
-    "updatedDate": "2026-02-25T18:24:54.239Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -221,7 +210,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -232,7 +221,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:08.723Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -243,7 +232,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:18.495Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -254,7 +243,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -265,7 +254,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-19T00:26:02.601Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
@@ -276,7 +265,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -287,7 +276,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -298,7 +287,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -309,7 +298,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -320,7 +309,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-07-28T14:13:19.504Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -342,7 +331,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-19T00:26:04.640Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -353,7 +342,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -364,7 +353,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -375,7 +364,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-05T06:06:13.764Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -386,7 +375,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-19T00:26:06.599Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -397,7 +386,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -408,7 +397,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -419,7 +408,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-09-24T06:06:50.330Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -430,7 +419,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-11-07T06:06:45.397Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -441,7 +430,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2025-12-24T06:07:11.759Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -452,7 +441,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-01-09T06:07:15.352Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -463,6 +452,6 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-02-06T06:19:15.829Z",
-    "updatedDate": "2026-02-25T18:24:54.240Z"
+    "updatedDate": "2026-02-26T00:23:00.428Z"
   }
 ]
