@@ -1,20 +1,5 @@
 [
   {
-    "title": "ISSA-HR Presents: AI Poisoning: LLM Data Poisoning 101",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/313489870/",
-    "date": "2026-03-03T22:30:00.000Z",
-    "description": "By Kenn Jensen\nVisit our [Eventbrite Page](https://www.eventbrite.com/e/issa-hr-presents-ai-poisoning-tickets-1983643092889) to **RSVP**\n\nWith over 35 years of professional experience in the IT domain, Kens background spans programming, database and web development, call center technology and consulting, emergency services management solutions, automation, as well as enterprise security web filtering and enterprise network discovery and monitoring. By day, Ken works as a senior infrastructure engineer. By night, OSINT for good and AI experimenting and red teaming.\n\nThis talk breaks down LLM data poisoning in plain English, explaining how attackers can intentionally introduce misleading or malicious data during training or fine-tuning so a model learns the wrong patterns. You’ll see how even small amounts of manipulated data can influence outputs, create blind spots, or quietly weaken the reliability of AI-driven tools that organizations depend on every day.\nWe’ll walk through the most common entry points where poisoning can occur, including third-party datasets, user-generated inputs, and automated data pipelines. The session will also highlight real-world implications for security teams, from trust erosion and decision risk to operational and compliance concerns. Attendees will leave with a practical understanding of the guardrails organizations use to reduce risk, including data validation practices, monitoring strategies, and governance approaches that help keep AI systems trustworthy and resilient.",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-02-23T18:22:37.474Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z",
-    "previousVersion": {
-      "title": "ISSA-HR Presents: AI Poisoning: How Data Manipulation Undermines AI",
-      "date": "2026-03-03T22:30:00.000Z"
-    }
-  },
-  {
     "title": "Free OPEN Passes to DeveloperWeek 2026",
     "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/313159348/",
     "date": "2026-03-04T05:00:00.000Z",
@@ -23,18 +8,18 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-02-01T18:07:32.893Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.297Z"
   },
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/313333967/",
     "date": "2026-03-04T23:30:00.000Z",
-    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - TBD\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
+    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-13T06:23:15.177Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.297Z"
   },
   {
     "title": "SQL Engineering Connection Series",
@@ -45,7 +30,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-18T18:16:58.390Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Build Night",
@@ -56,7 +41,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-02T18:14:37.045Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Late Night Coders",
@@ -67,7 +52,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-02-13T12:11:52.021Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "(CS)²AI Online™ Symposium: Mobilizing for Cyber Incident Mgmnt-ICS4ICS & CR-ISAC",
@@ -78,7 +63,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-02-27T00:25:14.105Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z",
+    "updatedDate": "2026-03-04T00:24:45.298Z",
     "previousVersion": {
       "title": "(CS)²AI Online™ Symposium: Mobilizing for Cyber Incident Mgmnt-ICS4ICS & CR-ISAC",
       "date": "2026-03-04T16:30:00.000Z"
@@ -93,7 +78,7 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:16:00.435Z",
-    "updatedDate": "2026-03-03T18:16:00.435Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "WSDG March Technical Presentation",
@@ -104,7 +89,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-02-14T00:25:18.963Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Peninsula Developer Happy Hour",
@@ -115,7 +100,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-03T00:25:12.189Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -126,7 +111,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:04.660Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Brian Knox: Stop Rewriting DAX: User-Defined Functions & the DAX Lib Ecosystem",
@@ -137,7 +122,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-25T18:24:28.234Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "10 Years A Kotlin Dev",
@@ -148,7 +133,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-30T06:07:12.872Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -159,7 +144,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-06T00:20:14.926Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -170,7 +155,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:05.597Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -192,7 +177,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:06.579Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z",
+    "updatedDate": "2026-03-04T00:24:45.298Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-03-24T22:00:00.000Z"
@@ -207,18 +192,18 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:53.946Z",
-    "updatedDate": "2026-03-03T18:15:53.946Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Educational",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/gxgdwtyjcgbcb/",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjcgbcb/",
     "date": "2026-04-01T22:30:00.000Z",
-    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - TBD\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
+    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
-    "createdDate": "2026-02-19T00:26:00.735Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "createdDate": "2026-03-04T00:24:37.473Z",
+    "updatedDate": "2026-03-04T00:24:37.473Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -229,7 +214,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:07.719Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -240,7 +225,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -251,7 +236,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:08.723Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -273,18 +258,18 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Educational",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/gxgdwtyjchbjb/",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjchbjb/",
     "date": "2026-05-06T22:30:00.000Z",
-    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - TBD\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
+    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
-    "createdDate": "2026-02-19T00:26:02.601Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "createdDate": "2026-03-04T00:24:39.502Z",
+    "updatedDate": "2026-03-04T00:24:39.502Z"
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
@@ -295,7 +280,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -306,7 +291,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -317,7 +302,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -328,7 +313,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -350,29 +335,33 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Educational",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/gxgdwtyjcjbfb/",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjcjbfb/",
     "date": "2026-06-03T22:30:00.000Z",
-    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - TBD\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
+    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
-    "createdDate": "2026-02-19T00:26:04.640Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "createdDate": "2026-03-04T00:24:41.489Z",
+    "updatedDate": "2026-03-04T00:24:41.489Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
     "link": "https://www.meetup.com/aicollectivehr/events/313058174/",
-    "date": "2026-06-04T22:30:00.000Z",
+    "date": "2026-06-11T22:30:00.000Z",
     "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-03-03T18:15:55.071Z"
+    "updatedDate": "2026-03-04T00:24:04.832Z",
+    "previousVersion": {
+      "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
+      "date": "2026-06-04T22:30:00.000Z"
+    }
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -383,7 +372,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -394,7 +383,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -409,14 +398,14 @@
   },
   {
     "title": "Bitcoin meetup Educational",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/gxgdwtyjckbcb/",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjckbcb/",
     "date": "2026-07-01T22:30:00.000Z",
-    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - TBD\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
+    "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
-    "createdDate": "2026-02-19T00:26:06.599Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "createdDate": "2026-03-04T00:24:43.467Z",
+    "updatedDate": "2026-03-04T00:24:43.467Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -427,7 +416,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -438,7 +427,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-03-03T18:16:32.044Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -482,7 +471,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.928Z",
-    "updatedDate": "2026-03-03T18:15:55.928Z"
+    "updatedDate": "2026-03-04T00:24:45.298Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -494,6 +483,17 @@
     "featuredEvent": false,
     "createdDate": "2026-01-09T06:07:15.352Z",
     "updatedDate": "2026-03-02T18:15:21.364Z"
+  },
+  {
+    "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
+    "link": "https://www.meetup.com/aicollectivehr/events/313620567/",
+    "date": "2026-11-05T23:30:00.000Z",
+    "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2026-03-04T00:24:06.687Z",
+    "updatedDate": "2026-03-04T00:24:06.687Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
