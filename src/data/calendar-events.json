@@ -1,20 +1,5 @@
 [
   {
-    "title": "WSDG March Technical Presentation",
-    "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/313346878/",
-    "date": "2026-03-11T22:30:00.000Z",
-    "description": "Highlights from DeveloperWeek Global\nby Glover Barker\n\nAbstract:\nDeveloperWeek Global is a virtual Software Development & AI Engineering Conference being held on March 4. Some of the highlights from this conference will be presented.\n\nBio:\nGlover Barker is a retired Software Architect. His background includes software development in C++, Python, and various other languages. He has also worked in management, requirements, design, testing, quality assurance, and configuration management. Past companies include ivWatch, NASA contractors, Symantec, R. R. Donnelley, Reuters, and AT&T Bell Laboratories.\n\\-\\-\\-\\-\\-\\-\\-\\-\nThis hybrid meeting will be available both in-person and remotely. For those attending in person, we will be at the Williamsburg Regional Library, Conference Room B.\nFor online access, the Zoom info is:\n[https://us06web.zoom.us/j/2562166096?omn=89638798242](https://us06web.zoom.us/j/2562166096?omn=89638798242)\nMeeting ID: 256 216 6096\n\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule (please note changes):\n\nApril 8, 6:00 PM - Social Event\n\nMay 13, 6:30 PM - Williamsburg Library, Conference Room B.\nAlex Podyachev will present the Scala programming language.\n\nJune 10, 6:00 PM - Social Event\n\nJuly 8, 6:30 PM - Williamsburg Library, Conference Room B.\nKelly Shaw will discuss AI programming vs. human programmers.\n\nAugust 12, 6:00 PM - Social Event\n\nSeptember 9, 6:30 PM - Williamsburg Library, Conference Room B.\nTechnical Presentation\n\nOctober 14, 6:00 PM - Social Event\n\nNovember 10, 6:30 PM - Williamsburg Library, Conference Room B.\n(Note this is a Tuesday, since the library is closed on Veterans Day.)\nTechnical Presentation\n\nDecember 9, 6:00 PM - Social Event",
-    "source": "meetup",
-    "group": "The Williamsburg Software Developers Group",
-    "featuredEvent": false,
-    "createdDate": "2026-02-14T00:25:18.963Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z",
-    "previousVersion": {
-      "title": "WSDG March Technical Presentation",
-      "date": "2026-03-11T10:30:00.000Z"
-    }
-  },
-  {
     "title": "Peninsula Developer Happy Hour",
     "link": "https://www.meetup.com/757dev/events/313608278/",
     "date": "2026-03-12T22:00:00.000Z",
@@ -23,7 +8,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-03T00:25:12.189Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -34,7 +19,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:04.660Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Brian Knox: Stop Rewriting DAX: User-Defined Functions & the DAX Lib Ecosystem",
@@ -45,7 +30,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-02-25T18:24:28.234Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "10 Years A Kotlin Dev",
@@ -56,7 +41,18 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2025-12-30T06:07:12.872Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
+  },
+  {
+    "title": "Code + Coffee | FR8 House Coffee",
+    "link": "https://www.meetup.com/757dev/events/313747552/",
+    "date": "2026-03-19T13:30:00.000Z",
+    "description": "Join us for a relaxed morning meetup where developers, designers, founders, and tech enthusiasts gather over great coffee to talk shop, share ideas, and connect with others in the local tech community.\n\n**Code + Coffee** has no formal agenda—just bring your laptop, a project you’re working on, a question you’ve been thinking about, or simply come to meet other people building interesting things. Whether you're coding, designing, experimenting with AI, launching a startup, or just curious about technology, you'll find friendly conversations and plenty of inspiration.\n\nExpect:\n\n* Good coffee\n* Interesting technical conversations\n* People sharing projects and ideas\n* Occasional spontaneous whiteboard sessions\n\nDrop in anytime during the meetup window.\n\nStay for 10 minutes or the whole time.\n\nIf you’ve been looking for a low-key way to meet other developers in the area, this is it.",
+    "source": "meetup",
+    "group": "757 Developers",
+    "featuredEvent": false,
+    "createdDate": "2026-03-12T00:20:17.997Z",
+    "updatedDate": "2026-03-12T00:20:17.997Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -67,18 +63,29 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-06T00:20:14.926Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Guardrails for Gen AI: From Policy to Practice",
     "link": "https://www.meetup.com/aicollectivehr/events/313055669/",
     "date": "2026-03-19T22:30:00.000Z",
-    "description": "Guardrails for Gen AI: From Policy to Practice\nHow to constrain AI systems without killing their value\n\nEveryone uses the word \"guardrails.\" Almost nobody means the same thing.\n\nThis co-presented session brings together AI strategy and cybersecurity expertise to break down what guardrails actually are, where they belong in your AI systems, and how to implement them without crippling the tools your teams rely on. We will cover the strategic layer — governance, risk classification, and authority boundaries — then dive into the technical layer with hands-on walkthroughs of real guardrails frameworks like NVIDIA NeMo Guardrails and Guardrails AI. Whether you are a business leader trying to deploy AI safely or a security practitioner trying to contain it, this session gives you a practical, layered approach you can take back to your organization immediately.\n\n**What you'll learn**\n\n* Why traditional security assumptions break down with AI systems\n* The three layers of AI guardrails: governance, architecture, and implementation\n* How to treat AI agents as high-risk identities using least privilege and Zero Trust principles\n* Where guardrails actually get enforced — at system boundaries, not in prompts\n* Real tools and frameworks for building guardrails into AI pipelines\n* What guardrails can and cannot do — honest limitations and tradeoffs\n* Hands-on homework: get started with Guardrails AI and NeMo Guardrails in 15 minutes\n\nThis is not about adding a system prompt and hoping for the best. It is about building AI systems that fail safely and stay auditable.\n\n**Your speakers**\n\nAndrew Stafford is a Fractional Chief AI Officer and Director of Technology and Global Alliances at The AI Collective. He works with executive teams to establish clear ownership of AI decisions, focus on real ROI, and avoid unnecessary risk, tool sprawl, and hype-driven strategy. Andrew brings 25 years in tech spanning Amazon, NASA, and five startups to the strategic and architectural side of AI security.\n\nKen is a security practitioner with ISSA Hampton Roads. He brings deep hands-on experience in security engineering and implementation, and will lead the technical deep dive into guardrails tooling, configuration, and real-world limitations.\nTogether, Andrew and Ken will walk you through a complete guardrails framework — from policy to architecture to working code — blending strategic thinking with practical implementation.\n\n**Who should attend?**\n\n* CISOs, security architects, and IT leaders responsible for AI risk\n* Developers and engineers building or deploying AI agents and applications\n* Product managers and business leaders evaluating AI tools for their teams\n* Security practitioners curious about the AI threat model\n* Anyone responsible for AI governance, compliance, or acceptable use policies\n* Technical professionals who want hands-on experience with guardrails tools\n\nNo prior AI security experience required, but familiarity with basic AI concepts is helpful.\n\n**Why this matters**\n\nAI systems collapse data, logic, and control — and traditional security was never built for that. The real danger is not bad AI. It is trusting non-deterministic systems with authority. Organizations that get guardrails right will deploy AI faster and safer. Organizations that skip them will learn the hard way. This session is about making sure you are in the first group.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available on the ECPI University campus.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\nWill food or drinks be provided? Light snacks and drinks will be available.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n\n**​Silver partners**\n[TEKsystems](https://www.teksystems.com/en/)\n[Assembly](https://www.assemblynfk.com/)\n\n**​Space partner**\n[757 Collab](https://757collab.org/)\n[The Hive by Virginia Beach](https://yesvirginiabeach.com/the-hive)\n[NSU Innovation Center](https://www.nsu.edu/Academics/Research/Foundations-and-Centers-of-Excellence/NSU-Innovation-Center)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
+    "description": "Guardrails for Gen AI: From Policy to Practice\nHow to constrain AI systems without killing their value\n\nEveryone uses the word \"guardrails.\" Almost nobody means the same thing.\n\nThis co-presented session brings together AI strategy and cybersecurity expertise to break down what guardrails actually are, where they belong in your AI systems, and how to implement them without crippling the tools your teams rely on. We will cover the strategic layer — governance, risk classification, and authority boundaries — then dive into the technical layer with hands-on walkthroughs of real guardrails frameworks like NVIDIA NeMo Guardrails and Guardrails AI. Whether you are a business leader trying to deploy AI safely or a security practitioner trying to contain it, this session gives you a practical, layered approach you can take back to your organization immediately.\n\n**What you'll learn**\n\n* Why traditional security assumptions break down with AI systems\n* The three layers of AI guardrails: governance, architecture, and implementation\n* How to treat AI agents as high-risk identities using least privilege and Zero Trust principles\n* Where guardrails actually get enforced — at system boundaries, not in prompts\n* Real tools and frameworks for building guardrails into AI pipelines\n* What guardrails can and cannot do — honest limitations and tradeoffs\n* Hands-on homework: get started with Guardrails AI and NeMo Guardrails in 15 minutes\n\nThis is not about adding a system prompt and hoping for the best. It is about building AI systems that fail safely and stay auditable.\n\n**Your speakers**\n\nAndrew Stafford is a Fractional Chief AI Officer and Director of Technology and Global Alliances at The AI Collective. He works with executive teams to establish clear ownership of AI decisions, focus on real ROI, and avoid unnecessary risk, tool sprawl, and hype-driven strategy. Andrew brings 25 years in tech spanning Amazon, NASA, and five startups to the strategic and architectural side of AI security.\n\nKen is a security practitioner with ISSA Hampton Roads. He brings deep hands-on experience in security engineering and implementation, and will lead the technical deep dive into guardrails tooling, configuration, and real-world limitations.\nTogether, Andrew and Ken will walk you through a complete guardrails framework — from policy to architecture to working code — blending strategic thinking with practical implementation.\n\n**Who should attend?**\n\n* CISOs, security architects, and IT leaders responsible for AI risk\n* Developers and engineers building or deploying AI agents and applications\n* Product managers and business leaders evaluating AI tools for their teams\n* Security practitioners curious about the AI threat model\n* Anyone responsible for AI governance, compliance, or acceptable use policies\n* Technical professionals who want hands-on experience with guardrails tools\n\nNo prior AI security experience required, but familiarity with basic AI concepts is helpful.\n\n**Why this matters**\n\nAI systems collapse data, logic, and control — and traditional security was never built for that. The real danger is not bad AI. It is trusting non-deterministic systems with authority. Organizations that get guardrails right will deploy AI faster and safer. Organizations that skip them will learn the hard way. This session is about making sure you are in the first group.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available on the ECPI University campus.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\nWill food or drinks be provided? Light snacks and drinks will be available.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-11T18:19:10.208Z",
-    "updatedDate": "2026-03-11T18:19:10.208Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
+  },
+  {
+    "title": "Black BRAND's The AI Meetup: Website Creation",
+    "link": "https://www.meetup.com/aicollectivehr/events/313746965/",
+    "date": "2026-03-23T22:00:00.000Z",
+    "description": "**Black BRAND's The AI Meetup: Website Creation**\n\nJoin **Black BRAND**, with support from **The AI Collective Hampton Roads**, for an engaging and hands-on **AI Meetup** where community innovators, entrepreneurs, and professionals come together to explore how artificial intelligence is transforming the way ideas become real digital products.\n\nOn **Monday, March 23 from 6:00 PM to 7:30 PM**, we will gather at **Black BRAND Headquarters (520 E Main St Suite 4, downtown Norfolk)** for an interactive session focused on practical AI tools that help turn ideas into functioning websites.\n\nDuring the event, **Chris Toon** will guide attendees through the process of using modern AI tools to rapidly build and launch web projects. Participants will see how platforms like **Lovable, ChatGPT, and Claude** can help transform concepts into working websites with dramatically less time and technical friction.\n\nMembers of **The AI Collective Hampton Roads** will also be present to support the session, answer questions, and help attendees better understand how these tools can be used for business ideas, creative projects, and organizational growth.\n\nThis meetup is ideal for **entrepreneurs, creatives, builders, professionals, and curious learners** who want to explore how AI can accelerate innovation and open new opportunities.\n\nAttendees will have the opportunity to connect with others in the community, participate in interactive discussion, and walk away with practical insight into how AI tools can support personal, professional, and organizational growth.\n\n**Important: Registration Required**\nRegistration through the event link below is **100% required**.\n\nAnyone who has not registered in advance **may be turned away at the door**, as space is limited and attendance must be tracked through the registration system.\n\n**Register here:**\nhttps://app.glueup.com/event/black-brand-ai-meetup-171918/\n\n**Location**\n**Black BRAND Headquarters**\n520 E Main St Suite 4\nNorfolk, VA 23510\n\n**Parking**\nThe closest parking option is **Fountain Park Garage (500 E Main St)**, located just steps from the venue.\n\nThe **City of Norfolk offers the first 2 hours of parking free in participating downtown city garages**, so most attendees will be able to park for free during the event.\n\nOther nearby garages within a short walking distance include **Main Street Garage (235 E Main St)** and **Bank Street Garage (300 Bank St)**.",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2026-03-12T00:20:17.006Z",
+    "updatedDate": "2026-03-12T00:20:17.006Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -89,7 +96,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:05.597Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -111,7 +118,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:06.579Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z",
+    "updatedDate": "2026-03-12T00:20:58.588Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-03-24T22:00:00.000Z"
@@ -126,7 +133,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:53.946Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "jj - version control for the modern dev",
@@ -137,7 +144,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-03-05T18:37:30.918Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -148,7 +155,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:37.473Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Late Night Builders",
@@ -159,7 +166,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-09T18:17:27.975Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -170,7 +177,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:07.719Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z",
+    "updatedDate": "2026-03-12T00:20:58.588Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-04-02T18:30:00.000Z"
@@ -185,7 +192,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2026-03-10T18:17:36.429Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -196,7 +203,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-11-21T06:07:15.490Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Level Zero OT Cyber Security Conference",
@@ -207,7 +214,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-03-11T00:22:07.350Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -218,7 +225,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:08.723Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -240,7 +247,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -251,7 +258,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:39.502Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
@@ -262,7 +269,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -273,7 +280,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -284,7 +291,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -295,7 +302,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -317,7 +324,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -328,7 +335,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:41.489Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -339,7 +346,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z",
+    "updatedDate": "2026-03-12T00:20:58.588Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-06-04T22:30:00.000Z"
@@ -354,7 +361,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-04T06:16:40.945Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -365,7 +372,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -376,7 +383,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -398,7 +405,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:43.467Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -409,7 +416,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -420,7 +427,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -442,7 +449,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-05T06:18:46.708Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -475,7 +482,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.928Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -497,7 +504,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:06.687Z",
-    "updatedDate": "2026-03-11T18:19:49.980Z"
+    "updatedDate": "2026-03-12T00:20:58.588Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
