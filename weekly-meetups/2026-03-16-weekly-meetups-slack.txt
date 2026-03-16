@@ -1,0 +1,35 @@
+*Meetups This Week (Monday - Sunday)*
+
+*6 Meetups This Week*
+
+*Wednesday, March 18*
+• *(CS)²AI Online™ Seminar: Fortifying Critical Functions using CIE* - 01:00 PM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/313751970/ (Event Link)
+
+• *Brian Knox: Stop Rewriting DAX: User-Defined Functions & the DAX Lib Ecosystem* - 06:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/313526061/ (Event Link)
+
+• *10 Years A Kotlin Dev* - 06:30 PM
+  Hampton Roads Java Users Group
+  https://www.meetup.com/hampton-roads-java-users-group/events/312633477/ (Event Link)
+
+
+*Thursday, March 19*
+• *Code + Coffee | FR8 House Coffee* - 09:30 AM
+  757 Developers
+  https://www.meetup.com/757dev/events/313747552/ (Event Link)
+
+• *Bitcoin meetup Open Discussion* - 06:30 PM
+  Virginia Beach Bitcoin
+  https://www.meetup.com/virginia-beach-bitcoin/events/312736266/ (Event Link)
+
+• *🧜‍♀️ AICHR | Guardrails for Gen AI: From Policy to Practice* - 06:30 PM
+  757 Artificial Intelligence Collective
+  https://www.meetup.com/aicollectivehr/events/313055669/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
