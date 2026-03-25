@@ -1,0 +1,27 @@
+---
+interface Props {
+  date: string;
+  title: string;
+  link: string;
+  tags?: string[];
+  location?: string;
+  highlighted?: boolean;
+}
+
+const { date, title, link, tags = [], location = '', highlighted = false } = Astro.props;
+---
+
+<div class="row">
+  <span class="dt">{date}</span>
+  <span class="ti">
+    <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
+    {tags.length > 0 && (
+      <span class="tg">
+        {tags.map(tag => (
+          <span class={`t ${highlighted ? 'th' : ''}`}>{tag}</span>
+        ))}
+      </span>
+    )}
+  </span>
+  <span class="lo">{location}</span>
+</div>

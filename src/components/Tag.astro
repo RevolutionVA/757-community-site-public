@@ -1,0 +1,10 @@
+---
+interface Props {
+  label: string;
+  highlighted?: boolean;
+}
+
+const { label, highlighted = false } = Astro.props;
+---
+
+<span class={`t ${highlighted ? 'th' : ''}`}>{label}</span>
