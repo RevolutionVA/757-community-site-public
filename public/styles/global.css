@@ -8,17 +8,19 @@
   --bg-alt: #eee8dc;
   --bg-header: #1a1a2e;
   --accent: #d4451a;
-  --accent-warm: #e8a44a;
+  --accent-light: #e05a30;
+  --accent-warm: #f0b030;
   --link: #1a5fa0;
   --link-visited: #6a3880;
-  --link-hover: #d4451a;
+  --link-hover: #14476e;
   --text: #1a1a1a;
-  --muted: #6a6a6a;
+  --muted: #585858;
   --border: #c8bca8;
   --border-light: #ddd4c4;
-  --tag-bg: #e4dcd0;
+  --tag-bg: #d8dce0;
+  --tag-text: #1a3a4a;
   --highlight: #fff8e0;
-  --sea-dark: #1a3a4a;
+  --sea: #2a5a6a;
 }
 
 /* ═══════════════════════════════════════
@@ -67,10 +69,10 @@ p:last-child { margin-bottom: 0; }
 }
 .logo:visited { color: #f0ece4; }
 .logo:hover { color: #f0ece4; text-decoration: none; }
-.logo b { color: var(--accent); }
+.logo b { color: var(--accent-light); }
 .tagline {
   font-size: 11px;
-  color: #8a80a0;
+  color: #a09ab8;
   letter-spacing: 0.5px;
 }
 .hdr-right { display: flex; gap: 16px; font-size: 12px; }
@@ -96,10 +98,10 @@ p:last-child { margin-bottom: 0; }
   color: #fff;
   margin-bottom: 4px;
 }
-.hero h1 .em { color: var(--accent); }
+.hero h1 .em { color: var(--accent-light); }
 .hero p {
   font-size: 11px;
-  color: #8a80a0;
+  color: #a09ab8;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -115,7 +117,7 @@ p:last-child { margin-bottom: 0; }
 .hero-stat {
   text-align: center;
   font-size: 10px;
-  color: #8a80a0;
+  color: #a09ab8;
   letter-spacing: 0.5px;
 }
 .hero-stat .num {
@@ -144,7 +146,7 @@ p:last-child { margin-bottom: 0; }
 }
 .page-hero p {
   font-size: 11px;
-  color: #8a80a0;
+  color: #a09ab8;
   margin-bottom: 0;
 }
 .page-hero a { color: #b0a8c4; }
@@ -305,7 +307,7 @@ p:last-child { margin-bottom: 0; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: var(--bg-header);
+  color: var(--sea);
   background: var(--bg-alt);
   padding: 4px 10px;
   margin: 14px 0 6px 0;
@@ -330,7 +332,7 @@ p:last-child { margin-bottom: 0; }
   background: var(--tag-bg);
   padding: 1px 5px;
   border-radius: 2px;
-  color: var(--muted);
+  color: var(--tag-text);
   margin-left: 2px;
 }
 .row .ti .th { background: #f4d4c0; color: var(--accent); }
