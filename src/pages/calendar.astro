@@ -2,10 +2,7 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import EventRow from '../components/EventRow.astro';
 import calendarEvents from '../data/calendar-events.json';
-import meetupsData from '../data/meetups-combined.json';
-import { marked } from 'marked';
-
-marked.setOptions({ breaks: true, gfm: true });
+import { formatShortDate } from '../utils/formatDate';
 
 interface CalendarEvent {
   title: string;
@@ -47,13 +44,7 @@ const monthsInOrder = Object.keys(eventsByMonth).sort((a, b) => {
   return new Date(a).getTime() - new Date(b).getTime();
 });
 
-function formatShortDate(dateString: string): string {
-  const date = new Date(dateString);
-  const day = date.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'America/New_York' });
-  const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'America/New_York' });
-  const dayNum = date.toLocaleDateString('en-US', { day: 'numeric', timeZone: 'America/New_York' });
-  return `${day} ${month} ${dayNum}`;
-}
+
 ---
 
 <MainLayout
@@ -76,17 +67,19 @@ function formatShortDate(dateString: string): string {
       title={event.title}
       link={event.link}
       tags={[event.group, 'featured']}
-      highlighted={true}
+      highlightedTags={['featured']}
     />
   ))}
 
   {regularEvents.length === 0 ? (
-    <div class="sec">upcoming events</div>
-    <div class="row">
-      <span class="dt"></span>
-      <span class="ti">No events scheduled. <a href="/meetups">View meetup groups</a></span>
-      <span class="lo"></span>
-    </div>
+    <Fragment>
+      <div class="sec">upcoming events</div>
+      <div class="row">
+        <span class="dt"></span>
+        <span class="ti">No events scheduled. <a href="/meetups">View meetup groups</a></span>
+        <span class="lo"></span>
+      </div>
+    </Fragment>
   ) : (
     monthsInOrder.map(monthYear => (
       <Fragment>

@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import EventRow from '../components/EventRow.astro';
 import calendarEvents from '../data/calendar-events.json';
 import conferencesData from '../data/conferences.json';
+import { formatShortDate, formatConfDate } from '../utils/formatDate';
 
 // Types
 interface CalendarEvent {
@@ -58,19 +59,6 @@ const upcomingConferences = (conferencesData as Conference[])
   .slice(0, 3);
 
 
-// Format helpers
-function formatShortDate(dateString: string): string {
-  const date = new Date(dateString);
-  const day = date.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'America/New_York' });
-  const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'America/New_York' });
-  const dayNum = date.toLocaleDateString('en-US', { day: 'numeric', timeZone: 'America/New_York' });
-  return `${day} ${month} ${dayNum}`;
-}
-
-function formatConfDate(dateString: string): string {
-  const d = parseLocalDate(dateString);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
 ---
 
 <MainLayout
@@ -90,7 +78,7 @@ function formatConfDate(dateString: string): string {
           title={event.title}
           link={event.link}
           tags={tags}
-          highlighted={event.featuredEvent === true}
+          highlightedTags={event.featuredEvent ? ['featured'] : []}
         />
       );
     })

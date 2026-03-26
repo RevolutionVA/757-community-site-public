@@ -4,11 +4,11 @@ interface Props {
   title: string;
   link: string;
   tags?: string[];
+  highlightedTags?: string[];
   location?: string;
-  highlighted?: boolean;
 }
 
-const { date, title, link, tags = [], location = '', highlighted = false } = Astro.props;
+const { date, title, link, tags = [], highlightedTags = [], location = '' } = Astro.props;
 ---
 
 <div class="row">
@@ -18,7 +18,7 @@ const { date, title, link, tags = [], location = '', highlighted = false } = Ast
     {tags.length > 0 && (
       <span class="tg">
         {tags.map(tag => (
-          <span class={`t ${highlighted ? 'th' : ''}`}>{tag}</span>
+          <span class={`t ${highlightedTags.includes(tag) ? 'th' : ''}`}>{tag}</span>
         ))}
       </span>
     )}
