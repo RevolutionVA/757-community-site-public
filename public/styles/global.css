@@ -166,6 +166,9 @@ p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
   font-size: 12px;
   font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .nav a {
   padding: 3px 10px;
