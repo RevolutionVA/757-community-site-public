@@ -2,6 +2,8 @@
    RESET & DESIGN TOKENS
    ═══════════════════════════════════════ */
 * { margin: 0; padding: 0; box-sizing: border-box; }
+html { overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
 
 :root {
   --bg: #f5f0e8;
@@ -420,39 +422,182 @@ p:last-child { margin-bottom: 0; }
 /* ═══════════════════════════════════════
    RESPONSIVE
    ═══════════════════════════════════════ */
+
+/* --- Tablet --- */
 @media (max-width: 1024px) {
   .wrap {
     grid-template-columns: 1fr 210px;
   }
   .sb-l { display: none; }
+
+  .co.co-with-av {
+    grid-template-columns: 130px 1fr auto;
+  }
+  .co-av,
+  .co-av-text {
+    width: 130px;
+    height: 78px;
+  }
 }
 
+/* --- Mobile --- */
 @media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Layout: stack columns, keep right sidebar below main */
   .wrap {
     grid-template-columns: 1fr;
   }
-  .sb-r { display: none; }
+  .sb-l { display: none; }
+  .sb-r {
+    display: block;
+    border-left: none;
+    border-top: 2px solid var(--border);
+    padding: 16px 20px;
+    order: 2;
+  }
 
+  /* Header */
   .hdr {
     flex-direction: column;
     gap: 6px;
     text-align: center;
+    padding: 10px 16px;
   }
-  .hdr-left { flex-direction: column; align-items: center; gap: 4px; }
-  .hdr-right { justify-content: center; }
+  .hdr-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .hdr-right {
+    justify-content: center;
+    gap: 20px;
+  }
+  .hdr-right a { padding: 4px 8px; }
+  .tagline { font-size: 10px; }
 
+  /* Hero */
+  .hero { padding: 16px 16px 14px; }
+  .hero h1 { font-size: 16px; }
+  .hero p { font-size: 12px; }
   .hero-stats {
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 12px 24px;
+    justify-content: center;
   }
+  .hero-stat { font-size: 11px; min-width: 80px; }
+  .hero-stat .num { font-size: 18px; }
 
+  /* Page hero */
+  .page-hero { padding: 12px 16px; }
+  .page-hero h1 { font-size: 15px; }
+  .page-hero p { font-size: 12px; }
+
+  /* Nav: touch-friendly, drop pipe separators */
+  .nav {
+    padding: 8px 16px;
+    gap: 2px;
+    justify-content: center;
+  }
+  .nav a {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  .nav .sep { display: none; }
+
+  /* Event rows */
   .row {
     grid-template-columns: 1fr;
     gap: 2px;
+    padding: 8px 0;
   }
-  .row .lo { text-align: left; }
+  .row .dt { text-align: left; }
+  .row .ti a { font-size: 14px; }
+  .row .ti .tg {
+    display: block;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+  .row .lo { text-align: left; font-size: 12px; margin-top: 2px; }
 
+  /* Company/item rows */
   .co {
     grid-template-columns: 1fr;
+    padding: 8px 0;
   }
+  .co .cn a { font-size: 14px; }
+  .co .cd { font-size: 12px; }
+  .co .cc { white-space: normal; }
+
+  /* Meetup image rows */
+  .co.co-with-av {
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+  }
+  .co-av,
+  .co-av-text {
+    width: 120px;
+    height: 72px;
+  }
+
+  /* Section dividers */
+  .sec {
+    margin: 16px 0 8px 0;
+    padding: 6px 10px;
+  }
+
+  /* Newsletter: prevent iOS zoom on focus */
+  .newsletter {
+    max-width: 400px;
+    padding: 14px;
+  }
+  .newsletter input[type="email"] {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  .newsletter button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  /* Footer */
+  .ftr { line-height: 2; }
+  .ftr-links a {
+    display: inline-block;
+    padding: 2px 6px;
+  }
+}
+
+/* --- Small phones --- */
+@media (max-width: 480px) {
+  .main { padding: 10px 12px; }
+  .hdr { padding: 8px 12px; }
+  .nav { padding: 6px 12px; }
+  .ftr { padding: 12px 12px; }
+
+  .logo { font-size: 24px; }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 16px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .co.co-with-av {
+    grid-template-columns: 100px 1fr;
+    gap: 8px;
+  }
+  .co-av,
+  .co-av-text {
+    width: 100px;
+    height: 60px;
+  }
+
+  .ftr-links a { margin: 0 4px; }
 }
