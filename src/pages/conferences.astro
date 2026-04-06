@@ -1,14 +1,9 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import SectionDivider from '../components/SectionDivider.astro';
-import Card from '../components/Card.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
+import EventRow from '../components/EventRow.astro';
 
-// Import the conferences data from the JSON file
 import conferencesData from '../data/conferences.json';
 
-// Define the Conference interface
 interface Conference {
   name: string;
   url: string;
@@ -20,197 +15,79 @@ interface Conference {
   coverImage?: string;
 }
 
-// Helper function to parse date strings as local dates (avoiding UTC timezone issues)
 function parseLocalDate(dateString: string): Date {
-  // If date string includes time, use as-is, otherwise append noon local time
   return new Date(dateString.includes('T') ? dateString : `${dateString}T12:00:00`);
 }
 
-// Get the current date
 const currentDate = new Date();
 
-// Sort conferences into upcoming and past based on their dates
 const upcomingConferences = (conferencesData as Conference[])
-  .filter(conference => parseLocalDate(conference.date) > currentDate)
+  .filter(c => parseLocalDate(c.date) > currentDate)
   .sort((a, b) => parseLocalDate(a.date).getTime() - parseLocalDate(b.date).getTime());
 
 const pastConferences = (conferencesData as Conference[])
-  .filter(conference => parseLocalDate(conference.date) <= currentDate)
-  .sort((a, b) => parseLocalDate(b.date).getTime() - parseLocalDate(a.date).getTime()); // Sort past conferences in reverse chronological order
+  .filter(c => parseLocalDate(c.date) <= currentDate)
+  .sort((a, b) => parseLocalDate(b.date).getTime() - parseLocalDate(a.date).getTime());
 
-// Format date function
 function formatDate(dateString: string): string {
-  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-  // Handle date-only strings by appending time to avoid timezone issues
-  // Date-only strings are interpreted as UTC, so we append T12:00:00 to use noon local time
-  const dateToFormat = dateString.includes('T') ? dateString : `${dateString}T12:00:00`;
-  return new Date(dateToFormat).toLocaleDateString('en-US', options);
+  const d = parseLocalDate(dateString);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
-
-// Default cover image for conferences without one
-const defaultCoverImage = "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb";
-
-// Enable metadata display
-const showMetadata = true;
-// Hide the original title to avoid duplication with OG title
-const hideTitle = true;
 ---
 
-<MainLayout 
-  title="Conferences" 
-  description="Discover tech conferences in and around Hampton Roads, Virginia. Find upcoming developer, design, and technology events in the Mid-Atlantic region that are worth the trip from Virginia Beach, Norfolk, and surrounding areas."
+<MainLayout
+  title="Conferences"
+  description="Discover tech conferences in and around Hampton Roads, Virginia. Find upcoming developer, design, and technology events."
 >
-  <div class="hero">
-    <div class="container">
-      <h1>Conferences</h1>
-      <p>Discover tech conferences in the Hampton Roads area to expand your knowledge and network.</p>
-      <p class="data-note">
-        Want to add or update a conference? Check out our 
-        <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/conferences.json" target="_blank" rel="noopener noreferrer">
-          conferences data file
-        </a>.
-      </p>
-    </div>
+  <div class="page-hero">
+    <h1>Conferences</h1>
+    <p>Tech conferences in the Hampton Roads area.
+      <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/conferences.json" target="_blank" rel="noopener noreferrer">Add a conference</a>
+    </p>
   </div>
 
-  <div class="container">
-    <section class="section">
-      <SectionDivider title="Upcoming Conferences" />
-      {upcomingConferences.length > 0 ? (
-        <div class="grid">
-          {upcomingConferences.map(conference => (
-            <Card 
-              title={conference.name} 
-              href={conference.url}
-              coverImage={conference.coverImage || defaultCoverImage}
-              useDynamicImage={!conference.coverImage}
-              showMetadata={!conference.coverImage && showMetadata}
-              hideTitle={!conference.coverImage && hideTitle}
-            >
-              <p class="date">{formatDate(conference.date)}{conference.endDate && conference.date !== conference.endDate ? ` - ${formatDate(conference.endDate)}` : ''}</p>
-              <p class="location">{conference.location}</p>
-              <p>{conference.description}</p>
-              <div class="tags">
-                {conference.tags.map(tag => (
-                  <span class="tag">{tag}</span>
-                ))}
-              </div>
-            </Card>
-          ))}
-        </div>
-      ) : (
-        <div class="content-box">
-          <p class="none-scheduled">None currently scheduled</p>
-          <p>
-            Check back later for information about upcoming conferences in the Hampton Roads area.
-            Want to be the first to know? Join our <a href="https://757dev.org">community Slack</a>.
-          </p>
-        </div>
-      )}
-    </section>
+  <div class="sec">upcoming conferences</div>
 
-    <section class="section">
-      <SectionDivider title="Past Conferences" />
-      <div class="grid">
-        {pastConferences.map(conference => (
-          <Card 
-            title={conference.name} 
-            href={conference.url}
-            coverImage={conference.coverImage || defaultCoverImage}
-            useDynamicImage={!conference.coverImage}
-            showMetadata={!conference.coverImage && showMetadata}
-            hideTitle={!conference.coverImage && hideTitle}
-          >
-            <p class="date">{formatDate(conference.date)}{conference.endDate && conference.date !== conference.endDate ? ` - ${formatDate(conference.endDate)}` : ''}</p>
-            <p class="location">{conference.location}</p>
-            <p>{conference.description}</p>
-            <div class="tags">
-              {conference.tags.map(tag => (
-                <span class="tag">{tag}</span>
+  {upcomingConferences.length > 0 ? (
+    upcomingConferences.map(conf => (
+      <div class="co">
+        <div>
+          <div class="cn"><a href={conf.url} target="_blank" rel="noopener noreferrer">{conf.name}</a></div>
+          <div class="cd">
+            {conf.description}
+            <span class="tg" style="margin-left: 6px;">
+              {conf.tags.map(tag => (
+                <span class="t">{tag}</span>
               ))}
-            </div>
-          </Card>
-        ))}
+            </span>
+          </div>
+        </div>
+        <span class="cc">{formatDate(conf.date)} · {conf.location}</span>
       </div>
-    </section>
+    ))
+  ) : (
+    <div class="row">
+      <span class="dt"></span>
+      <span class="ti">None currently scheduled — check back soon or join <a href="https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ">Slack</a> for updates</span>
+      <span class="lo"></span>
+    </div>
+  )}
 
-    <section class="section">
-      <SectionDivider title="Want to organize a conference?" />
-      <div class="content-box">
-        <p>
-          Interested in organizing a tech conference in Hampton Roads? The community is here to support you! 
-          Reach out to <a href="https://revolutionva.org">RevolutionVA</a> for guidance and resources.
-        </p>
-        <a href="/get-involved" class="cta-button">Get involved</a>
+  <div class="sec">past conferences</div>
+
+  {pastConferences.map(conf => (
+    <div class="co">
+      <div>
+        <div class="cn"><a href={conf.url} target="_blank" rel="noopener noreferrer">{conf.name}</a></div>
+        <div class="cd">{conf.description}</div>
       </div>
-    </section>
+      <span class="cc">{formatDate(conf.date)} · {conf.location}</span>
+    </div>
+  ))}
 
-    <KeepSurfing />
+  <div class="sec">want to organize a conference?</div>
+
+  <div class="content-block">
+    <p>Interested in organizing a tech conference in Hampton Roads? Reach out to <a href="https://revolutionva.org">RevolutionVA</a> for guidance and resources, or <a href="/get-involved">get involved</a> with the community.</p>
   </div>
 </MainLayout>
-
-<style>
-  .date {
-    color: #0077cc;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
-  }
-
-  .location {
-    color: #6c757d;
-    margin-bottom: 0.5rem;
-  }
-
-  .content-box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    text-align: center;
-  }
-
-  .none-scheduled {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #6c757d;
-    margin-bottom: 1rem;
-  }
-
-  .cta-button {
-    display: inline-block;
-    background-color: #0077cc;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-    margin-top: 1rem;
-  }
-
-  .cta-button:hover {
-    background-color: #005fa3;
-    text-decoration: none;
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-  }
-
-  .tag {
-    background-color: #e9ecef;
-    color: #495057;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.875rem;
-  }
-
-  .data-note {
-    font-size: 0.875rem;
-    color: #6c757d;
-    margin-top: 1rem;
-  }
-</style> 
