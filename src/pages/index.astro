@@ -1,145 +1,125 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import StatCard from '../components/StatCard.astro';
-import SectionDivider from '../components/SectionDivider.astro';
-import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
-import NewsletterSignup from '../components/NewsletterSignup.astro';
+import EventRow from '../components/EventRow.astro';
+import calendarEvents from '../data/calendar-events.json';
+import conferencesData from '../data/conferences.json';
+import { formatShortDate, formatConfDate } from '../utils/formatDate';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Types
+interface CalendarEvent {
+  title: string;
+  link: string;
+  date: string;
+  description: string;
+  source: string;
+  group: string;
+  featuredEvent?: boolean;
+}
+
+interface Conference {
+  name: string;
+  url: string;
+  description: string;
+  date: string;
+  endDate?: string;
+  location: string;
+  tags: string[];
+}
+
+// This week's events
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+const oneWeekFromNow = new Date(today);
+oneWeekFromNow.setDate(today.getDate() + 7);
+
+const thisWeekEvents = calendarEvents
+  .filter((event: CalendarEvent) => {
+    const eventDate = new Date(event.date);
+    const isFeatured = event.featuredEvent === true;
+    return isFeatured || (eventDate >= today && eventDate <= oneWeekFromNow);
+  })
+  .sort((a: CalendarEvent, b: CalendarEvent) => {
+    const aFeatured = a.featuredEvent === true;
+    const bFeatured = b.featuredEvent === true;
+    if (aFeatured && !bFeatured) return -1;
+    if (!aFeatured && bFeatured) return 1;
+    return new Date(a.date).getTime() - new Date(b.date).getTime();
+  })
+  .slice(0, 8);
+
+// Conferences
+const currentDate = new Date();
+function parseLocalDate(dateString: string): Date {
+  return new Date(dateString.includes('T') ? dateString : `${dateString}T12:00:00`);
+}
+
+const upcomingConferences = (conferencesData as Conference[])
+  .filter(c => parseLocalDate(c.date) > currentDate)
+  .sort((a, b) => parseLocalDate(a.date).getTime() - parseLocalDate(b.date).getTime())
+  .slice(0, 3);
+
+
 ---
 
-<MainLayout 
-	title="Home" 
-	description="757tech connects technology professionals in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
+<MainLayout
+  title="Home"
+  description="757tech connects technology professionals in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
+  showHero={true}
 >
-	<div class="hero">
-		<div class="container">
-			<h1>757tech</h1>
-			<p>
-				This site is focused on serving up all the technology (development, design, etc.) goodness that is rooted in Hampton Roads region of Virginia. 
-				For those out of the loop, that includes the following cities: Virginia Beach, Norfolk, Chesapeake, Suffolk, Hampton, Newport News, and Williamsburg.
-			</p>
-		</div>
-	</div>
+  <div class="sec">this week in the 757</div>
 
-	<div class="container">
-		<section class="section">
-			<SectionDivider title="About our region" />
-			
-			<div class="grid-3">
-				<StatCard 
-					emoji="👩🏽‍💻" 
-					value="40k+" 
-					label="Professionals" 
-				/>
-				<StatCard 
-					emoji="🏖️" 
-					value="200" 
-					label="Beach days / year" 
-				/>
-				<StatCard 
-					emoji="👯" 
-					value="~20" 
-					label="Monthly meetups" 
-				/>
-			</div>
+  {thisWeekEvents.length > 0 ? (
+    thisWeekEvents.map((event) => {
+      const tags = [event.group];
+      if (event.featuredEvent) tags.push('featured');
+      return (
+        <EventRow
+          date={formatShortDate(event.date)}
+          title={event.title}
+          link={event.link}
+          tags={tags}
+          highlightedTags={event.featuredEvent ? ['featured'] : []}
+        />
+      );
+    })
+  ) : (
+    <div class="row">
+      <span class="dt"></span>
+      <span class="ti">No meetups scheduled this week — check the full calendar</span>
+      <span class="lo"></span>
+    </div>
+  )}
 
-			<div class="grid">
-				<div class="feature-content">
-					<h3>💡 Innovation</h3>
-					<p>
-						Experience the future of technology right here in Hampton Roads. Our community is at the forefront of innovation, 
-						driving solutions that improve daily life in our region. Whether it's smart city initiatives or cutting-edge startups, 
-						we're shaping a more connected and sustainable future for all.
-					</p>
-				</div>
+  <div class="more"><a href="/calendar">view full calendar &rarr;</a></div>
 
-				<div class="feature-content">
-					<h3>🏖️ Quality of life</h3>
-					<p>
-						At the intersection of technology and lifestyle, we're leveraging innovation to enhance the way we live and work in Hampton Roads. 
-						Discover how local tech advancements are solving real-world problems—from healthcare to transportation—making our area a hub for 
-						both work-life balance and career growth.
-					</p>
-				</div>
+  {upcomingConferences.length > 0 && (
+    <Fragment>
+      <div class="sec">conferences</div>
 
-				<div class="feature-content">
-					<h3>🌎 Community-centered solutions</h3>
-					<p>
-						Our community thrives on creating tech that directly impacts the well-being of our region. Join us in crafting solutions that 
-						improve local services, foster economic growth, and elevate Hampton Roads as a leader in smart living and innovation. 
-						Together, we're building a brighter, tech-driven future.
-					</p>
-				</div>
-			</div>
-		</section>
+      {upcomingConferences.map(conf => (
+        <EventRow
+          date={formatConfDate(conf.date)}
+          title={conf.name}
+          link={conf.url}
+          tags={conf.tags.slice(0, 2)}
+          location={conf.location}
+        />
+      ))}
 
-		<section class="section">
-			<SectionDivider title="Meetups This Week" />
-			<NewsletterSignup />
-			<ThisWeekMeetups />
-		</section>
+      <div class="more"><a href="/conferences">all conferences &rarr;</a></div>
+    </Fragment>
+  )}
 
-		<KeepSurfing />
+  <div class="sec">get involved</div>
 
-		<section class="section">
-			<SectionDivider title="Want to make your mark?" />
-			
-			<div class="get-involved">
-				<p>
-					Whether it's getting involved with a local meetup group, online community, or starting something up yourself, 
-					the 757 needs you to make it a better, cooler place to be.
-				</p>
-				<a href="/get-involved" class="cta-button">Get involved</a>
-			</div>
-		</section>
-	</div>
+  <div class="row">
+    <span class="dt"></span>
+    <span class="ti"><a href="/get-involved">Start a meetup, speak at an event, mentor someone, sponsor a conference</a><span class="tg"><span class="t">volunteer</span></span></span>
+    <span class="lo"></span>
+  </div>
+  <div class="row">
+    <span class="dt"></span>
+    <span class="ti"><a href="https://github.com/RevolutionVA/757-community-site-public">Contribute to this site on GitHub — PRs welcome</a><span class="tg"><span class="t">open source</span></span></span>
+    <span class="lo"></span>
+  </div>
 </MainLayout>
-
-<style>
-	.feature-content {
-		background-color: #fff;
-		padding: 1.5rem;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.newsletter-container {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-
-	.feature-content h3 {
-		margin-top: 0;
-		color: #0077cc;
-	}
-
-	.get-involved {
-		text-align: center;
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-		background-color: #fff;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.cta-button {
-		display: inline-block;
-		background-color: #0077cc;
-		color: white;
-		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
-		font-weight: bold;
-		text-decoration: none;
-		transition: background-color 0.2s ease;
-	}
-
-	.cta-button:hover {
-		background-color: #005fa3;
-		text-decoration: none;
-	}
-</style>
