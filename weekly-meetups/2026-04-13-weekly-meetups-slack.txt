@@ -1,0 +1,35 @@
+*Meetups This Week (Monday - Sunday)*
+
+*5 Meetups This Week*
+
+*Tuesday, April 14*
+• *Quantum Computing with Q# and Azure Quantum* - 06:00 PM
+  Hampton Roads Azure Users Group
+  https://www.meetup.com/hampton-roads-azure-users-group/events/313725742/ (Event Link)
+
+• *Peninsula Developers Study Group* - 06:00 PM
+  757 Developers
+  https://www.meetup.com/757dev/events/314089597/ (Event Link)
+
+
+*Wednesday, April 15*
+• *John Morehouse: Exploring Optimized Locking in SQL Server 2025* - 06:00 PM
+  Hampton Roads SQL Server User Group
+  https://www.meetup.com/hampton-roads-sql-server-user-group/events/314074633/ (Event Link)
+
+
+*Thursday, April 16*
+• *Bitcoin meetup Open Discussion* - 06:30 PM
+  Virginia Beach Bitcoin
+  https://www.meetup.com/virginia-beach-bitcoin/events/313990783/ (Event Link)
+
+
+*Saturday, April 18*
+• *Claude Code Agent Teams Workshop | AICHR* - 01:00 PM
+  757 Artificial Intelligence Collective
+  https://www.meetup.com/aicollectivehr/events/314079102/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
