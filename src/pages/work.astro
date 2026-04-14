@@ -1,117 +1,102 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import SectionDivider from '../components/SectionDivider.astro';
-import Card from '../components/Card.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
 
-// In a real implementation, this data would come from a database or API
-// For this example, we're hardcoding some sample data
 const companies = [
   {
     name: "Marathon Consulting",
     location: "Virginia Beach",
-    description: "IT consulting firm specializing in custom software development",
+    description: "IT consulting firm specializing in custom software development.",
     url: "https://www.marathonus.com/"
   },
   {
     name: "Dominion Enterprises",
     location: "Norfolk",
-    description: "Media and information services company",
+    description: "Media and information services company.",
     url: "https://www.dominionenterprises.com/"
   },
   {
     name: "STIHL Inc.",
     location: "Virginia Beach",
-    description: "Manufacturer of outdoor power equipment",
+    description: "Manufacturer of outdoor power equipment.",
     url: "https://www.stihlusa.com/"
   },
   {
     name: "LifeNet Health",
     location: "Virginia Beach",
-    description: "Non-profit global leader in regenerative medicine",
+    description: "Non-profit global leader in regenerative medicine.",
     url: "https://www.lifenethealth.org/"
   },
   {
     name: "Issuetrak",
     location: "Virginia Beach",
-    description: "Software company providing issue tracking and process management solutions",
+    description: "Issue tracking and process management software.",
     url: "https://www.issuetrak.com/"
   },
   {
     name: "Yellow Dog Software",
     location: "Norfolk",
-    description: "Provider of inventory management systems for hospitality, sports, and retail markets",
+    description: "Inventory management systems for hospitality, sports, and retail.",
     url: "https://www.yellowdogsoftware.com/"
   },
   {
     name: "Techark",
     location: "Norfolk",
-    description: "Digital innovation company offering web development, software, and mobile app solutions",
+    description: "Digital innovation — web, software, and mobile app solutions.",
     url: "https://gotechark.com/"
   },
   {
     name: "Decisions",
     location: "Virginia Beach",
-    description: "No-code, rules-driven platform for business process automation",
+    description: "No-code, rules-driven platform for business process automation.",
     url: "https://decisions.com/"
   },
   {
     name: "MAXX Potential",
     location: "Norfolk & Richmond",
-    description: "IT apprenticeship and staffing company providing tech talent solutions",
+    description: "IT apprenticeship and staffing company.",
     url: "https://maxxpotential.com/"
   }
 ];
 
-// Sort companies alphabetically by name
 const sortedCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
-<MainLayout 
-  title="Work" 
-  description="Find tech jobs and career opportunities in Hampton Roads, Virginia. Explore companies hiring developers, designers, and IT professionals in Virginia Beach, Norfolk, Chesapeake, and surrounding areas."
+<MainLayout
+  title="Work"
+  description="Notable tech employers in Hampton Roads, Virginia."
 >
-  <div class="hero">
-    <div class="container">
-      <h1>Work</h1>
-      <p>Discover tech job opportunities and companies in the Hampton Roads area.</p>
-    </div>
-  </div>
-
   <div class="container">
-    <section class="section">
-      <SectionDivider title="Notable Tech Companies" />
-      <div class="grid">
-        {sortedCompanies.map(company => (
-          <Card title={company.name} href={company.url}>
-            <p class="location">{company.location}</p>
-            <p>{company.description}</p>
-          </Card>
-        ))}
-      </div>
-    </section>
+    <h1>Work</h1>
+    <p>Notable tech employers in Hampton Roads, sorted alphabetically.</p>
 
-    <KeepSurfing />
+    <h2>Notable tech companies</h2>
+    <ul class="company-list">
+      {sortedCompanies.map((c) => (
+        <li>
+          <a href={c.url} target="_blank" rel="noopener noreferrer">{c.name}</a>
+          {' '}&mdash; <span class="muted">{c.location}</span>
+          <div class="muted company-desc">{c.description}</div>
+        </li>
+      ))}
+    </ul>
+
+    <p class="muted">
+      Know another tech employer hiring locally?
+      <a href="https://github.com/RevolutionVA/757-community-site-public" target="_blank" rel="noopener noreferrer">Submit a PR</a>.
+    </p>
   </div>
 </MainLayout>
 
 <style>
-  .location {
-    color: #0077cc;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  .company-list {
+    list-style: none;
+    padding: 0;
   }
-
-  .content-box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
+  .company-list > li {
+    margin-bottom: 0.6rem;
   }
-
-  .content-box h3 {
-    color: #0077cc;
-    margin-top: 0;
+  .company-desc {
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
   }
-</style> 
+</style>
