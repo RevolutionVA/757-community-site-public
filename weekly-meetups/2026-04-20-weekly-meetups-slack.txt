@@ -1,0 +1,39 @@
+*Meetups This Week (Monday - Sunday)*
+
+*6 Meetups This Week*
+
+*Monday, April 20*
+• *Level Zero OT Cyber Security Conference* - 09:00 AM
+  Hampton Roads Cyber Security for Control Systems
+  https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/313734730/ (Event Link)
+
+• *Hello Jupyter Notebooks* - 07:00 PM
+  757 Python Users Group
+  https://www.meetup.com/virginia-python/events/314044607/ (Event Link)
+
+
+*Tuesday, April 21*
+• *Norfolk Cybersecurity Networking & Happy Hour* - 06:00 PM
+  Information Systems Security Association ISSA Hampton Roads
+  https://www.meetup.com/issa-hampton-roads/events/313165279/ (Event Link)
+
+
+*Wednesday, April 22*
+• *Scala: A Scalable way to write Web Applications* - 06:30 PM
+  Hampton Roads Java Users Group
+  https://www.meetup.com/hampton-roads-java-users-group/events/313936795/ (Event Link)
+
+
+*Thursday, April 23*
+• *Skillshare Thursday #4: From Code to Nodes - Unity Visual Scripting* - 12:00 PM
+  Hampton Roads Unity User Group
+  https://www.meetup.com/hampton-roads-unity-user-group/events/314148311/ (Event Link)
+
+• *Claude as Your AI Coworker | AICHR* - 06:30 PM
+  757 Artificial Intelligence Collective
+  https://www.meetup.com/aicollectivehr/events/314079145/ (Event Link)
+
+
+
+---
+_Powered by https://757tech.org_
