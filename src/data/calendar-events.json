@@ -1,16 +1,5 @@
 [
   {
-    "title": "Hello Jupyter Notebooks",
-    "link": "https://www.meetup.com/virginia-python/events/314044607/",
-    "date": "2026-04-20T23:00:00.000Z",
-    "description": "This will be an introduction to Jupyter Notebooks. They are widely used in science and industry for a reason, they are super useful and collaborative by nature.\n\nFor analysis applications they provide an easy way to install a graphical interface onto your data warehouse.\n\nJupyter Notebooks also supports many other languages including R which is popular among statisticians. You can work with both on a team and have the same user experience.\n\nLink to the official module page: https://jupyter.org",
-    "source": "meetup",
-    "group": "757 Python Users Group",
-    "featuredEvent": false,
-    "createdDate": "2026-03-31T00:27:45.526Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
-  },
-  {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/313165279/",
     "date": "2026-04-21T22:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:08.723Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Scala: A Scalable way to write Web Applications",
@@ -30,7 +19,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-03-25T06:24:39.711Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Skillshare Thursday #4: From Code to Nodes - Unity Visual Scripting",
@@ -41,7 +30,7 @@
     "group": "Hampton Roads Unity User Group",
     "featuredEvent": false,
     "createdDate": "2026-04-06T18:20:21.708Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z",
+    "updatedDate": "2026-04-21T00:34:13.876Z",
     "previousVersion": {
       "title": "Skillshare Thursday #4: From Code to Nodes",
       "date": "2026-04-23T16:00:00.000Z"
@@ -56,7 +45,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-02T00:25:59.648Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "670K people watched us vibe code",
@@ -67,7 +56,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-04-07T06:33:21.406Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Peninsula Developer Happy Hour",
@@ -78,18 +67,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-27T06:28:15.385Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/314302597/",
     "date": "2026-04-28T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Developers Study Group is a local initiative for students and developers in the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-16T00:34:18.066Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -111,7 +100,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Zero to Agent",
@@ -122,7 +111,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-03T18:13:42.186Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -133,7 +122,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:18.167Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Late Night Builders",
@@ -144,7 +133,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:46.601Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -155,7 +144,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.545Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z",
+    "updatedDate": "2026-04-21T00:34:13.876Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Late Night Builders",
       "date": "2026-05-30T18:30:00.000Z"
@@ -165,12 +154,12 @@
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/314313983/",
     "date": "2026-05-12T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Developers Study Group is a local initiative for students and developers in the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-16T18:26:51.473Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
@@ -181,7 +170,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Platform & DevOps Engineering Social @ Voodoo Brewing",
@@ -192,7 +181,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-27T00:28:24.027Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "WSDG May Technical Presentation",
@@ -203,7 +192,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-04-10T18:18:53.430Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -214,7 +203,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Code + Coffee | Pale Horse Coffee",
@@ -225,7 +214,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:16.798Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -236,7 +225,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Java Social Meeting",
@@ -247,7 +236,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-04-04T00:26:05.033Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -258,7 +247,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Building an AI RAG Application with Logic Apps",
@@ -269,18 +258,18 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2026-03-18T18:22:00.371Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/vxjbxtyjchbjc/",
+    "link": "https://www.meetup.com/757dev/events/ccxcxtyjchbjc/",
     "date": "2026-05-26T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Developers Study Group is a local initiative for students and developers in the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-04-16T18:26:53.465Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "createdDate": "2026-04-21T00:33:30.417Z",
+    "updatedDate": "2026-04-21T00:33:30.417Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -302,7 +291,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -313,7 +302,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:41.489Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -324,7 +313,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.575Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Late Night Builders",
@@ -335,18 +324,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:47.792Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/vxjbxtyjcjbmb/",
+    "link": "https://www.meetup.com/757dev/events/ccxcxtyjcjbmb/",
     "date": "2026-06-09T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Developers Study Group is a local initiative for students and developers in the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-04-16T18:26:55.505Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "createdDate": "2026-04-21T00:33:32.187Z",
+    "updatedDate": "2026-04-21T00:33:32.187Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -357,7 +346,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z",
+    "updatedDate": "2026-04-21T00:34:13.876Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-06-04T22:30:00.000Z"
@@ -372,7 +361,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:18.718Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -383,7 +372,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-04T06:16:40.945Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -394,7 +383,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -405,7 +394,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -416,18 +405,18 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-14T00:22:57.353Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/vxjbxtyjcjbfc/",
+    "link": "https://www.meetup.com/757dev/events/ccxcxtyjcjbfc/",
     "date": "2026-06-23T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Developers Study Group is a local initiative for students and developers in the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-04-16T18:26:57.482Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "createdDate": "2026-04-21T00:33:34.333Z",
+    "updatedDate": "2026-04-21T00:33:34.333Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -449,7 +438,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-26T00:28:33.887Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -460,7 +449,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:43.467Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -471,7 +460,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:51.573Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Late Night Builders",
@@ -493,7 +482,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.876Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -504,7 +493,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -515,7 +504,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-08T00:30:04.569Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -526,7 +515,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -548,7 +537,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-05T06:18:46.708Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -559,7 +548,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:52.572Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Late Night Builders",
@@ -581,7 +570,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -603,7 +592,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-02T06:28:47.022Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -614,7 +603,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:53.520Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Late Night Builders",
@@ -636,7 +625,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -658,7 +647,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.928Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -680,7 +669,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:06.687Z",
-    "updatedDate": "2026-04-20T18:22:50.870Z"
+    "updatedDate": "2026-04-21T00:34:13.877Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
