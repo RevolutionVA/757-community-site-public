@@ -1,145 +1,55 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import StatCard from '../components/StatCard.astro';
-import SectionDivider from '../components/SectionDivider.astro';
 import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<MainLayout 
-	title="Home" 
-	description="757tech connects technology professionals in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
+<MainLayout
+  title="Home"
+  description="757tech connects technologists in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
 >
-	<div class="hero">
-		<div class="container">
-			<h1>757tech</h1>
-			<p>
-				This site is focused on serving up all the technology (development, design, etc.) goodness that is rooted in Hampton Roads region of Virginia. 
-				For those out of the loop, that includes the following cities: Virginia Beach, Norfolk, Chesapeake, Suffolk, Hampton, Newport News, and Williamsburg.
-			</p>
-		</div>
-	</div>
+  <div class="container">
+    <h1>757tech</h1>
+    <p>
+      A plain-text directory of tech meetups, events, and communities across Hampton Roads, Virginia:
+      Virginia Beach, Norfolk, Chesapeake, Suffolk, Hampton, Newport News, and Williamsburg.
+    </p>
+    <p class="muted">
+      New to the area? Start by scanning this week's events below, then browse the sections.
+    </p>
 
-	<div class="container">
-		<section class="section">
-			<SectionDivider title="About our region" />
-			
-			<div class="grid-3">
-				<StatCard 
-					emoji="👩🏽‍💻" 
-					value="40k+" 
-					label="Professionals" 
-				/>
-				<StatCard 
-					emoji="🏖️" 
-					value="200" 
-					label="Beach days / year" 
-				/>
-				<StatCard 
-					emoji="👯" 
-					value="~20" 
-					label="Monthly meetups" 
-				/>
-			</div>
+    <h2>This week</h2>
+    <ThisWeekMeetups />
 
-			<div class="grid">
-				<div class="feature-content">
-					<h3>💡 Innovation</h3>
-					<p>
-						Experience the future of technology right here in Hampton Roads. Our community is at the forefront of innovation, 
-						driving solutions that improve daily life in our region. Whether it's smart city initiatives or cutting-edge startups, 
-						we're shaping a more connected and sustainable future for all.
-					</p>
-				</div>
+    <h2>Browse</h2>
+    <ul class="two-col-list">
+      <li><a href="/meetups">Meetups</a> &mdash; local groups by category</li>
+      <li><a href="/calendar">Full calendar</a> &mdash; all upcoming events</li>
+      <li><a href="/conferences">Conferences</a> &mdash; regional tech conferences</li>
+      <li><a href="/communities">Communities</a> &mdash; online and in-person</li>
+      <li><a href="/learning">Learning</a> &mdash; schools and resources</li>
+      <li><a href="/work">Work</a> &mdash; notable local employers</li>
+      <li><a href="/get-involved">Get involved</a> &mdash; speak, organize, volunteer</li>
+      <li><a href="https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ" target="_blank" rel="noopener noreferrer">Slack</a> &mdash; 757dev workspace</li>
+      <li><a href="https://discord.gg/bPGsCKBqWp" target="_blank" rel="noopener noreferrer">Discord</a> &mdash; 757 tech chat</li>
+      <li><a href="https://github.com/RevolutionVA/757-community-site-public" target="_blank" rel="noopener noreferrer">GitHub</a> &mdash; source &amp; submissions</li>
+    </ul>
 
-				<div class="feature-content">
-					<h3>🏖️ Quality of life</h3>
-					<p>
-						At the intersection of technology and lifestyle, we're leveraging innovation to enhance the way we live and work in Hampton Roads. 
-						Discover how local tech advancements are solving real-world problems—from healthcare to transportation—making our area a hub for 
-						both work-life balance and career growth.
-					</p>
-				</div>
+    <h2>Newsletter</h2>
+    <p>Weekly email with upcoming local tech events. No spam.</p>
+    <NewsletterSignup />
 
-				<div class="feature-content">
-					<h3>🌎 Community-centered solutions</h3>
-					<p>
-						Our community thrives on creating tech that directly impacts the well-being of our region. Join us in crafting solutions that 
-						improve local services, foster economic growth, and elevate Hampton Roads as a leader in smart living and innovation. 
-						Together, we're building a brighter, tech-driven future.
-					</p>
-				</div>
-			</div>
-		</section>
+    <h2>New to the 757?</h2>
+    <p>
+      Most meetups are free and welcoming to newcomers. Show up, introduce yourself, and ask what
+      people are working on. The best way to plug in is to attend one event this month, then keep
+      coming back. See <a href="/get-involved">get involved</a> for ways to contribute beyond
+      attending.
+    </p>
 
-		<section class="section">
-			<SectionDivider title="Meetups This Week" />
-			<NewsletterSignup />
-			<ThisWeekMeetups />
-		</section>
-
-		<KeepSurfing />
-
-		<section class="section">
-			<SectionDivider title="Want to make your mark?" />
-			
-			<div class="get-involved">
-				<p>
-					Whether it's getting involved with a local meetup group, online community, or starting something up yourself, 
-					the 757 needs you to make it a better, cooler place to be.
-				</p>
-				<a href="/get-involved" class="cta-button">Get involved</a>
-			</div>
-		</section>
-	</div>
+    <p class="muted">
+      Spot a missing event or group?
+      <a href="https://github.com/RevolutionVA/757-community-site-public" target="_blank" rel="noopener noreferrer">Submit a PR on GitHub</a>.
+    </p>
+  </div>
 </MainLayout>
-
-<style>
-	.feature-content {
-		background-color: #fff;
-		padding: 1.5rem;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.newsletter-container {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-
-	.feature-content h3 {
-		margin-top: 0;
-		color: #0077cc;
-	}
-
-	.get-involved {
-		text-align: center;
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-		background-color: #fff;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.cta-button {
-		display: inline-block;
-		background-color: #0077cc;
-		color: white;
-		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
-		font-weight: bold;
-		text-decoration: none;
-		transition: background-color 0.2s ease;
-	}
-
-	.cta-button:hover {
-		background-color: #005fa3;
-		text-decoration: none;
-	}
-</style>
