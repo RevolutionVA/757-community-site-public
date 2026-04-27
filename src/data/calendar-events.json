@@ -2,35 +2,47 @@
   {
     "title": "670K people watched us vibe code",
     "link": "https://www.meetup.com/norfolkjs/events/314156513/",
-    "date": "2026-04-27T22:30:00.000Z",
+    "date": "2026-04-27T18:30:00.000Z",
     "description": "[https://www.youtube.com/watch?v=qYx8NX49OS8](https://www.youtube.com/watch?v=qYx8NX49OS8)\nImagine being flown across the country to build a full-stack app from scratch in under four hours, where you have to demo what you made in front of a dev influencer, corporate recruiter, and competing engineering teams regardless of if it's finished or a broken mess.\n\nNow imagine that it's all being filmed by a full production crew, having to juggle team interviews and makeup touchups between code commits and debugging attempts, all to make a video that's been viewed over 670,000 times! Terrifying right?\n\nRyan McGovern and Austin Galyon did exactly that while competing in a CodeTV Web Dev Challenge sponsored by Intuit, where they built Pantry Party - a collaborative generative recipe app built using Astro, Convex, Clerk, Netlify, and the Claude API, most of which they had never seen or used before that morning. They'll share what the experience was actually like behind the scenes, where AI-assisted coding helped, where it completely failed, and how their tooling has evolved since.\n\nAll skill levels welcome! The [757Dev Community](757dev.org) means a lot to me, and I thank each of you for your support. 🖖\n\nAs always, HUGE thanks to Assembly for hosting. Learn more about the amenities and community of Assembly at [https://www.assemblynfk.com/](https://www.assemblynfk.com/)\n\nStreet parking is free after 6 pm. From 6:30-7:00 pm, we will have someone at the door to let you in. After 7, message the #javascript channel on 757Dev Slack. We meet in the Fur Room on the 4th floor.",
     "source": "meetup",
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-04-07T06:33:21.406Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:45.540Z",
+    "previousVersion": {
+      "title": "670K people watched us vibe code",
+      "date": "2026-04-27T22:30:00.000Z"
+    }
   },
   {
     "title": "Peninsula Developer Happy Hour",
     "link": "https://www.meetup.com/757dev/events/313973962/",
-    "date": "2026-04-28T22:00:00.000Z",
+    "date": "2026-04-28T18:00:00.000Z",
     "description": "A social event to discuss and network with other professionals",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-27T06:28:15.385Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:14.637Z",
+    "previousVersion": {
+      "title": "Peninsula Developer Happy Hour",
+      "date": "2026-04-28T22:00:00.000Z"
+    }
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/314302597/",
-    "date": "2026-04-28T22:00:00.000Z",
+    "date": "2026-04-28T18:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-16T00:34:18.066Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:15.656Z",
+    "previousVersion": {
+      "title": "Peninsula Developers Study Group",
+      "date": "2026-04-28T22:00:00.000Z"
+    }
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -46,237 +58,317 @@
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
     "link": "https://www.meetup.com/issa-hampton-roads/events/313165344/",
-    "date": "2026-04-29T22:00:00.000Z",
+    "date": "2026-04-29T18:00:00.000Z",
     "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:34.051Z",
+    "previousVersion": {
+      "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+      "date": "2026-04-29T22:00:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Zero to Agent",
     "link": "https://www.meetup.com/aicollectivehr/events/314077985/",
-    "date": "2026-04-30T22:30:00.000Z",
+    "date": "2026-04-30T18:30:00.000Z",
     "description": "**Build and ship a real AI agent in one night**\n\nThe AI Collective Hampton Roads is bringing together builders, founders, operators, students, and the AI-curious for a hands-on build night as part of a global initiative powered by [Vercel]() and v0 by Vercel.\nWhether you code every day or have never touched a terminal, this event is designed to help you go from idea → working AI agent.\n\n**🌍 What is Zero to Agent?**\n\n**Zero to Agent** is a global build week (April 24 – May 3) where communities around the world are building and shipping real AI agents using v0 and Vercel.\nAll participants can submit their builds to the global competition:\n\n* $6,000+ in prizes\n* Global exposure\n* Community voting + judging\n\n**🧠 What you’ll do**\n\n* Learn how to use v0 to generate real apps and agents\n* Build something useful (not just a demo)\n* Deploy your project live\n* Connect with other builders in the 757\n* Get access to **$30 in v0 credits** (provided at the event)\n\n**👥 Who this is for**\n\n* Developers looking to level up fast\n* Non-technical builders who want to create real tools\n* Founders and operators exploring AI workflows\n* Students curious about what’s actually possible right now\n\nNo experience required. Just show up ready to build.\n\n**🛠 What to bring**\n\n* Laptop (required)\n* Charger\n* Ideas (optional but encouraged)\n\n**🏆 Competition + Key Dates**\n\n* Build week: April 24 – May 3\n* Submissions due: May 3\n* Voting: May 3–4\n* Winners announced after May 5\n\n**🧪 What makes a strong submission?**\n\n* Real-world usefulness\n* Working deployed agent\n* Creativity + execution\n\n**🤝 Hosted by**\nThe AI Collective Hampton Roads, The HIVE, & Vercel\n\n**📍 Final note**\n\nThis is a **free event**.\nSpots are limited.\nCome ready to build, not just watch.\n\n**About The AI Collective Hampton Roads**\n\n​We are part of a global network of 200,000+ AI builders, hosting hands-on events, workshops, and conversations across 150+ chapters worldwide.\nLocally, we bring together builders across the 757 every week to explore what’s possible with AI in a real, practical way.\n\n**Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**​Space partner**\n[The Hive by Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-03T18:13:42.186Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:15.716Z",
+    "previousVersion": {
+      "title": "🧜‍♀️ AICHR | Zero to Agent",
+      "date": "2026-04-30T22:30:00.000Z"
+    }
   },
   {
     "title": "AI on Autopilot: Making Claude Work While You Sleep | AICHR",
     "link": "https://www.meetup.com/aicollectivehr/events/314397182/",
-    "date": "2026-05-05T18:00:00.000Z",
+    "date": "2026-05-05T14:00:00.000Z",
     "description": "***Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.***\n\nYou've seen what Claude can do. You've built automations. Maybe you even set up that morning briefing from our last event. But here's the honest question: how many of those automations are you still running manually every time?\nMost people try an AI workflow once, love it, and then forget to run it again by Wednesday. The problem isn't capability — it's consistency. You keep forgetting to ask.\nThis session fixes that. We're taking the automations you already know how to build and putting them on a schedule that runs without you. Daily. Weekly. Monthly. While you sleep, while you commute, while you argue with your alarm clock.\nThis is a live, demo-driven walkthrough. We're not talking theory. We're opening Claude Desktop, scheduling real tasks, and watching them work — all in Cowork mode, no coding required.\n\n**What we'll cover:**\n\n🔄 **Two Levels of Automation**\n\nLevel 1: Cowork Scheduled Tasks — runs on your desktop, no code, click-and-schedule simplicity. For everyone.\n\nLevel 2: Claude Code Routines — runs on Anthropic's cloud, laptop can be closed, API and GitHub triggers. For developers. (Launched April 14 — brand new.)\n\n⚡ **10 Automations We'll Build Live:**\n\n1. The Morning Briefing — calendar + email + priorities, ready before you wake up\n2. Inbox Zero at Dawn — email triage and draft replies waiting for your review\n3. The Self-Cleaning Downloads Folder — file organization at midnight, every night\n4. Meeting Prep That Beats You to Work — research brief 2 hours before your first meeting\n5. The Friday Report That Writes Itself — weekly summary compiled automatically\n6. Weekly Competitive Intelligence — competitor monitoring every Monday\n7. The Subscription Watchdog — monthly scan of recurring charges you forgot about\n8. Expense Reports on Autopilot — receipts processed every Friday\n9. Content Calendar Batch — week's social media drafts ready Monday morning\n10. The Weekend Cleanup Crew — digital housekeeping while you enjoy Saturday\n\n🔗 **Chaining: When Automations Talk to Each Other** The real power: one automation triggers the next. Morning briefing flags an urgent email → draft reply auto-generates → you review on your phone over coffee → approved reply sends before you reach your desk. Three automations, zero manual triggers.\n\n**Who this is for:** Anyone with a Claude Pro or Max subscription who's used Cowork at least once. If you attended our April 9 (Claude Code) or April 23 (AI Coworker) events, this is the natural next step. If you didn't, you're still welcome — the setup takes 60 seconds and we'll walk through it live.\n\n**Who this is NOT for:** If you haven't installed Claude Desktop yet, start with our free setup guide (linked on the event page) before the event. We're spending our time scheduling and automating, not installing.\n\n**What you'll leave with:** ✅ At least 2-3 scheduled automations running on your machine ✅ A free homework doc with all 10 prompts ready to copy ✅ The framework for building and chaining your own automations ✅ Access to the AI Automation Playbook ($29) for advanced patterns and developer-level Routines\n\n**Prerequisites:** — Claude Desktop installed (claude.com/download) — Claude Pro ($20/month) or Max ($100+/month) subscription — Cowork mode accessible (click \"Cowork\" at the top of the app) — Gmail and Google Calendar connectors set up (for the email-based demos)\n\n**🎙️ Your Speaker** Andrew Stafford Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n**🏢 For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. [Book a discovery call](https://api.leadconnectorhq.com/widget/booking/UlmCnAh2HarbC1PskHgW)\n\n***\n\n**🤝 Organizers & partners**\n​\nOrganizers\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n​Platinum partners\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\nBronze partners\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 225,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-21T12:24:19.010Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:16.670Z",
+    "previousVersion": {
+      "title": "AI on Autopilot: Making Claude Work While You Sleep | AICHR",
+      "date": "2026-05-05T18:00:00.000Z"
+    }
   },
   {
     "title": "Live Hacking an iPhone Application",
     "link": "https://www.meetup.com/issa-hampton-roads/events/314497620/",
-    "date": "2026-05-05T21:30:00.000Z",
+    "date": "2026-05-05T17:30:00.000Z",
     "description": "Speaker Steve Campbell\nVisit our [Eventbrite Page](https://www.eventbrite.com/e/1988283414215) to **RSVP**\n\nA retired U.S. Navy veteran and Offensive Security SME with over 21 years of IT and pentesting experience. He's a Technical Lead for an offensive security consultant team and holds industry certifications including GXPN, CRTO, and OSCP. Steve is a published author, an active open-source tool developer, and a security researcher credited with publishing multiple CVE.\n\n***Talk Description***\n\nFollow along as Steve Campbell walks you through an iOS application penetration test and demonstrates the methodology for reverse engineering and hacking mobile applications.",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-27T00:35:17.535Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:35.139Z",
+    "previousVersion": {
+      "title": "Live Hacking an iPhone Application",
+      "date": "2026-05-05T21:30:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/314323401/",
-    "date": "2026-05-06T22:30:00.000Z",
+    "date": "2026-05-06T18:30:00.000Z",
     "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:18.167Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
-  },
-  {
-    "title": "Late Night Builders",
-    "link": "https://www.meetup.com/757dev/events/314042702/",
-    "date": "2026-05-08T01:00:00.000Z",
-    "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.",
-    "source": "meetup",
-    "group": "757 Developers",
-    "featuredEvent": false,
-    "createdDate": "2026-03-31T00:27:46.601Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:48.972Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Educational",
+      "date": "2026-05-06T22:30:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
     "link": "https://www.meetup.com/aicollectivehr/events/314042732/",
-    "date": "2026-05-08T01:00:00.000Z",
+    "date": "2026-05-07T21:00:00.000Z",
     "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available at the location.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.545Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z",
+    "updatedDate": "2026-04-27T12:34:17.627Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Late Night Builders",
-      "date": "2026-05-30T18:30:00.000Z"
+      "date": "2026-05-08T01:00:00.000Z"
+    }
+  },
+  {
+    "title": "Late Night Builders",
+    "link": "https://www.meetup.com/757dev/events/314042702/",
+    "date": "2026-05-07T21:00:00.000Z",
+    "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.",
+    "source": "meetup",
+    "group": "757 Developers",
+    "featuredEvent": false,
+    "createdDate": "2026-03-31T00:27:46.601Z",
+    "updatedDate": "2026-04-27T12:34:16.666Z",
+    "previousVersion": {
+      "title": "Late Night Builders",
+      "date": "2026-05-08T01:00:00.000Z"
     }
   },
   {
     "title": "Connecting Claude to Everything: The MCP Deep Dive | AICHR",
     "link": "https://www.meetup.com/aicollectivehr/events/314471816/",
-    "date": "2026-05-12T18:00:00.000Z",
+    "date": "2026-05-12T14:00:00.000Z",
     "description": "***Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.***\n\nThis event is capped at 500 attendees. Register now to secure your spot.\n\n**Connecting Claude to Everything: The MCP Deep Dive**\nClaude is smart. But right now, it's smart in a room with no doors.\nIt can't check your Slack. It can't read your database. It can't update your Notion. It can't file your GitHub issues. It can't query your Stripe data. Every time you want Claude to work with your actual tools, you're copying and pasting between windows like it's 2019.\nMCP (Model Context Protocol) is the fix. It's the universal adapter that connects Claude to Gmail, Slack, Google Drive, Notion, Asana, GitHub, Stripe, databases, and 3,000+ other services — through a single standard protocol. Think of it like USB-C for AI.\nThis session shows you how to connect Claude to the tools you actually use, with live demos at two levels: Cowork Connectors for everyone (click-to-connect, no code) and Claude Code MCP Servers for developers (install any server from the ecosystem, connect to databases and APIs).\n**What we'll cover:**\n🔌 **What Is MCP and Why It Matters** The universal adapter that lets Claude talk to any external service. One protocol, thousands of connections.\n⚡ **10 Connections We'll Build Live:**\nFor Everyone (Cowork Connectors — no code):\n\n1. Gmail + Calendar — cross-referencing email and meetings in a single prompt\n2. Slack — summarize channels, find un-responded messages, draft replies\n3. Google Drive — search, read, and create files across your Drive\n4. Notion — query databases, create pages, search your workspace\n5. Asana — check overdue tasks, create tasks, update status\n\nFor Developers (Claude Code MCP Servers):\n6\\. GitHub — review PRs\\, create issues\\, check CI status\n7\\. Stripe — query customers\\, invoices\\, MRR trends\n8\\. Databases — connect to Postgres/Supabase\\, run queries in English\n9\\. Custom APIs — connect Claude to any REST API \\(live demo: URL shortener\\)\n10\\. Stacking Connections — one prompt that touches 4\\+ services simultaneously\n\n🔍 **Finding and Installing MCP Servers** Where to discover the 3,000+ MCP servers available, how to install them, and how to evaluate which ones are worth adding.\n\n**Who this is for:** Two tracks in one event. If you've attended any of our previous events and want to connect Claude to the services you use every day — this is for you. Developers will learn how to install MCP servers and connect Claude to databases and APIs. Non-technical attendees will learn how to use Cowork Connectors to connect Claude to Gmail, Slack, Drive, Notion, and Asana with zero code.\n\n**Who this is NOT for:** If you haven't installed Claude Desktop yet, start with our free setup guide first. We're spending our time connecting services, not installing.\n\n**What you'll leave with:** ✅ At least 2-3 new services connected to Claude ✅ A free homework doc with all 10 connection prompts and an MCP installation guide ✅ The framework for finding and evaluating MCP servers ✅ An understanding of how to stack multiple connections in a single prompt\n\n**Prerequisites:** — Claude Desktop installed (claude.com/download) — Claude Pro ($20/month) or Max ($100+/month) subscription — Cowork mode accessible — Have login credentials ready for services you want to connect (Gmail, Slack, Notion, Asana, etc.) — Developers: Claude Code CLI installed (npm install -g @anthropic-ai/claude-code)\n\n**🎙️ Your Speaker** Andrew Stafford Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n**🏢 For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. [Book a discovery call](https://api.leadconnectorhq.com/widget/booking/UlmCnAh2HarbC1PskHgW)\n\n***\n\n**🤝 Organizers & partners**\n​\nOrganizers\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n​Platinum partners\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\nBronze partners\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 225,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:11.262Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:18.712Z",
+    "previousVersion": {
+      "title": "Connecting Claude to Everything: The MCP Deep Dive | AICHR",
+      "date": "2026-05-12T18:00:00.000Z"
+    }
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/314313983/",
-    "date": "2026-05-12T22:00:00.000Z",
+    "date": "2026-05-12T18:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-16T18:26:51.473Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:17.694Z",
+    "previousVersion": {
+      "title": "Peninsula Developers Study Group",
+      "date": "2026-05-12T22:00:00.000Z"
+    }
   },
   {
     "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/312879834/",
-    "date": "2026-05-13T22:00:00.000Z",
+    "date": "2026-05-13T18:00:00.000Z",
     "description": "**IN PERSON MEETING!!!!! (PLEASE NOTE DATE CHANGE FOR THIS MEETING ONLY)**\nOrganizations handle increasing amounts of growth with their sensitive data. Data engineers must protect their data from external attackers, application users, and even privileged employees like database administrators.\n\nThis session will teach you how to protect your data while maintaining functionality and performance. You will leave this session knowing how and why column-level encryption, row-level security, and auditing are keys to securing your data.",
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:35.057Z",
+    "previousVersion": {
+      "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
+      "date": "2026-05-13T22:00:00.000Z"
+    }
   },
   {
     "title": "Platform & DevOps Engineering Social @ Voodoo Brewing",
     "link": "https://www.meetup.com/platform-and-devops-eng/events/313970762/",
-    "date": "2026-05-13T22:00:00.000Z",
+    "date": "2026-05-13T18:00:00.000Z",
     "description": "Come join us @ Voodoo Brewing in Town Center of Virginia Beach on May 13th, 2026 from 6:00PM - 8:00PM ET!\n\nThe address is 300 Constitution Dr Suite 109, Virginia Beach, VA 23462.\n\nThis is a no-presentation, no-sponsorship event for Platform Engineers, DevOps Engineers, and everyone else who comes along to cut loose, have an alcoholic or non-alcoholic beverage of your choice, network, talk shop, and/or simply hang out!\n\nWe look forward to seeing you there!\n\nHeads Up: This is a Buy Your Own Beer/Food Event",
     "source": "meetup",
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-27T00:28:24.027Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:46.459Z",
+    "previousVersion": {
+      "title": "Platform & DevOps Engineering Social @ Voodoo Brewing",
+      "date": "2026-05-13T22:00:00.000Z"
+    }
   },
   {
     "title": "WSDG May Technical Presentation",
     "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/314214818/",
-    "date": "2026-05-13T22:30:00.000Z",
+    "date": "2026-05-13T18:30:00.000Z",
     "description": "Scala: A Scalable way to write Web Applications\nby Alex Podyachev\n\nAbstract:\nScala is a JVM-based programming language that seamlessly combines functional and object-oriented paradigms. It is fully interoperable with Java, allowing developers to use existing Java libraries and frameworks. Compared to Java, Scala offers a more concise and expressive syntax, along with powerful features such as higher-order functions, type inference, and pattern matching.\n\nBio:\nAleksandr Podyachev is a Software Developer at Booz Allen Hamilton. He has a Bachelors of Science in Computer Science from Virginia Commonwealth University. His interests include Elixir, Web Frameworks, Physics, and Game Development. He lives in Williamsburg, VA with his family playing Halo and thinking of new ideas to create.\n\\-\\-\\-\\-\\-\\-\\-\\-\nThis hybrid meeting will be available both in-person and remotely. For those attending in person, we will be at the Williamsburg Regional Library, Conference Room B.\nFor online access, the Zoom info is:\nhttps://us06web.zoom.us/j/2562166096?omn=81574523674\nMeeting ID: 256 216 6096\n\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule:\nJune 10, 6:00 PM - Social Event\n\nJuly 8, 6:30 PM - Williamsburg Library, Conference Room B. Kelly Shaw will discuss AI programming vs. human programmers.\n\nAugust 12, 6:00 PM - Social Event\n\nSeptember 9, 6:30 PM - Williamsburg Library, Conference Room B.\nTechnical Presentation\n\nOctober 14, 6:00 PM - Social Event\n\nNovember 10, 6:30 PM - Williamsburg Library, Conference Room B.\n(Note this is a Tuesday, since the library is closed on Veterans Day.)\nTechnical Presentation\n\nDecember 9, 6:00 PM - Social Event",
     "source": "meetup",
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-04-10T18:18:53.430Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:46.532Z",
+    "previousVersion": {
+      "title": "WSDG May Technical Presentation",
+      "date": "2026-05-13T22:30:00.000Z"
+    }
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
     "link": "https://www.meetup.com/issa-hampton-roads/events/313165213/",
-    "date": "2026-05-15T22:00:00.000Z",
+    "date": "2026-05-15T18:00:00.000Z",
     "description": "**Attention Information Security and Cybersecurity Professionals!**\nAre you looking to meet new people who share your interests? Whether you're thinking about entering cybersecurity, have recently entered the field, or are a seasoned professional, we welcome all to join us for an evening of networking, learning, and fun.\n**Why Attend?**\nEnjoy a night out at the cozy and welcoming **Neat Bird** in Chesapeake, where you can connect with like-minded individuals. We love bringing people together to share insights and build lasting connections. Join us for some beers—or not, if that's your preference. Our goal is to help you forge meaningful relationships in the cybersecurity community.\n**About ISSA-HR**\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) hosts social events throughout the region, providing a space for cybersecurity professionals and enthusiasts to get together, share stories, learn new information, and meet new people. With years of cybersecurity expertise, ISSA-HR is committed to promoting the industry and nurturing the next generation of cybersecurity professionals.\n\n**RSVP now and bring a friend!** We look forward to seeing you there!\n\n**Location:** Neat Bird, 565 Belaire Ave, Chesapeake, VA 23320\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:36.044Z",
+    "previousVersion": {
+      "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
+      "date": "2026-05-15T22:00:00.000Z"
+    }
   },
   {
     "title": "Code + Coffee | Pale Horse Coffee",
     "link": "https://www.meetup.com/757dev/events/314240016/",
-    "date": "2026-05-16T13:30:00.000Z",
+    "date": "2026-05-16T09:30:00.000Z",
     "description": "Join us for a relaxed morning meetup where developers, designers, founders, and tech enthusiasts gather over great coffee to talk shop, share ideas, and connect with others in the local tech community.\n\n**Code + Coffee** has no formal agenda—just bring your laptop, a project you’re working on, a question you’ve been thinking about, or simply come to meet other people building interesting things. Whether you're coding, designing, experimenting with AI, launching a startup, or just curious about technology, you'll find friendly conversations and plenty of inspiration.\n\nExpect:\n\n* Good coffee\n* Interesting technical conversations\n* People sharing projects and ideas\n* Occasional spontaneous whiteboard sessions\n\nDrop in anytime during the meetup window.\n\nStay for 10 minutes or the whole time.\n\nIf you’ve been looking for a low-key way to meet other developers in the area, this is it.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:16.798Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:18.626Z",
+    "previousVersion": {
+      "title": "Code + Coffee | Pale Horse Coffee",
+      "date": "2026-05-16T13:30:00.000Z"
+    }
   },
   {
     "title": "Build Your Own Claude Skills: Teach Claude How You Work | AICHR",
     "link": "https://www.meetup.com/aicollectivehr/events/314471984/",
-    "date": "2026-05-19T18:00:00.000Z",
+    "date": "2026-05-19T14:00:00.000Z",
     "description": "***Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.***\n\n**Build Your Own Claude Skills: Teach Claude How You Work**\nEvery session, you explain the same things. Your coding standards. Your review process. Your preferred format. Your tone of voice. Your deployment steps.\nClaude doesn't remember between sessions. CLAUDE.md helps — it tells Claude who you are and what you prefer. But a preference list isn't a playbook. You need something that says: \"When you encounter THIS situation, follow THESE steps, use THESE templates, and produce THIS output.\"\nThat's a Skill. You teach Claude once. It follows the process forever. And it can auto-invoke — Claude detects when to use a skill without you even asking.\nThis session is a live, demo-driven workshop. We'll build 10 real skills from scratch, covering everything from daily standups and code reviews to meeting notes and project scaffolding. By the end, you'll have a personal skill library that makes Claude work the way you work.\n\n**What we'll cover:**\n\n🧠 **Why Skills Matter** CLAUDE.md tells Claude who you are. Skills tell Claude how you work. The difference between explaining something every session and teaching it once.\n\n⚡ **Built-In Skills You Might Not Know** /review, /simplify, /plan, /loop, /batch, /anthropic — what ships with Claude Code and how to use each one.\n\n🔧 **Anatomy of a Skill** SKILL.md frontmatter, the markdown body, supporting files (templates, scripts, examples), auto-invocation, and the $ARGUMENTS system.\n\n🛠️ **10 Skills We'll Build Live:**\n\n1. Daily Standup Report — auto-generated from git history and calendar\n2. Code Review Checklist — your team's standards, enforced every time\n3. Meeting Notes Formatter — messy notes in, structured summary out\n4. PR Description Generator — Claude writes the PR description from the diff\n5. Bug Report Creator — plain language to structured report with GitHub issue\n6. Email Drafter — with voice matching from a style guide file\n7. Competitive Quick Look — one company name in, structured brief out\n8. Project Scaffolder — /scaffold react-app and everything is set up\n9. Weekly Reflection — end-of-week self-assessment that builds an archive\n10. Documentation Updater — catches stale docs before your users do\n\n📁 **Organizing and Sharing Skills** Global vs project skills, sharing via git, keeping SKILL.md lean, and building a team-wide skill library.\n\n**Who this is for:** Developers and technical professionals who use Claude Code and want to stop repeating themselves. If you've attended any of our previous events, this is the session where you turn everything you've learned into reusable, persistent workflows. Non-technical Cowork users will benefit from skills 3, 6, 7, and 9 (meeting notes, email drafting, competitive research, weekly reflection).\n\n**Who this is NOT for:** If you haven't used Claude Code or Cowork yet, start with our earlier events and free setup guides. This session assumes you're comfortable with Claude and want to go deeper.\n\n**What you'll leave with:** ✅ At least 2-3 working skills installed and tested ✅ A free homework doc with all 10 skill templates ready to copy ✅ Understanding of SKILL.md anatomy, auto-invocation, and supporting files ✅ A framework for building and sharing skills across your team\n\n**Prerequisites:** — Claude Desktop installed with Cowork, OR Claude Code CLI installed — Claude Pro ($20/month) or Max ($100+/month) subscription — Basic familiarity with Claude from a previous event or self-study — Developers: a terminal open and a project folder ready to work in\n\n**🎙️ Your Speaker** Andrew Stafford Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n**🏢 For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. [Book a discovery call](https://api.leadconnectorhq.com/widget/booking/UlmCnAh2HarbC1PskHgW)\n\n***\n\n**🤝 Organizers & partners**\n​\nOrganizers\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n​Platinum partners\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\nBronze partners\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 225,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:12.350Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:19.627Z",
+    "previousVersion": {
+      "title": "Build Your Own Claude Skills: Teach Claude How You Work | AICHR",
+      "date": "2026-05-19T18:00:00.000Z"
+    }
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/313165287/",
-    "date": "2026-05-19T22:00:00.000Z",
+    "date": "2026-05-19T18:00:00.000Z",
     "description": "From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd image for details.\n\nConnect with fellow tech enthusiasts, Information Security, and Cybersecurity professionals in a relaxed atmosphere. Share ideas, make new friends, and enjoy delicious drinks and snacks. Don't miss out on this opportunity to expand your professional circle and have a great time!\n\nFree tickets and further details are available at:\nhttps://www.eventbrite.com/e/1980179496178",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:37.056Z",
+    "previousVersion": {
+      "title": "Norfolk Cybersecurity Networking & Happy Hour",
+      "date": "2026-05-19T22:00:00.000Z"
+    }
   },
   {
     "title": "Java Social Meeting",
     "link": "https://www.meetup.com/hampton-roads-java-users-group/events/314110327/",
-    "date": "2026-05-20T22:30:00.000Z",
+    "date": "2026-05-20T18:30:00.000Z",
     "description": "A simple social event",
     "source": "meetup",
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-04-04T00:26:05.033Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:31.561Z",
+    "previousVersion": {
+      "title": "Java Social Meeting",
+      "date": "2026-05-20T22:30:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjchbcc/",
-    "date": "2026-05-21T22:30:00.000Z",
+    "date": "2026-05-21T18:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:49.968Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Open Discussion",
+      "date": "2026-05-21T22:30:00.000Z"
+    }
   },
   {
     "title": "Build Your Own AI Agent: The Claude Agent SDK | AICHR",
     "link": "https://www.meetup.com/aicollectivehr/events/314472167/",
-    "date": "2026-05-26T18:00:00.000Z",
+    "date": "2026-05-26T14:00:00.000Z",
     "description": "***Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.***\n\nThis event is capped at 500 attendees. Register now to secure your spot.\n\n**Build Your Own AI Agent: The Claude Agent SDK -**\n\nYou've been using Claude Code interactively. Type a prompt, watch it work, review the output. That's great for your workflow. But what happens when you need Claude running inside your application? Processing uploads at 3 AM? Reviewing PRs automatically? Analyzing logs as a service?\n\nThe Claude Agent SDK is Claude Code packaged as a Python and TypeScript library. One function call, one prompt, and you have a fully autonomous agent with 10+ built-in tools — file reading, code editing, shell commands, web search, MCP connections — all handled autonomously. No tool loop. No orchestration code. The SDK is free and open source. You pay for tokens only.\n\nThis is a live coding workshop. We'll build 10 real agents from scratch, starting with a 10-line bug finder and ending with a multi-agent coordinator that spawns subagents for parallel work.\n\n**What we'll cover:**\n\n🧠 **Why the Agent SDK Changes Everything** The difference between the Client SDK (you build the tool loop), Claude Code CLI (you interact manually), and the Agent SDK (Claude handles tools autonomously in your code).\n\n⚡ **10 Agents We'll Build Live:**\n\n1. Bug Finder & Fixer — reads code, finds bugs, fixes them. 10 lines of Python.\n2. Code Documentation Generator — docstrings for every function in a directory\n3. Test Writer — writes tests, runs them, fixes failures, iterates until green\n4. File Processor Pipeline — watch a folder, process every new file automatically\n5. API Health Monitor — hits endpoints, reports status, opens issues on failure\n6. Log Analyzer — reads logs, groups errors by pattern, produces a digest\n7. Security Auditor — scans for hardcoded secrets, SQL injection, missing validation\n8. Data Report Generator — reads a database or CSV, produces formatted reports\n9. PR Review Bot — triggered by webhook, reviews against your checklist, posts comments\n10. Multi-Agent Coordinator — spawns subagents for parallel research + writing + review\n\n🏗️ **Managed Agents Preview** The hosted version: sandboxed containers, persistent state, credential vaulting. $0.08/session-hour + tokens. Public beta since April 8, 2026. When to use Agent SDK (your infra) vs Managed Agents (Anthropic's infra).\n\n**Who this is for:** Python or TypeScript developers who want to build autonomous AI agents. If you've been using Claude Code and want to embed its capabilities into your own applications, services, or pipelines — this is the session. Prior experience with Claude Code is helpful but not required.\n\n**Who this is NOT for:** Non-developers. This is a coding workshop. Every demo involves writing and running Python or TypeScript code. If you're looking for no-code AI workflows, see our earlier events in the series.\n\n**What you'll leave with:** ✅ The Agent SDK installed and a working agent running on your machine ✅ A free homework doc with all 10 agent templates in Python and TypeScript ✅ Understanding of built-in tools, permission modes, MCP integration, and subagents ✅ The architecture for building production agent services\n\n**Prerequisites:** — Python 3.10+ or Node.js 18+ — An Anthropic API key (sign up at console.anthropic.com) — A code editor and terminal — Basic Python or TypeScript proficiency\n\n**🎙️ Your Speaker** Andrew Stafford Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n**🏢 For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. [Book a discovery call](https://api.leadconnectorhq.com/widget/booking/UlmCnAh2HarbC1PskHgW)\n\n***\n\n**🤝 Organizers & partners**\n​\nOrganizers\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n​Platinum partners\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\nBronze partners\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 225,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:12.863Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
-  },
-  {
-    "title": "Building an AI RAG Application with Logic Apps",
-    "link": "https://www.meetup.com/hampton-roads-azure-users-group/events/313832867/",
-    "date": "2026-05-26T22:00:00.000Z",
-    "description": "*PLEASE PLEASE PLEASE NOTE THE DATE. NOT OUR NORMAL SCHEDULE.*\n\n**Building an AI RAG Application with Logic Apps**\nWe have a special guest in-person this month! Microsoft Azure MVP, Dan Toomey, is visiting us all the way from Australia!\n\n**Schedule**\n5:45 PM — Doors open\n6:00 PM — Food, drinks, and networking\n6:30 PM — Presentation begins\n\n**About This Session**\nRetrieval Augmented Generation (RAG) is a proven model for exposing your data to AI-assisted search platforms whilst breaking through the limitations of unwieldy Large Language Modules (LLMs). Microsoft gives us great tools like Azure AI Search, Azure OpenAI, and OpenAI Studio to build these solutions, but the complexity of the components and how they all fit together can be daunting. In this session, find out how Logic Apps Templates and built-in AI connectors can simplify the construction of both the ingestion and the retrieval processes that comprise your RAG platform, with no coding required!\n\n**Speaker**\nDan Toomey is a Senior Integration Specialist for Deloitte as well as a Microsoft Azure MVP, a Microsoft Certified Azure Solutions Architect (MCSE), a Microsoft Certified Azure Developer (MCPD), and a Microsoft Certified Technical Specialist (MCTS) in BizTalk Server 2010. He’s also a Microsoft Certified Trainer (MCT) and a published Pluralsight author. Dan is an international speaker, invited to present at global events such as INTEGRATE (London & USA), Aviators in Hamburg (Germany), and PolarConf (Finland), as well as many local Australian events such as Microsoft Ignite Australia (Sydney), API Days (Melbourne), the Global Azure Bootcamp and Xamarin Dev Days. He founded the Brisbane BizTalk User Group in 2005 and is co-organiser of the Brisbane Azure User Group. Dan has authored two courses for Pluralsight and is an active blogger [[http://www.mindovermessaging.com\\]](http://www.mindovermessaging.com%5D/).\n\n**Location**\nMarathon Consulting (2nd Floor)\nPlenty of free parking is available behind the building. If you're arriving later, the doors may be locked—check the sign on the door for instructions on how to get in.\n\n**Details**\nFood and drinks will be provided. This event is free and open to all skill levels.",
-    "source": "meetup",
-    "group": "Hampton Roads Azure Users Group",
-    "featuredEvent": false,
-    "createdDate": "2026-03-18T18:22:00.371Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:20.672Z",
+    "previousVersion": {
+      "title": "Build Your Own AI Agent: The Claude Agent SDK | AICHR",
+      "date": "2026-05-26T18:00:00.000Z"
+    }
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/ccxcxtyjchbjc/",
-    "date": "2026-05-26T22:00:00.000Z",
+    "date": "2026-05-26T18:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:30.417Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:19.661Z",
+    "previousVersion": {
+      "title": "Peninsula Developers Study Group",
+      "date": "2026-05-26T22:00:00.000Z"
+    }
+  },
+  {
+    "title": "Building an AI RAG Application with Logic Apps",
+    "link": "https://www.meetup.com/hampton-roads-azure-users-group/events/313832867/",
+    "date": "2026-05-26T18:00:00.000Z",
+    "description": "*PLEASE PLEASE PLEASE NOTE THE DATE. NOT OUR NORMAL SCHEDULE.*\n\n**Building an AI RAG Application with Logic Apps**\nWe have a special guest in-person this month! Microsoft Azure MVP, Dan Toomey, is visiting us all the way from Australia!\n\n**Schedule**\n5:45 PM — Doors open\n6:00 PM — Food, drinks, and networking\n6:30 PM — Presentation begins\n\n**About This Session**\nRetrieval Augmented Generation (RAG) is a proven model for exposing your data to AI-assisted search platforms whilst breaking through the limitations of unwieldy Large Language Modules (LLMs). Microsoft gives us great tools like Azure AI Search, Azure OpenAI, and OpenAI Studio to build these solutions, but the complexity of the components and how they all fit together can be daunting. In this session, find out how Logic Apps Templates and built-in AI connectors can simplify the construction of both the ingestion and the retrieval processes that comprise your RAG platform, with no coding required!\n\n**Speaker**\nDan Toomey is a Senior Integration Specialist for Deloitte as well as a Microsoft Azure MVP, a Microsoft Certified Azure Solutions Architect (MCSE), a Microsoft Certified Azure Developer (MCPD), and a Microsoft Certified Technical Specialist (MCTS) in BizTalk Server 2010. He’s also a Microsoft Certified Trainer (MCT) and a published Pluralsight author. Dan is an international speaker, invited to present at global events such as INTEGRATE (London & USA), Aviators in Hamburg (Germany), and PolarConf (Finland), as well as many local Australian events such as Microsoft Ignite Australia (Sydney), API Days (Melbourne), the Global Azure Bootcamp and Xamarin Dev Days. He founded the Brisbane BizTalk User Group in 2005 and is co-organiser of the Brisbane Azure User Group. Dan has authored two courses for Pluralsight and is an active blogger [[http://www.mindovermessaging.com\\]](http://www.mindovermessaging.com%5D/).\n\n**Location**\nMarathon Consulting (2nd Floor)\nPlenty of free parking is available behind the building. If you're arriving later, the doors may be locked—check the sign on the door for instructions on how to get in.\n\n**Details**\nFood and drinks will be provided. This event is free and open to all skill levels.",
+    "source": "meetup",
+    "group": "Hampton Roads Azure Users Group",
+    "featuredEvent": false,
+    "createdDate": "2026-03-18T18:22:00.371Z",
+    "updatedDate": "2026-04-27T12:34:29.178Z",
+    "previousVersion": {
+      "title": "Building an AI RAG Application with Logic Apps",
+      "date": "2026-05-26T22:00:00.000Z"
+    }
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -292,142 +384,182 @@
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
     "link": "https://www.meetup.com/issa-hampton-roads/events/313165350/",
-    "date": "2026-05-27T22:00:00.000Z",
+    "date": "2026-05-27T18:00:00.000Z",
     "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:38.045Z",
+    "previousVersion": {
+      "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+      "date": "2026-05-27T22:00:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjcjbfb/",
-    "date": "2026-06-03T22:30:00.000Z",
+    "date": "2026-06-03T18:30:00.000Z",
     "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:41.489Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:50.999Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Educational",
+      "date": "2026-06-03T22:30:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
     "link": "https://www.meetup.com/aicollectivehr/events/314042736/",
-    "date": "2026-06-05T01:00:00.000Z",
+    "date": "2026-06-04T21:00:00.000Z",
     "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available at the location.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.575Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:21.654Z",
+    "previousVersion": {
+      "title": "🧜‍♀️ AICHR | Late Night Builders",
+      "date": "2026-06-05T01:00:00.000Z"
+    }
   },
   {
     "title": "Late Night Builders",
     "link": "https://www.meetup.com/757dev/events/314042708/",
-    "date": "2026-06-05T01:00:00.000Z",
+    "date": "2026-06-04T21:00:00.000Z",
     "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:47.792Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z",
+    "updatedDate": "2026-04-27T12:34:20.943Z",
     "previousVersion": {
       "title": "Late Night Builders",
-      "date": "2026-05-30T18:30:00.000Z"
+      "date": "2026-06-05T01:00:00.000Z"
     }
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/ccxcxtyjcjbmb/",
-    "date": "2026-06-09T22:00:00.000Z",
+    "date": "2026-06-09T18:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:32.187Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:21.669Z",
+    "previousVersion": {
+      "title": "Peninsula Developers Study Group",
+      "date": "2026-06-09T22:00:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
     "link": "https://www.meetup.com/aicollectivehr/events/313058174/",
-    "date": "2026-06-11T22:30:00.000Z",
+    "date": "2026-06-11T18:30:00.000Z",
     "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z",
+    "updatedDate": "2026-04-27T12:34:22.678Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
-      "date": "2026-06-04T22:30:00.000Z"
+      "date": "2026-06-11T22:30:00.000Z"
     }
   },
   {
     "title": "Code + Coffee | Cafe Stella",
     "link": "https://www.meetup.com/757dev/events/314240075/",
-    "date": "2026-06-13T13:30:00.000Z",
+    "date": "2026-06-13T09:30:00.000Z",
     "description": "Join us for a relaxed morning meetup where developers, designers, founders, and tech enthusiasts gather over great coffee to talk shop, share ideas, and connect with others in the local tech community.\n\n**Code + Coffee** has no formal agenda—just bring your laptop, a project you’re working on, a question you’ve been thinking about, or simply come to meet other people building interesting things. Whether you're coding, designing, experimenting with AI, launching a startup, or just curious about technology, you'll find friendly conversations and plenty of inspiration.\n\nExpect:\n\n* Good coffee\n* Interesting technical conversations\n* People sharing projects and ideas\n* Occasional spontaneous whiteboard sessions\n\nDrop in anytime during the meetup window.\n\nStay for 10 minutes or the whole time.\n\nIf you’ve been looking for a low-key way to meet other developers in the area, this is it.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:18.718Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:22.648Z",
+    "previousVersion": {
+      "title": "Code + Coffee | Cafe Stella",
+      "date": "2026-06-13T13:30:00.000Z"
+    }
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcjbvb/",
-    "date": "2026-06-16T22:00:00.000Z",
+    "date": "2026-06-16T18:00:00.000Z",
     "description": "From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd image for details.\n\nConnect with fellow tech enthusiasts, Information Security, and Cybersecurity professionals in a relaxed atmosphere. Share ideas, make new friends, and enjoy delicious drinks and snacks. Don't miss out on this opportunity to expand your professional circle and have a great time!\n\nFree tickets and further details are available at:\nhttps://www.eventbrite.com/e/1980179496178",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-04T06:16:40.945Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:39.058Z",
+    "previousVersion": {
+      "title": "Norfolk Cybersecurity Networking & Happy Hour",
+      "date": "2026-06-16T22:00:00.000Z"
+    }
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/312879633/",
-    "date": "2026-06-17T22:00:00.000Z",
+    "date": "2026-06-17T18:00:00.000Z",
     "description": "**IN PERSON MEETING!!!!!**\nSQL Server's data virtualization stack has evolved throughout the past decade, allowing you to integrate SQL Server with a variety of external systems, such as Oracle, MongoDB, Cosmos DB, Azure Blob Storage, and AWS S3. In this talk, we will briefly cover the history of data virtualization in SQL Server and focus on how we can write T-SQL queries to access data from heterogeneous sources, both in SQL Server 2025 and in prior versions. Finally, we will look at several interesting use cases for data virtualization in the modern data environment.",
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:36.103Z",
+    "previousVersion": {
+      "title": "Kevin Feasel- Data Virtualization in SQL Server",
+      "date": "2026-06-17T22:00:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjcjbxb/",
-    "date": "2026-06-18T22:30:00.000Z",
+    "date": "2026-06-18T18:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:52.159Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Open Discussion",
+      "date": "2026-06-18T22:30:00.000Z"
+    }
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
     "link": "https://www.meetup.com/issa-hampton-roads/events/rwtwvtyjcjbzb/",
-    "date": "2026-06-19T22:00:00.000Z",
+    "date": "2026-06-19T18:00:00.000Z",
     "description": "**Attention Information Security and Cybersecurity Professionals!**\nAre you looking to meet new people who share your interests? Whether you're thinking about entering cybersecurity, have recently entered the field, or are a seasoned professional, we welcome all to join us for an evening of networking, learning, and fun.\n**Why Attend?**\nEnjoy a night out at the cozy and welcoming **Neat Bird** in Chesapeake, where you can connect with like-minded individuals. We love bringing people together to share insights and build lasting connections. Join us for some beers—or not, if that's your preference. Our goal is to help you forge meaningful relationships in the cybersecurity community.\n**About ISSA-HR**\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) hosts social events throughout the region, providing a space for cybersecurity professionals and enthusiasts to get together, share stories, learn new information, and meet new people. With years of cybersecurity expertise, ISSA-HR is committed to promoting the industry and nurturing the next generation of cybersecurity professionals.\n\n**RSVP now and bring a friend!** We look forward to seeing you there!\n\n**Location:** Neat Bird, 565 Belaire Ave, Chesapeake, VA 23320\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-14T00:22:57.353Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:40.078Z",
+    "previousVersion": {
+      "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
+      "date": "2026-06-19T22:00:00.000Z"
+    }
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/ccxcxtyjcjbfc/",
-    "date": "2026-06-23T22:00:00.000Z",
+    "date": "2026-06-23T18:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:34.333Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:23.713Z",
+    "previousVersion": {
+      "title": "Peninsula Developers Study Group",
+      "date": "2026-06-23T22:00:00.000Z"
+    }
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -443,35 +575,47 @@
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
     "link": "https://www.meetup.com/issa-hampton-roads/events/nztwvtyjcjbgc/",
-    "date": "2026-06-24T22:00:00.000Z",
+    "date": "2026-06-24T18:00:00.000Z",
     "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-26T00:28:33.887Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:41.216Z",
+    "previousVersion": {
+      "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+      "date": "2026-06-24T22:00:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjckbcb/",
-    "date": "2026-07-01T22:30:00.000Z",
+    "date": "2026-07-01T18:30:00.000Z",
     "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:43.467Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:53.111Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Educational",
+      "date": "2026-07-01T22:30:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
     "link": "https://www.meetup.com/aicollectivehr/events/314042744/",
-    "date": "2026-07-03T01:00:00.000Z",
+    "date": "2026-07-02T21:00:00.000Z",
     "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available at the location.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:51.573Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:23.653Z",
+    "previousVersion": {
+      "title": "🧜‍♀️ AICHR | Late Night Builders",
+      "date": "2026-07-03T01:00:00.000Z"
+    }
   },
   {
     "title": "Late Night Builders",
@@ -487,46 +631,62 @@
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/312879896/",
-    "date": "2026-07-15T22:00:00.000Z",
+    "date": "2026-07-15T18:00:00.000Z",
     "description": "**IN PERSON MEETING!!!!!**\nSQL Server 2025 is the AI database for enterprises. But there are more new things than just AI—in this demo filled, full-day workshop, you will learn about:\n\n• Engine improvements that make everything just run faster\n• How SQL Server 2025 helps you operate more securely\n• Further enhancements to high availability\n• Building event-driven architectures with change event streaming\n\nMaster the benefits of the latest release of SQL Server and how to deploy it in your organization.",
     "source": "meetup",
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:37.499Z",
+    "previousVersion": {
+      "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
+      "date": "2026-07-15T22:00:00.000Z"
+    }
   },
   {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjckbvb/",
-    "date": "2026-07-16T22:30:00.000Z",
+    "date": "2026-07-16T18:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:53.995Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Open Discussion",
+      "date": "2026-07-16T22:30:00.000Z"
+    }
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
     "link": "https://www.meetup.com/issa-hampton-roads/events/rwtwvtyjckbwb/",
-    "date": "2026-07-17T22:00:00.000Z",
+    "date": "2026-07-17T18:00:00.000Z",
     "description": "**Attention Information Security and Cybersecurity Professionals!**\nAre you looking to meet new people who share your interests? Whether you're thinking about entering cybersecurity, have recently entered the field, or are a seasoned professional, we welcome all to join us for an evening of networking, learning, and fun.\n**Why Attend?**\nEnjoy a night out at the cozy and welcoming **Neat Bird** in Chesapeake, where you can connect with like-minded individuals. We love bringing people together to share insights and build lasting connections. Join us for some beers—or not, if that's your preference. Our goal is to help you forge meaningful relationships in the cybersecurity community.\n**About ISSA-HR**\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) hosts social events throughout the region, providing a space for cybersecurity professionals and enthusiasts to get together, share stories, learn new information, and meet new people. With years of cybersecurity expertise, ISSA-HR is committed to promoting the industry and nurturing the next generation of cybersecurity professionals.\n\n**RSVP now and bring a friend!** We look forward to seeing you there!\n\n**Location:** Neat Bird, 565 Belaire Ave, Chesapeake, VA 23320\nTime: **6:00 - 8:00 PM**",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-08T00:30:04.569Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:42.068Z",
+    "previousVersion": {
+      "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
+      "date": "2026-07-17T22:00:00.000Z"
+    }
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjckbcc/",
-    "date": "2026-07-21T22:00:00.000Z",
+    "date": "2026-07-21T18:00:00.000Z",
     "description": "From 6-9pm for a night of networking and fun at The OV Beach Tavern located in Ocean View, Norfolk. Happy hour is till 8pm with fantastic deals, check the 2nd image for details.\n\nConnect with fellow tech enthusiasts, Information Security, and Cybersecurity professionals in a relaxed atmosphere. Share ideas, make new friends, and enjoy delicious drinks and snacks. Don't miss out on this opportunity to expand your professional circle and have a great time!\n\nFree tickets and further details are available at:\nhttps://www.eventbrite.com/e/1980179496178",
     "source": "meetup",
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:43.050Z",
+    "previousVersion": {
+      "title": "Norfolk Cybersecurity Networking & Happy Hour",
+      "date": "2026-07-21T22:00:00.000Z"
+    }
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -553,24 +713,32 @@
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjclbhb/",
-    "date": "2026-08-05T22:30:00.000Z",
+    "date": "2026-08-05T18:30:00.000Z",
     "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-05T06:18:46.708Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:55.014Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Educational",
+      "date": "2026-08-05T22:30:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
     "link": "https://www.meetup.com/aicollectivehr/events/314042753/",
-    "date": "2026-08-07T01:00:00.000Z",
+    "date": "2026-08-06T21:00:00.000Z",
     "description": "Can't sleep? Up late tinkering on a project? Or can't make the usual meetups till the kids are in bed?\n\nLate Night Builders is a monthly hangout for builders, tinkerers, and the generally curious. Developers, designers, AI enthusiasts, entrepreneurs, hobbyists — if you make things or want to start, you'll fit in.\n\nBring something you're working on, pick someone's brain, or just show up for cheap wings and good conversation. No agenda, no presentations, no networking cringe.\n\nAnyone is welcome at any experience level. Bring your laptop, bring a friend, or just bring yourself.\n\n**FAQs**\nIs there free parking? Yes. There is plenty of free parking available at the location.\n\nIs this event free? Yes. Space is limited, so please RSVP and cancel if your plans change.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:52.572Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:24.625Z",
+    "previousVersion": {
+      "title": "🧜‍♀️ AICHR | Late Night Builders",
+      "date": "2026-08-07T01:00:00.000Z"
+    }
   },
   {
     "title": "Late Night Builders",
@@ -586,13 +754,17 @@
   {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjclbbc/",
-    "date": "2026-08-20T22:30:00.000Z",
+    "date": "2026-08-20T18:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:56.007Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Open Discussion",
+      "date": "2026-08-20T22:30:00.000Z"
+    }
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -608,13 +780,17 @@
   {
     "title": "Bitcoin meetup Educational",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/sxrhwtyjcmbdb/",
-    "date": "2026-09-02T22:30:00.000Z",
+    "date": "2026-09-02T18:30:00.000Z",
     "description": "Bitcoin education / presentation / workshop meetup.\n3/4/26 - All Roads Lead To Bitcoin\n2/4/26 - Volatility 2026 ReUp\n12/3/25 - Bitcoin Holidays and Landmark Events: Celebrating the Journey\n11/5/25 - Building a BTC community starter deck\n9/3/25 - When Robots Start Paying Each Other- Machine to Machine Bitcoin Payments\n8/6/25 - The Internet Computer (ICP)- cloud provider, OS, and IDE - A Bitcoin L2 or Shitcoin?\n7/2/25 - Hyperbitcoinization: The Path to Bitcoin as Global Money\n6/4/25 - Bringing Bitcoin to VB\n5/7/25 - Bitcoin is NOT risky\n4/2/25 - Bitcoin Fixes This\n3/5/25 - STOP GIVING YOUR MONEY AWAY!!\n2/5/25 - You Can Hold Bitcoin In A Safe - Bitcoin Self Custody\n1/8/25 - Bitcoin and Goal Setting\n12/4/24 - The Bitcoin Network: Nodes, Miners, Users\n11/6/24 - Your wallet is not a wallet: Understanding bitcoin wallets, keys, addresses and UTXOs\n9/4/24 - Bitcoin through memetic bell curves\n7/3/24 - Hayek\n6/5/24 - Presentation on preparing for, surviving and embracing volatility",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-02T06:28:47.022Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:58.234Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Educational",
+      "date": "2026-09-02T22:30:00.000Z"
+    }
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -641,13 +817,17 @@
   {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjcmbwb/",
-    "date": "2026-09-17T22:30:00.000Z",
+    "date": "2026-09-17T18:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-04-27T06:56:08.532Z"
+    "updatedDate": "2026-04-27T12:34:59.011Z",
+    "previousVersion": {
+      "title": "Bitcoin meetup Open Discussion",
+      "date": "2026-09-17T22:30:00.000Z"
+    }
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
