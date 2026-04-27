@@ -1,0 +1,93 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import CompanyCard from '../components/CompanyCard.astro';
+import Card from '../components/Card.astro';
+import meetups from '../data/meetups-combined.json';
+import companies from '../data/companies.json';
+
+const cyberMeetups = meetups
+  .filter((m) =>
+    (m.tags || []).some((tag) => /cyber|security/i.test(tag))
+  )
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const clearedEmployers = companies
+  .filter((c) => c.hiringClearedTalent)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const otherDefenseEmployers = companies
+  .filter((c) =>
+    !c.hiringClearedTalent && c.industries.includes('defense-cyber')
+  )
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<MainLayout
+  title="Transitioning Military"
+  description="Cyber pathways, training, and employers in Hampton Roads that hire transitioning military and cleared talent."
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Path · Military Transition</span>
+      <h1>From the uniform to the keyboard.</h1>
+      <p>The 757 is a transition city. Naval Station Norfolk anchors a deep ecosystem of cyber operations, defense contractors, and software work that values the experience and clearances you already have.</p>
+      <div class="btn-row">
+        <a href="/companies#defense-cyber" class="btn btn-primary">Defense & cyber companies</a>
+        <a href="/calendar" class="btn btn-ghost">Upcoming events</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {clearedEmployers.length > 0 && (
+      <section class="section">
+        <SectionDivider title="Employers hiring cleared talent" />
+        <div class="grid">
+          {clearedEmployers.map((company) => (
+            <CompanyCard {...company} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {otherDefenseEmployers.length > 0 && (
+      <section class="section">
+        <SectionDivider title="Defense & cyber orgs" />
+        <div class="grid">
+          {otherDefenseEmployers.map((company) => (
+            <CompanyCard {...company} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {cyberMeetups.length > 0 && (
+      <section class="section">
+        <SectionDivider title="Cyber & security meetups" />
+        <p class="section-lead">Local groups — show up, learn the local network, find your next role through people not portals.</p>
+        <div class="grid">
+          {cyberMeetups.map((m) => (
+            <Card title={m.name} href={m.url} image={m.metadata.imageUrl}>
+              {m.metadata.description && <p>{m.metadata.description}</p>}
+            </Card>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="section">
+      <SectionDivider title="Training & education" />
+      <p class="section-lead">
+        Local programs that train cyber and IT skills. See <a href="/learning">/learning</a> for the full list of regional institutions including ODU, TCC, ECPI, and Hampton University.
+      </p>
+    </section>
+  </div>
+</MainLayout>
+
+<style>
+  .section-lead {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+</style>

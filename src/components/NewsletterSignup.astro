@@ -1,53 +1,54 @@
-<form 
-  action="https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true" 
-  method="POST" 
-  enctype="multipart/form-data" 
-  class="bento-formkit" 
-  id="bento-formkit-rnqkblf" 
+<form
+  action="https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true"
+  method="POST"
+  enctype="multipart/form-data"
+  class="bento-formkit"
+  id="bento-formkit-rnqkblf"
   onkeydown="if(event.keyCode === 13) { event.preventDefault(); this.submit(); }"
 >
-  <div class="bento-formkit-headline">Stay Connected with 757tech</div>
-  <div class="bento-formkit-subheader">Get weekly updates on local tech events, special offers for DevFest and RevolutionConf, and volunteer opportunities</div>
+  <div class="bento-formkit-headline">Stay in the loop.</div>
+  <div class="bento-formkit-subheader">Weekly notes on local meetups, conferences, and what's worth showing up for in the 757.</div>
   <input type="hidden" name="redirect" value="https://757tech.org/newsletter-thank-you">
   <div class="bento-formkit-names">
-    <input type="text" name="fields_first_name" class="bento-formkit-input" placeholder="First Name" required/>
-    <input type="text" name="fields_last_name" class="bento-formkit-input" placeholder="Last Name" required/>
+    <input type="text" name="fields_first_name" class="bento-formkit-input" placeholder="First name" required/>
+    <input type="text" name="fields_last_name" class="bento-formkit-input" placeholder="Last name" required/>
   </div>
   <input type="email" name="email" placeholder="Email" class="bento-formkit-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$"/>
   <button type="submit" class="bento-formkit-button">Subscribe</button>
   <div class="bento-formkit-disclosure">
-    By signing up, you agree to our Privacy Policy and Terms of Service. We may send you occasional newsletters and promotional emails about our conferences, events, and supporting partners. You can opt-out at any time.
+    By signing up, you agree to our Privacy Policy and Terms of Service. We may send you occasional newsletters and promotional emails about our conferences, events, and supporting partners. You can opt out any time.
   </div>
 </form>
 
 <style>
   .bento-formkit {
     width: 100%;
-    padding: 2rem;
-    border-radius: 12px;
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    margin-bottom: 2.5rem;
+    padding: 1.75rem;
+    border-radius: var(--radius-lg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    font-family: var(--font-body);
   }
 
   .bento-formkit-headline {
-    font-size: 1.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.375rem;
     font-weight: 700;
-    color: #333;
-    margin-bottom: 0.75rem;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
   }
 
   .bento-formkit-subheader {
-    color: #555;
-    margin-bottom: 1.5rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.25rem;
+    font-size: 0.9375rem;
   }
 
   .bento-formkit-names {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
   }
   .bento-formkit-names .bento-formkit-input {
     flex: 1 1 0;
@@ -56,41 +57,46 @@
 
   .bento-formkit-input {
     width: 100%;
-    padding: 0.75rem 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    padding: 0.7rem 0.9rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    font-family: var(--font-body);
+    background: var(--color-surface);
+    color: var(--color-text);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
   }
 
   .bento-formkit-input:focus {
     outline: none;
-    border-color: #0095FF;
-    box-shadow: 0 0 0 3px rgba(0, 149, 255, 0.15);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.15);
   }
 
   .bento-formkit-button {
     width: 100%;
     padding: 0.75rem 1.25rem;
-    background-color: #0095FF;
+    background-color: var(--color-primary);
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
+    font-family: var(--font-body);
     font-weight: 600;
+    font-size: 0.9375rem;
     cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.1s ease;
+    transition: background-color 0.15s ease;
   }
 
   .bento-formkit-button:hover {
-    background-color: #0095FFee;
-    transform: translateY(-1px);
+    background-color: var(--color-primary-hover);
   }
 
   .bento-formkit-disclosure {
-    font-size: 0.8rem;
-    color: #777;
-    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: var(--color-text-subtle);
+    margin-top: 0.75rem;
+    line-height: 1.5;
   }
 
   @media (max-width: 600px) {
@@ -99,7 +105,7 @@
       gap: 0;
     }
     .bento-formkit-names .bento-formkit-input {
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
   }
-</style> 
+</style>

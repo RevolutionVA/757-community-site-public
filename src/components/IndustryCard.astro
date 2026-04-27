@@ -1,0 +1,81 @@
+---
+interface Props {
+  id: string;
+  name: string;
+  blurb: string;
+  anchorOrgs?: string[];
+}
+
+const { id, name, blurb, anchorOrgs = [] } = Astro.props;
+---
+
+<a href={`/build/${id}`} class="industry-card">
+  <span class="industry-label">// industry</span>
+  <h3>{name}</h3>
+  <p>{blurb}</p>
+  {anchorOrgs.length > 0 && (
+    <p class="industry-anchors">
+      <span class="industry-anchors-label">Anchors:</span> {anchorOrgs.join(" · ")}
+    </p>
+  )}
+  <span class="industry-arrow" aria-hidden="true">→</span>
+</a>
+
+<style>
+  .industry-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    height: 100%;
+  }
+
+  .industry-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-bridges);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+  }
+
+  .industry-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-bridges);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+  }
+
+  .industry-card h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .industry-card p {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .industry-anchors {
+    font-size: 0.8125rem;
+    color: var(--color-text-subtle);
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  .industry-anchors-label {
+    font-family: var(--font-mono);
+    color: var(--color-text-muted);
+  }
+
+  .industry-arrow {
+    margin-top: 0.75rem;
+    color: var(--color-primary);
+    font-size: 1.125rem;
+  }
+</style>

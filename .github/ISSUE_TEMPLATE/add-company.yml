@@ -1,0 +1,122 @@
+name: Add Company / Org
+description: Submit a company or organization to the 757tech directory
+title: "[Company]: "
+labels:
+  - company
+  - needs-review
+  - directory
+assignees:
+  - 1kevgriff
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a company or org to 757tech
+
+        Use this form to submit a company, contractor, hospital, port, agency, nonprofit, or org doing tech work in Hampton Roads. Once reviewed, we'll add it to `src/data/companies.json`.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Full name of the company or organization
+      placeholder: "e.g., Newport News Shipbuilding"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Website URL
+      description: Primary website (must start with https://)
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: What does this org do locally? Keep it short.
+      placeholder: "e.g., Builder of nuclear-powered aircraft carriers and submarines."
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: City or region within Hampton Roads
+      placeholder: "e.g., Norfolk · Virginia Beach · Newport News"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: industries
+    attributes:
+      label: Industries
+      description: Select one or more (must match the industries on /build)
+      options:
+        - label: Defense & Cyber
+        - label: Maritime & Shipbuilding
+        - label: Health Tech
+        - label: Logistics & Port
+        - label: AI / Software
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of entity is this?
+      options:
+        - company (for-profit employer)
+        - org (nonprofit / community)
+        - startup (early-stage builder)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: hiring
+    attributes:
+      label: Currently hiring tech roles?
+      options:
+        - "yes"
+        - "no"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cleared
+    attributes:
+      label: Hires cleared talent?
+      description: Relevant for transitioning military
+      options:
+        - "yes"
+        - "no"
+        - "n/a"
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags (optional)
+      description: Comma-separated keywords
+      placeholder: "shipbuilding, engineering, manufacturing"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: relationship
+    attributes:
+      label: Relationship
+      description: Help us understand who is submitting
+      options:
+        - label: I work at this company / org
+        - label: I'm familiar with their local tech presence
+        - label: Neither — I just think they should be listed
+    validations:
+      required: false

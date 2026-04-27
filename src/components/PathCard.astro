@@ -1,0 +1,99 @@
+---
+interface Props {
+  audience: string;
+  tagline: string;
+  href: string;
+  accent?: "beach" | "bridges" | "battleships" | "primary";
+  label?: string;
+}
+
+const {
+  audience,
+  tagline,
+  href,
+  accent = "primary",
+  label = "Path"
+} = Astro.props;
+---
+
+<a href={href} class={`path-card path-card--${accent}`}>
+  <span class="path-label">// {label}</span>
+  <h3 class="path-audience">{audience}</h3>
+  <p class="path-tagline">{tagline}</p>
+  <span class="path-arrow" aria-hidden="true">→</span>
+</a>
+
+<style>
+  .path-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 180px;
+  }
+
+  .path-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--accent-color, var(--color-primary));
+  }
+
+  .path-card--beach        { --accent-color: var(--color-beach); }
+  .path-card--bridges      { --accent-color: var(--color-bridges); }
+  .path-card--battleships  { --accent-color: var(--color-battleships); }
+  .path-card--primary      { --accent-color: var(--color-primary); }
+
+  .path-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+  }
+
+  .path-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.04em;
+  }
+
+  .path-audience {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .path-tagline {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+
+  .path-arrow {
+    margin-top: auto;
+    padding-top: 1rem;
+    color: var(--accent-color);
+    font-size: 1.25rem;
+    align-self: flex-end;
+    transition: transform 0.15s ease;
+  }
+
+  .path-card:hover .path-arrow {
+    transform: translateX(3px);
+  }
+</style>

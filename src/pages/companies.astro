@@ -1,0 +1,51 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import CompanyCard from '../components/CompanyCard.astro';
+import companies from '../data/companies.json';
+import industries from '../data/industries.json';
+
+const sorted = [...companies].sort((a, b) => a.name.localeCompare(b.name));
+
+const byIndustry = industries.map((industry) => ({
+  id: industry.id,
+  name: industry.name,
+  members: sorted.filter((c) => c.industries.includes(industry.id))
+}));
+
+const hiringCount = sorted.filter((c) => c.hiring).length;
+---
+
+<MainLayout
+  title="Companies"
+  description="A directory of companies and organizations doing tech work in Hampton Roads — defense and cyber, maritime and shipbuilding, health, logistics, AI and software."
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Companies & Orgs</span>
+      <h1>Who's building here.</h1>
+      <p>Companies, contractors, hospitals, ports, and orgs operating in Hampton Roads. {hiringCount} of {sorted.length} are flagged as hiring.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/RevolutionVA/757-community-site-public/issues/new?template=add-company.yml" target="_blank" rel="noopener noreferrer">
+          Add your company
+        </a>
+        <a class="btn btn-ghost" href="/get-involved">Other ways to plug in</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {byIndustry.map((industry) => (
+      industry.members.length > 0 && (
+        <section class="section" id={industry.id}>
+          <SectionDivider title={industry.name} />
+          <div class="grid">
+            {industry.members.map((company) => (
+              <CompanyCard {...company} />
+            ))}
+          </div>
+        </section>
+      )
+    ))}
+  </div>
+</MainLayout>

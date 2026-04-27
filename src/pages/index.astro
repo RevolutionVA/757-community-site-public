@@ -1,145 +1,174 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import StatCard from '../components/StatCard.astro';
 import SectionDivider from '../components/SectionDivider.astro';
+import PathCard from '../components/PathCard.astro';
+import IndustryCard from '../components/IndustryCard.astro';
+import CompanyCard from '../components/CompanyCard.astro';
 import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
+import industries from '../data/industries.json';
+import companies from '../data/companies.json';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const featuredCompanies = [...companies]
+  .filter((c) => c.type === 'company')
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .slice(0, 8);
 ---
 
-<MainLayout 
-	title="Home" 
-	description="757tech connects technology professionals in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
+<MainLayout
+  title="Home"
+  description="757tech is the front door to tech in Hampton Roads — connecting developers, industry, and opportunity across the 757."
 >
-	<div class="hero">
-		<div class="container">
-			<h1>757tech</h1>
-			<p>
-				This site is focused on serving up all the technology (development, design, etc.) goodness that is rooted in Hampton Roads region of Virginia. 
-				For those out of the loop, that includes the following cities: Virginia Beach, Norfolk, Chesapeake, Suffolk, Hampton, Newport News, and Williamsburg.
-			</p>
-		</div>
-	</div>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="mono-label">// 757tech</span>
+        <h1>Front door to tech in Hampton Roads.</h1>
+        <p>Connecting developers, industry, and opportunity across the 757.</p>
+        <p class="hero-tagline">Beach. Bridges. Battleships. This is where 757 tech meets the real world.</p>
+        <div class="btn-row">
+          <a href="#paths" class="btn btn-primary">Explore paths</a>
+          <a href="#happening" class="btn btn-secondary">What's happening</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<div class="container">
-		<section class="section">
-			<SectionDivider title="About our region" />
-			
-			<div class="grid-3">
-				<StatCard 
-					emoji="👩🏽‍💻" 
-					value="40k+" 
-					label="Professionals" 
-				/>
-				<StatCard 
-					emoji="🏖️" 
-					value="200" 
-					label="Beach days / year" 
-				/>
-				<StatCard 
-					emoji="👯" 
-					value="~20" 
-					label="Monthly meetups" 
-				/>
-			</div>
+  <div class="container">
+    <section id="paths" class="section">
+      <SectionDivider title="Choose your path" />
+      <div class="grid-4 paths-grid">
+        <PathCard
+          audience="Developer"
+          tagline="Meetups, communities, and companies hiring engineers across the 757."
+          href="/developers"
+          accent="beach"
+          label="developer"
+        />
+        <PathCard
+          audience="Transitioning Military"
+          tagline="Cyber pathways, training programs, and employers that hire cleared talent."
+          href="/military-transition"
+          accent="battleships"
+          label="military"
+        />
+        <PathCard
+          audience="Hiring / Company"
+          tagline="Get on the directory. Reach builders. Show what you're building here."
+          href="/companies"
+          accent="bridges"
+          label="hiring"
+        />
+        <PathCard
+          audience="Startup / Builder"
+          tagline="Programs, orgs, and events for founders and people shipping new things."
+          href="/startups"
+          accent="primary"
+          label="builder"
+        />
+      </div>
+    </section>
 
-			<div class="grid">
-				<div class="feature-content">
-					<h3>💡 Innovation</h3>
-					<p>
-						Experience the future of technology right here in Hampton Roads. Our community is at the forefront of innovation, 
-						driving solutions that improve daily life in our region. Whether it's smart city initiatives or cutting-edge startups, 
-						we're shaping a more connected and sustainable future for all.
-					</p>
-				</div>
+    <section id="happening" class="section">
+      <SectionDivider title="What's happening" />
+      <div class="happening-grid">
+        <NewsletterSignup />
+        <ThisWeekMeetups />
+      </div>
+    </section>
 
-				<div class="feature-content">
-					<h3>🏖️ Quality of life</h3>
-					<p>
-						At the intersection of technology and lifestyle, we're leveraging innovation to enhance the way we live and work in Hampton Roads. 
-						Discover how local tech advancements are solving real-world problems—from healthcare to transportation—making our area a hub for 
-						both work-life balance and career growth.
-					</p>
-				</div>
+    <section class="section">
+      <SectionDivider title="What's being built" />
+      <p class="section-lead">
+        Tech in the 757 is applied, real-world, and mission-driven. Ships, ports, hospitals, and operations — and the software running through all of it.
+      </p>
+      <div class="grid-3">
+        {industries.map((industry) => (
+          <IndustryCard
+            id={industry.id}
+            name={industry.name}
+            blurb={industry.blurb}
+            anchorOrgs={industry.anchorOrgs}
+          />
+        ))}
+      </div>
+    </section>
 
-				<div class="feature-content">
-					<h3>🌎 Community-centered solutions</h3>
-					<p>
-						Our community thrives on creating tech that directly impacts the well-being of our region. Join us in crafting solutions that 
-						improve local services, foster economic growth, and elevate Hampton Roads as a leader in smart living and innovation. 
-						Together, we're building a brighter, tech-driven future.
-					</p>
-				</div>
-			</div>
-		</section>
+    <section class="section">
+      <SectionDivider title="Who's building here" />
+      <p class="section-lead">
+        A starting list of companies and orgs operating in Hampton Roads. <a href="/companies">View the full directory →</a>
+      </p>
+      <div class="grid">
+        {featuredCompanies.map((company) => (
+          <CompanyCard {...company} />
+        ))}
+      </div>
+    </section>
 
-		<section class="section">
-			<SectionDivider title="Meetups This Week" />
-			<NewsletterSignup />
-			<ThisWeekMeetups />
-		</section>
-
-		<KeepSurfing />
-
-		<section class="section">
-			<SectionDivider title="Want to make your mark?" />
-			
-			<div class="get-involved">
-				<p>
-					Whether it's getting involved with a local meetup group, online community, or starting something up yourself, 
-					the 757 needs you to make it a better, cooler place to be.
-				</p>
-				<a href="/get-involved" class="cta-button">Get involved</a>
-			</div>
-		</section>
-	</div>
+    <section class="section get-involved-section">
+      <SectionDivider title="Get involved" />
+      <div class="get-involved">
+        <p>
+          Run a meetup, speak at a conference, mentor someone, or just show up. The 757 is built by the people who keep showing up.
+        </p>
+        <a href="/get-involved" class="btn btn-primary">Find your way in</a>
+      </div>
+    </section>
+  </div>
 </MainLayout>
 
 <style>
-	.feature-content {
-		background-color: #fff;
-		padding: 1.5rem;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
+  .hero-grid {
+    display: grid;
+    gap: var(--space-lg);
+  }
 
-	.newsletter-container {
-		max-width: 600px;
-		margin: 0 auto;
-	}
+  .hero-copy {
+    max-width: 60ch;
+  }
 
-	.feature-content h3 {
-		margin-top: 0;
-		color: #0077cc;
-	}
+  .hero .mono-label {
+    margin-bottom: var(--space-sm);
+    display: inline-block;
+  }
 
-	.get-involved {
-		text-align: center;
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-		background-color: #fff;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
+  .section-lead {
+    color: var(--color-text-muted);
+    max-width: 70ch;
+    margin-bottom: var(--space-md);
+    font-size: 1.0625rem;
+  }
 
-	.cta-button {
-		display: inline-block;
-		background-color: #0077cc;
-		color: white;
-		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
-		font-weight: bold;
-		text-decoration: none;
-		transition: background-color 0.2s ease;
-	}
+  .happening-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+    gap: var(--space-md);
+    align-items: start;
+  }
 
-	.cta-button:hover {
-		background-color: #005fa3;
-		text-decoration: none;
-	}
+  @media (max-width: 900px) {
+    .happening-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .paths-grid {
+    margin-bottom: var(--space-md);
+  }
+
+  .get-involved {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: var(--space-xl);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+  }
+
+  .get-involved p {
+    color: var(--color-text-muted);
+    font-size: 1.0625rem;
+  }
 </style>

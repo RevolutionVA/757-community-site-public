@@ -1,4 +1,57 @@
-/* Reset and base styles */
+/* ================================================================
+   757tech — Brand tokens
+   ================================================================ */
+:root {
+  /* Surface */
+  --color-bg: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F1F3F5;
+  --color-surface-dark: #0F1B2D;
+  --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+
+  /* Text */
+  --color-text: #0F1B2D;
+  --color-text-muted: #475569;
+  --color-text-subtle: #64748B;
+  --color-text-inverse: #F7F7F5;
+
+  /* Brand */
+  --color-primary: #0077CC;
+  --color-primary-hover: #005FA3;
+  --color-beach: #38BDF8;
+  --color-bridges: #475569;
+  --color-battleships: #0F1B2D;
+  --color-accent: #F59E0B;
+
+  /* Type */
+  --font-heading: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 27, 45, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 27, 45, 0.08);
+  --shadow-lg: 0 12px 32px rgba(15, 27, 45, 0.12);
+
+  --container: 1200px;
+}
+
+/* ================================================================
+   Reset
+   ================================================================ */
 * {
   margin: 0;
   padding: 0;
@@ -6,76 +59,43 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--font-body);
+  font-feature-settings: "ss01", "cv11";
   line-height: 1.6;
-  color: #333;
-  background-color: #f8f9fa;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: var(--container);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 var(--space-md);
 }
 
-/* Header styles */
-.site-header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
-}
-
-.site-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #0077cc;
-  text-decoration: none;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-nav a:hover {
-  color: #0077cc;
-}
-
-/* Main content styles */
-main {
-  padding: 2rem 0;
-}
-
+/* ================================================================
+   Typography
+   ================================================================ */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
-  line-height: 1.2;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text);
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-top: 0;
-}
+h1 { font-size: clamp(2.25rem, 4vw + 1rem, 3.5rem); margin-top: 0; }
+h2 { font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem); }
+h3 { font-size: 1.25rem; }
 
 p {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-md);
 }
 
 a {
-  color: #0077cc;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -83,37 +103,163 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Grid layouts */
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-beach);
+  text-transform: none;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  margin-bottom: var(--space-sm);
+  display: inline-block;
+}
+
+/* ================================================================
+   Header
+   ================================================================ */
+.site-header {
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(160%) blur(8px);
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  transition: color 0.15s ease;
+}
+
+nav a:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+nav a.nav-icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  font-size: 0.8125rem;
+}
+
+nav a.nav-icon-link:hover {
+  border-color: var(--color-border-strong);
+  color: var(--color-text);
+}
+
+/* ================================================================
+   Main
+   ================================================================ */
+main {
+  padding: 0 0 var(--space-2xl);
+}
+
+/* ================================================================
+   Grids
+   ================================================================ */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: var(--space-md);
 }
 
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: var(--space-md);
 }
 
-/* Footer styles */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+/* ================================================================
+   Footer
+   ================================================================ */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 2rem 0;
-  margin-top: 3rem;
+  background-color: var(--color-surface-dark);
+  color: var(--color-text-inverse);
+  padding: var(--space-xl) 0;
+  margin-top: var(--space-2xl);
+  font-size: 0.9375rem;
 }
 
 footer a {
-  color: #fff;
+  color: var(--color-text-inverse);
   text-decoration: underline;
+  text-decoration-color: rgba(247, 247, 245, 0.4);
+  text-underline-offset: 3px;
+}
+
+footer a:hover {
+  text-decoration-color: var(--color-beach);
+  color: var(--color-beach);
+}
+
+footer p + p {
+  margin-top: var(--space-sm);
+}
+
+.footer-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-beach);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-md);
 }
 
 .github-icon {
@@ -126,54 +272,180 @@ footer a:hover .github-icon {
   transition: transform 0.2s ease;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .site-header .container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .grid-2, .grid-3 {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Hero section */
+/* ================================================================
+   Hero
+   ================================================================ */
 .hero {
-  background-color: #0077cc;
-  color: white;
-  padding: 3rem 0;
-  margin-bottom: 2rem;
+  background-color: var(--color-surface-dark);
+  background-image:
+    radial-gradient(1200px 400px at 85% -10%, rgba(56, 189, 248, 0.18), transparent 60%),
+    radial-gradient(800px 300px at 5% 110%, rgba(56, 189, 248, 0.08), transparent 60%);
+  color: var(--color-text-inverse);
+  padding: var(--space-2xl) 0;
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  color: var(--color-text-inverse);
+  margin-bottom: var(--space-md);
+  max-width: 22ch;
 }
 
 .hero p {
-  font-size: 1.25rem;
-  max-width: 800px;
+  font-size: 1.125rem;
+  color: rgba(247, 247, 245, 0.82);
+  max-width: 56ch;
+  margin-bottom: var(--space-md);
 }
 
-/* Section styles */
+.hero p.hero-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+  color: var(--color-beach);
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-lg);
+}
+
+/* Sub-page hero variant — lighter, structural */
+.hero--sub {
+  background-color: var(--color-surface);
+  background-image: none;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-xl) 0;
+}
+
+.hero--sub h1 {
+  color: var(--color-text);
+}
+
+.hero--sub p {
+  color: var(--color-text-muted);
+}
+
+/* ================================================================
+   Sections
+   ================================================================ */
 .section {
-  margin-bottom: 3rem;
+  margin-bottom: var(--space-2xl);
 }
 
 .section-title {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #333;
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
 }
 
-/* Feature section */
-.features {
-  margin: 3rem 0;
-} 
+/* ================================================================
+   Buttons
+   ================================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-text-inverse);
+  border-color: rgba(247, 247, 245, 0.3);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-beach);
+  color: var(--color-beach);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.btn-ghost:hover {
+  border-color: var(--color-border-strong);
+  background-color: var(--color-surface-alt);
+}
+
+.btn-row {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+/* ================================================================
+   Hiring badge
+   ================================================================ */
+.hiring-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background-color: rgba(245, 158, 11, 0.12);
+  color: #B45309;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.hiring-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+/* ================================================================
+   Responsive
+   ================================================================ */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-sm);
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: var(--space-xl) 0;
+  }
+}

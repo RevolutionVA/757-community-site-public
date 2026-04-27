@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Industries",
+  "description": "Schema for industry segments on 757tech",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "blurb"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$",
+        "description": "URL-safe slug used in /build/[industry] routes"
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name"
+      },
+      "blurb": {
+        "type": "string",
+        "description": "One-paragraph description of the industry's role in the 757"
+      },
+      "anchorOrgs": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Notable organizations that anchor this industry locally"
+      },
+      "tagMatches": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Meetup tags to match for related-events filtering"
+      }
+    },
+    "additionalProperties": false
+  }
+}

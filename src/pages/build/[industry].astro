@@ -1,0 +1,111 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import SectionDivider from '../../components/SectionDivider.astro';
+import CompanyCard from '../../components/CompanyCard.astro';
+import Card from '../../components/Card.astro';
+import industries from '../../data/industries.json';
+import companies from '../../data/companies.json';
+import meetups from '../../data/meetups-combined.json';
+
+export async function getStaticPaths() {
+  const industries = (await import('../../data/industries.json')).default;
+  return industries.map((industry) => ({
+    params: { industry: industry.id },
+    props: { industry }
+  }));
+}
+
+const { industry } = Astro.props;
+
+const relatedCompanies = companies
+  .filter((c) => c.industries.includes(industry.id))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const tagSet = new Set((industry.tagMatches || []).map((t) => t.toLowerCase()));
+const relatedMeetups = tagSet.size > 0
+  ? meetups.filter((m) => (m.tags || []).some((tag) => tagSet.has(tag.toLowerCase())))
+  : [];
+---
+
+<MainLayout
+  title={industry.name}
+  description={`${industry.name} in the 757 — ${industry.blurb}`}
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Industry</span>
+      <h1>{industry.name}</h1>
+      <p>{industry.blurb}</p>
+      {industry.anchorOrgs.length > 0 && (
+        <p class="anchors-line">
+          <span class="mono-inline">Anchored by</span> {industry.anchorOrgs.join(" · ")}
+        </p>
+      )}
+      <div class="btn-row">
+        <a href="/build" class="btn btn-ghost">All industries</a>
+        <a href="/companies" class="btn btn-ghost">Full directory</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {relatedCompanies.length > 0 && (
+      <section class="section">
+        <SectionDivider title="Who's working in this space" />
+        <div class="grid">
+          {relatedCompanies.map((company) => (
+            <CompanyCard {...company} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedMeetups.length > 0 && (
+      <section class="section">
+        <SectionDivider title="Related meetups" />
+        <p class="section-lead">Meetup groups whose tags overlap with {industry.name}.</p>
+        <div class="grid">
+          {relatedMeetups.map((meetup) => (
+            <Card title={meetup.name} href={meetup.url} image={meetup.metadata.imageUrl}>
+              {meetup.metadata.description && <p>{meetup.metadata.description}</p>}
+              <p class="meetup-tags">{(meetup.tags || []).join(" · ")}</p>
+            </Card>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedCompanies.length === 0 && relatedMeetups.length === 0 && (
+      <section class="section">
+        <p class="section-lead">
+          We're still building out the {industry.name} listing. <a href="https://github.com/RevolutionVA/757-community-site-public/issues/new?template=add-company.yml" target="_blank" rel="noopener noreferrer">Submit a company</a> if you know one we should include.
+        </p>
+      </section>
+    )}
+  </div>
+</MainLayout>
+
+<style>
+  .anchors-line {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+  }
+
+  .mono-inline {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--color-text-subtle);
+  }
+
+  .section-lead {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .meetup-tags {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-text-subtle);
+    margin-bottom: 0;
+  }
+</style>

@@ -1,0 +1,33 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import IndustryCard from '../../components/IndustryCard.astro';
+import industries from '../../data/industries.json';
+---
+
+<MainLayout
+  title="Build"
+  description="What's being built in the 757 — defense and cyber, maritime, health, logistics, and software. Real systems, real industries, real work."
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Industries</span>
+      <h1>What's being built.</h1>
+      <p>Tech in Hampton Roads is applied. Ships, ports, hospitals, defense systems — and the software running through all of them. Pick an industry to see the orgs and meetups working in it.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="section">
+      <div class="grid-3">
+        {industries.map((industry) => (
+          <IndustryCard
+            id={industry.id}
+            name={industry.name}
+            blurb={industry.blurb}
+            anchorOrgs={industry.anchorOrgs}
+          />
+        ))}
+      </div>
+    </section>
+  </div>
+</MainLayout>

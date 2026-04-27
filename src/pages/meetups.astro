@@ -58,21 +58,22 @@ const hideTitle = false;
   title="Meetups" 
   description="Discover technology meetups in Hampton Roads, Virginia. Connect with local developers, designers, and tech enthusiasts through regular events in Virginia Beach, Norfolk, and surrounding areas."
 >
-  <div class="hero">
+  <section class="hero hero--sub">
     <div class="container">
-      <h1>Meetups</h1>
-      <p>Connect with the local tech community through these regular meetups in the Hampton Roads area.</p>
+      <span class="eyebrow">Meetups</span>
+      <h1>Local meetup groups.</h1>
+      <p>The recurring rooms where the work gets shared. Show up to one this month — that's how you actually plug in.</p>
       <p class="data-note">
-        Want to add or update a meetup? Check out our 
+        Want to add or update a meetup? Check out our
         <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/meetups.json" target="_blank" rel="noopener noreferrer">
           meetups data file
         </a>.
       </p>
       <p class="calendar-link">
-        <a href="/calendar" class="btn btn-primary">View Upcoming Events Calendar</a>
+        <a href="/calendar" class="btn btn-primary">View upcoming events</a>
       </p>
     </div>
-  </div>
+  </section>
 
   <div class="container">
     <section class="section">
@@ -186,10 +187,10 @@ const hideTitle = false;
           href="/learning" 
           image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
         />
-        <FeatureCard 
-          title="Work" 
-          href="/work" 
-          image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" 
+        <FeatureCard
+          title="Companies"
+          href="/companies"
+          image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
         />
       </div>
     </section>
@@ -200,26 +201,28 @@ const hideTitle = false;
   .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
     margin-top: 0.5rem;
   }
 
   .tag {
-    background-color: #e9ecef;
-    color: #495057;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.875rem;
+    background-color: var(--color-surface-alt);
+    color: var(--color-text-muted);
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius-pill);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    border: 1px solid var(--color-border);
   }
 
   .data-note {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-text-muted);
   }
 
   .data-note a {
-    color: white;
+    color: var(--color-primary);
     text-decoration: underline;
   }
 
@@ -229,33 +232,5 @@ const hideTitle = false;
 
   .calendar-link {
     margin-top: 1.5rem;
-  }
-
-  .btn {
-    display: inline-block;
-    font-weight: 500;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    text-decoration: none;
-  }
-
-  .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
   }
 </style> 

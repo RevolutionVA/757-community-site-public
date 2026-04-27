@@ -1,0 +1,37 @@
+[
+  {
+    "id": "defense-cyber",
+    "name": "Defense & Cyber",
+    "blurb": "Naval Station Norfolk, the largest naval base in the world, anchors a deep ecosystem of defense contractors, cleared talent, and cyber operations across the 757.",
+    "anchorOrgs": ["Naval Station Norfolk", "Newport News Shipbuilding"],
+    "tagMatches": ["Cyber Security", "Security"]
+  },
+  {
+    "id": "maritime",
+    "name": "Maritime & Shipbuilding",
+    "blurb": "Newport News Shipbuilding builds nuclear carriers and submarines here. Shipyards, marine systems, and port logistics ship real steel — not just code.",
+    "anchorOrgs": ["Newport News Shipbuilding", "The Port of Virginia"],
+    "tagMatches": []
+  },
+  {
+    "id": "health",
+    "name": "Health Tech",
+    "blurb": "Sentara Health, LifeNet Health, and a network of regional hospitals run software for clinical operations, regenerative medicine, and population health.",
+    "anchorOrgs": ["Sentara Health", "LifeNet Health"],
+    "tagMatches": []
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics & Port",
+    "blurb": "The Port of Virginia is one of the busiest ports on the East Coast. Supply chain, trucking, and intermodal tech move containers through here every day.",
+    "anchorOrgs": ["The Port of Virginia"],
+    "tagMatches": []
+  },
+  {
+    "id": "ai-software",
+    "name": "AI / Software",
+    "blurb": "Local software houses, .NET shops, and AI/ML communities build products and services that ship from the 757 to clients across the country.",
+    "anchorOrgs": [],
+    "tagMatches": ["AI", "Artificial Intelligence", ".NET", "DevOps", "Web Development", "Mobile Development"]
+  }
+]

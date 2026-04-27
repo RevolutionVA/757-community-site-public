@@ -1,0 +1,51 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import CompanyCard from '../components/CompanyCard.astro';
+import companies from '../data/companies.json';
+
+const orgs = companies
+  .filter((c) => c.type === 'org' || c.type === 'startup')
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<MainLayout
+  title="Startups & Builders"
+  description="Programs, orgs, and resources for founders and people building new things in Hampton Roads."
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Path · Startup / Builder</span>
+      <h1>Building something new in the 757.</h1>
+      <p>Programs, orgs, and resources for founders and people shipping new things. The 757 is small enough that you can meet everyone, big enough that the work matters.</p>
+      <div class="btn-row">
+        <a href="/calendar" class="btn btn-primary">Upcoming events</a>
+        <a href="/communities" class="btn btn-ghost">Communities</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="section">
+      <SectionDivider title="Programs & orgs" />
+      <div class="grid">
+        {orgs.map((org) => (
+          <CompanyCard {...org} />
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <SectionDivider title="Submit a program" />
+      <p class="section-lead">
+        Running a program for founders or builders in Hampton Roads? <a href="https://github.com/RevolutionVA/757-community-site-public/issues/new?template=add-company.yml" target="_blank" rel="noopener noreferrer">Open an issue</a> with the details and we'll add it.
+      </p>
+    </section>
+  </div>
+</MainLayout>
+
+<style>
+  .section-lead {
+    color: var(--color-text-muted);
+  }
+</style>

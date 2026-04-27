@@ -53,6 +53,20 @@
           }
         },
         "additionalProperties": false
+      },
+      "industries": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "defense-cyber",
+            "maritime",
+            "health",
+            "logistics",
+            "ai-software"
+          ]
+        },
+        "description": "Optional industry ids matching src/data/industries.json"
       }
     },
     "additionalProperties": false

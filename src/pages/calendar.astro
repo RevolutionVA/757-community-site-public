@@ -127,18 +127,19 @@ function findMeetupUrl(groupName: string): string | null {
   title="Calendar" 
   description="Stay updated with tech events in Hampton Roads, Virginia. View our comprehensive calendar of meetups, conferences, and workshops for developers, designers, and tech enthusiasts in Virginia Beach, Norfolk, and surrounding areas."
 >
-  <div class="hero">
+  <section class="hero hero--sub">
     <div class="container">
-      <h1>Calendar</h1>
-      <p>Upcoming tech events and meetups in the Hampton Roads area for the next six months.</p>
+      <span class="eyebrow">Events</span>
+      <h1>What's happening in the 757.</h1>
+      <p>Upcoming tech events and meetups in Hampton Roads for the next six months.</p>
       <p class="data-note">
-        Want to add or update an event? Check out our 
+        Want to add or update an event? Check out our
         <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/calendar-events.json" target="_blank" rel="noopener noreferrer">
           calendar events data file
         </a>.
       </p>
     </div>
-  </div>
+  </section>
 
   <div class="container">
     <NewsletterSignup />
@@ -357,12 +358,12 @@ function findMeetupUrl(groupName: string): string | null {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #f8f9fa;
+    background-color: var(--color-surface-alt);
     border-radius: 8px 8px 0 0;
   }
 
   .month-heading {
-    background-color: #f8f9fa;
+    background-color: var(--color-surface-alt);
     padding: 1rem;
     margin: 0;
     font-size: 1.5rem;
@@ -384,7 +385,7 @@ function findMeetupUrl(groupName: string): string | null {
     gap: 1rem;
     padding: 1rem;
     border-radius: 4px;
-    background-color: #f8f9fa;
+    background-color: var(--color-surface-alt);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
@@ -550,13 +551,13 @@ function findMeetupUrl(groupName: string): string | null {
   }
 
   .data-note {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--color-text-muted);
   }
 
   .data-note a {
-    color: white;
+    color: var(--color-primary);
     text-decoration: underline;
   }
 
@@ -583,7 +584,7 @@ function findMeetupUrl(groupName: string): string | null {
 
   .featured-event {
     border-left: 4px solid #007bff;
-    background-color: #f8f9fa;
+    background-color: var(--color-surface-alt);
   }
 
   .featured-event .event-title a {

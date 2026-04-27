@@ -1,0 +1,69 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import CompanyCard from '../components/CompanyCard.astro';
+import Card from '../components/Card.astro';
+import meetups from '../data/meetups-combined.json';
+import companies from '../data/companies.json';
+
+const meetupCategories = ['Development', 'Cloud', 'Technology', 'Design'];
+const meetupsByCategory = meetupCategories.map((cat) => ({
+  name: cat,
+  groups: meetups.filter((m) => m.category === cat).sort((a, b) => a.name.localeCompare(b.name))
+}));
+
+const hiringCompanies = companies
+  .filter((c) => c.type === 'company' && c.hiring)
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<MainLayout
+  title="For Developers"
+  description="Developer paths in the 757 — meetups across development, cloud, technology, and design plus companies hiring engineers in Hampton Roads."
+>
+  <section class="hero hero--sub">
+    <div class="container">
+      <span class="eyebrow">Path · Developer</span>
+      <h1>Built by developers, for developers.</h1>
+      <p>Meetups, communities, and companies hiring engineers across Hampton Roads. Whether you're senior, mid, or just shipping side projects on weekends, this is where you plug in.</p>
+      <div class="btn-row">
+        <a href="/calendar" class="btn btn-primary">See upcoming events</a>
+        <a href="/communities" class="btn btn-ghost">Slack & Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {meetupsByCategory.map((cat) => (
+      cat.groups.length > 0 && (
+        <section class="section">
+          <SectionDivider title={`Meetups · ${cat.name}`} />
+          <div class="grid">
+            {cat.groups.map((m) => (
+              <Card title={m.name} href={m.url} image={m.metadata.imageUrl}>
+                {m.metadata.description && <p>{m.metadata.description}</p>}
+              </Card>
+            ))}
+          </div>
+        </section>
+      )
+    ))}
+
+    <section class="section">
+      <SectionDivider title="Companies hiring in the 757" />
+      <p class="section-lead">A starting list. <a href="/companies">See the full directory →</a></p>
+      <div class="grid">
+        {hiringCompanies.map((company) => (
+          <CompanyCard {...company} />
+        ))}
+      </div>
+    </section>
+  </div>
+</MainLayout>
+
+<style>
+  .section-lead {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+</style>

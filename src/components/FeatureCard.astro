@@ -19,16 +19,18 @@ const { title, href, image } = Astro.props;
 
 <style>
   .feature-card {
-    background-color: #f8f9fa;
-    border-radius: 8px;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
     margin-bottom: 1.5rem;
   }
 
   .feature-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
+    border-color: var(--color-border-strong);
+    box-shadow: var(--shadow-md);
   }
 
   .image-container {
@@ -44,14 +46,15 @@ const { title, href, image } = Astro.props;
   }
 
   .feature-card:hover img {
-    transform: scale(1.05);
+    transform: scale(1.04);
   }
 
   .feature-card h3 {
     padding: 1rem;
     margin: 0;
     text-align: center;
-    color: #333;
+    color: var(--color-text);
+    font-size: 1.0625rem;
   }
 
   .feature-card a {
@@ -59,4 +62,8 @@ const { title, href, image } = Astro.props;
     color: inherit;
     display: block;
   }
-</style> 
+
+  .feature-card a:hover {
+    text-decoration: none;
+  }
+</style>

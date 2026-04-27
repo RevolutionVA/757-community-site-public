@@ -1,7 +1,6 @@
 ---
 import calendarEvents from '../data/calendar-events.json';
 
-// Define types for our events
 interface CalendarEvent {
   title: string;
   link: string;
@@ -14,15 +13,12 @@ interface CalendarEvent {
   updatedDate?: string;
 }
 
-// Get today's date and set to beginning of day
 const today = new Date();
 today.setHours(0, 0, 0, 0);
 
-// Get date 7 days from now
 const oneWeekFromNow = new Date(today);
 oneWeekFromNow.setDate(today.getDate() + 7);
 
-// Filter events to include all featured events and non-featured events from next 7 days
 const thisWeekEvents = calendarEvents
   .filter((event: CalendarEvent) => {
     const eventDate = new Date(event.date);
@@ -30,25 +26,22 @@ const thisWeekEvents = calendarEvents
     return isFeatured || (eventDate >= today && eventDate <= oneWeekFromNow);
   })
   .sort((a: CalendarEvent, b: CalendarEvent) => {
-    // First sort by featured status (featured events first)
     const aFeatured = (a as any).featuredEvent === true;
     const bFeatured = (b as any).featuredEvent === true;
-    
+
     if (aFeatured && !bFeatured) return -1;
     if (!aFeatured && bFeatured) return 1;
-    
-    // Then sort by date
+
     return new Date(a.date).getTime() - new Date(b.date).getTime();
   });
 
-// Format date to display day and time
 function formatEventDate(dateString: string) {
   const date = new Date(dateString);
   const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'America/New_York' });
   const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'America/New_York' });
   const dayOfMonth = date.toLocaleDateString('en-US', { day: 'numeric', timeZone: 'America/New_York' });
-  const time = date.toLocaleTimeString('en-US', { 
-    hour: 'numeric', 
+  const time = date.toLocaleTimeString('en-US', {
+    hour: 'numeric',
     minute: '2-digit',
     timeZone: 'America/New_York'
   });
@@ -58,7 +51,7 @@ function formatEventDate(dateString: string) {
 
 <div class="this-week-meetups">
   <h3>Upcoming Meetups</h3>
-  
+
   {thisWeekEvents.length > 0 ? (
     <ul class="event-list">
       {thisWeekEvents.map((event) => {
@@ -80,7 +73,7 @@ function formatEventDate(dateString: string) {
   ) : (
     <p class="no-events">No meetups scheduled for this week.</p>
   )}
-  
+
   <div class="view-all">
     <a href="/calendar" class="view-all-link">View all upcoming events →</a>
   </div>
@@ -88,16 +81,17 @@ function formatEventDate(dateString: string) {
 
 <style>
   .this-week-meetups {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    padding: 1.75rem;
+    border-radius: var(--radius-lg);
   }
 
   .this-week-meetups h3 {
     margin-top: 0;
-    color: #0077cc;
+    color: var(--color-text);
     margin-bottom: 1rem;
+    font-size: 1.25rem;
   }
 
   .event-list {
@@ -110,7 +104,7 @@ function formatEventDate(dateString: string) {
     display: flex;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--color-border);
     flex-wrap: wrap;
     position: relative;
   }
@@ -122,30 +116,33 @@ function formatEventDate(dateString: string) {
   }
 
   .featured-event {
-    background-color: #f8f9fa;
-    border-left: 4px solid #0077cc;
-    padding-left: 1rem;
+    background-color: var(--color-surface-alt);
+    border-left: 3px solid var(--color-beach);
+    padding: 0.75rem 1rem;
     margin-left: -1rem;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   }
 
   .featured-badge {
     position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #0077cc;
-    color: white;
-    font-size: 0.7rem;
-    font-weight: bold;
-    padding: 2px 6px;
-    border-radius: 4px;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--color-beach);
+    color: var(--color-surface-dark);
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
     text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .event-date {
     flex: 0 0 auto;
-    font-weight: bold;
-    color: #555;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
     white-space: nowrap;
     margin-right: 1rem;
     min-width: 180px;
@@ -158,23 +155,25 @@ function formatEventDate(dateString: string) {
 
   .event-title {
     display: block;
-    font-weight: bold;
-    color: #0077cc;
+    font-weight: 600;
+    color: var(--color-text);
     text-decoration: none;
     margin-bottom: 0.25rem;
+    font-size: 0.9375rem;
   }
 
   .event-title:hover {
+    color: var(--color-primary);
     text-decoration: underline;
   }
 
   .event-group {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 0.8125rem;
+    color: var(--color-text-subtle);
   }
 
   .no-events {
-    color: #666;
+    color: var(--color-text-muted);
     font-style: italic;
   }
 
@@ -184,16 +183,16 @@ function formatEventDate(dateString: string) {
   }
 
   .view-all-link {
-    color: #0077cc;
+    color: var(--color-primary);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 0.9375rem;
   }
 
   .view-all-link:hover {
     text-decoration: underline;
   }
 
-  /* Mobile styles */
   @media (max-width: 768px) {
     .event-item {
       flex-direction: column;
@@ -209,7 +208,7 @@ function formatEventDate(dateString: string) {
     .event-details {
       flex: 1 0 100%;
     }
-    
+
     .featured-badge {
       position: static;
       display: inline-block;
@@ -217,10 +216,9 @@ function formatEventDate(dateString: string) {
     }
   }
 
-  /* Medium screens */
   @media (min-width: 769px) and (max-width: 1024px) {
     .event-date {
       min-width: 160px;
     }
   }
-</style> 
+</style>

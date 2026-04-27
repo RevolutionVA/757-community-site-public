@@ -6,6 +6,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   output: 'static',
   site: 'https://757tech.org',
+  redirects: {
+    '/work': '/companies'
+  },
   integrations: [
     sitemap({
       // Configuration options

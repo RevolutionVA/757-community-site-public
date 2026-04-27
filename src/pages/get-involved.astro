@@ -8,12 +8,13 @@ import NewsletterSignup from '../components/NewsletterSignup.astro';
 ---
 
 <MainLayout title="Get Involved">
-  <div class="hero">
+  <section class="hero hero--sub">
     <div class="container">
-      <h1>Get Involved</h1>
-      <p>There are many ways to get involved with the tech community in Hampton Roads. Here are some ideas to get you started.</p>
+      <span class="eyebrow">Get Involved</span>
+      <h1>Show up. Speak up. Build with us.</h1>
+      <p>The 757 is built by people who keep showing up. Here's how you can plug in — meetups, mentoring, speaking, organizing, or just supporting the orgs doing the work.</p>
     </div>
-  </div>
+  </section>
 
   <div class="container">
     <section class="section">
@@ -94,11 +95,11 @@ import NewsletterSignup from '../components/NewsletterSignup.astro';
 
 <style>
   .content-box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .newsletter-container {
@@ -107,7 +108,7 @@ import NewsletterSignup from '../components/NewsletterSignup.astro';
   }
 
   .content-box h2 {
-    color: #0077cc;
+    color: var(--color-text);
     margin-top: 0;
   }
 

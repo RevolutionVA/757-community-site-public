@@ -1,0 +1,164 @@
+[
+  {
+    "name": "757 Collab",
+    "url": "https://www.757collab.com/",
+    "description": "Regional collaborative for entrepreneurs and startup builders.",
+    "location": "Hampton Roads",
+    "industries": ["ai-software"],
+    "type": "org",
+    "hiring": false,
+    "tags": ["startups", "community"]
+  },
+  {
+    "name": "Decisions",
+    "url": "https://decisions.com/",
+    "description": "No-code, rules-driven platform for business process automation.",
+    "location": "Virginia Beach",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["no-code", "automation", "platform"]
+  },
+  {
+    "name": "Dominion Enterprises",
+    "url": "https://www.dominionenterprises.com/",
+    "description": "Media and information services company with a long-running tech presence in Norfolk.",
+    "location": "Norfolk",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["media", "platform"]
+  },
+  {
+    "name": "Issuetrak",
+    "url": "https://www.issuetrak.com/",
+    "description": "Software company providing issue tracking and process management solutions.",
+    "location": "Virginia Beach",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["saas", "issue-tracking"]
+  },
+  {
+    "name": "LifeNet Health",
+    "url": "https://www.lifenethealth.org/",
+    "description": "Non-profit global leader in regenerative medicine.",
+    "location": "Virginia Beach",
+    "industries": ["health"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["healthcare", "biotech"]
+  },
+  {
+    "name": "Marathon Consulting",
+    "url": "https://www.marathonus.com/",
+    "description": "IT consulting firm specializing in custom software development.",
+    "location": "Virginia Beach",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["consulting", "custom-software"]
+  },
+  {
+    "name": "MAXX Potential",
+    "url": "https://maxxpotential.com/",
+    "description": "IT apprenticeship and staffing company providing tech talent solutions.",
+    "location": "Norfolk & Richmond",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["apprenticeship", "staffing"]
+  },
+  {
+    "name": "Naval Station Norfolk",
+    "url": "https://www.cnic.navy.mil/regions/cnrma/installations/ns_norfolk.html",
+    "description": "The largest naval base in the world; anchor of defense and cyber work in Hampton Roads.",
+    "location": "Norfolk",
+    "industries": ["defense-cyber"],
+    "type": "company",
+    "hiring": true,
+    "hiringClearedTalent": true,
+    "tags": ["navy", "defense"]
+  },
+  {
+    "name": "Newport News Shipbuilding",
+    "url": "https://nns.huntingtoningalls.com/",
+    "description": "Designer and builder of nuclear-powered aircraft carriers and submarines for the U.S. Navy.",
+    "location": "Newport News",
+    "industries": ["maritime", "defense-cyber"],
+    "type": "company",
+    "hiring": true,
+    "hiringClearedTalent": true,
+    "tags": ["shipbuilding", "engineering", "manufacturing"]
+  },
+  {
+    "name": "REaKTOR",
+    "url": "https://www.reaktor757.com/",
+    "description": "Innovation and entrepreneurship hub serving builders across the 757.",
+    "location": "Hampton Roads",
+    "industries": ["ai-software"],
+    "type": "org",
+    "hiring": false,
+    "tags": ["startups", "innovation"]
+  },
+  {
+    "name": "Sentara Health",
+    "url": "https://www.sentara.com/",
+    "description": "Integrated, not-for-profit health system serving Virginia and northeastern North Carolina.",
+    "location": "Norfolk",
+    "industries": ["health"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["healthcare", "hospital-system"]
+  },
+  {
+    "name": "Start Peninsula",
+    "url": "https://startpeninsula.com/",
+    "description": "Resources and programming for founders building on the Peninsula side of the 757.",
+    "location": "Newport News",
+    "industries": ["ai-software"],
+    "type": "org",
+    "hiring": false,
+    "tags": ["startups", "founders"]
+  },
+  {
+    "name": "STIHL Inc.",
+    "url": "https://www.stihlusa.com/",
+    "description": "Manufacturer of outdoor power equipment with a substantial U.S. tech and operations footprint in Virginia Beach.",
+    "location": "Virginia Beach",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["manufacturing", "iot"]
+  },
+  {
+    "name": "Techark",
+    "url": "https://gotechark.com/",
+    "description": "Digital innovation company offering web development, software, and mobile app solutions.",
+    "location": "Norfolk",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["agency", "web-development", "mobile"]
+  },
+  {
+    "name": "The Port of Virginia",
+    "url": "https://www.portofvirginia.com/",
+    "description": "Operator of the deepwater terminals on the Chesapeake Bay; one of the busiest ports on the U.S. East Coast.",
+    "location": "Norfolk",
+    "industries": ["logistics", "maritime"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["port", "logistics", "supply-chain"]
+  },
+  {
+    "name": "Yellow Dog Software",
+    "url": "https://www.yellowdogsoftware.com/",
+    "description": "Provider of inventory management systems for hospitality, sports, and retail markets.",
+    "location": "Norfolk",
+    "industries": ["ai-software"],
+    "type": "company",
+    "hiring": true,
+    "tags": ["saas", "inventory"]
+  }
+]

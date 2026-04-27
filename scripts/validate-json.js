@@ -26,13 +26,21 @@ const schemasDir = path.join(__dirname, '../src/data/schemas');
 
 // Files to validate
 const filesToValidate = [
-  { 
-    dataFile: 'conferences.json', 
-    schemaFile: 'conferences.schema.json' 
+  {
+    dataFile: 'conferences.json',
+    schemaFile: 'conferences.schema.json'
   },
-  { 
-    dataFile: 'meetups-combined.json', 
-    schemaFile: 'meetups.schema.json' 
+  {
+    dataFile: 'meetups-combined.json',
+    schemaFile: 'meetups.schema.json'
+  },
+  {
+    dataFile: 'companies.json',
+    schemaFile: 'companies.schema.json'
+  },
+  {
+    dataFile: 'industries.json',
+    schemaFile: 'industries.schema.json'
   }
 ];
 

@@ -1,0 +1,10 @@
+---
+interface Props {
+  cleared?: boolean;
+}
+const { cleared = false } = Astro.props;
+---
+
+<span class="hiring-badge" title={cleared ? "Hiring cleared talent" : "Hiring"}>
+  {cleared ? "Hiring · cleared" : "Hiring"}
+</span>

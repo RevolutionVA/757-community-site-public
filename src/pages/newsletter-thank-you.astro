@@ -32,14 +32,14 @@ import MainLayout from '../layouts/MainLayout.astro';
 		max-width: 800px;
 		margin: 4rem auto;
 		text-align: center;
-		background-color: #fff;
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-border);
 		padding: 3rem;
-		border-radius: 12px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		border-radius: var(--radius-lg);
 	}
 
 	h1 {
-		color: #0077cc;
+		color: var(--color-text);
 		margin-bottom: 1.5rem;
 	}
 
@@ -51,14 +51,14 @@ import MainLayout from '../layouts/MainLayout.astro';
 
 	li {
 		margin: 1rem 0;
-		font-size: 1.1rem;
-		color: #333;
+		font-size: 1.0625rem;
+		color: var(--color-text);
 	}
 
 	p {
-		font-size: 1.1rem;
+		font-size: 1.0625rem;
 		line-height: 1.6;
-		color: #444;
+		color: var(--color-text-muted);
 		margin: 1.5rem 0;
 	}
 
@@ -68,17 +68,17 @@ import MainLayout from '../layouts/MainLayout.astro';
 
 	.cta-button {
 		display: inline-block;
-		background-color: #0077cc;
+		background-color: var(--color-primary);
 		color: white;
 		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
-		font-weight: bold;
+		border-radius: var(--radius-md);
+		font-weight: 600;
 		text-decoration: none;
-		transition: background-color 0.2s ease;
+		transition: background-color 0.15s ease;
 	}
 
 	.cta-button:hover {
-		background-color: #005fa3;
+		background-color: var(--color-primary-hover);
 		text-decoration: none;
 	}
 </style> 

@@ -15,11 +15,15 @@
     "rebuild-calendar": "node scripts/rebuild-calendar.js && node scripts/deduplicate-calendar.js",
     "deduplicate-calendar": "node scripts/deduplicate-calendar.js",
     "fix-calendar": "node scripts/fix-calendar-duplicates.js",
-    "add-meetup": "node scripts/add-meetup.js"
+    "add-meetup": "node scripts/add-meetup.js",
+    "add-company": "node scripts/add-company.js"
   },
   "dependencies": {
     "@astrojs/node": "^9.1.3",
     "@astrojs/sitemap": "^3.3.0",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/inter-tight": "^5.2.7",
+    "@fontsource/jetbrains-mono": "^5.2.8",
     "astro": "^5.6.1",
     "marked": "^12.0.0",
     "rss-parser": "^3.13.0"
