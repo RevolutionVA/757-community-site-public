@@ -8,7 +8,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-04-28T00:37:43.216Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z"
+    "updatedDate": "2026-04-29T12:35:20.456Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -19,7 +19,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-02T06:25:09.710Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-04-29T22:00:00.000Z"
@@ -34,7 +34,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-03T18:13:42.186Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Zero to Agent",
       "date": "2026-04-30T22:30:00.000Z"
@@ -49,7 +49,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-21T12:24:19.010Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "AI on Autopilot: Making Claude Work While You Sleep | AICHR",
       "date": "2026-05-05T18:00:00.000Z"
@@ -64,7 +64,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-27T00:35:17.535Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Live Hacking an iPhone Application",
       "date": "2026-05-05T21:30:00.000Z"
@@ -79,7 +79,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:18.167Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Educational",
       "date": "2026-05-06T22:30:00.000Z"
@@ -94,7 +94,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.545Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Late Night Builders",
       "date": "2026-05-08T01:00:00.000Z"
@@ -109,7 +109,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:46.601Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-05-08T01:00:00.000Z"
@@ -124,7 +124,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:11.262Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Connecting Claude to Everything: The MCP Deep Dive | AICHR",
       "date": "2026-05-12T18:00:00.000Z"
@@ -139,7 +139,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-16T18:26:51.473Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-05-12T22:00:00.000Z"
@@ -154,7 +154,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:23.397Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "John Sterrett- Advanced Data Protection Strategies with Azure SQL",
       "date": "2026-05-13T22:00:00.000Z"
@@ -169,7 +169,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-27T00:28:24.027Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Platform & DevOps Engineering Social @ Voodoo Brewing",
       "date": "2026-05-13T22:00:00.000Z"
@@ -184,7 +184,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-04-10T18:18:53.430Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "WSDG May Technical Presentation",
       "date": "2026-05-13T22:30:00.000Z"
@@ -199,7 +199,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-04T06:18:48.657Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-05-15T22:00:00.000Z"
@@ -214,7 +214,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:16.798Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Code + Coffee | Pale Horse Coffee",
       "date": "2026-05-16T13:30:00.000Z"
@@ -229,7 +229,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:12.350Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Build Your Own Claude Skills: Teach Claude How You Work | AICHR",
       "date": "2026-05-19T18:00:00.000Z"
@@ -244,7 +244,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-18T06:25:11.298Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-05-19T22:00:00.000Z"
@@ -259,7 +259,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-04-04T00:26:05.033Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Java Social Meeting",
       "date": "2026-05-20T22:30:00.000Z"
@@ -274,7 +274,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2025-12-19T06:07:16.559Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-05-21T22:30:00.000Z"
@@ -289,7 +289,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:12.863Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Build Your Own AI Agent: The Claude Agent SDK | AICHR",
       "date": "2026-05-26T18:00:00.000Z"
@@ -304,7 +304,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:30.417Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-05-26T22:00:00.000Z"
@@ -319,7 +319,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2026-03-18T18:22:00.371Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Building an AI RAG Application with Logic Apps",
       "date": "2026-05-26T22:00:00.000Z"
@@ -345,11 +345,22 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-05-27T22:00:00.000Z"
     }
+  },
+  {
+    "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
+    "link": "https://www.meetup.com/aicollectivehr/events/314541430/",
+    "date": "2026-05-28T18:30:00.000Z",
+    "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2026-04-29T12:34:40.854Z",
+    "updatedDate": "2026-04-29T12:34:40.854Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -360,7 +371,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:41.489Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Educational",
       "date": "2026-06-03T22:30:00.000Z"
@@ -390,7 +401,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:47.792Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-06-05T01:00:00.000Z"
@@ -405,7 +416,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:32.187Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-06-09T22:00:00.000Z"
@@ -420,7 +431,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-06-11T22:30:00.000Z"
@@ -435,7 +446,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:18.718Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Code + Coffee | Cafe Stella",
       "date": "2026-06-13T13:30:00.000Z"
@@ -450,7 +461,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-04T06:16:40.945Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-06-16T22:00:00.000Z"
@@ -465,7 +476,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Kevin Feasel- Data Virtualization in SQL Server",
       "date": "2026-06-17T22:00:00.000Z"
@@ -480,7 +491,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-01-16T06:07:36.677Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-06-18T22:30:00.000Z"
@@ -495,7 +506,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-14T00:22:57.353Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-06-19T22:00:00.000Z"
@@ -510,7 +521,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:34.333Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-06-23T22:00:00.000Z"
@@ -536,7 +547,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-26T00:28:33.887Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-06-24T22:00:00.000Z"
@@ -551,7 +562,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:43.467Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Educational",
       "date": "2026-07-01T22:30:00.000Z"
@@ -581,7 +592,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.528Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-07-03T01:00:00.000Z"
@@ -596,7 +607,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-29T00:38:58.618Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z"
+    "updatedDate": "2026-04-29T12:35:20.456Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -607,7 +618,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
       "date": "2026-07-15T22:00:00.000Z"
@@ -622,7 +633,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-07-16T22:30:00.000Z"
@@ -637,7 +648,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-08T00:30:04.569Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-07-17T22:00:00.000Z"
@@ -652,7 +663,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-07-21T22:00:00.000Z"
@@ -689,7 +700,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-05T06:18:46.708Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Educational",
       "date": "2026-08-05T22:30:00.000Z"
@@ -730,7 +741,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-08-20T22:30:00.000Z"
@@ -756,7 +767,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-02T06:28:47.022Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Educational",
       "date": "2026-09-02T22:30:00.000Z"
@@ -793,7 +804,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T22:30:00.000Z"
@@ -819,7 +830,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.928Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-09-24T22:30:00.000Z"
@@ -845,7 +856,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-04T00:24:06.687Z",
-    "updatedDate": "2026-04-29T06:52:51.227Z",
+    "updatedDate": "2026-04-29T12:35:20.456Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-11-05T23:30:00.000Z"
