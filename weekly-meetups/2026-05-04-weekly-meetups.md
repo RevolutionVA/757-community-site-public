@@ -1,6 +1,6 @@
 # Meetups This Week (Monday - Sunday)
 
-Generated on: 2026-05-04T07:01:41.131Z
+Generated on: 2026-05-04T15:15:37.875Z
 
 ## 5 Meetups This Week
 
@@ -8,7 +8,7 @@ Generated on: 2026-05-04T07:01:41.131Z
 
 #### AI on Autopilot: Making Claude Work While You Sleep | AICHR
 
-- **Time:** 10:00 AM
+- **Time:** 02:00 PM
 - **Group:** 757 Artificial Intelligence Collective
 - **Link:** [Event Link](https://www.meetup.com/aicollectivehr/events/314397182/)
 
@@ -83,7 +83,7 @@ All attendees and organizers at events affiliated with The AI Collective agree t
 
 #### Live Hacking an iPhone Application
 
-- **Time:** 01:30 PM
+- **Time:** 05:30 PM
 - **Group:** Information Systems Security Association ISSA Hampton Roads
 - **Link:** [Event Link](https://www.meetup.com/issa-hampton-roads/events/314497620/)
 
@@ -103,7 +103,7 @@ Follow along as Steve Campbell walks you through an iOS application penetration 
 
 #### Bitcoin meetup Educational
 
-- **Time:** 02:30 PM
+- **Time:** 06:30 PM
 - **Group:** Virginia Beach Bitcoin
 - **Link:** [Event Link](https://www.meetup.com/virginia-beach-bitcoin/events/314323401/)
 
@@ -134,7 +134,7 @@ Bitcoin education / presentation / workshop meetup.
 
 #### 🧜‍♀️ AICHR | Late Night Builders
 
-- **Time:** 05:00 PM
+- **Time:** 09:00 PM
 - **Group:** 757 Artificial Intelligence Collective
 - **Link:** [Event Link](https://www.meetup.com/aicollectivehr/events/314042732/)
 
@@ -176,7 +176,7 @@ All attendees and organizers at events affiliated with The AI Collective agree t
 
 #### Late Night Builders
 
-- **Time:** 05:00 PM
+- **Time:** 09:00 PM
 - **Group:** 757 Developers
 - **Link:** [Event Link](https://www.meetup.com/757dev/events/314042702/)
 
