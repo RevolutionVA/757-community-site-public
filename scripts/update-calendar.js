@@ -113,6 +113,64 @@ function log(message, level = LOG_LEVELS.INFO) {
 }
 
 /**
+ * Parse a TZ-naive date string as Eastern Time (the timezone meetups in this
+ * region use). Necessary because `new Date(naiveStr)` interprets the string
+ * in the runner's local TZ — which is UTC on GitHub Actions, producing wrong
+ * UTC values for events.
+ *
+ * Accepts the formats Meetup's og:title emits, e.g.:
+ *   "Thu, May 7, 2026, 9:00 PM"
+ *   "Mon, March 11, 2024 at 6:30 PM"
+ * @param {string} dateStr
+ * @returns {Date|null}
+ */
+function parseEasternDateTime(dateStr) {
+	if (!dateStr) return null;
+	const months = {
+		jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+		jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
+		january: 0, february: 1, march: 2, april: 3, june: 5,
+		july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
+	};
+	// Match: optional weekday prefix, month name, day, year, hour:minute am/pm
+	const re = /([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})(?:\s+at)?,?\s+(\d{1,2}):(\d{2})\s*(AM|PM)/i;
+	const m = dateStr.match(re);
+	if (!m) return null;
+	const [, monthName, dayStr, yearStr, hourStr, minStr, ampm] = m;
+	const month = months[monthName.toLowerCase()];
+	if (month === undefined) return null;
+	let hour = parseInt(hourStr, 10);
+	const minute = parseInt(minStr, 10);
+	if (/pm/i.test(ampm) && hour < 12) hour += 12;
+	if (/am/i.test(ampm) && hour === 12) hour = 0;
+	const year = parseInt(yearStr, 10);
+	const day = parseInt(dayStr, 10);
+	// US Eastern DST: 2nd Sun of March 02:00 → 1st Sun of November 02:00
+	const inEdt = isInUsEdt(year, month, day, hour);
+	const offsetHours = inEdt ? 4 : 5; // EDT=UTC-4, EST=UTC-5
+	return new Date(Date.UTC(year, month, day, hour + offsetHours, minute));
+}
+
+/**
+ * Whether a wall-clock instant in US Eastern time falls inside Daylight Time.
+ * EDT runs from the 2nd Sunday of March 02:00 to the 1st Sunday of November 02:00.
+ */
+function isInUsEdt(year, month, day, hour) {
+	const secondSundayMarch = nthWeekdayOfMonth(year, 2, 0, 2); // March, Sunday, 2nd
+	const firstSundayNovember = nthWeekdayOfMonth(year, 10, 0, 1);
+	const t = year * 10000 + month * 100 + day + hour / 24;
+	const start = year * 10000 + 2 * 100 + secondSundayMarch + 2 / 24;
+	const end = year * 10000 + 10 * 100 + firstSundayNovember + 2 / 24;
+	return t >= start && t < end;
+}
+
+function nthWeekdayOfMonth(year, month, weekday, n) {
+	const first = new Date(Date.UTC(year, month, 1)).getUTCDay();
+	const offset = (weekday - first + 7) % 7;
+	return 1 + offset + (n - 1) * 7;
+}
+
+/**
  * Parses a date string from various formats
  * @param {string} dateStr - The date string to parse
  * @returns {Date|null} - The parsed date or null if parsing failed
@@ -202,54 +260,38 @@ async function extractEventDateFromEventPage(eventUrl) {
 		// Fetch the event page HTML
 		const html = await fetchUrl(eventUrl);
 
-		// Extract JSON-LD data from the page
+		// Try the generic "startDate" regex first — Meetup embeds the
+		// full ISO-8601 timestamp with offset (e.g. "2026-05-07T21:00:00-04:00")
+		// which `new Date()` parses unambiguously regardless of runner TZ.
+		// This is the most reliable source and avoids the TZ-naive og:title path.
+		const startDateRegex = /"startDate":"([^"]+)"/;
+		const startDateMatch = html.match(startDateRegex);
+		if (startDateMatch && startDateMatch[1]) {
+			const dateStr = startDateMatch[1];
+			const eventDate = new Date(dateStr);
+			if (!isNaN(eventDate.getTime())) {
+				log(
+					`Extracted startDate from HTML: ${dateStr} -> ${eventDate.toISOString()}`,
+					LOG_LEVELS.INFO,
+				);
+				return eventDate;
+			}
+		}
+
+		// Extract JSON-LD data from the page (kept for backwards compatibility
+		// with sites that still ship Event JSON-LD).
 		const jsonLdRegex =
 			/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
 		const matches = [...html.matchAll(jsonLdRegex)];
 
-		if (matches.length === 0) {
-			log(`No JSON-LD data found in page: ${eventUrl}`, LOG_LEVELS.DEBUG);
-
-			// Try to extract date from meta tags
-			const ogStartTimeRegex =
-				/<meta property="og:title" content="[^,]+, ([^|]+)\|/;
-			const ogMatch = html.match(ogStartTimeRegex);
-
-			if (ogMatch && ogMatch[1]) {
-				const dateStr = ogMatch[1].trim();
-				log(`Found date in meta tag: ${dateStr}`, LOG_LEVELS.DEBUG);
-
-				// Parse date like "Tue, Mar 11, 2025, 6:00 PM"
-				const metaDate = parseDate(dateStr);
-				if (metaDate) {
-					log(
-						`Successfully extracted date from meta tag: ${metaDate.toISOString()}`,
-						LOG_LEVELS.INFO,
-					);
-					return metaDate;
-				}
-			}
-
-			return null;
-		}
-
 		for (const match of matches) {
 			try {
-				const jsonLdString = match[1];
-				const jsonLd = JSON.parse(jsonLdString);
-
-				// Look for Event type JSON-LD
+				const jsonLd = JSON.parse(match[1]);
 				if (jsonLd["@type"] === "Event" && jsonLd.startDate) {
-					log(
-						`Found event date in JSON-LD: ${jsonLd.startDate}`,
-						LOG_LEVELS.DEBUG,
-					);
 					const eventDate = new Date(jsonLd.startDate);
-
 					if (!isNaN(eventDate.getTime())) {
-						// Use the date directly without timezone conversion
 						log(
-							`Successfully extracted event date from page: ${eventDate.toISOString()}`,
+							`Extracted event date from JSON-LD: ${jsonLd.startDate} -> ${eventDate.toISOString()}`,
 							LOG_LEVELS.INFO,
 						);
 						return eventDate;
@@ -257,31 +299,29 @@ async function extractEventDateFromEventPage(eventUrl) {
 				}
 			} catch (jsonError) {
 				log(`Error parsing JSON-LD: ${jsonError.message}`, LOG_LEVELS.DEBUG);
-				// Continue to next match
 			}
 		}
 
-		// If we get here, try to extract date from the HTML directly
-		// Look for patterns like "startDate":"2025-03-11T18:00:00-04:00"
-		const startDateRegex = /"startDate":"([^"]+)"/;
-		const startDateMatch = html.match(startDateRegex);
-
-		if (startDateMatch && startDateMatch[1]) {
-			const dateStr = startDateMatch[1];
-			log(`Found startDate in HTML: ${dateStr}`, LOG_LEVELS.DEBUG);
-
-			const eventDate = new Date(dateStr);
-			if (!isNaN(eventDate.getTime())) {
-				// Use the date directly without timezone conversion
+		// Last resort: og:title meta tag. The captured string is a TZ-naive
+		// Eastern time like "Thu, May 7, 2026, 9:00 PM" — `new Date()` would
+		// interpret it in runner-local TZ, so we explicitly anchor to ET.
+		const ogStartTimeRegex =
+			/<meta property="og:title" content="[^,]+, ([^|]+)\|/;
+		const ogMatch = html.match(ogStartTimeRegex);
+		if (ogMatch && ogMatch[1]) {
+			const dateStr = ogMatch[1].trim();
+			log(`Found date in og:title meta tag: ${dateStr}`, LOG_LEVELS.DEBUG);
+			const metaDate = parseEasternDateTime(dateStr);
+			if (metaDate) {
 				log(
-					`Successfully extracted date from HTML: ${eventDate.toISOString()}`,
+					`Extracted date from og:title (ET-anchored): ${metaDate.toISOString()}`,
 					LOG_LEVELS.INFO,
 				);
-				return eventDate;
+				return metaDate;
 			}
 		}
 
-		log(`No valid JSON-LD event data found in page`, LOG_LEVELS.DEBUG);
+		log(`No valid event date data found in page`, LOG_LEVELS.DEBUG);
 		return null;
 	} catch (error) {
 		log(
