@@ -17,6 +17,9 @@
     "fix-calendar": "node scripts/fix-calendar-duplicates.js",
     "add-meetup": "node scripts/add-meetup.js"
   },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "dependencies": {
     "@astrojs/node": "^10.0.0",
     "@astrojs/sitemap": "^3.3.0",
