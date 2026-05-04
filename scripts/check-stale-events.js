@@ -21,7 +21,10 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO = process.env.GITHUB_REPOSITORY || 'your-org/757-community-site-public';
 
 // Configuration
-const STALE_THRESHOLD_HOURS = 12; // Consider events stale if not updated in the last 12 hours
+const STALE_THRESHOLD_HOURS = 48; // Consider events stale if not updated in the last 48 hours
+const MAX_FUTURE_DAYS = 180;      // Skip events more than ~6 months out — Meetup RSS feeds
+                                  // typically only carry near-term events, so distant events
+                                  // naturally fall off the feed without being cancelled.
 
 /**
  * Makes an HTTPS request
@@ -197,61 +200,91 @@ async function checkStaleEvents() {
     
     console.log(`Checking ${events.length} events for staleness...`);
     
-    // Calculate the stale threshold
+    // Calculate the stale threshold and the future-event cutoff
     const now = new Date();
     const staleThreshold = new Date(now.getTime() - (STALE_THRESHOLD_HOURS * 60 * 60 * 1000));
-    
+    const futureCutoff = new Date(now.getTime() + (MAX_FUTURE_DAYS * 24 * 60 * 60 * 1000));
+
     console.log(`Events last updated before ${staleThreshold.toISOString()} will be considered stale`);
-    
+    console.log(`Skipping events scheduled after ${futureCutoff.toISOString()} (more than ${MAX_FUTURE_DAYS} days out)`);
+
     // Find stale events
     const staleEvents = events.filter(event => {
       // Only check Meetup events for staleness
       if (event.source !== 'meetup') {
         return false;
       }
-      
+
+      // Skip events that have already happened — no point flagging the past
+      if (event.date) {
+        const eventDate = new Date(event.date);
+        if (eventDate < now) {
+          return false;
+        }
+        // Skip events too far in the future
+        if (eventDate > futureCutoff) {
+          return false;
+        }
+      }
+
       if (!event.updatedDate) {
         // Events without updatedDate are considered stale
         return true;
       }
-      
+
       const updatedDate = new Date(event.updatedDate);
       return updatedDate < staleThreshold;
     });
-    
+
     console.log(`Found ${staleEvents.length} stale events`);
-    
-    if (staleEvents.length === 0) {
+
+    // Dedupe within this run by title — recurring events (e.g. "Geeks at a Bar"
+    // happy hour) appear in calendar-events.json once per occurrence, so without
+    // this we'd file one issue per occurrence on every run.
+    const seenInRun = new Set();
+    const dedupedStaleEvents = staleEvents.filter(event => {
+      if (seenInRun.has(event.title)) {
+        return false;
+      }
+      seenInRun.add(event.title);
+      return true;
+    });
+
+    if (dedupedStaleEvents.length < staleEvents.length) {
+      console.log(`Deduped to ${dedupedStaleEvents.length} unique stale events (collapsed ${staleEvents.length - dedupedStaleEvents.length} recurring duplicates)`);
+    }
+
+    if (dedupedStaleEvents.length === 0) {
       console.log('No stale events found, no issues to create');
       return;
     }
-    
-    // Get existing issues to avoid duplicates
+
+    // Get existing issues to avoid duplicates across runs
     const existingIssues = await getExistingIssues();
     const existingEventTitles = new Set(
-      existingIssues.map(issue => 
+      existingIssues.map(issue =>
         issue.title.replace('🗑️ Review stale event: ', '')
       )
     );
-    
+
     // Create issues for stale events that don't already have issues
     let issuesCreated = 0;
-    for (const event of staleEvents) {
+    for (const event of dedupedStaleEvents) {
       if (!existingEventTitles.has(event.title)) {
         const issue = await createStaleEventIssue(event);
         if (issue) {
           issuesCreated++;
         }
-        
+
         // Rate limiting - wait 1 second between issue creation
-        if (issuesCreated < staleEvents.length) {
+        if (issuesCreated < dedupedStaleEvents.length) {
           await new Promise(resolve => setTimeout(resolve, 1000));
         }
       } else {
         console.log(`⏭️ Skipping ${event.title} - issue already exists`);
       }
     }
-    
+
     console.log(`✅ Stale event check completed. Created ${issuesCreated} new issues.`);
     
   } catch (error) {
