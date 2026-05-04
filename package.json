@@ -23,7 +23,7 @@
   "dependencies": {
     "@astrojs/node": "^10.0.0",
     "@astrojs/sitemap": "^3.3.0",
-    "astro": "^5.6.1",
+    "astro": "^6.0.0",
     "marked": "^18.0.0",
     "rss-parser": "^3.13.0"
   },
