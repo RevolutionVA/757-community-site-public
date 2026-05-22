@@ -1,20 +1,5 @@
 [
   {
-    "title": "Bitcoin meetup Open Discussion",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/314585990/",
-    "date": "2026-05-21T22:30:00.000Z",
-    "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
-    "source": "meetup",
-    "group": "Virginia Beach Bitcoin",
-    "featuredEvent": false,
-    "createdDate": "2026-05-02T00:38:09.009Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z",
-    "previousVersion": {
-      "title": "Bitcoin meetup Open Discussion",
-      "date": "2026-05-21T18:30:00.000Z"
-    }
-  },
-  {
     "title": "Build Your Own AI Agent: The Claude Agent SDK | AICHR",
     "link": "https://www.meetup.com/aicollectivehr/events/314472167/",
     "date": "2026-05-26T18:00:00.000Z",
@@ -23,7 +8,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-04-25T12:15:12.863Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z",
+    "updatedDate": "2026-05-22T00:44:39.927Z",
     "previousVersion": {
       "title": "Build Your Own AI Agent: The Claude Agent SDK | AICHR",
       "date": "2026-05-26T14:00:00.000Z"
@@ -38,7 +23,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-07T00:37:52.191Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.927Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -49,7 +34,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-07T00:37:49.395Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.927Z"
   },
   {
     "title": "Building an AI RAG Application with Logic Apps",
@@ -60,7 +45,7 @@
     "group": "Hampton Roads Azure Users Group",
     "featuredEvent": false,
     "createdDate": "2026-03-18T18:22:00.371Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z",
+    "updatedDate": "2026-05-22T00:44:39.927Z",
     "previousVersion": {
       "title": "Building an AI RAG Application with Logic Apps",
       "date": "2026-05-26T18:00:00.000Z"
@@ -86,7 +71,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-02-21T06:14:01.103Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-05-27T18:00:00.000Z"
@@ -116,7 +101,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-10T06:56:34.101Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Humans in AI Week",
@@ -127,7 +112,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-21T00:45:29.354Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Claude + Social Media Pipelines: One Post → Every Platform | AICHR",
@@ -138,7 +123,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-21T18:39:34.250Z",
-    "updatedDate": "2026-05-21T18:39:34.250Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -164,7 +149,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-05-12T00:38:19.330Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Late Night Builders",
@@ -190,7 +175,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-08T00:38:20.271Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Late Night Builders",
@@ -201,7 +186,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:47.792Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-06-04T21:00:00.000Z"
@@ -216,7 +201,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-21T00:45:33.039Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -227,7 +212,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-15T00:40:45.585Z",
-    "updatedDate": "2026-05-21T18:40:20.861Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
+  },
+  {
+    "title": "Claude + Browser Automation: Your AI Sees Your Screen | AICHR",
+    "link": "https://www.meetup.com/aicollectivehr/events/314896365/",
+    "date": "2026-06-09T23:00:00.000Z",
+    "description": "**Notice:** This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.\n\nThis event is capped at 500 attendees. Register now to secure your spot.\n\n**Claude + Browser Automation: Your AI Sees Your Screen** — Claude can now see your browser. It reads pages, clicks buttons, fills forms, takes screenshots, and navigates sites — all from a conversation or a script. This isn't a future feature. It's live right now.\n\nThree tools make this work: **Claude Computer Use** (full desktop control — screenshot, mouse, keyboard), **Claude in Chrome MCP** (browser-native tools — navigate, read pages, click, type), and **Puppeteer MCP** (headless automation for scripts and pipelines). Each solves different problems. This event shows you when to use which.\n\nThis is a live demo workshop. We'll automate real browser tasks from scratch — starting with simple page reads and ending with multi-step workflows that run unattended.\n\n**What we'll cover:**\n\n**🖥️ The Browser Automation Stack Inside Claude**\n\nHow Computer Use, Chrome MCP, and Puppeteer MCP work together — and when to use browser automation vs direct MCP integrations vs APIs.\n\n**🔧 Demos We'll Build Live:**\n\n* **Page Reader & Data Extractor** — point Claude at any webpage, extract structured data into a spreadsheet. No scraping code required.\n* **Form Filler & Submission Bot** — automate repetitive form submissions across multiple sites using Claude in Chrome\n* **Research Automator** — give Claude a research question, watch it open tabs, read pages, take notes, and compile a summary\n* **Visual Testing Agent** — screenshot pages, compare layouts, flag visual regressions automatically\n* **Website Poster** — post content to platforms that don't have API connectors using Puppeteer browser automation\n* **Multi-Step Workflow** — chain browser actions: log into a site → navigate to dashboard → extract report → save to Google Drive → send summary via email\n\n**🔒 Security & Permission Models**\n\nWhat Claude can and can't see in your browser. Permission scoping, supervision best practices, and why browser agents need guardrails. Computer Use is still a research preview — we'll be honest about the limitations.\n\n**⚠️ Key Caveat:** Claude Computer Use requires macOS. Chrome MCP and Puppeteer MCP work on all platforms. We'll cover all three so everyone leaves with something they can use immediately.\n\n**Who this is for:** Anyone who spends time on repetitive browser tasks — filling forms, extracting data, posting content, running reports. Business owners, marketers, researchers, and developers alike. If you copy-paste between browser tabs, this event automates that. Prior experience with Claude is helpful but not required.\n\n**Who this is NOT for:** People looking for a general AI overview. This is a hands-on workshop. Every demo involves real browser automation. If you want theory, see our earlier events in the series.\n\n📚 **Free resources at the event:**\n\n* Setup guide — follow along with every demo live\n* Homework doc — extended exercises to keep building after the event\n* Slide deck — full reference for everything we cover\n\n🎯 **Want to go deeper?**\n\n* [AI for Business](https://a.co/d/07s4JmNN) — Andrew's book on practical AI implementation\n* [Book a discovery call](https://api.leadconnectorhq.com/widget/booking/UlmCnAh2HarbC1PskHgW) — 1-on-1 help implementing Claude in your business\n\n**🤝 Organizers & partners**\n\nOrganizers\n\n[The AI Collective Hampton Roads](https://www.meetup.com/aicollectivehr/)\n\nPlatinum partners\n\n[TechArk](https://www.tekark.com)\n\n[Regent University](https://www.regent.edu)\n\n[ECPI University](https://www.ecpi.edu)\n\n[Hampton Roads Chamber Foundation](https://www.hrchamber.com)\n\n[Retail Alliance](https://www.retailalliance.com) & [Retail Alliance Foundation](https://www.retailalliance.com)\n\nBronze partners\n\n[Assembly](https://assemblyrichmond.com)\n\n[757 Collab](https://757collab.org)\n\n**🌍 Our parent org**\n\n[The AI Collective](https://www.theaicollective.com) is a global non-profit community uniting 225,000+ pioneers — founders, researchers, operators, and investors — exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we steer AI's future together.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.meetup.com/aicollectivehr/pages/35117791/privacy-policy/) and are subject to our [code of conduct](https://www.meetup.com/aicollectivehr/pages/35117790/code-of-conduct/). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://www.meetup.com/aicollectivehr/pages/35389963/photo--video-policy/).",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2026-05-22T00:43:57.218Z",
+    "updatedDate": "2026-05-22T00:43:57.218Z"
   },
   {
     "title": "WSDG June Social Event",
@@ -238,7 +234,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-05-15T00:41:18.305Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -249,7 +245,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-03-03T18:15:55.071Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-06-11T18:30:00.000Z"
@@ -264,7 +260,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-12T06:34:18.718Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Code + Coffee | Cafe Stella",
       "date": "2026-06-13T09:30:00.000Z"
@@ -279,11 +275,22 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-04T06:16:40.945Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-06-16T18:00:00.000Z"
     }
+  },
+  {
+    "title": "Claude as Your One-Person Business: The Capstone | AICHR",
+    "link": "https://www.meetup.com/aicollectivehr/events/314899018/",
+    "date": "2026-06-16T23:00:00.000Z",
+    "description": "Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.\n\nThis event is capped at 500 attendees. Register now to secure your spot.\n\nClaude as Your One-Person Business: The Capstone —\n\nYou've learned the tools. Now it's time to wire them together. This capstone event takes everything from our 9-session series — Cowork, Skills, MCP, Routines, Agent SDK, Social Media Pipelines, and Browser Automation — and combines them into a complete \"run your business with Claude\" framework.\n\nThis isn't a recap. It's the blueprint for replacing an entire team's worth of daily operations with a single Claude subscription. Morning briefing, email triage, meeting prep, content creation, project management, end-of-day review — all orchestrated, all automated, all in your voice.\n\nThis is a live demo workshop. We'll build a complete day-in-the-life business operating system from scratch — starting with your first morning briefing and ending with an automated end-of-day summary that writes itself.\n\nWhat we'll cover:\n\n🧰 **The Solo Founder Stack** How Cowork, Skills, MCP, Routines, and Agent SDK combine into a single business operating system — and why this stack replaces the need for 3-5 employees or contractors.\n\n📱 **Demos We'll Build Live:**\n\n* **Morning Briefing System** — wake up to a Claude-generated summary of your calendar, emails, tasks, and metrics for the day\n* **Email Triage & Response Engine** — automatically sort, prioritize, and draft responses to your inbox using your voice and business rules\n* **Meeting Prep Automation** — Claude pulls attendee info, past conversations, and relevant docs before every meeting\n* **Content Creation Pipeline** — repurpose one idea into blog posts, social media, newsletters, and video scripts across every platform\n* **Project Management Dashboard** — track tasks, deadlines, and deliverables across all your projects from a single conversation\n* **End-of-Day Review Routine** — automated summary of what got done, what didn't, and what's queued for tomorrow\n\n📊 **The Numbers** A Microsoft 2026 study found that only 16% of AI users actually orchestrate agents — meaning 84% are leaving the biggest productivity gains on the table. A WRITER survey found that 60% of executives plan to lay off workers who don't adopt AI. This event puts you in the 16% who are building the future, not being replaced by it.\n\n💰 **The Cost Analysis** We'll break down exactly what this operating system would cost in human hours vs. a Claude subscription. Spoiler: the math isn't close.\n\n**Who this is for:** Founders, solo operators, freelancers, and small business owners who want to run a lean operation without sacrificing output. If you've attended any of our previous sessions (or want the condensed version of all 9), this is the event. Prior experience with Claude is helpful but not required — we'll reference previous workshops but explain everything as we go.\n\n**Who this is NOT for:** People looking for theory. This is a hands-on capstone workshop. Every demo involves setting up real automations for real business workflows. If you're looking for a high-level overview of AI in business, this isn't it.\n\n**What you'll leave with:** ✅ A working \"day in the life\" business automation system ✅ A free setup guide with every demo walkthrough, step by step ✅ A homework doc with bonus workflows, advanced automations, and exercises ✅ The complete framework for running a one-person business with Claude ✅ Understanding of how Cowork, Skills, MCP, Routines, and Agent SDK work together\n\n**Prerequisites:** — A Claude Pro, Max, or Team subscription (Cowork or Claude Code) — Access to the tools and services you use daily (email, calendar, project management) — Willingness to set up real automations during the session\n\n🎙️ **Your Speaker** **Andrew Stafford** Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n🏢 **For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. Book a discovery call\n\n***\n\n🤝 **Organizers & partners**\n\n**Organizers** The AI Collective Hampton Roads\n\n**Platinum partners** TechArk Regent University ECPI University Hampton Roads Chamber Foundation Retail Alliance & Retail Alliance Foundation\n\n**Bronze partners** Assembly 757 Collab\n\n🌍 **Our parent org**\n\nThe AI Collective is a global non-profit community uniting 240,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI's future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our privacy policy and are subject to our code of conduct. Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter photo & video policy.",
+    "source": "meetup",
+    "group": "757 Artificial Intelligence Collective",
+    "featuredEvent": false,
+    "createdDate": "2026-05-22T00:43:59.285Z",
+    "updatedDate": "2026-05-22T00:43:59.285Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -294,7 +301,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Kevin Feasel- Data Virtualization in SQL Server",
       "date": "2026-06-17T18:00:00.000Z"
@@ -309,7 +316,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-07T18:36:07.649Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "AI for Learning & Development Build Challenge | Presentations & Judging",
@@ -320,7 +327,7 @@
     "group": "757 Artificial Intelligence Collective",
     "featuredEvent": false,
     "createdDate": "2026-05-08T00:38:23.452Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -331,7 +338,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-03-14T00:22:57.353Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-06-19T18:00:00.000Z"
@@ -357,7 +364,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-21T00:33:34.333Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-06-23T18:00:00.000Z"
@@ -383,7 +390,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-07T18:35:56.255Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -424,7 +431,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.528Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-07-02T21:00:00.000Z"
@@ -439,7 +446,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-04-29T00:38:58.618Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Peninsula Developers Study Group",
       "date": "2026-07-07T18:00:00.000Z"
@@ -465,7 +472,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
       "date": "2026-07-15T18:00:00.000Z"
@@ -480,7 +487,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-07-16T18:30:00.000Z"
@@ -495,7 +502,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-08T00:30:04.569Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-07-17T18:00:00.000Z"
@@ -510,7 +517,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-07-21T18:00:00.000Z"
@@ -525,7 +532,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-08T06:38:18.583Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -547,7 +554,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-22T06:40:21.501Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-07-22T18:00:00.000Z"
@@ -573,7 +580,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-16T18:20:50.228Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -636,7 +643,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-06T00:36:42.336Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -647,7 +654,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-08-20T18:30:00.000Z"
@@ -662,7 +669,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:53.945Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -684,7 +691,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:54.950Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Educational",
@@ -732,7 +739,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z",
+    "updatedDate": "2026-05-22T00:44:39.928Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -773,7 +780,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -810,7 +817,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Geeks at a Bar- Peninsula Happy Hour",
@@ -832,7 +839,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -843,7 +850,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -854,6 +861,17 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-05-21T18:40:20.862Z"
+    "updatedDate": "2026-05-22T00:44:39.928Z"
+  },
+  {
+    "title": "Bitcoin meetup Open Discussion",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptykcfbxb/",
+    "date": "2027-03-18T22:30:00.000Z",
+    "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
+    "source": "meetup",
+    "group": "Virginia Beach Bitcoin",
+    "featuredEvent": false,
+    "createdDate": "2026-05-22T00:44:38.926Z",
+    "updatedDate": "2026-05-22T00:44:38.926Z"
   }
 ]
