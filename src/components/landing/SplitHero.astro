@@ -30,7 +30,7 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
     <div class="hero-right">
       <img class="hero-logo" src="/images/757tech-logo.png" alt="757tech" width="2048" height="1117" />
       <div class="hero-peek">
-      <div class="peek-label">Next up this week</div>
+      <div class="peek-label">Next upcoming event</div>
       {nextEvent && c && (
         <a class="next-card" href={nextEvent.url} target="_blank" rel="noopener noreferrer">
           <div class="next-date" style={`background:${c.bg};color:${c.fg}`}>
