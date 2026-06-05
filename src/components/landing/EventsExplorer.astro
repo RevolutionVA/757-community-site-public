@@ -26,7 +26,8 @@ interface Props {
   groupCount: number;
 }
 const { events, calendarEvents, counts, todayKey, groupCount } = Astro.props;
-const chips = ["All", ...CATEGORIES];
+// Only surface categories that actually have upcoming events.
+const chips = ["All", ...CATEGORIES.filter((c) => (counts[c] ?? 0) > 0)];
 
 // Full set (past + future) the client island needs to render the week/month
 // calendar. The list view above is server-rendered from `events` (upcoming).

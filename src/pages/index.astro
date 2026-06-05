@@ -72,21 +72,11 @@ const groups = meetupsData.map((m) => ({
   name: m.name, url: m.url, tags: m.tags, category: m.category,
 }));
 
-// ---- Conferences: one card per series (latest instance); prefer upcoming,
-//      otherwise show the most recent so the section is never empty. ----
-const seriesKey = (name: string) => name.replace(/\s*\d{4}\s*$/, "").trim() || name;
-const bySeries = new Map<string, (typeof conferencesData)[number]>();
-for (const c of conferencesData) {
-  const key = seriesKey(c.name);
-  const cur = bySeries.get(key);
-  if (!cur || c.date > cur.date) bySeries.set(key, c);
-}
-const reps = [...bySeries.values()];
-const upcoming = reps.filter((c) => (c.endDate ?? c.date) >= todayKey);
-const chosen = upcoming.length
-  ? upcoming.sort((a, b) => a.date.localeCompare(b.date))
-  : reps.sort((a, b) => b.date.localeCompare(a.date));
-const conferences = chosen.map((c) => {
+// ---- Conferences: upcoming only (past ones are archived on /conferences). ----
+const conferences = conferencesData
+  .filter((c) => (c.endDate ?? c.date) >= todayKey)
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .map((c) => {
   const [y, mm] = c.date.split("-");
   return {
     name: c.name,
