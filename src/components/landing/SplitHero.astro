@@ -15,15 +15,35 @@ export interface HeroEvent {
 interface Props { nextEvent?: HeroEvent | null; }
 const { nextEvent } = Astro.props;
 const c = nextEvent ? catColor(nextEvent.category) : null;
+
+// Real Bento subscribe form lives in the hero now (the primary CTA). Action,
+// hidden redirect, and field names match the live endpoint.
+const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true";
+// Bound via expression so the literal backslash in \. survives Astro's parser.
+const EMAIL_PATTERN = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$";
 ---
 <section class="hero hero-split" id="top">
   <div class="hero-split-grid">
     <div class="hero-copy">
       <h1>The front door to tech<br />in the <span class="hl">757</span></h1>
-      <p class="hero-sub">Every meetup, user group, and regional conference in the 757 — in one tide. Get the weekly digest and never miss what's happening.</p>
-      <form class="capture light" data-hero-capture>
-        <input type="email" name="email" placeholder="you@email.com" aria-label="Email address" required />
-        <button type="submit">Get the digest</button>
+      <p class="hero-sub">Every meetup, user group, and regional conference in the 757 — in one tide. Get the Monday digest and never miss what's happening.</p>
+      <form
+        class="hero-form"
+        id="subscribe"
+        action={ACTION}
+        method="POST"
+        enctype="multipart/form-data"
+        onkeydown="if(event.key === 'Enter' && event.target.type !== 'submit') { event.preventDefault(); }"
+      >
+        <input type="hidden" name="redirect" value="https://757tech.org/newsletter-thank-you" />
+        <div class="hero-form-row">
+          <input type="text" name="fields_first_name" placeholder="First name" aria-label="First name" required />
+          <input type="text" name="fields_last_name" placeholder="Last name" aria-label="Last name" required />
+        </div>
+        <div class="hero-form-row">
+          <input type="email" name="email" placeholder="you@email.com" aria-label="Email address" required pattern={EMAIL_PATTERN} />
+          <button type="submit" class="btn-coral">Get the digest</button>
+        </div>
       </form>
       <div class="hero-mini">Free · weekly · unsubscribe anytime</div>
     </div>
@@ -58,16 +78,19 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
   <WaveDivider />
 </section>
 
-<script>
-  // Inline hero capture is a teaser for the real Bento form: prefill + scroll.
-  const form = document.querySelector("[data-hero-capture]") as HTMLFormElement | null;
-  form?.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const email = (form.querySelector('input[name="email"]') as HTMLInputElement)?.value || "";
-    const target = document.getElementById("news-email") as HTMLInputElement | null;
-    if (target) target.value = email;
-    document.getElementById("subscribe")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    const focusField = (document.getElementById("news-fname") || target) as HTMLInputElement | null;
-    window.setTimeout(() => focusField?.focus(), 600);
-  });
-</script>
+<style>
+  .hero-form { display: flex; flex-direction: column; gap: 10px; max-width: 480px; margin-top: 4px; }
+  .hero-form-row { display: flex; gap: 10px; }
+  .hero-form input {
+    flex: 1; min-width: 0; font-family: var(--font-body); font-size: 16px;
+    padding: 13px 16px; border-radius: 999px; border: 1.5px solid var(--line);
+    background: #fff; color: var(--ink); outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .hero-form input:focus { border-color: var(--tide); box-shadow: 0 0 0 4px color-mix(in srgb, var(--tide) 18%, transparent); }
+  .hero-form button { flex-shrink: 0; white-space: nowrap; }
+  @media (max-width: 560px) {
+    .hero-form-row { flex-direction: column; }
+    .hero-form button { width: 100%; }
+  }
+</style>

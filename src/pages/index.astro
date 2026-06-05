@@ -6,7 +6,6 @@ import EventsExplorer from "../components/landing/EventsExplorer.astro";
 import Conferences from "../components/landing/Conferences.astro";
 import Groups from "../components/landing/Groups.astro";
 import SubmitCTA from "../components/landing/SubmitCTA.astro";
-import NewsletterSection from "../components/landing/NewsletterSection.astro";
 import LandingFooter from "../components/landing/LandingFooter.astro";
 import {
   CATEGORIES, MON, etDateKey, eventDisplay, relativeLabel,
@@ -98,7 +97,6 @@ const conferences = conferencesData
     <Conferences conferences={conferences} />
     <Groups groups={groups} />
     <SubmitCTA />
-    <NewsletterSection />
   </main>
   <LandingFooter />
 </LandingLayout>
