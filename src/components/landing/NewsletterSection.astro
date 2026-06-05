@@ -3,6 +3,8 @@
 // hidden redirect, and field names match NewsletterSignup.astro exactly so the
 // live subscribe path (redirect to /newsletter-thank-you) is preserved.
 const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true";
+// Bound via expression so the literal backslash in \. survives Astro's HTML parser.
+const EMAIL_PATTERN = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$";
 ---
 <section class="section news-section" id="subscribe">
   <div class="news-inner">
@@ -15,7 +17,7 @@ const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cf
       action={ACTION}
       method="POST"
       enctype="multipart/form-data"
-      onkeydown="if(event.keyCode === 13 && event.target.type !== 'submit') { event.preventDefault(); }"
+      onkeydown="if(event.key === 'Enter' && event.target.type !== 'submit') { event.preventDefault(); }"
     >
       <input type="hidden" name="redirect" value="https://757tech.org/newsletter-thank-you" />
       <div class="news-form-row">
@@ -23,7 +25,7 @@ const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cf
         <input type="text" name="fields_last_name" placeholder="Last name" required />
       </div>
       <div class="news-form-row">
-        <input id="news-email" type="email" name="email" placeholder="you@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" />
+        <input id="news-email" type="email" name="email" placeholder="you@email.com" required pattern={EMAIL_PATTERN} />
         <button type="submit" class="btn-coral">Subscribe free</button>
       </div>
     </form>
