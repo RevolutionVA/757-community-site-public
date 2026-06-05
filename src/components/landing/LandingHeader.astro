@@ -14,7 +14,7 @@ const links = [
     <a class="brand" href="#top" aria-label="757tech home">
       <img src="/images/757tech-logo.png" alt="757tech — tech community" />
     </a>
-    <nav class="nav" aria-label="Main navigation">
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
       {links.map(([label, href]) => <a href={href}>{label}</a>)}
     </nav>
     <div class="header-social">
@@ -29,15 +29,33 @@ const links = [
         </svg>
       </a>
     </div>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
     <a class="btn-coral header-cta" href="#subscribe">Subscribe</a>
   </div>
 </header>
 
 <script>
   const header = document.getElementById("site-header");
+  const toggle = header?.querySelector<HTMLButtonElement>(".nav-toggle");
+  const nav = document.getElementById("primary-nav");
   if (header) {
     const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 24);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
+  }
+  if (header && toggle && nav) {
+    const setOpen = (open: boolean) => {
+      header.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    };
+    toggle.addEventListener("click", () => setOpen(!header.classList.contains("nav-open")));
+    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
   }
 </script>

@@ -15,21 +15,25 @@ export interface EventVM {
   title: string;
   rel: string;
   ts: number;
+  past?: boolean;
   search: string;
 }
 interface Props {
   events: EventVM[];
+  calendarEvents: EventVM[];
   counts: Record<string, number>;
   todayKey: string;
   groupCount: number;
 }
-const { events, counts, todayKey, groupCount } = Astro.props;
+const { events, calendarEvents, counts, todayKey, groupCount } = Astro.props;
 const chips = ["All", ...CATEGORIES];
 
-// Trimmed payload the client island needs to render the week calendar.
-const clientData = events.map((e) => ({
+// Full set (past + future) the client island needs to render the week/month
+// calendar. The list view above is server-rendered from `events` (upcoming).
+const clientData = calendarEvents.map((e) => ({
   id: e.id, url: e.url, category: e.category, dateKey: e.dateKey,
-  timeLabel: e.timeLabel, group: e.group, title: e.title, ts: e.ts, search: e.search,
+  timeLabel: e.timeLabel, group: e.group, title: e.title, ts: e.ts,
+  past: e.past ?? false, search: e.search,
 }));
 const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
 ---
@@ -110,7 +114,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
 
   type Ev = {
     id: string; url: string; category: string; dateKey: string;
-    timeLabel: string; group: string; title: string; ts: number; search: string;
+    timeLabel: string; group: string; title: string; ts: number; past: boolean; search: string;
   };
 
   const section = document.querySelector<HTMLElement>(".events-section");
@@ -218,7 +222,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         const body = el("div", "week-col-body");
         if (dayEvs.length) {
           for (const e of dayEvs) {
-            const a = eventLink(e, "week-ev", catColor(e.category).dot);
+            const a = eventLink(e, "week-ev" + (e.past ? " past" : ""), catColor(e.category).dot);
             a.append(
               el("div", "we-time", e.timeLabel),
               el("div", "we-title", e.title),
@@ -264,7 +268,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         if (dayEvs.length) {
           const box = el("div", "mc-events");
           for (const e of dayEvs.slice(0, 3)) {
-            const a = eventLink(e, "month-ev", catColor(e.category).dot);
+            const a = eventLink(e, "month-ev" + (e.past ? " past" : ""), catColor(e.category).dot);
             a.title = `${e.timeLabel} · ${e.title} (${e.group})`;
             a.append(el("span", "me-time", e.timeLabel + " "), el("span", "me-t", e.title));
             box.appendChild(a);

@@ -153,14 +153,20 @@ const fullTitle = `${title} | 757 Tech Community`;
     max-width: 1200px; margin: 0 auto; padding: 0 28px;
     display: flex; align-items: center; gap: 24px;
   }
-  .brand img { height: 64px; width: auto; transition: height .25s ease; }
-  .site-header.scrolled .brand img { height: 50px; }
+  /* At the top of the page the hero shows the prominent logo, so the navbar
+     brand is hidden; it fades in (small) once the header condenses on scroll. */
+  .brand { opacity: 0; pointer-events: none; transition: opacity .25s ease; }
+  .site-header.scrolled .brand { opacity: 1; pointer-events: auto; }
+  .brand img { height: 50px; width: auto; }
   .nav { display: flex; gap: 28px; margin-left: auto; }
   .nav a { font-weight: 600; font-size: 15.5px; color: var(--deep); position: relative; padding: 4px 0; opacity: .82; transition: opacity .15s; }
   .nav a:hover { opacity: 1; }
   .nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -2px; height: 2px; background: var(--tide); transition: right .2s ease; border-radius: 2px; }
   .nav a:hover::after { right: 0; }
   .header-cta { padding: 10px 20px; font-size: 15px; }
+
+  .nav-toggle { display: none; width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px; border: 1.5px solid var(--line); background: #fff; color: var(--deep); cursor: pointer; place-items: center; transition: border-color .15s, color .15s; }
+  .nav-toggle:hover { border-color: var(--tide); color: var(--tide); }
 
   .header-social { display: flex; gap: 7px; align-items: center; }
   .social-ico { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; color: var(--deep); border: 1.5px solid var(--line); background: #fff; transition: all .15s ease; }
@@ -169,10 +175,24 @@ const fullTitle = `${title} | 757 Tech Community`;
   .social-ico.discord:hover { background: #5865F2; }
   @media (max-width: 920px) { .header-social { display: none; } }
 
-  @media (max-width: 760px) { .nav { display: none; } }
+  @media (max-width: 760px) {
+    .nav-toggle { display: grid; margin-left: auto; }
+    .header-cta { margin-left: 12px; }
+    .nav {
+      position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 8px;
+      flex-direction: column; gap: 2px; display: none;
+      background: rgba(255,255,255,.97); backdrop-filter: blur(12px);
+      border-top: 1px solid var(--line); box-shadow: var(--shadow);
+    }
+    .site-header.nav-open .nav { display: flex; }
+    .nav a { padding: 12px 14px; font-size: 16px; opacity: 1; border-radius: 10px; }
+    .nav a:hover { background: var(--sand-soft); }
+    .nav a::after { display: none; }
+  }
 
   /* ---------- hero ---------- */
   .hero { position: relative; }
+  .hero-logo { height: clamp(84px, 12vw, 132px); width: auto; margin-bottom: 22px; }
   .hero h1 { font-size: clamp(38px, 6vw, 72px); font-weight: 800; color: var(--deep); }
   .hero h1 .hl { color: var(--tide); position: relative; white-space: nowrap; }
   .hero-sub { font-size: clamp(17px, 1.6vw, 21px); color: var(--muted); max-width: 560px; margin: 22px 0 28px; line-height: 1.55; }
@@ -335,6 +355,9 @@ const fullTitle = `${title} | 757 Tech Community`;
   .me-time { font-family: var(--font-head); font-weight: 700; font-size: 10.5px; color: var(--c, var(--tide)); filter: saturate(.9) brightness(.85); }
   .me-t { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; color: var(--deep); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .mc-more { font-family: var(--font-head); font-weight: 700; font-size: 11px; color: var(--muted); }
+  /* past events stay visible but recede */
+  .week-ev.past, .month-ev.past { opacity: .48; }
+  .week-ev.past .we-time, .month-ev.past .me-time { color: var(--muted); filter: none; }
   @media (max-width: 640px) {
     .month-cell { min-height: 64px; padding: 5px; gap: 3px; }
     .mc-day { font-size: 12px; }

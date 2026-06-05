@@ -23,29 +23,38 @@ const windowEnd = new Date(now.getTime() + 56 * 86400000); // ~next 8 weeks
 // group name -> meetup record (for category + tags), same key used elsewhere.
 const meetupByName = new Map(meetupsData.map((m) => [m.name, m]));
 
-// ---- Events: upcoming, mapped to category/tags via their meetup group ----
-const events = calendarEvents
+// ---- Events: map each to category/tags via its meetup group ----
+function toVM(ev: (typeof calendarEvents)[number], d: Date, i: number) {
+  const meetup = meetupByName.get(ev.group);
+  const category = meetup?.category ?? "Community";
+  const tags = meetup?.tags ?? [];
+  const disp = eventDisplay(d);
+  return {
+    id: `ev-${i}`,
+    url: ev.link,
+    category,
+    tags,
+    ...disp,
+    group: ev.group,
+    title: ev.title,
+    rel: relativeLabel(disp.dateKey, todayKey),
+    ts: d.getTime(),
+    past: disp.dateKey < todayKey,
+    search: `${ev.group} ${ev.title} ${tags.join(" ")} ${category}`.toLowerCase(),
+  };
+}
+
+// Full set (past + future) drives the week/month calendar so you can navigate
+// across time; past events render grayed out. The list view below stays focused
+// on the upcoming window.
+const allEvents = calendarEvents
   .map((ev, i) => ({ ev, d: new Date(ev.date), i }))
-  .filter(({ d }) => d >= now && d <= windowEnd)
   .sort((a, b) => a.d.getTime() - b.d.getTime())
-  .map(({ ev, d, i }) => {
-    const meetup = meetupByName.get(ev.group);
-    const category = meetup?.category ?? "Community";
-    const tags = meetup?.tags ?? [];
-    const disp = eventDisplay(d);
-    return {
-      id: `ev-${i}`,
-      url: ev.link,
-      category,
-      tags,
-      ...disp,
-      group: ev.group,
-      title: ev.title,
-      rel: relativeLabel(disp.dateKey, todayKey),
-      ts: d.getTime(),
-      search: `${ev.group} ${ev.title} ${tags.join(" ")} ${category}`.toLowerCase(),
-    };
-  });
+  .map(({ ev, d, i }) => toVM(ev, d, i));
+
+const events = allEvents.filter(
+  (e) => e.ts >= now.getTime() && e.ts <= windowEnd.getTime(),
+);
 
 const counts: Record<string, number> = { All: events.length };
 for (const c of CATEGORIES) counts[c] = events.filter((e) => e.category === c).length;
@@ -95,7 +104,7 @@ const conferences = chosen.map((c) => {
   <LandingHeader />
   <main>
     <SplitHero nextEvent={nextEvent} />
-    <EventsExplorer events={events} counts={counts} todayKey={todayKey} groupCount={groups.length} />
+    <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} todayKey={todayKey} groupCount={groups.length} />
     <Conferences conferences={conferences} />
     <Groups groups={groups} />
     <SubmitCTA />
