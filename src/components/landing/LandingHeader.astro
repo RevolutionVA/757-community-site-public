@@ -1,7 +1,7 @@
 ---
 // Sticky coastal header. Real Slack/Discord invite URLs reused from the site.
-const SLACK = "https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ";
-const DISCORD = "https://discord.gg/bPGsCKBqWp";
+import { COMMUNITY } from "../../data/community";
+const { slack: SLACK, discord: DISCORD } = COMMUNITY;
 const links = [
   ["Events", "#events"],
   ["Conferences", "#conferences"],
@@ -14,7 +14,7 @@ const links = [
     <a class="brand" href="#top" aria-label="757tech home">
       <img src="/images/757tech-logo.png" alt="757tech — tech community" />
     </a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
       {links.map(([label, href]) => <a href={href}>{label}</a>)}
     </nav>
     <div class="header-social">

@@ -17,7 +17,7 @@ const {
   canonicalUrl = Astro.url.pathname,
 } = Astro.props;
 
-const siteUrl = "https://757tech.org";
+const siteUrl = import.meta.env.SITE ?? "https://757tech.org";
 const fullCanonicalUrl = `${siteUrl}${canonicalUrl}`;
 const fullTitle = `${title} | 757 Tech Community`;
 ---
@@ -190,14 +190,14 @@ const fullTitle = `${title} | 757 Tech Community`;
   /* next-event peek card */
   .next-card { display: flex; gap: 14px; align-items: flex-start; padding: 14px; border-radius: 16px; background: var(--sand-soft); border: 1px solid var(--line); transition: transform .15s, box-shadow .15s; }
   .next-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
-  .next-date { flex-shrink: 0; width: 60px; text-align: center; border-radius: 13px; padding: 9px 0; line-height: 1; }
+  .next-date { flex-shrink: 0; width: 64px; text-align: center; border-radius: 13px; padding: 9px 0 7px; line-height: 1; }
   .nd-dow { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
   .nd-day { display: block; font-family: var(--font-head); font-weight: 800; font-size: 26px; margin: 2px 0; }
   .nd-mon { display: block; font-family: var(--font-head); font-weight: 600; font-size: 11px; text-transform: uppercase; opacity: .85; }
+  .nd-time { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; white-space: nowrap; margin-top: 6px; padding-top: 6px; border-top: 1px solid color-mix(in srgb, currentColor 25%, transparent); }
   .next-body { flex: 1; min-width: 0; }
-  .next-group { font-family: var(--font-head); font-weight: 700; font-size: 16px; color: var(--deep); margin: 7px 0 1px; }
-  .next-title { font-size: 14px; color: var(--muted); line-height: 1.4; }
-  .next-meta { font-size: 12.5px; color: var(--ink); margin-top: 8px; font-weight: 500; }
+  .next-title { font-family: var(--font-head); font-weight: 700; font-size: 16px; color: var(--deep); margin: 7px 0 2px; line-height: 1.3; }
+  .next-group { font-size: 13.5px; color: var(--muted); line-height: 1.4; }
   @media (max-width: 860px) { .hero-split-grid { grid-template-columns: 1fr; } }
 
   /* ---------- email capture ---------- */
@@ -262,18 +262,18 @@ const fullTitle = `${title} | 757 Tech Community`;
   }
   .event-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: transparent; }
   .ec-date {
-    flex-shrink: 0; width: 58px; text-align: center; background: var(--sand-soft);
-    border-radius: 14px; padding: 9px 0; line-height: 1;
+    flex-shrink: 0; width: 64px; text-align: center; background: var(--sand-soft);
+    border-radius: 14px; padding: 9px 0 7px; line-height: 1;
   }
   .ec-dow { display: block; font-size: 11px; font-weight: 700; color: var(--coral); text-transform: uppercase; letter-spacing: .05em; }
   .ec-day { display: block; font-family: var(--font-head); font-weight: 800; font-size: 25px; color: var(--deep); margin: 3px 0; }
   .ec-mon { display: block; font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; }
+  .ec-time { display: block; font-family: var(--font-head); font-size: 11px; font-weight: 700; color: var(--deep-2); white-space: nowrap; margin-top: 6px; padding-top: 6px; border-top: 1px solid color-mix(in srgb, var(--line) 75%, transparent); }
   .ec-body { flex: 1; min-width: 0; }
-  .ec-top { display: flex; align-items: center; gap: 10px; margin-bottom: 7px; }
-  .ec-rel { font-size: 12.5px; font-weight: 600; color: var(--muted); margin-left: auto; }
-  .ec-group { font-family: var(--font-head); font-weight: 700; font-size: 16px; color: var(--deep); }
-  .ec-title { font-size: 14.5px; color: var(--muted); margin: 3px 0 9px; line-height: 1.4; }
-  .ec-meta { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; color: var(--ink); margin-bottom: 10px; }
+  .ec-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .ec-rel { font-family: var(--font-head); font-size: 11.5px; font-weight: 700; color: var(--coral); text-transform: uppercase; letter-spacing: .04em; margin-left: auto; background: color-mix(in srgb, var(--coral) 12%, #fff); padding: 2px 9px; border-radius: 999px; }
+  .ec-title { font-family: var(--font-head); font-weight: 700; font-size: 16.5px; color: var(--deep); line-height: 1.25; }
+  .ec-group { font-size: 13.5px; color: var(--muted); margin: 4px 0 9px; }
   .ec-tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .ec-tag { font-size: 11.5px; font-weight: 600; color: var(--deep-2); background: color-mix(in srgb, var(--seafoam) 20%, #fff); padding: 3px 9px; border-radius: 999px; }
   .ec-arrow { position: absolute; top: 16px; right: 16px; color: var(--tide); font-weight: 700; opacity: 0; transform: translateX(-4px); transition: all .15s; }
@@ -306,8 +306,8 @@ const fullTitle = `${title} | 757 Tech Community`;
   .week-ev { display: block; background: #fff; border: 1px solid var(--line); border-left: 3px solid var(--c, var(--tide)); border-radius: 10px; padding: 9px 10px; transition: transform .12s, box-shadow .12s; }
   .week-ev:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); border-color: transparent; border-left-color: var(--c, var(--tide)); }
   .we-time { font-family: var(--font-head); font-weight: 700; font-size: 12px; color: var(--c, var(--tide)); filter: saturate(.9) brightness(.85); }
-  .we-group { font-family: var(--font-head); font-weight: 700; font-size: 13px; color: var(--deep); line-height: 1.2; margin: 2px 0 1px; }
-  .we-title { font-size: 12px; color: var(--muted); line-height: 1.35; }
+  .we-title { font-family: var(--font-head); font-weight: 700; font-size: 13px; color: var(--deep); line-height: 1.25; margin: 2px 0 1px; }
+  .we-group { font-size: 12px; color: var(--muted); line-height: 1.3; }
   .week-empty { text-align: center; color: color-mix(in srgb, var(--muted) 45%, #fff); font-size: 18px; padding: 8px 0; }
   .cal-hint { text-align: center; color: var(--muted); font-size: 14px; margin-top: 18px; }
 
@@ -318,6 +318,28 @@ const fullTitle = `${title} | 757 Tech Community`;
     .week-col-head { display: flex; flex-direction: column; justify-content: center; min-width: 64px; border-bottom: none; border-right: 1px solid color-mix(in srgb, var(--line) 70%, transparent); }
     .week-col-body { flex-direction: row; flex-wrap: wrap; }
     .week-ev { flex: 1; min-width: 180px; }
+  }
+
+  /* ---------- calendar (month view) ---------- */
+  .month-dows { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin-bottom: 8px; }
+  .month-dow { text-align: center; font-family: var(--font-head); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .month-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+  .month-cell { background: var(--sand-soft); border-radius: 12px; min-height: 98px; padding: 7px 7px 8px; display: flex; flex-direction: column; gap: 5px; overflow: hidden; }
+  .month-cell.out { background: transparent; }
+  .month-cell.out .mc-day { color: color-mix(in srgb, var(--muted) 50%, #fff); }
+  .month-cell.today { box-shadow: inset 0 0 0 2px var(--coral); background: color-mix(in srgb, var(--coral) 6%, #fff); }
+  .mc-day { font-family: var(--font-head); font-weight: 800; font-size: 14px; color: var(--deep); line-height: 1; }
+  .mc-events { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .month-ev { display: block; background: #fff; border: 1px solid var(--line); border-left: 3px solid var(--c, var(--tide)); border-radius: 7px; padding: 3px 6px; line-height: 1.25; overflow: hidden; transition: box-shadow .12s; }
+  .month-ev:hover { box-shadow: var(--shadow-sm); border-color: transparent; border-left-color: var(--c, var(--tide)); }
+  .me-time { font-family: var(--font-head); font-weight: 700; font-size: 10.5px; color: var(--c, var(--tide)); filter: saturate(.9) brightness(.85); }
+  .me-t { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; color: var(--deep); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mc-more { font-family: var(--font-head); font-weight: 700; font-size: 11px; color: var(--muted); }
+  @media (max-width: 640px) {
+    .month-cell { min-height: 64px; padding: 5px; gap: 3px; }
+    .mc-day { font-size: 12px; }
+    .me-t { display: none; }
+    .month-ev { padding: 2px 5px; }
   }
 
   .empty-state { text-align: center; padding: 60px 20px; color: var(--muted); }

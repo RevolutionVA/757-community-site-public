@@ -35,14 +35,14 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
             <span class="nd-dow">{nextEvent.dow}</span>
             <span class="nd-day">{nextEvent.day}</span>
             <span class="nd-mon">{nextEvent.mon}</span>
+            <span class="nd-time">{nextEvent.timeLabel}</span>
           </div>
           <div class="next-body">
             <span class="cat-badge" style={`background:${c.bg};color:${c.fg};font-size:11px`}>
               <span class="cat-dot" style={`background:${c.dot}`}></span>{nextEvent.category}
             </span>
-            <div class="next-group">{nextEvent.group}</div>
             <div class="next-title">{nextEvent.title}</div>
-            <div class="next-meta">{nextEvent.timeLabel}</div>
+            <div class="next-group">{nextEvent.group}</div>
           </div>
         </a>
       )}

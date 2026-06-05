@@ -58,7 +58,8 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
       </div>
       <div class="view-toggle" data-view-toggle>
         <button class="active" data-view="list">List</button>
-        <button data-view="calendar">Calendar</button>
+        <button data-view="week">Week</button>
+        <button data-view="month">Month</button>
       </div>
     </div>
   </div>
@@ -72,17 +73,17 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
             <span class="ec-dow">{e.dow}</span>
             <span class="ec-day">{e.day}</span>
             <span class="ec-mon">{e.mon}</span>
+            <span class="ec-time">{e.timeLabel}</span>
           </div>
           <div class="ec-body">
             <div class="ec-top">
               <span class="cat-badge" style={`background:${c.bg};color:${c.fg};font-size:12px`}>
                 <span class="cat-dot" style={`background:${c.dot}`}></span>{e.category}
               </span>
-              <span class="ec-rel">{e.rel}</span>
+              {e.rel && <span class="ec-rel">{e.rel}</span>}
             </div>
-            <div class="ec-group">{e.group}</div>
             <div class="ec-title">{e.title}</div>
-            <div class="ec-meta"><span>🕒 {e.timeLabel}</span></div>
+            <div class="ec-group">{e.group}</div>
             <div class="ec-tags">
               {e.tags.map((t) => <span class="ec-tag">{t}</span>)}
             </div>
@@ -105,17 +106,19 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
 </section>
 
 <script>
-  import { catColor, weekDays, weekRangeLabel } from "./utils";
+  import { catColor, weekDays, weekRangeLabel, monthGrid, DOW } from "./utils";
+
+  type Ev = {
+    id: string; url: string; category: string; dateKey: string;
+    timeLabel: string; group: string; title: string; ts: number; search: string;
+  };
 
   const section = document.querySelector<HTMLElement>(".events-section");
   if (section) {
     const todayKey = section.dataset.today || "";
     const allEvents = JSON.parse(
       section.querySelector("[data-events-data]")?.textContent || "[]",
-    ) as Array<{
-      id: string; url: string; category: string; dateKey: string;
-      timeLabel: string; group: string; title: string; ts: number; search: string;
-    }>;
+    ) as Ev[];
 
     const catChips = section.querySelectorAll<HTMLButtonElement>("[data-cat-chips] .chip");
     const cards = section.querySelectorAll<HTMLElement>("[data-event-grid] .event-card");
@@ -128,8 +131,9 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
 
     let cat = "All";
     let q = "";
-    let view: "list" | "calendar" = "list";
+    let view: "list" | "week" | "month" = "list";
     let weekOffset = 0;
+    let monthOffset = 0;
 
     const matches = (e: { category: string; search: string }) => {
       if (cat !== "All" && e.category !== cat) return false;
@@ -142,6 +146,21 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
       if (className) n.className = className;
       if (text != null) n.textContent = text;
       return n;
+    }
+
+    // Group the currently-filtered events by their ET date key, time-sorted.
+    function groupFiltered(): Record<string, Ev[]> {
+      const byKey: Record<string, Ev[]> = {};
+      for (const e of allEvents.filter(matches)) (byKey[e.dateKey] ||= []).push(e);
+      for (const k in byKey) byKey[k].sort((a, b) => a.ts - b.ts);
+      return byKey;
+    }
+
+    function eventLink(e: Ev, className: string, dot: string) {
+      const a = el("a", className) as HTMLAnchorElement;
+      a.href = e.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.style.setProperty("--c", dot);
+      return a;
     }
 
     function renderList() {
@@ -157,31 +176,36 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
       empty.hidden = visible !== 0;
     }
 
-    function renderCalendar() {
+    function calHead(title: string, sub: string, onPrev: () => void, onNext: () => void, resetLabel: string, atZero: boolean, onReset: () => void) {
+      const head = el("div", "cal-head");
+      const prev = el("button", "cal-nav", "‹"); prev.setAttribute("aria-label", "Previous");
+      const next = el("button", "cal-nav", "›"); next.setAttribute("aria-label", "Next");
+      prev.onclick = onPrev; next.onclick = onNext;
+      const t = el("div", "cal-title", title);
+      t.appendChild(el("span", "cal-sub", sub));
+      head.append(prev, t, next);
+      if (!atZero) {
+        const btn = el("button", "cal-today-btn", resetLabel);
+        btn.onclick = onReset;
+        head.appendChild(btn);
+      }
+      return head;
+    }
+
+    function renderWeek() {
       calWrap.innerHTML = "";
       const days = weekDays(todayKey, weekOffset);
-      const evs = allEvents.filter(matches);
-      const byKey: Record<string, typeof evs> = {};
-      for (const e of evs) (byKey[e.dateKey] ||= []).push(e);
-      for (const k in byKey) byKey[k].sort((a, b) => a.ts - b.ts);
+      const byKey = groupFiltered();
+      const count = days.reduce((n, d) => n + (byKey[d.key]?.length || 0), 0);
 
       const cal = el("div", "calendar week");
-      const head = el("div", "cal-head");
-      const prev = el("button", "cal-nav", "‹"); prev.setAttribute("aria-label", "Previous week");
-      const next = el("button", "cal-nav", "›"); next.setAttribute("aria-label", "Next week");
-      prev.onclick = () => { weekOffset--; renderCalendar(); };
-      next.onclick = () => { weekOffset++; renderCalendar(); };
-      const weekCount = days.reduce((n, d) => n + (byKey[d.key]?.length || 0), 0);
-      const title = el("div", "cal-title", weekRangeLabel(days));
-      const sub = el("span", "cal-sub", `${weekCount} event${weekCount === 1 ? "" : "s"} · ${days[0].year}`);
-      title.appendChild(sub);
-      head.append(prev, title, next);
-      if (weekOffset !== 0) {
-        const todayBtn = el("button", "cal-today-btn", "This week");
-        todayBtn.onclick = () => { weekOffset = 0; renderCalendar(); };
-        head.appendChild(todayBtn);
-      }
-      cal.appendChild(head);
+      cal.appendChild(calHead(
+        weekRangeLabel(days),
+        `${count} event${count === 1 ? "" : "s"} · ${days[0].year}`,
+        () => { weekOffset--; renderWeek(); },
+        () => { weekOffset++; renderWeek(); },
+        "This week", weekOffset === 0, () => { weekOffset = 0; renderWeek(); },
+      ));
 
       const wgrid = el("div", "week-grid");
       for (const d of days) {
@@ -194,14 +218,11 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         const body = el("div", "week-col-body");
         if (dayEvs.length) {
           for (const e of dayEvs) {
-            const c = catColor(e.category);
-            const a = el("a", "week-ev") as HTMLAnchorElement;
-            a.href = e.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-            a.style.setProperty("--c", c.dot);
+            const a = eventLink(e, "week-ev", catColor(e.category).dot);
             a.append(
               el("div", "we-time", e.timeLabel),
-              el("div", "we-group", e.group),
               el("div", "we-title", e.title),
+              el("div", "we-group", e.group),
             );
             body.appendChild(a);
           }
@@ -212,46 +233,88 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         wgrid.appendChild(col);
       }
       cal.appendChild(wgrid);
-      if (weekCount === 0) cal.appendChild(el("div", "cal-hint", "No meetups this week — try the next one →"));
+      if (count === 0) cal.appendChild(el("div", "cal-hint", "No meetups this week — try the next one →"));
       calWrap.appendChild(cal);
     }
 
-    function update() {
+    function renderMonth() {
+      calWrap.innerHTML = "";
+      const mv = monthGrid(todayKey, monthOffset);
+      const byKey = groupFiltered();
+      const count = mv.days.reduce((n, d) => n + (d.inMonth ? (byKey[d.key]?.length || 0) : 0), 0);
+
+      const cal = el("div", "calendar month");
+      cal.appendChild(calHead(
+        mv.label,
+        `${count} event${count === 1 ? "" : "s"}`,
+        () => { monthOffset--; renderMonth(); },
+        () => { monthOffset++; renderMonth(); },
+        "This month", monthOffset === 0, () => { monthOffset = 0; renderMonth(); },
+      ));
+
+      const dows = el("div", "month-dows");
+      for (const d of DOW) dows.appendChild(el("div", "month-dow", d));
+      cal.appendChild(dows);
+
+      const mgrid = el("div", "month-grid");
+      for (const cell of mv.days) {
+        const dayEvs = cell.inMonth ? (byKey[cell.key] || []) : [];
+        const c = el("div", "month-cell" + (cell.inMonth ? "" : " out") + (cell.isToday ? " today" : ""));
+        c.appendChild(el("div", "mc-day", String(cell.day)));
+        if (dayEvs.length) {
+          const box = el("div", "mc-events");
+          for (const e of dayEvs.slice(0, 3)) {
+            const a = eventLink(e, "month-ev", catColor(e.category).dot);
+            a.title = `${e.timeLabel} · ${e.title} (${e.group})`;
+            a.append(el("span", "me-time", e.timeLabel + " "), el("span", "me-t", e.title));
+            box.appendChild(a);
+          }
+          if (dayEvs.length > 3) box.appendChild(el("div", "mc-more", `+${dayEvs.length - 3} more`));
+          c.appendChild(box);
+        }
+        mgrid.appendChild(c);
+      }
+      cal.appendChild(mgrid);
+      if (count === 0) cal.appendChild(el("div", "cal-hint", "No meetups this month — try the next one →"));
+      calWrap.appendChild(cal);
+    }
+
+    function render() {
       if (view === "list") renderList();
-      else renderCalendar();
+      else if (view === "week") renderWeek();
+      else renderMonth();
     }
 
     catChips.forEach((chip) => {
       chip.addEventListener("click", () => {
         cat = chip.dataset.cat || "All";
         catChips.forEach((c) => c.classList.toggle("active", c === chip));
-        update();
+        render();
       });
     });
 
     searchInput.addEventListener("input", () => {
       q = searchInput.value.trim();
       searchClear.hidden = q === "";
-      update();
+      render();
     });
     searchClear.addEventListener("click", () => {
-      searchInput.value = ""; q = ""; searchClear.hidden = true; searchInput.focus(); update();
+      searchInput.value = ""; q = ""; searchClear.hidden = true; searchInput.focus(); render();
     });
 
     viewBtns.forEach((btn) => {
       btn.addEventListener("click", () => {
-        view = btn.dataset.view === "calendar" ? "calendar" : "list";
+        view = (btn.dataset.view as typeof view) || "list";
         viewBtns.forEach((b) => b.classList.toggle("active", b === btn));
-        if (view === "calendar") {
-          // inline style needed: author .event-grid{display:grid} beats [hidden]
+        if (view === "list") {
+          calWrap.hidden = true;
+          grid.style.display = ""; // author .event-grid{display:grid} beats [hidden]
+          renderList();
+        } else {
           grid.style.display = "none";
           empty.hidden = true;
           calWrap.hidden = false;
-          renderCalendar();
-        } else {
-          calWrap.hidden = true;
-          grid.style.display = "";
-          renderList();
+          render();
         }
       });
     });
@@ -260,7 +323,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
       cat = "All"; q = "";
       searchInput.value = ""; searchClear.hidden = true;
       catChips.forEach((c) => c.classList.toggle("active", c.dataset.cat === "All"));
-      update();
+      render();
     });
 
     renderList();

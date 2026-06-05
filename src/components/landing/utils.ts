@@ -77,15 +77,14 @@ export function dayDiffKeys(a: string, b: string): number {
   );
 }
 
+// Urgency cue only. The date badge already carries the weekday + full date,
+// so this deliberately returns just "Today"/"Tomorrow" (or "") to avoid
+// showing the day of week twice.
 export function relativeLabel(dateKey: string, todayKey: string): string {
   const diff = dayDiffKeys(dateKey, todayKey);
   if (diff === 0) return "Today";
   if (diff === 1) return "Tomorrow";
-  if (diff > 1 && diff < 7) {
-    return DOW[new Date(dateKey + "T00:00:00Z").getUTCDay()];
-  }
-  const d = new Date(dateKey + "T00:00:00Z");
-  return `${MON[d.getUTCMonth()]} ${d.getUTCDate()}`;
+  return "";
 }
 
 /* ---------- week calendar math (client) ----------
@@ -107,7 +106,7 @@ export function weekDays(todayKey: string, offset: number): WeekDay[] {
     const cur = new Date(Date.UTC(
       start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate() + i,
     ));
-    const key = etKeyFromUTC(cur);
+    const key = utcDateKey(cur);
     days.push({
       key,
       dow: DOW[cur.getUTCDay()],
@@ -120,7 +119,10 @@ export function weekDays(todayKey: string, offset: number): WeekDay[] {
   return days;
 }
 
-function etKeyFromUTC(d: Date): string {
+// Reads the UTC fields verbatim — NOT an ET conversion. Callers anchor their
+// arithmetic off `todayKey` (already computed in ET via etDateKey) and build
+// dates with Date.UTC, so reading UTC fields back yields the correct ET-day key.
+function utcDateKey(d: Date): string {
   const p = (n: number) => String(n).padStart(2, "0");
   return `${d.getUTCFullYear()}-${p(d.getUTCMonth() + 1)}-${p(d.getUTCDate())}`;
 }
@@ -130,4 +132,40 @@ export function weekRangeLabel(days: WeekDay[]): string {
   return a.mon === b.mon
     ? `${MON[a.mon]} ${a.day} – ${b.day}`
     : `${MON[a.mon]} ${a.day} – ${MON[b.mon]} ${b.day}`;
+}
+
+/* ---------- month calendar math (client) ---------- */
+
+export const MONTHS_FULL = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+export interface MonthCell { key: string; day: number; inMonth: boolean; isToday: boolean; }
+export interface MonthView { label: string; year: number; days: MonthCell[]; }
+
+// Full 7-wide grid (5 or 6 rows) for the month containing today + offset months.
+export function monthGrid(todayKey: string, offset: number): MonthView {
+  const [y, m] = todayKey.split("-").map(Number);
+  const first = new Date(Date.UTC(y, m - 1 + offset, 1));
+  const year = first.getUTCFullYear();
+  const monthIndex = first.getUTCMonth();
+  const leading = first.getUTCDay();
+  const daysInMonth = new Date(Date.UTC(year, monthIndex + 1, 0)).getUTCDate();
+  const totalCells = Math.ceil((leading + daysInMonth) / 7) * 7;
+  const start = new Date(Date.UTC(year, monthIndex, 1 - leading));
+  const days: MonthCell[] = [];
+  for (let i = 0; i < totalCells; i++) {
+    const cur = new Date(Date.UTC(
+      start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate() + i,
+    ));
+    const key = utcDateKey(cur);
+    days.push({
+      key,
+      day: cur.getUTCDate(),
+      inMonth: cur.getUTCMonth() === monthIndex,
+      isToday: key === todayKey,
+    });
+  }
+  return { label: `${MONTHS_FULL[monthIndex]} ${year}`, year, days };
 }
