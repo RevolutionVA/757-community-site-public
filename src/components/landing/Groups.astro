@@ -1,0 +1,57 @@
+---
+import { CATEGORIES, catColor } from "./utils";
+
+export interface GroupVM { name: string; url: string; tags: string[]; category: string; }
+interface Props { groups: GroupVM[]; }
+const { groups } = Astro.props;
+const chips = ["All", ...CATEGORIES];
+const initials = (name: string) =>
+  name.replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase();
+---
+<section class="section groups-section" id="groups">
+  <div class="section-head">
+    <div>
+      <span class="kicker">The community</span>
+      <h2>{groups.length} groups, one tide</h2>
+    </div>
+    <p class="section-lead">From Python to platform engineering, infosec to UX — find your people.</p>
+  </div>
+  <div class="filter-chips center" data-group-chips>
+    {chips.map((c) => (
+      <button class={"chip" + (c === "All" ? " active" : "")} data-cat={c}>{c}</button>
+    ))}
+  </div>
+  <div class="groups-grid" data-groups-grid>
+    {groups.map((g) => {
+      const col = catColor(g.category);
+      return (
+        <a class="group-card" href={g.url} target="_blank" rel="noopener noreferrer" data-category={g.category}>
+          <span class="group-mark" style={`background:${col.bg};color:${col.fg}`}>{initials(g.name)}</span>
+          <div class="group-info">
+            <div class="group-name">{g.name}</div>
+            <div class="group-tags">{g.tags.join(" · ")}</div>
+          </div>
+          <span class="group-arrow">↗</span>
+        </a>
+      );
+    })}
+  </div>
+</section>
+
+<script>
+  const section = document.querySelector(".groups-section");
+  if (section) {
+    const chips = section.querySelectorAll<HTMLButtonElement>("[data-group-chips] .chip");
+    const cards = section.querySelectorAll<HTMLElement>("[data-groups-grid] .group-card");
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const cat = chip.dataset.cat;
+        chips.forEach((c) => c.classList.toggle("active", c === chip));
+        cards.forEach((card) => {
+          const show = cat === "All" || card.dataset.category === cat;
+          card.style.display = show ? "" : "none";
+        });
+      });
+    });
+  }
+</script>

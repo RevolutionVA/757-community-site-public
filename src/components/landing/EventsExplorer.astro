@@ -1,0 +1,268 @@
+---
+import { CATEGORIES, catColor } from "./utils";
+
+export interface EventVM {
+  id: string;
+  url: string;
+  category: string;
+  tags: string[];
+  dateKey: string;
+  dow: string;
+  day: string;
+  mon: string;
+  timeLabel: string;
+  group: string;
+  title: string;
+  rel: string;
+  ts: number;
+  search: string;
+}
+interface Props {
+  events: EventVM[];
+  counts: Record<string, number>;
+  todayKey: string;
+  groupCount: number;
+}
+const { events, counts, todayKey, groupCount } = Astro.props;
+const chips = ["All", ...CATEGORIES];
+
+// Trimmed payload the client island needs to render the week calendar.
+const clientData = events.map((e) => ({
+  id: e.id, url: e.url, category: e.category, dateKey: e.dateKey,
+  timeLabel: e.timeLabel, group: e.group, title: e.title, ts: e.ts, search: e.search,
+}));
+const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
+---
+<section class="section events-section" id="events" data-today={todayKey}>
+  <div class="section-head">
+    <div>
+      <span class="kicker">What's happening</span>
+      <h2>Upcoming in the 757</h2>
+    </div>
+    <p class="section-lead">Real meetups from {groupCount} community groups across Hampton Roads. Filter, search, or browse the calendar.</p>
+  </div>
+
+  <div class="explorer-bar">
+    <div class="filter-chips" data-cat-chips>
+      {chips.map((c) => (
+        <button class={"chip" + (c === "All" ? " active" : "")} data-cat={c}>
+          {c}<span class="chip-count">{counts[c] ?? 0}</span>
+        </button>
+      ))}
+    </div>
+    <div class="explorer-tools">
+      <div class="search">
+        <span class="search-ico">⌕</span>
+        <input type="search" data-search-input placeholder="Search groups, topics, tags…" aria-label="Search events" />
+        <button class="search-clear" data-search-clear aria-label="Clear" hidden>×</button>
+      </div>
+      <div class="view-toggle" data-view-toggle>
+        <button class="active" data-view="list">List</button>
+        <button data-view="calendar">Calendar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="event-grid" data-event-grid>
+    {events.map((e) => {
+      const c = catColor(e.category);
+      return (
+        <a class="event-card" href={e.url} target="_blank" rel="noopener noreferrer" data-category={e.category} data-search={e.search}>
+          <div class="ec-date">
+            <span class="ec-dow">{e.dow}</span>
+            <span class="ec-day">{e.day}</span>
+            <span class="ec-mon">{e.mon}</span>
+          </div>
+          <div class="ec-body">
+            <div class="ec-top">
+              <span class="cat-badge" style={`background:${c.bg};color:${c.fg};font-size:12px`}>
+                <span class="cat-dot" style={`background:${c.dot}`}></span>{e.category}
+              </span>
+              <span class="ec-rel">{e.rel}</span>
+            </div>
+            <div class="ec-group">{e.group}</div>
+            <div class="ec-title">{e.title}</div>
+            <div class="ec-meta"><span>🕒 {e.timeLabel}</span></div>
+            <div class="ec-tags">
+              {e.tags.map((t) => <span class="ec-tag">{t}</span>)}
+            </div>
+          </div>
+          <span class="ec-arrow">→</span>
+        </a>
+      );
+    })}
+  </div>
+
+  <div class="empty-state" data-empty hidden>
+    <div class="empty-emoji">🏝️</div>
+    <p>No events match that filter — try another category or clear your search.</p>
+    <button class="btn-ghost" data-reset>Reset filters</button>
+  </div>
+
+  <div class="calendar-wrap" data-calendar hidden></div>
+
+  <script type="application/json" data-events-data set:html={eventsJson}></script>
+</section>
+
+<script>
+  import { catColor, weekDays, weekRangeLabel } from "./utils";
+
+  const section = document.querySelector<HTMLElement>(".events-section");
+  if (section) {
+    const todayKey = section.dataset.today || "";
+    const allEvents = JSON.parse(
+      section.querySelector("[data-events-data]")?.textContent || "[]",
+    ) as Array<{
+      id: string; url: string; category: string; dateKey: string;
+      timeLabel: string; group: string; title: string; ts: number; search: string;
+    }>;
+
+    const catChips = section.querySelectorAll<HTMLButtonElement>("[data-cat-chips] .chip");
+    const cards = section.querySelectorAll<HTMLElement>("[data-event-grid] .event-card");
+    const grid = section.querySelector<HTMLElement>("[data-event-grid]")!;
+    const empty = section.querySelector<HTMLElement>("[data-empty]")!;
+    const calWrap = section.querySelector<HTMLElement>("[data-calendar]")!;
+    const searchInput = section.querySelector<HTMLInputElement>("[data-search-input]")!;
+    const searchClear = section.querySelector<HTMLButtonElement>("[data-search-clear]")!;
+    const viewBtns = section.querySelectorAll<HTMLButtonElement>("[data-view-toggle] button");
+
+    let cat = "All";
+    let q = "";
+    let view: "list" | "calendar" = "list";
+    let weekOffset = 0;
+
+    const matches = (e: { category: string; search: string }) => {
+      if (cat !== "All" && e.category !== cat) return false;
+      if (q && !e.search.includes(q.toLowerCase())) return false;
+      return true;
+    };
+
+    function el(tag: string, className?: string, text?: string) {
+      const n = document.createElement(tag);
+      if (className) n.className = className;
+      if (text != null) n.textContent = text;
+      return n;
+    }
+
+    function renderList() {
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = matches({
+          category: card.dataset.category || "",
+          search: card.dataset.search || "",
+        });
+        card.style.display = show ? "" : "none";
+        if (show) visible++;
+      });
+      empty.hidden = visible !== 0;
+    }
+
+    function renderCalendar() {
+      calWrap.innerHTML = "";
+      const days = weekDays(todayKey, weekOffset);
+      const evs = allEvents.filter(matches);
+      const byKey: Record<string, typeof evs> = {};
+      for (const e of evs) (byKey[e.dateKey] ||= []).push(e);
+      for (const k in byKey) byKey[k].sort((a, b) => a.ts - b.ts);
+
+      const cal = el("div", "calendar week");
+      const head = el("div", "cal-head");
+      const prev = el("button", "cal-nav", "‹"); prev.setAttribute("aria-label", "Previous week");
+      const next = el("button", "cal-nav", "›"); next.setAttribute("aria-label", "Next week");
+      prev.onclick = () => { weekOffset--; renderCalendar(); };
+      next.onclick = () => { weekOffset++; renderCalendar(); };
+      const weekCount = days.reduce((n, d) => n + (byKey[d.key]?.length || 0), 0);
+      const title = el("div", "cal-title", weekRangeLabel(days));
+      const sub = el("span", "cal-sub", `${weekCount} event${weekCount === 1 ? "" : "s"} · ${days[0].year}`);
+      title.appendChild(sub);
+      head.append(prev, title, next);
+      if (weekOffset !== 0) {
+        const todayBtn = el("button", "cal-today-btn", "This week");
+        todayBtn.onclick = () => { weekOffset = 0; renderCalendar(); };
+        head.appendChild(todayBtn);
+      }
+      cal.appendChild(head);
+
+      const wgrid = el("div", "week-grid");
+      for (const d of days) {
+        const dayEvs = byKey[d.key] || [];
+        const col = el("div", "week-col" + (d.isToday ? " today" : "") + (dayEvs.length ? "" : " empty"));
+        const colHead = el("div", "week-col-head");
+        colHead.append(el("span", "wc-dow", d.dow), el("span", "wc-day", String(d.day)));
+        if (d.isToday) colHead.appendChild(el("span", "wc-today", "Today"));
+        col.appendChild(colHead);
+        const body = el("div", "week-col-body");
+        if (dayEvs.length) {
+          for (const e of dayEvs) {
+            const c = catColor(e.category);
+            const a = el("a", "week-ev") as HTMLAnchorElement;
+            a.href = e.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+            a.style.setProperty("--c", c.dot);
+            a.append(
+              el("div", "we-time", e.timeLabel),
+              el("div", "we-group", e.group),
+              el("div", "we-title", e.title),
+            );
+            body.appendChild(a);
+          }
+        } else {
+          body.appendChild(el("div", "week-empty", "·"));
+        }
+        col.appendChild(body);
+        wgrid.appendChild(col);
+      }
+      cal.appendChild(wgrid);
+      if (weekCount === 0) cal.appendChild(el("div", "cal-hint", "No meetups this week — try the next one →"));
+      calWrap.appendChild(cal);
+    }
+
+    function update() {
+      if (view === "list") renderList();
+      else renderCalendar();
+    }
+
+    catChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        cat = chip.dataset.cat || "All";
+        catChips.forEach((c) => c.classList.toggle("active", c === chip));
+        update();
+      });
+    });
+
+    searchInput.addEventListener("input", () => {
+      q = searchInput.value.trim();
+      searchClear.hidden = q === "";
+      update();
+    });
+    searchClear.addEventListener("click", () => {
+      searchInput.value = ""; q = ""; searchClear.hidden = true; searchInput.focus(); update();
+    });
+
+    viewBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        view = btn.dataset.view === "calendar" ? "calendar" : "list";
+        viewBtns.forEach((b) => b.classList.toggle("active", b === btn));
+        if (view === "calendar") {
+          // inline style needed: author .event-grid{display:grid} beats [hidden]
+          grid.style.display = "none";
+          empty.hidden = true;
+          calWrap.hidden = false;
+          renderCalendar();
+        } else {
+          calWrap.hidden = true;
+          grid.style.display = "";
+          renderList();
+        }
+      });
+    });
+
+    section.querySelector<HTMLButtonElement>("[data-reset]")?.addEventListener("click", () => {
+      cat = "All"; q = "";
+      searchInput.value = ""; searchClear.hidden = true;
+      catChips.forEach((c) => c.classList.toggle("active", c.dataset.cat === "All"));
+      update();
+    });
+
+    renderList();
+  }
+</script>

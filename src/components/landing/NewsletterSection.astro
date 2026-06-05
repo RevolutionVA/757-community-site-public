@@ -1,0 +1,51 @@
+---
+// Coastal-styled wrapper around the real Bento subscribe form. The action,
+// hidden redirect, and field names match NewsletterSignup.astro exactly so the
+// live subscribe path (redirect to /newsletter-thank-you) is preserved.
+const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true";
+---
+<section class="section news-section" id="subscribe">
+  <div class="news-inner">
+    <span class="kicker light">The 757 digest</span>
+    <h2>One email. Every Monday.<br />All of 757 tech.</h2>
+    <p>A short, scannable rundown of the week's meetups, new groups, job leads, and conferences — written for people who'd rather be building.</p>
+
+    <form
+      class="news-form"
+      action={ACTION}
+      method="POST"
+      enctype="multipart/form-data"
+      onkeydown="if(event.keyCode === 13 && event.target.type !== 'submit') { event.preventDefault(); }"
+    >
+      <input type="hidden" name="redirect" value="https://757tech.org/newsletter-thank-you" />
+      <div class="news-form-row">
+        <input id="news-fname" type="text" name="fields_first_name" placeholder="First name" required />
+        <input type="text" name="fields_last_name" placeholder="Last name" required />
+      </div>
+      <div class="news-form-row">
+        <input id="news-email" type="email" name="email" placeholder="you@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" />
+        <button type="submit" class="btn-coral">Subscribe free</button>
+      </div>
+    </form>
+
+    <div class="news-mini">Join the wave · no spam · unsubscribe anytime</div>
+  </div>
+</section>
+
+<style>
+  .news-form { max-width: 520px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; text-align: left; }
+  .news-form-row { display: flex; gap: 12px; }
+  .news-form input {
+    flex: 1; min-width: 0; font-family: var(--font-body); font-size: 16px;
+    padding: 14px 18px; border-radius: 999px; outline: none;
+    background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.3); color: #fff;
+    transition: border-color .15s, background .15s, box-shadow .15s;
+  }
+  .news-form input::placeholder { color: rgba(255,255,255,.6); }
+  .news-form input:focus { border-color: var(--seafoam); background: rgba(255,255,255,.16); box-shadow: 0 0 0 4px rgba(95,208,190,.25); }
+  .news-form button { flex-shrink: 0; }
+  @media (max-width: 560px) {
+    .news-form-row { flex-direction: column; }
+    .news-form button { width: 100%; }
+  }
+</style>

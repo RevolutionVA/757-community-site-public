@@ -1,0 +1,44 @@
+---
+const SLACK = "https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ";
+const DISCORD = "https://discord.gg/bPGsCKBqWp";
+const GITHUB = "https://github.com/RevolutionVA/757-community-site-public";
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/images/757tech-logo.png" alt="757tech" />
+      <p>The front door for technologists in the 757 — Norfolk, Virginia Beach, Chesapeake, Newport News, Hampton, Suffolk, Portsmouth &amp; Williamsburg.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#events">Events</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#groups">Groups</a>
+        <a href="/calendar">Full calendar</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get involved</h4>
+        <a href="#submit">Submit an event</a>
+        <a href="/get-involved">Add your group</a>
+        <a href="#subscribe">Newsletter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href={SLACK} target="_blank" rel="noopener noreferrer">Slack</a>
+        <a href={DISCORD} target="_blank" rel="noopener noreferrer">Discord</a>
+        <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-base">
+    <span>© {year} 757tech.org · Supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>, a 501(c)(3) non-profit — built by the community, for the community.</span>
+    <span class="footer-tag">Made in Hampton Roads 🌊</span>
+  </div>
+</footer>
+
+<style>
+  .footer-base a { color: var(--deep); font-weight: 600; }
+  .footer-base a:hover { color: var(--tide); }
+</style>
