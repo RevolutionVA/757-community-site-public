@@ -19,7 +19,6 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
 <section class="hero hero-split" id="top">
   <div class="hero-split-grid">
     <div class="hero-copy">
-      <img class="hero-logo" src="/images/757tech-logo.png" alt="757tech" width="2048" height="1117" />
       <h1>The front door to tech<br />in the <span class="hl">757</span></h1>
       <p class="hero-sub">Every meetup, user group, and regional conference in the 757 — in one tide. Get the weekly digest and never miss what's happening.</p>
       <form class="capture light" data-hero-capture>
@@ -28,7 +27,9 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
       </form>
       <div class="hero-mini">Free · weekly · unsubscribe anytime</div>
     </div>
-    <div class="hero-peek">
+    <div class="hero-right">
+      <img class="hero-logo" src="/images/757tech-logo.png" alt="757tech" width="2048" height="1117" />
+      <div class="hero-peek">
       <div class="peek-label">Next up this week</div>
       {nextEvent && c && (
         <a class="next-card" href={nextEvent.url} target="_blank" rel="noopener noreferrer">
@@ -51,6 +52,7 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
         <p class="next-title">No upcoming events on the calendar right now — check back soon.</p>
       )}
       <a class="peek-all" href="#events">See all upcoming events →</a>
+      </div>
     </div>
   </div>
   <WaveDivider />
