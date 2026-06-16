@@ -1,23 +1,6 @@
 [
   {
-    "name": "The AI Collective • Hampton Roads",
-    "url": "https://linktr.ee/aicollectivehr",
-    "tags": [
-      "AI",
-      "Artificial Intelligence",
-      "No-code",
-      "Automation",
-      "Learning"
-    ],
-    "category": "Technology",
-    "metadata": {
-      "imageUrl": "/images/757-anc.jpg",
-      "title": "The AI Collective • Hampton Roads",
-      "description": "Global grassroots movement building inclusive & forward-thinking AI progress in the 757 - We are the human side of AI"
-    }
-  },
-  {
-    "name": "757 Artificial Intelligence Collective",
+    "name": "AI Collective Hampton Roads",
     "url": "https://www.meetup.com/757-artificial-intelligence",
     "tags": [
       "ai",
@@ -29,8 +12,8 @@
     "rssFeed": "https://www.meetup.com/757-artificial-intelligence/events/rss/",
     "metadata": {
       "imageUrl": "/images/meetups/meetup-com-757-artificial-intelligence.jpg",
-      "title": "757 Artificial Intelligence Collective | Meetup",
-      "description": "Discord group: https://discord.gg/pMpdNHJDEJWelcome to the 757 Artificial Intelligence Collective! Our group is dedicated to exploring the latest advancements in AI, science, open-source intelligence, and cloud computing. We are a community of like-minded individuals who are passionate about helping"
+      "title": "The AI Collective Hampton Roads | Meetup",
+      "description": "The AI Collective is a non-profit, grassroots community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer"
     }
   },
   {
@@ -58,8 +41,8 @@
     "rssFeed": "https://www.meetup.com/757-python-users-group/events/rss/",
     "metadata": {
       "imageUrl": "/images/meetups/meetup-com-757-python-users-group.jpg",
-      "title": "Norfolk Python Users Group | Meetup",
-      "description": "Welcome to the Norfolk Python Software meetup. This group is for anyone interested in all aspects of the Python programming language. Whether you use Python professionally, as a hobbyist, or just looking for a great language to learn, you&#x27;re welcome here!Currently meeting online with discord: https:"
+      "title": "Virginia Python Users Group | Meetup",
+      "description": "Welcome to the Virginia Python Software meetup, we have expanded the original Norfolk group to now include the entire Commonwealth. This group is for anyone interested in all aspects of the Python programming language. Whether you use Python professionally, as a hobbyist, or just looking for a new l"
     }
   },
   {
@@ -193,7 +176,7 @@
     "metadata": {
       "imageUrl": "/images/meetups/meetup-com-hampton-roads-java-users-group.jpg",
       "title": "Hampton Roads Java Users Group | Meetup",
-      "description": "This is a group dedicated to the learning, discussion, and usage of the Java Programming language and other JVM based languages like Kotlin, Scala, and Clojure. we also do networking with other developers."
+      "description": "This is a group dedicated to the learning, discussion, and usage of the Java Programming language and other JVM based languages like Kotlin, Scala, and Clojure. we also do networking with other developers.Official Discord Server: https://discord.gg/nUSHDN2J2T"
     }
   },
   {
@@ -310,7 +293,7 @@
     "metadata": {
       "imageUrl": "/images/meetups/meetup-com-virginia-beach-bitcoin.jpg",
       "title": "Virginia Beach Bitcoin | Meetup",
-      "description": "Hello! We are a growing, grassroots, bitcoin meetup. We meet to discuss, learn and share about how bitcoin is reshaping money, finance, economics and the way we live our lives. We are pushing some new initiatives with our growth and starting May 2024 meetups will occur twice a month as follows:First"
+      "description": "Hello! We are a growing, grassroots, bitcoin meetup. We have been meeting regularly twice a month since the end of 2023! We meet to discuss, learn and share about how bitcoin is reshaping money, finance, economics and the way we live our lives. This page may not be the most active but our group is. "
     }
   },
   {
