@@ -29,7 +29,6 @@
   "ignorePaths": [
     "**/node_modules/**"
   ],
-  "updateLockFiles": true,
   "npmrc": "legacy-peer-deps=true",
   "includePaths": [
     "package.json"
