@@ -737,9 +737,9 @@ array-iterate@^2.0.0:
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
 astro@^6.0.0:
-  version "6.4.6"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-6.4.6.tgz#913d5d6cc18a294bf03567772d35137d5d851f6c"
-  integrity sha512-48OBTBKR9ctbf+DQxpOuxGl8ebfn59zTuNQMBzptmG/Mi/H8IdfMSbJgGuX1I/4U6g9yazG1p4BHlf4+2hWU4Q==
+  version "6.4.7"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-6.4.7.tgz#db24e75fc5681d83216292d6d122174fac57ef6d"
+  integrity sha512-5vsXx0H52u23Jpshs9tM81D03Tb3Oh2Vt2Zo0bpqjXN+njkAWjFyGjTfmWJLAcrCQd9Q+iWB1eqfhR1sZJEaUA==
   dependencies:
     "@astrojs/compiler" "^4.0.0"
     "@astrojs/internal-helpers" "0.10.0"
