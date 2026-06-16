@@ -17,7 +17,7 @@ const {
   canonicalUrl = Astro.url.pathname,
 } = Astro.props;
 
-const siteUrl = import.meta.env.SITE ?? "https://757tech.org";
+const siteUrl = Astro.site?.href.replace(/\/$/, "") ?? "https://757tech.org";
 const fullCanonicalUrl = `${siteUrl}${canonicalUrl}`;
 const fullTitle = `${title} | 757 Tech Community`;
 ---
