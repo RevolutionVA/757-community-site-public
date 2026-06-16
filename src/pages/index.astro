@@ -55,12 +55,12 @@ const events = allEvents.filter(
   (e) => e.ts >= now.getTime() && e.ts <= windowEnd.getTime(),
 );
 
-// Build chips from the categories that actually appear in the upcoming events,
-// so the per-chip counts always sum to the "All" count (a new or fallback
-// category can't silently slip out of the chip row).
-const categories = orderCategories(events.map((e) => e.category));
+// Tally counts in one pass, then build chips from the categories that actually
+// appear — so the per-chip counts always sum to the "All" count (a new or
+// fallback category can't silently slip out of the chip row).
 const counts: Record<string, number> = { All: events.length };
-for (const c of categories) counts[c] = events.filter((e) => e.category === c).length;
+for (const e of events) counts[e.category] = (counts[e.category] ?? 0) + 1;
+const categories = orderCategories(Object.keys(counts).filter((c) => c !== "All"));
 
 const next = events[0];
 const nextEvent = next

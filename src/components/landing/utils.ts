@@ -22,50 +22,65 @@ export const CATEGORY_ORDER = ["Development", "Technology", "Cloud", "Design", "
 // the data (not a hardcoded list), so chip counts always sum to the "All" count
 // even if a new meetup category is introduced.
 export function orderCategories(cats: string[]): string[] {
-  return [...new Set(cats)].sort((a, b) => {
-    const ia = CATEGORY_ORDER.indexOf(a), ib = CATEGORY_ORDER.indexOf(b);
-    if (ia !== -1 && ib !== -1) return ia - ib;
-    if (ia !== -1) return -1;
-    if (ib !== -1) return 1;
-    return a.localeCompare(b);
-  });
+  const rank = (c: string) => {
+    const i = CATEGORY_ORDER.indexOf(c);
+    return i === -1 ? Infinity : i;
+  };
+  return [...new Set(cats)].sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
 }
 
-// `hue` drives the live oklch() color; the hex trio is a precomputed sRGB
-// fallback for browsers that don't support oklch() in inline styles
-// (Safari ≤15.3, Chrome ≤111), where category badges would otherwise render
-// invisible. Hexes are generated from the same oklch values (see catColor).
-export const CATEGORY_META: Record<string, { hue: number; bg: string; fg: string; dot: string }> = {
-  Development: { hue: 168, bg: "#c5f9e4", fg: "#006040", dot: "#00a274" },
-  Technology:  { hue: 192, bg: "#bdf9f5", fg: "#00605e", dot: "#00a19d" },
-  Cloud:       { hue: 200, bg: "#bcf8fb", fg: "#005f67", dot: "#009faa" },
-  Design:      { hue: 280, bg: "#e3e8ff", fg: "#42428c", dot: "#7679de" },
-  Community:   { hue: 150, bg: "#d0f7d6", fg: "#005e26", dot: "#2e9e52" },
+// Per-category hue; the lightness/chroma are fixed across categories (see catColor).
+export const CATEGORY_META: Record<string, { hue: number }> = {
+  Development: { hue: 168 },
+  Technology: { hue: 192 },
+  Cloud: { hue: 200 },
+  Design: { hue: 280 },
+  Community: { hue: 150 },
 };
 
-const DEFAULT_META = { hue: 195, bg: "#bdf8f8", fg: "#005f61", dot: "#00a0a2" };
+const DEFAULT_HUE = 195;
 
 export interface CatColor {
   bg: string; fg: string; dot: string;          // live oklch()
-  bgHex: string; fgHex: string; dotHex: string; // precomputed sRGB fallback
+  bgHex: string; fgHex: string; dotHex: string; // sRGB fallback, derived from the same oklch
+}
+
+// oklch(L C h) → "#rrggbb" (D65). The inline-style fallbacks below are computed
+// from the same L/C/h as the live oklch() colors, so the two can never drift.
+function oklchToHex(L: number, C: number, hDeg: number): string {
+  const h = (hDeg * Math.PI) / 180;
+  const a = C * Math.cos(h), b = C * Math.sin(h);
+  const l = (L + 0.3963377774 * a + 0.2158037573 * b) ** 3;
+  const m = (L - 0.1055613458 * a - 0.0638541728 * b) ** 3;
+  const s = (L - 0.0894841775 * a - 1.291485548 * b) ** 3;
+  const channels = [
+    4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+    -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+    -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
+  ];
+  return "#" + channels.map((x) => {
+    const srgb = x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055;
+    return Math.round(Math.min(1, Math.max(0, srgb)) * 255).toString(16).padStart(2, "0");
+  }).join("");
 }
 
 export function catColor(cat: string): CatColor {
-  const meta = CATEGORY_META[cat] || DEFAULT_META;
-  const h = meta.hue;
+  const h = CATEGORY_META[cat]?.hue ?? DEFAULT_HUE;
   return {
-    bg: `oklch(0.94 0.06 ${h})`,
-    fg: `oklch(0.42 0.12 ${h})`,
-    dot: `oklch(0.62 0.15 ${h})`,
-    bgHex: meta.bg, fgHex: meta.fg, dotHex: meta.dot,
+    bg: `oklch(0.94 0.06 ${h})`, bgHex: oklchToHex(0.94, 0.06, h),
+    fg: `oklch(0.42 0.12 ${h})`, fgHex: oklchToHex(0.42, 0.12, h),
+    dot: `oklch(0.62 0.15 ${h})`, dotHex: oklchToHex(0.62, 0.15, h),
   };
 }
 
-// Inline `style` value that progressively enhances: a browser that doesn't
+// Inline `style` values that progressively enhance: a browser that doesn't
 // understand the oklch() declaration keeps the preceding hex one; modern
 // browsers override with oklch(). Works inside the style="" attribute too.
-export function catStyle(c: CatColor, extra = ""): string {
-  return `background:${c.bgHex};background:${c.bg};color:${c.fgHex};color:${c.fg}${extra}`;
+export function catStyle(c: CatColor): string {
+  return `background:${c.bgHex};background:${c.bg};color:${c.fgHex};color:${c.fg}`;
+}
+export function catDot(c: CatColor): string {
+  return `background:${c.dotHex};background:${c.dot}`;
 }
 
 /* ---------- timezone-aware date display ---------- */

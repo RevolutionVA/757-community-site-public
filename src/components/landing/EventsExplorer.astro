@@ -1,5 +1,5 @@
 ---
-import { catColor, catStyle } from "./utils";
+import { catColor, catStyle, catDot } from "./utils";
 
 export interface EventVM {
   id: string;
@@ -83,8 +83,8 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
           </div>
           <div class="ec-body">
             <div class="ec-top">
-              <span class="cat-badge" style={catStyle(c, ";font-size:12px")}>
-                <span class="cat-dot" style={`background:${c.dotHex};background:${c.dot}`}></span>{e.category}
+              <span class="cat-badge" style={`${catStyle(c)};font-size:12px`}>
+                <span class="cat-dot" style={catDot(c)}></span>{e.category}
               </span>
               {e.rel && <span class="ec-rel">{e.rel}</span>}
             </div>
