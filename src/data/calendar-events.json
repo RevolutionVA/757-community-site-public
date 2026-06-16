@@ -1,5 +1,16 @@
 [
   {
+    "title": "BSides Hampton Roads 2026",
+    "link": "https://bsideshamptonroads.org/",
+    "date": "2026-10-09T13:00:00.000Z",
+    "description": "A community-driven cybersecurity conference built to connect, educate, and inspire the Hampton Roads security community. Part of the global Security BSides movement, it offers an open and collaborative environment where professionals, students, researchers, and technology enthusiasts can share ideas, exchange knowledge, and build meaningful connections.\n\nOctober 9-10, 2026 at the ODU Webb University Center.",
+    "source": "manual",
+    "group": "BSides Hampton Roads",
+    "featuredEvent": true,
+    "createdDate": "2026-06-16T14:00:44.000Z",
+    "updatedDate": "2026-06-16T14:00:44.000Z"
+  },
+  {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/314975807/",
     "date": "2026-06-16T22:00:00.000Z",
