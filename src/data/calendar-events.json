@@ -1,16 +1,5 @@
 [
   {
-    "title": "BSides Hampton Roads 2026",
-    "link": "https://bsideshamptonroads.org/",
-    "date": "2026-10-09T13:00:00.000Z",
-    "description": "A community-driven cybersecurity conference built to connect, educate, and inspire the Hampton Roads security community. Part of the global Security BSides movement, it offers an open and collaborative environment where professionals, students, researchers, and technology enthusiasts can share ideas, exchange knowledge, and build meaningful connections.\n\nOctober 9-10, 2026 at the ODU Webb University Center.",
-    "source": "manual",
-    "group": "BSides Hampton Roads",
-    "featuredEvent": true,
-    "createdDate": "2026-06-16T14:00:44.000Z",
-    "updatedDate": "2026-06-16T14:00:44.000Z"
-  },
-  {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
     "link": "https://www.meetup.com/issa-hampton-roads/events/314975807/",
     "date": "2026-06-16T22:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-27T13:11:34.019Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Claude + Social Media Pipelines: One Post → Every Platform | AICHR",
@@ -30,7 +19,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-21T18:39:34.250Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Claude + Social Media Pipelines: One Post → Every Platform | AICHR",
       "date": "2026-06-02T23:00:00.000Z"
@@ -45,7 +34,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-06-03T00:55:59.441Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Kevin Feasel- Data Virtualization in SQL Server",
@@ -56,7 +45,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:24.645Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Kevin Feasel- Data Virtualization in SQL Server",
       "date": "2026-06-17T18:00:00.000Z"
@@ -71,18 +60,18 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-07T18:36:07.649Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "AI for Learning & Development Build Challenge | Presentations & Judging",
     "link": "https://www.meetup.com/aicollectivehr/events/314681614/",
     "date": "2026-06-18T22:30:00.000Z",
-    "description": "**About the challenge**\nWelcome to the AI for Learning & Development Build Challenge with the AI Collective Hampton Roads Chapter to be held at the Regent University Library in Virginia Beach.\n\n**This is a local build challenge with an in-person kickoff, followed by a two-week build phase, then an in-person presentation & judging event.**\n\nYou'll have two weeks to build an AI application based on the problem statement shared at the kickoff event. This AI Build Challenge is open to adult participants of all skill levels, from experienced developers to beginner using no or low code tools. You're encouraged to use AI tools to further your development. After the build phase, you'll deliver an in-person presentation to judges and other attendees. The winning projects will receive prizes (TBA).\n\n**Kickoff on Thursday, June 4th from 6:30–8:00pm.**\nWe encourage you to join us in person in the Regent Library Auditorum, but the kickoff will be also be recorded if you're unable to attend.\n\n**Build Phase from June 5th through 18th.** You can work individually or in teams.\n\n**Presentations & Judging on Thursday, June 18th from 6:30–9:00pm**. Return to the Regent Library Auditorium to share your work! Presentations must be delivered in person to be considered for judging and prizes.\n\n**Prizes**\nWe’re excited to share that this build challenge will include a **$1,000 prize pool** for standout projects. Whether you’re a student, parent, educator, technologist, entrepreneur, or just curious about AI, this is a chance to team up, build something useful, and compete for real prizes while learning alongside the local Hampton Roads AI community. Prizes will recognize teams that bring strong ideas, practical solutions, creativity, and clear impact to the AI for Learning & Development space.\n\n**Get started**\nThe first thing you should do is register through Devpost before the June 4th Kickoff.\n\nYou can work individually or in teams, but registration is important because space is limited. Then plan to come out to the Kickoff event to discover the problem statement and receive inspiration and development guidance from our AI Collective experts.\n\nIf you're unable to attend the in-person Kickoff, that's okay because we'll share a recording after the event with those who pre-register.\n\nThis is a beginner-friendly event. If you're never participated in a build challenge or hackathon, this is your opportunity! The Kickoff will include some initial guidance regarding topics and tools, and we'll make additional online resources available during the two week build phase.\n\n**Requirements**\n\n**What to build**\nYou'll build a project that uses AI to enhance learning and development (with more details unveiled at the Kickoff event). Projects will be evaluated on potential impact, not technical complexity.\n\n**What to submit**\n\n**Prior to the in-person Presentations & Judging event**, please submit the following in Devpost:\n\n* Project Overview (e.g., PDF one-sheet, slidedeck, etc.)\n* Code Repository (e.g., Github) and/or Project Link (e.g. website)\n\n**At the Presentations & Judging event**, please prepare for the following:\n\n* 3-5 minute presentation and/or demo\n* 2-3 minute Q&A with judges\n* In-person delivery (at least one team member in attendance)\n\n**Judging Criteria**\n\n* **Impact and Relevance**\nDoes the solution address a real learning or development need? How meaningful is the potential impact on learners, educators, or organizations?\n* **Innovation & Creativity**\nHow original is the approach? Does the team use AI in a novel or surprising way to solve the problem?\n* **Functionality & Demo**\nDoes the solution work as demonstrated? Is the core concept functional, even if not fully polished?\n* **User Experience**\nIs the solution intuitive and accessible? Would the target user actually want to use it?\n* **Presentation Quality**\nIs the team’s pitch clear, compelling, and well-structured? Do they effectively communicate the problem, solution, and value?\n\n**Learn more:** [https://ai-challenge-regent-aichr.devpost.com/](https://ai-challenge-regent-aichr.devpost.com/)",
+    "description": "**About the challenge**\nWelcome to the AI for Learning & Development Build Challenge with the AI Collective Hampton Roads Chapter to be held at the Regent University Library in Virginia Beach.\n\n**This is a local build challenge with an in-person kickoff, followed by a two-week build phase, then an in-person presentation & judging event.**\n\nYou'll have two weeks to build an AI application based on the problem statement shared at the kickoff event. This AI Build Challenge is open to adult participants of all skill levels, from experienced developers to beginner using no or low code tools. You're encouraged to use AI tools to further your development. After the build phase, you'll deliver an in-person presentation to judges and other attendees. The winning projects will receive prizes (TBA).\n\n**SUBMIT OVERVIEW IN DEVPOST BY THURSDAY, JUNE 18TH AT NOON**\n\n* At least one Build Team member must [submit an overview in Devpost](https://ai-challenge-regent-aichr.devpost.com/) by Thursday, June 18th at Noon\n* We need your submission for planning and tracking purposes, but judging will be based on your in-person Build Team presentation on June 18th.\n* **Devpost submission is an overview of your project, not the project itself!**\n\n**DEVPOST SUBMISSION REQUIREMENTS**\nDevpost submission form has the following required fields:\n\n* Project Name -- max 60 characters\n* Tagline/Elevator Pitch for the Project -- max 200 characters\n* Project Story -- brief overview (what did you build, what does it do, what problem does it solve)\n* Built With -- brief listing of tools/technologies used\n* Team Member(s) -- name(s) of Build Team members\n* On-Site Point of Contact -- name of the Build Team point of contact who will be on site\n\nEverything else in Devpost submission form is optional (e.g., links, images, video, etc.), because judging will be based on your in-person Build Team presentation on June 18th.\n\n**PRESENTATIONS & JUDGING EVENT**\n\n* Thursday, June 18th, 6:30–9:00pm\n* **Regent University Library Auditorium** (second floor of the Library, off the main foyer)\n* 1000 Regent University Drive, Virginia Beach, VA 23464\n* Campus Map: [Interactive](https://www.regent.edu/campus-map/) and [PDF](https://www.regent.edu/about_us/campuses/campusmapflyer.pdf) versions\n* Parking: Lots B & C are closest to the Library, but Lot L beside the Communication Building has the most available parking\n* Auditorium open at 5:30pm for mingling and preparation\n* Packaged snacks & drinks will be available, similar to the Kickoff Event\n* **No dinner food will be served, so plan to eat before you arrive**\n\n**HOW PRESENTATIONS WORK**\n\n* 3-5 minutes to demo/present\n* 2-3 minutes of Q&A with the judges\n* Presentation Tips: Identify the challenge/problem, how did you use AI, walkthrough/live demo, and impact/next steps\n* At least one team member must present on-site to compete\n* Connect your laptop via HDMI cable or else load content on room computer via USB drive\n\n**JUDGING CRITERIA**\n\n* Impact & Relevance -- 25 points -- How meaningful is the potential impact on learners, educators, or organizations?\n* Innovation & Creativity -- 25 points -- How original is the approach? Is AI used in a novel or surprising way?\n* Functionality & Demo -- 20 points -- Does the solution work as demonstrated? Is the core concept functional, even if not fully polished?\n* User Experience -- 15 points -- Is it intuitive and accessible? Would the target user actually want to use it?\n* Presentation Quality -- 15 points -- Is the pitch clear, compelling, and well-structured?\n\n**CASH PRIZES**\n\n* $350 – First Place\n* $200 – Second Place\n* $100 – Third Place\n* $350 Total – Merit Award Pool for standout projects, scaled to the size of the field\n* Prizes awarded per team, not per person\n* Winners will be announced at the June 18th event\n* Prize money will be distributed electronically after the event\n\n**QUESTIONS & SUBMISSIONS**\n\n* Discussion & Questions: [https://discord.gg/snQ79rZh](https://discord.gg/snQ79rZh)\n* Devpost Submissions: [https://ai-challenge-regent-aichr.devpost.com](https://ai-challenge-regent-aichr.devpost.com)",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-08T00:38:23.452Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Empowering Military Spouses Through AI",
@@ -93,7 +82,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-07T18:28:44.580Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Scala",
@@ -104,7 +93,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-06-14T00:51:04.860Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -115,7 +104,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-04T00:55:21.820Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -126,7 +115,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-04T00:55:22.835Z",
-    "updatedDate": "2026-06-16T13:47:48.944Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Peninsula Builders Study Group",
       "date": "2026-06-23T22:00:00.000Z"
@@ -141,7 +130,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-27T00:45:12.990Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -152,7 +141,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-07T18:35:56.255Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "ParallAscii - Game Dev with JavaScript",
@@ -163,7 +152,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-06-04T00:55:51.276Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -174,7 +163,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-11T19:01:08.399Z",
-    "updatedDate": "2026-06-16T13:47:50.949Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Connections & (grocery) carts",
       "date": "2026-07-02T22:30:00.000Z"
@@ -189,7 +178,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.528Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-07-02T21:00:00.000Z"
@@ -204,7 +193,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:52.187Z",
-    "updatedDate": "2026-06-16T13:48:33.389Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -215,7 +204,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:31.130Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -226,7 +215,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-06T00:36:21.347Z",
-    "updatedDate": "2026-06-16T13:47:51.904Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Peninsula Builders Study Group",
       "date": "2026-07-07T22:00:00.000Z"
@@ -241,7 +230,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-06-13T00:51:43.884Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Monorepos, Frontends, and .NET",
@@ -252,7 +241,7 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:11.417Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -263,7 +252,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
       "date": "2026-07-15T18:00:00.000Z"
@@ -278,7 +267,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-07-16T18:30:00.000Z"
@@ -293,7 +282,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-07T18:29:03.033Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -304,7 +293,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-07-21T18:00:00.000Z"
@@ -319,7 +308,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:32.067Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -330,7 +319,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-18T13:15:34.285Z",
-    "updatedDate": "2026-06-16T13:47:52.919Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Peninsula Builders Study Group",
       "date": "2026-07-21T22:00:00.000Z"
@@ -345,7 +334,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-22T06:40:21.501Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-07-22T18:00:00.000Z"
@@ -360,7 +349,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-16T18:20:50.228Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -371,7 +360,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T00:46:11.315Z",
-    "updatedDate": "2026-06-16T13:47:53.924Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Peninsula Builders Study Group",
       "date": "2026-08-04T22:00:00.000Z"
@@ -386,7 +375,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.538Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -397,7 +386,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-06T00:36:42.336Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -408,7 +397,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-05-29T07:22:31.900Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -419,7 +408,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-10T00:49:57.877Z",
-    "updatedDate": "2026-06-16T13:47:54.900Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "AICHR | Peninsula Builders Study Group",
       "date": "2026-08-18T22:00:00.000Z"
@@ -434,7 +423,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:19.131Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -445,7 +434,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-08-20T18:30:00.000Z"
@@ -460,7 +449,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:53.945Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -471,7 +460,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:54.950Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -482,7 +471,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-10T00:49:58.952Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Late Night Builders",
@@ -493,7 +482,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:50.661Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -504,7 +493,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-28T00:41:21.530Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Peninsula Developers Study Group",
@@ -515,7 +504,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-13T18:31:08.308Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -526,7 +515,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z",
+    "updatedDate": "2026-06-16T19:15:49.171Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -544,6 +533,17 @@
     "updatedDate": "2026-06-15T19:21:44.966Z"
   },
   {
+    "title": "BSides Hampton Roads 2026",
+    "link": "https://bsideshamptonroads.org/",
+    "date": "2026-10-09T13:00:00.000Z",
+    "description": "A community-driven cybersecurity conference built to connect, educate, and inspire the Hampton Roads security community. Part of the global Security BSides movement, it offers an open and collaborative environment where professionals, students, researchers, and technology enthusiasts can share ideas, exchange knowledge, and build meaningful connections.\n\nOctober 9-10, 2026 at the ODU Webb University Center.",
+    "source": "manual",
+    "group": "BSides Hampton Roads",
+    "featuredEvent": true,
+    "createdDate": "2026-06-16T14:00:44.000Z",
+    "updatedDate": "2026-06-16T14:00:44.000Z"
+  },
+  {
     "title": "Bitcoin meetup Open Discussion",
     "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjcnbtb/",
     "date": "2026-10-15T22:30:00.000Z",
@@ -552,7 +552,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -563,7 +563,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -574,7 +574,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -585,7 +585,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -596,7 +596,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -607,6 +607,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-06-16T13:48:33.390Z"
+    "updatedDate": "2026-06-16T19:15:49.171Z"
   }
 ]
