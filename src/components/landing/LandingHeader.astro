@@ -50,12 +50,31 @@ const links = [
     window.addEventListener("scroll", onScroll, { passive: true });
   }
   if (header && toggle && nav) {
-    const setOpen = (open: boolean) => {
+    const links = Array.from(nav.querySelectorAll<HTMLAnchorElement>("a"));
+    const isOpen = () => header.classList.contains("nav-open");
+
+    // `returnFocus` moves focus back to the toggle when the menu is dismissed
+    // (toggle click / Escape); skipped when a nav link was followed.
+    const setOpen = (open: boolean, returnFocus = true) => {
       header.classList.toggle("nav-open", open);
       toggle.setAttribute("aria-expanded", String(open));
       toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      if (open) links[0]?.focus();
+      else if (returnFocus) toggle.focus();
     };
-    toggle.addEventListener("click", () => setOpen(!header.classList.contains("nav-open")));
-    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+
+    toggle.addEventListener("click", () => setOpen(!isOpen()));
+    links.forEach((a) => a.addEventListener("click", () => setOpen(false, false)));
+
+    // Keep keyboard focus inside the open menu; Escape closes it.
+    header.addEventListener("keydown", (e) => {
+      if (!isOpen()) return;
+      if (e.key === "Escape") { setOpen(false); return; }
+      if (e.key !== "Tab") return;
+      const focusable = [toggle, ...links];
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
   }
 </script>

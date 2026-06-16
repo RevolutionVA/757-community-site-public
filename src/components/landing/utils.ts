@@ -59,8 +59,9 @@ function oklchToHex(L: number, C: number, hDeg: number): string {
     -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
   ];
   return "#" + channels.map((x) => {
-    const srgb = x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055;
-    return Math.round(Math.min(1, Math.max(0, srgb)) * 255).toString(16).padStart(2, "0");
+    const lin = Math.min(1, Math.max(0, x)); // clamp to gamut in linear space, before gamma
+    const srgb = lin <= 0.0031308 ? 12.92 * lin : 1.055 * Math.pow(lin, 1 / 2.4) - 0.055;
+    return Math.round(srgb * 255).toString(16).padStart(2, "0");
   }).join("");
 }
 
@@ -143,6 +144,7 @@ export interface WeekDay {
 }
 
 export function weekDays(todayKey: string, offset: number): WeekDay[] {
+  offset = Math.trunc(offset) || 0; // guard against fractional/NaN offsets
   const [y, m, d] = todayKey.split("-").map(Number);
   const anchor = new Date(Date.UTC(y, m - 1, d));
   const start = new Date(
@@ -176,6 +178,9 @@ function utcDateKey(d: Date): string {
 
 export function weekRangeLabel(days: WeekDay[]): string {
   const a = days[0], b = days[6];
+  if (a.year !== b.year) {
+    return `${MON[a.mon]} ${a.day}, ${a.year} – ${MON[b.mon]} ${b.day}, ${b.year}`;
+  }
   return a.mon === b.mon
     ? `${MON[a.mon]} ${a.day} – ${b.day}`
     : `${MON[a.mon]} ${a.day} – ${MON[b.mon]} ${b.day}`;
@@ -193,6 +198,7 @@ export interface MonthView { label: string; year: number; days: MonthCell[]; }
 
 // Full 7-wide grid (5 or 6 rows) for the month containing today + offset months.
 export function monthGrid(todayKey: string, offset: number): MonthView {
+  offset = Math.trunc(offset) || 0; // guard against fractional/NaN offsets
   const [y, m] = todayKey.split("-").map(Number);
   const first = new Date(Date.UTC(y, m - 1 + offset, 1));
   const year = first.getUTCFullYear();

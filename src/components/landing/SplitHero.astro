@@ -20,7 +20,8 @@ const c = nextEvent ? catColor(nextEvent.category) : null;
 // hidden redirect, and field names match the live endpoint.
 const ACTION = "https://track.bentonow.com/forms/57d9b8196b2b704a30da5ac245bf2cfe/$subscribe757tech?hardened=true";
 // Bound via expression so the literal backslash in \. survives Astro's parser.
-const EMAIL_PATTERN = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$";
+// Case-insensitive char classes: HTML pattern matching has no /i flag.
+const EMAIL_PATTERN = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
 ---
 <section class="hero hero-split" id="top">
   <div class="hero-split-grid">

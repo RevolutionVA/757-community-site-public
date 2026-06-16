@@ -7,7 +7,7 @@ const { groups } = Astro.props;
 // Chips from the categories the groups actually use — no empty filter chips.
 const chips = ["All", ...orderCategories(groups.map((g) => g.category))];
 const initials = (name: string) =>
-  name.replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase();
+  (name.replace(/[^A-Za-z0-9]/g, "").slice(0, 2) || name.trim().slice(0, 2) || "?").toUpperCase();
 ---
 <section class="section groups-section" id="groups">
   <div class="section-head">
