@@ -1,6 +1,8 @@
 ---
 import { COMMUNITY } from "../../data/community";
 const { slack: SLACK, discord: DISCORD, github: GITHUB } = COMMUNITY;
+// Evaluated at build time. The calendar auto-update redeploys the site every
+// ~6 hours (update-calendar.yml), so this rolls over within hours of Jan 1.
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">

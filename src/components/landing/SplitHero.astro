@@ -1,6 +1,6 @@
 ---
 import WaveDivider from "./WaveDivider.astro";
-import { catColor } from "./utils";
+import { catColor, catStyle } from "./utils";
 
 export interface HeroEvent {
   url: string;
@@ -53,15 +53,15 @@ const EMAIL_PATTERN = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$";
       <div class="peek-label">Next upcoming event</div>
       {nextEvent && c && (
         <a class="next-card" href={nextEvent.url} target="_blank" rel="noopener noreferrer">
-          <div class="next-date" style={`background:${c.bg};color:${c.fg}`}>
+          <div class="next-date" style={catStyle(c)}>
             <span class="nd-dow">{nextEvent.dow}</span>
             <span class="nd-day">{nextEvent.day}</span>
             <span class="nd-mon">{nextEvent.mon}</span>
             <span class="nd-time">{nextEvent.timeLabel}</span>
           </div>
           <div class="next-body">
-            <span class="cat-badge" style={`background:${c.bg};color:${c.fg};font-size:11px`}>
-              <span class="cat-dot" style={`background:${c.dot}`}></span>{nextEvent.category}
+            <span class="cat-badge" style={catStyle(c, ";font-size:11px")}>
+              <span class="cat-dot" style={`background:${c.dotHex};background:${c.dot}`}></span>{nextEvent.category}
             </span>
             <div class="next-title">{nextEvent.title}</div>
             <div class="next-group">{nextEvent.group}</div>

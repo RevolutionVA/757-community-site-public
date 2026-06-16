@@ -1,5 +1,5 @@
 ---
-import { CATEGORIES, catColor } from "./utils";
+import { catColor, catStyle } from "./utils";
 
 export interface EventVM {
   id: string;
@@ -22,12 +22,13 @@ interface Props {
   events: EventVM[];
   calendarEvents: EventVM[];
   counts: Record<string, number>;
+  categories: string[];
   todayKey: string;
   groupCount: number;
 }
-const { events, calendarEvents, counts, todayKey, groupCount } = Astro.props;
-// Only surface categories that actually have upcoming events.
-const chips = ["All", ...CATEGORIES.filter((c) => (counts[c] ?? 0) > 0)];
+const { events, calendarEvents, counts, categories, todayKey, groupCount } = Astro.props;
+// `categories` is already limited to those present in the upcoming events.
+const chips = ["All", ...categories];
 
 // Full set (past + future) the client island needs to render the week/month
 // calendar. The list view above is server-rendered from `events` (upcoming).
@@ -82,8 +83,8 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
           </div>
           <div class="ec-body">
             <div class="ec-top">
-              <span class="cat-badge" style={`background:${c.bg};color:${c.fg};font-size:12px`}>
-                <span class="cat-dot" style={`background:${c.dot}`}></span>{e.category}
+              <span class="cat-badge" style={catStyle(c, ";font-size:12px")}>
+                <span class="cat-dot" style={`background:${c.dotHex};background:${c.dot}`}></span>{e.category}
               </span>
               {e.rel && <span class="ec-rel">{e.rel}</span>}
             </div>
@@ -112,6 +113,9 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
 
 <script>
   import { catColor, weekDays, weekRangeLabel, monthGrid, DOW } from "./utils";
+  // The calendar DOM is built at runtime, so its event accent color is set via
+  // the --c custom property. Use the precomputed hex (not oklch) so the border
+  // stays valid on browsers without oklch() support.
 
   type Ev = {
     id: string; url: string; category: string; dateKey: string;
@@ -223,7 +227,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         const body = el("div", "week-col-body");
         if (dayEvs.length) {
           for (const e of dayEvs) {
-            const a = eventLink(e, "week-ev" + (e.past ? " past" : ""), catColor(e.category).dot);
+            const a = eventLink(e, "week-ev" + (e.past ? " past" : ""), catColor(e.category).dotHex);
             a.append(
               el("div", "we-time", e.timeLabel),
               el("div", "we-title", e.title),
@@ -269,7 +273,7 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
         if (dayEvs.length) {
           const box = el("div", "mc-events");
           for (const e of dayEvs.slice(0, 3)) {
-            const a = eventLink(e, "month-ev" + (e.past ? " past" : ""), catColor(e.category).dot);
+            const a = eventLink(e, "month-ev" + (e.past ? " past" : ""), catColor(e.category).dotHex);
             a.title = `${e.timeLabel} · ${e.title} (${e.group})`;
             a.append(el("span", "me-time", e.timeLabel + " "), el("span", "me-t", e.title));
             box.appendChild(a);

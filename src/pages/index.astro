@@ -8,7 +8,7 @@ import Groups from "../components/landing/Groups.astro";
 import SubmitCTA from "../components/landing/SubmitCTA.astro";
 import LandingFooter from "../components/landing/LandingFooter.astro";
 import {
-  CATEGORIES, MON, etDateKey, eventDisplay, relativeLabel,
+  orderCategories, MON, etDateKey, eventDisplay, relativeLabel,
 } from "../components/landing/utils";
 
 import calendarEvents from "../data/calendar-events.json";
@@ -55,8 +55,12 @@ const events = allEvents.filter(
   (e) => e.ts >= now.getTime() && e.ts <= windowEnd.getTime(),
 );
 
+// Build chips from the categories that actually appear in the upcoming events,
+// so the per-chip counts always sum to the "All" count (a new or fallback
+// category can't silently slip out of the chip row).
+const categories = orderCategories(events.map((e) => e.category));
 const counts: Record<string, number> = { All: events.length };
-for (const c of CATEGORIES) counts[c] = events.filter((e) => e.category === c).length;
+for (const c of categories) counts[c] = events.filter((e) => e.category === c).length;
 
 const next = events[0];
 const nextEvent = next
@@ -72,6 +76,9 @@ const groups = meetupsData.map((m) => ({
 }));
 
 // ---- Conferences: upcoming only (past ones are archived on /conferences). ----
+// A conference stays listed through its final day. `endDate` is expected for
+// multi-day events (see conferences.schema.json); single-day entries set
+// endDate === date, and the `?? c.date` fallback keeps them visible on the day.
 const conferences = conferencesData
   .filter((c) => (c.endDate ?? c.date) >= todayKey)
   .sort((a, b) => a.date.localeCompare(b.date))
@@ -89,11 +96,11 @@ const conferences = conferencesData
 });
 ---
 
-<LandingLayout title="Home">
+<LandingLayout title="The front door to tech in Hampton Roads">
   <LandingHeader />
   <main>
     <SplitHero nextEvent={nextEvent} />
-    <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} todayKey={todayKey} groupCount={groups.length} />
+    <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} categories={categories} todayKey={todayKey} groupCount={groups.length} />
     <Conferences conferences={conferences} />
     <Groups groups={groups} />
     <SubmitCTA />

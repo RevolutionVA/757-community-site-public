@@ -1,10 +1,11 @@
 ---
-import { CATEGORIES, catColor } from "./utils";
+import { catColor, catStyle, orderCategories } from "./utils";
 
 export interface GroupVM { name: string; url: string; tags: string[]; category: string; }
 interface Props { groups: GroupVM[]; }
 const { groups } = Astro.props;
-const chips = ["All", ...CATEGORIES];
+// Chips from the categories the groups actually use — no empty filter chips.
+const chips = ["All", ...orderCategories(groups.map((g) => g.category))];
 const initials = (name: string) =>
   name.replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase();
 ---
@@ -26,7 +27,7 @@ const initials = (name: string) =>
       const col = catColor(g.category);
       return (
         <a class="group-card" href={g.url} target="_blank" rel="noopener noreferrer" data-category={g.category}>
-          <span class="group-mark" style={`background:${col.bg};color:${col.fg}`}>{initials(g.name)}</span>
+          <span class="group-mark" style={catStyle(col)}>{initials(g.name)}</span>
           <div class="group-info">
             <div class="group-name">{g.name}</div>
             <div class="group-tags">{g.tags.join(" · ")}</div>

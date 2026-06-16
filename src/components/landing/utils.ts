@@ -12,28 +12,60 @@ export const MON = [
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
 ];
 
-// The site's real meetup categories (source of truth: meetups.schema.json),
-// ordered by how many groups fall in each. "Community" is the neutral fallback
-// for events whose group/category can't be resolved.
-export const CATEGORIES = ["Development", "Technology", "Cloud", "Design"];
+// Preferred display order for category chips (source of truth for the names:
+// meetups.schema.json). "Community" is the neutral fallback for events whose
+// group/category can't be resolved. Anything not listed sorts to the end.
+export const CATEGORY_ORDER = ["Development", "Technology", "Cloud", "Design", "Community"];
 
-export const CATEGORY_META: Record<string, { hue: number }> = {
-  Development: { hue: 168 },
-  Technology: { hue: 192 },
-  Cloud: { hue: 200 },
-  Design: { hue: 280 },
-  Community: { hue: 150 },
+// Orders an arbitrary set of category names by CATEGORY_ORDER, unknowns appended
+// alphabetically. Chips are built from the categories that actually appear in
+// the data (not a hardcoded list), so chip counts always sum to the "All" count
+// even if a new meetup category is introduced.
+export function orderCategories(cats: string[]): string[] {
+  return [...new Set(cats)].sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a), ib = CATEGORY_ORDER.indexOf(b);
+    if (ia !== -1 && ib !== -1) return ia - ib;
+    if (ia !== -1) return -1;
+    if (ib !== -1) return 1;
+    return a.localeCompare(b);
+  });
+}
+
+// `hue` drives the live oklch() color; the hex trio is a precomputed sRGB
+// fallback for browsers that don't support oklch() in inline styles
+// (Safari ≤15.3, Chrome ≤111), where category badges would otherwise render
+// invisible. Hexes are generated from the same oklch values (see catColor).
+export const CATEGORY_META: Record<string, { hue: number; bg: string; fg: string; dot: string }> = {
+  Development: { hue: 168, bg: "#c5f9e4", fg: "#006040", dot: "#00a274" },
+  Technology:  { hue: 192, bg: "#bdf9f5", fg: "#00605e", dot: "#00a19d" },
+  Cloud:       { hue: 200, bg: "#bcf8fb", fg: "#005f67", dot: "#009faa" },
+  Design:      { hue: 280, bg: "#e3e8ff", fg: "#42428c", dot: "#7679de" },
+  Community:   { hue: 150, bg: "#d0f7d6", fg: "#005e26", dot: "#2e9e52" },
 };
 
-export interface CatColor { bg: string; fg: string; dot: string; }
+const DEFAULT_META = { hue: 195, bg: "#bdf8f8", fg: "#005f61", dot: "#00a0a2" };
+
+export interface CatColor {
+  bg: string; fg: string; dot: string;          // live oklch()
+  bgHex: string; fgHex: string; dotHex: string; // precomputed sRGB fallback
+}
 
 export function catColor(cat: string): CatColor {
-  const h = (CATEGORY_META[cat] || { hue: 195 }).hue;
+  const meta = CATEGORY_META[cat] || DEFAULT_META;
+  const h = meta.hue;
   return {
     bg: `oklch(0.94 0.06 ${h})`,
     fg: `oklch(0.42 0.12 ${h})`,
     dot: `oklch(0.62 0.15 ${h})`,
+    bgHex: meta.bg, fgHex: meta.fg, dotHex: meta.dot,
   };
+}
+
+// Inline `style` value that progressively enhances: a browser that doesn't
+// understand the oklch() declaration keeps the preceding hex one; modern
+// browsers override with oklch(). Works inside the style="" attribute too.
+export function catStyle(c: CatColor, extra = ""): string {
+  return `background:${c.bgHex};background:${c.bg};color:${c.fgHex};color:${c.fg}${extra}`;
 }
 
 /* ---------- timezone-aware date display ---------- */
