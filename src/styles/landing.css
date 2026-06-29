@@ -255,7 +255,8 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 .week-col.empty .week-col-head { border-bottom-color: transparent; }
 .wc-dow { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 .wc-day { display: block; font-family: var(--font-head); font-weight: 800; font-size: 22px; color: var(--deep); line-height: 1.1; }
-.week-col.empty .wc-day { color: color-mix(in srgb, var(--muted) 55%, #fff); }
+/* Full --muted (not lightened) keeps empty-day numbers at WCAG AA contrast on white. */
+.week-col.empty .wc-day { color: var(--muted); }
 .wc-today { display: inline-block; font-family: var(--font-head); font-weight: 700; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: #fff; background: var(--coral); padding: 1px 7px; border-radius: 999px; margin-top: 3px; }
 .week-col-body { padding: 8px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .week-ev { display: block; background: #fff; border: 1px solid var(--line); border-left: 3px solid var(--c, var(--tide)); border-radius: 10px; padding: 9px 10px; transition: transform .12s, box-shadow .12s; }

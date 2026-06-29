@@ -27,12 +27,12 @@ const initials = (name: string) =>
       const col = catColor(g.category);
       return (
         <a class="group-card" href={g.url} target="_blank" rel="noopener noreferrer" data-category={g.category}>
-          <span class="group-mark" style={catStyle(col)}>{initials(g.name)}</span>
+          <span class="group-mark" style={catStyle(col)} aria-hidden="true">{initials(g.name)}</span>
           <div class="group-info">
             <div class="group-name">{g.name}</div>
             <div class="group-tags">{g.tags.join(" · ")}</div>
           </div>
-          <span class="group-arrow">↗</span>
+          <span class="group-arrow" aria-hidden="true">↗</span>
         </a>
       );
     })}
