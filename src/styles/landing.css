@@ -128,7 +128,7 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 .hero-right { display: flex; flex-direction: column; }
 .hero-logo { display: block; height: clamp(128px, 16vw, 184px); width: auto; margin: 0 auto 26px; }
 @media (max-width: 860px) { .hero-logo { margin-top: 8px; } }
-.hero h1 { font-size: clamp(38px, 6vw, 72px); font-weight: 800; color: var(--deep); }
+.hero h1 { font-size: clamp(38px, 6vw, 72px); font-weight: 800; color: var(--deep); text-wrap: balance; }
 .hero h1 .hl { color: var(--tide); position: relative; white-space: nowrap; }
 .hero-sub { font-size: clamp(17px, 1.6vw, 21px); color: var(--muted); max-width: 560px; margin: 22px 0 28px; line-height: 1.55; }
 .hero-mini { font-size: 13.5px; color: var(--muted); margin-top: 14px; font-weight: 500; }
