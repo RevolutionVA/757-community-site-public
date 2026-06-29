@@ -2,6 +2,7 @@
 import LandingLayout from "../layouts/LandingLayout.astro";
 import LandingHeader from "../components/landing/LandingHeader.astro";
 import SplitHero from "../components/landing/SplitHero.astro";
+import Featured from "../components/landing/Featured.astro";
 import EventsExplorer from "../components/landing/EventsExplorer.astro";
 import Conferences from "../components/landing/Conferences.astro";
 import Groups from "../components/landing/Groups.astro";
@@ -74,6 +75,45 @@ const nextEvents = firstKey
       }))
   : [];
 
+// ---- Featured events ----
+// A dedicated band surfaces `featuredEvent: true` entries no matter how far out
+// they are (the upcoming list only spans the next 8 weeks). Dedupe against
+// conferences so an event that's also a listed conference (e.g. BSides) shows
+// once, in the Conferences section, rather than appearing twice.
+const firstSentence = (s?: string) => {
+  if (!s) return "";
+  const text = s.replace(/\s+/g, " ").trim();
+  const m = text.match(/^.*?[.!?](\s|$)/);
+  const out = (m ? m[0] : text).trim();
+  return out.length > 180 ? out.slice(0, 177).trimEnd() + "…" : out;
+};
+const confKeys = new Set(
+  conferencesData.flatMap((c) => [
+    c.name.toLowerCase().trim(),
+    c.url.replace(/\/+$/, ""),
+  ]),
+);
+const featured = calendarEvents
+  .filter((ev) => (ev as { featuredEvent?: boolean }).featuredEvent)
+  .map((ev) => ({ ev, d: new Date(ev.date) }))
+  .filter(({ ev, d }) =>
+    etDateKey(d) >= todayKey &&
+    !confKeys.has(ev.title.toLowerCase().trim()) &&
+    !confKeys.has((ev.link ?? "").replace(/\/+$/, "")),
+  )
+  .sort((a, b) => a.d.getTime() - b.d.getTime())
+  .map(({ ev, d }) => {
+    const disp = eventDisplay(d);
+    return {
+      url: ev.link,
+      title: ev.title,
+      group: ev.group,
+      category: meetupByName.get(ev.group)?.category ?? "Community",
+      blurb: firstSentence((ev as { description?: string }).description),
+      dow: disp.dow, day: disp.day, mon: disp.mon, timeLabel: disp.timeLabel,
+    };
+  });
+
 // ---- Groups directory ----
 const groups = meetupsData.map((m) => ({
   name: m.name, url: m.url, tags: m.tags, category: m.category,
@@ -104,6 +144,7 @@ const conferences = conferencesData
   <LandingHeader />
   <main>
     <SplitHero nextEvents={nextEvents} />
+    <Featured featured={featured} />
     <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} categories={categories} todayKey={todayKey} groupCount={groups.length} />
     <Conferences conferences={conferences} />
     <Groups groups={groups} />
