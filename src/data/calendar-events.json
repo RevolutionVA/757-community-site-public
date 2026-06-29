@@ -1,75 +1,5 @@
 [
   {
-    "title": "Scala",
-    "link": "https://www.meetup.com/hampton-roads-java-users-group/events/315247488/",
-    "date": "2026-06-22T22:30:00.000Z",
-    "description": "Scala is a JVM-based programming language that seamlessly combines functional and object-oriented paradigms. It is fully interoperable with Java, allowing developers to use existing Java libraries and frameworks. Compared to Java, Scala offers a more concise and expressive syntax, along with powerful features such as higher-order functions, type inference, and pattern matching.\n\nThis is a Hybrid event, you can also attend virtually using this link: https://discord.gg/nUSHDN2J2T\nOnce in the Discord Server, go to the voice chat named \"Meeting Room\"\n\nAgenda:\n6:30 PM: Doors open\n7:00 PM: Main Event\n8:00 PM Questions and Social Time",
-    "source": "meetup",
-    "group": "Hampton Roads Java Users Group",
-    "featuredEvent": false,
-    "createdDate": "2026-06-14T00:51:04.860Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
-  },
-  {
-    "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/315093171/",
-    "date": "2026-06-23T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
-    "source": "meetup",
-    "group": "757 Developers",
-    "featuredEvent": false,
-    "createdDate": "2026-06-04T00:55:21.820Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
-  },
-  {
-    "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/315093142/",
-    "date": "2026-06-23T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
-    "source": "meetup",
-    "group": "AI Collective Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-06-04T00:55:22.835Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
-    "previousVersion": {
-      "title": "AICHR | Peninsula Builders Study Group",
-      "date": "2026-06-23T22:00:00.000Z"
-    }
-  },
-  {
-    "title": "Claude + Sales & Marketing Automation: Pipeline on Autopilot | AICHR",
-    "link": "https://www.meetup.com/aicollectivehr/events/314899374/",
-    "date": "2026-06-23T23:00:00.000Z",
-    "description": "Notice: This meeting will be recorded. By joining and remaining in this meeting, you consent to being recorded. If you do not consent, please do not join.\n\nThis event is capped at 500 attendees. Register now to secure your spot.\n\nClaude + Sales & Marketing Automation: Pipeline on Autopilot —\n\nYour sales pipeline shouldn't depend on you remembering to follow up. Claude connects to your CRM, scores your leads, writes personalized outreach, generates proposals, and tracks your pipeline — all without you touching a spreadsheet or drafting another cold email from scratch.\n\nThis isn't generic AI marketing advice. This is a structured system: lead comes in → gets scored → gets personalized outreach → gets nurtured → gets a proposal → closes. The tools are your existing CRM + Claude. The output is a pipeline that runs while you sleep.\n\nThis is a live demo workshop. We'll build a complete sales and marketing automation system from scratch — starting with CRM integration and ending with a full pipeline that handles outreach, follow-up, proposals, and reporting automatically.\n\nWhat we'll cover:\n\n🔗 **The Sales & Marketing Stack Inside Claude** How CRM MCP connectors (Salesforce, HubSpot, GoHighLevel), Skills, Routines, and email automation combine into a single revenue engine — and why this stack replaces $500-2,000/mo in sales tools and hours of manual pipeline management.\n\n📱 **Demos We'll Build Live:**\n\n* **CRM Integration via MCP** — connect Claude directly to your CRM (Salesforce, HubSpot, or GoHighLevel) and manage contacts, deals, and pipeline stages from a single conversation\n* **Lead Scoring & Qualification Engine** — build an automated system that scores inbound leads based on your ideal customer profile and routes them to the right workflow\n* **Email Sequence Automation** — create personalized outreach, follow-up, and nurture sequences that sound like you wrote each one individually\n* **Proposal & SOW Generator** — use Skills with templates to generate custom proposals and statements of work in minutes, not hours\n* **Cold Outreach Personalization at Scale** — research prospects automatically and craft hyper-personalized messages that reference their company, role, and recent activity\n* **Pipeline Reporting & Forecasting** — automated weekly pipeline reports with deal velocity, conversion rates, and revenue forecasting\n* **LinkedIn Automation Integration** — connect your LinkedIn outreach to your CRM pipeline for seamless prospecting and tracking\n\n📊 **The Numbers** Companies using AI for sales report 50%+ increases in leads and appointments, 60-70% reduction in call time, and 40-60% cost reductions in outreach. The average sales rep spends only 28% of their time actually selling — the rest is admin, data entry, and manual follow-up. This event automates the 72% so you can focus on closing.\n\n**Who this is for:** Business leaders, founders, sales teams, and marketers who want to automate their pipeline without losing the personal touch. If you're manually managing leads in spreadsheets, writing the same follow-up emails over and over, or spending hours on proposals that should take minutes — this is the session. Prior experience with Claude is helpful but not required.\n\n**Who this is NOT for:** People looking for theory. This is a hands-on workshop. Every demo involves connecting real CRM data and building real automation workflows. If you're looking for a high-level overview of AI in sales, this isn't it.\n\n**What you'll leave with:** ✅ A working sales pipeline automation connected to your CRM ✅ A free setup guide with every demo walkthrough, step by step ✅ Email sequence templates you can deploy immediately ✅ A homework doc with bonus automations, advanced workflows, and exercises ✅ Understanding of CRM MCP connectors, Skills templates, and Routines for sales\n\n**Prerequisites:** — A Claude Pro, Max, or Team subscription (Cowork or Claude Code) — A CRM you actively use (Salesforce, HubSpot, GoHighLevel, or similar) — A list of prospects or leads you want to reach (even a small one works) — Willingness to connect your real tools during the session\n\n🎙️ **Your Speaker** **Andrew Stafford** Co-Lead of The AI Collective Hampton Roads. 25+ years across technology, cloud architecture, and AI — including work with Amazon, NASA, healthcare platforms, and enterprise systems. Author of AI for Business. Currently building at the intersection of AI tooling, agentic workflows, and practical business automation.\n\n🏢 **For Businesses** Want to bring AI automation training to your team? We offer private workshops (lunch and learn, half-day, full-day bootcamp), conference speaking, and technical consulting. Book a discovery call\n\n***\n\n🤝 **Organizers & partners**\n\n**Organizers** The AI Collective Hampton Roads\n\n**Platinum partners** TechArk Regent University ECPI University Hampton Roads Chamber Foundation Retail Alliance & Retail Alliance Foundation\n\n**Bronze partners** Assembly 757 Collab\n\n🌍 **Our parent org**\n\nThe AI Collective is a global non-profit community uniting 240,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI's future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our privacy policy and are subject to our code of conduct. Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter photo & video policy.",
-    "source": "meetup",
-    "group": "AI Collective Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-05-27T00:45:12.990Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
-  },
-  {
-    "title": "(CS)²AI Online™ Seminar; How to Secure ICS/OT Operations with MITRE D3FEND",
-    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315333922/",
-    "date": "2026-06-24T17:00:00.000Z",
-    "description": "Over a decade ago the MITRE organization established the open, freely accessible knowledge base of adversary tactics and techniques based on real-world observations known as MITRE ATT&CK. Used widely all around the world by cybersecurity defenders\ncollating attacker methods, it was and is only half of the equation. MITRE D3FEND was built to fundamentally describe the assets and subsequent countermeasures vital for defense.\n\nJoin us to learn how to leverage D3FEND to keep your operations up and running in the face of ongoing attacks on critical infrastructure:\n[https://events.zoom.us/ev/AsxAjZmn29umFLlJGJC5p5-mm5SfaFt6UvX2WgRD8xPKbiUNhEHP~AuP4DDVmT6FYAOb7TwFZ5Q6TfqcULNdcioVKPFPp-jOP2Zr3ZQDzd70cFpANFopyZbknmUc6qJLlEAA8HFupp8Thpg](https://events.zoom.us/ev/AsxAjZmn29umFLlJGJC5p5-mm5SfaFt6UvX2WgRD8xPKbiUNhEHP~AuP4DDVmT6FYAOb7TwFZ5Q6TfqcULNdcioVKPFPp-jOP2Zr3ZQDzd70cFpANFopyZbknmUc6qJLlEAA8HFupp8Thpg)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering these educational opportunities!). Please join now! [[[https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing))]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)))\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](http://cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [[[https://www.cs2ai.org/](https://www.cs2ai.org/)]([https://www.cs2ai.org/](https://www.cs2ai.org/))]([https://www.cs2ai.org/](https://www.cs2ai.org/)]([https://www.cs2ai.org/](https://www.cs2ai.org/)))\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event.[[https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved))]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)))\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n© Control System Cyber Security Association International 2026",
-    "source": "meetup",
-    "group": "Hampton Roads Cyber Security for Control Systems",
-    "featuredEvent": false,
-    "createdDate": "2026-06-20T00:47:25.654Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
-  },
-  {
-    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
-    "link": "https://www.meetup.com/issa-hampton-roads/events/314678919/",
-    "date": "2026-06-24T22:00:00.000Z",
-    "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
-    "source": "meetup",
-    "group": "Information Systems Security Association ISSA Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-05-07T18:35:56.255Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
-  },
-  {
     "title": "ParallAscii - Game Dev with JavaScript",
     "link": "https://www.meetup.com/norfolkjs/events/315091995/",
     "date": "2026-06-29T22:30:00.000Z",
@@ -78,7 +8,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-06-04T00:55:51.276Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "🧜‍♀️ AICHR | AI for Leaders: Build Your 7-Day Execution Plan",
@@ -89,7 +19,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-17T00:52:02.491Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "(CS)²AI Online™ Seminar: Optimizing a Free OS ICS/OT Community Toolset",
@@ -100,7 +30,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-06-03T00:55:59.441Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z",
     "previousVersion": {
       "title": "(CS)²AI Online™ Seminar: The ICS Advisory Project Evolution",
       "date": "2026-06-17T17:00:00.000Z"
@@ -115,7 +45,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-11T19:01:08.399Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z",
     "previousVersion": {
       "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
       "date": "2026-08-11T18:30:00.000Z"
@@ -130,7 +60,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:48.528Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z",
     "previousVersion": {
       "title": "Late Night Builders",
       "date": "2026-07-02T21:00:00.000Z"
@@ -145,29 +75,40 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:52.187Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/315274973/",
     "date": "2026-07-07T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:31.130Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
     "link": "https://www.meetup.com/aicollectivehr/events/315291951/",
     "date": "2026-07-07T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-17T07:52:49.978Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
+  },
+  {
+    "title": "(CS)²AI Online™ REPLAY Fellow Chat:Building OT Capacity for IR & Pentesting",
+    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315378628/",
+    "date": "2026-07-08T17:00:00.000Z",
+    "description": "Register now: [https://events.zoom.us/ev/Apfi8IgydKT-zZXuJzBQ4T4Q-05iE7D6ze-r46pt5QTToqDiy9KB~ApDtlw4EI6ly5uxRcA8sJWm6f2u3pLl-iKU2mMW6BFw70_-CXVO3Bt7yXK2kklzc4YR__90uu1pC6KEFV5BEuSINuQ](https://events.zoom.us/ev/Apfi8IgydKT-zZXuJzBQ4T4Q-05iE7D6ze-r46pt5QTToqDiy9KB~ApDtlw4EI6ly5uxRcA8sJWm6f2u3pLl-iKU2mMW6BFw70_-CXVO3Bt7yXK2kklzc4YR__90uu1pC6KEFV5BEuSINuQ)\n\nOperational Technology (OT) environments face unique challenges when it comes to incident response (IR) and penetration testing. As cyber threats continue to evolve, organizations must strengthen their capacity to prepare, detect, and respond effectively to incidents—while also proactively testing defenses to uncover vulnerabilities before adversaries do.\n\nJoin us for this **recorded seminar** with CS2AI Fellows and leading experts exploring strategies, best practices, and lessons learned for building OT-specific capabilities in both IR and pentesting. Participants will gain actionable insights into:\n\n* Tailoring IR processes for OT systems\n* Overcoming common pitfalls in OT pentesting\n* Strengthening team skills and capacity to meet today’s threat landscape\n* Leveraging industry tools and frameworks to build resilience\n\nThis session will equip practitioners, defenders, and decision-makers with the knowledge needed to enhance security postures across critical infrastructure.\n\n👉 **Earn up to 1 Continuing Education Credit (CEU) by actively attending this live seminar!**\n\n✅ **Don’t miss your chance to join this important discussion—register now to secure your spot!**\n[https://events.zoom.us/ev/Apfi8IgydKT-zZXuJzBQ4T4Q-05iE7D6ze-r46pt5QTToqDiy9KB~ApDtlw4EI6ly5uxRcA8sJWm6f2u3pLl-iKU2mMW6BFw70_-CXVO3Bt7yXK2kklzc4YR__90uu1pC6KEFV5BEuSINuQ](https://events.zoom.us/ev/Apfi8IgydKT-zZXuJzBQ4T4Q-05iE7D6ze-r46pt5QTToqDiy9KB~ApDtlw4EI6ly5uxRcA8sJWm6f2u3pLl-iKU2mMW6BFw70_-CXVO3Bt7yXK2kklzc4YR__90uu1pC6KEFV5BEuSINuQ)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering these educational opportunities!). Please join now! [[[https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing))]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)]([https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)))\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](http://cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [[[https://www.cs2ai.org/](https://www.cs2ai.org/)]([https://www.cs2ai.org/](https://www.cs2ai.org/))]([https://www.cs2ai.org/](https://www.cs2ai.org/)]([https://www.cs2ai.org/](https://www.cs2ai.org/)))\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event.[[https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved))]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)]([https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)))\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n© Control System Cyber Security Association International 2026",
+    "source": "meetup",
+    "group": "Hampton Roads Cyber Security for Control Systems",
+    "featuredEvent": false,
+    "createdDate": "2026-06-23T07:17:00.438Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "WSDG July Technical Presentation",
@@ -178,7 +119,18 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-06-13T00:51:43.884Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
+  },
+  {
+    "title": "SQL Engineering Connection Series",
+    "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/315397380/",
+    "date": "2026-07-09T16:00:00.000Z",
+    "description": "| **Speakers:** | Umachandar Jayachandran · Abhiman Tiwari |\n| --------- | ---------------------------------------- |\n| **Topic:** | Modernizing SQL Development with New T-SQL Capabilities |",
+    "source": "meetup",
+    "group": "Hampton Roads SQL Server User Group",
+    "featuredEvent": false,
+    "createdDate": "2026-06-24T18:37:20.097Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Monorepos, Frontends, and .NET",
@@ -189,11 +141,22 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:11.417Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z",
     "previousVersion": {
       "title": "Monorepos, Frontends, and .NET",
       "date": "2026-07-14T18:30:00.000Z"
     }
+  },
+  {
+    "title": "🧜‍♀️ AICHR | AI & Mental Health",
+    "link": "https://www.meetup.com/aicollectivehr/events/315421410/",
+    "date": "2026-07-14T22:30:00.000Z",
+    "description": "**How is AI impacting your mental health?**\n\n**A conversation with Ted Patterson and Dr. Sheetal Ajmani**\nGenerative AI is quickly becoming part of how we work, create, learn, process emotions, and make decisions. For many people, these tools have opened up new possibilities. They can help us move faster, think more clearly, and access support in ways that were not possible before.\nBut as AI becomes more personal, more conversational, and more present in our daily lives, we also need to ask a deeper question:\n\n**How is this technology impacting our mental health?**\n\nThe AI Collective believes in advancing humanity and technology in harmony. That means making space for honest conversations about both the promise and the pressure of living with AI.\n\nJoin Ted Patterson and Dr. Sheetal Ajmani for a thoughtful conversation on the mental health implications of AI. Together, we’ll explore emerging research, real-world case studies, and personal reflections on how AI use can affect stress, isolation, emotional dependence, reality-testing, creativity, productivity, and overall well-being.\n\nThis is not a fear-based conversation. It is a human one.\nWhether you use AI every day, are just beginning to experiment with it, or are concerned about where the technology is heading, this session will help you pause, reflect, and build a healthier relationship with the tools shaping our future.\n\n**What You’ll Walk Away With**\n\nYou’ll have the opportunity to:\n\n* Learn about emerging research and case studies on AI and mental health\n* Reflect on how GenAI use may be affecting your own well-being\n* Explore the difference between helpful AI use and unhealthy dependence\n* Discuss practical strategies for using AI while protecting your mental and emotional health\n* Connect with others who are navigating similar questions in work, life, and community\n\n**Agenda**\n\n**6:30 PM – 7:00 PM**\nCheck-in and networking\n\n**7:00 PM – 7:10 PM**\nWelcome and introduction with Ted Patterson\nWhy this conversation matters for the AI Collective and the broader community\n\n**7:10 PM – 7:25 PM**\nDr. Sheetal Ajmani shares her experience with GenAI and mental health, including her “No AI April” experiment, emerging research, and relevant case studies\n\n**7:25 PM – 7:35 PM**\nGuided reflection prompts for attendees\n\n**7:35 PM – 7:45 PM**\nSmall group discussion\n\n**7:45 PM – 8:00 PM**\nLarge group insights, audience takeaways, and Q&A\n\n**8:00 PM**\nClosing and feedback\n\n**About Dr. Sheetal Ajmani**\n\nDr. Sheetal Ajmani is a physician turned keynote speaker, executive coach, consultant, and founder of Radiant Living Institute.\n\nA highly sought-after professional speaker, Dr. Ajmani empowers audiences with practical, evidence-based strategies to cultivate stress resilience, lead with confidence, and create sustainable success. With over a hundred speaking engagements completed to date, her approach resonates with organizations across industries, including healthcare, law, insurance, executive groups, and professional women’s associations.\n\nDr. Ajmani is the host of the Essential Self-Care podcast, which has reached listeners around the world, and is the co-author of the Amazon bestselling book *Doctoring, Better*. She is currently completing her first full-length book, *Live Radiantly: Let Go of Others’ Expectations and Start Living for You*.\n\nLearn more at: [https://www.radiantlivinginstitute.com/](https://www.radiantlivinginstitute.com/)\n\nℹ️ Other bits of info & FAQs\n\n* Is there free parking in the area?\nYes. Parking is available along E. Main St and in downtown Norfolk for free after 6pm. If street parking isn't available, parking will also be available at the Waterside garage and Fountain garages. To learn more, head on over to Downtown Norfolk's parking & transportation page → [https://www.downtownnorfolk.org/business/parking-and-transportation](https://www.downtownnorfolk.org/business/parking-and-transportation)\n* What the closest free parking garage to the event?[ The Freemason Street Garage](https://www.google.com/maps/place/Freemason+Street+Garage/@36.8513931,-76.2932468,16z/data=!3m1!4b1!4m6!3m5!1s0x89ba981277f8b173:0xc4c55598d0f2ceec!8m2!3d36.8513931!4d-76.2906719!16s%2Fg%2F11b783lkbt?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D)\n* Is this free?\nYes, but space is limited. Make sure to RSVP.\n\n🤝 **Organizers & partners**\n\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr) \\+ \\[Radiant Living Institute\\]\\(Radiant Living Institute\\)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 1M+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "source": "meetup",
+    "group": "AI Collective Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2026-06-26T00:47:37.609Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
@@ -204,7 +167,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-01-14T18:07:25.390Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z",
     "previousVersion": {
       "title": "Joey D'antoni- SQL Server 2025 Deep Dive: Essential Innovations for DBAs & Devs",
       "date": "2026-07-15T18:00:00.000Z"
@@ -212,18 +175,14 @@
   },
   {
     "title": "Bitcoin meetup Open Discussion",
-    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjckbvb/",
+    "link": "https://www.meetup.com/virginia-beach-bitcoin/events/315434259/",
     "date": "2026-07-16T22:30:00.000Z",
     "description": "NEW LOCATION: Smarthmouth Brewing Co. - Oceanfront\nThird Thursday Each Month\n\nOur bitcoin open discussion meet up. Great time for anyone to ask questions or start a discussion! Usually multiple conversions end up splitting off.\n\nAll are welcome! See you there!",
     "source": "meetup",
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
-    "createdDate": "2026-02-20T06:20:59.621Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
-    "previousVersion": {
-      "title": "Bitcoin meetup Open Discussion",
-      "date": "2026-07-16T18:30:00.000Z"
-    }
+    "createdDate": "2026-06-27T00:45:43.748Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -234,7 +193,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-07T18:29:03.033Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -245,7 +204,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-11T00:27:40.228Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z",
     "previousVersion": {
       "title": "Norfolk Cybersecurity Networking & Happy Hour",
       "date": "2026-07-21T18:00:00.000Z"
@@ -255,27 +214,23 @@
     "title": "Peninsula Developers Study Group",
     "link": "https://www.meetup.com/757dev/events/315274975/",
     "date": "2026-07-21T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-06-16T00:57:32.067Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjckbcc/",
+    "link": "https://www.meetup.com/aicollectivehr/events/bvrcztyjckbcc/",
     "date": "2026-07-21T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-05-18T13:15:34.285Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
-    "previousVersion": {
-      "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-      "date": "2026-07-04T18:30:00.000Z"
-    }
+    "createdDate": "2026-06-28T18:26:20.502Z",
+    "updatedDate": "2026-06-29T07:45:54.096Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -286,7 +241,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-04-22T06:40:21.501Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z",
     "previousVersion": {
       "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
       "date": "2026-07-22T18:00:00.000Z"
@@ -294,29 +249,25 @@
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/ccxcxtyjclbgb/",
+    "link": "https://www.meetup.com/757dev/events/qtrcztyjclbgb/",
     "date": "2026-08-04T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-05-16T18:20:50.228Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:19.148Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjclbgb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/bvrcztyjclbgb/",
     "date": "2026-08-04T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-05-20T00:46:11.315Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
-    "previousVersion": {
-      "title": "AICHR | Peninsula Builders Study Group",
-      "date": "2026-08-04T22:00:00.000Z"
-    }
+    "createdDate": "2026-06-28T18:26:21.593Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Late Night Builders",
@@ -327,7 +278,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.538Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -338,33 +289,29 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-06T00:36:42.336Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/ccxcxtyjclbxb/",
+    "link": "https://www.meetup.com/757dev/events/qtrcztyjclbxb/",
     "date": "2026-08-18T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-05-29T07:22:31.900Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:23.753Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjclbxb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/bvrcztyjclbxb/",
     "date": "2026-08-18T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-06-10T00:49:57.877Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
-    "previousVersion": {
-      "title": "AICHR | Peninsula Builders Study Group",
-      "date": "2026-08-18T22:00:00.000Z"
-    }
+    "createdDate": "2026-06-28T18:26:22.628Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Jonathan Stewart: Translytical Task Flows: So Much More Than Write-Back",
@@ -375,7 +322,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:19.131Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -386,7 +333,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-08-20T18:30:00.000Z"
@@ -401,7 +348,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:53.945Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -412,29 +359,29 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:54.950Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/ccxcxtyjcmbcb/",
+    "link": "https://www.meetup.com/757dev/events/qtrcztyjcmbcb/",
     "date": "2026-09-01T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-06-10T00:49:58.952Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:24.531Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjcmbcb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/bvrcztyjcmbcb/",
     "date": "2026-09-01T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-06-19T07:54:13.641Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:23.533Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Late Night Builders",
@@ -445,7 +392,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:50.661Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -456,29 +403,29 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-28T00:41:21.530Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Peninsula Developers Study Group",
-    "link": "https://www.meetup.com/757dev/events/ccxcxtyjcmbtb/",
+    "link": "https://www.meetup.com/757dev/events/qtrcztyjcmbtb/",
     "date": "2026-09-15T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\n\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-06-13T18:31:08.308Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:26.542Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjcmbtb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/bvrcztyjcmbtb/",
     "date": "2026-09-15T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-06-20T00:47:16.773Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "createdDate": "2026-06-28T18:26:24.563Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Virginia Cup: Official Startup World Cup Virginia Qualifier",
@@ -500,7 +447,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -515,7 +462,51 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-13T00:51:40.380Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
+  },
+  {
+    "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
+    "link": "https://www.meetup.com/issa-hampton-roads/events/nztwvtyjcmbfc/",
+    "date": "2026-09-23T22:00:00.000Z",
+    "description": "Information Security and Cybersecurity professionals, come out and meet some new people. Have a night out on the town. Meet new people with similar interests. We love connecting with people who have similar interests. Whether you thinking about entering cybersecurity, recently entered, or seasoned, we welcome all to come out and drink some beers with us, or not drink with us. We want to meet you, to meet new people. We had enough of the virtual world with covid. Lets get back out and start meeting people again.\n\nThe Information Systems Security Association of Hampton Roads (ISSA-HR) is setting up social events throughout Hampton Roads to give Cyber Security Professionals and those interested in the subject a place to: Get Together, Share Stories, Learn Information, Meet New People.\nI﻿SSA-HR has years of Cyber Security knowledge that we are happy to give. Our organization is here to promote Cyber Security and bring up the next generation of Cyber Security Professionals.\n\nLocation: **The Casual Pint**: 3380 Princess Anne Rd, Ste 111, Virginia Beach, VA 23456\nTime: **6:00 - 8:00 PM**",
+    "source": "meetup",
+    "group": "Information Systems Security Association ISSA Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2026-06-25T00:46:56.001Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
+  },
+  {
+    "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
+    "link": "https://www.meetup.com/aicollectivehr/events/313058168/",
+    "date": "2026-09-24T22:30:00.000Z",
+    "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 150,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
+    "source": "meetup",
+    "group": "AI Collective Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2026-06-24T00:41:36.905Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
+  },
+  {
+    "title": "Peninsula Developers Study Group",
+    "link": "https://www.meetup.com/757dev/events/qtrcztyjcmbmc/",
+    "date": "2026-09-29T22:00:00.000Z",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
+    "source": "meetup",
+    "group": "757 Developers",
+    "featuredEvent": false,
+    "createdDate": "2026-06-28T18:26:27.623Z",
+    "updatedDate": "2026-06-29T07:45:54.097Z"
+  },
+  {
+    "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
+    "link": "https://www.meetup.com/aicollectivehr/events/pcpjxtyjcmbmc/",
+    "date": "2026-09-29T22:00:00.000Z",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**How it works:**\nWe meet every two weeks on Tuesdays from 6:00–7:30 PM at CNU. Sessions are a mix of focused study and group discussion.\n\n**Things to bring:**\n\n* Laptop\n* Earphones/headphones\n\n**Session details:**\n🕕 Study time: 6:05 PM – 7:05 PM\n🤝 Networking time: 7:05 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n💬 Join Slack: [Fill Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf7mmR0I0dlreopNJNgL7mRWz5m4oZz7Ixc1g7xSrsyR_kcag/viewform?usp=dialog)\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.\n\n**Roadmap (optional structure we’re following):**\n\n* AI Fluency + Claude 101 (start here)\n* Building with the Claude API\n* Intro to MCP + MCP Advanced\n* Claude Code in Action + Coursera module\n* Practice questions + scenario walkthroughs\n* Anti-patterns review\n\n*Based on: “[The Claude Certified Architect is Here!](https://medium.com/@reliabledataengineering/the-claude-certified-architect-is-here-and-its-unlike-any-ai-certification-before-it-7abe0fe678d1)”*\nYou are welcome to study on anything else too. The goal is the habit, not the syllabus.\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "source": "meetup",
+    "group": "AI Collective Hampton Roads",
+    "featuredEvent": false,
+    "createdDate": "2026-06-24T07:13:36.266Z",
+    "updatedDate": "2026-06-25T18:47:00.562Z"
   },
   {
     "title": "BSides Hampton Roads 2026",
@@ -537,7 +528,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -548,7 +539,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -559,7 +550,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -570,7 +561,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -581,7 +572,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -592,7 +583,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -603,6 +594,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-06-22T13:54:58.604Z"
+    "updatedDate": "2026-06-29T07:45:54.097Z"
   }
 ]
