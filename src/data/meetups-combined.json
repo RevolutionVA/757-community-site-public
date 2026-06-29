@@ -3,10 +3,10 @@
     "name": "AI Collective Hampton Roads",
     "url": "https://www.meetup.com/757-artificial-intelligence",
     "tags": [
-      "ai",
-      "artificial intelligence",
-      "open source",
-      "cloud computing"
+      "AI",
+      "Artificial Intelligence",
+      "Open Source",
+      "Cloud Computing"
     ],
     "category": "Technology",
     "rssFeed": "https://www.meetup.com/757-artificial-intelligence/events/rss/",
@@ -151,8 +151,8 @@
     "name": "Hampton Roads Designer Collective",
     "url": "https://www.meetup.com/hampton-roads-designer-collective/",
     "tags": [
-      "Game design",
-      "Graphic design"
+      "Game Design",
+      "Graphic Design"
     ],
     "category": "Design",
     "rssFeed": "https://www.meetup.com/hampton-roads-designer-collective/events/rss/",
@@ -166,10 +166,10 @@
     "name": "Hampton Roads Java Users Group",
     "url": "https://www.meetup.com/hampton-roads-java-users-group",
     "tags": [
-      "java",
-      "kotlin",
-      "scala",
-      "clojure"
+      "Java",
+      "Kotlin",
+      "Scala",
+      "Clojure"
     ],
     "category": "Development",
     "rssFeed": "https://www.meetup.com/hampton-roads-java-users-group/events/rss/",
@@ -241,8 +241,8 @@
     "name": "Norfolk.js",
     "url": "https://www.meetup.com/NorfolkJS/",
     "tags": [
-      "Javascript",
-      "Web development"
+      "JavaScript",
+      "Web Development"
     ],
     "category": "Development",
     "rssFeed": "https://www.meetup.com/NorfolkJS/events/rss/",
@@ -315,7 +315,7 @@
     "url": "https://www.meetup.com/WordPresshr/",
     "tags": [
       "WordPress",
-      "Web development"
+      "Web Development"
     ],
     "category": "Development",
     "rssFeed": "https://www.meetup.com/WordPresshr/events/rss/",
