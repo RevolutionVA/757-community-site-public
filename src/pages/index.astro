@@ -62,13 +62,17 @@ const counts: Record<string, number> = { All: events.length };
 for (const e of events) counts[e.category] = (counts[e.category] ?? 0) + 1;
 const categories = orderCategories(Object.keys(counts).filter((c) => c !== "All"));
 
-const next = events[0];
-const nextEvent = next
-  ? {
-      url: next.url, category: next.category, dow: next.dow, day: next.day,
-      mon: next.mon, timeLabel: next.timeLabel, group: next.group, title: next.title,
-    }
-  : null;
+// Surface every event on the nearest upcoming date — usually one, but when two
+// or three share a day, a single card would hide the rest behind it.
+const firstKey = events[0]?.dateKey;
+const nextEvents = firstKey
+  ? events
+      .filter((e) => e.dateKey === firstKey)
+      .map((e) => ({
+        url: e.url, category: e.category, dow: e.dow, day: e.day,
+        mon: e.mon, timeLabel: e.timeLabel, group: e.group, title: e.title,
+      }))
+  : [];
 
 // ---- Groups directory ----
 const groups = meetupsData.map((m) => ({
@@ -99,7 +103,7 @@ const conferences = conferencesData
 <LandingLayout title="The front door to tech in Hampton Roads">
   <LandingHeader />
   <main>
-    <SplitHero nextEvent={nextEvent} />
+    <SplitHero nextEvents={nextEvents} />
     <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} categories={categories} todayKey={todayKey} groupCount={groups.length} />
     <Conferences conferences={conferences} />
     <Groups groups={groups} />

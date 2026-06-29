@@ -12,9 +12,8 @@ export interface HeroEvent {
   group: string;
   title: string;
 }
-interface Props { nextEvent?: HeroEvent | null; }
-const { nextEvent } = Astro.props;
-const c = nextEvent ? catColor(nextEvent.category) : null;
+interface Props { nextEvents?: HeroEvent[]; }
+const { nextEvents = [] } = Astro.props;
 
 // Real Bento subscribe form lives in the hero now (the primary CTA). Action,
 // hidden redirect, and field names match the live endpoint.
@@ -51,25 +50,28 @@ const EMAIL_PATTERN = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
     <div class="hero-right">
       <img class="hero-logo" src="/images/757tech-logo.png" alt="757tech" width="2048" height="1117" />
       <div class="hero-peek">
-      <div class="peek-label">Next upcoming event</div>
-      {nextEvent && c && (
-        <a class="next-card" href={nextEvent.url} target="_blank" rel="noopener noreferrer">
-          <div class="next-date" style={catStyle(c)}>
-            <span class="nd-dow">{nextEvent.dow}</span>
-            <span class="nd-day">{nextEvent.day}</span>
-            <span class="nd-mon">{nextEvent.mon}</span>
-            <span class="nd-time">{nextEvent.timeLabel}</span>
-          </div>
-          <div class="next-body">
-            <span class="cat-badge" style={`${catStyle(c)};font-size:11px`}>
-              <span class="cat-dot" style={catDot(c)}></span>{nextEvent.category}
-            </span>
-            <div class="next-title">{nextEvent.title}</div>
-            <div class="next-group">{nextEvent.group}</div>
-          </div>
-        </a>
-      )}
-      {!nextEvent && (
+      <div class="peek-label">{nextEvents.length > 1 ? "Next upcoming events" : "Next upcoming event"}</div>
+      {nextEvents.map((ev) => {
+        const c = catColor(ev.category);
+        return (
+          <a class="next-card" href={ev.url} target="_blank" rel="noopener noreferrer">
+            <div class="next-date" style={catStyle(c)}>
+              <span class="nd-dow">{ev.dow}</span>
+              <span class="nd-day">{ev.day}</span>
+              <span class="nd-mon">{ev.mon}</span>
+              <span class="nd-time">{ev.timeLabel}</span>
+            </div>
+            <div class="next-body">
+              <span class="cat-badge" style={`${catStyle(c)};font-size:11px`}>
+                <span class="cat-dot" style={catDot(c)}></span>{ev.category}
+              </span>
+              <div class="next-title">{ev.title}</div>
+              <div class="next-group">{ev.group}</div>
+            </div>
+          </a>
+        );
+      })}
+      {nextEvents.length === 0 && (
         <p class="next-title">No upcoming events on the calendar right now — check back soon.</p>
       )}
       <a class="peek-all" href="#events">See all upcoming events →</a>

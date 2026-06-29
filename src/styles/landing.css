@@ -145,6 +145,7 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 /* next-event peek card */
 .next-card { display: flex; gap: 14px; align-items: flex-start; padding: 14px; border-radius: 16px; background: var(--sand-soft); border: 1px solid var(--line); transition: transform .15s, box-shadow .15s; }
 .next-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.next-card + .next-card { margin-top: 10px; }
 .next-date { flex-shrink: 0; width: 64px; text-align: center; border-radius: 13px; padding: 9px 0 7px; line-height: 1; }
 .nd-dow { display: block; font-family: var(--font-head); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
 .nd-day { display: block; font-family: var(--font-head); font-weight: 800; font-size: 26px; margin: 2px 0; }
