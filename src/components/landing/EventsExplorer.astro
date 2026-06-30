@@ -1,0 +1,340 @@
+---
+import { catColor, catStyle, catDot } from "./utils";
+
+export interface EventVM {
+  id: string;
+  url: string;
+  category: string;
+  tags: string[];
+  dateKey: string;
+  dow: string;
+  day: string;
+  mon: string;
+  timeLabel: string;
+  group: string;
+  title: string;
+  rel: string;
+  ts: number;
+  past?: boolean;
+  search: string;
+}
+interface Props {
+  events: EventVM[];
+  calendarEvents: EventVM[];
+  counts: Record<string, number>;
+  categories: string[];
+  todayKey: string;
+  groupCount: number;
+}
+const { events, calendarEvents, counts, categories, todayKey, groupCount } = Astro.props;
+// `categories` is already limited to those present in the upcoming events.
+const chips = ["All", ...categories];
+
+// Full set (past + future) the client island needs to render the week/month
+// calendar. The list view above is server-rendered from `events` (upcoming).
+const clientData = calendarEvents.map((e) => ({
+  id: e.id, url: e.url, category: e.category, dateKey: e.dateKey,
+  timeLabel: e.timeLabel, group: e.group, title: e.title, ts: e.ts,
+  past: e.past ?? false, search: e.search,
+}));
+const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
+---
+<section class="section events-section" id="events" data-today={todayKey}>
+  <div class="section-head">
+    <div>
+      <span class="kicker">What's happening</span>
+      <h2>Upcoming in the 757</h2>
+    </div>
+    <p class="section-lead">Real meetups from {groupCount} community groups across Hampton Roads. Filter, search, or browse the calendar.</p>
+  </div>
+
+  <div class="explorer-bar">
+    <div class="filter-chips" data-cat-chips>
+      {chips.map((c) => (
+        <button class={"chip" + (c === "All" ? " active" : "")} data-cat={c}>
+          {c}<span class="chip-count">{counts[c] ?? 0}</span>
+        </button>
+      ))}
+    </div>
+    <div class="explorer-tools">
+      <div class="search">
+        <span class="search-ico">⌕</span>
+        <input type="search" data-search-input placeholder="Search groups, topics, tags…" aria-label="Search events" />
+        <button class="search-clear" data-search-clear aria-label="Clear" hidden>×</button>
+      </div>
+      <div class="view-toggle" data-view-toggle>
+        <button class="active" data-view="list">List</button>
+        <button data-view="week">Week</button>
+        <button data-view="month">Month</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="event-grid" data-event-grid>
+    {events.map((e) => {
+      const c = catColor(e.category);
+      return (
+        <a class="event-card" href={e.url} target="_blank" rel="noopener noreferrer" data-category={e.category} data-search={e.search}>
+          <div class="ec-date">
+            <span class="ec-dow">{e.dow}</span>
+            <span class="ec-day">{e.day}</span>
+            <span class="ec-mon">{e.mon}</span>
+            <span class="ec-time">{e.timeLabel}</span>
+          </div>
+          <div class="ec-body">
+            <div class="ec-top">
+              <span class="cat-badge" style={`${catStyle(c)};font-size:12px`}>
+                <span class="cat-dot" style={catDot(c)}></span>{e.category}
+              </span>
+              {e.rel && <span class="ec-rel">{e.rel}</span>}
+            </div>
+            <div class="ec-title">{e.title}</div>
+            <div class="ec-group">{e.group}</div>
+            <div class="ec-tags">
+              {e.tags.map((t) => <span class="ec-tag">{t}</span>)}
+            </div>
+          </div>
+          <span class="ec-arrow">→</span>
+        </a>
+      );
+    })}
+  </div>
+
+  <div class="empty-state" data-empty hidden>
+    <div class="empty-emoji">🏝️</div>
+    <p>No events match that filter — try another category or clear your search.</p>
+    <button class="btn-ghost" data-reset>Reset filters</button>
+  </div>
+
+  <div class="calendar-wrap" data-calendar hidden></div>
+
+  <script type="application/json" data-events-data set:html={eventsJson}></script>
+</section>
+
+<script>
+  import { catColor, weekDays, weekRangeLabel, monthGrid, DOW } from "./utils";
+  // The calendar DOM is built at runtime, so its event accent color is set via
+  // the --c custom property. Use the precomputed hex (not oklch) so the border
+  // stays valid on browsers without oklch() support.
+
+  type Ev = {
+    id: string; url: string; category: string; dateKey: string;
+    timeLabel: string; group: string; title: string; ts: number; past: boolean; search: string;
+  };
+
+  const section = document.querySelector<HTMLElement>(".events-section");
+  if (section) {
+    const todayKey = section.dataset.today || "";
+    const allEvents = JSON.parse(
+      section.querySelector("[data-events-data]")?.textContent || "[]",
+    ) as Ev[];
+
+    const catChips = section.querySelectorAll<HTMLButtonElement>("[data-cat-chips] .chip");
+    const cards = section.querySelectorAll<HTMLElement>("[data-event-grid] .event-card");
+    const grid = section.querySelector<HTMLElement>("[data-event-grid]")!;
+    const empty = section.querySelector<HTMLElement>("[data-empty]")!;
+    const calWrap = section.querySelector<HTMLElement>("[data-calendar]")!;
+    const searchInput = section.querySelector<HTMLInputElement>("[data-search-input]")!;
+    const searchClear = section.querySelector<HTMLButtonElement>("[data-search-clear]")!;
+    const viewBtns = section.querySelectorAll<HTMLButtonElement>("[data-view-toggle] button");
+
+    let cat = "All";
+    let q = "";
+    let view: "list" | "week" | "month" = "list";
+    let weekOffset = 0;
+    let monthOffset = 0;
+
+    const matches = (e: { category: string; search: string }) => {
+      if (cat !== "All" && e.category !== cat) return false;
+      if (q && !e.search.includes(q.toLowerCase())) return false;
+      return true;
+    };
+
+    function el(tag: string, className?: string, text?: string) {
+      const n = document.createElement(tag);
+      if (className) n.className = className;
+      if (text != null) n.textContent = text;
+      return n;
+    }
+
+    // Group the currently-filtered events by their ET date key, time-sorted.
+    function groupFiltered(): Record<string, Ev[]> {
+      const byKey: Record<string, Ev[]> = {};
+      for (const e of allEvents.filter(matches)) (byKey[e.dateKey] ||= []).push(e);
+      for (const k in byKey) byKey[k].sort((a, b) => a.ts - b.ts);
+      return byKey;
+    }
+
+    function eventLink(e: Ev, className: string, dot: string) {
+      const a = el("a", className) as HTMLAnchorElement;
+      a.href = e.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.style.setProperty("--c", dot);
+      return a;
+    }
+
+    function renderList() {
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = matches({
+          category: card.dataset.category || "",
+          search: card.dataset.search || "",
+        });
+        card.style.display = show ? "" : "none";
+        if (show) visible++;
+      });
+      empty.hidden = visible !== 0;
+    }
+
+    function calHead(title: string, sub: string, onPrev: () => void, onNext: () => void, resetLabel: string, atZero: boolean, onReset: () => void) {
+      const head = el("div", "cal-head");
+      const prev = el("button", "cal-nav", "‹"); prev.setAttribute("aria-label", "Previous");
+      const next = el("button", "cal-nav", "›"); next.setAttribute("aria-label", "Next");
+      prev.onclick = onPrev; next.onclick = onNext;
+      const t = el("div", "cal-title", title);
+      t.appendChild(el("span", "cal-sub", sub));
+      head.append(prev, t, next);
+      if (!atZero) {
+        const btn = el("button", "cal-today-btn", resetLabel);
+        btn.onclick = onReset;
+        head.appendChild(btn);
+      }
+      return head;
+    }
+
+    function renderWeek() {
+      calWrap.innerHTML = "";
+      const days = weekDays(todayKey, weekOffset);
+      const byKey = groupFiltered();
+      const count = days.reduce((n, d) => n + (byKey[d.key]?.length || 0), 0);
+
+      const cal = el("div", "calendar week");
+      cal.appendChild(calHead(
+        weekRangeLabel(days),
+        `${count} event${count === 1 ? "" : "s"} · ${days[0].year}`,
+        () => { weekOffset--; renderWeek(); },
+        () => { weekOffset++; renderWeek(); },
+        "This week", weekOffset === 0, () => { weekOffset = 0; renderWeek(); },
+      ));
+
+      const wgrid = el("div", "week-grid");
+      for (const d of days) {
+        const dayEvs = byKey[d.key] || [];
+        const col = el("div", "week-col" + (d.isToday ? " today" : "") + (dayEvs.length ? "" : " empty"));
+        const colHead = el("div", "week-col-head");
+        colHead.append(el("span", "wc-dow", d.dow), el("span", "wc-day", String(d.day)));
+        if (d.isToday) colHead.appendChild(el("span", "wc-today", "Today"));
+        col.appendChild(colHead);
+        const body = el("div", "week-col-body");
+        if (dayEvs.length) {
+          for (const e of dayEvs) {
+            const a = eventLink(e, "week-ev" + (e.past ? " past" : ""), catColor(e.category).dotHex);
+            a.append(
+              el("div", "we-time", e.timeLabel),
+              el("div", "we-title", e.title),
+              el("div", "we-group", e.group),
+            );
+            body.appendChild(a);
+          }
+        } else {
+          body.appendChild(el("div", "week-empty", "·"));
+        }
+        col.appendChild(body);
+        wgrid.appendChild(col);
+      }
+      cal.appendChild(wgrid);
+      if (count === 0) cal.appendChild(el("div", "cal-hint", "No meetups this week — try the next one →"));
+      calWrap.appendChild(cal);
+    }
+
+    function renderMonth() {
+      calWrap.innerHTML = "";
+      const mv = monthGrid(todayKey, monthOffset);
+      const byKey = groupFiltered();
+      const count = mv.days.reduce((n, d) => n + (d.inMonth ? (byKey[d.key]?.length || 0) : 0), 0);
+
+      const cal = el("div", "calendar month");
+      cal.appendChild(calHead(
+        mv.label,
+        `${count} event${count === 1 ? "" : "s"}`,
+        () => { monthOffset--; renderMonth(); },
+        () => { monthOffset++; renderMonth(); },
+        "This month", monthOffset === 0, () => { monthOffset = 0; renderMonth(); },
+      ));
+
+      const dows = el("div", "month-dows");
+      for (const d of DOW) dows.appendChild(el("div", "month-dow", d));
+      cal.appendChild(dows);
+
+      const mgrid = el("div", "month-grid");
+      for (const cell of mv.days) {
+        const dayEvs = cell.inMonth ? (byKey[cell.key] || []) : [];
+        const c = el("div", "month-cell" + (cell.inMonth ? "" : " out") + (cell.isToday ? " today" : ""));
+        c.appendChild(el("div", "mc-day", String(cell.day)));
+        if (dayEvs.length) {
+          const box = el("div", "mc-events");
+          for (const e of dayEvs.slice(0, 3)) {
+            const a = eventLink(e, "month-ev" + (e.past ? " past" : ""), catColor(e.category).dotHex);
+            a.title = `${e.timeLabel} · ${e.title} (${e.group})`;
+            a.append(el("span", "me-time", e.timeLabel + " "), el("span", "me-t", e.title));
+            box.appendChild(a);
+          }
+          if (dayEvs.length > 3) box.appendChild(el("div", "mc-more", `+${dayEvs.length - 3} more`));
+          c.appendChild(box);
+        }
+        mgrid.appendChild(c);
+      }
+      cal.appendChild(mgrid);
+      if (count === 0) cal.appendChild(el("div", "cal-hint", "No meetups this month — try the next one →"));
+      calWrap.appendChild(cal);
+    }
+
+    function render() {
+      if (view === "list") renderList();
+      else if (view === "week") renderWeek();
+      else renderMonth();
+    }
+
+    catChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        cat = chip.dataset.cat || "All";
+        catChips.forEach((c) => c.classList.toggle("active", c === chip));
+        render();
+      });
+    });
+
+    searchInput.addEventListener("input", () => {
+      q = searchInput.value.trim();
+      searchClear.hidden = q === "";
+      render();
+    });
+    searchClear.addEventListener("click", () => {
+      searchInput.value = ""; q = ""; searchClear.hidden = true; searchInput.focus(); render();
+    });
+
+    viewBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        view = (btn.dataset.view as typeof view) || "list";
+        viewBtns.forEach((b) => b.classList.toggle("active", b === btn));
+        if (view === "list") {
+          calWrap.hidden = true;
+          grid.style.display = ""; // author .event-grid{display:grid} beats [hidden]
+          renderList();
+        } else {
+          grid.style.display = "none";
+          empty.hidden = true;
+          calWrap.hidden = false;
+          render();
+        }
+      });
+    });
+
+    section.querySelector<HTMLButtonElement>("[data-reset]")?.addEventListener("click", () => {
+      cat = "All"; q = "";
+      searchInput.value = ""; searchClear.hidden = true;
+      catChips.forEach((c) => c.classList.toggle("active", c.dataset.cat === "All"));
+      render();
+    });
+
+    renderList();
+  }
+</script>

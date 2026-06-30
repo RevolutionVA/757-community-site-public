@@ -1,0 +1,51 @@
+---
+import { catColor, catStyle, catDot } from "./utils";
+
+export interface FeaturedVM {
+  url: string;
+  title: string;
+  group: string;
+  category: string;
+  blurb: string;
+  dow: string;
+  day: string;
+  mon: string;
+  timeLabel: string;
+}
+interface Props { featured: FeaturedVM[]; }
+const { featured } = Astro.props;
+---
+{featured.length > 0 && (
+  <section class="section feat-section" id="featured">
+    <div class="section-head">
+      <div>
+        <span class="kicker">Don't miss</span>
+        <h2>Featured events</h2>
+      </div>
+      <p class="section-lead">Marquee gatherings worth planning around — pinned here even when they're further out than the list below.</p>
+    </div>
+    <div class="feat-grid">
+      {featured.map((ev) => {
+        const c = catColor(ev.category);
+        return (
+          <a class="feat-card" href={ev.url} target="_blank" rel="noopener noreferrer">
+            <div class="feat-date" style={catStyle(c)}>
+              <span class="fd-dow">{ev.dow}</span>
+              <span class="fd-day">{ev.day}</span>
+              <span class="fd-mon">{ev.mon}</span>
+              <span class="fd-time">{ev.timeLabel}</span>
+            </div>
+            <div class="feat-body">
+              <span class="cat-badge" style={`${catStyle(c)};font-size:11px`}>
+                <span class="cat-dot" style={catDot(c)}></span>{ev.category}
+              </span>
+              <h3>{ev.title}</h3>
+              <div class="feat-group">{ev.group}</div>
+              {ev.blurb && <p>{ev.blurb}</p>}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+)}

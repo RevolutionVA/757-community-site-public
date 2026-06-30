@@ -1,0 +1,20 @@
+---
+import { COMMUNITY } from "../../data/community";
+const GITHUB = COMMUNITY.github;
+---
+<section class="section submit-section" id="submit">
+  <div class="submit-card">
+    <div class="submit-copy">
+      <h2>Running a group or event?</h2>
+      <p>Get it in front of every technologist in Hampton Roads. List your meetup, add a one-off event, or feature a conference — it's free.</p>
+      <div class="submit-actions">
+        <a class="btn-coral" href="/get-involved">Submit an event</a>
+        <a class="btn-ghost-dark" href={GITHUB} target="_blank" rel="noopener noreferrer">Add your group</a>
+      </div>
+    </div>
+    <div class="submit-art" aria-hidden="true">
+      <div class="art-wave"></div>
+      <div class="art-chip">＋</div>
+    </div>
+  </div>
+</section>

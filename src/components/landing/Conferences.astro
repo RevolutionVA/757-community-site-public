@@ -1,0 +1,49 @@
+---
+export interface ConferenceVM {
+  name: string;
+  url: string;
+  location: string;
+  month: string;
+  blurb: string;
+  tags: string[];
+  coverImage?: string;
+}
+interface Props { conferences: ConferenceVM[]; }
+const { conferences } = Astro.props;
+---
+<section class="section conf-section" id="conferences">
+  <div class="section-head">
+    <div>
+      <span class="kicker">Worth the drive</span>
+      <h2>Regional conferences</h2>
+    </div>
+    <p class="section-lead">The bigger gatherings — in the 757 and a short hop up the road in Virginia.</p>
+  </div>
+  {conferences.length ? (
+    <div class="conf-grid">
+      {conferences.map((c) => (
+        <a class="conf-card" href={c.url} target="_blank" rel="noopener noreferrer">
+          <div class="conf-photo" role="img" aria-label={`${c.name} — cover image`}>
+            {c.coverImage
+              ? <img src={c.coverImage} alt="" loading="lazy" />
+              : <span class="ph-label">conference photo</span>}
+            <span class="conf-month">{c.month}</span>
+          </div>
+          <div class="conf-body">
+            <h3>{c.name}</h3>
+            <div class="conf-loc">📍 {c.location}</div>
+            <p>{c.blurb}</p>
+            <div class="conf-tags">
+              {c.tags.map((t) => <span class="conf-tag">{t}</span>)}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  ) : (
+    <div class="empty-state">
+      <div class="empty-emoji">🌊</div>
+      <p>No regional conferences on the calendar right now — check back soon.</p>
+    </div>
+  )}
+</section>

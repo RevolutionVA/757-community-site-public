@@ -1,145 +1,154 @@
 ---
-import MainLayout from '../layouts/MainLayout.astro';
-import FeatureCard from '../components/FeatureCard.astro';
-import StatCard from '../components/StatCard.astro';
-import SectionDivider from '../components/SectionDivider.astro';
-import ThisWeekMeetups from '../components/ThisWeekMeetups.astro';
-import KeepSurfing from '../components/KeepSurfing.astro';
-import NewsletterSignup from '../components/NewsletterSignup.astro';
+import LandingLayout from "../layouts/LandingLayout.astro";
+import LandingHeader from "../components/landing/LandingHeader.astro";
+import SplitHero from "../components/landing/SplitHero.astro";
+import Featured from "../components/landing/Featured.astro";
+import EventsExplorer from "../components/landing/EventsExplorer.astro";
+import Conferences from "../components/landing/Conferences.astro";
+import Groups from "../components/landing/Groups.astro";
+import SubmitCTA from "../components/landing/SubmitCTA.astro";
+import LandingFooter from "../components/landing/LandingFooter.astro";
+import {
+  orderCategories, MON, etDateKey, eventDisplay, relativeLabel,
+} from "../components/landing/utils";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import calendarEvents from "../data/calendar-events.json";
+import meetupsData from "../data/meetups-combined.json";
+import conferencesData from "../data/conferences.json";
+
+const now = new Date();
+const todayKey = etDateKey(now);
+const windowEnd = new Date(now.getTime() + 56 * 86400000); // ~next 8 weeks
+
+// group name -> meetup record (for category + tags), same key used elsewhere.
+const meetupByName = new Map(meetupsData.map((m) => [m.name, m]));
+
+// ---- Events: map each to category/tags via its meetup group ----
+function toVM(ev: (typeof calendarEvents)[number], d: Date, i: number) {
+  const meetup = meetupByName.get(ev.group);
+  const category = meetup?.category ?? "Community";
+  const tags = meetup?.tags ?? [];
+  const disp = eventDisplay(d);
+  return {
+    id: `ev-${i}`,
+    url: ev.link,
+    category,
+    tags,
+    ...disp,
+    group: ev.group,
+    title: ev.title,
+    rel: relativeLabel(disp.dateKey, todayKey),
+    ts: d.getTime(),
+    past: disp.dateKey < todayKey,
+    search: `${ev.group} ${ev.title} ${tags.join(" ")} ${category}`.toLowerCase(),
+  };
+}
+
+// Full set (past + future) drives the week/month calendar so you can navigate
+// across time; past events render grayed out. The list view below stays focused
+// on the upcoming window.
+const allEvents = calendarEvents
+  .map((ev, i) => ({ ev, d: new Date(ev.date), i }))
+  .sort((a, b) => a.d.getTime() - b.d.getTime())
+  .map(({ ev, d, i }) => toVM(ev, d, i));
+
+const events = allEvents.filter(
+  (e) => e.ts >= now.getTime() && e.ts <= windowEnd.getTime(),
+);
+
+// Tally counts in one pass, then build chips from the categories that actually
+// appear — so the per-chip counts always sum to the "All" count (a new or
+// fallback category can't silently slip out of the chip row).
+const counts: Record<string, number> = { All: events.length };
+for (const e of events) counts[e.category] = (counts[e.category] ?? 0) + 1;
+const categories = orderCategories(Object.keys(counts).filter((c) => c !== "All"));
+
+// Surface every event on the nearest upcoming date — usually one, but when two
+// or three share a day, a single card would hide the rest behind it.
+const firstKey = events[0]?.dateKey;
+const nextEvents = firstKey
+  ? events
+      .filter((e) => e.dateKey === firstKey)
+      .map((e) => ({
+        url: e.url, category: e.category, dow: e.dow, day: e.day,
+        mon: e.mon, timeLabel: e.timeLabel, group: e.group, title: e.title,
+      }))
+  : [];
+
+// ---- Featured events ----
+// A dedicated band surfaces `featuredEvent: true` entries no matter how far out
+// they are (the upcoming list only spans the next 8 weeks). Dedupe against
+// conferences so an event that's also a listed conference (e.g. BSides) shows
+// once, in the Conferences section, rather than appearing twice.
+const firstSentence = (s?: string) => {
+  if (!s) return "";
+  const text = s.replace(/\s+/g, " ").trim();
+  const m = text.match(/^.*?[.!?](\s|$)/);
+  const out = (m ? m[0] : text).trim();
+  return out.length > 180 ? out.slice(0, 177).trimEnd() + "…" : out;
+};
+const confKeys = new Set(
+  conferencesData.flatMap((c) => [
+    c.name.toLowerCase().trim(),
+    c.url.replace(/\/+$/, ""),
+  ]),
+);
+const featured = calendarEvents
+  .filter((ev) => (ev as { featuredEvent?: boolean }).featuredEvent)
+  .map((ev) => ({ ev, d: new Date(ev.date) }))
+  .filter(({ ev, d }) =>
+    etDateKey(d) >= todayKey &&
+    !confKeys.has(ev.title.toLowerCase().trim()) &&
+    !confKeys.has((ev.link ?? "").replace(/\/+$/, "")),
+  )
+  .sort((a, b) => a.d.getTime() - b.d.getTime())
+  .map(({ ev, d }) => {
+    const disp = eventDisplay(d);
+    return {
+      url: ev.link,
+      title: ev.title,
+      group: ev.group,
+      category: meetupByName.get(ev.group)?.category ?? "Community",
+      blurb: firstSentence((ev as { description?: string }).description),
+      dow: disp.dow, day: disp.day, mon: disp.mon, timeLabel: disp.timeLabel,
+    };
+  });
+
+// ---- Groups directory ----
+const groups = meetupsData.map((m) => ({
+  name: m.name, url: m.url, tags: m.tags, category: m.category,
+}));
+
+// ---- Conferences: upcoming only (past ones are archived on /conferences). ----
+// A conference stays listed through its final day. `endDate` is expected for
+// multi-day events (see conferences.schema.json); single-day entries set
+// endDate === date, and the `?? c.date` fallback keeps them visible on the day.
+const conferences = conferencesData
+  .filter((c) => (c.endDate ?? c.date) >= todayKey)
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .map((c) => {
+  const [y, mm] = c.date.split("-");
+  return {
+    name: c.name,
+    url: c.url,
+    location: c.location,
+    month: `${MON[Number(mm) - 1]} ${y}`,
+    blurb: c.description,
+    tags: c.tags,
+    coverImage: c.coverImage,
+  };
+});
 ---
 
-<MainLayout 
-	title="Home" 
-	description="757tech connects technology professionals in Hampton Roads, Virginia. Find local meetups, events, learning resources, and job opportunities in Virginia Beach, Norfolk, Chesapeake, and beyond."
->
-	<div class="hero">
-		<div class="container">
-			<h1>757tech</h1>
-			<p>
-				This site is focused on serving up all the technology (development, design, etc.) goodness that is rooted in Hampton Roads region of Virginia. 
-				For those out of the loop, that includes the following cities: Virginia Beach, Norfolk, Chesapeake, Suffolk, Hampton, Newport News, and Williamsburg.
-			</p>
-		</div>
-	</div>
-
-	<div class="container">
-		<section class="section">
-			<SectionDivider title="About our region" />
-			
-			<div class="grid-3">
-				<StatCard 
-					emoji="👩🏽‍💻" 
-					value="40k+" 
-					label="Professionals" 
-				/>
-				<StatCard 
-					emoji="🏖️" 
-					value="200" 
-					label="Beach days / year" 
-				/>
-				<StatCard 
-					emoji="👯" 
-					value="~20" 
-					label="Monthly meetups" 
-				/>
-			</div>
-
-			<div class="grid">
-				<div class="feature-content">
-					<h3>💡 Innovation</h3>
-					<p>
-						Experience the future of technology right here in Hampton Roads. Our community is at the forefront of innovation, 
-						driving solutions that improve daily life in our region. Whether it's smart city initiatives or cutting-edge startups, 
-						we're shaping a more connected and sustainable future for all.
-					</p>
-				</div>
-
-				<div class="feature-content">
-					<h3>🏖️ Quality of life</h3>
-					<p>
-						At the intersection of technology and lifestyle, we're leveraging innovation to enhance the way we live and work in Hampton Roads. 
-						Discover how local tech advancements are solving real-world problems—from healthcare to transportation—making our area a hub for 
-						both work-life balance and career growth.
-					</p>
-				</div>
-
-				<div class="feature-content">
-					<h3>🌎 Community-centered solutions</h3>
-					<p>
-						Our community thrives on creating tech that directly impacts the well-being of our region. Join us in crafting solutions that 
-						improve local services, foster economic growth, and elevate Hampton Roads as a leader in smart living and innovation. 
-						Together, we're building a brighter, tech-driven future.
-					</p>
-				</div>
-			</div>
-		</section>
-
-		<section class="section">
-			<SectionDivider title="Meetups This Week" />
-			<NewsletterSignup />
-			<ThisWeekMeetups />
-		</section>
-
-		<KeepSurfing />
-
-		<section class="section">
-			<SectionDivider title="Want to make your mark?" />
-			
-			<div class="get-involved">
-				<p>
-					Whether it's getting involved with a local meetup group, online community, or starting something up yourself, 
-					the 757 needs you to make it a better, cooler place to be.
-				</p>
-				<a href="/get-involved" class="cta-button">Get involved</a>
-			</div>
-		</section>
-	</div>
-</MainLayout>
-
-<style>
-	.feature-content {
-		background-color: #fff;
-		padding: 1.5rem;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.newsletter-container {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-
-	.feature-content h3 {
-		margin-top: 0;
-		color: #0077cc;
-	}
-
-	.get-involved {
-		text-align: center;
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-		background-color: #fff;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	.cta-button {
-		display: inline-block;
-		background-color: #0077cc;
-		color: white;
-		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
-		font-weight: bold;
-		text-decoration: none;
-		transition: background-color 0.2s ease;
-	}
-
-	.cta-button:hover {
-		background-color: #005fa3;
-		text-decoration: none;
-	}
-</style>
+<LandingLayout title="The front door to tech in Hampton Roads">
+  <LandingHeader />
+  <main>
+    <SplitHero nextEvents={nextEvents} />
+    <Featured featured={featured} />
+    <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} categories={categories} todayKey={todayKey} groupCount={groups.length} />
+    <Conferences conferences={conferences} />
+    <Groups groups={groups} />
+    <SubmitCTA />
+  </main>
+  <LandingFooter />
+</LandingLayout>
