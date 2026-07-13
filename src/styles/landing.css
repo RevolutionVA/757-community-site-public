@@ -89,7 +89,8 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 /* At the top of the page the hero shows the prominent logo, so the navbar
    brand is hidden; it fades in (small) once the header condenses on scroll. */
 .brand { opacity: 0; pointer-events: none; transition: opacity .25s ease; }
-.site-header.scrolled .brand { opacity: 1; pointer-events: auto; }
+.site-header.scrolled .brand,
+.site-header.subpage .brand { opacity: 1; pointer-events: auto; }
 .brand img { height: 50px; width: auto; }
 .nav { display: flex; gap: 28px; margin-left: auto; }
 .nav a { font-weight: 600; font-size: 15.5px; color: var(--deep); position: relative; padding: 4px 0; opacity: .82; transition: opacity .15s; }
