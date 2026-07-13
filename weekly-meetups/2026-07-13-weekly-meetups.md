@@ -1,8 +1,8 @@
 # Meetups This Week (Monday - Sunday)
 
-Generated on: 2026-07-13T07:05:31.008Z
+Generated on: 2026-07-13T14:50:30.722Z
 
-## 8 Meetups This Week
+## 9 Meetups This Week
 
 ### Tuesday, July 14
 
@@ -185,6 +185,32 @@ Master the benefits of the latest release of SQL Server and how to deploy it in 
 
 ### Thursday, July 16
 
+#### Bonus Code + Coffee | Taxus Street
+
+- **Time:** 09:30 AM
+- **Group:** 757 Developers
+- **Link:** [Event Link](https://www.meetup.com/757dev/events/315666228/)
+
+**Description:**
+Join us for a relaxed morning meetup where developers, designers, founders, and tech enthusiasts gather over great coffee to talk shop, share ideas, and connect with others in the local tech community.
+
+**Code + Coffee** has no formal agenda—just bring your laptop, a project you’re working on, a question you’ve been thinking about, or simply come to meet other people building interesting things. Whether you're coding, designing, experimenting with AI, launching a startup, or just curious about technology, you'll find friendly conversations and plenty of inspiration.
+
+Expect:
+
+* Good coffee
+* Interesting technical conversations
+* People sharing projects and ideas
+* Occasional spontaneous whiteboard sessions
+
+Drop in anytime during the meetup window.
+
+Stay for 10 minutes or the whole time.
+
+If you’ve been looking for a low-key way to meet other developers in the area, this is it.
+
+---
+
 #### Bitcoin meetup Open Discussion
 
 - **Time:** 06:30 PM
@@ -201,32 +227,31 @@ All are welcome! See you there!
 
 ---
 
-#### 🧜‍♀️ AICHR | Build and Demo Evenings
+#### 🧜‍♀️ AICHR | Build and Demo Night
 
 - **Time:** 06:30 PM
 - **Group:** AI Collective Hampton Roads
 - **Link:** [Event Link](https://www.meetup.com/aicollectivehr/events/315516363/)
 
 **Description:**
-## 🚀 Build & Demo Nights — Where Hampton Roads Ships Real AI
+**🚀 Build & Demo Night — Where Hampton Roads Ships Real AI**
 
 Something's building here. Every **Month**, the AI Collective turns into a working garage: laptops open, ideas flying, and real projects taking shape in the room. This isn't a lecture or a watch-along. It's a **build night.**
 
-**Here's how it works:**
+**Here's how it works**
 Come with an idea, a half-finished project, or just curiosity. Spend the night building — solo or on a team. Then we **demo.** Show what you made, get real feedback, and see what everyone else is shipping. Working demos beat perfect slides, every time.
 **Andrew and a crew of experienced devs** will be in the room the whole night — to pair up, debug with you, talk architecture, or help you scope something you can actually finish by the end of the session. Stuck? We'll get you unstuck. Just want to talk through an idea? That's what we're here for.
 
-### 👇 But here's the bigger picture
-
+**👇 But here's the bigger picture**
 These nights aren't the finish line — they're the **on-ramp.**
 
-* **🔧 Build & Demo Nights** → sharpen your skills, form teams, and get a project off the ground.
+* **🔧 Build & Demo Night** → sharpen your skills, form teams, and get a project off the ground.
 * **⚡ Hackathons** → take those teams and projects into focused sprint competitions and ship something real in 24–48 hours.
 * **🏆 Regional & National Stages** → the strongest projects go on to compete at events like the **Startup World Cup** (global pitch competition, $1M grand prize) and **SCSP's AI hackathons** ($50K+ prize pools, frontier-AI & national-competitiveness focus) — and whatever comes next.
 
 Local reps → competitive teams → a shot at the biggest stages in tech. The people who show up to build on a random weeknight are the same people who'll be repping Hampton Roads at a national final. **That path starts here.**
 
-### Who should come
+**Who should come**
 
 * **Developers** who want to build more, and build faster
 * **Founders & entrepreneurs** with an idea to prototype
@@ -257,6 +282,8 @@ Come build. Demo something. Then let's take it to the world stage. 🌎
 [Regent University](https://www.regent.edu/)
 [ECPI University](https://www.ecpi.edu/)
 [Hampton Roads Chamber Foundation](https://hrchamber.com/)
+[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)
+[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)
 
 **Bronze partners**
 [Assembly](https://www.assemblynfk.com/)
