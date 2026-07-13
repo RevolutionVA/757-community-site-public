@@ -154,6 +154,15 @@ Full calendar → https://757tech.org
 
 Subject date range spans the first **validated** event's day to the last's (drops shrink the range). Month names, no year; cross-month weeks read `June 29 – July 4`. Email uses full day names in ALL CAPS and keeps one blank line between events even on the same day.
 
+**Optional — create a Bento broadcast draft:** only when the user asks. The script reads the current week's slack.txt directly and renders the full branded 757Tech Weekly newsletter (intro boilerplate, Featured Events, event cards, footer with unsubscribe tag). Featured Events are the upcoming `calendar-events.json` entries with `featuredEvent: true` — to feature something, set that flag (plus optional `location` and `endDate`) on the calendar entry. Pass `--exclude <meetup-event-id>` for each event that failed link verification:
+
+```bash
+op run --account revolutionva.1password.com --env-file .env -- \
+  node scripts/create-bento-broadcast.js --exclude <cancelled-event-id>
+```
+
+Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault of the `revolutionva.1password.com` account via `op` secret references (see `.env.example`; `.env` is gitignored). The script creates a **draft** — the user reviews and sends from the Bento dashboard. Use `--dry-run` (no credentials needed) plus `--html-out <file>` to preview. Before running, check `src/data/newsletter-featured.json` is current and ask the user if the featured events look stale. Never pass raw API keys on the command line or write them to files.
+
 ## Quick Reference
 
 | Step | Command / action |
@@ -163,6 +172,7 @@ Subject date range spans the first **validated** event's day to the last's (drop
 | Source file | `weekly-meetups/<monday>-weekly-meetups-slack.txt` |
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
 | Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), Email (plain text, inline links) |
+| Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
 ## Common Mistakes
 
