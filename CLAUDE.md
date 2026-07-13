@@ -85,6 +85,63 @@ Important utility scripts in `scripts/`:
 
 **Image Handling**: Meetup images are automatically fetched and cached. Use `MeetupImage.astro` component for consistent display.
 
+### Weekly Meetups Announcement Template
+
+When asked to generate a Slack/Discord message for the weekly meetups (source: `weekly-meetups/<date>-weekly-meetups-slack.txt`), use this exact format:
+
+```
+:calendar: *757tech Meetups This Week (Mon–Sun) — N events*
+
+  *Mon, Month D*
+  • *Event Title* — H:MM AM/PM (Group Name)
+  https://www.meetup.com/.../events/<id>/
+
+  *Tue, Month D*
+  • *Another Event* — H:MM AM/PM (Group Name)
+  https://www.meetup.com/.../events/<id>/
+
+  Full details → https://757tech.org
+```
+
+Formatting rules:
+- **Validate every event first** by fetching its Meetup link; confirm it's still active (not cancelled) and that title/date/time match the source file. Only include events that pass.
+- **Bold** the header, each day heading (`*Mon, Month D*`), and each event title using Slack single-asterisk bold (`*...*`). For Discord, swap to double-asterisk (`**...**`).
+- Strip decorative emoji (e.g. 🧜‍♀️) from event titles for a clean look.
+- One bullet per event: `• *Title* — Time (Group)`, with the bare Meetup URL on the next line.
+- Group events under day headings; use em-dash (`—`) between title and time, and between the header label and event count.
+- Count in the header is the number of validated events ("N events").
+- End with `Full details → https://757tech.org`.
+
+#### LinkedIn variant
+
+LinkedIn does **not** render markdown — asterisks show literally. Use emoji + line breaks for structure instead of bold. Two options:
+
+**Standard (links inline):**
+
+```
+📅 757tech Meetups This Week (Mon–Sun) — N events
+
+Hampton Roads has a packed week of tech meetups. Here's what's happening:
+
+🗓 Mon, Month D
+Event Title — H:MM AM/PM (Group Name)
+https://www.meetup.com/.../events/<id>/
+
+Full event details → https://757tech.org
+
+#757tech #HamptonRoads #TechCommunity #Meetups #Developers
+```
+
+**Links-in-first-comment (better reach — preferred):** LinkedIn down-ranks posts with outbound links, so keep the post body link-free and put all event links in the first comment (post it immediately after publishing so it pins to top).
+
+- Post body: same as standard but with **no event URLs**; replace them with a `🔗 Event links in the comments below 👇` line before the hashtags.
+- First comment: list each event link, e.g. `Mon — Event Title:` followed by the URL, ending with `Full calendar → https://757tech.org`.
+
+LinkedIn formatting rules:
+- Add a one-line intro and the hashtag block (Slack/Discord omit both).
+- Prefix each day heading with 🗓; no bold markup anywhere.
+- Same validation requirement as above: only include events confirmed active with matching title/date/time.
+
 ### Cursor Rules Integration
 
 The project includes comprehensive Astro development guidelines in `.cursor/rules/astro.mdc` covering:
