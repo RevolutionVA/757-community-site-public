@@ -1,7 +1,17 @@
 ---
 // Sticky coastal header. Real Slack/Discord invite URLs reused from the site.
+// `subpage` is set on pages other than the landing page: the anchor targets
+// live on the landing page (so links get a "/" prefix) and the brand stays
+// visible since there's no hero logo above it.
 import { COMMUNITY } from "../../data/community";
 const { slack: SLACK, discord: DISCORD } = COMMUNITY;
+
+interface Props {
+  subpage?: boolean;
+}
+const { subpage = false } = Astro.props;
+const root = subpage ? "/" : "";
+
 const links = [
   ["Events", "#events"],
   ["Conferences", "#conferences"],
@@ -9,13 +19,13 @@ const links = [
   ["Submit", "#submit"],
 ];
 ---
-<header class="site-header" id="site-header">
+<header class:list={["site-header", { subpage }]} id="site-header">
   <div class="header-inner">
-    <a class="brand" href="#top" aria-label="757tech home">
+    <a class="brand" href={subpage ? "/" : "#top"} aria-label="757tech home">
       <img src="/images/757tech-logo.png" alt="757tech — tech community" />
     </a>
     <nav class="nav" id="primary-nav" aria-label="Main navigation">
-      {links.map(([label, href]) => <a href={href}>{label}</a>)}
+      {links.map(([label, href]) => <a href={root + href}>{label}</a>)}
     </nav>
     <div class="header-social">
       <a class="social-ico slack" href={SLACK} target="_blank" rel="noopener noreferrer" aria-label="Join us on Slack" title="Join us on Slack">
@@ -36,7 +46,7 @@ const links = [
         <line x1="3" y1="18" x2="21" y2="18"></line>
       </svg>
     </button>
-    <a class="btn-coral header-cta" href="#subscribe">Subscribe</a>
+    <a class="btn-coral header-cta" href={`${root}#subscribe`}>Subscribe</a>
   </div>
 </header>
 
