@@ -1,0 +1,7 @@
+---
+interface Props { fill?: string; }
+const { fill = "#F2E6CE" } = Astro.props;
+---
+<svg class="wave-divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+  <path fill={fill} d="M0,64 C180,112 340,16 540,40 C760,66 900,118 1120,92 C1280,73 1380,40 1440,30 L1440,120 L0,120 Z" />
+</svg>

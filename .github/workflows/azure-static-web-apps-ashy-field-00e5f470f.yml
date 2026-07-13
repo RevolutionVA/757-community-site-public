@@ -11,10 +11,16 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [event-added]
+  schedule:
+    # 05:10 UTC daily — just after ET midnight year-round (00:10 EST / 01:10 EDT).
+    # Re-bakes the build-time `new Date()` in index.astro so the homepage's
+    # "upcoming"/"this week"/past markers roll forward even on days with no
+    # calendar-data changes (the 6-hourly update-calendar job only deploys on change).
+    - cron: '10 5 * * *'
 
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    if: github.event_name == 'push' || github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:

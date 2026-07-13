@@ -1,0 +1,45 @@
+---
+import { COMMUNITY } from "../../data/community";
+const { slack: SLACK, discord: DISCORD, github: GITHUB } = COMMUNITY;
+// Evaluated at build time. The calendar auto-update redeploys the site every
+// ~6 hours (update-calendar.yml), so this rolls over within hours of Jan 1.
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/images/757tech-logo.png" alt="757tech" />
+      <p>The front door for technologists in the 757 — Norfolk, Virginia Beach, Chesapeake, Newport News, Hampton, Suffolk, Portsmouth &amp; Williamsburg.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#events">Events</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#groups">Groups</a>
+        <a href="/calendar">Full calendar</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get involved</h4>
+        <a href="#submit">Submit an event</a>
+        <a href="/get-involved">Add your group</a>
+        <a href="#subscribe">Newsletter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href={SLACK} target="_blank" rel="noopener noreferrer">Slack</a>
+        <a href={DISCORD} target="_blank" rel="noopener noreferrer">Discord</a>
+        <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-base">
+    <span>© {year} 757tech.org · Supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>, a 501(c)(3) non-profit — built by the community, for the community.</span>
+    <span class="footer-tag">Made in Hampton Roads 🌊</span>
+  </div>
+</footer>
+
+<style>
+  .footer-base a { color: var(--deep); font-weight: 600; }
+  .footer-base a:hover { color: var(--tide); }
+</style>

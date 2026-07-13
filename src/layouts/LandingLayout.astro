@@ -1,0 +1,79 @@
+---
+// Slim layout for the coastal landing design. It reproduces MainLayout's
+// <head> (SEO/social/analytics parity) but ships the design's own header/footer
+// and self-contained CSS instead of the site-wide chrome + global.css, which
+// would collide with the design's .hero / .site-header / footer / reset rules.
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  canonicalUrl?: string;
+}
+
+const {
+  title,
+  description = "Every meetup, user group, and regional conference in the 757 — in one tide. The front door to tech in Hampton Roads, Virginia.",
+  image = "/images/757tech-social-card.jpg",
+  canonicalUrl = Astro.url.pathname,
+} = Astro.props;
+
+const siteUrl = Astro.site?.href.replace(/\/$/, "") ?? "https://757tech.org";
+const fullCanonicalUrl = `${siteUrl}${canonicalUrl}`;
+const fullTitle = `${title} | 757 Tech Community`;
+
+// Global (non-scoped) landing styles — see the file header for why they can't
+// be Astro-scoped. Component-specific tweaks live in each component's <style>.
+import "../styles/landing.css";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>{fullTitle}</title>
+    <meta name="title" content={fullTitle} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={fullCanonicalUrl} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={fullCanonicalUrl} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${siteUrl}${image}`} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={fullCanonicalUrl} />
+    <meta property="twitter:title" content={fullTitle} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={`${siteUrl}${image}`} />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bento Tracking -->
+    <script src="https://fast.bentonow.com?site_uuid=57d9b8196b2b704a30da5ac245bf2cfe&js=true" async defer></script>
+    <script>
+      if (typeof(bento$) != 'undefined') {
+        bento$(function() {
+          bento.view();
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app">
+      <slot />
+    </div>
+  </body>
+</html>
+
