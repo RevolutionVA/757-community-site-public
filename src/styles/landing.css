@@ -263,6 +263,31 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 .cal-today-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-family: var(--font-head); font-weight: 700; font-size: 13px; color: var(--tide); background: color-mix(in srgb, var(--tide) 10%, #fff); border: 1.5px solid color-mix(in srgb, var(--tide) 35%, #fff); padding: 7px 13px; border-radius: 999px; cursor: pointer; transition: all .15s; }
 .cal-today-btn:hover { background: var(--tide); color: #fff; }
 
+/* Shared week/month header — on narrow screens the rigid centered row
+   (min-width title + two nav circles) overflowed its container and the
+   absolutely-positioned reset button overlapped the next-arrow. Switch to a
+   3-column grid: prev | title | next on row 1, reset pill centered on row 2. */
+@media (max-width: 640px) {
+  .cal-head {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 10px 12px;
+  }
+  .cal-title { min-width: 0; font-size: 19px; }
+  .cal-today-btn {
+    position: static;
+    transform: none;
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 2px;
+  }
+  /* stop the List/Week/Month toggle from being pushed off-screen by the search box */
+  .explorer-tools { flex-wrap: wrap; }
+  .search { flex: 1 1 100%; }
+  .search input { width: 100%; }
+  .view-toggle { width: 100%; justify-content: center; }
+}
+
 .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; align-items: start; }
 .week-col { background: var(--sand-soft); border-radius: 14px; overflow: hidden; min-height: 120px; display: flex; flex-direction: column; }
 .week-col.empty { background: transparent; }
