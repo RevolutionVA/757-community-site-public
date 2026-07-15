@@ -28,6 +28,7 @@ package-lock.json
 
 # backup files
 *.backup
+*.bak
 
 # Design handoff artifacts (kept locally, not tracked)
 design-reference/
