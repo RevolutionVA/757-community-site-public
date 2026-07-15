@@ -77,9 +77,9 @@ const nextEvents = firstKey
 
 // ---- Featured events ----
 // A dedicated band surfaces `featuredEvent: true` entries no matter how far out
-// they are (the upcoming list only spans the next 8 weeks). Dedupe against
-// conferences so an event that's also a listed conference (e.g. BSides) shows
-// once, in the Conferences section, rather than appearing twice.
+// they are (the upcoming list only spans the next 8 weeks). An event that's also a
+// listed conference (e.g. BSides) intentionally appears in both places: the band is
+// the headline slot, and the Conferences section remains its permanent listing.
 const firstSentence = (s?: string) => {
   if (!s) return "";
   const text = s.replace(/\s+/g, " ").trim();
@@ -87,20 +87,10 @@ const firstSentence = (s?: string) => {
   const out = (m ? m[0] : text).trim();
   return out.length > 180 ? out.slice(0, 177).trimEnd() + "…" : out;
 };
-const confKeys = new Set(
-  conferencesData.flatMap((c) => [
-    c.name.toLowerCase().trim(),
-    c.url.replace(/\/+$/, ""),
-  ]),
-);
 const featured = calendarEvents
   .filter((ev) => (ev as { featuredEvent?: boolean }).featuredEvent)
   .map((ev) => ({ ev, d: new Date(ev.date) }))
-  .filter(({ ev, d }) =>
-    etDateKey(d) >= todayKey &&
-    !confKeys.has(ev.title.toLowerCase().trim()) &&
-    !confKeys.has((ev.link ?? "").replace(/\/+$/, "")),
-  )
+  .filter(({ d }) => etDateKey(d) >= todayKey)
   .sort((a, b) => a.d.getTime() - b.d.getTime())
   .map(({ ev, d }) => {
     const disp = eventDisplay(d);

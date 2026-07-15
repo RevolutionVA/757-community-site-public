@@ -6,7 +6,8 @@
     "date": "2026-10-09",
     "endDate": "2026-10-10",
     "location": "Norfolk, VA",
-    "tags": ["Security", "Infosec", "Community"]
+    "tags": ["Security", "Infosec", "Community"],
+    "coverImage": "/images/bsides.png"
   },
   {
     "name": "Hampton Roads DevFest 2026",
