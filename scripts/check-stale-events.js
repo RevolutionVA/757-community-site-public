@@ -84,7 +84,8 @@ function makeRequest(url, options = {}, data = null) {
  * returned and logged rather than collapsed into a bare boolean.
  *
  * @param {string} url - The event URL to check
- * @returns {Promise<{deleted: boolean, status: number|null, reason: string}>}
+ * @returns {Promise<{deleted: boolean, status: number|null, reason: string}>} - status is
+ *   null when no response arrived (timeout, network error, malformed URL)
  */
 function checkEventAtSource(url) {
   return new Promise((resolve) => {
@@ -106,9 +107,12 @@ function checkEventAtSource(url) {
         },
         (res) => {
           const status = res.statusCode;
-          // A HEAD response has no body, but drain it anyway and swallow any stream
-          // error so a mid-response socket failure can't throw unhandled.
-          res.on('error', () => finish({ deleted: false, status, reason: 'response stream error' }));
+          // The status line is all we need, and it's already here — resolve on it
+          // immediately. A HEAD response has no body, but drain it anyway and swallow
+          // any stream error: 'error' is always async, so it can never change the value
+          // resolved below. This listener exists purely so a mid-response socket failure
+          // can't throw as an unhandled 'error' event.
+          res.on('error', () => {});
           res.resume();
           finish({
             deleted: DELETED_STATUS_CODES.has(status),
@@ -327,12 +331,36 @@ async function checkStaleEvents() {
       return;
     }
 
+    // Get existing issues to avoid duplicates across runs. This happens before the
+    // source confirmation below so that an event which already has an open issue
+    // doesn't get re-checked against Meetup on every scheduled run — the issue
+    // wouldn't be filed twice either way, so the request would be pure waste.
+    const existingIssues = await getExistingIssues();
+    const existingEventTitles = new Set(
+      existingIssues.map(issue =>
+        issue.title.replace('🗑️ Review stale event: ', '')
+      )
+    );
+
+    const unreportedStaleEvents = dedupedStaleEvents.filter(event => {
+      if (existingEventTitles.has(event.title)) {
+        console.log(`⏭️ Skipping ${event.title} - issue already exists`);
+        return false;
+      }
+      return true;
+    });
+
+    if (unreportedStaleEvents.length === 0) {
+      console.log('All stale candidates already have open issues, nothing to do');
+      return;
+    }
+
     // Falling out of the RSS feed is only a hint. Confirm each candidate against the
     // source so that events truncated off the end of a busy feed aren't reported as
     // cancelled. Events with no link can't be confirmed, so they pass through.
-    console.log(`Confirming ${dedupedStaleEvents.length} stale candidates against the source...`);
+    console.log(`Confirming ${unreportedStaleEvents.length} stale candidates against the source...`);
     const confirmedStaleEvents = [];
-    for (const event of dedupedStaleEvents) {
+    for (const event of unreportedStaleEvents) {
       if (!event.link) {
         console.log(`❓ ${event.title} - no link to verify, flagging for review`);
         confirmedStaleEvents.push(event);
@@ -356,29 +384,17 @@ async function checkStaleEvents() {
       return;
     }
 
-    // Get existing issues to avoid duplicates across runs
-    const existingIssues = await getExistingIssues();
-    const existingEventTitles = new Set(
-      existingIssues.map(issue =>
-        issue.title.replace('🗑️ Review stale event: ', '')
-      )
-    );
-
-    // Create issues for stale events that don't already have issues
+    // Create issues for the confirmed stale events
     let issuesCreated = 0;
     for (const event of confirmedStaleEvents) {
-      if (!existingEventTitles.has(event.title)) {
-        const issue = await createStaleEventIssue(event);
-        if (issue) {
-          issuesCreated++;
-        }
+      const issue = await createStaleEventIssue(event);
+      if (issue) {
+        issuesCreated++;
+      }
 
-        // Rate limiting - wait 1 second between issue creation
-        if (issuesCreated < confirmedStaleEvents.length) {
-          await new Promise(resolve => setTimeout(resolve, 1000));
-        }
-      } else {
-        console.log(`⏭️ Skipping ${event.title} - issue already exists`);
+      // Rate limiting - wait 1 second between issue creation
+      if (issuesCreated < confirmedStaleEvents.length) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
       }
     }
 
