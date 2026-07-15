@@ -73,12 +73,20 @@ function makeRequest(url, options = {}, data = null) {
 
 /**
  * Asks the source whether an event has actually been deleted.
- * Errors and unexpected statuses resolve to false so that a flaky network or a
- * Meetup layout change results in a missed issue rather than a false accusation.
+ *
+ * Only a hard 404/410 counts as deleted. Anything else — a timeout, a network error,
+ * an unexpected status — resolves to "not deleted" so that a flaky check misses an
+ * issue rather than reporting a live event as cancelled.
+ *
+ * This assumes Meetup serves 404 for deleted events rather than redirecting or serving
+ * a 200 "not found" page. That holds today (verified against deleted events), but if it
+ * ever changes this step would quietly stop confirming anything, so the status code is
+ * returned and logged rather than collapsed into a bare boolean.
+ *
  * @param {string} url - The event URL to check
- * @returns {Promise<boolean>} - True only if the source confirms the event is gone
+ * @returns {Promise<{deleted: boolean, status: number|null, reason: string}>}
  */
-function isEventDeleted(url) {
+function checkEventAtSource(url) {
   return new Promise((resolve) => {
     let settled = false;
     const finish = (value) => {
@@ -97,19 +105,29 @@ function isEventDeleted(url) {
           timeout: 10000,
         },
         (res) => {
+          const status = res.statusCode;
+          // A HEAD response has no body, but drain it anyway and swallow any stream
+          // error so a mid-response socket failure can't throw unhandled.
+          res.on('error', () => finish({ deleted: false, status, reason: 'response stream error' }));
           res.resume();
-          finish(DELETED_STATUS_CODES.has(res.statusCode));
+          finish({
+            deleted: DELETED_STATUS_CODES.has(status),
+            status,
+            reason: `HTTP ${status}`,
+          });
         }
       );
 
       req.on('timeout', () => {
         req.destroy();
-        finish(false);
+        finish({ deleted: false, status: null, reason: 'timeout' });
       });
-      req.on('error', () => finish(false));
+      req.on('error', (error) =>
+        finish({ deleted: false, status: null, reason: `request error: ${error.message}` })
+      );
       req.end();
-    } catch {
-      finish(false);
+    } catch (error) {
+      finish({ deleted: false, status: null, reason: `request threw: ${error.message}` });
     }
   });
 }
@@ -321,11 +339,12 @@ async function checkStaleEvents() {
         continue;
       }
 
-      if (await isEventDeleted(event.link)) {
-        console.log(`🗑️ ${event.title} - confirmed deleted at source`);
+      const { deleted, reason } = await checkEventAtSource(event.link);
+      if (deleted) {
+        console.log(`🗑️ ${event.title} - confirmed deleted at source (${reason})`);
         confirmedStaleEvents.push(event);
       } else {
-        console.log(`✅ ${event.title} - still live at source, not stale (likely truncated off the RSS feed)`);
+        console.log(`✅ ${event.title} - still at source (${reason}), not stale (likely truncated off the RSS feed)`);
       }
 
       // Be polite to Meetup between checks

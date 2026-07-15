@@ -30,19 +30,32 @@ const CALENDAR_FILE_PATH = path.join(
 // most-recently-updated entry.
 const CROSS_POST_PREFERRED_GROUPS = ["757 Developers", "AI Collective Hampton Roads"];
 
+// Prefixes that groups put in front of a cross-posted title ("AICHR | Real Title").
+// Deliberately an explicit list rather than a generic "strip anything before a pipe":
+// a generic rule would also clip legitimate titles like "C++ | Intro to Templates",
+// and two such titles at the same start time would then be silently merged — dropping
+// a real event from the site. If a new group starts cross-posting, add its tag here.
+// Until then the worst case is a visible duplicate, which is far easier to notice than
+// a silently missing event.
+const CROSS_POST_TITLE_TAGS = ["AICHR"];
+
+const CROSS_POST_TAG_PATTERN = new RegExp(
+	`^(?:${CROSS_POST_TITLE_TAGS.map((tag) => tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\s*\\|\\s*`,
+	"i",
+);
+
 /**
  * Normalizes a title so the same event announced by two groups compares equal.
- * Strips decorative emoji and a short leading group tag ("AICHR | ..."), then
+ * Strips decorative emoji and a known leading group tag ("AICHR | ..."), then
  * lowercases and collapses whitespace.
  * @param {string} title
  * @returns {string}
  */
 function normalizeTitle(title) {
 	return (title || "")
-		.replace(/\p{Extended_Pictographic}/gu, "")
-		.replace(/[‍️]/g, "")
+		.replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "")
 		.trim()
-		.replace(/^[^|]{1,16}\|\s*/, "")
+		.replace(CROSS_POST_TAG_PATTERN, "")
 		.toLowerCase()
 		.replace(/\s+/g, " ")
 		.trim();
