@@ -35,6 +35,13 @@ if (!fs.existsSync(meetupsImagesDir)) {
 const meetupsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'meetups-combined.json'), 'utf8'));
 console.log(chalk.blue(`Loaded ${meetupsData.length} meetups from data file`));
 
+// Meetup group names carry decorative emoji that we don't want in the site's own
+// copy of the title. og:title reflects whatever the organizer set, so without this
+// every build re-introduces them.
+function stripEmoji(text) {
+  return text.replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, '').replace(/\s{2,}/g, ' ').trim();
+}
+
 // Function to extract Open Graph metadata from a URL
 async function fetchOgMetadata(url) {
   try {
@@ -50,7 +57,7 @@ async function fetchOgMetadata(url) {
     const metadata = {
       url,
       imageUrl: ogImage ? ogImage[1] : null,
-      title: ogTitle ? ogTitle[1] : null,
+      title: ogTitle ? stripEmoji(ogTitle[1]) : null,
       description: ogDescription ? ogDescription[1] : null
     };
     
@@ -238,7 +245,7 @@ async function processMeetups() {
   }
   
   // Save updated meetups data to file
-  fs.writeFileSync(meetupsOutputPath, JSON.stringify(meetupsData, null, 2));
+  fs.writeFileSync(meetupsOutputPath, `${JSON.stringify(meetupsData, null, 2)}\n`);
   console.log(chalk.green(`Saved updated meetups data to ${meetupsOutputPath}`));
   console.log(chalk.green(`Successfully processed ${successCount} meetups`));
   

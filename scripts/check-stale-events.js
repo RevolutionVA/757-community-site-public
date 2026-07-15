@@ -26,6 +26,13 @@ const MAX_FUTURE_DAYS = 180;      // Skip events more than ~6 months out — Mee
                                   // typically only carry near-term events, so distant events
                                   // naturally fall off the feed without being cancelled.
 
+// Meetup RSS feeds are truncated by item count (currently 10 per group), not by date.
+// A group with a busy schedule therefore drops still-valid near-term events off the end
+// of its feed, which MAX_FUTURE_DAYS cannot catch. Absence from the feed is only a hint,
+// so before filing an issue we ask the source directly: Meetup serves a hard 404 for
+// deleted events and 200 for live ones.
+const DELETED_STATUS_CODES = new Set([404, 410]);
+
 /**
  * Makes an HTTPS request
  * @param {string} url - The URL to request
@@ -61,6 +68,71 @@ function makeRequest(url, options = {}, data = null) {
     }
     
     req.end();
+  });
+}
+
+/**
+ * Asks the source whether an event has actually been deleted.
+ *
+ * Only a hard 404/410 counts as deleted. Anything else — a timeout, a network error,
+ * an unexpected status — resolves to "not deleted" so that a flaky check misses an
+ * issue rather than reporting a live event as cancelled.
+ *
+ * This assumes Meetup serves 404 for deleted events rather than redirecting or serving
+ * a 200 "not found" page. That holds today (verified against deleted events), but if it
+ * ever changes this step would quietly stop confirming anything, so the status code is
+ * returned and logged rather than collapsed into a bare boolean.
+ *
+ * @param {string} url - The event URL to check
+ * @returns {Promise<{deleted: boolean, status: number|null, reason: string}>} - status is
+ *   null when no response arrived (timeout, network error, malformed URL)
+ */
+function checkEventAtSource(url) {
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (value) => {
+      if (!settled) {
+        settled = true;
+        resolve(value);
+      }
+    };
+
+    try {
+      const req = https.request(
+        url,
+        {
+          method: 'HEAD',
+          headers: { 'User-Agent': '757-community-site' },
+          timeout: 10000,
+        },
+        (res) => {
+          const status = res.statusCode;
+          // The status line is all we need, and it's already here — resolve on it
+          // immediately. A HEAD response has no body, but drain it anyway and swallow
+          // any stream error: 'error' is always async, so it can never change the value
+          // resolved below. This listener exists purely so a mid-response socket failure
+          // can't throw as an unhandled 'error' event.
+          res.on('error', () => {});
+          res.resume();
+          finish({
+            deleted: DELETED_STATUS_CODES.has(status),
+            status,
+            reason: `HTTP ${status}`,
+          });
+        }
+      );
+
+      req.on('timeout', () => {
+        req.destroy();
+        finish({ deleted: false, status: null, reason: 'timeout' });
+      });
+      req.on('error', (error) =>
+        finish({ deleted: false, status: null, reason: `request error: ${error.message}` })
+      );
+      req.end();
+    } catch (error) {
+      finish({ deleted: false, status: null, reason: `request threw: ${error.message}` });
+    }
   });
 }
 
@@ -132,10 +204,10 @@ ${event.description ? event.description.substring(0, 500) + (event.description.l
 
 ---
 
-**This event hasn't been updated in the last ${STALE_THRESHOLD_HOURS} hours, suggesting it may have been cancelled or deleted from the source.**
+**This event hasn't been updated in the last ${STALE_THRESHOLD_HOURS} hours, and the source returned "not found" when asked for it directly — it appears to have been cancelled or deleted.**
 
 ### Action Required
-- [ ] Check if the event still exists at the source
+- [ ] Confirm the event is gone at the source
 - [ ] If cancelled/deleted, remove it from \`src/data/calendar-events.json\`
 - [ ] If still valid, investigate why it's not being updated
 
@@ -259,7 +331,10 @@ async function checkStaleEvents() {
       return;
     }
 
-    // Get existing issues to avoid duplicates across runs
+    // Get existing issues to avoid duplicates across runs. This happens before the
+    // source confirmation below so that an event which already has an open issue
+    // doesn't get re-checked against Meetup on every scheduled run — the issue
+    // wouldn't be filed twice either way, so the request would be pure waste.
     const existingIssues = await getExistingIssues();
     const existingEventTitles = new Set(
       existingIssues.map(issue =>
@@ -267,21 +342,59 @@ async function checkStaleEvents() {
       )
     );
 
-    // Create issues for stale events that don't already have issues
-    let issuesCreated = 0;
-    for (const event of dedupedStaleEvents) {
-      if (!existingEventTitles.has(event.title)) {
-        const issue = await createStaleEventIssue(event);
-        if (issue) {
-          issuesCreated++;
-        }
-
-        // Rate limiting - wait 1 second between issue creation
-        if (issuesCreated < dedupedStaleEvents.length) {
-          await new Promise(resolve => setTimeout(resolve, 1000));
-        }
-      } else {
+    const unreportedStaleEvents = dedupedStaleEvents.filter(event => {
+      if (existingEventTitles.has(event.title)) {
         console.log(`⏭️ Skipping ${event.title} - issue already exists`);
+        return false;
+      }
+      return true;
+    });
+
+    if (unreportedStaleEvents.length === 0) {
+      console.log('All stale candidates already have open issues, nothing to do');
+      return;
+    }
+
+    // Falling out of the RSS feed is only a hint. Confirm each candidate against the
+    // source so that events truncated off the end of a busy feed aren't reported as
+    // cancelled. Events with no link can't be confirmed, so they pass through.
+    console.log(`Confirming ${unreportedStaleEvents.length} stale candidates against the source...`);
+    const confirmedStaleEvents = [];
+    for (const event of unreportedStaleEvents) {
+      if (!event.link) {
+        console.log(`❓ ${event.title} - no link to verify, flagging for review`);
+        confirmedStaleEvents.push(event);
+        continue;
+      }
+
+      const { deleted, reason } = await checkEventAtSource(event.link);
+      if (deleted) {
+        console.log(`🗑️ ${event.title} - confirmed deleted at source (${reason})`);
+        confirmedStaleEvents.push(event);
+      } else {
+        console.log(`✅ ${event.title} - still at source (${reason}), not stale (likely truncated off the RSS feed)`);
+      }
+
+      // Be polite to Meetup between checks
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+
+    if (confirmedStaleEvents.length === 0) {
+      console.log('No stale events confirmed at the source, no issues to create');
+      return;
+    }
+
+    // Create issues for the confirmed stale events
+    let issuesCreated = 0;
+    for (const event of confirmedStaleEvents) {
+      const issue = await createStaleEventIssue(event);
+      if (issue) {
+        issuesCreated++;
+      }
+
+      // Rate limiting - wait 1 second between issue creation
+      if (issuesCreated < confirmedStaleEvents.length) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
       }
     }
 
