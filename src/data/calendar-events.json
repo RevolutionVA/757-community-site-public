@@ -1,16 +1,5 @@
 [
   {
-    "title": "(CS)²AI Online™: Ubiquitous OT-Cybersecurity Consequences in Thrill Rides",
-    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315537131/",
-    "date": "2026-07-22T17:00:00.000Z",
-    "description": "Register now! [https://events.zoom.us/ev/AjoIaqpz0A42xubLnsURs-BbvwwEkOFvg86kCqSCudrTW0lHN2-J~AlP4Qq7pTYq5CI7twrjIGbDU0uF30exUSUnCFFmZ3B1CgIqHT8ZdFT1PyL0Ka4B_IXAE9McsSSpE3BHHpIq0CeeRag](https://events.zoom.us/ev/AjoIaqpz0A42xubLnsURs-BbvwwEkOFvg86kCqSCudrTW0lHN2-J~AlP4Qq7pTYq5CI7twrjIGbDU0uF30exUSUnCFFmZ3B1CgIqHT8ZdFT1PyL0Ka4B_IXAE9McsSSpE3BHHpIq0CeeRag)\n\nWhat does a roller coaster have in common with a refinery? More than you'd think. This talk applies bowtie analysis — a proven process safety methodology — to theme park ride control systems, showing how OT cybersecurity and functional safety can be quantified together in a single framework.\n\nTheme park ride control systems occupy a rare and underappreciated position in the OT cybersecurity landscape: they are life-safety-critical and continuously networked. While the integrated system is unique to each installation, the components themselves are an integration of commercial IT and OT products, often managed by teams whose primary expertise is mechanical and electrical engineering, not cybersecurity. As cyber threats targeting industrial control systems grow more sophisticated, the theme park industry needs analytical frameworks that speak both languages: the language of functional safety and the language of cyber risk. Bowtie analysis does exactly that.\n\nJohn will examine managing the risks in these ubiquitous systems using bowtie analysis, which is a visual risk methodology with deep roots in the process safety world, refineries, chemical plants, offshore platforms, where it has been used for decades to map threat and cause pathways to a top event, and consequence pathways from the top event to harm.\n\nThis talk is for everyone dealing with ICS/OT cybersecurity risks and their management.\n\nRegister now: [https://events.zoom.us/ev/AjoIaqpz0A42xubLnsURs-BbvwwEkOFvg86kCqSCudrTW0lHN2-J~AlP4Qq7pTYq5CI7twrjIGbDU0uF30exUSUnCFFmZ3B1CgIqHT8ZdFT1PyL0Ka4B_IXAE9McsSSpE3BHHpIq0CeeRag](https://events.zoom.us/ev/AjoIaqpz0A42xubLnsURs-BbvwwEkOFvg86kCqSCudrTW0lHN2-J~AlP4Qq7pTYq5CI7twrjIGbDU0uF30exUSUnCFFmZ3B1CgIqHT8ZdFT1PyL0Ka4B_IXAE9McsSSpE3BHHpIq0CeeRag)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering free educational opportunities!). Please join now! [https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](https://www.cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [https://www.cs2ai.org/](https://www.cs2ai.org/)\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event. [https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n© Control System Cyber Security Association International 2026",
-    "source": "meetup",
-    "group": "Hampton Roads Cyber Security for Control Systems",
-    "featuredEvent": false,
-    "createdDate": "2026-07-04T00:36:51.359Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
-  },
-  {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
     "link": "https://www.meetup.com/issa-hampton-roads/events/315514347/",
     "date": "2026-07-22T22:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-02T18:32:32.997Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Peninsula Happy Hour",
@@ -30,7 +19,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-10T00:38:14.333Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z",
+    "updatedDate": "2026-07-22T18:27:05.510Z",
     "previousVersion": {
       "title": "Peninsula Happy Hour",
       "date": "2026-09-09T18:30:00.000Z"
@@ -45,7 +34,18 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-07-14T00:29:57.517Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
+  },
+  {
+    "title": "(CS)²AI Online™: Security Lifecycles of Connected Power Infrastructure",
+    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315789305/",
+    "date": "2026-07-29T17:00:00.000Z",
+    "description": "[https://events.zoom.us/ev/Akgd1vdEBM3_-dVIIC984km2rdNba4A7BSm8oQ3Acj8AMaAqEuiG~AgGQltEj_HyS7hzBVFo65QjDQHd2E-V1ve9fe5tBu5wSeD96KYTH_bDG5GJkbKM7mTSe4ZhY8-zItF2ZDowp-8QxwA](https://events.zoom.us/ev/Akgd1vdEBM3_-dVIIC984km2rdNba4A7BSm8oQ3Acj8AMaAqEuiG~AgGQltEj_HyS7hzBVFo65QjDQHd2E-V1ve9fe5tBu5wSeD96KYTH_bDG5GJkbKM7mTSe4ZhY8-zItF2ZDowp-8QxwA)\n\nThe power industry has largely solved the question of whether critical power assets should be connected. UPS systems, PDUs, and power management platforms are now routinely integrated with cloud services, remote support, and operational analytics. The harder question is whether these assets are deployed in a way that justifies the trust being placed in them. Even when products are Secure by Design and Secure by Default, commissioning and integration decisions often determine the real cybersecurity outcome. Yet these activities are frequently led by teams focused on operational performance and uptime rather than cyber risk. This session examines why commissioning may be the most important security event in a power asset's lifecycle and outlines practical approaches for establishing security from day one through secure commissioning, secure-by-deployment principles, and lifecycle risk management.\n\nJoin our ICS/OT Cybersecurity star Mike Holcomb and Power specialist Saltanat Mashirova for this in-depth talk, and be sure to bring your questions for her!\n\n[https://events.zoom.us/ev/Akgd1vdEBM3_-dVIIC984km2rdNba4A7BSm8oQ3Acj8AMaAqEuiG~AgGQltEj_HyS7hzBVFo65QjDQHd2E-V1ve9fe5tBu5wSeD96KYTH_bDG5GJkbKM7mTSe4ZhY8-zItF2ZDowp-8QxwA](https://events.zoom.us/ev/Akgd1vdEBM3_-dVIIC984km2rdNba4A7BSm8oQ3Acj8AMaAqEuiG~AgGQltEj_HyS7hzBVFo65QjDQHd2E-V1ve9fe5tBu5wSeD96KYTH_bDG5GJkbKM7mTSe4ZhY8-zItF2ZDowp-8QxwA)\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering free educational opportunities!). Please join now! [https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](https://www.cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [https://www.cs2ai.org/](https://www.cs2ai.org/)\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event. [https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n© Control System Cyber Security Association International 2026",
+    "source": "meetup",
+    "group": "Hampton Roads Cyber Security for Control Systems",
+    "featuredEvent": false,
+    "createdDate": "2026-07-22T18:26:37.074Z",
+    "updatedDate": "2026-07-22T18:26:37.074Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Build and Demo Night (with prizes)",
@@ -56,7 +56,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-15T12:30:08.512Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "ISSA-HR Presents: Hiding in Plain Sight",
@@ -67,7 +67,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-15T18:26:05.064Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -78,18 +78,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-13T14:49:38.411Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
     "link": "https://www.meetup.com/aicollectivehr/events/315699606/",
     "date": "2026-08-04T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-16T00:30:31.386Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Late Night Builders",
@@ -100,7 +100,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.538Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "HTML Day | Freewrite",
@@ -111,7 +111,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-17T18:23:13.979Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Platform & DevOps Engineering - August 2026 Meeting @ Commence",
@@ -122,7 +122,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-08T06:51:59.416Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "WSDG August Social Event",
@@ -133,7 +133,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-07-09T18:37:37.057Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -144,7 +144,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-22T00:31:12.824Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -155,18 +155,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:07.591Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjclbxb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjclbxb/",
     "date": "2026-08-18T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-16T00:30:31.941Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:22.025Z",
+    "updatedDate": "2026-07-22T18:26:22.025Z"
   },
   {
     "title": "Jonathan Stewart: Translytical Task Flows: So Much More Than Write-Back",
@@ -177,7 +177,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:19.131Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.510Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -188,7 +188,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-03-20T06:20:48.558Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z",
+    "updatedDate": "2026-07-22T18:27:05.510Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-08-20T18:30:00.000Z"
@@ -203,7 +203,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-14T18:25:06.530Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -214,7 +214,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:54.950Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Pop-up Meetup: ARE We F*cked? An Anti-AI-Doomer's Perspective",
@@ -225,7 +225,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-16T18:25:21.183Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -236,18 +236,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:08.710Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjcmbcb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcmbcb/",
     "date": "2026-09-01T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-16T00:30:32.859Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:23.031Z",
+    "updatedDate": "2026-07-22T18:26:23.031Z"
   },
   {
     "title": "Late Night Builders",
@@ -258,7 +258,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:50.661Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -269,7 +269,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-28T00:41:21.530Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -280,18 +280,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:11.301Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjcmbtb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcmbtb/",
     "date": "2026-09-15T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-16T00:30:33.855Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:24.011Z",
+    "updatedDate": "2026-07-22T18:26:24.011Z"
   },
   {
     "title": "Virginia Cup: Official Startup World Cup Virginia Qualifier",
@@ -314,7 +314,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z",
+    "updatedDate": "2026-07-22T18:27:05.511Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -329,7 +329,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-14T18:25:09.226Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -340,7 +340,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-25T00:46:56.001Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -351,7 +351,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-24T00:41:36.905Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -362,18 +362,18 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-08T00:32:41.857Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjcmbmc/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcmbmc/",
     "date": "2026-09-29T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-16T00:30:35.965Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:26.020Z",
+    "updatedDate": "2026-07-22T18:26:26.020Z"
   },
   {
     "title": "BSides Hampton Roads 2026",
@@ -390,14 +390,14 @@
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjcnbrb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcnbrb/",
     "date": "2026-10-13T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-08T00:32:40.960Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:27.009Z",
+    "updatedDate": "2026-07-22T18:26:27.009Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -408,7 +408,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -419,7 +419,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-14T18:25:11.273Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -430,18 +430,18 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-22T06:53:48.163Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/wbxfztyjcnbkc/",
+    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcnbkc/",
     "date": "2026-10-27T22:00:00.000Z",
-    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
+    "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-15T00:26:50.660Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "createdDate": "2026-07-22T18:26:28.041Z",
+    "updatedDate": "2026-07-22T18:26:28.041Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -452,7 +452,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-22T00:30:53.042Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -463,7 +463,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -474,7 +474,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -485,7 +485,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -496,7 +496,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -507,7 +507,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -518,7 +518,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -529,6 +529,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-17T00:33:17.915Z",
-    "updatedDate": "2026-07-22T12:34:39.396Z"
+    "updatedDate": "2026-07-22T18:27:05.511Z"
   }
 ]
