@@ -6,6 +6,7 @@ export const COMMUNITY = {
   discord: "https://discord.gg/bPGsCKBqWp",
   github: "https://github.com/RevolutionVA/757-community-site-public",
   submitEvent: "https://github.com/RevolutionVA/757-community-site-public/issues/new?template=submit-upcoming-event.yml",
+  addGroup: "https://github.com/RevolutionVA/757-community-site-public/issues/new?template=add-your-group.yml",
   linkedin: "https://www.linkedin.com/company/757tech",
   x: "https://x.com/757techorg",
   instagram: "https://www.instagram.com/757techorg/",
