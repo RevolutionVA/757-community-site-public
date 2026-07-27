@@ -62,21 +62,6 @@
     }
   },
   {
-    "name": "Blacks United in Leading Technology - Hampton Roads",
-    "url": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/",
-    "tags": [
-      "General",
-      "DEI"
-    ],
-    "category": "Technology",
-    "rssFeed": "https://www.meetup.com/blacks-united-in-leading-technology-hampton-roads/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/default-meetup.jpg",
-      "title": "Blacks United in Leading Technology - Hampton Roads",
-      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
-    }
-  },
-  {
     "name": "Crypto Over Coffee",
     "url": "https://www.meetup.com/crypto-over-coffee/",
     "tags": [
@@ -145,21 +130,6 @@
       "imageUrl": "/images/meetups/meetup-com-norfolk-cyber-security-for-control-systems.jpg",
       "title": "Hampton Roads Cyber Security for Control Systems | Meetup",
       "description": "Welcome! This meetup dedicated to all professionals involved in Cyber Security for Automated Processes and Control Systems including security for Operating Technology (OT), Industrial Control Systems (ICS), SCADA Systems, Transportation Systems, Building Control Systems (BCS), and even emerging Indu"
-    }
-  },
-  {
-    "name": "Hampton Roads Designer Collective",
-    "url": "https://www.meetup.com/hampton-roads-designer-collective/",
-    "tags": [
-      "Game Design",
-      "Graphic Design"
-    ],
-    "category": "Design",
-    "rssFeed": "https://www.meetup.com/hampton-roads-designer-collective/events/rss/",
-    "metadata": {
-      "imageUrl": "/images/default-meetup.jpg",
-      "title": "Hampton Roads Designer Collective",
-      "description": "A meetup group on Meetup.com. Click to learn more and join upcoming events."
     }
   },
   {
