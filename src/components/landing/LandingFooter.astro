@@ -3,6 +3,7 @@ import { COMMUNITY } from "../../data/community";
 const {
   slack: SLACK, discord: DISCORD, github: GITHUB,
   linkedin: LINKEDIN, x: X, instagram: INSTAGRAM, threads: THREADS,
+  submitEvent: SUBMIT_EVENT,
 } = COMMUNITY;
 
 // `subpage`: the anchor targets live on the landing page, so links get a
@@ -33,7 +34,7 @@ const year = new Date().getFullYear();
       </div>
       <div class="footer-col">
         <h4>Get involved</h4>
-        <a href={`${root}#submit`}>Submit an event</a>
+        <a href={SUBMIT_EVENT} target="_blank" rel="noopener noreferrer">Submit an event</a>
         <a href="/get-involved">Add your group</a>
         <a href={`${root}#subscribe`}>Newsletter</a>
       </div>
