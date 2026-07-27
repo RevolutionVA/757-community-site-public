@@ -32,3 +32,6 @@ package-lock.json
 
 # Design handoff artifacts (kept locally, not tracked)
 design-reference/
+
+# generated social carousel exports
+social/exports/
