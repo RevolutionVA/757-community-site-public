@@ -57,8 +57,12 @@ const hideTitle = true;
 ---
 
 <MainLayout 
-  title="Conferences" 
-  description="Discover tech conferences in and around Hampton Roads, Virginia. Find upcoming developer, design, and technology events in the Mid-Atlantic region that are worth the trip from Virginia Beach, Norfolk, and surrounding areas."
+  title="Conferences"
+  description="Tech conferences in and around Hampton Roads, Virginia, plus Mid-Atlantic events worth the drive from Norfolk and Virginia Beach. Upcoming and past."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Conferences", url: "/conferences/" },
+  ]}
 >
   <div class="hero">
     <div class="container">

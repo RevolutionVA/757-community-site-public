@@ -33,7 +33,14 @@ const onlineCommunities = [
 ];
 ---
 
-<MainLayout title="Communities">
+<MainLayout
+  title="Communities"
+  description="Online and in-person tech communities in Hampton Roads — the 757dev Slack and Discord, plus maker spaces in Norfolk and Virginia Beach."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Communities", url: "/communities/" },
+  ]}
+>
   <div class="hero">
     <div class="container">
       <h1>Communities</h1>

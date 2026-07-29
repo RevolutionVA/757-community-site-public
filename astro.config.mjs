@@ -1,18 +1,52 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import events from './src/data/calendar-events.json' with { type: 'json' };
 
-// https://astro.build/config
+// Newest event touch time, used as `lastmod` for the two pages that actually
+// change when the calendar cron runs. Everything else gets no lastmod at all.
+//
+// The previous config set `lastmod: new Date()` on every URL, which told Google
+// all nine pages changed on every build — four-plus times a day, since the
+// calendar workflow runs every 6 hours. Google's documented response to a
+// lastmod it can't trust is to ignore the field site-wide, so the blanket
+// timestamp was actively costing us the signal on the pages where it's real.
+const newestEvent = events
+  .map((e) => e.updatedDate ?? e.createdDate)
+  .filter(Boolean)
+  .sort()
+  .at(-1);
+
+// Spread rather than assigned directly: an empty calendar-events.json (or one
+// with no timestamps) would otherwise put `lastmod: undefined` into the
+// serializer. Omitting the key entirely is the correct degradation.
+const eventLastmod = newestEvent ? { lastmod: newestEvent } : {};
+
+/** @type {[RegExp, {priority: number, changefreq: string, lastmod?: string}][]} */
+const RULES = [
+  [/^\/$/, { priority: 1.0, changefreq: 'daily', ...eventLastmod }],
+  [/^\/calendar\/?$/, { priority: 0.9, changefreq: 'daily', ...eventLastmod }],
+  [/^\/meetups\/?$/, { priority: 0.9, changefreq: 'weekly' }],
+  [/^\/conferences\/?$/, { priority: 0.8, changefreq: 'monthly' }],
+  [/^\/(work|learning|communities|get-involved)\/?$/, { priority: 0.5, changefreq: 'monthly' }],
+];
+
 export default defineConfig({
   output: 'static',
   site: 'https://757tech.org',
   integrations: [
     sitemap({
-      // Configuration options
-      filter: (page) => !page.includes('/api/'), // Exclude API routes
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date(),
+      filter: (page) => !page.includes('/api/'),
+      serialize(item) {
+        const path = new URL(item.url).pathname;
+
+        // Excluded from the sitemap AND marked noindex on the page itself.
+        // A noindex URL listed in a sitemap is a mixed signal, so do both.
+        if (path.startsWith('/newsletter-thank-you')) return undefined;
+
+        const rule = RULES.find(([pattern]) => pattern.test(path))?.[1];
+        return rule ? { ...item, ...rule } : item;
+      },
     }),
-  ]
+  ],
 });

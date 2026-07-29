@@ -69,8 +69,12 @@ const sortedCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.nam
 ---
 
 <MainLayout 
-  title="Work" 
-  description="Find tech jobs and career opportunities in Hampton Roads, Virginia. Explore companies hiring developers, designers, and IT professionals in Virginia Beach, Norfolk, Chesapeake, and surrounding areas."
+  title="Work"
+  description="Companies hiring developers, designers, and IT professionals in Hampton Roads, Virginia — Norfolk, Virginia Beach, Chesapeake, and the Peninsula."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Work", url: "/work/" },
+  ]}
 >
   <div class="hero">
     <div class="container">
