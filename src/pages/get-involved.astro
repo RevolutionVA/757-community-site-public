@@ -7,7 +7,14 @@ import KeepSurfing from '../components/KeepSurfing.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
 ---
 
-<MainLayout title="Get Involved">
+<MainLayout
+  title="Get Involved"
+  description="Ways to get involved with the Hampton Roads tech community: attend a meetup, give a talk, organize a group, volunteer at an event, or mentor locally."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Get Involved", url: "/get-involved/" },
+  ]}
+>
   <div class="hero">
     <div class="container">
       <h1>Get Involved</h1>

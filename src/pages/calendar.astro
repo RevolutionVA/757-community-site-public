@@ -124,8 +124,12 @@ function findMeetupUrl(groupName: string): string | null {
 ---
 
 <MainLayout 
-  title="Calendar" 
-  description="Stay updated with tech events in Hampton Roads, Virginia. View our comprehensive calendar of meetups, conferences, and workshops for developers, designers, and tech enthusiasts in Virginia Beach, Norfolk, and surrounding areas."
+  title="Calendar"
+  description="Every upcoming tech meetup, workshop, and conference in Hampton Roads, Virginia — Norfolk, Virginia Beach, Chesapeake and beyond. Updated every 6 hours."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Calendar", url: "/calendar/" },
+  ]}
 >
   <div class="hero">
     <div class="container">

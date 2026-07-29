@@ -55,8 +55,12 @@ const hideTitle = false;
 ---
 
 <MainLayout 
-  title="Meetups" 
-  description="Discover technology meetups in Hampton Roads, Virginia. Connect with local developers, designers, and tech enthusiasts through regular events in Virginia Beach, Norfolk, and surrounding areas."
+  title="Meetups"
+  description="Every technology user group in Hampton Roads, Virginia — software, cloud, security, AI, and design meetups in Norfolk, Virginia Beach, and beyond."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Meetups", url: "/meetups/" },
+  ]}
 >
   <div class="hero">
     <div class="container">
@@ -64,7 +68,7 @@ const hideTitle = false;
       <p>Connect with the local tech community through these regular meetups in the Hampton Roads area.</p>
       <p class="data-note">
         Want to add or update a meetup? Check out our 
-        <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/meetups.json" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/RevolutionVA/757-community-site-public/blob/main/src/data/meetups-combined.json" target="_blank" rel="noopener noreferrer">
           meetups data file
         </a>.
       </p>

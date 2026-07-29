@@ -34,6 +34,29 @@
         "pattern": "^https?://[^\\s/$.?#].[^\\s]*$",
         "description": "The RSS feed URL for the meetup's events"
       },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "description": "Stable URL slug for this group's page. Stored explicitly rather than derived from the name so a group renaming itself does not silently break its URL."
+      },
+      "description": {
+        "type": "string",
+        "minLength": 50,
+        "description": "Hand-written description of the group: what it is and who it is for. Distinct from metadata.description, which is a scraped Open Graph blurb truncated mid-sentence and should not be rendered as page copy."
+      },
+      "city": {
+        "type": "string",
+        "description": "Primary city the group meets in, e.g. 'Norfolk'"
+      },
+      "cadence": {
+        "type": "string",
+        "description": "Human-readable meeting cadence, e.g. '2nd Tuesday, monthly'"
+      },
+      "status": {
+        "type": "string",
+        "enum": ["active", "inactive"],
+        "description": "Whether the group is currently holding events. Omitted means active."
+      },
       "metadata": {
         "type": "object",
         "required": ["imageUrl"],
