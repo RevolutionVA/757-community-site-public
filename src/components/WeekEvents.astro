@@ -71,7 +71,7 @@ const dayLabel = (iso: string) => {
     font-size: 1.35rem;
     margin: 0 0 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e2e8f0;
+    border-bottom: 2px solid var(--line);
   }
 
   .day-events {
@@ -86,7 +86,7 @@ const dayLabel = (iso: string) => {
   .week-event {
     padding: 1.25rem 1.5rem;
     background: #fff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--line);
     border-radius: 10px;
   }
 
@@ -107,18 +107,18 @@ const dayLabel = (iso: string) => {
   .event-meta {
     margin: 0 0 0.75rem;
     font-size: 0.9rem;
-    color: #475569;
+    color: var(--muted);
   }
 
   .event-meta .sep {
     margin: 0 0.5rem;
-    color: #cbd5e1;
+    color: var(--line);
   }
 
   .event-excerpt {
     margin: 0 0 0.75rem;
     line-height: 1.6;
-    color: #334155;
+    color: var(--ink);
     white-space: pre-line;
   }
 
