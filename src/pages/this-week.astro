@@ -1,0 +1,92 @@
+---
+// Evergreen page for the current Monday-Sunday week.
+//
+// Deliberately a separate, stable URL from /weekly/<date>/. "Tech events in
+// Norfolk this week" is a recurring query, and a dated URL can never accumulate
+// authority for it because it is a different URL every Monday. This one URL
+// collects links forever — and it is what the weekly Slack/Discord/LinkedIn
+// posts point at, so it gathers real inbound signal every week.
+import MainLayout from "../layouts/MainLayout.astro";
+import NewsletterSignup from "../components/NewsletterSignup.astro";
+import WeekEvents from "../components/WeekEvents.astro";
+import { COMMUNITY } from "../data/community";
+import {
+  getCurrentWeek,
+  currentMonday,
+  formatRange,
+  itemListForWeek,
+} from "../lib/weekly";
+
+const week = getCurrentWeek();
+const monday = currentMonday();
+const sunday = (() => {
+  const [y, m, d] = monday.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d + 6)).toISOString().slice(0, 10);
+})();
+
+const range = formatRange(monday, sunday);
+const count = week?.count ?? 0;
+
+const description = count
+  ? `Every tech meetup, user group, and workshop happening in Hampton Roads this week — ${range}. ${count} ${
+      count === 1 ? "event" : "events"
+    } across Norfolk, Virginia Beach, Chesapeake and the Peninsula.`
+  : `Tech meetups and events happening in Hampton Roads this week — ${range}. Covering Norfolk, Virginia Beach, Chesapeake and the Peninsula.`;
+
+const jsonLd = week ? [itemListForWeek(week, Astro.site?.href ?? "https://757tech.org/")] : [];
+---
+
+<MainLayout
+  title="Tech Events in Hampton Roads This Week"
+  description={description.slice(0, 300)}
+  titleSuffix="757tech"
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "This Week", url: "/this-week/" },
+  ]}
+  jsonLd={jsonLd}
+>
+  <div class="hero">
+    <div class="container">
+      <h1>Tech events in Hampton Roads this week</h1>
+      <p>{range}{count > 0 && ` — ${count} ${count === 1 ? "event" : "events"}`}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <NewsletterSignup />
+
+    {week && week.count > 0 ? (
+      <>
+        <WeekEvents week={week} />
+
+        <p class="week-footer">
+          Looking further ahead? See the <a href="/calendar/">full calendar</a>,
+          or browse <a href="/weekly/">every past week</a>.
+        </p>
+      </>
+    ) : (
+      <div class="content-box">
+        <h2>No events listed for this week yet</h2>
+        <p>
+          The weekly roundup is generated every Monday morning. If it's early in
+          the week, check back shortly — or look at the
+          <a href="/calendar/">full calendar</a> for what's coming up.
+        </p>
+        <p>
+          Running an event we've missed?
+          <a href={COMMUNITY.submitEvent} target="_blank" rel="noopener noreferrer">Submit it here</a>.
+        </p>
+      </div>
+    )}
+  </div>
+</MainLayout>
+
+<style>
+  .week-footer {
+    margin: 2.5rem 0 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+    color: #475569;
+  }
+</style>

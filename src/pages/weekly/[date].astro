@@ -1,0 +1,116 @@
+---
+// One page per completed week.
+//
+// Only weeks strictly before the current Monday are built. The in-progress week
+// lives at /this-week/ instead, which is what keeps this archive from ever
+// describing the same event as /calendar (which covers the future). No
+// canonical juggling needed — the two sets never intersect.
+import MainLayout from "../../layouts/MainLayout.astro";
+import NewsletterSignup from "../../components/NewsletterSignup.astro";
+import WeekEvents from "../../components/WeekEvents.astro";
+import {
+  getArchivedWeeks,
+  formatRange,
+  formatIso,
+  weekDescription,
+  itemListForWeek,
+  type ArchiveWeek,
+} from "../../lib/weekly";
+
+export async function getStaticPaths() {
+  const weeks = getArchivedWeeks();
+  return weeks.map((week, i) => ({
+    params: { date: week.monday },
+    props: {
+      week,
+      // Newest-first ordering, so "newer" is the previous index.
+      newer: weeks[i - 1] ?? null,
+      older: weeks[i + 1] ?? null,
+    },
+  }));
+}
+
+interface Props {
+  week: ArchiveWeek;
+  newer: ArchiveWeek | null;
+  older: ArchiveWeek | null;
+}
+
+const { week, newer, older } = Astro.props;
+const range = formatRange(week.monday, week.sunday);
+const site = Astro.site?.href ?? "https://757tech.org/";
+---
+
+<MainLayout
+  title={`Hampton Roads Tech Meetups: Week of ${formatIso(week.monday)}`}
+  description={weekDescription(week)}
+  titleSuffix="757tech"
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Weekly Archive", url: "/weekly/" },
+    { name: `Week of ${formatIso(week.monday)}`, url: `/weekly/${week.monday}/` },
+  ]}
+  jsonLd={[itemListForWeek(week, site)]}
+>
+  <div class="hero">
+    <div class="container">
+      <h1>Tech meetups, week of {formatIso(week.monday)}</h1>
+      <p>
+        {range} — {week.count} {week.count === 1 ? "event" : "events"} across
+        {" "}{week.groups.length} {week.groups.length === 1 ? "group" : "groups"} in Hampton Roads.
+      </p>
+      <p class="data-note">
+        This week has passed. See <a href="/this-week/">this week's events</a> or
+        the <a href="/calendar/">upcoming calendar</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <WeekEvents week={week} past />
+
+    <nav class="week-nav" aria-label="Archive navigation">
+      {older ? (
+        <a class="week-nav-link prev" href={`/weekly/${older.monday}/`} rel="prev">
+          ← Week of {formatIso(older.monday)}
+        </a>
+      ) : <span />}
+      <a class="week-nav-link index" href="/weekly/">All weeks</a>
+      {newer ? (
+        <a class="week-nav-link next" href={`/weekly/${newer.monday}/`} rel="next">
+          Week of {formatIso(newer.monday)} →
+        </a>
+      ) : <span />}
+    </nav>
+
+    <NewsletterSignup />
+  </div>
+</MainLayout>
+
+<style>
+  .week-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.5rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+  }
+
+  .week-nav-link {
+    font-size: 0.95rem;
+  }
+
+  .week-nav-link.index {
+    font-weight: 600;
+  }
+
+  @media (max-width: 640px) {
+    .week-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
