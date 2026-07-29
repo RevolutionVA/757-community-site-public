@@ -2,33 +2,52 @@
 // Google Analytics (GA4). Shared by MainLayout and LandingLayout so the ID
 // lives in one place.
 //
-// Only emitted in production builds — `astro dev`, `astro preview`, and PR
-// staging deploys would otherwise report into the real property.
+// Two layers keep non-production traffic out of the real property:
 //
-// Both tags are `is:inline` so Astro emits them verbatim. Bundled as an ES
-// module, `gtag`/`dataLayer` would be scoped to the module instead of `window`
-// and the snippet would break.
+//   1. `import.meta.env.PROD` — omits the tag entirely under `astro dev`.
+//      This is a build-time flag, so it is true for ANY `astro build`,
+//      including `npm run preview` and the Azure PR staging deploys.
+//   2. The hostname guard below — a runtime check, which is the only thing
+//      that can distinguish a staging deploy from production, since both are
+//      the same static build.
 //
-// The body is injected via `set:html` rather than `define:vars` because
-// define:vars wraps the script in an IIFE, which would leave `gtag` non-global
-// and break any later `gtag('event', ...)` call. Expressions aren't evaluated
-// inside a <script> body, so set:html is how the ID gets interpolated.
+// The guard is a blocklist of ephemeral hosts rather than an allowlist on
+// 757tech.org, so analytics fail open: if the production domain ever changes,
+// tracking keeps working instead of silently going dark.
+//
+// gtag.js is injected from inside the guard rather than sitting in a static
+// <script src>, so excluded hosts make no request to Google at all.
+//
+// `is:inline` keeps Astro from bundling this as an ES module, which would
+// scope `dataLayer`/`gtag` to the module. `gtag` is assigned onto `window`
+// explicitly because the IIFE (needed for the early return) would otherwise
+// leave it non-global and break later `gtag('event', ...)` calls.
 const GA_MEASUREMENT_ID = "G-X4L41HRW7E";
 
-const gtagSnippet = `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+// `.azurestaticapps.net` covers the Azure PR staging deploys; localhost covers
+// `npm run preview`, which serves a production build and so gets past #1.
+const EXCLUDED_HOST_SUFFIXES = [".azurestaticapps.net", "localhost", "127.0.0.1"];
 
-  gtag('config', '${GA_MEASUREMENT_ID}');
+const gtagSnippet = `
+  (function () {
+    var excluded = ${JSON.stringify(EXCLUDED_HOST_SUFFIXES)};
+    var host = window.location.hostname;
+    for (var i = 0; i < excluded.length; i++) {
+      if (host === excluded[i] || host.endsWith(excluded[i])) return;
+    }
+
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}';
+    document.head.appendChild(s);
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag(){dataLayer.push(arguments);};
+    gtag('js', new Date());
+
+    gtag('config', '${GA_MEASUREMENT_ID}');
+  })();
 `;
 ---
 
-{
-  import.meta.env.PROD && (
-    <>
-      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
-      <script is:inline set:html={gtagSnippet} />
-    </>
-  )
-}
+{import.meta.env.PROD && <script is:inline set:html={gtagSnippet} />}
