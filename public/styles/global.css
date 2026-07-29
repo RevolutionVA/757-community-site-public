@@ -162,6 +162,27 @@ footer a:hover .github-icon {
   max-width: 800px;
 }
 
+/* Links inside the hero must be light: the hero background is #0077cc and the
+   default link colour is the same #0077cc, so an unstyled link there renders
+   invisible (1:1 contrast). This lived in three separate page-scoped style
+   blocks (calendar, conferences, meetups); Astro scopes styles per component,
+   so any new page using .data-note silently got no styling at all. Global so
+   every MainLayout page is covered. */
+.hero a {
+  color: white;
+  text-decoration: underline;
+}
+
+.hero a:hover {
+  text-decoration: none;
+}
+
+.hero .data-note {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 /* Section styles */
 .section {
   margin-bottom: 3rem;
