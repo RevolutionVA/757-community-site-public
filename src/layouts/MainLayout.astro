@@ -1,4 +1,6 @@
 ---
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
+
 interface Props {
   title: string;
   description?: string;
@@ -48,14 +50,7 @@ const fullTitle = `${title} | 757 Tech Community`;
     <link rel="stylesheet" href="/styles/global.css" />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4L41HRW7E"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-X4L41HRW7E');
-    </script>
+    <GoogleAnalytics />
 
     <!-- Bento Tracking -->
     <script src="https://fast.bentonow.com?site_uuid=57d9b8196b2b704a30da5ac245bf2cfe&js=true" async defer></script>

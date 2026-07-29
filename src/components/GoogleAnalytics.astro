@@ -1,0 +1,34 @@
+---
+// Google Analytics (GA4). Shared by MainLayout and LandingLayout so the ID
+// lives in one place.
+//
+// Only emitted in production builds — `astro dev`, `astro preview`, and PR
+// staging deploys would otherwise report into the real property.
+//
+// Both tags are `is:inline` so Astro emits them verbatim. Bundled as an ES
+// module, `gtag`/`dataLayer` would be scoped to the module instead of `window`
+// and the snippet would break.
+//
+// The body is injected via `set:html` rather than `define:vars` because
+// define:vars wraps the script in an IIFE, which would leave `gtag` non-global
+// and break any later `gtag('event', ...)` call. Expressions aren't evaluated
+// inside a <script> body, so set:html is how the ID gets interpolated.
+const GA_MEASUREMENT_ID = "G-X4L41HRW7E";
+
+const gtagSnippet = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${GA_MEASUREMENT_ID}');
+`;
+---
+
+{
+  import.meta.env.PROD && (
+    <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
+      <script is:inline set:html={gtagSnippet} />
+    </>
+  )
+}
