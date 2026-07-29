@@ -24,6 +24,8 @@ const fullTitle = `${title} | 757 Tech Community`;
 // Global (non-scoped) landing styles — see the file header for why they can't
 // be Astro-scoped. Component-specific tweaks live in each component's <style>.
 import "../styles/landing.css";
+
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
 ---
 
 <!DOCTYPE html>
@@ -59,6 +61,9 @@ import "../styles/landing.css";
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <GoogleAnalytics />
 
     <!-- Bento Tracking -->
     <script src="https://fast.bentonow.com?site_uuid=57d9b8196b2b704a30da5ac245bf2cfe&js=true" async defer></script>

@@ -1,4 +1,6 @@
 ---
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
+
 interface Props {
   title: string;
   description?: string;
@@ -46,7 +48,10 @@ const fullTitle = `${title} | 757 Tech Community`;
     <meta property="twitter:image" content={`${siteUrl}${image}`} />
     
     <link rel="stylesheet" href="/styles/global.css" />
-    
+
+    <!-- Google tag (gtag.js) -->
+    <GoogleAnalytics />
+
     <!-- Bento Tracking -->
     <script src="https://fast.bentonow.com?site_uuid=57d9b8196b2b704a30da5ac245bf2cfe&js=true" async defer></script>
     <script>
