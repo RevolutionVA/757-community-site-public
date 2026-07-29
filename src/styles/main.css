@@ -1,0 +1,211 @@
+/* Inner-page styles for the coastal design system.
+   Counterpart to landing.css: same tokens, same chrome (reset, buttons, sticky
+   header), but the page-level furniture inner pages need — compact hero,
+   content boxes, grids, sections.
+
+   Replaces public/styles/global.css, which was a separate visual language
+   (#0077cc, system font stack) used by 11 of 13 page templates while only the
+   homepage got the coastal design. */
+@import "./chrome.css";
+
+/* chrome.css sets the base reset; these are the extras global.css carried. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+main {
+  padding: 0 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  color: var(--deep);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-top: 0;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--deep-2);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Long unbroken URLs inside meetup.com descriptions were pushing the page
+   118px wider than the viewport on mobile (a horizontal scrollbar on
+   /calendar/). Breaking anywhere is the right trade for machine-generated
+   links nobody reads inline. */
+p,
+li,
+.event-description,
+.event-excerpt {
+  overflow-wrap: anywhere;
+}
+
+/* ---------- hero ---------- */
+/* A warm sand band rather than the old solid #0077cc slab, matching the
+   landing hero. This also removes a whole class of bug: on the blue slab the
+   default link colour was identical to the background, so hero links rendered
+   invisible until explicitly overridden. Dark-on-light needs no override. */
+.hero {
+  background: linear-gradient(180deg, var(--sand-soft) 0%, #fff 100%);
+  border-bottom: 1px solid var(--line);
+  padding: clamp(2.5rem, 6vw, 4rem) 0 clamp(2rem, 5vw, 3rem);
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  color: var(--deep);
+  letter-spacing: -0.015em;
+}
+
+.hero p {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  max-width: 800px;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.hero a {
+  color: var(--deep-2);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+.hero a:hover {
+  color: var(--tide);
+}
+
+.hero .data-note {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+/* ---------- content boxes ---------- */
+/* Used by /get-involved, /work, /conferences, /this-week, /weekly and /404 but
+   never defined in a stylesheet before, so it rendered as an unstyled div. */
+.content-box {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: clamp(1.25rem, 3vw, 2rem);
+  margin-bottom: 2rem;
+}
+
+.content-box h2,
+.content-box h3 {
+  margin-top: 0;
+}
+
+.content-box > :last-child {
+  margin-bottom: 0;
+}
+
+.content-box ul,
+.content-box ol {
+  margin: 0 0 1.5rem 1.25rem;
+}
+
+.content-box li {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- sections & grids ---------- */
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin-bottom: 1.5rem;
+  color: var(--deep);
+}
+
+.features {
+  margin: 3rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- prose links ---------- */
+/* Links inside body copy must not rely on colour alone: Lighthouse measured
+   only 1.87:1 between link and surrounding text in event descriptions, against
+   a 3:1 minimum. Underlining is the fix that doesn't require repainting the
+   palette. Scoped to prose containers so card and heading links, which are
+   already visually distinct, keep their clean look. */
+.event-description a,
+.event-excerpt a,
+.content-box p a,
+.content-box li a,
+.hero p a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+/* Inline links in organizer-written descriptions were 18.7px tall, under the
+   24px minimum touch target. Looser leading lifts them over the line and reads
+   better for long prose anyway — inline links can't be padded without breaking
+   the text flow. */
+.event-description,
+.event-excerpt {
+  line-height: 1.8;
+}

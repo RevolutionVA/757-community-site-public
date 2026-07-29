@@ -1,8 +1,9 @@
 ---
-// Sticky coastal header. Real Slack/Discord invite URLs reused from the site.
-// `subpage` is set on pages other than the landing page: the anchor targets
-// live on the landing page (so links get a "/" prefix) and the brand stays
-// visible since there's no hero logo above it.
+// Sticky coastal header, shared by the landing page and every inner page.
+// `subpage` is set on pages other than the landing page: the brand stays
+// visible (there's no hero logo above it), and the nav switches from in-page
+// anchors to real page URLs — anchors would bounce an inner-page visitor back
+// to the homepage to find the section.
 import { COMMUNITY } from "../../data/community";
 const { slack: SLACK, discord: DISCORD } = COMMUNITY;
 
@@ -11,13 +12,31 @@ interface Props {
 }
 const { subpage = false } = Astro.props;
 const root = subpage ? "/" : "";
+// Inner pages have no hero logo, so the header keeps a solid background from the
+// start rather than fading in on scroll.
 
-const links = [
+
+const LANDING_LINKS: [string, string][] = [
   ["Events", "#events"],
   ["Conferences", "#conferences"],
   ["Groups", "#groups"],
   ["Submit", "#submit"],
 ];
+
+const SUBPAGE_LINKS: [string, string][] = [
+  ["This Week", "/this-week/"],
+  ["Calendar", "/calendar/"],
+  ["Meetups", "/meetups/"],
+  ["Conferences", "/conferences/"],
+  ["Learning", "/learning/"],
+  ["Work", "/work/"],
+  ["Get Involved", "/get-involved/"],
+];
+
+const links = subpage ? SUBPAGE_LINKS : LANDING_LINKS;
+// Inner-page links are already absolute; only the landing anchors need the prefix.
+const hrefFor = (href: string) => (href.startsWith("#") ? root + href : href);
+const currentPath = Astro.url.pathname.replace(/\/+$/, "") || "/";
 ---
 <header class:list={["site-header", { subpage }]} id="site-header">
   <div class="header-inner">
@@ -25,7 +44,12 @@ const links = [
       <img src="/images/757tech-logo.png" alt="757tech — tech community" />
     </a>
     <nav class="nav" id="primary-nav" aria-label="Main navigation">
-      {links.map(([label, href]) => <a href={root + href}>{label}</a>)}
+      {links.map(([label, href]) => (
+        <a
+          href={hrefFor(href)}
+          aria-current={href.replace(/\/+$/, "") === currentPath ? "page" : undefined}
+        >{label}</a>
+      ))}
     </nav>
     <div class="header-social">
       <a class="social-ico slack" href={SLACK} target="_blank" rel="noopener noreferrer" aria-label="Join us on Slack" title="Join us on Slack">
