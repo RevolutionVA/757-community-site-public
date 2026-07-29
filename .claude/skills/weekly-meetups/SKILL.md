@@ -77,7 +77,7 @@ Single-asterisk bold (`*...*`):
   • *Second Wednesday Event* — 6:00 PM (Group Name)
   https://www.meetup.com/.../events/<id>/
 
-  Full details → https://757tech.org
+  Full details → https://757tech.org/this-week/
 ```
 
 #### Discord
@@ -119,7 +119,7 @@ https://www.meetup.com/.../events/<id>/
 Wed — Second Wednesday Event:
 https://www.meetup.com/.../events/<id>/
 
-Full calendar → https://757tech.org
+Full calendar → https://757tech.org/this-week/
 ```
 
 Repeat the day prefix for each event on a multi-event day, one blank line between entries.
@@ -135,7 +135,7 @@ Mon: Event Title, 5:45 PM (Group Name)
 Wed: Another Event, 1:00 PM (Group Name)
 Wed: Second Wednesday Event, 6:00 PM (Group Name)
 
-757tech.org
+757tech.org/this-week/
 ```
 
 - Day prefix is the three-letter abbreviation with a colon (`Mon:`); repeat it for each event on a multi-event day.
@@ -163,7 +163,7 @@ Another Event — 6:00 PM
 Group Name
 https://www.meetup.com/.../events/<id>/
 
-Full calendar → https://757tech.org
+Full calendar → https://757tech.org/this-week/
 
 — The 757tech Team
 ```
