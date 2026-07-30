@@ -8,7 +8,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-15T12:30:08.512Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "ISSA-HR Presents: Hiding in Plain Sight",
@@ -19,7 +19,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-15T18:26:05.064Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -30,7 +30,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-13T14:49:38.411Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -41,7 +41,18 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-16T00:30:31.386Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
+  },
+  {
+    "title": "(CS)²AI Online™: Engineering Expertise-Core Skills for ICS/OT Cybersecurity",
+    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315901140/",
+    "date": "2026-08-05T17:00:00.000Z",
+    "description": "Industrial control systems and operational technology sit at the center of the world's critical infrastructure — and the practitioners defending them need a fundamentally different skillset than traditional IT security teams. **[Join us for a (CS)²AI Online™ Seminar: Engineering Expertise-Core Skills for ICS/OT Cybersecurity](https://events.zoom.us/ev/AkelfcRk7xL1iGgzTbB7dc0p_zqI23zpZcYN-FLD1g2E8nsNXREt~Ak5X3Hzq7cOjaV1aW8e7x_mWDF96lkIYagLlXwyCpG8Sd8VcE4kADZIEM5UMB_mTTBWUIn0lcx7fNtkgghve3jM_Kw),** a panel discussion bringing together leading experts to break down what it actually takes to build and sustain a career in ICS/OT cybersecurity.\n\nOur speakers will cover the foundational and advanced competencies every OT security practitioner needs, including:\n\n* Understanding industrial protocols, PLCs, SCADA, and control system architecture\n* Bridging the IT/OT divide — translating security concepts across engineering and cybersecurity teams\n* Risk assessment and threat modeling specific to physical processes and safety systems\n* Incident response and recovery when uptime and safety are non-negotiable\n* Navigating standards and frameworks like IEC 62443, NIST SP 800-82, and sector-specific regulations\n* Career pathways: certifications, hands-on experience, and how to break into the field\n\nWhether you're an IT security professional looking to move into OT, an engineer expanding into cybersecurity, or a practitioner sharpening your existing skills, this session will give you a clear-eyed view of what the field demands — and how to get there.\n\n**Who should attend:** Security analysts, control systems engineers, IT/OT convergence teams, CISOs and security leaders overseeing industrial environments, and anyone exploring a career in critical infrastructure protection.\n\n**[CLICK HERE TO REGISTER FOR THE EVENT](https://events.zoom.us/ev/AkelfcRk7xL1iGgzTbB7dc0p_zqI23zpZcYN-FLD1g2E8nsNXREt~Ak5X3Hzq7cOjaV1aW8e7x_mWDF96lkIYagLlXwyCpG8Sd8VcE4kADZIEM5UMB_mTTBWUIn0lcx7fNtkgghve3jM_Kw)**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering free educational opportunities!). Please join now! [https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](http://cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [https://www.cs2ai.org/](https://www.cs2ai.org/)\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event. [https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n\n© Control System Cyber Security Association International 2026",
+    "source": "meetup",
+    "group": "Hampton Roads Cyber Security for Control Systems",
+    "featuredEvent": false,
+    "createdDate": "2026-07-30T12:35:37.591Z",
+    "updatedDate": "2026-07-30T12:35:37.591Z"
   },
   {
     "title": "Late Night Builders",
@@ -52,7 +63,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:49.538Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "HTML Day | Freewrite",
@@ -63,9 +74,20 @@
     "group": "757 Developers",
     "featuredEvent": true,
     "createdDate": "2026-07-17T18:23:13.979Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z",
+    "updatedDate": "2026-07-30T12:36:09.420Z",
     "location": "ECPI, 5555 Greenwich Road, Virginia Beach, VA",
     "endDate": "2026-08-08T18:00:00.000Z"
+  },
+  {
+    "title": "(CS)²AI Online™ REPLAY: Ask Me Anything: AI in OT Cybersecurity",
+    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/315901253/",
+    "date": "2026-08-12T17:00:00.000Z",
+    "description": "Artificial Intelligence is rapidly reshaping the cybersecurity landscape — but what does it truly mean for **Operational Technology (OT)** environments?\n\nJoin us for a **[(CS)²AI Online™ Replay: Ask Me Anything (AMA)](https://events.zoom.us/ev/AvZ-P0UsUJ5Dn4f3pLNpbZLVBrhnu_dQMxaaeZIxMlJRp1fCi6F_~AhOLwZAleLzS88j2iXgoV-AnJT0sE-bcybYgO_O85BmYVlcF9qKKSThXpbtHdyn9U-frVj2Q0j2wa3-yHfLyFUaZlA)** session with **Clint Bodungen**, **Founder, Chairman, and Head of Product Innovation at ThreatGEN** and the **Director, AI/ML Engineering at Arcova**. A pioneer in gamified cybersecurity training and AI-driven defense, Clint will tackle your toughest questions about how AI is transforming OT cybersecurity — from detection and response to workforce enablement and ethical implications.\n\nWhether you’re an engineer, cybersecurity professional, or industry leader, this is your chance to engage directly, gain practical insights, and better understand the opportunities and risks of AI in OT security.\n\n**[CLICK HERE TO REGISTER FOR THE EVENT](https://events.zoom.us/ev/AvZ-P0UsUJ5Dn4f3pLNpbZLVBrhnu_dQMxaaeZIxMlJRp1fCi6F_~AhOLwZAleLzS88j2iXgoV-AnJT0sE-bcybYgO_O85BmYVlcF9qKKSThXpbtHdyn9U-frVj2Q0j2wa3-yHfLyFUaZlA)**\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering free educational opportunities!). Please join now! [https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](http://cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [https://www.cs2ai.org/](https://www.cs2ai.org/)\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event. [https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners. Contact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n\n© Control System Cyber Security Association International 2026",
+    "source": "meetup",
+    "group": "Hampton Roads Cyber Security for Control Systems",
+    "featuredEvent": false,
+    "createdDate": "2026-07-30T12:35:38.634Z",
+    "updatedDate": "2026-07-30T12:35:38.634Z"
   },
   {
     "title": "Platform & DevOps Engineering - August 2026 Meeting @ Commence",
@@ -76,7 +98,7 @@
     "group": "Platform Engineering and DevOps - Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-08T06:51:59.416Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "WSDG August Social Event",
@@ -87,7 +109,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-07-09T18:37:37.057Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Build and Demo Night (with prizes)",
@@ -98,7 +120,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T14:40:03.022Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -109,7 +131,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:10.059Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -120,7 +142,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-30T00:30:16.263Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -131,7 +153,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-30T00:30:17.142Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Final Meeting",
@@ -142,7 +164,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-07-29T06:55:54.598Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Jonathan Stewart: Translytical Task Flows: So Much More Than Write-Back",
@@ -153,7 +175,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:19.131Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -164,7 +186,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-28T06:54:43.778Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -175,7 +197,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:11.080Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -186,7 +208,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-20T07:15:54.950Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Pop-up Meetup: ARE We F*cked? An Anti-AI-Doomer's Perspective",
@@ -197,7 +219,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-16T18:25:21.183Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Build and Demo Night (with prizes)",
@@ -208,7 +230,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T14:40:04.838Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -219,7 +241,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:08.710Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -230,7 +252,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:52.077Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Late Night Builders",
@@ -241,7 +263,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:50.661Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -252,7 +274,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-05-28T00:41:21.530Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -263,7 +285,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:11.301Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -274,7 +296,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:53.057Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Virginia Cup: Official Startup World Cup Virginia Qualifier",
@@ -297,7 +319,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z",
+    "updatedDate": "2026-07-30T12:36:09.420Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -312,7 +334,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-14T18:25:09.226Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -323,7 +345,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-25T00:46:56.001Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -334,7 +356,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-24T00:41:36.905Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -345,7 +367,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-08T00:32:41.857Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -356,7 +378,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:55.103Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "BSides Hampton Roads 2026",
@@ -380,7 +402,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:56.062Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -391,7 +413,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:58.060Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -402,7 +424,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -413,7 +435,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-14T18:25:11.273Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -424,7 +446,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:17.107Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -446,7 +468,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:18.148Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -468,7 +490,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -479,7 +501,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -490,7 +512,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -501,7 +523,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -512,7 +534,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -523,7 +545,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -534,6 +556,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-17T00:33:17.915Z",
-    "updatedDate": "2026-07-30T06:55:02.574Z"
+    "updatedDate": "2026-07-30T12:36:09.420Z"
   }
 ]
