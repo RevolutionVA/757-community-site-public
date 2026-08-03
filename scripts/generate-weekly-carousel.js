@@ -20,7 +20,6 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BACKGROUND = path.join(ROOT, 'social', 'backgrounds', 'connect-the-waves.png');
-const LOGO = path.join(ROOT, 'social', 'logos', 'revolutionva-red.png');
 
 // Canvas + safe zone (see social/backgrounds — master is 2160x2160; the
 // center 16:9 band is y 475-1685, the 4:5 crop keeps x 216-1944)
@@ -126,11 +125,11 @@ function wrapText(text, fontSize, maxWidth) {
 
 // Pick the largest font size that fits the title in <= maxLines lines.
 function fitTitle(text, maxWidth, maxLines) {
-  for (const size of [96, 84, 72, 62, 54]) {
+  for (const size of [124, 110, 96, 84, 72]) {
     const lines = wrapText(text, size, maxWidth);
     if (lines.length <= maxLines) return { size, lines };
   }
-  const size = 54;
+  const size = 72;
   const lines = wrapText(text, size, maxWidth).slice(0, maxLines);
   lines[maxLines - 1] += '…';
   return { size, lines };
@@ -179,50 +178,41 @@ async function main() {
   const outDir = path.join(ROOT, 'social', 'exports', monday);
   fs.mkdirSync(outDir, { recursive: true });
 
-  // Pre-size the logo once (trim transparent padding from the source)
-  const trimmedLogo = await sharp(LOGO).trim().toBuffer();
-  const logoAt = async (height, top) => {
-    const buf = await sharp(trimmedLogo).resize({ height }).toBuffer();
-    const meta = await sharp(buf).metadata();
-    return { input: buf, left: Math.round((SIZE - meta.width) / 2), top };
-  };
-
   // --- Cover slide ---
   const coverPath = path.join(outDir, 'slide-01-cover.png');
   await renderSlide(
     [
-      textEl('757TECH · MEETUPS', { y: 700, size: 42, color: TEAL, spacing: 8 }),
-      textEl('This Week', { y: 900, size: 150, color: NAVY }),
-      textEl(formatWeekRange(monday), { y: 1010, size: 62, color: TEAL }),
-      textEl(`${events.length} meetups — swipe for the lineup →`, { y: 1140, size: 46, color: NAVY_SOFT, weight: 'normal' }),
-      textEl('757tech.org', { y: 2010, size: 46, color: NAVY_SOFT }),
+      textEl('757TECH · MEETUPS', { y: 620, size: 58, color: TEAL, spacing: 10 }),
+      textEl('This Week', { y: 880, size: 200, color: NAVY }),
+      textEl(formatWeekRange(monday), { y: 1030, size: 84, color: TEAL }),
+      textEl(`${events.length} meetups — swipe for the lineup →`, { y: 1190, size: 60, color: NAVY_SOFT, weight: 'normal' }),
+      textEl('757tech.org', { y: 2010, size: 58, color: NAVY_SOFT }),
     ],
-    await logoAt(300, 200),
+    null,
     coverPath
   );
   console.log(`  slide-01-cover.png`);
 
   // --- Event slides ---
-  const smallLogo = await logoAt(150, 1730);
   for (let i = 0; i < events.length; i++) {
     const ev = events[i];
     const eyebrow = `${ev.day.weekday.toUpperCase()}, ${ev.day.date.toUpperCase()} · ${ev.time}`;
     const { size, lines } = fitTitle(ev.title, 1560, 3);
     const lineHeight = size * 1.2;
-    const titleTop = 780;
+    const titleTop = 760;
     const overlay = [
-      textEl(eyebrow, { y: 640, size: 42, color: TEAL, spacing: 4 }),
+      textEl(eyebrow, { y: 600, size: 58, color: TEAL, spacing: 4 }),
       ...lines.map((line, n) => textEl(line, { y: titleTop + n * lineHeight, size, color: NAVY })),
       textEl(ev.group, {
-        y: titleTop + lines.length * lineHeight + 60,
-        size: Math.min(52, Math.floor(1560 / (ev.group.length * 0.55))),
+        y: titleTop + lines.length * lineHeight + 80,
+        size: Math.min(68, Math.floor(1560 / (ev.group.length * 0.55))),
         color: TEAL,
       }),
-      textEl('757tech.org', { y: 2010, size: 46, color: NAVY_SOFT }),
+      textEl('757tech.org', { y: 2010, size: 58, color: NAVY_SOFT }),
     ];
     const slug = ev.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
     const file = `slide-${String(i + 2).padStart(2, '0')}-${slug}.png`;
-    await renderSlide(overlay, { ...smallLogo }, path.join(outDir, file));
+    await renderSlide(overlay, null, path.join(outDir, file));
     console.log(`  ${file}`);
   }
 
