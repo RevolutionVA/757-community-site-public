@@ -1,6 +1,10 @@
 ---
 import { COMMUNITY } from "../../data/community";
-const { slack: SLACK, discord: DISCORD, github: GITHUB } = COMMUNITY;
+const {
+  slack: SLACK, discord: DISCORD, github: GITHUB,
+  linkedin: LINKEDIN, x: X, instagram: INSTAGRAM, threads: THREADS,
+  submitEvent: SUBMIT_EVENT, addGroup: ADD_GROUP,
+} = COMMUNITY;
 
 // `subpage`: the anchor targets live on the landing page, so links get a
 // "/" prefix when the footer renders anywhere else.
@@ -30,8 +34,8 @@ const year = new Date().getFullYear();
       </div>
       <div class="footer-col">
         <h4>Get involved</h4>
-        <a href={`${root}#submit`}>Submit an event</a>
-        <a href="/get-involved">Add your group</a>
+        <a href={SUBMIT_EVENT} target="_blank" rel="noopener noreferrer">Submit an event</a>
+        <a href={ADD_GROUP} target="_blank" rel="noopener noreferrer">Add your group</a>
         <a href={`${root}#subscribe`}>Newsletter</a>
       </div>
       <div class="footer-col">
@@ -39,6 +43,13 @@ const year = new Date().getFullYear();
         <a href={SLACK} target="_blank" rel="noopener noreferrer">Slack</a>
         <a href={DISCORD} target="_blank" rel="noopener noreferrer">Discord</a>
         <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href={X} target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">X</a>
+        <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href={THREADS} target="_blank" rel="noopener noreferrer">Threads</a>
       </div>
     </div>
   </div>

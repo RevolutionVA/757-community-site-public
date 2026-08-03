@@ -1,0 +1,122 @@
+---
+// Single source of truth for <head> metadata. Both MainLayout and LandingLayout
+// render this, so the two heads can no longer drift apart the way they had.
+//
+// `description` is deliberately REQUIRED with no default. An optional
+// description with a fallback string is exactly how /get-involved, /communities
+// and /learning ended up sharing one generic sentence — which is the sentence AI
+// assistants were quoting back instead of anything specific about the site. Make
+// the type system enforce it rather than relying on discipline.
+import { SITE } from "../lib/seo";
+import {
+  organizationNode,
+  webSiteNode,
+  webPageNode,
+  breadcrumbNode,
+} from "../lib/schema";
+
+interface Props {
+  title: string;
+  /** Required on purpose — see note above. 140-160 chars is the useful range. */
+  description: string;
+  /** Path or absolute URL. Defaults to the current page. */
+  canonical?: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  ogType?: "website" | "article";
+  noindex?: boolean;
+  /** `null` uses `title` verbatim — for pages whose title is already complete. */
+  titleSuffix?: string | null;
+  /** Breadcrumb trail including the current page. Omit on the homepage. */
+  breadcrumbs?: { name: string; url: string }[];
+  /** Extra JSON-LD graph nodes (ItemList, CollectionPage, ...). */
+  jsonLd?: object[];
+  prev?: string;
+  next?: string;
+}
+
+const {
+  title,
+  description,
+  canonical = Astro.url.pathname,
+  image = SITE.defaultImage,
+  imageAlt = SITE.defaultImageAlt,
+  imageWidth = SITE.defaultImageWidth,
+  imageHeight = SITE.defaultImageHeight,
+  ogType = "website",
+  noindex = false,
+  titleSuffix = SITE.name,
+  breadcrumbs,
+  jsonLd = [],
+  prev,
+  next,
+} = Astro.props;
+
+// Astro.site is set in astro.config.mjs; the fallback keeps this working if a
+// consumer ever renders the component outside a configured build.
+const siteOrigin = Astro.site?.href ?? SITE.url;
+const abs = (path: string) => new URL(path, siteOrigin).href;
+
+const canonicalUrl = abs(canonical);
+const fullTitle = titleSuffix ? `${title} | ${titleSuffix}` : title;
+const imageUrl = abs(image);
+
+const graph = [
+  organizationNode(siteOrigin),
+  webSiteNode(siteOrigin),
+  webPageNode(siteOrigin, {
+    url: canonicalUrl,
+    title: fullTitle,
+    description,
+  }),
+  ...(breadcrumbs?.length ? [breadcrumbNode(siteOrigin, breadcrumbs)] : []),
+  ...jsonLd,
+];
+
+// JSON.stringify does not escape "</script>", and event/group copy is scraped
+// from meetup.com — so a description containing that string would break out of
+// the script element. Escaping every "<" is valid JSON and closes the hole.
+const graphJson = JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": graph,
+}).replace(/</g, "\\u003c");
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+{prev && <link rel="prev" href={abs(prev)} />}
+{next && <link rel="next" href={abs(next)} />}
+
+<meta property="og:type" content={ogType} />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content={SITE.locale} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:width" content={String(imageWidth)} />
+<meta property="og:image:height" content={String(imageHeight)} />
+<meta property="og:image:alt" content={imageAlt} />
+
+{/* Twitter card tags use name=, not property= — that's what the spec and every validator expect. */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content={SITE.twitter} />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={imageAlt} />
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.ico" sizes="32x32" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content={SITE.themeColor} />
+
+<script type="application/ld+json" is:inline set:html={graphJson} />

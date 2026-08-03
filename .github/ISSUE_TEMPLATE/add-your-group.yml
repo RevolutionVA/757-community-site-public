@@ -1,0 +1,94 @@
+name: Add Your Group
+description: Add a meetup group or community to the 757 Tech Community site
+title: "[Group]: "
+labels:
+  - group
+  - needs-review
+  - group-submission
+assignees:
+  - 1kevgriff
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for adding your group!
+        Please fill out the information below to help us list your group on the 757 Tech Community site.
+
+        Once reviewed and approved, your group will appear on the site — and if you provide a Meetup RSS feed, your events will be pulled into the calendar automatically.
+
+  - type: input
+    id: group-name
+    attributes:
+      label: Group Name
+      description: The full name of the group
+      placeholder: "e.g., Hampton Roads .NET Users Group"
+    validations:
+      required: true
+
+  - type: input
+    id: group-url
+    attributes:
+      label: Group URL
+      description: Where people can find and join the group (Meetup.com, LinkedIn, or your own site)
+      placeholder: "https://www.meetup.com/your-group-name/"
+    validations:
+      required: true
+
+  - type: input
+    id: rss-feed
+    attributes:
+      label: Meetup RSS Feed
+      description: If the group is on Meetup.com, the events RSS feed URL — this lets us add your events to the calendar automatically
+      placeholder: "https://www.meetup.com/your-group-name/events/rss/"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category fits the group best?
+      options:
+        - Development
+        - Technology
+        - Design
+        - Cloud
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: A few comma-separated tags describing the group's focus
+      placeholder: "e.g., JavaScript, Web Development"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of the group — who it's for and what you do
+      placeholder: "Tell the community what your group is about, how often you meet, and who should join."
+    validations:
+      required: true
+
+  - type: input
+    id: meeting-cadence
+    attributes:
+      label: Meeting Cadence & Location
+      description: When and where the group usually meets
+      placeholder: "e.g., Second Tuesday of every month at Assembly, Norfolk"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this group, you agree to follow our community guidelines
+      options:
+        - label: I agree to follow the 757 Tech Community Code of Conduct
+          required: true

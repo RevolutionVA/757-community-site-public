@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/fetch-meetup-images.js",
+    "prebuild": "node scripts/fetch-meetup-images.js && node scripts/generate-llms-txt.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -16,13 +16,13 @@
     "deduplicate-calendar": "node scripts/deduplicate-calendar.js",
     "fix-calendar": "node scripts/fix-calendar-duplicates.js",
     "add-meetup": "node scripts/add-meetup.js",
-    "generate-carousel": "node scripts/generate-weekly-carousel.js"
+    "generate-carousel": "node scripts/generate-weekly-carousel.js",
+    "generate-llms-txt": "node scripts/generate-llms-txt.js"
   },
   "engines": {
     "node": ">=22.12.0"
   },
   "dependencies": {
-    "@astrojs/node": "^10.0.0",
     "@astrojs/sitemap": "^3.3.0",
     "astro": "^6.0.0",
     "marked": "^18.0.0",

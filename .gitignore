@@ -1,6 +1,12 @@
 # build output
 dist/
 
+# Regenerated from src/data/*.json by prebuild on every build, and embeds a
+# "Last generated" date plus the live event list. A committed copy is stale as
+# soon as the 6-hourly calendar cron runs, so tracking it only misleads anyone
+# reading it on GitHub. Nothing depends on the checked-in file.
+public/llms.txt
+
 # generated types
 .astro/
 

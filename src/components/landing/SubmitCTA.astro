@@ -1,6 +1,7 @@
 ---
 import { COMMUNITY } from "../../data/community";
-const GITHUB = COMMUNITY.github;
+const SUBMIT_EVENT = COMMUNITY.submitEvent;
+const ADD_GROUP = COMMUNITY.addGroup;
 ---
 <section class="section submit-section" id="submit">
   <div class="submit-card">
@@ -8,8 +9,8 @@ const GITHUB = COMMUNITY.github;
       <h2>Running a group or event?</h2>
       <p>Get it in front of every technologist in Hampton Roads. List your meetup, add a one-off event, or feature a conference — it's free.</p>
       <div class="submit-actions">
-        <a class="btn-coral" href="/get-involved">Submit an event</a>
-        <a class="btn-ghost-dark" href={GITHUB} target="_blank" rel="noopener noreferrer">Add your group</a>
+        <a class="btn-coral" href={SUBMIT_EVENT} target="_blank" rel="noopener noreferrer">Submit an event</a>
+        <a class="btn-ghost-dark" href={ADD_GROUP} target="_blank" rel="noopener noreferrer">Add your group</a>
       </div>
     </div>
     <div class="submit-art" aria-hidden="true">

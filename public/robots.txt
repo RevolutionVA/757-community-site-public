@@ -1,5 +1,42 @@
 User-agent: *
 Allow: /
 
+# AI crawlers and answer engines are explicitly welcome. 757tech is a public,
+# volunteer-run directory of a regional tech scene — being quoted accurately by
+# an assistant serves exactly the same goal as ranking in search.
+#
+# Note this is hygiene, not a ranking lever: Google-Extended governs Gemini
+# training only, and AI Overviews follow ordinary Googlebot, which was already
+# allowed above.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 # Sitemap location
-Sitemap: https://757tech.org/sitemap-index.xml 
+Sitemap: https://757tech.org/sitemap-index.xml
+
+# Structured summary for LLMs
+# https://757tech.org/llms.txt

@@ -1,0 +1,22 @@
+---
+// Bento visitor tracking. Shared by MainLayout and LandingLayout so the site
+// UUID lives in one place, matching GoogleAnalytics.astro.
+//
+// The loader auto-fires a pageview on its own — verified against production,
+// where it produces `POST track.bentonow.com/tracking/events -> 201`. That is
+// why there is no inline `bento.view()` call here.
+//
+// There used to be one, guarded by `if (typeof(bento$) != 'undefined')`. That
+// guard could never pass: it ran during parse, while the `async defer` loader
+// above it had definitionally not executed yet, so `bento$` was always
+// undefined. It was dead code — but removing it does NOT disable tracking,
+// because the loader was never depending on it.
+//
+// Deliberately ungated, unlike GA4: Bento ties visits to email subscribers, and
+// adding a PROD/hostname guard here would be a behavioural change beyond
+// restoring what production already does. Worth revisiting separately if
+// staging traffic turns out to be polluting the Bento data.
+const BENTO_SITE_UUID = "57d9b8196b2b704a30da5ac245bf2cfe";
+---
+
+<script src={`https://fast.bentonow.com?site_uuid=${BENTO_SITE_UUID}&js=true`} async defer></script>

@@ -33,7 +33,14 @@ const educationalInstitutions = [
 // Removing the online learning resources array
 ---
 
-<MainLayout title="Learning">
+<MainLayout
+  title="Learning"
+  description="Where to learn tech skills in Hampton Roads — computer science degrees, IT programs, and apprenticeships at ODU, TCC, ECPI, and Hampton University."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Learning", url: "/learning/" },
+  ]}
+>
   <div class="hero">
     <div class="container">
       <h1>Learning</h1>

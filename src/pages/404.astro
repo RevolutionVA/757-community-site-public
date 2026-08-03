@@ -1,0 +1,40 @@
+---
+// Branded 404. Azure Static Web Apps serves its own generic page unless
+// `responseOverrides.404` points at this one — see staticwebapp.config.json.
+import MainLayout from "../layouts/MainLayout.astro";
+import { COMMUNITY } from "../data/community";
+---
+
+<MainLayout
+  title="Page Not Found"
+  description="That page doesn't exist. Find tech meetups, events, and conferences in Hampton Roads, Virginia on 757tech."
+  noindex
+>
+  <div class="hero">
+    <div class="container">
+      <h1>Page not found</h1>
+      <p>
+        That page doesn't exist — it may have moved, or the link that brought you
+        here may be out of date.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content-box">
+      <h2>Try one of these instead</h2>
+      <ul>
+        <li><a href="/calendar/">Calendar</a> — every upcoming tech event in the 757</li>
+        <li><a href="/meetups/">Meetups</a> — all 20 local user groups</li>
+        <li><a href="/conferences/">Conferences</a> — regional conferences worth the drive</li>
+        <li><a href="/get-involved/">Get Involved</a> — speak, organize, volunteer, or mentor</li>
+      </ul>
+      <p>
+        If you followed a broken link from somewhere on this site, please
+        <a href={`${COMMUNITY.github}/issues`} target="_blank" rel="noopener noreferrer">
+          let us know on GitHub
+        </a>.
+      </p>
+    </div>
+  </div>
+</MainLayout>
