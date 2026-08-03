@@ -237,10 +237,10 @@ function recapSection(recap) {
           `<strong>${escapeHtml(recap.eventTitle)}</strong>${meta ? `<br><span style="font-size:14px;color:${BRAND.muted};">${meta}</span>` : ''}`
         )
       : '') +
+    // Lead paragraph sets context before the photos; the quote follows them.
+    paragraph(recap.body[0]) +
     photos +
     credit +
-    // Quote sits after the opening paragraph so the lead sets context first.
-    paragraph(recap.body[0]) +
     (recap.quote ? quoteBlock(recap.quote) : '') +
     recap.body.slice(1).map(paragraph).join('') +
     (recap.url ? paragraph(link(recap.url, 'See the event page')) : '')
