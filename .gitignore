@@ -38,3 +38,9 @@ package-lock.json
 
 # Design handoff artifacts (kept locally, not tracked)
 design-reference/
+
+# generated social carousel exports
+social/exports/
+
+# scraped member photo archive (large, not tracked)
+social/event-photos/
