@@ -1,13 +1,13 @@
 ---
 name: weekly-meetups
-description: Use when asked for this week's meetup lineup, weekly announcements, or Slack/Discord/LinkedIn/email newsletter posts for 757tech meetups — including "what's our lineup", "verify the links", or "generate the weekly posts".
+description: Use when asked for this week's meetup lineup, weekly announcements, or Slack/Discord/LinkedIn/X/email newsletter posts for 757tech meetups — including "what's our lineup", "verify the links", or "generate the weekly posts".
 ---
 
 # Weekly Meetups Announcements
 
 ## Overview
 
-Produce validated, ready-to-post weekly meetup announcements for Slack, Discord, LinkedIn, and the email newsletter. Three phases: **pull latest calendar → verify every event link → generate the four outputs**. Never publish an event that hasn't been verified against its live Meetup page.
+Produce validated, ready-to-post weekly meetup announcements for Slack, Discord, LinkedIn, X, and the email newsletter. Three phases: **pull latest calendar → verify every event link → generate the five outputs**. Never publish an event that hasn't been verified against its live Meetup page.
 
 ## Workflow
 
@@ -47,9 +47,9 @@ Outcome handling:
 
 The event count ("N events") in every output is the count of events that **passed** verification — not the count in the source file. Always report dropped or corrected events to the user with the reason (cancelled / 404 / wrong event or date / unverifiable / details corrected) so the calendar can be cleaned up. If an event's date falls outside the Monday–Sunday week, exclude it and flag it as a generator issue. If zero events pass, don't produce posts — tell the user the week is empty.
 
-### 3. Generate the four outputs
+### 3. Generate the five outputs
 
-**Deliver all four as copy-paste blocks in your reply.** Do not post, send, or commit them anywhere — the user publishes manually.
+**Deliver all five as copy-paste blocks in your reply.** Do not post, send, or commit them anywhere — the user publishes manually.
 
 Shared rules for all formats:
 
@@ -124,7 +124,23 @@ Full calendar → https://757tech.org
 
 Repeat the day prefix for each event on a multi-event day, one blank line between entries.
 
-#### Email newsletter
+#### X (@757techorg)
+
+**Hard limit: 280 characters** (any URL counts as 23 regardless of length). No markdown — X renders asterisks literally. One line per event, no blank lines between events, no hashtags, no per-event URLs — just the bare site domain on the last line:
+
+```
+📅 757tech Meetups This Week — N events
+
+Mon: Event Title, 5:45 PM (Group Name)
+Wed: Another Event, 1:00 PM (Group Name)
+Wed: Second Wednesday Event, 6:00 PM (Group Name)
+
+757tech.org
+```
+
+- Day prefix is the three-letter abbreviation with a colon (`Mon:`); repeat it for each event on a multi-event day.
+- **Count characters before delivering.** If over 280, compress in this order until it fits: (1) shorten event titles (drop subtitles after `:` or `|`, e.g. `(CS)²AI Online™: Security Lifecycles of Connected Power Infrastructure` → `(CS)²AI Security Lifecycles`), (2) drop the `(Group Name)` parentheticals, (3) drop the empty line before `757tech.org`. Never drop an event to fit — if it still can't fit with all three compressions, split into a two-post thread (lineup post + reply) and say so.
+- A one-line CTA (e.g. `🎤 BSides CFP closes Fri 7/31!`) may be added before the domain line only if the tweet still fits in 280.
 
 Plain text, links inline (email has no link penalty). Day headings in ALL CAPS; one blank line between events:
 
@@ -171,7 +187,7 @@ Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault 
 | Generate weekly file | `node scripts/generate-weekly-meetups.js` |
 | Source file | `weekly-meetups/<monday>-weekly-meetups-slack.txt` |
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
-| Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), Email (plain text, inline links) |
+| Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280 chars, compact one-liners, domain only), Email (plain text, inline links) |
 | Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
 ## Common Mistakes
@@ -183,6 +199,7 @@ Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault 
 | Dropping a live event over a minor time/title delta | Keep it, use the live page's values, tell the user what changed |
 | Bold asterisks in the LinkedIn post | LinkedIn renders them literally — emoji + line breaks only |
 | Event URLs in the LinkedIn post body | Links go in the first comment; body gets the 🔗 pointer line |
+| X post over 280 characters | Compress titles → drop groups → drop blank line; thread rather than dropping an event |
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |
 | Posting/committing the announcement text | Outputs are chat-only copy-paste blocks; the user publishes |
