@@ -188,6 +188,24 @@ function paragraph(html) {
 
 const link = (url, text) => `<a href="${url}" style="color:${BRAND.coral};font-weight:bold;text-decoration:underline;">${text || url}</a>`;
 
+// Sign-off with headshot. Two-cell table rather than a float — Outlook's Word
+// engine ignores float/border-radius, so it degrades to a square avatar beside
+// the text instead of collapsing the layout.
+function signature() {
+  return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:22px 0 0 0;">
+  <tr>
+    <td width="72" valign="top" style="padding-right:14px;">
+      <img src="https://757tech.org/images/kevin-griffin-headshot.jpg" width="72" height="72" alt="Kevin Griffin"
+           style="display:block;width:72px;height:72px;border-radius:36px;border:0;outline:none;text-decoration:none;">
+    </td>
+    <td valign="middle" style="${bodyFont};font-size:16px;line-height:1.5;color:${BRAND.ink};">
+      <strong>Kevin Griffin</strong><br>
+      President, ${link('https://revolutionva.org', 'RevolutionVA')}
+    </td>
+  </tr>
+</table>`;
+}
+
 // Default preheader if --preheader isn't passed: first few event titles + count
 function defaultPreheader(days) {
   const events = days.flatMap((d) => d.events);
@@ -225,7 +243,7 @@ function renderHtml({ days, featured }) {
             ${sectionHeading('Are we missing something?')}
             ${paragraph(`These events are listed on ${link('https://757tech.org', '757tech.org')}, the front door for developers and technologists in Hampton Roads. We source our events directly from local meetups and our local Slack channel. Please reply if you know of an event we should add to our list!`)}
             ${paragraph('Have a great week!')}
-            ${paragraph(`Kevin Griffin<br>President, ${link('https://revolutionva.org', 'RevolutionVA')}`)}
+            ${signature()}
           </td>
         </tr>
         <tr>
