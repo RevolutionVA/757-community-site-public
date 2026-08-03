@@ -119,6 +119,18 @@ function parseWeeklyFile(filePath) {
 }
 
 // Featured Events = upcoming calendar entries flagged featuredEvent: true
+// Optional weekly recap. Absent file just means nobody wrote one this week.
+function loadRecap() {
+  const file = path.join(rootDir, 'src', 'data', 'newsletter-recap.json');
+  if (!fs.existsSync(file)) return null;
+  try {
+    const recap = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return recap.body?.length ? recap : null;
+  } catch (err) {
+    fail(`Could not parse src/data/newsletter-recap.json: ${err.message}`);
+  }
+}
+
 function loadFeatured() {
   const file = path.join(rootDir, 'src', 'data', 'calendar-events.json');
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -186,6 +198,55 @@ function paragraph(html) {
   return `<p style="${bodyFont};font-size:16px;line-height:1.5;color:${BRAND.ink};margin:0 0 14px 0;">${html}</p>`;
 }
 
+// Attributed pull quote. Keeps the organizer's own words visibly theirs rather
+// than absorbed into the newsletter's voice.
+function quoteBlock({ text, attribution, role }) {
+  const byline = [attribution, role].filter(Boolean).map(escapeHtml).join(', ');
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 16px 0;">
+  <tr>
+    <td style="background:${BRAND.cardBg};border-left:4px solid ${BRAND.tide};border-radius:0 6px 6px 0;padding:14px 18px;">
+      <div style="${bodyFont};font-size:16px;line-height:1.55;color:${BRAND.ink};font-style:italic;margin:0 0 8px 0;">&ldquo;${escapeHtml(text)}&rdquo;</div>
+      <div style="${bodyFont};font-size:14px;font-weight:bold;color:${BRAND.muted};">&mdash; ${byline}</div>
+    </td>
+  </tr>
+</table>`;
+}
+
+// "What You Missed Last Week" recap, driven by src/data/newsletter-recap.json.
+// Returns '' when the file is absent or empty so the newsletter degrades to the
+// plain intro on weeks nobody writes one. Body entries are trusted HTML — this
+// file is hand-authored, not scraped.
+function recapSection(recap) {
+  if (!recap || !recap.body?.length) return '';
+  const meta = [recap.group, recap.date].filter(Boolean).map(escapeHtml).join(' &middot; ');
+  const photos = (recap.photos || [])
+    .map(
+      (p) => `<img src="${p.src}" alt="${escapeHtml(p.alt || '')}" width="536"
+           style="display:block;width:100%;max-width:536px;height:auto;border-radius:6px;border:0;margin:0 0 10px 0;">`
+    )
+    .join('');
+  const credit = recap.photoCredit
+    ? `<div style="${bodyFont};font-size:13px;color:${BRAND.muted};margin:0 0 14px 0;">${escapeHtml(recap.photoCredit)}</div>`
+    : '';
+  return (
+    // Heading is optional — without one the recap reads as a casual intro
+    // rather than a formal section.
+    (recap.heading ? sectionHeading(recap.heading) : '') +
+    (recap.eventTitle
+      ? paragraph(
+          `<strong>${escapeHtml(recap.eventTitle)}</strong>${meta ? `<br><span style="font-size:14px;color:${BRAND.muted};">${meta}</span>` : ''}`
+        )
+      : '') +
+    photos +
+    credit +
+    // Quote sits after the opening paragraph so the lead sets context first.
+    paragraph(recap.body[0]) +
+    (recap.quote ? quoteBlock(recap.quote) : '') +
+    recap.body.slice(1).map(paragraph).join('') +
+    (recap.url ? paragraph(link(recap.url, 'See the event page')) : '')
+  );
+}
+
 const link = (url, text) => `<a href="${url}" style="color:${BRAND.coral};font-weight:bold;text-decoration:underline;">${text || url}</a>`;
 
 // Sign-off with headshot. Two-cell table rather than a float — Outlook's Word
@@ -213,7 +274,7 @@ function defaultPreheader(days) {
   return `${names.join(', ')}, and more — ${events.length} meetups this week.`;
 }
 
-function renderHtml({ days, featured }) {
+function renderHtml({ days, featured, recap }) {
   return `<!DOCTYPE html>
 <html>
 <head>
@@ -234,14 +295,13 @@ function renderHtml({ days, featured }) {
         <tr>
           <td style="padding:28px 32px;">
             ${paragraph('Happy Monday!')}
-            ${paragraph(`Thanks for subscribing to 757Tech Weekly. ${link('https://revolutionva.org', 'RevolutionVA')}, the organizers behind Hampton Roads DevFest and RevolutionConf, support this weekly round-up of local tech events.`)}
-            ${paragraph(`If you have a meetup idea you'd like to try out, hit reply and let us know! RevolutionVA has the resources to support and encourage all types of meetups.`)}
-            ${paragraph(`Don't forget that the local tech community thrives on your support!`)}
+            ${recap ? recapSection(recap) : paragraph(`Thanks for subscribing to 757Tech Weekly. ${link('https://revolutionva.org', 'RevolutionVA')}, the organizers behind Hampton Roads DevFest and RevolutionConf, support this weekly round-up of local tech events.`)}
             ${featured.length ? sectionHeading('Featured Events') + paragraph('Keep these events on your radar!') + featured.map(featuredCard).join('') : ''}
             ${sectionHeading('This Week in the 757')}
             ${days.map((d) => dayHeading(d.heading) + d.events.map(eventCard).join('')).join('')}
             ${sectionHeading('Are we missing something?')}
             ${paragraph(`These events are listed on ${link('https://757tech.org', '757tech.org')}, the front door for developers and technologists in Hampton Roads. We source our events directly from local meetups and our local Slack channel. Please reply if you know of an event we should add to our list!`)}
+            ${paragraph(`This round-up is supported by ${link('https://revolutionva.org', 'RevolutionVA')}, the organizers behind Hampton Roads DevFest and RevolutionConf. If you have a meetup idea you'd like to try out, hit reply — we have the resources to help you get it off the ground.`)}
             ${paragraph('Have a great week!')}
             ${signature()}
           </td>
@@ -287,7 +347,7 @@ async function main() {
   if (eventCount === 0) fail(`No events left after parsing/exclusions in ${sourceFile}`);
 
   const preheader = preheaderArg || defaultPreheader(days);
-  const html = renderHtml({ days, featured: loadFeatured() });
+  const html = renderHtml({ days, featured: loadFeatured(), recap: loadRecap() });
   console.log(`Preview text: ${preheader}`);
   if (htmlOut) {
     fs.writeFileSync(htmlOut, html);

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.meetup.com/norfolkjs/events/315672897/",
+  "body": [
+    "Did you miss NorfolkJS last week? Tim Baines walked the room through <strong>Resume.js</strong> — a data-driven resume page that takes a single JSON file and renders a full HTML resume from it, served off GitHub Pages. Vanilla JavaScript, no frameworks: just fetch, ES Modules, and a modular architecture.",
+    "Ryan McGovern followed with his own approach to the same problem, so the room got two solutions at two different experience levels — which was the whole point of the format."
+  ],
+  "quote": {
+    "text": "Last year he wasn't even really writing anything in JavaScript. I was impressed with how he actually read through Eloquent JavaScript and implemented higher order functions like .map() without vibe coding it. He actually took the time to learn it.",
+    "attribution": "Paul Chin Jr."
+  },
+  "photoCredit": "Photos courtesy of Paul Chin Jr.",
+  "photos": [
+    {
+      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-group.jpg",
+      "alt": "Norfolk.js members around the conference table at Assembly, with the Build Your Resume with JavaScript title slide on screen"
+    },
+    {
+      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-talk.jpg",
+      "alt": "A Norfolk.js presenter mid-explanation at the table, laptop open beside him"
+    }
+  ]
+}
