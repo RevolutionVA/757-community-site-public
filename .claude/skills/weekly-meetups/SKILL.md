@@ -179,6 +179,18 @@ op run --account revolutionva.1password.com --env-file .env -- \
 
 Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault of the `revolutionva.1password.com` account via `op` secret references (see `.env.example`; `.env` is gitignored). The script creates a **draft** — the user reviews and sends from the Bento dashboard. Use `--dry-run` (no credentials needed) plus `--html-out <file>` to preview. Before running, check `src/data/newsletter-featured.json` is current and ask the user if the featured events look stale. Never pass raw API keys on the command line or write them to files.
 
+**The weekly recap (`src/data/newsletter-recap.json`) is stale by default.** It replaces the boilerplate intro with a "did you miss X last week?" write-up, and it does **not** regenerate — whatever is in the file ships until someone edits it. Always check its contents against *last* week before creating a draft; if it still describes an older event, tell the user and ask whether to refresh or drop it. Deleting the file (or emptying `body`) falls back to the boilerplate intro, which is the right move on a week with nothing to recap.
+
+Shape: `body` (array of HTML paragraphs — `body[0]` is the lead and renders above the photos), optional `heading` (omit it so the recap reads as a casual intro rather than a formal section), optional `quote` (`text` / `attribution` / `role`), optional `photoCredit`, optional `photos` (`src` / `alt`), optional `url`.
+
+Rules when writing one:
+
+- **Get the color from an organizer**, not the Meetup blurb — the blurb describes the topic, an organizer tells you why it mattered. Ask the user for a summary if you don't have one.
+- **Quote the organizer directly** rather than absorbing their words into the newsletter's voice. Trim for length (30–45 words is the sweet spot) and cut anything that repeats the lead paragraph, but **have the user confirm the trimmed version with its author before sending** — their name goes on it.
+- **Host images in the repo** under `public/images/recap/`, not hotlinked. Resize to **804px wide** (1.5× the 536px display width) at JPEG q70 with 4:2:0 chroma — that lands around 45–50 KB each. The whole email should stay near 100 KB of images.
+- **Images must be deployed before the draft is useful.** `757tech.org/images/...` 404s until `main` deploys, so commit and merge first, then create the draft. To preview locally before deploying, rewrite the image URLs to base64 data URIs in the `--html-out` file.
+- **Creating a draft never replaces an earlier one.** Every run adds another identically-named draft; tell the user which ID to send and which to delete.
+
 ## Quick Reference
 
 | Step | Command / action |
@@ -188,6 +200,7 @@ Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault 
 | Source file | `weekly-meetups/<monday>-weekly-meetups-slack.txt` |
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
 | Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280 chars, compact one-liners, domain only), Email (plain text, inline links) |
+| Weekly recap | `src/data/newsletter-recap.json` — **never auto-updates**; check it describes *last* week before drafting. Delete or empty `body` to fall back to the boilerplate intro |
 | Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
 ## Common Mistakes
@@ -203,3 +216,6 @@ Credentials come from the "Bento - RevolutionVA" item in the **Employee** vault 
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |
 | Posting/committing the announcement text | Outputs are chat-only copy-paste blocks; the user publishes |
+| Shipping last week's recap again | `newsletter-recap.json` never regenerates — verify it before every draft |
+| Creating a Bento draft before the recap images deploy | The URLs 404 until `main` deploys; commit and merge first |
+| Editing an organizer's quote without telling them | Trim freely, but have the user get the author's OK — their name is on it |
