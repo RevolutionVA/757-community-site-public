@@ -1,0 +1,25 @@
+/* Shared design tokens for the coastal design system.
+   Imported by BOTH stylesheets (chrome.css -> landing.css / main.css) so the
+   homepage and every inner page draw from one palette and type scale. Before
+   this existed, public/styles/global.css shipped an entirely separate look
+   (#0077cc, system fonts) and 11 of 13 page templates used it, so the site
+   read as two different products. */
+:root {
+  --deep: #07314A;
+  --deep-2: #0a4a70;
+  --tide: #0AB6D6;
+  --seafoam: #5FD0BE;
+  --sand: #F2E6CE;
+  --sand-soft: #FBF6EC;
+  --coral: #FF6F59;
+  --ink: #0c2536;
+  --muted: #5b7280;
+  --line: #e7ded0;
+  --accent: #FF6F59;
+  --font-head: 'Baloo 2', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius: 18px;
+  --shadow-sm: 0 2px 8px rgba(7,49,74,.06);
+  --shadow: 0 14px 40px -16px rgba(7,49,74,.28);
+  --shadow-lg: 0 30px 70px -24px rgba(7,49,74,.4);
+}

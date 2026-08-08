@@ -30,7 +30,9 @@ const year = new Date().getFullYear();
         <a href={`${root}#events`}>Events</a>
         <a href={`${root}#conferences`}>Conferences</a>
         <a href={`${root}#groups`}>Groups</a>
+        <a href="/this-week/">This week</a>
         <a href="/calendar">Full calendar</a>
+        <a href="/weekly/">Weekly archive</a>
       </div>
       <div class="footer-col">
         <h4>Get involved</h4>
@@ -55,6 +57,13 @@ const year = new Date().getFullYear();
   </div>
   <div class="footer-base">
     <span>© {year} 757tech.org · Supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>, a 501(c)(3) non-profit — built by the community, for the community.</span>
+    {/* Carried over from the old MainLayout footer, which the inner pages used
+        until this footer replaced it. Kept rather than dropped so the build
+        credit doesn't silently disappear from 11 pages. */}
+    <span class="footer-credit">
+      Built by <a href="https://www.linkedin.com/in/tedjpatterson/" target="_blank" rel="noopener noreferrer">Ted Patterson</a>
+      &amp; <a href="https://www.linkedin.com/in/1kevgriff" target="_blank" rel="noopener noreferrer">Kevin Griffin</a>
+    </span>
     <span class="footer-tag">Made in Hampton Roads 🌊</span>
   </div>
 </footer>

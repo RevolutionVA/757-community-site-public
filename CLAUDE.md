@@ -100,7 +100,7 @@ When asked to generate a Slack/Discord message for the weekly meetups (source: `
   • *Another Event* — H:MM AM/PM (Group Name)
   https://www.meetup.com/.../events/<id>/
 
-  Full details → https://757tech.org
+  Full details → https://757tech.org/this-week/
 ```
 
 Formatting rules:
@@ -110,7 +110,7 @@ Formatting rules:
 - One bullet per event: `• *Title* — Time (Group)`, with the bare Meetup URL on the next line.
 - Group events under day headings; use em-dash (`—`) between title and time, and between the header label and event count.
 - Count in the header is the number of validated events ("N events").
-- End with `Full details → https://757tech.org`.
+- End with `Full details → https://757tech.org/this-week/`.
 
 #### LinkedIn variant
 
@@ -127,7 +127,7 @@ Hampton Roads has a packed week of tech meetups. Here's what's happening:
 Event Title — H:MM AM/PM (Group Name)
 https://www.meetup.com/.../events/<id>/
 
-Full event details → https://757tech.org
+Full event details → https://757tech.org/this-week/
 
 #757tech #HamptonRoads #TechCommunity #Meetups #Developers
 ```
@@ -135,7 +135,7 @@ Full event details → https://757tech.org
 **Links-in-first-comment (better reach — preferred):** LinkedIn down-ranks posts with outbound links, so keep the post body link-free and put all event links in the first comment (post it immediately after publishing so it pins to top).
 
 - Post body: same as standard but with **no event URLs**; replace them with a `🔗 Event links in the comments below 👇` line before the hashtags.
-- First comment: list each event link, e.g. `Mon — Event Title:` followed by the URL, ending with `Full calendar → https://757tech.org`.
+- First comment: list each event link, e.g. `Mon — Event Title:` followed by the URL, ending with `Full calendar → https://757tech.org/this-week/`.
 
 LinkedIn formatting rules:
 - Add a one-line intro and the hashtag block (Slack/Discord omit both).

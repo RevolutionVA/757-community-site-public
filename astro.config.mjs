@@ -26,6 +26,12 @@ const eventLastmod = newestEvent ? { lastmod: newestEvent } : {};
 const RULES = [
   [/^\/$/, { priority: 1.0, changefreq: 'daily', ...eventLastmod }],
   [/^\/calendar\/?$/, { priority: 0.9, changefreq: 'daily', ...eventLastmod }],
+  // Evergreen URL, rewritten every Monday — the one the weekly social posts link to.
+  [/^\/this-week\/?$/, { priority: 0.9, changefreq: 'weekly' }],
+  // A completed week never changes again, so it gets its own frozen lastmod
+  // (the Sunday it ended) rather than a build timestamp.
+  [/^\/weekly\/(\d{4}-\d{2}-\d{2})\/?$/, { priority: 0.5, changefreq: 'yearly' }],
+  [/^\/weekly\/?$/, { priority: 0.7, changefreq: 'weekly' }],
   [/^\/meetups\/?$/, { priority: 0.9, changefreq: 'weekly' }],
   [/^\/conferences\/?$/, { priority: 0.8, changefreq: 'monthly' }],
   [/^\/(work|learning|communities|get-involved)\/?$/, { priority: 0.5, changefreq: 'monthly' }],
@@ -45,7 +51,19 @@ export default defineConfig({
         if (path.startsWith('/newsletter-thank-you')) return undefined;
 
         const rule = RULES.find(([pattern]) => pattern.test(path))?.[1];
-        return rule ? { ...item, ...rule } : item;
+        if (!rule) return item;
+
+        const next = { ...item, ...rule };
+
+        // A dated archive page is frozen once built: stamp it with the Sunday
+        // that week ended, which is a real date rather than the build time.
+        const week = path.match(/^\/weekly\/(\d{4})-(\d{2})-(\d{2})\/?$/);
+        if (week) {
+          const [, y, m, d] = week;
+          next.lastmod = new Date(Date.UTC(+y, +m - 1, +d + 6)).toISOString();
+        }
+
+        return next;
       },
     }),
   ],

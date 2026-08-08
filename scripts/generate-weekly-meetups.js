@@ -121,19 +121,11 @@ async function generateWeeklyMeetups() {
     const eventsByDay = {};
     thisWeekEvents.forEach(event => {
       const eventDate = new Date(event.date);
-      
-      // HARDCODED FIX: Ensure we use Monday, April 28 for the Norfolk.js event
-      if (event.title.includes("How I Didn't Build 757tech.org")) {
-        console.log("Found the Norfolk.js event - setting to Monday, April 28");
-        const dayKey = "Monday, April 28, 2025";
-        if (!eventsByDay[dayKey]) {
-          eventsByDay[dayKey] = [];
-        }
-        eventsByDay[dayKey].push(event);
-        return; // Skip the rest of this iteration
-      }
-      
-      // For all other events, use the standard date formatting
+
+      // A hardcoded branch used to live here, force-filing any event titled
+      // "How I Didn't Build 757tech.org" under "Monday, April 28, 2025".
+      // Removed: it was a one-off patch for a single 2025 event, and it would
+      // have mis-dated that event permanently if it ever recurred.
       const dayKey = formatDate(eventDate);
       console.log(`Grouping event: ${event.title} on ${dayKey}`);
       

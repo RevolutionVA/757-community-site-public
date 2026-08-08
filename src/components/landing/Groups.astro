@@ -29,7 +29,9 @@ const initials = (name: string) =>
         <a class="group-card" href={g.url} target="_blank" rel="noopener noreferrer" data-category={g.category}>
           <span class="group-mark" style={catStyle(col)} aria-hidden="true">{initials(g.name)}</span>
           <div class="group-info">
-            <div class="group-name">{g.name}</div>
+            {/* Heading rather than div — see EventsExplorer. Group names are
+                the searched-for entities ("Norfolk.js", "757 Python"). */}
+            <h3 class="group-name">{g.name}</h3>
             <div class="group-tags">{g.tags.join(" · ")}</div>
           </div>
           <span class="group-arrow" aria-hidden="true">↗</span>

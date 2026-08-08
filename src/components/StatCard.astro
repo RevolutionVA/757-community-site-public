@@ -16,7 +16,7 @@ const { value, label, emoji } = Astro.props;
 
 <style>
   .stat-card {
-    background-color: #f8f9fa;
+    background-color: var(--sand-soft);
     border-radius: 8px;
     padding: 1.5rem;
     text-align: center;
@@ -33,11 +33,11 @@ const { value, label, emoji } = Astro.props;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #0077cc;
+    color: var(--deep-2);
   }
 
   .label {
     font-size: 1rem;
-    color: #666;
+    color: var(--muted);
   }
 </style> 

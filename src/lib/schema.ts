@@ -78,6 +78,49 @@ export function webPageNode(
 }
 
 /**
+ * A page that lists entities living elsewhere.
+ *
+ * Items are name+url ListItems rather than full Event nodes on purpose:
+ * schema.org/Event effectively requires `location`, which the archive does not
+ * record, and past events have no rich-result value anyway. ListItem enumerates
+ * the entities without asserting facts we cannot back up.
+ */
+export function collectionPageNode(
+  site: string,
+  {
+    url,
+    name,
+    description,
+    items,
+  }: {
+    url: string;
+    name: string;
+    description: string;
+    items: { name: string; url: string }[];
+  },
+) {
+  return {
+    "@type": "CollectionPage",
+    "@id": url,
+    url,
+    name,
+    description,
+    isPartOf: { "@id": abs(WEBSITE_ID, site) },
+    inLanguage: "en-US",
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: items.length,
+      itemListElement: items.map((item, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.name,
+        url: item.url,
+      })),
+    },
+  };
+}
+
+/**
  * `crumbs` should NOT include the page itself as a bare label — pass the full
  * trail including the current page, each with its own URL. Google wants the
  * final item to be the current page.
