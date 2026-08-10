@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import MainLayout from '../../../../layouts/MainLayout.astro';
 import { marked } from 'marked';
 
@@ -12,8 +12,9 @@ export async function getStaticPaths() {
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
 
-    // Extract slug from the entry ID (filename without extension)
-    const slug = event.id.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '');
+    // The glob loader's id is the filename without extension, so only the
+    // date prefix has to come off.
+    const slug = event.id.replace(/^\d{4}-\d{2}-\d{2}-/, '');
 
     return {
       params: { year: String(year), month, day, slug },
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
 }
 
 const { event } = Astro.props;
-const { Content } = await event.render();
+const { Content } = await render(event);
 
 // Parse dates
 const startDate = new Date(event.data.startDate);

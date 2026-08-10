@@ -1,7 +1,8 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const eventsCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/events' }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
@@ -21,7 +22,7 @@ const eventsCollection = defineCollection({
 });
 
 const meetupsCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/meetups' }),
   schema: z.object({
     name: z.string(),
     url: z.string().url(),
