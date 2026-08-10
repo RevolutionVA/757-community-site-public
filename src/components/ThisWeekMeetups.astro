@@ -96,7 +96,7 @@ function formatEventDate(dateString: string) {
 
   .this-week-meetups h3 {
     margin-top: 0;
-    color: #0077cc;
+    color: var(--deep-2);
     margin-bottom: 1rem;
   }
 
@@ -110,7 +110,7 @@ function formatEventDate(dateString: string) {
     display: flex;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--line);
     flex-wrap: wrap;
     position: relative;
   }
@@ -122,8 +122,8 @@ function formatEventDate(dateString: string) {
   }
 
   .featured-event {
-    background-color: #f8f9fa;
-    border-left: 4px solid #0077cc;
+    background-color: var(--sand-soft);
+    border-left: 4px solid var(--deep-2);
     padding-left: 1rem;
     margin-left: -1rem;
     border-radius: 0 4px 4px 0;
@@ -133,7 +133,7 @@ function formatEventDate(dateString: string) {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #0077cc;
+    background-color: var(--deep-2);
     color: white;
     font-size: 0.7rem;
     font-weight: bold;
@@ -145,7 +145,7 @@ function formatEventDate(dateString: string) {
   .event-date {
     flex: 0 0 auto;
     font-weight: bold;
-    color: #555;
+    color: var(--muted);
     white-space: nowrap;
     margin-right: 1rem;
     min-width: 180px;
@@ -159,7 +159,7 @@ function formatEventDate(dateString: string) {
   .event-title {
     display: block;
     font-weight: bold;
-    color: #0077cc;
+    color: var(--deep-2);
     text-decoration: none;
     margin-bottom: 0.25rem;
   }
@@ -170,11 +170,11 @@ function formatEventDate(dateString: string) {
 
   .event-group {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--muted);
   }
 
   .no-events {
-    color: #666;
+    color: var(--muted);
     font-style: italic;
   }
 
@@ -184,7 +184,7 @@ function formatEventDate(dateString: string) {
   }
 
   .view-all-link {
-    color: #0077cc;
+    color: var(--deep-2);
     text-decoration: none;
     font-weight: bold;
   }

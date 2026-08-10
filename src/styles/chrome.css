@@ -1,0 +1,126 @@
+/* Shared chrome: reset, base typography, buttons, and the sticky site header.
+   Used by the landing page and all inner pages. Deliberately excludes .hero —
+   that class means different things in the two contexts (a full-bleed hero with
+   logo on the landing page, a compact page banner on inner pages), so each
+   stylesheet defines its own. */
+@import "./tokens.css";
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+h1, h2, h3, h4 { font-family: var(--font-head); margin: 0; line-height: 1.04; letter-spacing: -.01em; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+::selection { background: var(--seafoam); color: var(--deep); }
+
+.app { overflow-x: clip; }
+
+/* anchor scrolling clears the sticky header — scoped to the in-page anchor
+   targets (section ids + the subscribe form) rather than every [id] element */
+section[id], #subscribe { scroll-margin-top: 86px; }
+
+/* ---------- buttons ---------- */
+/* Navy label rather than white: white on the brand coral is 2.74:1, well under
+   WCAG AA's 4.5:1 for body-sized text. Deep navy on the same coral is 4.96:1,
+   so this fixes the contrast while keeping the exact brand hue — darkening the
+   coral enough for white text would have shifted it visibly toward red. */
+.btn-coral {
+  background: var(--accent);
+  color: var(--deep);
+  border: none;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 13px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px -8px color-mix(in srgb, var(--accent) 70%, transparent);
+  transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+}
+.btn-coral:hover { transform: translateY(-2px); box-shadow: 0 14px 26px -10px color-mix(in srgb, var(--accent) 75%, transparent); filter: brightness(1.04); }
+.btn-coral:active { transform: translateY(0); }
+.btn-ghost {
+  background: #fff; color: var(--deep); border: 1.5px solid var(--line);
+  font-family: var(--font-head); font-weight: 700; font-size: 15px;
+  padding: 11px 20px; border-radius: 999px; cursor: pointer; transition: all .15s ease;
+}
+.btn-ghost:hover { border-color: var(--tide); color: var(--tide); }
+.btn-ghost-dark {
+  background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.45);
+  font-family: var(--font-head); font-weight: 700; font-size: 16px;
+  padding: 13px 22px; border-radius: 999px; cursor: pointer; transition: all .15s ease;
+}
+.btn-ghost-dark:hover { background: rgba(255,255,255,.12); border-color: #fff; }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  transition: background .25s ease, box-shadow .25s ease, padding .25s ease;
+  padding: 14px 0;
+}
+.site-header.scrolled { background: rgba(255,255,255,.88); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--line), var(--shadow-sm); padding: 8px 0; }
+.header-inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 28px;
+  display: flex; align-items: center; gap: 24px;
+}
+/* At the top of the page the hero shows the prominent logo, so the navbar
+   brand is hidden; it fades in (small) once the header condenses on scroll. */
+.brand { opacity: 0; pointer-events: none; transition: opacity .25s ease; }
+.site-header.scrolled .brand,
+.site-header.subpage .brand { opacity: 1; pointer-events: auto; }
+.brand img { height: 50px; width: auto; }
+/* Inner pages have no hero behind the header, so a transparent bar would sit on
+   bare page background until the first scroll. Solid from the start there. */
+.site-header.subpage {
+  background: rgba(255,255,255,.92);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--line);
+}
+
+.nav { display: flex; gap: 28px; margin-left: auto; }
+/* Inner-page nav carries 7 links rather than 4, so it needs a tighter rhythm to
+   stay on one row alongside the social icons and CTA. */
+.site-header.subpage .nav { gap: 18px; }
+.site-header.subpage .nav a { font-size: 14.5px; }
+.nav a { font-weight: 600; font-size: 15.5px; color: var(--deep); position: relative; padding: 4px 0; opacity: .82; transition: opacity .15s; }
+.nav a:hover { opacity: 1; }
+.nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -2px; height: 2px; background: var(--tide); transition: right .2s ease; border-radius: 2px; }
+.nav a:hover::after { right: 0; }
+/* Current page marker — driven by aria-current, so the visual and the
+   accessibility signal can't drift apart. */
+.nav a[aria-current="page"] { opacity: 1; color: var(--deep-2); }
+.nav a[aria-current="page"]::after { right: 0; }
+
+.header-cta { padding: 10px 20px; font-size: 15px; }
+
+.nav-toggle { display: none; width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px; border: 1.5px solid var(--line); background: #fff; color: var(--deep); cursor: pointer; place-items: center; transition: border-color .15s, color .15s; }
+.nav-toggle:hover { border-color: var(--tide); color: var(--tide); }
+
+.header-social { display: flex; gap: 7px; align-items: center; }
+.social-ico { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; color: var(--deep); border: 1.5px solid var(--line); background: #fff; transition: all .15s ease; }
+.social-ico:hover { transform: translateY(-2px); border-color: transparent; color: #fff; box-shadow: var(--shadow-sm); }
+.social-ico.slack:hover { background: #4A154B; }
+.social-ico.discord:hover { background: #5865F2; }
+@media (max-width: 920px) { .header-social { display: none; } }
+
+@media (max-width: 760px) {
+  .nav-toggle { display: grid; margin-left: auto; }
+  .header-cta { margin-left: 12px; }
+  .nav {
+    position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 8px;
+    flex-direction: column; gap: 2px; display: none;
+    background: rgba(255,255,255,.97); backdrop-filter: blur(12px);
+    border-top: 1px solid var(--line); box-shadow: var(--shadow);
+  }
+  .site-header.nav-open .nav { display: flex; }
+  .nav a { padding: 12px 14px; font-size: 16px; opacity: 1; border-radius: 10px; }
+  .nav a:hover { background: var(--sand-soft); }
+  .nav a::after { display: none; }
+}

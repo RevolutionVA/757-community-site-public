@@ -35,12 +35,12 @@
   .bento-formkit-headline {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #333;
+    color: var(--ink);
     margin-bottom: 0.75rem;
   }
 
   .bento-formkit-subheader {
-    color: #555;
+    color: var(--muted);
     margin-bottom: 1.5rem;
   }
 
@@ -58,7 +58,7 @@
     width: 100%;
     padding: 0.75rem 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid var(--line);
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
@@ -66,15 +66,17 @@
 
   .bento-formkit-input:focus {
     outline: none;
-    border-color: #0095FF;
+    border-color: var(--tide);
     box-shadow: 0 0 0 3px rgba(0, 149, 255, 0.15);
   }
 
   .bento-formkit-button {
+    font-family: var(--font-head);
+    border-radius: 999px;
     width: 100%;
     padding: 0.75rem 1.25rem;
-    background-color: #0095FF;
-    color: white;
+    background-color: var(--accent);
+    color: var(--deep);
     border: none;
     border-radius: 8px;
     font-weight: 600;
@@ -83,13 +85,13 @@
   }
 
   .bento-formkit-button:hover {
-    background-color: #0095FFee;
+    background-color: var(--accent); filter: brightness(1.06);
     transform: translateY(-1px);
   }
 
   .bento-formkit-disclosure {
     font-size: 0.8rem;
-    color: #777;
+    color: var(--muted);
     margin-top: 1rem;
   }
 

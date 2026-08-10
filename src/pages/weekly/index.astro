@@ -1,0 +1,157 @@
+---
+// Archive hub: every completed week, grouped by month.
+//
+// Not paginated on purpose. At ~72 weeks the whole list fits comfortably on one
+// page, every archive page stays one hop from the hub (better for crawling than
+// burying 2024 behind six pagination clicks), and it avoids the self-canonical
+// and rel=prev/next pitfalls paginated archives usually ship with.
+import MainLayout from "../../layouts/MainLayout.astro";
+import NewsletterSignup from "../../components/NewsletterSignup.astro";
+import { collectionPageNode } from "../../lib/schema";
+import { getArchivedWeeks, formatIso, formatRange } from "../../lib/weekly";
+
+const weeks = getArchivedWeeks();
+const site = Astro.site?.href ?? "https://757tech.org/";
+
+// Group by "Month YYYY" of the week's Monday, preserving newest-first order.
+const byMonth = new Map<string, typeof weeks>();
+for (const w of weeks) {
+  const [y, m] = w.monday.split("-").map(Number);
+  const key = `${new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString("en-US", { month: "long", timeZone: "UTC" })} ${y}`;
+  if (!byMonth.has(key)) byMonth.set(key, []);
+  byMonth.get(key)!.push(w);
+}
+
+const totalEvents = weeks.reduce((s, w) => s + w.count, 0);
+const allGroups = new Set(weeks.flatMap((w) => w.groups));
+const oldest = weeks[weeks.length - 1];
+const newest = weeks[0];
+
+const description = `Every tech meetup in Hampton Roads, week by week since ${
+  oldest ? formatIso(oldest.monday).replace(/ \d+,/, "") : "March 2025"
+} — ${totalEvents} events from ${allGroups.size} local groups across Norfolk, Virginia Beach and the Peninsula.`;
+---
+
+<MainLayout
+  title="Hampton Roads Tech Meetup Archive: Every Week Since March 2025"
+  description={description.slice(0, 300)}
+  titleSuffix="757tech"
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Weekly Archive", url: "/weekly/" },
+  ]}
+  jsonLd={[
+    collectionPageNode(site, {
+      url: new URL("/weekly/", site).href,
+      name: "Hampton Roads Tech Meetup Archive",
+      description: description.slice(0, 300),
+      items: weeks.map((w) => ({
+        name: `Week of ${formatIso(w.monday)}`,
+        url: new URL(`/weekly/${w.monday}/`, site).href,
+      })),
+    }),
+  ]}
+>
+  <div class="hero">
+    <div class="container">
+      <h1>Weekly meetup archive</h1>
+      <p>
+        A complete week-by-week record of the Hampton Roads tech scene —
+        {" "}{totalEvents} events from {allGroups.size} groups across {weeks.length} weeks.
+      </p>
+      <p class="data-note">
+        Looking for what's on now? See <a href="/this-week/">this week</a> or the
+        {" "}<a href="/calendar/">upcoming calendar</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <NewsletterSignup />
+
+    {[...byMonth.entries()].map(([month, monthWeeks]) => (
+      <section class="archive-month">
+        <h2>{month}</h2>
+        <ul class="week-list">
+          {monthWeeks.map((w) => (
+            <li class="week-row">
+              <a class="week-link" href={`/weekly/${w.monday}/`}>
+                Week of {formatIso(w.monday)}
+              </a>
+              <span class="week-count">
+                {w.count} {w.count === 1 ? "event" : "events"}
+              </span>
+              {/* Talk titles are the unique long-tail strings here — they exist
+                  in indexable form nowhere else, so surface them on the hub. */}
+              <span class="week-titles">{w.titles.slice(0, 3).join(" · ")}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    {weeks.length === 0 && (
+      <div class="content-box">
+        <h2>No archived weeks yet</h2>
+        <p>Weekly roundups appear here once the week has ended.</p>
+      </div>
+    )}
+  </div>
+</MainLayout>
+
+<style>
+  .archive-month {
+    margin: 2.5rem 0;
+  }
+
+  .archive-month h2 {
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--line);
+  }
+
+  .week-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .week-row {
+    display: grid;
+    grid-template-columns: minmax(11rem, auto) auto 1fr;
+    gap: 0.5rem 1rem;
+    align-items: baseline;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--sand-soft);
+  }
+
+  .week-link {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .week-count {
+    font-size: 0.85rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .week-titles {
+    font-size: 0.9rem;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 720px) {
+    .week-row {
+      grid-template-columns: 1fr auto;
+    }
+    .week-titles {
+      grid-column: 1 / -1;
+      white-space: normal;
+    }
+  }
+</style>

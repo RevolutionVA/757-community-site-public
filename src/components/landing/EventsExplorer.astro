@@ -88,7 +88,10 @@ const eventsJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
               </span>
               {e.rel && <span class="ec-rel">{e.rel}</span>}
             </div>
-            <div class="ec-title">{e.title}</div>
+            {/* A heading, not a div: event titles are the entity names on this
+                page, and as divs they carried no semantic weight for crawlers
+                or screen readers. Sits under the section's h2. */}
+            <h3 class="ec-title">{e.title}</h3>
             <div class="ec-group">{e.group}</div>
             <div class="ec-tags">
               {e.tags.map((t) => <span class="ec-tag">{t}</span>)}

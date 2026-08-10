@@ -1,0 +1,135 @@
+---
+// Renders one week of the meetup archive. Shared by /this-week/ and
+// /weekly/<date>/ so the two never drift.
+import { excerpt } from "../lib/markdown";
+import type { ArchiveWeek } from "../lib/weekly";
+
+interface Props {
+  week: ArchiveWeek;
+  /** Past weeks link to the group's page context differently than the live week. */
+  past?: boolean;
+}
+
+const { week, past = false } = Astro.props;
+
+const dayLabel = (iso: string) => {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+};
+---
+
+<div class="week-days">
+  {week.days.map((day) => (
+    <section class="week-day">
+      <h2 class="day-heading" id={day.date}>{dayLabel(day.date)}</h2>
+
+      <ul class="day-events">
+        {day.events.map((event) => (
+          <li class="week-event">
+            {/* Event titles are headings on purpose: they are the entity names
+                worth indexing, and the rest of the site renders them as divs. */}
+            <h3 class="event-title">
+              <a href={event.link} target="_blank" rel="noopener noreferrer">{event.title}</a>
+            </h3>
+
+            <p class="event-meta">
+              <span class="event-time">{event.time}</span>
+              <span class="sep">·</span>
+              <span class="event-group">{event.group}</span>
+            </p>
+
+            {event.descriptionMd && (
+              <p class="event-excerpt">{excerpt(event.descriptionMd, 600)}</p>
+            )}
+
+            <p class="event-more">
+              <a href={event.link} target="_blank" rel="noopener noreferrer">
+                {past ? "Full description on Meetup" : "Details and RSVP on Meetup"} ↗
+              </a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</div>
+
+<style>
+  .week-days {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin: 2rem 0;
+  }
+
+  .day-heading {
+    font-size: 1.35rem;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--line);
+  }
+
+  .day-events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .week-event {
+    padding: 1.25rem 1.5rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+
+  .event-title {
+    font-size: 1.1rem;
+    margin: 0 0 0.4rem;
+    line-height: 1.35;
+  }
+
+  .event-title a {
+    text-decoration: none;
+  }
+
+  .event-title a:hover {
+    text-decoration: underline;
+  }
+
+  .event-meta {
+    margin: 0 0 0.75rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  .event-meta .sep {
+    margin: 0 0.5rem;
+    color: var(--line);
+  }
+
+  .event-excerpt {
+    margin: 0 0 0.75rem;
+    line-height: 1.6;
+    color: var(--ink);
+    white-space: pre-line;
+  }
+
+  .event-more {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 640px) {
+    .week-event {
+      padding: 1rem;
+    }
+  }
+</style>

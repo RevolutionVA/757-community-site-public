@@ -9,6 +9,7 @@ This repository contains the source code for the 757 Community website.
 - **X:** [@757techorg](https://x.com/757techorg)
 - **Instagram:** [@757techorg](https://www.instagram.com/757techorg/)
 - **Threads:** [@757techorg](https://www.threads.com/@757techorg)
+- **Bluesky:** [@757tech.org](https://bsky.app/profile/757tech.org)
 - **Slack:** [757dev workspace](https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ)
 - **Discord:** [Join the server](https://discord.gg/bPGsCKBqWp)
 
