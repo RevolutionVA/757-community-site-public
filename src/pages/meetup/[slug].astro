@@ -1,0 +1,503 @@
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+
+export async function getStaticPaths() {
+  const allMeetups = await getCollection('meetups');
+
+  return allMeetups.map(meetup => ({
+    params: { slug: meetup.slug },
+    props: { meetup },
+  }));
+}
+
+const { meetup } = Astro.props;
+const { Content } = await meetup.render();
+
+// Get all events from this meetup group
+const allEvents = await getCollection('events');
+const meetupEvents = allEvents.filter(event => event.data.group === meetup.data.name);
+
+// Separate upcoming and past events
+const now = new Date();
+const upcomingEvents = meetupEvents
+  .filter(event => new Date(event.data.startDate) >= now)
+  .sort((a, b) => new Date(a.data.startDate).getTime() - new Date(b.data.startDate).getTime());
+
+const pastEvents = meetupEvents
+  .filter(event => new Date(event.data.startDate) < now)
+  .sort((a, b) => new Date(b.data.startDate).getTime() - new Date(a.data.startDate).getTime())
+  .slice(0, 10); // Show last 10 past events
+
+// Helper function to generate event URL
+function getEventUrl(event: any) {
+  const date = new Date(event.data.startDate);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  const slug = event.id.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '');
+  return `/${year}/${month}/${day}/${slug}`;
+}
+
+const timeOptions: Intl.DateTimeFormatOptions = {
+  hour: 'numeric',
+  minute: '2-digit',
+  hour12: true,
+  timeZone: 'America/New_York'
+};
+---
+
+<MainLayout
+  title={`${meetup.data.name} | 757 Tech`}
+  description={`Events and information for ${meetup.data.name}, a ${meetup.data.category.toLowerCase()} community group in Hampton Roads, Virginia.`}
+>
+  <div class="meetup-page">
+    <div class="container">
+      <!-- Meetup Header -->
+      <div class="meetup-header">
+        {meetup.data.image && (
+          <div class="meetup-image">
+            <img src={meetup.data.image} alt={meetup.data.name} />
+          </div>
+        )}
+
+        <div class="meetup-info">
+          <h1 class="meetup-name">{meetup.data.name}</h1>
+
+          <div class="meetup-meta">
+            <span class="category-badge">{meetup.data.category}</span>
+            {!meetup.data.active && (
+              <span class="inactive-badge">Inactive</span>
+            )}
+          </div>
+
+          {meetup.data.tags && meetup.data.tags.length > 0 && (
+            <div class="meetup-tags">
+              {meetup.data.tags.map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          )}
+
+          <div class="meetup-links">
+            <a href={meetup.data.url} target="_blank" rel="noopener noreferrer" class="external-link">
+              Visit Meetup Group →
+            </a>
+            {meetup.data.rssFeed && (
+              <a href={meetup.data.rssFeed} target="_blank" rel="noopener noreferrer" class="rss-link">
+                📡 RSS Feed
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Meetup Description -->
+      <div class="meetup-description">
+        <h2>About This Group</h2>
+        <div class="description-content">
+          <Content />
+        </div>
+      </div>
+
+      <!-- Upcoming Events -->
+      {upcomingEvents.length > 0 && (
+        <div class="events-section">
+          <h2>Upcoming Events ({upcomingEvents.length})</h2>
+          <div class="events-list">
+            {upcomingEvents.map(event => {
+              const eventUrl = getEventUrl(event);
+              const eventDate = new Date(event.data.startDate);
+
+              return (
+                <a href={eventUrl} class="event-card">
+                  <div class="event-date">
+                    <span class="day">{eventDate.getDate()}</span>
+                    <span class="month">
+                      {eventDate.toLocaleDateString('en-US', { month: 'short' })}
+                    </span>
+                    <span class="year">{eventDate.getFullYear()}</span>
+                  </div>
+                  <div class="event-details">
+                    <h3>{event.data.title}</h3>
+                    <p class="event-time">
+                      {eventDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
+                      {' at '}
+                      {eventDate.toLocaleTimeString('en-US', timeOptions)}
+                    </p>
+                    {event.data.location && (
+                      <p class="event-location">📍 {event.data.location}</p>
+                    )}
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {upcomingEvents.length === 0 && (
+        <div class="no-events">
+          <h2>No Upcoming Events</h2>
+          <p>This group doesn't have any upcoming events scheduled at the moment.</p>
+          <p>Check back later or visit the group page for updates.</p>
+        </div>
+      )}
+
+      <!-- Past Events -->
+      {pastEvents.length > 0 && (
+        <div class="events-section past-events">
+          <h2>Past Events</h2>
+          <div class="events-list">
+            {pastEvents.map(event => {
+              const eventUrl = getEventUrl(event);
+              const eventDate = new Date(event.data.startDate);
+
+              return (
+                <a href={eventUrl} class="event-card">
+                  <div class="event-date past">
+                    <span class="day">{eventDate.getDate()}</span>
+                    <span class="month">
+                      {eventDate.toLocaleDateString('en-US', { month: 'short' })}
+                    </span>
+                    <span class="year">{eventDate.getFullYear()}</span>
+                  </div>
+                  <div class="event-details">
+                    <h3>{event.data.title}</h3>
+                    <p class="event-time">
+                      {eventDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
+                      {' at '}
+                      {eventDate.toLocaleTimeString('en-US', timeOptions)}
+                    </p>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      <!-- Back Link -->
+      <div class="back-link">
+        <a href="/meetups">← Back to All Meetups</a>
+        {' | '}
+        <a href="/calendar">View Calendar</a>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .meetup-page {
+    padding: 2rem 0;
+    min-height: 60vh;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .meetup-header {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .meetup-image {
+    flex-shrink: 0;
+  }
+
+  .meetup-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .meetup-info {
+    flex: 1;
+  }
+
+  .meetup-name {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    color: #343a40;
+  }
+
+  .meetup-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .category-badge,
+  .inactive-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .category-badge {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .inactive-badge {
+    background-color: #6c757d;
+    color: white;
+  }
+
+  .meetup-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.875rem;
+  }
+
+  .meetup-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .external-link,
+  .rss-link {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .external-link {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .external-link:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+
+  .rss-link {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #dee2e6;
+  }
+
+  .rss-link:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+  }
+
+  .meetup-description {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  .meetup-description h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+  }
+
+  .description-content {
+    line-height: 1.8;
+    color: #495057;
+  }
+
+  .description-content :global(a) {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .description-content :global(a:hover) {
+    text-decoration: underline;
+  }
+
+  .events-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  .events-section h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+  }
+
+  .past-events h2 {
+    color: #6c757d;
+  }
+
+  .events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .event-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .event-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .event-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .event-date.past {
+    background-color: #6c757d;
+  }
+
+  .day {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .month {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
+  }
+
+  .year {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    opacity: 0.8;
+  }
+
+  .event-details {
+    flex: 1;
+  }
+
+  .event-details h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: #343a40;
+  }
+
+  .event-time {
+    margin: 0 0 0.25rem 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  .event-location {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+
+  .no-events {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .no-events h2 {
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+
+  .no-events p {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+
+  .back-link {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .back-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .meetup-header {
+      flex-direction: column;
+    }
+
+    .meetup-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .meetup-name {
+      font-size: 1.75rem;
+    }
+
+    .meetup-links {
+      flex-direction: column;
+    }
+
+    .event-card {
+      flex-direction: column;
+    }
+
+    .event-date {
+      flex-direction: row;
+      min-width: auto;
+      width: 100%;
+      justify-content: flex-start;
+      gap: 0.5rem;
+    }
+
+    .day {
+      font-size: 1.5rem;
+    }
+  }
+</style>
