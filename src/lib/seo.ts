@@ -37,6 +37,7 @@ export const SITE = {
     COMMUNITY.x,
     COMMUNITY.instagram,
     COMMUNITY.threads,
+    COMMUNITY.bluesky,
     COMMUNITY.github,
   ],
 } as const;

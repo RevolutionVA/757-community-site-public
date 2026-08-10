@@ -11,4 +11,5 @@ export const COMMUNITY = {
   x: "https://x.com/757techorg",
   instagram: "https://www.instagram.com/757techorg/",
   threads: "https://www.threads.com/@757techorg",
+  bluesky: "https://bsky.app/profile/757tech.org",
 };
