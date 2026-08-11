@@ -1,22 +1,13 @@
 {
-  "url": "https://www.meetup.com/norfolkjs/events/315672897/",
   "body": [
-    "Did you miss NorfolkJS last week? Tim Baines walked the room through <strong>Resume.js</strong> — a data-driven resume page that takes a single JSON file and renders a full HTML resume from it, served off GitHub Pages. Vanilla JavaScript, no frameworks: just fetch, ES Modules, and a modular architecture.",
-    "Ryan McGovern followed with his own approach to the same problem, so the room got two solutions at two different experience levels — which was the whole point of the format."
+    "Did you miss HTML Day last week? Ryan McGovern, Chazona Baum, and Austin Galyon hosted the first-ever <strong>HTML Day</strong> at ECPI Virginia Beach, and more than 40 people of all ages spent the afternoon building websites the old-fashioned way — by hand, with nothing but HTML.",
+    "By the time the room packed up, we had launched over a dozen live sites on <a href=\"https://neocities.org/\">Neocities</a>. No frameworks, no build step, no install — just a text editor and the markup the web is actually made of.",
+    "Breakfast came courtesy of <a href=\"https://www.val.town/\">Val Town</a> and lunch from <a href=\"https://revolutionva.org\">RevolutionVA</a>. Thank you both for keeping the room fed."
   ],
-  "quote": {
-    "text": "Last year he wasn't even really writing anything in JavaScript. I was impressed with how he actually read through Eloquent JavaScript and implemented higher order functions like .map() without vibe coding it. He actually took the time to learn it.",
-    "attribution": "Paul Chin Jr."
-  },
-  "photoCredit": "Photos courtesy of Paul Chin Jr.",
   "photos": [
     {
-      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-group.jpg",
-      "alt": "Norfolk.js members around the conference table at Assembly, with the Build Your Resume with JavaScript title slide on screen"
-    },
-    {
-      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-talk.jpg",
-      "alt": "A Norfolk.js presenter mid-explanation at the table, laptop open beside him"
+      "src": "https://757tech.org/images/recap/2026-08-08-html-day.jpg",
+      "alt": "A full classroom at ECPI Virginia Beach during HTML Day, dozens of people working at laptops with a 'A dab of CSS' slide on the screen at the front of the room"
     }
   ]
 }
