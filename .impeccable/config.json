@@ -1,0 +1,9 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [
+      "scripts/create-bento-broadcast.js"
+    ],
+    "ignoreValues": []
+  }
+}

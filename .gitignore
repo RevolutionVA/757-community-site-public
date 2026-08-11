@@ -44,3 +44,11 @@ social/exports/
 
 # scraped member photo archive (large, not tracked)
 social/event-photos/
+
+# impeccable: per-developer state, not shared
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/live/sessions/
+
+# cursor hook manifest holds a machine-absolute skill path
+.cursor/hooks.json
