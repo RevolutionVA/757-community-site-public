@@ -1,0 +1,6 @@
+{
+  "files": ["src/layouts/LandingLayout.astro", "src/layouts/MainLayout.astro"],
+  "insertBefore": "</body>",
+  "commentSyntax": "html",
+  "cspChecked": true
+}

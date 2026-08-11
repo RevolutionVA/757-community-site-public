@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-10T21:34:57Z",
+  "title": "Design System: 757tech",
+  "extensions": {
+    "colorMeta": {
+      "deep": {
+        "role": "primary",
+        "displayName": "Harbor Navy",
+        "canonical": "oklch(0.2994 0.0631 240.67)",
+        "tonalRamp": ["oklch(0.15 0.0588 240.67)", "oklch(0.26 0.0619 240.67)", "oklch(0.38 0.0608 240.67)", "oklch(0.50 0.0574 240.67)", "oklch(0.62 0.0540 240.67)", "oklch(0.74 0.0506 240.67)", "oklch(0.85 0.0474 240.67)", "oklch(0.95 0.0446 240.67)"]
+      },
+      "deep-2": {
+        "role": "primary",
+        "displayName": "Deep Water",
+        "canonical": "oklch(0.3921 0.0875 241.93)",
+        "tonalRamp": ["oklch(0.15 0.0780 241.93)", "oklch(0.26 0.0823 241.93)", "oklch(0.38 0.0870 241.93)", "oklch(0.50 0.0832 241.93)", "oklch(0.62 0.0785 241.93)", "oklch(0.74 0.0738 241.93)", "oklch(0.85 0.0695 241.93)", "oklch(0.95 0.0655 241.93)"]
+      },
+      "tide": {
+        "role": "secondary",
+        "displayName": "Tide Cyan",
+        "canonical": "oklch(0.7159 0.1264 216.53)",
+        "tonalRamp": ["oklch(0.15 0.0942 216.53)", "oklch(0.26 0.1004 216.53)", "oklch(0.38 0.1073 216.53)", "oklch(0.50 0.1141 216.53)", "oklch(0.62 0.1209 216.53)", "oklch(0.74 0.1250 216.53)", "oklch(0.85 0.1187 216.53)", "oklch(0.95 0.1131 216.53)"]
+      },
+      "seafoam": {
+        "role": "secondary",
+        "displayName": "Seafoam",
+        "canonical": "oklch(0.7869 0.1067 181.50)",
+        "tonalRamp": ["oklch(0.15 0.0761 181.50)", "oklch(0.26 0.0814 181.50)", "oklch(0.38 0.0871 181.50)", "oklch(0.50 0.0929 181.50)", "oklch(0.62 0.0987 181.50)", "oklch(0.74 0.1044 181.50)", "oklch(0.85 0.1037 181.50)", "oklch(0.95 0.0989 181.50)"]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Signal Coral",
+        "canonical": "oklch(0.7138 0.1801 30.79)",
+        "tonalRamp": ["oklch(0.15 0.1344 30.79)", "oklch(0.26 0.1434 30.79)", "oklch(0.38 0.1531 30.79)", "oklch(0.50 0.1628 30.79)", "oklch(0.62 0.1725 30.79)", "oklch(0.74 0.1780 30.79)", "oklch(0.85 0.1691 30.79)", "oklch(0.95 0.1610 30.79)"]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Warm Sand",
+        "canonical": "oklch(0.9282 0.0343 84.59)",
+        "tonalRamp": ["oklch(0.15 0.0223 84.59)", "oklch(0.26 0.0240 84.59)", "oklch(0.38 0.0259 84.59)", "oklch(0.50 0.0277 84.59)", "oklch(0.62 0.0296 84.59)", "oklch(0.74 0.0314 84.59)", "oklch(0.85 0.0331 84.59)", "oklch(0.95 0.0340 84.59)"]
+      },
+      "sand-soft": {
+        "role": "neutral",
+        "displayName": "Sea Foam Paper",
+        "canonical": "oklch(0.9743 0.0143 84.58)",
+        "tonalRamp": ["oklch(0.15 0.0090 84.58)", "oklch(0.26 0.0097 84.58)", "oklch(0.38 0.0104 84.58)", "oklch(0.50 0.0112 84.58)", "oklch(0.62 0.0120 84.58)", "oklch(0.74 0.0128 84.58)", "oklch(0.85 0.0135 84.58)", "oklch(0.95 0.0141 84.58)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Squid Ink",
+        "canonical": "oklch(0.2540 0.0446 241.32)",
+        "tonalRamp": ["oklch(0.15 0.0425 241.32)", "oklch(0.26 0.0444 241.32)", "oklch(0.38 0.0420 241.32)", "oklch(0.50 0.0396 241.32)", "oklch(0.62 0.0372 241.32)", "oklch(0.74 0.0348 241.32)", "oklch(0.85 0.0326 241.32)", "oklch(0.95 0.0306 241.32)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Driftwood Grey",
+        "canonical": "oklch(0.5388 0.0349 235.02)",
+        "tonalRamp": ["oklch(0.15 0.0288 235.02)", "oklch(0.26 0.0305 235.02)", "oklch(0.38 0.0324 235.02)", "oklch(0.50 0.0343 235.02)", "oklch(0.62 0.0336 235.02)", "oklch(0.74 0.0317 235.02)", "oklch(0.85 0.0300 235.02)", "oklch(0.95 0.0284 235.02)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Shell Line",
+        "canonical": "oklch(0.9039 0.0212 79.09)",
+        "tonalRamp": ["oklch(0.15 0.0140 79.09)", "oklch(0.26 0.0151 79.09)", "oklch(0.38 0.0162 79.09)", "oklch(0.50 0.0174 79.09)", "oklch(0.62 0.0185 79.09)", "oklch(0.74 0.0197 79.09)", "oklch(0.85 0.0207 79.09)", "oklch(0.95 0.0208 79.09)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline, once per page. Always text-wrap: balance." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings on the landing page; inner pages run a quieter parallel scale." },
+      "title": { "displayName": "Title", "purpose": "Card titles. 16.5px baseline, stepping to 19px featured and 22px conference, 13px in calendar cells." },
+      "body": { "displayName": "Body", "purpose": "All reading copy in DM Sans. Loosens to 1.6 on inner pages and 1.8 in event descriptions." },
+      "label": { "displayName": "Label", "purpose": "Uppercase Baloo 2 kickers in coral, plus date badges, day-of-week heads, and footer column heads at 10-13px." }
+    },
+    "categoryHues": {
+      "note": "Category colors are generated, never hand-authored. One hue per category; lightness and chroma are fixed across all categories.",
+      "source": "src/components/landing/utils.ts",
+      "formula": { "background": "oklch(0.94 0.06 H)", "foreground": "oklch(0.42 0.12 H)", "dot": "oklch(0.62 0.15 H)" },
+      "hues": { "Development": 168, "Technology": 192, "Cloud": 200, "Design": 280, "Community": 150, "default": 195 }
+    },
+    "shadows": [
+      { "name": "shadow-sm", "value": "0 2px 8px rgba(7,49,74,.06)", "purpose": "Resting containers and the condensed sticky header. Barely there by design." },
+      { "name": "shadow", "value": "0 14px 40px -16px rgba(7,49,74,.28)", "purpose": "The hover lift. Applied as a card rises 2-5px, with its border handing off to transparent." },
+      { "name": "shadow-lg", "value": "0 30px 70px -24px rgba(7,49,74,.4)", "purpose": "Elements floating above an illustration. Currently only the Submit card's chip." },
+      { "name": "coral-glow", "value": "0 8px 20px -8px color-mix(in srgb, #FF6F59 70%, transparent)", "purpose": "The primary button's own shadow, tinted with its own color rather than navy." },
+      { "name": "coral-glow-hover", "value": "0 14px 26px -10px color-mix(in srgb, #FF6F59 75%, transparent)", "purpose": "Primary button hover state." },
+      { "name": "focus-ring", "value": "0 0 0 4px color-mix(in srgb, #0AB6D6 18%, transparent)", "purpose": "Input focus. Never remove an outline without replacing it with this." }
+    ],
+    "motion": [
+      { "name": "control", "value": "150ms ease", "purpose": "Buttons, chips, inputs, nav, social icons. The default." },
+      { "name": "card-lift", "value": "150ms (transform, box-shadow, border-color)", "purpose": "Card hover rise of -2px to -5px; group cards translate +3px on X instead." },
+      { "name": "calendar-cell", "value": "120ms (transform, box-shadow)", "purpose": "Week and month event cells. Faster because they are small and numerous." },
+      { "name": "nav-underline", "value": "200ms ease on `right`", "purpose": "The 2px tide bar wipes in from the left; driven by aria-current for the active state." },
+      { "name": "header-condense", "value": "250ms ease (background, box-shadow, padding)", "purpose": "Sticky header condensing on scroll, plus the brand logo fade-in." },
+      { "name": "image-zoom", "value": "300ms ease", "purpose": "Feature card image scale to 1.05 on hover." },
+      { "name": "wave-pulse", "value": "5s ease-in-out infinite (scale 1 to 1.08)", "purpose": "The Submit card's radial wave. Disabled under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "grid-single", "value": "480px" },
+      { "name": "form-stack", "value": "560px" },
+      { "name": "calendar-compact", "value": "640px" },
+      { "name": "submit-stack", "value": "720px" },
+      { "name": "nav-burger", "value": "760px" },
+      { "name": "hero-stack", "value": "860px" },
+      { "name": "header-social-hide", "value": "920px" },
+      { "name": "footer-cols", "value": "960px" },
+      { "name": "container-max", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single primary action on a screen. Coral fill with a navy label, never white.",
+      "html": "<button class=\"ds-btn-primary\">Get the digest</button>",
+      "css": ".ds-btn-primary { background: var(--accent, #FF6F59); color: var(--deep, #07314A); border: none; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 700; font-size: 16px; padding: 13px 22px; border-radius: 999px; cursor: pointer; box-shadow: 0 8px 20px -8px color-mix(in srgb, var(--accent, #FF6F59) 70%, transparent); transition: transform .15s ease, box-shadow .15s ease, filter .15s ease; } .ds-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 26px -10px color-mix(in srgb, var(--accent, #FF6F59) 75%, transparent); filter: brightness(1.04); } .ds-btn-primary:focus-visible { outline: 2px solid var(--deep, #07314A); outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action. White fill with a warm hairline border that shifts to tide on hover.",
+      "html": "<button class=\"ds-btn-ghost\">Browse all groups</button>",
+      "css": ".ds-btn-ghost { background: #fff; color: var(--deep, #07314A); border: 1.5px solid var(--line, #e7ded0); font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 700; font-size: 15px; padding: 11px 20px; border-radius: 999px; cursor: pointer; transition: all .15s ease; } .ds-btn-ghost:hover { border-color: var(--tide, #0AB6D6); color: var(--tide, #0AB6D6); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--tide, #0AB6D6); outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Unselected category filter with a nested count badge. Border shifts to tide on hover.",
+      "html": "<button class=\"ds-chip\">Development <span class=\"ds-chip-count\">12</span></button>",
+      "css": ".ds-chip { font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 600; font-size: 14.5px; padding: 8px 15px; border-radius: 999px; border: 1.5px solid var(--line, #e7ded0); background: #fff; color: var(--deep, #07314A); cursor: pointer; transition: all .15s ease; display: inline-flex; align-items: center; gap: 7px; } .ds-chip:hover { border-color: var(--tide, #0AB6D6); } .ds-chip:focus-visible { outline: 2px solid var(--tide, #0AB6D6); outline-offset: 2px; } .ds-chip-count { font-size: 12px; background: color-mix(in srgb, var(--tide, #0AB6D6) 16%, #fff); color: var(--deep, #07314A); padding: 1px 7px; border-radius: 999px; font-weight: 700; }"
+    },
+    {
+      "name": "Filter Chip — Active",
+      "kind": "chip",
+      "refersTo": "chip-active",
+      "description": "Selected filter. Inverts entirely to a navy fill; the count badge flips to white-at-20%.",
+      "html": "<button class=\"ds-chip-active\">All <span class=\"ds-chip-active-count\">44</span></button>",
+      "css": ".ds-chip-active { font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 600; font-size: 14.5px; padding: 8px 15px; border-radius: 999px; border: 1.5px solid var(--deep, #07314A); background: var(--deep, #07314A); color: #fff; cursor: pointer; transition: all .15s ease; display: inline-flex; align-items: center; gap: 7px; } .ds-chip-active:focus-visible { outline: 2px solid var(--tide, #0AB6D6); outline-offset: 2px; } .ds-chip-active-count { font-size: 12px; background: rgba(255,255,255,.2); color: #fff; padding: 1px 7px; border-radius: 999px; font-weight: 700; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Fully pilled field. Focus shifts the border to tide and adds a 4px tide ring at 18%.",
+      "html": "<input class=\"ds-input\" type=\"email\" placeholder=\"you@email.com\" aria-label=\"Email address\" />",
+      "css": ".ds-input { font-family: var(--font-body, 'DM Sans', system-ui, sans-serif); font-size: 16px; padding: 13px 16px; border-radius: 999px; border: 1.5px solid var(--line, #e7ded0); background: #fff; color: var(--ink, #0c2536); outline: none; min-width: 260px; transition: border-color .15s, box-shadow .15s; } .ds-input::placeholder { color: var(--muted, #5b7280); } .ds-input:focus { border-color: var(--tide, #0AB6D6); box-shadow: 0 0 0 4px color-mix(in srgb, var(--tide, #0AB6D6) 18%, transparent); }"
+    },
+    {
+      "name": "Event Card",
+      "kind": "card",
+      "refersTo": "card-event",
+      "description": "The system's core object: date badge, category badge, urgency pill, title, group, and tags. Flat at rest, lifting 3px on hover as the border hands off to the shadow.",
+      "html": "<a class=\"ds-event-card\" href=\"#\"><div class=\"ds-ec-date\"><span class=\"ds-ec-dow\">Tue</span><span class=\"ds-ec-day\">12</span><span class=\"ds-ec-mon\">Aug</span><span class=\"ds-ec-time\">6 PM</span></div><div class=\"ds-ec-body\"><div class=\"ds-ec-top\"><span class=\"ds-cat-badge\"><span class=\"ds-cat-dot\"></span>Development</span><span class=\"ds-ec-rel\">Tomorrow</span></div><div class=\"ds-ec-title\">Build and Demo Night</div><div class=\"ds-ec-group\">757 Developers</div><div class=\"ds-ec-tags\"><span class=\"ds-ec-tag\">JavaScript</span><span class=\"ds-ec-tag\">Open Source</span></div></div><span class=\"ds-ec-arrow\">→</span></a>",
+      "css": ".ds-event-card { display: flex; gap: 16px; padding: 18px; background: #fff; border: 1px solid var(--line, #e7ded0); border-radius: 18px; align-items: flex-start; position: relative; text-decoration: none; max-width: 420px; transition: transform .15s, box-shadow .15s, border-color .15s; } .ds-event-card:hover { transform: translateY(-3px); box-shadow: 0 14px 40px -16px rgba(7,49,74,.28); border-color: transparent; } .ds-event-card:focus-visible { outline: 2px solid var(--tide, #0AB6D6); outline-offset: 3px; } .ds-ec-date { flex-shrink: 0; width: 64px; text-align: center; background: var(--sand-soft, #FBF6EC); border-radius: 14px; padding: 9px 0 7px; line-height: 1; } .ds-ec-dow { display: block; font-size: 11px; font-weight: 700; color: var(--coral, #FF6F59); text-transform: uppercase; letter-spacing: .05em; } .ds-ec-day { display: block; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 800; font-size: 25px; color: var(--deep, #07314A); margin: 3px 0; } .ds-ec-mon { display: block; font-size: 11px; font-weight: 600; color: var(--muted, #5b7280); text-transform: uppercase; } .ds-ec-time { display: block; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-size: 11px; font-weight: 700; color: var(--deep-2, #0a4a70); white-space: nowrap; margin-top: 6px; padding-top: 6px; border-top: 1px solid color-mix(in srgb, var(--line, #e7ded0) 75%, transparent); } .ds-ec-body { flex: 1; min-width: 0; } .ds-ec-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; } .ds-cat-badge { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 999px; background: oklch(0.94 0.06 168); color: oklch(0.42 0.12 168); } .ds-cat-dot { width: 7px; height: 7px; border-radius: 50%; background: oklch(0.62 0.15 168); } .ds-ec-rel { font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-size: 11.5px; font-weight: 700; color: var(--coral, #FF6F59); text-transform: uppercase; letter-spacing: .04em; margin-left: auto; background: color-mix(in srgb, var(--coral, #FF6F59) 12%, #fff); padding: 2px 9px; border-radius: 999px; } .ds-ec-title { font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 700; font-size: 16.5px; color: var(--deep, #07314A); line-height: 1.25; } .ds-ec-group { font-size: 13.5px; font-family: var(--font-body, 'DM Sans', system-ui, sans-serif); color: var(--muted, #5b7280); margin: 4px 0 9px; } .ds-ec-tags { display: flex; flex-wrap: wrap; gap: 6px; } .ds-ec-tag { font-family: var(--font-body, 'DM Sans', system-ui, sans-serif); font-size: 11.5px; font-weight: 600; color: var(--deep-2, #0a4a70); background: color-mix(in srgb, var(--seafoam, #5FD0BE) 20%, #fff); padding: 3px 9px; border-radius: 999px; } .ds-ec-arrow { position: absolute; top: 16px; right: 16px; color: var(--tide, #0AB6D6); font-weight: 700; opacity: 0; transform: translateX(-4px); transition: all .15s; } .ds-event-card:hover .ds-ec-arrow { opacity: 1; transform: translateX(0); }"
+    },
+    {
+      "name": "Category Badge",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Generated from one hue per category at fixed lightness and chroma. Always paired with its dot — the dot is what makes it legible at a glance.",
+      "html": "<span class=\"ds-cat ds-cat-dev\"><span class=\"ds-cat-d\"></span>Development</span> <span class=\"ds-cat ds-cat-tech\"><span class=\"ds-cat-d\"></span>Technology</span> <span class=\"ds-cat ds-cat-cloud\"><span class=\"ds-cat-d\"></span>Cloud</span> <span class=\"ds-cat ds-cat-design\"><span class=\"ds-cat-d\"></span>Design</span>",
+      "css": ".ds-cat { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); font-weight: 700; font-size: 12px; padding: 3px 10px; border-radius: 999px; margin-right: 6px; } .ds-cat-d { width: 7px; height: 7px; border-radius: 50%; } .ds-cat-dev { background: oklch(0.94 0.06 168); color: oklch(0.42 0.12 168); } .ds-cat-dev .ds-cat-d { background: oklch(0.62 0.15 168); } .ds-cat-tech { background: oklch(0.94 0.06 192); color: oklch(0.42 0.12 192); } .ds-cat-tech .ds-cat-d { background: oklch(0.62 0.15 192); } .ds-cat-cloud { background: oklch(0.94 0.06 200); color: oklch(0.42 0.12 200); } .ds-cat-cloud .ds-cat-d { background: oklch(0.62 0.15 200); } .ds-cat-design { background: oklch(0.94 0.06 280); color: oklch(0.42 0.12 280); } .ds-cat-design .ds-cat-d { background: oklch(0.62 0.15 280); }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Baloo 2 at 82% opacity with a 2px tide underline that wipes in from the left. The active state is driven by aria-current so the visual and assistive signals cannot drift apart.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Events</a><a href=\"#\" aria-current=\"page\">This Week</a><a href=\"#\">Groups</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 28px; font-family: var(--font-head, 'Baloo 2', system-ui, sans-serif); } .ds-nav a { font-weight: 600; font-size: 15.5px; color: var(--deep, #07314A); position: relative; padding: 4px 0; opacity: .82; text-decoration: none; transition: opacity .15s; } .ds-nav a:hover { opacity: 1; } .ds-nav a::after { content: \"\"; position: absolute; left: 0; right: 100%; bottom: -2px; height: 2px; background: var(--tide, #0AB6D6); transition: right .2s ease; border-radius: 2px; } .ds-nav a:hover::after { right: 0; } .ds-nav a[aria-current=\"page\"] { opacity: 1; color: var(--deep-2, #0a4a70); } .ds-nav a[aria-current=\"page\"]::after { right: 0; } .ds-nav a:focus-visible { outline: 2px solid var(--tide, #0AB6D6); outline-offset: 4px; border-radius: 2px; }"
+    },
+    {
+      "name": "Wave Divider",
+      "kind": "custom",
+      "refersTo": "wave-divider",
+      "description": "The system's signature silhouette. One hand-tuned path, full-bleed, stretched rather than cropped. Its fill is the color of the section below, so the wave reads as that section rising into this one. Always aria-hidden.",
+      "html": "<div class=\"ds-wave-demo\"><svg class=\"ds-wave\" viewBox=\"0 0 1440 120\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path fill=\"#F2E6CE\" d=\"M0,64 C180,112 340,16 540,40 C760,66 900,118 1120,92 C1280,73 1380,40 1440,30 L1440,120 L0,120 Z\"></path></svg></div>",
+      "css": ".ds-wave-demo { position: relative; height: 140px; background: #fff; overflow: hidden; border-radius: 12px; } .ds-wave { position: absolute; bottom: -1px; left: 0; width: 100%; height: 110px; display: block; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tide Chart",
+    "overview": "A tide chart is a beautiful, useful object whose entire subject is when. It doesn't argue, it doesn't sell, and it never makes you hunt: it lays out what's coming in, in order, so you can plan your day around it. That is what this system is. Every surface answers a newcomer's first question — what can I go to this week? — and the design's job is to make that answer immediate, warm, and worth returning to on a Monday.\n\nThe world is Hampton Roads' actual coast, not a generic beach: deep harbor navy under warm sand, cut by a bright tide cyan and punctuated with coral. Headings are set in Baloo 2, a rounded display face with real warmth to it, over DM Sans for anything you actually read. Corners are generous — cards at 18px, panels at 22px, and every pill and control fully rounded — so the page feels handmade and welcoming rather than engineered. Wave dividers carry one section into the next, which is the system's signature move: sections don't butt against each other, they wash into each other.\n\nNothing floats until you reach for it. Surfaces sit flat on sand-tinted borders and rise on hover with a navy-tinted shadow — the buoyancy is a response, not decoration. The result should read as a community bulletin kept by people who live here, never as a SaaS product page. It is run by volunteers under a 501(c)(3) and it should look like it was made with care by locals, because it was.",
+    "keyCharacteristics": [
+      "Warm sand grounds; deep harbor navy for text and authority",
+      "Rounded, buoyant geometry — 12–28px corners, fully-pilled controls",
+      "Baloo 2 display over DM Sans body: friendly, never corporate",
+      "Coral reserved for now; tide cyan for navigation and interaction",
+      "Flat at rest, lifting on touch — depth is feedback, not ornament",
+      "Wave dividers as the connective tissue between sections",
+      "Category color derived programmatically in OKLCH, with sRGB fallbacks"
+    ],
+    "rules": [
+      { "name": "The One Hue Rule", "body": "A new category means adding one hue number to CATEGORY_META — never a new hand-authored color. Fixed lightness and chroma across all categories is what keeps twenty groups from looking like a bag of candy.", "section": "colors" },
+      { "name": "The Coral Means Now Rule", "body": "Coral marks time, and one action. Today markers, urgency pills, next-up labels, section kickers that announce what's below, and the single primary button on a screen. Never use coral for decoration, for a second competing CTA, or for a category. When everything is urgent, nothing is.", "section": "colors" },
+      { "name": "The Navy-On-Coral Rule", "body": "Coral buttons carry navy labels, never white. White on #FF6F59 measures 2.74:1 — well under the 4.5:1 floor — while #07314A on the same coral measures 4.96:1. Darkening the coral enough to carry white would visibly shift the brand hue toward red, so the label moves instead of the brand.", "section": "colors" },
+      { "name": "The Warm Line Rule", "body": "Borders are --line, a warm sand-grey. Never #ddd, never a neutral grey, never rgba(0,0,0,0.1). One cool border in a sand-toned card is instantly visible and reads as a bug.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Baloo 2 speaks; DM Sans informs. Headings, buttons, labels, dates, times, and chips are Baloo 2. Sentences and paragraphs are DM Sans. A component that mixes them within one line is almost always wrong.", "section": "typography" },
+      { "name": "The No Fallback Font Rule", "body": "Never let a component reset to system-ui or a native font stack. Both faces load from Google Fonts in the layout head with display=swap; a component that opts out breaks the pairing everywhere it appears.", "section": "typography" },
+      { "name": "The Auto-Fit Rule", "body": "New grids use repeat(auto-fill, minmax(<min>, 1fr)) with a real minimum, not a fixed column count with breakpoint overrides. The column count is an outcome, not a decision.", "section": "layout" },
+      { "name": "The Reach-For-It Rule", "body": "Shadow is feedback. If an element can't be clicked, hovered, or focused, it doesn't get a shadow — it gets a border.", "section": "elevation" },
+      { "name": "The Border Handoff Rule", "body": "When a card takes its hover shadow, its border goes transparent in the same transition. Shadow and border never both define the edge.", "section": "elevation" },
+      { "name": "The Pill-Or-Panel Rule", "body": "If it's a control, it's a pill (999px). If it's a surface, it's a panel (12–28px, scaled to its size). There is no middle radius for controls.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do put every new color, font, radius, and shadow through src/styles/tokens.css. It exists because the site previously shipped two palettes and read as two products.",
+      "Do give coral to time and to one action per screen — today markers, urgency pills, next-up labels, kickers, the primary CTA.",
+      "Do label coral buttons in --deep navy (4.96:1), never white (2.74:1).",
+      "Do tint shadows with harbor navy rgba(7,49,74,…).",
+      "Do start surfaces flat with a 1px --line border and add elevation on hover, handing the border off to transparent as the shadow arrives.",
+      "Do pill every control at 999px and scale surface radii to surface size (12–28px).",
+      "Do add a category by adding one hue to CATEGORY_META in landing/utils.ts.",
+      "Do ship both the sRGB hex and the OKLCH value, hex first, when writing color into an inline style attribute.",
+      "Do drive active navigation from aria-current=\"page\" so the visual and assistive signals stay welded together.",
+      "Do use real 757 photography, cached Meetup group images, or the wave and dot-grid motifs when a surface needs an image.",
+      "Do honor prefers-reduced-motion on anything that loops — the Submit card's pulsing wave already does.",
+      "Do underline links inside prose. Color alone measured 1.87:1 against surrounding text, under the 3:1 minimum."
+    ],
+    "donts": [
+      "Don't use generic stock photography. The Unsplash beach and conference images currently in KeepSurfing.astro and the FeatureCard calls on /calendar, /conferences, and /meetups are an anti-reference, not a pattern: a site about a specific local community must not be illustrated with a stranger's stock beach.",
+      "Don't reproduce the pre-token component style. Card.astro, FeatureCard.astro, StatCard.astro, SectionDivider.astro, and NewsletterSignup.astro still use 8–12px radii, generic 0 4px 6px rgba(0,0,0,0.1) black shadows, and — in NewsletterSignup — a system-ui font stack and a hardcoded rgba(0,149,255,.15) focus ring that isn't tide. These are drift to be migrated, not precedent.",
+      "Don't let a component reset the font stack to system-ui or a native stack.",
+      "Don't use neutral grey or black borders and shadows anywhere.",
+      "Don't put white text on coral at body size.",
+      "Don't hand-author a category color, or vary lightness and chroma between categories.",
+      "Don't give a resting shadow to something clickable, or a shadow at all to something that isn't interactive and isn't a container.",
+      "Don't add a fixed-column grid with breakpoint overrides where auto-fill + minmax() would do.",
+      "Don't scope landing calendar styles to a component. The week and month views build their DOM at runtime, and Astro's scoped-style hashing only tags build-time elements — that CSS must stay global in landing.css.",
+      "Don't use a middle radius on a control. Controls are pills; there is no 8px button."
+    ]
+  }
+}
