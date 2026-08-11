@@ -175,9 +175,10 @@
     "description": "Join us for our new Pop-up Meetups series, featuring great speakers from around Hampton Roads. If you loved Hampton Roads DevFest, these meetups are for deeper conversation, building on ideas, and seeing how you can be a better professional.\n\n**ARE We F\\*cked? An Anti-AI-Doomer's Perspective**\n\nFeeling lost, irrelevant, and just a bit AI-gitated when it comes to your work in the world of AI?\n\nNever fear! The reality is less scary than the existential crisis we all went through 6 months ago.\n\nThis talk isn't about YOLOing it and shipping all the AI slop.\n\nThis talk is for the rest of us, the people who still have to get real work done on Monday and want to help their fellow humans. We'll figure out where AI earns its keep, where it wastes your time, and where you are still the best tool in the room.\n\nYou'll walk away with:\n\n* A clear understanding of when to reach for AI versus your awesome human self.\n* A starting list of which AI tools to use for each job.\n* A sense of relief and clarity on what to do next.\n\n**Bring:** curiosity, questions, and a friend.\n\n📍 The Hive, Virginia Beach\n🕕 Wed, Aug 27 · 6:00 PM\n\nFood and drinks will be provided.",
     "source": "meetup",
     "group": "757 Developers",
-    "featuredEvent": false,
+    "featuredEvent": true,
     "createdDate": "2026-07-16T18:25:21.183Z",
-    "updatedDate": "2026-08-11T12:55:06.033Z"
+    "updatedDate": "2026-08-11T12:55:06.033Z",
+    "location": "The HIVE, Virginia Beach"
   },
   {
     "title": "🧜‍♀️ AICHR | Build and Demo Night (with prizes)",
@@ -299,7 +300,7 @@
     "featuredEvent": true,
     "createdDate": "2026-06-22T13:29:12.000Z",
     "updatedDate": "2026-06-22T13:29:12.000Z",
-    "location": "Sandler Center for the Performing Arts, Virginia Beach"
+    "location": "The Dome, Virginia Beach"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
