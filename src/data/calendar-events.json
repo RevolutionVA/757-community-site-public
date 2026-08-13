@@ -1,27 +1,5 @@
 [
   {
-    "title": "Platform & DevOps Engineering - August 2026 Meeting @ Commence",
-    "link": "https://www.meetup.com/platform-and-devops-eng/events/315594271/",
-    "date": "2026-08-12T22:00:00.000Z",
-    "description": "Come join us @ Commence in Virginia Beach on August 12th, 2026 from 6:00PM - 9:00PM ET! The address is 585 London Bridge Rd, Virginia Beach, VA 23454.\n\nWe will be providing some food and refreshments, but you are welcome\nto bring your own meal as well.\n\nThis time, we are teaming up with [The AI Collective - Hampton Roads](https://www.meetup.com/aicollectivehr/) who have graciously agreed to help sponsor this meeting, assist with content, and promote it.\n\nPresentations:\n\n* *Letting Claude Take the Wheel* - *The AI Lab: Turning Ideas into Deployed Apps, Safely, Easily, Quickly*\nMark Bennett\n* *How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps*\nTiffany Richardson-Harrell\n* *Your Own Production Kubernetes Infrastructure -*\n*Deployment Automation with ClusterAPI*\nYuriy Shyyan\n\nWe're looking forward to seeing the same awesome faces and hopefully some new ones too!\n\nWe appreciate Commence helping us out and providing a great meeting space!\n\nThanks again to The AI Collective - Hampton Roads for teaming up with us!",
-    "source": "meetup",
-    "group": "Platform Engineering and DevOps - Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-07-08T06:51:59.416Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
-  },
-  {
-    "title": "WSDG August Social Event",
-    "link": "https://www.meetup.com/the-williamsburg-software-developers-group/events/315614651/",
-    "date": "2026-08-12T22:00:00.000Z",
-    "description": "Our next social event will be at Rocco's Smokehouse Grill in High Street. The restaurant doesn't take reservations, but said we won't have a problem getting a table. Just ask for us when you get there.\n\nNote that this is their temporary location, after the fire at their Bypass Road location. It is in the former Strangeways Brewing building in High Street, at 1430 High St. suit, Williamsburg, VA 26185.\n\\-\\-\\-\\-\\-\\-\\-\\-\nUpcoming schedule:\n\nSeptember 9, 6:30 PM - Williamsburg Library, Conference Room B.\nJon Meek will present \"BluetoothLE: Overview, Diagnostics, Programming\" (tentative, may be deferred)\n\nOctober 14, 6:00 PM - Social Event\n\nNovember 10, 6:30 PM - Williamsburg Library, Conference Room B.\n(Note this is a Tuesday, since the library is closed on Veterans Day.)\nTechnical Presentation\n\nDecember 9, 6:00 PM - Social Event",
-    "source": "meetup",
-    "group": "The Williamsburg Software Developers Group",
-    "featuredEvent": false,
-    "createdDate": "2026-07-09T18:37:37.057Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
-  },
-  {
     "title": "🧜‍♀️ AICHR | Build and Demo Night (with prizes)",
     "link": "https://www.meetup.com/aicollectivehr/events/315858004/",
     "date": "2026-08-13T22:30:00.000Z",
@@ -30,7 +8,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T14:40:03.022Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -41,7 +19,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:11.080Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z",
+    "updatedDate": "2026-08-13T00:23:15.681Z",
     "previousVersion": {
       "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
       "date": "2026-08-21T22:00:00.000Z"
@@ -56,7 +34,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:10.059Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -67,7 +45,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:27.061Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -78,7 +56,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:26.674Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Final Meeting",
@@ -89,7 +67,7 @@
     "group": "Hampton Roads Java Users Group",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:40.890Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "(CS)²AI Author Spotlight™ on Matthew Luallen",
@@ -100,7 +78,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-08-05T00:31:59.461Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Jonathan Stewart: Translytical Task Flows: So Much More Than Write-Back",
@@ -111,7 +89,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-06-15T19:21:19.131Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -122,7 +100,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:04:04.584Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Code + Coffee | Cafe Stella",
@@ -133,7 +111,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-07T01:13:45.744Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Automating Routine Tasks w/ AI | HR Chamber + AICHR",
@@ -144,7 +122,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:27.603Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -155,7 +133,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-07T01:14:07.574Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Pop-up Meetup: ARE We F*cked? An Anti-AI-Doomer's Perspective",
@@ -166,7 +144,7 @@
     "group": "757 Developers",
     "featuredEvent": true,
     "createdDate": "2026-07-16T18:25:21.183Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z",
+    "updatedDate": "2026-08-13T00:23:15.681Z",
     "location": "The HIVE, Virginia Beach"
   },
   {
@@ -178,7 +156,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T14:40:04.838Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "RESONATE → A 757 music, art, tech, business, & community collision",
@@ -189,7 +167,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:29.820Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Home-Cooked Software: Building Personal Apps with Obsidian",
@@ -200,29 +178,29 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:04:01.956Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/757dev/events/tbxfztyjcmbcb/",
+    "link": "https://www.meetup.com/757dev/events/316091099/",
     "date": "2026-09-01T22:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up.\n\n**Things to bring:**\n\n* Laptop\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**Directions:**\nPark in the visitor spots in front of Trible Library. From there, take the first right onto the brick path (on your right if you’re facing the library), walk past the Freeman Center, and take the first left. Luter 170 is in the rightmost wing of the Luter Hall building, you’ll see a sign on the door.",
     "source": "meetup",
     "group": "757 Developers",
     "featuredEvent": false,
-    "createdDate": "2026-07-06T18:39:08.710Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "createdDate": "2026-08-13T00:22:34.761Z",
+    "updatedDate": "2026-08-13T00:22:34.761Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
-    "link": "https://www.meetup.com/aicollectivehr/events/rtjlztyjcmbcb/",
+    "link": "https://www.meetup.com/aicollectivehr/events/316091017/",
     "date": "2026-09-01T22:00:00.000Z",
     "description": "New AI tools are dropping every week. Bookmarks are piling up. “To-be-studied” lists are growing faster than we can keep up with.\n\nSound familiar?\n\nPeninsula Builders Study Group is a local initiative for students and developers of the Peninsula area who want to stop *meaning to learn* and start actually doing it—together.\n\nThere’s no pressure to be an expert, and no bootcamp intensity. Just a consistent habit, a room full of curious people, and the accountability that comes from showing up. Every session we pick a topic and dive deeper into it until we are fully clear on it.\n\n**Session details:**\n🕕 Time: 6:00 PM – 7:30 PM\n📍 Location: Christopher Newport University (Luter 170)\n🔁 Frequency: Bi-weekly (Tuesdays)\n\n**Stay connected:**\nJoin Slack: https://docs.google.com/forms/d/e/1FAIpQLSflVL1WYj3NpiSZ2o7QjJW17-HojU3wPyeeQVIWhKI_4OtFPQ/viewform?usp=dialog\n\n**🤝 Organizers & partners**\n**​**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[TechArk](https://gotechark.com/)\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n[Retail Alliance](https://retailalliance.com/) & [Retail Alliance Foundation](https://retailalliance.com/about-us/foundation/programs/)\n[The HIVE + City of Virginia Beach](https://yesvirginiabeach.com/the-hive)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 200,000+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\nAll attendees and organizers at events affiliated with The AI Collective agree to our[ privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our[ code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter[ photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).",
     "source": "meetup",
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
-    "createdDate": "2026-07-27T12:49:52.077Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "createdDate": "2026-08-13T00:22:37.840Z",
+    "updatedDate": "2026-08-13T00:22:37.840Z"
   },
   {
     "title": "Late Night Builders",
@@ -233,7 +211,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-03-31T00:27:50.661Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -244,7 +222,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:50.555Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -266,7 +244,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-06T18:39:11.301Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -277,7 +255,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:53.057Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Virginia Cup: Official Startup World Cup Virginia Qualifier",
@@ -300,7 +278,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-04-17T00:33:26.774Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z",
+    "updatedDate": "2026-08-13T00:23:15.681Z",
     "previousVersion": {
       "title": "Bitcoin meetup Open Discussion",
       "date": "2026-09-17T18:30:00.000Z"
@@ -326,7 +304,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:51.524Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -348,7 +326,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-06-24T00:41:36.905Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -359,7 +337,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-08T00:32:41.857Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -370,7 +348,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:55.103Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -381,7 +359,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:52.562Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "BSides Hampton Roads 2026",
@@ -405,7 +383,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:56.062Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -416,7 +394,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:58.060Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -427,7 +405,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:11.508Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -438,7 +416,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-03T16:03:53.664Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -449,7 +427,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:17.107Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Peninsula Builders Study Group",
@@ -471,7 +449,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-05T00:31:51.858Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -482,7 +460,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:18.148Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
@@ -504,7 +482,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-05T00:32:14.736Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -515,7 +493,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-08T18:08:25.893Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -526,7 +504,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -537,7 +515,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -548,7 +526,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -559,7 +537,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -570,7 +548,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -581,7 +559,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -592,6 +570,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-17T00:33:17.915Z",
-    "updatedDate": "2026-08-12T18:19:09.253Z"
+    "updatedDate": "2026-08-13T00:23:15.681Z"
   }
 ]
