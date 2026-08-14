@@ -52,3 +52,11 @@ social/event-photos/
 
 # cursor hook manifest holds a machine-absolute skill path
 .cursor/hooks.json
+
+# Newsletter source media — large working files. The compressed, email-ready
+# derivatives live in public/images/newsletter/ and are tracked there.
+social/newsletter/**/*.mov
+social/newsletter/**/*.mp4
+social/newsletter/**/*.avif
+social/newsletter/**/*.pdf
+social/newsletter/**/*.jpg

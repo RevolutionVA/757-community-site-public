@@ -1,0 +1,79 @@
+{
+  "issue": "2026-08",
+  "broadcastName": "757tech Monthly - August 2026",
+  "subject": "757tech Monthly: a pop-up meetup, Resonate757, and 40 people writing raw HTML",
+  "preheader": "Our first Pop-up Meetup lands Aug 27, Resonate757 is Aug 28, and HTML Day was everything we hoped.",
+  "disclaimer": "You're receiving this newsletter because you registered for or attended a RevolutionVA event. If you'd like to unsubscribe, we understand.",
+  "greeting": [
+    "Happy Friday, and welcome to the first edition of the 757tech monthly newsletter! I'm [Kevin Griffin](https://www.linkedin.com/in/1kevgriff/), the President of [RevolutionVA](https://revolutionva.org). Our mission is to help build and support a vibrant tech community in Hampton Roads!"
+  ],
+  "happening": {
+    "heading": "What's Happening This Month",
+    "items": [
+      {
+        "title": "Pop-up Meetup: ARE We F*cked? An Anti-AI-Doomer's Perspective",
+        "lead": "We're excited to launch a new series called “Pop-up Meetups.” After the success of Hampton Roads DevFest, many of you shared that you'd like these conversations to happen more often.",
+        "image": "https://757tech.org/images/newsletter/2026-08/popup-meetup-ryan.jpg",
+        "imageAlt": "Pop-up Meetup at The Hive — guest Ryan Castillo, in front of a full auditorium",
+        "imageLink": "https://www.youtube.com/shorts/9A-WfFW5Lys",
+        "when": "August 27th, 2026, 6 pm at The Hive, Virginia Beach",
+        "price": "Free",
+        "url": "https://www.meetup.com/757dev/events/315707143/",
+        "ctaLabel": "RSVP on Meetup",
+        "body": [
+          "Our first pop-up meetup is Hampton Roads DevFest alum Ryan Castillo, who'll be talking about cutting through the AI doom and hype to figure out where AI actually earns its keep in your day-to-day work, where it wastes your time, and where you're still the best person for the job."
+        ],
+        "videoLink": {
+          "url": "https://www.youtube.com/shorts/9A-WfFW5Lys",
+          "label": "Watch Ryan's 30-second pitch"
+        }
+      },
+      {
+        "title": "Resonate757",
+        "lead": "BlackBRAND is launching something new, and it's worth checking out! In their own words, Resonate757 is <em>“a one-night creative experience bringing together artists, musicians, designers, makers, community leaders, and tech-curious people from across the 757.”</em>",
+        "image": "https://757tech.org/images/newsletter/2026-08/resonate757.jpg",
+        "imageAlt": "Resonate757 — a one-night creative experience at Assembly, Norfolk",
+        "imageLink": "https://resonate757.com/",
+        "when": "August 28th, 2026, 6 pm at Assembly, Norfolk",
+        "price": "$19 (scholarships available)",
+        "url": "https://resonate757.com/",
+        "ctaLabel": "Get tickets",
+        "body": [
+          "RevolutionVA is proud to sponsor scholarship tickets for the event. Don't miss out!"
+        ]
+      }
+    ]
+  },
+  "missed": {
+    "heading": "What You Missed Last Month",
+    "title": "HTML Day",
+    "body": [
+      "On August 8th, [Ryan McGovern](https://www.linkedin.com/in/ryan-mcgovern-tekgadgt/), [Chazona Baum](https://www.linkedin.com/in/chazonacodes/), and [Austin Galyon](https://www.linkedin.com/in/austingalyon/) hosted the first HTML Day in Hampton Roads. Over 40 attendees, young and young at heart, showed up to relive the early 2000s by building websites the old-fashioned way: with nothing but HTML. Many launched their first site on Neocities!"
+    ],
+    "photo": "https://757tech.org/images/recap/2026-08-08-html-day.jpg",
+    "photoAlt": "Attendees at HTML Day in Hampton Roads building websites together",
+    "bodyAfterPhoto": [
+      "[RevolutionVA](https://revolutionva.org) provided lunch, and special thanks to Val Town for breakfast! Shout-out to [Paul Chin Jr.](https://www.linkedin.com/in/paulchinjr/) for his great tutorials that helped everyone get started.",
+      "If you want the best recap, you should check out this video from Puppet Chin Jr."
+    ],
+    "video": {
+      "url": "https://www.youtube.com/watch?v=qfF62Q2ncts",
+      "image": "https://757tech.org/images/newsletter/2026-08/html-day-recap-video.jpg",
+      "imageAlt": "HTML Day recap video by Paul Chin Jr.",
+      "label": "Watch the HTML Day recap"
+    }
+  },
+  "stayInTouch": {
+    "heading": "Stay in Touch",
+    "lead": "757tech is everywhere you are! Connect with us:",
+    "items": [
+      { "key": "slack", "label": "Slack", "note": "where the 757 tech community actually talks day-to-day" },
+      { "key": "discord", "label": "Discord", "note": "same crowd, different room" },
+      { "key": "linkedin", "label": "LinkedIn", "note": "event announcements and community news" },
+      { "key": "social", "label": "Bluesky · X · Instagram · Threads", "note": "" },
+      { "key": "site", "label": "757tech.org", "note": "the full calendar, always current" }
+    ]
+  },
+  "signoff": "See ya next month!",
+  "footerReason": "You're receiving this because you registered for or attended a RevolutionVA event."
+}
