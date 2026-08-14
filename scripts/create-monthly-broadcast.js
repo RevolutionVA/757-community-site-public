@@ -116,11 +116,18 @@ const headFont = `font-family:'Baloo 2','DM Sans',-apple-system,BlinkMacSystemFo
 const link = (url, text) =>
   `<a href="${url}" style="color:${BRAND.coral};font-weight:bold;text-decoration:underline;">${text || url}</a>`;
 
+// Quiet variant for de-emphasised blocks (the masthead disclaimer, the footer)
+// where a bold coral link would shout louder than the copy around it.
+const mutedLink = (url, text) =>
+  `<a href="${url}" style="color:${BRAND.muted};text-decoration:underline;">${text || url}</a>`;
+
 // Rewrite markdown-style [text](url) into branded anchors. Content files use the
 // short form so link styling lives here rather than being copy-pasted into every
-// issue — change the palette once and past issues re-render correctly.
-function inlineLinks(html) {
-  return html.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, text, url) => link(url, text));
+// issue — change the palette once and past issues re-render correctly. Liquid
+// tags are accepted as targets so content can point at Bento merge fields such
+// as {{ visitor.unsubscribe_url }}.
+function inlineLinks(html, linkFn = link) {
+  return html.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+|\{\{[^}]+\}\})\)/g, (_, text, url) => linkFn(url, text));
 }
 
 // Body copy in content.json is trusted HTML — the file is hand-authored, not
@@ -266,7 +273,11 @@ function renderHtml(content, links, preheader) {
   <div style="display:none;max-height:0;overflow:hidden;opacity:0;">${escapeHtml(preheader)}</div>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${BRAND.pageBg};">
     <tr><td align="center" style="padding:24px 12px;">
-      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:8px;overflow:hidden;">
+      <!-- align + inline auto margins both centre the shell. The attribute alone
+           is not enough: Bento's editor preview strips align and applies its own
+           table {max-width:650px}, which left-aligns the email. Inline margins
+           outrank that stylesheet, and Outlook honours the attribute. -->
+      <table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;margin:0 auto;background:#ffffff;border-radius:8px;overflow:hidden;">
         <tr>
           <td style="background:${BRAND.deep};padding:24px 32px;">
             <div style="${headFont};font-size:28px;font-weight:bold;color:#ffffff;">757tech Monthly</div>
@@ -277,7 +288,7 @@ function renderHtml(content, links, preheader) {
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 20px 0;">
               <tr>
                 <td style="border-left:3px solid ${BRAND.line};padding:2px 0 2px 14px;">
-                  <div style="${bodyFont};font-size:14px;line-height:1.5;color:${BRAND.muted};">${escapeHtml(content.disclaimer || '')}</div>
+                  <div style="${bodyFont};font-size:14px;line-height:1.5;color:${BRAND.muted};">${inlineLinks(escapeHtml(content.disclaimer || ''), mutedLink)}</div>
                 </td>
               </tr>
             </table>
@@ -340,6 +351,10 @@ async function main() {
       {
         name: content.broadcastName,
         subject: content.subject,
+        // Bento surfaces its own preview_text field in the inbox; the hidden div
+        // in the HTML only covers clients that fall back to scraping the body.
+        // Setting both keeps Bento's pre-send check happy and the preview honest.
+        preview_text: preheader,
         content: html,
         type: 'plain',
         from: {

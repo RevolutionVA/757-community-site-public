@@ -3,7 +3,7 @@
   "broadcastName": "757tech Monthly - August 2026",
   "subject": "757tech Monthly: a pop-up meetup, Resonate757, and 40 people writing raw HTML",
   "preheader": "Our first Pop-up Meetup lands Aug 27, Resonate757 is Aug 28, and HTML Day was everything we hoped.",
-  "disclaimer": "You're receiving this newsletter because you registered for or attended a RevolutionVA event. If you'd like to unsubscribe, we understand.",
+  "disclaimer": "You're receiving this newsletter because you registered for or attended a RevolutionVA event. If you'd like to [unsubscribe]({{ visitor.unsubscribe_url }}), we understand.",
   "greeting": [
     "Happy Friday, and welcome to the first edition of the 757tech monthly newsletter! I'm [Kevin Griffin](https://www.linkedin.com/in/1kevgriff/), the President of [RevolutionVA](https://revolutionva.org). Our mission is to help build and support a vibrant tech community in Hampton Roads!"
   ],
