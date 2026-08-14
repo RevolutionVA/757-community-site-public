@@ -74,6 +74,5 @@
       { "key": "site", "label": "757tech.org", "note": "the full calendar, always current" }
     ]
   },
-  "signoff": "See ya next month!",
-  "footerReason": "You're receiving this because you registered for or attended a RevolutionVA event."
+  "signoff": "See ya next month!"
 }

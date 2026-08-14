@@ -305,15 +305,10 @@ function renderHtml(content, links, preheader) {
             ${signature()}
           </td>
         </tr>
-        <tr>
-          <td style="background:${BRAND.cardBg};border-top:1px solid ${BRAND.line};padding:20px 32px;">
-            <div style="${bodyFont};font-size:13px;line-height:1.5;color:${BRAND.muted};">
-              ${escapeHtml(content.footerReason || '')}<br>
-              RevolutionVA &middot; 109 G Gainsborough Square BOX 262, Chesapeake, VA 23320<br>
-              <a href="{{ visitor.unsubscribe_url }}" style="color:${BRAND.muted};text-decoration:underline;">Unsubscribe</a>
-            </div>
-          </td>
-        </tr>
+        <!-- No footer here on purpose. Bento's Layout appends its own, carrying
+             the 501(c)(3) notice, the mailing address, and Unsubscribe / Pause
+             links. Duplicating it here printed the address and unsubscribe
+             twice, so CAN-SPAM compliance is delegated to the Layout. -->
       </table>
     </td></tr>
   </table>
