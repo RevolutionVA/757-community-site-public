@@ -1,9 +1,14 @@
 {
   "body": [
-    "Did you miss <strong>Platform &amp; DevOps Engineering</strong> last week? The group took over Commence in Virginia Beach on Wednesday night for three talks that ran the whole range — from letting AI write the app to standing up your own production Kubernetes — with <a href=\"https://www.meetup.com/aicollectivehr/\">The AI Collective &ndash; Hampton Roads</a> co-sponsoring and helping shape the lineup.",
-    "Mark Bennett opened with <em>Letting Claude Take the Wheel: The AI Lab &mdash; Turning Ideas into Deployed Apps, Safely, Easily, Quickly</em>. Tiffany Richardson-Harrell followed with <em>How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps</em> — the view from someone shipping real tools without a traditional dev background. Yuriy Shyyan closed at the other end of the spectrum with <em>Your Own Production Kubernetes Infrastructure: Deployment Automation with ClusterAPI</em>.",
-    "Thanks to Commence for the space and to The AI Collective &ndash; Hampton Roads for teaming up on this one."
+    "Did you miss <strong>Platform &amp; DevOps Engineering</strong> last week? The group took over Commence in Virginia Beach on Wednesday night for three talks that ran the whole range, with <a href=\"https://www.meetup.com/aicollectivehr/\">The AI Collective &ndash; Hampton Roads</a> co-sponsoring. Mark Bennett opened with <em>Letting Claude Take the Wheel</em> and then proved the point live — a working PLaDO-inspired ecommerce site with a mock Stripe plugin, built from a single prompt and deployed while the room watched.",
+    "Tiffany Richardson-Harrell followed with <em>How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps</em>, the view from someone shipping real tools without a traditional dev background. Yuriy Shyyan closed at the far end of the spectrum, demoing <em>ClusterAPI</em> standing up a production-grade Kubernetes cluster on the latest release — his verdict on doing that live: <em>&ldquo;when it comes to k8s demos, <code>kubectl apply -f</code> for the win.&rdquo;</em>",
+    "Thanks to Chandler Pitcher and Commence for hosting, and to Ted Patterson and The AI Collective &ndash; Hampton Roads for sponsoring the food and backing the AICHR + PLaDO collaboration."
   ],
+  "quote": {
+    "text": "I was able to build this with one prompt in about 6 minutes and deploy it in about 4 minutes &mdash; all accessible over something OTHER than localhost. &hellip; Some parts of our jobs in the Platform space becomes making things with less friction, enjoyable, safe and secure, and fast.",
+    "attribution": "Mark Bennett",
+    "role": "Staff Platform Engineer"
+  },
   "photos": [
     {
       "src": "https://757tech.org/images/recap/2026-08-12-platform-devops.jpg",
