@@ -1,13 +1,15 @@
 ---
 name: weekly-meetups
-description: Use when asked for this week's meetup lineup, weekly announcements, or Slack/Discord/LinkedIn/X/email newsletter posts for 757tech meetups — including "what's our lineup", "verify the links", or "generate the weekly posts".
+description: Use when asked for this week's meetup lineup, weekly announcements, or Slack/Discord/LinkedIn/X/Bluesky/Threads/Instagram/email newsletter posts for 757tech meetups — including "what's our lineup", "verify the links", or "generate the weekly posts".
 ---
 
 # Weekly Meetups Announcements
 
 ## Overview
 
-Produce validated, ready-to-post weekly meetup announcements for Slack, Discord, LinkedIn, X, and the email newsletter. Three phases: **pull latest calendar → verify every event link → generate the five outputs**. Never publish an event that hasn't been verified against its live Meetup page.
+Produce validated, ready-to-post weekly meetup announcements for Slack, Discord, LinkedIn, X, Bluesky, Threads, Instagram, and the email newsletter. Three phases: **pull latest calendar → verify every event link → generate the eight outputs**. Never publish an event that hasn't been verified against its live Meetup page.
+
+Account handles: X `@757techorg`, Bluesky `@757tech.org` (domain handle — the only one that isn't `757techorg`), Threads `@757techorg`, Instagram `@757techorg`.
 
 ## Workflow
 
@@ -47,12 +49,13 @@ Outcome handling:
 
 The event count ("N events") in every output is the count of events that **passed** verification — not the count in the source file. Always report dropped or corrected events to the user with the reason (cancelled / 404 / wrong event or date / unverifiable / details corrected) so the calendar can be cleaned up. If an event's date falls outside the Monday–Sunday week, exclude it and flag it as a generator issue. If zero events pass, don't produce posts — tell the user the week is empty.
 
-### 3. Generate the five outputs
+### 3. Generate the eight outputs
 
-**Deliver all five as copy-paste blocks in your reply.** Do not post, send, or commit them anywhere — the user publishes manually.
+**Deliver all eight as copy-paste blocks in your reply.** Do not post, send, or commit them anywhere — the user publishes manually.
 
 Shared rules for all formats:
 
+- **Dedup cross-listed events.** The same event is sometimes posted to two Meetup groups (recurring case: AI Collective Hampton Roads cross-lists the Peninsula Builders Study Group that 757 Developers also runs). Same title-modulo-prefix, same date, same start time = one event. Keep the **757dev listing** and drop the other. This is why the header count can be lower than the source file's — say so when it happens.
 - Strip decorative emoji from event titles (e.g. 🧜‍♀️).
 - Em-dash (`—`) between title and time, and between header label and event count.
 - Times as `H:MM AM/PM` (no leading zero).
@@ -142,6 +145,86 @@ Wed: Second Wednesday Event, 6:00 PM (Group Name)
 - **Count characters before delivering.** If over 280, compress in this order until it fits: (1) shorten event titles (drop subtitles after `:` or `|`, e.g. `(CS)²AI Online™: Security Lifecycles of Connected Power Infrastructure` → `(CS)²AI Security Lifecycles`), (2) drop the `(Group Name)` parentheticals, (3) drop the empty line before `757tech.org`. Never drop an event to fit — if it still can't fit with all three compressions, split into a two-post thread (lineup post + reply) and say so.
 - A one-line CTA (e.g. `🎤 BSides CFP closes Fri 7/31!`) may be added before the domain line only if the tweet still fits in 280.
 
+#### Bluesky (@757tech.org)
+
+**Hard limit: 300 graphemes.** Unlike X, Bluesky counts a URL at its **actual length** — no 23-char credit — so the bare `757tech.org/this-week/` costs 22. Same compact one-line-per-event shape as X, same compression ladder, same no-hashtags/no-per-event-URLs rule.
+
+```
+📅 757tech Meetups This Week — N events
+
+Mon: Event Title, 5:45 PM (Group Name)
+Wed: Another Event, 1:00 PM (Group Name)
+
+757tech.org/this-week/
+```
+
+- A full week rarely fits in one post. **Prefer a two-post thread over mangling the lineup**: header + the first day(s) in post 1, the rest + the domain line in the reply. Split on a day boundary so a single day never straddles posts.
+- Only fall back to a single compressed post when it lands with real margin. A post that fits at exactly 300 is not worth the group names and brand word it cost — thread instead.
+
+#### Threads (@757techorg)
+
+**Limit: 500 characters.** Links are clickable and carry no reach penalty. A typical 7-event week fits in one post with group names intact, so use the uncompressed X shape — full titles where they fit, `(Group Name)` retained, blank line before the domain. No markdown; Threads renders asterisks literally.
+
+```
+📅 757tech Meetups This Week — N events
+
+Mon: Event Title, 5:45 PM (Group Name)
+Wed: Another Event, 1:00 PM (Group Name)
+
+757tech.org/this-week/
+```
+
+If a heavy week exceeds 500, apply the X compression ladder before threading.
+
+#### Instagram (@757techorg)
+
+**Limit: 2,200 characters, max 30 hashtags.** Captions are long-form, so no compression is needed — but **links in captions are not clickable**, so every URL is dead weight. Point at the bio instead. Hashtags do real discovery work here, so the block is longer than LinkedIn's and mixes brand, geography, and topic tags drawn from the week's actual events.
+
+**This post needs an image** — a lineup graphic or carousel. A caption-only Instagram post gets no distribution; say so when delivering it.
+
+```
+📅 757tech Meetups This Week — N events
+
+Hampton Roads has a packed week of tech meetups 👇
+
+🗓 MON, JULY 14
+Event Title — 5:45 PM
+Group Name
+
+Second Monday Event — 7:00 PM
+Group Name
+
+🗓 WED, JULY 16
+Another Event — 1:00 PM (online)
+Group Name
+
+🔗 Full lineup + RSVP links → link in bio
+
+#757tech #HamptonRoads #757 #Norfolk #VirginiaBeach #NewportNews #TechCommunity #Meetups #Developers #TechEvents #HamptonRoadsTech #757Devs
+```
+
+- Day headings are `🗓 DDD, MONTH D` in ALL CAPS, three-letter day abbreviation.
+- Group name goes on its own line under the event (like email, not like the parenthetical formats), and Instagram keeps a blank line between events on the same day.
+- Mark online-only events `(online)` — IG's audience skews local and assumes in-person.
+- Append topic hashtags for what's actually on the calendar that week (`#Cybersecurity`, `#Bitcoin`, `#SQLServer`, `#Java`, `#CodeAndCoffee`) after the fixed block above. Stay under 30 total.
+- **Check the bio link before delivering.** The caption's CTA dead-ends if `@757techorg`'s bio link doesn't reach `757tech.org/this-week/` — flag it for the user to confirm.
+
+#### Counting characters
+
+X, Bluesky, and Threads all have hard caps, and every one of them will be blown by a normal week if you eyeball it. **Count with a script, never by estimate** — write the candidate posts to a scratch file and measure:
+
+```bash
+node -e '
+const seg = new Intl.Segmenter("en", {granularity:"grapheme"});
+const post = require("fs").readFileSync(process.argv[1], "utf8");
+console.log([...seg.segment(post)].length);
+' /path/to/scratch/post.txt
+```
+
+Emoji count as one grapheme, not their UTF-16 length — `[...str].length` and `str.length` both overcount 📅 and 🗓, so use `Intl.Segmenter`. For X only, substitute any URL with 23 characters before measuring; for Bluesky and Threads, count the URL as written. Report the final count next to each post so the user can see the margin.
+
+#### Email
+
 Plain text, links inline (email has no link penalty). Day headings in ALL CAPS; one blank line between events:
 
 ```
@@ -199,7 +282,8 @@ Rules when writing one:
 | Generate weekly file | `node scripts/generate-weekly-meetups.js` |
 | Source file | `weekly-meetups/<monday>-weekly-meetups-slack.txt` |
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
-| Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280 chars, compact one-liners, domain only), Email (plain text, inline links) |
+| Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280), Bluesky (≤300 graphemes), Threads (≤500), Instagram (≤2200, link in bio, needs an image), Email (plain text, inline links) |
+| Character caps | X 280 (URL = 23) · Bluesky 300 graphemes (URL = actual length) · Threads 500 · Instagram 2200. Count with `Intl.Segmenter`, never by eye |
 | Weekly recap | `src/data/newsletter-recap.json` — **never auto-updates**; check it describes *last* week before drafting. Delete or empty `body` to fall back to the boilerplate intro |
 | Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
@@ -213,6 +297,12 @@ Rules when writing one:
 | Bold asterisks in the LinkedIn post | LinkedIn renders them literally — emoji + line breaks only |
 | Event URLs in the LinkedIn post body | Links go in the first comment; body gets the 🔗 pointer line |
 | X post over 280 characters | Compress titles → drop groups → drop blank line; thread rather than dropping an event |
+| Estimating character counts instead of measuring | Every cap gets blown by a normal week — count with `Intl.Segmenter` and report the number |
+| Counting a Bluesky URL as 23 characters | That's X's rule; Bluesky counts the URL's real length |
+| Squeezing a full week into one 300-char Bluesky post | If it only fits at exactly 300, thread it — the margin isn't worth the group names |
+| Clickable-looking URLs in an Instagram caption | IG captions don't linkify; point at the bio and verify the bio link resolves |
+| Delivering an Instagram caption with no image | Caption-only IG posts get no reach — tell the user a lineup graphic is required |
+| Listing a cross-listed event twice (AICHR + 757dev) | Same title/date/time = one event; keep the 757dev listing and note the dedup |
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |
 | Posting/committing the announcement text | Outputs are chat-only copy-paste blocks; the user publishes |
