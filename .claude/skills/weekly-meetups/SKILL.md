@@ -281,8 +281,17 @@ Shape: `body` (array of HTML paragraphs — `body[0]` is the lead and renders ab
 Rules when writing one:
 
 - **Get the color from an organizer**, not the Meetup blurb — the blurb describes the topic, an organizer tells you why it mattered. Ask the user for a summary if you don't have one.
+- **Check LinkedIn before concluding there's no color.** Meetup pages almost never carry post-event content, but speakers and organizers routinely write the night up on LinkedIn — that's where the concrete details live (what got demoed, how long it took, who hosted and fed the room). LinkedIn is login-walled, so WebFetch fails; use the Claude-in-Chrome tools to read the post. Ask the user for links to the speakers' posts.
 - **Quote the organizer directly** rather than absorbing their words into the newsletter's voice. Trim for length (30–45 words is the sweet spot) and cut anything that repeats the lead paragraph, but **have the user confirm the trimmed version with its author before sending** — their name goes on it.
-- **Host images in the repo** under `public/images/recap/`, not hotlinked. Resize to **804px wide** (1.5× the 536px display width) at JPEG q70 with 4:2:0 chroma — that lands around 45–50 KB each. The whole email should stay near 100 KB of images.
+- **Host images in the repo** under `public/images/recap/`, named for the **event** date (`2026-08-12-platform-devops.jpg`), not hotlinked and not named for the day you processed them. Resize to **804px wide** (1.5× the 536px display width), JPEG with 4:2:0 chroma, and **`mozjpeg: true`** — without mozjpeg the same q70 lands near 90 KB instead of 50. Target 45–50 KB each; the whole email should stay near 100 KB of images. Check the resulting size rather than trusting a quality number: q70 with mozjpeg ≈ 60 KB, q62 ≈ 50 KB. Pass `withoutEnlargement: true` so a source already under 804px isn't upscaled into mush.
+
+  ```bash
+  node -e 'import("sharp").then(({default:sharp})=>sharp(process.argv[1])
+    .resize(804,null,{withoutEnlargement:true})
+    .jpeg({quality:62,chromaSubsampling:"4:2:0",mozjpeg:true})
+    .toFile(process.argv[2]).then(i=>console.log(i.width+"x"+i.height, Math.round(i.size/1024)+" KB")))' \
+    <source> public/images/recap/<event-date>-<slug>.jpg
+  ```
 - **Images must be deployed before the draft is useful.** `757tech.org/images/...` 404s until `main` deploys, so commit and merge first, then create the draft. To preview locally before deploying, rewrite the image URLs to base64 data URIs in the `--html-out` file.
 - **Creating a draft never replaces an earlier one.** Every run adds another identically-named draft; tell the user which ID to send and which to delete.
 
