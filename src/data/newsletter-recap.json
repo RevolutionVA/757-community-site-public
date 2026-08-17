@@ -1,14 +1,14 @@
 {
   "body": [
-    "Did you miss HTML Day last week? Ryan McGovern, Chazona Baum, and Austin Galyon hosted the first-ever <strong>HTML Day</strong> at ECPI Virginia Beach, and more than 40 people of all ages spent the afternoon building websites the old-fashioned way — by hand, with nothing but HTML.",
-    "By the time the room packed up, we had launched over a dozen live sites on <a href=\"https://neocities.org/\">Neocities</a>. No frameworks, no build step, no install — just a text editor and the markup the web is actually made of.",
-    "Breakfast came courtesy of <a href=\"https://www.val.town/\">Val Town</a> and lunch from <a href=\"https://revolutionva.org\">RevolutionVA</a>. Thank you both for keeping the room fed."
+    "Did you miss <strong>Platform &amp; DevOps Engineering</strong> last week? The group took over Commence in Virginia Beach on Wednesday night for three talks that ran the whole range — from letting AI write the app to standing up your own production Kubernetes — with <a href=\"https://www.meetup.com/aicollectivehr/\">The AI Collective &ndash; Hampton Roads</a> co-sponsoring and helping shape the lineup.",
+    "Mark Bennett opened with <em>Letting Claude Take the Wheel: The AI Lab &mdash; Turning Ideas into Deployed Apps, Safely, Easily, Quickly</em>. Tiffany Richardson-Harrell followed with <em>How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps</em> — the view from someone shipping real tools without a traditional dev background. Yuriy Shyyan closed at the other end of the spectrum with <em>Your Own Production Kubernetes Infrastructure: Deployment Automation with ClusterAPI</em>.",
+    "Thanks to Commence for the space and to The AI Collective &ndash; Hampton Roads for teaming up on this one."
   ],
-  "photoCredit": "Photo courtesy of Kevin Griffin",
   "photos": [
     {
-      "src": "https://757tech.org/images/recap/2026-08-08-html-day.jpg",
-      "alt": "A full classroom at ECPI Virginia Beach during HTML Day, dozens of people working at laptops with a 'A dab of CSS' slide on the screen at the front of the room"
+      "src": "https://757tech.org/images/recap/2026-08-12-platform-devops.jpg",
+      "alt": "Attendees at the Platform & DevOps Engineering meetup at Commence in Virginia Beach, seated in Adirondack chairs and bean bags around an indoor putting green, with presentation slides on two wall-mounted screens"
     }
-  ]
+  ],
+  "url": "https://www.meetup.com/platform-and-devops-eng/events/315594271/"
 }
