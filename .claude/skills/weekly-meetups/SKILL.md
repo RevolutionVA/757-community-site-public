@@ -180,7 +180,19 @@ If a heavy week exceeds 500, apply the X compression ladder before threading.
 
 **Limit: 2,200 characters, max 30 hashtags.** Captions are long-form, so no compression is needed — but **links in captions are not clickable**, so every URL is dead weight. Point at the bio instead. Hashtags do real discovery work here, so the block is longer than LinkedIn's and mixes brand, geography, and topic tags drawn from the week's actual events.
 
-**This post needs an image** — a lineup graphic or carousel. A caption-only Instagram post gets no distribution; say so when delivering it.
+**This post needs an image** — a caption-only Instagram post gets no distribution. Generate the carousel:
+
+```bash
+npm run generate-carousel -- --exclude <dropped-event-id>
+```
+
+Writes `social/exports/<monday>/slide-NN-*.png` — 1080×1350 (4:5 portrait), cover slide plus one slide per event, on the wave background. Upload in filename order.
+
+- **Pass the same `--exclude` list you passed the Bento draft**, once per dropped or deduped event. The script parses the raw `weekly-meetups/<monday>-weekly-meetups.md`, which knows nothing about link verification or cross-listing — without the flag it renders a slide for a cancelled event and bakes the wrong count into the cover.
+- **The cover count must match the caption.** It comes from the post-exclusion event count; if the cover says 8 and the caption says 7, an exclusion is missing.
+- A stale `--exclude` that matches nothing warns but still generates — check the warning rather than ignoring it, since a typo'd ID silently ships the slide it was meant to drop.
+- Reruns clear the week's previous slides first, so an exclusion that shortens the set won't leave an orphan slide behind.
+- Spot-check the cover and one event slide before handing them over; long titles auto-shrink and can still overflow at the smallest size.
 
 ```
 📅 757tech Meetups This Week — N events
@@ -284,6 +296,7 @@ Rules when writing one:
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
 | Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280), Bluesky (≤300 graphemes), Threads (≤500), Instagram (≤2200, link in bio, needs an image), Email (plain text, inline links) |
 | Character caps | X 280 (URL = 23) · Bluesky 300 graphemes (URL = actual length) · Threads 500 · Instagram 2200. Count with `Intl.Segmenter`, never by eye |
+| IG carousel | `npm run generate-carousel -- --exclude <dropped-event-id>` → `social/exports/<monday>/slide-NN-*.png` (1080×1350). Same exclusion list as the Bento draft; cover count must match the caption |
 | Weekly recap | `src/data/newsletter-recap.json` — **never auto-updates**; check it describes *last* week before drafting. Delete or empty `body` to fall back to the boilerplate intro |
 | Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
@@ -301,7 +314,9 @@ Rules when writing one:
 | Counting a Bluesky URL as 23 characters | That's X's rule; Bluesky counts the URL's real length |
 | Squeezing a full week into one 300-char Bluesky post | If it only fits at exactly 300, thread it — the margin isn't worth the group names |
 | Clickable-looking URLs in an Instagram caption | IG captions don't linkify; point at the bio and verify the bio link resolves |
-| Delivering an Instagram caption with no image | Caption-only IG posts get no reach — tell the user a lineup graphic is required |
+| Delivering an Instagram caption with no image | Caption-only IG posts get no reach — run `npm run generate-carousel` |
+| Running the carousel without the `--exclude` list | It parses the raw `.md`, so it renders cancelled/deduped events and bakes a wrong cover count |
+| Carousel cover count disagreeing with the caption | An exclusion is missing — regenerate rather than shipping the mismatch |
 | Listing a cross-listed event twice (AICHR + 757dev) | Same title/date/time = one event; keep the 757dev listing and note the dedup |
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |
