@@ -1,22 +1,20 @@
 {
-  "url": "https://www.meetup.com/norfolkjs/events/315672897/",
   "body": [
-    "Did you miss NorfolkJS last week? Tim Baines walked the room through <strong>Resume.js</strong> — a data-driven resume page that takes a single JSON file and renders a full HTML resume from it, served off GitHub Pages. Vanilla JavaScript, no frameworks: just fetch, ES Modules, and a modular architecture.",
-    "Ryan McGovern followed with his own approach to the same problem, so the room got two solutions at two different experience levels — which was the whole point of the format."
+    "Did you miss <strong>Platform &amp; DevOps Engineering</strong> last week? The group took over Commence in Virginia Beach on Wednesday night for three talks that ran the whole range, with <a href=\"https://www.meetup.com/aicollectivehr/\">The AI Collective &ndash; Hampton Roads</a> co-sponsoring. Mark Bennett opened with <em>Letting Claude Take the Wheel</em> and then proved the point live — a working PLaDO-inspired ecommerce site with a mock Stripe plugin, built from a single prompt and deployed while the room watched.",
+    "Tiffany Richardson-Harrell followed with <em>How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps</em>, the view from someone shipping real tools without a traditional dev background. Yuriy Shyyan closed at the far end of the spectrum, demoing <em>ClusterAPI</em> standing up a production-grade Kubernetes cluster on the latest release — his verdict on doing that live: <em>&ldquo;when it comes to k8s demos, <code>kubectl apply -f</code> for the win.&rdquo;</em>",
+    "Thanks to Chandler Pitcher and Commence for hosting, and to Ted Patterson and The AI Collective &ndash; Hampton Roads for sponsoring the food and backing the AICHR + PLaDO collaboration."
   ],
   "quote": {
-    "text": "Last year he wasn't even really writing anything in JavaScript. I was impressed with how he actually read through Eloquent JavaScript and implemented higher order functions like .map() without vibe coding it. He actually took the time to learn it.",
-    "attribution": "Paul Chin Jr."
+    "text": "I was able to build this with one prompt in about 6 minutes and deploy it in about 4 minutes &mdash; all accessible over something OTHER than localhost. &hellip; Some parts of our jobs in the Platform space becomes making things with less friction, enjoyable, safe and secure, and fast.",
+    "attribution": "Mark Bennett",
+    "role": "Staff Platform Engineer"
   },
-  "photoCredit": "Photos courtesy of Paul Chin Jr.",
+  "photoCredit": "Photo courtesy of Yuriy Shyyan",
   "photos": [
     {
-      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-group.jpg",
-      "alt": "Norfolk.js members around the conference table at Assembly, with the Build Your Resume with JavaScript title slide on screen"
-    },
-    {
-      "src": "https://757tech.org/images/recap/2026-07-27-norfolkjs-talk.jpg",
-      "alt": "A Norfolk.js presenter mid-explanation at the table, laptop open beside him"
+      "src": "https://757tech.org/images/recap/2026-08-12-platform-devops.jpg",
+      "alt": "Attendees at the Platform & DevOps Engineering meetup at Commence in Virginia Beach, seated in Adirondack chairs and bean bags around an indoor putting green, with presentation slides on two wall-mounted screens"
     }
-  ]
+  ],
+  "url": "https://www.meetup.com/platform-and-devops-eng/events/315594271/"
 }

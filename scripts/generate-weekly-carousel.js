@@ -9,6 +9,11 @@
  * Usage:
  *   npm run generate-carousel                    # current week's Monday
  *   npm run generate-carousel -- --week 2026-07-20
+ *   npm run generate-carousel -- --exclude 315895254   # drop a cancelled/cross-listed event
+ *
+ * --exclude drops events whose Meetup URL contains the given substring (repeatable),
+ * matching create-bento-broadcast.js so both outputs can share one exclusion list.
+ * Excluded events are dropped from the cover count as well as the slides.
  *
  * Output: social/exports/<monday>/slide-NN-*.png
  */
@@ -73,7 +78,7 @@ function parseWeeklyFile(markdown) {
     }
     const titleMatch = line.match(/^#### (.+)$/);
     if (titleMatch) {
-      current = { title: stripEmoji(titleMatch[1]), day: currentDay, time: '', group: '' };
+      current = { title: stripEmoji(titleMatch[1]), day: currentDay, time: '', group: '', url: '' };
       events.push(current);
       continue;
     }
@@ -82,6 +87,8 @@ function parseWeeklyFile(markdown) {
     if (timeMatch) current.time = timeMatch[1].trim().replace(/^0(\d:)/, '$1');
     const groupMatch = line.match(/^- \*\*Group:\*\* (.+)$/);
     if (groupMatch) current.group = groupMatch[1].trim();
+    const linkMatch = line.match(/^- \*\*Link:\*\* \[[^\]]*\]\(([^)]+)\)/);
+    if (linkMatch) current.url = linkMatch[1].trim();
   }
   return events;
 }
@@ -158,8 +165,15 @@ async function renderSlide(overlaySvg, logoLayer, outPath) {
 }
 
 async function main() {
-  // Accept "--week YYYY-MM-DD" or a bare date (npm can strip the flag)
-  const dateArg = process.argv.slice(2).find((a) => /^\d{4}-\d{2}-\d{2}$/.test(a));
+  const args = process.argv.slice(2);
+
+  // Repeatable --exclude <url-substring>, same semantics as create-bento-broadcast.js
+  const excludes = [];
+  for (let i = 0; i < args.length; i++) if (args[i] === '--exclude') excludes.push(args[++i]);
+
+  // Accept "--week YYYY-MM-DD" or a bare date (npm can strip the flag). Skip
+  // --exclude values so an exclusion can never be mistaken for the week.
+  const dateArg = args.find((a, i) => /^\d{4}-\d{2}-\d{2}$/.test(a) && args[i - 1] !== '--exclude');
   const monday = getMonday(dateArg);
 
   const weeklyFile = path.join(ROOT, 'weekly-meetups', `${monday}-weekly-meetups.md`);
@@ -169,14 +183,36 @@ async function main() {
     process.exit(1);
   }
 
-  const events = parseWeeklyFile(fs.readFileSync(weeklyFile, 'utf8'));
-  if (events.length === 0) {
+  const parsed = parseWeeklyFile(fs.readFileSync(weeklyFile, 'utf8'));
+  if (parsed.length === 0) {
     console.error('❌ No events parsed from the weekly file.');
     process.exit(1);
   }
 
+  // A stale exclusion (event already gone from the feed) is a warning, not a
+  // failure — but a typo'd one would silently ship the slide it meant to drop.
+  for (const ex of excludes) {
+    if (!parsed.some((e) => e.url.includes(ex))) {
+      console.warn(`⚠️  --exclude ${ex} matched no event — check for a typo (it is not in this week's file).`);
+    }
+  }
+  const events = parsed.filter((e) => !excludes.some((ex) => e.url.includes(ex)));
+  if (events.length === 0) {
+    console.error('❌ No events left after exclusions.');
+    process.exit(1);
+  }
+  if (excludes.length) {
+    console.log(`Excluded ${parsed.length - events.length} of ${parsed.length} events: ${excludes.join(', ')}`);
+  }
+
   const outDir = path.join(ROOT, 'social', 'exports', monday);
   fs.mkdirSync(outDir, { recursive: true });
+
+  // Clear previous slides for this week. Without this a rerun that produces
+  // fewer slides leaves the extras behind, and they look like part of the set.
+  for (const stale of fs.readdirSync(outDir).filter((f) => /^slide-\d+-.*\.png$/.test(f))) {
+    fs.unlinkSync(path.join(outDir, stale));
+  }
 
   // --- Cover slide ---
   const coverPath = path.join(outDir, 'slide-01-cover.png');

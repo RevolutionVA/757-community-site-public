@@ -82,9 +82,6 @@ lines.push(`- [Calendar](${SITE}/calendar/): every upcoming tech event in the re
 lines.push(`- [Meetups](${SITE}/meetups/): all ${meetups.length} active user groups, by category.`);
 lines.push(`- [Conferences](${SITE}/conferences/): upcoming and past regional conferences.`);
 lines.push(`- [Get Involved](${SITE}/get-involved/): how to speak, organize, volunteer, or mentor.`);
-lines.push(`- [Communities](${SITE}/communities/): the 757dev Slack and Discord, plus maker spaces.`);
-lines.push(`- [Learning](${SITE}/learning/): local degree programs and training providers.`);
-lines.push(`- [Work](${SITE}/work/): companies hiring technologists in the region.`);
 lines.push("");
 
 lines.push(`## User groups (${meetups.length})`);

@@ -15,7 +15,7 @@ import { fileURLToPath } from 'url';
  *
  * Usage (secrets resolved by 1Password CLI, see .env.example):
  *   op run --account revolutionva.1password.com --env-file .env -- \
- *     node scripts/create-bento-broadcast.js [slack.txt] [--exclude <url-substring>]... [--dry-run] [--html-out <file>]
+ *     node scripts/create-bento-broadcast.js [slack.txt] [--exclude <url-substring>]... [--dry-run] [--html-out <file>] [--greeting <html>]
  *
  * --exclude drops events whose Meetup URL contains the given substring
  *   (use for cancelled/unverifiable events found during link verification).
@@ -274,7 +274,7 @@ function defaultPreheader(days) {
   return `${names.join(', ')}, and more — ${events.length} meetups this week.`;
 }
 
-function renderHtml({ days, featured, recap }) {
+function renderHtml({ days, featured, recap, greeting }) {
   return `<!DOCTYPE html>
 <html>
 <head>
@@ -294,7 +294,7 @@ function renderHtml({ days, featured, recap }) {
         </tr>
         <tr>
           <td style="padding:28px 32px;">
-            ${paragraph('Happy Monday!')}
+            ${paragraph(greeting)}
             ${recap ? recapSection(recap) : paragraph(`Thanks for subscribing to 757Tech Weekly. ${link('https://revolutionva.org', 'RevolutionVA')}, the organizers behind Hampton Roads DevFest and RevolutionConf, support this weekly round-up of local tech events.`)}
             ${featured.length ? sectionHeading('Featured Events') + paragraph('Keep these events on your radar!') + featured.map(featuredCard).join('') : ''}
             ${sectionHeading('This Week in the 757')}
@@ -331,9 +331,13 @@ async function main() {
   const htmlOut = htmlOutIdx !== -1 ? args[htmlOutIdx + 1] : null;
   const preheaderIdx = args.indexOf('--preheader');
   const preheaderArg = preheaderIdx !== -1 ? args[preheaderIdx + 1] : null;
+  // Opening line. Defaults to Monday because that's when this normally sends;
+  // override it when a send slips (e.g. "Happy <s>Monday</s> Tuesday!").
+  const greetingIdx = args.indexOf('--greeting');
+  const greeting = greetingIdx !== -1 ? args[greetingIdx + 1] : 'Happy Monday!';
   const excludes = [];
   for (let i = 0; i < args.length; i++) if (args[i] === '--exclude') excludes.push(args[++i]);
-  const flagsWithValues = ['--exclude', '--html-out', '--preheader'];
+  const flagsWithValues = ['--exclude', '--html-out', '--preheader', '--greeting'];
   const positional = args.filter((a, i) => !a.startsWith('--') && !flagsWithValues.includes(args[i - 1]));
 
   const monday = currentMonday();
@@ -347,7 +351,7 @@ async function main() {
   if (eventCount === 0) fail(`No events left after parsing/exclusions in ${sourceFile}`);
 
   const preheader = preheaderArg || defaultPreheader(days);
-  const html = renderHtml({ days, featured: loadFeatured(), recap: loadRecap() });
+  const html = renderHtml({ days, featured: loadFeatured(), recap: loadRecap(), greeting });
   console.log(`Preview text: ${preheader}`);
   if (htmlOut) {
     fs.writeFileSync(htmlOut, html);

@@ -1,0 +1,11 @@
+# Visit https://soloterm.com to learn more
+name: 757-community-site-public
+icon: null
+processes:
+  Astro:
+    command: yarn run dev
+    working_dir: null
+    auto_start: true
+    auto_restart: true
+    restart_when_changed: []
+    env: {}
