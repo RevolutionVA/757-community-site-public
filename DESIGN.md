@@ -268,6 +268,13 @@ and `#subscribe`.
 minimum, not a fixed column count with breakpoint overrides. The column count is an outcome,
 not a decision.
 
+**The Nothing Hides Behind The Header Rule.** The header is sticky and condenses on scroll,
+so any focusable element that keyboard focus reaches must be fully visible once it lands —
+never tucked under that bar. This is why `scroll-margin-top: 86px` exists, and why any new
+anchor target, skip link, in-page jump, or scroll-into-view call needs the same clearance.
+WCAG 2.2 AA is a binding product requirement here (SC 2.4.11, Focus Not Obscured), not a
+nicety: a focus ring the visitor cannot see is the same as no focus ring.
+
 ## Elevation & Depth
 
 **Flat at rest, lifting on touch.** Surfaces sit on a 1px `--line` border with no shadow;
@@ -414,17 +421,34 @@ generated color instead of sand-soft, and the internal rule switches to
 - **Do** drive active navigation from `aria-current="page"` so the visual and assistive
   signals stay welded together.
 - **Do** use real 757 photography, cached Meetup group images, or the wave and dot-grid
-  motifs when a surface needs an image.
+  motifs when a surface needs an image. **This is no longer aspirational** — photographs of
+  actual 757 events exist and are cleared for site use, not email only. Email-ready
+  derivatives are tracked in `public/images/newsletter/<issue>/`; the working sources and
+  the member photo archive sit untracked in `social/`. **Two conditions travel with every
+  photo:** the photographer is credited wherever it appears, and the specific shot is
+  cleared for that placement. A credit line is part of the composition — design the caption
+  slot in, don't bolt it on.
 - **Do** honor `prefers-reduced-motion` on anything that loops — the Submit card's pulsing
   wave already does.
 - **Do** underline links inside prose. Color alone measured 1.87:1 against surrounding
   text, under the 3:1 minimum.
+- **Do** hold WCAG 2.2 AA. It is a binding product requirement, not a convention the
+  codebase happens to follow. Three parts of it bite this system specifically: every
+  interactive target clears **24×24 CSS px** (SC 2.5.8 — this is why event-description
+  line-height runs 1.8), focus never lands under the sticky header (SC 2.4.11), and the
+  4px tide focus ring is the replacement for any outline you remove, never a deletion.
+- **Do** bring an existing surface up to WCAG 2.2 AA when you touch it. The standard
+  applies to new work outright and to old work on contact.
 
 ### Don't:
 - **Don't** use generic stock photography. The Unsplash beach and conference images
   currently in `KeepSurfing.astro` and the `FeatureCard` calls on `/calendar`,
   `/conferences`, and `/meetups` are an **anti-reference**, not a pattern: a site about a
-  specific local community must not be illustrated with a stranger's stock beach.
+  specific local community must not be illustrated with a stranger's stock beach. There is
+  now a real archive to replace them from — the excuse is gone.
+- **Don't** publish an event photo without its credit, and don't pull straight from the
+  untracked archive on the assumption that anything in it is cleared. Uncredited or
+  uncleared is the same as unusable.
 - **Don't** reproduce the pre-token component style. `Card.astro`, `FeatureCard.astro`,
   `StatCard.astro`, `SectionDivider.astro`, and `NewsletterSignup.astro` still use 8–12px
   radii, generic `0 4px 6px rgba(0,0,0,0.1)` black shadows, and — in NewsletterSignup — a
