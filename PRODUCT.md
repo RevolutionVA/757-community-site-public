@@ -23,10 +23,11 @@ optimized for. Nothing should be built *primarily* for them without revisiting t
 Virginia Beach, Chesapeake, Hampton, Newport News and surrounding cities). It aggregates
 every tech meetup, user group, and regional conference in the region into one continuously
 refreshed calendar, then redistributes that calendar as a Monday digest and a weekly
-multi-channel announcement packet.
+multi-channel announcement packet, alongside a monthly editorial issue.
 
-**Success is digest subscribers.** A good month is one where the Monday newsletter list
-grew. The site is the acquisition surface for that list; the calendar is the reason anyone
+**Success is newsletter subscribers, across both lists.** The weekly digest and the
+757tech Monthly are separate Bento audiences and both count; a good month is one where
+they grew. The site is the acquisition surface for both; the calendar is the reason anyone
 hands over an email address.
 
 ## Positioning
@@ -52,8 +53,17 @@ RevolutionVA, a 501(c)(3) non-profit, and built by community members.
   opened and verified as still active and correctly titled/timed, and the confirmed set is
   published as a Bento digest plus Slack, Discord, LinkedIn, X, and Instagram carousel
   variants. Verification gates publication — an unverified event does not ship.
-- **Growth by contribution.** New groups enter through `meetups-combined.json` (schema
-  validated, `add-meetup` script) prompted by a submit CTA on the landing page.
+- **The monthly issue.** A standing second ritual with its own audience. Unlike the weekly,
+  which is derived from calendar data, the 757tech Monthly is *editorial*: its content is
+  hand-authored in `social/newsletter/<issue>/content.json` and rendered by
+  `scripts/create-monthly-broadcast.js`. An issue carries an intro with a headshot,
+  featured events, a recap of an event that already happened, stay-in-touch links, and a
+  sign-off. The two emails share one brand palette and card vocabulary so they read as a
+  family.
+- **Growth by contribution.** New groups and events enter through GitHub issue templates
+  (`add-your-group.yml`, `submit-upcoming-event.yml`) linked from the landing page CTA and
+  `src/data/community.ts`; a group is then written into `meetups-combined.json` (schema
+  validated, `add-meetup` script).
 - **Archive.** Past weeks remain browsable; the current week has its own surface.
 
 ## Capabilities and Constraints
@@ -63,17 +73,25 @@ RevolutionVA, a 501(c)(3) non-profit, and built by community members.
 - Because the site is statically generated, "today" is resolved at build time. Freshness
   depends on the scheduled rebuild, not on the visitor's clock.
 - Group categories are a fixed set of four: Technology, Development, Cloud, Design.
-- The newsletter is hosted by Bento. The hero form posts directly to a Bento endpoint and
-  redirects to `/newsletter-thank-you`.
+- Both newsletters are hosted by Bento, on **separate audience segments**. The weekly uses
+  `BENTO_SEGMENT_ID`; the monthly requires `BENTO_MONTHLY_SEGMENT_ID` rather than reusing
+  it, so a live run cannot silently target the wrong list. The hero form posts directly to
+  a Bento endpoint and redirects to `/newsletter-thank-you`.
 - Every event and group link is outbound to its source (Meetup, conference site). The site
   never owns RSVP, ticketing, or attendance data and should not appear to.
+- **Editorial curation exists at the event level.** An event carrying `featuredEvent: true`
+  in `calendar-events.json` is promoted ahead of the ordinary feed on `/calendar` and in
+  `ThisWeekMeetups`. It is a hand-set flag, not a computed one.
+- External and social URLs have a single source of truth in `src/data/community.ts` (Slack
+  invites rotate). Components and generators read from it rather than hardcoding; the
+  README's "Follow 757tech" section is the one known duplicate and is updated in the same
+  pass.
 - **Confirmed decision: `/work`, `/learning`, and `/communities` are vestigial and will be
-  retired.** All three run on hardcoded placeholder arrays that were never wired to real
-  data; they dilute the site's actual job. *Undecided:* whether each is deleted or
-  redirected, and where any surviving content lands. **Hard constraint on that removal:**
-  the 757dev Slack and Discord entry points currently living on `/communities` must remain
-  reachable elsewhere (they exist today in the footer and on `/get-involved`) — retiring
-  the page must not remove the community's front doors.
+  deleted, not redirected.** All three run on hardcoded placeholder arrays that were never
+  wired to real data; they dilute the site's actual job. **Hard constraint on that
+  removal:** the 757dev Slack and Discord entry points currently living on `/communities`
+  must remain reachable elsewhere (they exist today in the footer and on `/get-involved`) —
+  retiring the page must not remove the community's front doors.
 
 ## Brand Commitments
 
@@ -97,9 +115,17 @@ Real, in-repo, usable:
 - 20 meetup groups with tags, categories, RSS feeds, and cached images
   (`src/data/meetups-combined.json`)
 - 11 conferences (`src/data/conferences.json`)
-- 54 calendar events, refreshed automatically (`src/data/calendar-events.json`)
+- ~50 calendar events at any time, refreshed automatically
+  (`src/data/calendar-events.json`)
 - Generated weekly announcement archives (`weekly-meetups/`) and a browsable weekly archive
 - A weekly social carousel generator (`scripts/generate-weekly-carousel.js`)
+- **Real photography of real 757 events.** Email-ready derivatives ship tracked in
+  `public/images/newsletter/<issue>/`; the large working sources and a scraped member photo
+  archive (`social/newsletter/`, `social/event-photos/`) stay untracked. This is usable
+  across the site, not only in email — it is the intended answer to the standing ban on
+  stock imagery. **Two conditions:** the photographer is credited wherever a photo appears
+  (as Yuriy Shyyan is on the DevOps recap), and a photo is only published once cleared for
+  that use.
 
 **Absences future work must not fabricate:** there are no testimonials, no attendance
 figures, no publishable subscriber count, no sponsors, no pricing, and no employer
@@ -110,9 +136,8 @@ sourced and confirmed first.
 
 1. **Answer "what can I go to this week?" before anything else.** The newcomer's first
    question outranks completeness, navigation, and brand expression on every surface.
-2. **Every surface earns the subscription.** Success is measured in digest subscribers, so
-   no page is a dead end — the path to the Monday digest is always available and never
-   nagging.
+2. **Every surface earns the subscription.** Success is measured in newsletter subscribers,
+   so no page is a dead end — the path to the list is always available and never nagging.
 3. **Completeness is the credibility.** A dead link or a cancelled event costs more trust
    than a missing feature gains. Verification is a product feature, not overhead.
 4. **Always link out; never impersonate the source.** This is a front door, not a walled
@@ -122,7 +147,9 @@ sourced and confirmed first.
 
 ## Accessibility & Inclusion
 
-No product-specific standard has been established. The codebase shows general good
-practice (form `aria-label`s, focus management, `oklch` color with fallbacks) but this is
-convention, not a stated requirement. *Undecided:* whether to formally commit to WCAG 2.2
-AA.
+**WCAG 2.2 AA is a binding product requirement.** It is no longer convention: new work
+meets it, and existing surfaces are brought up to it as they are touched. The codebase
+already practices much of this — form `aria-label`s, focus management, `oklch` color with
+sRGB fallbacks, `aria-current="page"` driving the active nav marker, navy-on-coral button
+labels chosen for contrast, underlined prose links — but that is now a floor to hold, not
+a habit to admire.
