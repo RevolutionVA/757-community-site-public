@@ -34,7 +34,7 @@ const RULES = [
   [/^\/weekly\/?$/, { priority: 0.7, changefreq: 'weekly' }],
   [/^\/meetups\/?$/, { priority: 0.9, changefreq: 'weekly' }],
   [/^\/conferences\/?$/, { priority: 0.8, changefreq: 'monthly' }],
-  [/^\/(work|learning|communities|get-involved)\/?$/, { priority: 0.5, changefreq: 'monthly' }],
+  [/^\/get-involved\/?$/, { priority: 0.5, changefreq: 'monthly' }],
 ];
 
 export default defineConfig({

@@ -62,7 +62,10 @@ const year = new Date().getFullYear();
         until this footer replaced it. Kept rather than dropped so the build
         credit doesn't silently disappear from 11 pages. */}
     <span class="footer-credit">
-      Built by <a href="https://www.linkedin.com/in/tedjpatterson/" target="_blank" rel="noopener noreferrer">Ted Patterson</a>
+      {/* The `{" "}` is load-bearing: Astro 7 strips leading whitespace from a
+          text node following an inline element, so relying on the line break
+          alone renders "Ted Patterson& Kevin Griffin". */}
+      Built by <a href="https://www.linkedin.com/in/tedjpatterson/" target="_blank" rel="noopener noreferrer">Ted Patterson</a>{" "}
       &amp; <a href="https://www.linkedin.com/in/1kevgriff" target="_blank" rel="noopener noreferrer">Kevin Griffin</a>
     </span>
     <span class="footer-tag">Made in Hampton Roads 🌊</span>
