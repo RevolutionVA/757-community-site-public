@@ -1,0 +1,371 @@
+---
+// Welcome/landing page for the Pop-up Meetup series — designed to be projected
+// in the room and scanned from a phone. The event details are read from
+// calendar-events.json rather than hardcoded, so the page follows the series
+// from one pop-up to the next without an edit (the calendar cron rebuilds the
+// site every 6 hours).
+import LandingLayout from "../layouts/LandingLayout.astro";
+import LandingHeader from "../components/landing/LandingHeader.astro";
+import LandingFooter from "../components/landing/LandingFooter.astro";
+import NewsletterSignup from "../components/NewsletterSignup.astro";
+import { ET, etDateKey } from "../components/landing/utils";
+import { COMMUNITY } from "../data/community";
+import calendarEvents from "../data/calendar-events.json";
+
+const todayKey = etDateKey(new Date());
+
+// Soonest pop-up that hasn't finished its calendar day yet; once the series has
+// no future entry, fall back to the most recent one so the page never renders
+// an empty card between events.
+const popups = calendarEvents
+  .filter((ev) => /^pop-?up meetup/i.test(ev.title))
+  .map((ev) => ({ ev, when: new Date(ev.date) }))
+  .filter(({ when }) => !Number.isNaN(when.getTime()))
+  .sort((a, b) => a.when.getTime() - b.when.getTime());
+
+const current =
+  popups.find(({ when }) => etDateKey(when) >= todayKey) ?? popups.at(-1) ?? null;
+
+const fmt = (d: Date, opts: Intl.DateTimeFormatOptions) =>
+  new Intl.DateTimeFormat("en-US", { timeZone: ET, ...opts }).format(d);
+
+// "Pop-up Meetup: <talk>" — the prefix is the series name, already the kicker.
+const talkTitle = current?.ev.title.replace(/^pop-?up meetup:\s*/i, "") ?? null;
+const dateLabel = current
+  ? fmt(current.when, { weekday: "long", month: "long", day: "numeric" })
+  : null;
+const timeLabel = current
+  ? fmt(current.when, {
+      hour: "numeric", minute: "2-digit", hour12: true, timeZoneName: "short",
+    }).replace(":00", "")
+  : null;
+const venue =
+  current && "location" in current.ev ? current.ev.location : undefined;
+const isToday = current ? etDateKey(current.when) === todayKey : false;
+---
+
+<LandingLayout
+  title="Welcome to the Pop-up Meetup"
+  description="Welcome to the 757tech Pop-up Meetup. Scan the QR code for the full Hampton Roads tech calendar, and join the mailing list so you never miss the next one."
+  breadcrumbs={[{ name: "Pop-up Meetup", url: "/popup/" }]}
+>
+  <LandingHeader subpage />
+
+  <main>
+    <section class="section welcome">
+      <div class="welcome-grid">
+        <div class="welcome-copy">
+          <span class="kicker">757tech Pop-up Meetup</span>
+          <h1>Welcome. Glad you're here. 👋</h1>
+          <p class="lead">
+            Pop-up Meetups bring great Hampton Roads speakers together for the
+            deeper conversation you don't get in a hallway track. Grab a seat,
+            grab some food, and meet somebody you didn't come with.
+          </p>
+
+          {current && (
+            <div class="popup-card">
+              {isToday && <span class="tonight">Tonight</span>}
+              <h2>{talkTitle}</h2>
+              <dl class="event-meta">
+                <div><dt>When</dt><dd>{dateLabel} · {timeLabel}</dd></div>
+                {venue && <div><dt>Where</dt><dd>{venue}</dd></div>}
+                <div><dt>Host</dt><dd>{current.ev.group}</dd></div>
+              </dl>
+              <a class="btn-coral" href={current.ev.link} target="_blank" rel="noopener noreferrer">
+                RSVP on Meetup
+              </a>
+            </div>
+          )}
+
+          <p class="welcome-next">
+            First time with us? Everything happening across the 757 — meetups,
+            conferences, and the groups behind them — lives on one calendar.
+            Scan the code, or jump straight to <a href="/this-week/">this week's lineup</a>.
+          </p>
+        </div>
+
+        <aside class="qr-panel">
+          <p class="qr-label">Scan me</p>
+          <img
+            class="qr"
+            src="/images/qr-757tech.svg"
+            width="1024"
+            height="1024"
+            alt="QR code that opens 757tech.org"
+          />
+          <p class="qr-url">757tech.org</p>
+          <p class="qr-note">The whole Hampton Roads tech calendar, in one place.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section signup" id="subscribe">
+      <div class="signup-grid">
+        <div class="signup-copy">
+          <span class="kicker">Before you go</span>
+          <h2>Get on the mailing list</h2>
+          <p class="lead">
+            One email a week. It's the easiest way to hear about the next pop-up
+            before it fills up — and it's how we tell people about Hampton Roads
+            DevFest and RevolutionConf first.
+          </p>
+          <ul class="signup-list">
+            <li>Every meetup happening in the 757 that week</li>
+            <li>Early access and discounts for DevFest and RevolutionConf</li>
+            <li>Speaking, volunteering, and mentoring calls when they open</li>
+          </ul>
+          <p class="signup-chat">
+            Prefer to chat? We're on
+            <a href={COMMUNITY.slack} target="_blank" rel="noopener noreferrer">Slack</a>
+            and
+            <a href={COMMUNITY.discord} target="_blank" rel="noopener noreferrer">Discord</a>.
+          </p>
+        </div>
+        <div class="signup-form">
+          <NewsletterSignup />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <LandingFooter subpage />
+</LandingLayout>
+
+<style>
+  .welcome {
+    padding-top: clamp(28px, 5vw, 56px);
+  }
+
+  .welcome-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: clamp(32px, 5vw, 64px);
+    align-items: center;
+  }
+
+  h1 {
+    font-size: clamp(36px, 5.5vw, 62px);
+    font-weight: 800;
+    color: var(--deep);
+    text-wrap: balance;
+  }
+
+  .lead {
+    color: var(--muted);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    margin: 20px 0 0;
+    max-width: 56ch;
+  }
+
+  /* ---------- event card ---------- */
+  .popup-card {
+    margin-top: 30px;
+    background: var(--sand-soft);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: clamp(22px, 3vw, 30px);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .tonight {
+    display: inline-block;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--deep);
+    background: var(--seafoam);
+    border-radius: 999px;
+    padding: 5px 12px;
+    margin-bottom: 14px;
+  }
+
+  .popup-card h2 {
+    font-size: clamp(22px, 2.6vw, 30px);
+    font-weight: 800;
+    color: var(--deep);
+    text-wrap: balance;
+  }
+
+  .event-meta {
+    margin: 20px 0 24px;
+    display: grid;
+    gap: 12px;
+  }
+
+  .event-meta > div {
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+  }
+
+  .event-meta dt {
+    flex: 0 0 58px;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--coral);
+  }
+
+  .event-meta dd {
+    margin: 0;
+    color: var(--ink);
+    font-size: 16.5px;
+    line-height: 1.4;
+  }
+
+  .popup-card .btn-coral {
+    display: inline-block;
+  }
+
+  .welcome-next {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 26px 0 0;
+    max-width: 56ch;
+  }
+
+  .welcome-next a {
+    color: var(--tide);
+    font-weight: 600;
+  }
+
+  .welcome-next a:hover {
+    text-decoration: underline;
+  }
+
+  /* ---------- QR panel ---------- */
+  .qr-panel {
+    text-align: center;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: clamp(24px, 3vw, 34px);
+    box-shadow: var(--shadow);
+  }
+
+  .qr-label {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--coral);
+    margin: 0 0 16px;
+  }
+
+  .qr {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  .qr-url {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: clamp(22px, 2.4vw, 28px);
+    color: var(--deep);
+    margin: 18px 0 0;
+  }
+
+  .qr-note {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 8px 0 0;
+  }
+
+  /* ---------- newsletter ---------- */
+  .signup {
+    padding-top: clamp(20px, 3vw, 40px);
+  }
+
+  .signup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(32px, 5vw, 64px);
+    align-items: start;
+    background: var(--sand-soft);
+    border: 1px solid var(--line);
+    border-radius: 26px;
+    padding: clamp(28px, 4vw, 52px);
+  }
+
+  .signup-copy h2 {
+    font-size: clamp(28px, 3.6vw, 42px);
+    font-weight: 800;
+    color: var(--deep);
+    text-wrap: balance;
+  }
+
+  .signup-list {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .signup-list li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .signup-list li::before {
+    content: "✓";
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--seafoam);
+    color: var(--deep);
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .signup-chat {
+    color: var(--muted);
+    font-size: 15.5px;
+    margin: 22px 0 0;
+  }
+
+  .signup-chat a {
+    color: var(--tide);
+    font-weight: 600;
+  }
+
+  .signup-chat a:hover {
+    text-decoration: underline;
+  }
+
+  /* The signup component ships its own card chrome and bottom margin; inside
+     this panel it sits flush with the copy column. */
+  .signup-form :global(.bento-formkit) {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 900px) {
+    .welcome-grid,
+    .signup-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .qr-panel {
+      max-width: 420px;
+      margin: 0 auto;
+    }
+  }
+</style>

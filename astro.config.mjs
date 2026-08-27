@@ -35,6 +35,9 @@ const RULES = [
   [/^\/meetups\/?$/, { priority: 0.9, changefreq: 'weekly' }],
   [/^\/conferences\/?$/, { priority: 0.8, changefreq: 'monthly' }],
   [/^\/get-involved\/?$/, { priority: 0.5, changefreq: 'monthly' }],
+  // Welcome page for the Pop-up Meetup series; its event card follows whichever
+  // pop-up is next in the calendar, so it turns over with the series.
+  [/^\/popup\/?$/, { priority: 0.5, changefreq: 'weekly' }],
 ];
 
 export default defineConfig({
