@@ -152,8 +152,9 @@
     "group": "Innovate Hampton Roads",
     "featuredEvent": true,
     "createdDate": "2026-06-22T13:29:12.000Z",
-    "updatedDate": "2026-06-22T13:29:12.000Z",
-    "location": "The Dome, Virginia Beach"
+    "updatedDate": "2026-08-28T12:37:14.000Z",
+    "location": "Sandler Center for the Performing Arts, Virginia Beach",
+    "endDate": "2026-09-18T00:00:00.000Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -358,6 +359,19 @@
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:50:18.148Z",
     "updatedDate": "2026-08-28T09:11:21.205Z"
+  },
+  {
+    "title": "757 TechNite Presented by JPMorganChase",
+    "link": "https://www.innovate757.org/757technite/",
+    "date": "2026-10-29T21:00:00.000Z",
+    "description": "An evening celebrating the innovation shaping the future of Hampton Roads, bringing together entrepreneurs, business leaders, technologists, and government officials to recognize achievements across the regional tech ecosystem.\n\nOctober 29, 2026, 5:00-8:00 PM at The Dome by Rutter Mills, 400 20th St, Virginia Beach, VA 23451. Cocktails and networking 5:00-6:30 PM, program 6:30-8:00 PM, with a VIP reception at 4:00 PM. Register to attend at https://ti.to/innovate757/757technite2026.",
+    "source": "manual",
+    "group": "Innovate Hampton Roads",
+    "featuredEvent": true,
+    "createdDate": "2026-08-28T12:37:14.000Z",
+    "updatedDate": "2026-08-28T12:37:14.000Z",
+    "location": "The Dome by Rutter Mills, Virginia Beach",
+    "endDate": "2026-10-30T00:00:00.000Z"
   },
   {
     "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
