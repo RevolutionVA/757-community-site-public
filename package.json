@@ -9,7 +9,6 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate": "node scripts/validate-json.js",
-    "precommit": "npm run validate",
     "update-calendar": "node scripts/update-calendar.js",
     "fetch-meetup-images": "node scripts/fetch-meetup-images.js",
     "rebuild-calendar": "node scripts/rebuild-calendar.js && node scripts/deduplicate-calendar.js",

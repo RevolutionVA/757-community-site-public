@@ -10,7 +10,7 @@ All commands are run from the root directory:
 - `npm run dev` - Start local development server
 - `npm run build` - Build production site (runs `fetch-meetup-images.js` prebuild script)
 - `npm run preview` - Preview production build locally
-- `npm run validate` - Validate JSON data files against schemas (also runs as precommit hook)
+- `npm run validate` - Validate JSON data files against schemas
 - `npm run update-calendar` - Update calendar events from external RSS sources
 - `npm run fetch-meetup-images` - Fetch and cache meetup group images
 - `npm run rebuild-calendar` - Full calendar rebuild and deduplication
@@ -81,7 +81,7 @@ Important utility scripts in `scripts/`:
 
 **Adding Conferences**: Edit `conferences.json` with name, URL, description, dates, location, and tags. Past/upcoming categorization is automatic based on dates.
 
-**Data Validation**: Always run `npm run validate` before committing. The precommit hook will enforce this.
+**Data Validation**: Always run `npm run validate` before committing. Nothing enforces this locally — CI only validates JSON under `src/data/**`.
 
 **Image Handling**: Meetup images are automatically fetched and cached. Use `MeetupImage.astro` component for consistent display.
 
