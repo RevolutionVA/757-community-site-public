@@ -43,27 +43,12 @@ Tags help categorize meetups more specifically. Some common tags include:
 
 ### Automatic Event Updates
 
-The site automatically fetches events from Meetup.com groups using their RSS feeds. To add a Meetup group to the automatic updates, add an entry to the `meetups-combined.json` file with the following format:
-
-```json
-{
-  "name": "Meetup Group Name",
-  "url": "https://meetup.com/group-url",
-  "tags": ["Tag1", "Tag2"],
-  "category": "Development|Technology|Design|Cloud",
-  "rssFeed": "https://meetup.com/group-url/events/rss/",
-  "metadata": {
-    "imageUrl": "/images/meetups/group-image.jpg",
-    "title": "Meetup Title",
-    "description": "Meetup Description"
-  }
-}
-```
+Adding a group above is all that's needed to enroll it in automatic event fetching: a GitHub Action reads every `rssFeed` in this file and writes the resulting events into `calendar-events.json`.
 
 ### Adding a New Meetup
 
 1. Make your changes to the `meetups-combined.json` file
-2. Run the validation script to ensure your changes are valid
+2. Run `npm run validate` to ensure your changes are valid
 3. Submit a pull request with your changes
 
 ### Validation
@@ -71,7 +56,7 @@ The site automatically fetches events from Meetup.com groups using their RSS fee
 The site uses JSON Schema to validate the meetups data. The schema is defined in `src/data/schemas/meetups.schema.json`. You can validate your changes by running:
 
 ```bash
-npm run validate-json
+npm run validate
 ```
 
 This will check that:
@@ -137,15 +122,17 @@ After adding or updating a conference, the changes will be reflected on the webs
 
 ## Calendar Events
 
-The `calendar-events.json` file contains upcoming tech events in the Hampton Roads area. This file is automatically updated every 3 hours by a GitHub Action that fetches events from various sources, including Meetup.com RSS feeds.
+The `calendar-events.json` file contains upcoming tech events in the Hampton Roads area. It is written by automation — `scripts/update-calendar.js`, run by a GitHub Action every 6 hours — so hand-edits can be overwritten. There is no JSON Schema for this file.
 
 ### Adding Events
 
-There are two ways to add events to the calendar:
+There are three ways to get an event onto the calendar:
 
-1. **Automatic (for Meetup groups)**: If your event is hosted on Meetup.com, you can add your group's RSS feed to the `meetup-feeds.json` file. The GitHub Action will automatically fetch events from your feed.
+1. **Automatic (for Meetup groups)**: If your event is hosted on Meetup.com, add your group to `meetups-combined.json` (see above). The GitHub Action will fetch events from its RSS feed.
 
-2. **Manual**: You can manually add events to the `calendar-events.json` file by creating a pull request. This is useful for events that are not hosted on Meetup.com.
+2. **Event submission issue**: Open a GitHub issue using the event submission template. It's validated automatically, and once a maintainer applies the `approved` label the event is written into `calendar-events.json` for you.
+
+3. **Manual**: Edit `calendar-events.json` directly in a pull request. This is useful for one-off events that aren't hosted on Meetup.com.
 
 ### Event Format
 
@@ -169,21 +156,12 @@ Each event in the `calendar-events.json` file should have the following format:
 - `source`: The source of the event (e.g., "meetup", "eventbrite", "website", "other")
 - `group`: The name of the organizing group
 
-### Adding a Meetup Group
+Optional fields the site also understands:
 
-To add a Meetup group to the automatic updates, add an entry to the `meetup-feeds.json` file with the following format:
-
-```json
-{
-  "name": "Group Name",
-  "rssFeed": "https://www.meetup.com/group-url-name/events/rss/"
-}
-```
-
-- `name`: The name of the group
-- `rssFeed`: The URL to the group's RSS feed for events
-
-After adding your group, create a pull request. Once merged, the GitHub Action will automatically fetch events from your group's feed.
+- `location`: Venue and city, e.g. `"Assembly, Norfolk"`
+- `endDate`: End time in ISO 8601 format
+- `featuredEvent`: `true` to surface the event in the homepage Featured band
+- `createdDate` / `updatedDate` / `previousVersion`: maintained by `update-calendar.js`; `updatedDate` feeds the sitemap's `lastmod`
 
 ## Contributing
 

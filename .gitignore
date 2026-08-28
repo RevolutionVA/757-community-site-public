@@ -60,3 +60,12 @@ social/newsletter/**/*.mp4
 social/newsletter/**/*.avif
 social/newsletter/**/*.pdf
 social/newsletter/**/*.jpg
+
+# Per-developer Claude Code settings (permissions allowlist), not shared
+.claude/settings.local.json
+
+# Serena's project config and memories are shared context and belong in the
+# repo. A global gitignore rule for `.serena/` would otherwise exclude them,
+# so re-include the directory here; .serena/.gitignore still keeps the
+# machine-local bits (cache/, project.local.yml) out.
+!.serena/

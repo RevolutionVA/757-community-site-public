@@ -37,23 +37,6 @@ This project uses JSON Schema validation to ensure data integrity. The validatio
 npm run validate
 ```
 
-### Setting up Git Hooks (Optional)
-
-To automatically validate JSON files before each commit, you can set up a pre-commit hook:
-
-1. Install husky:
-```bash
-npm install husky --save-dev
-npx husky install
-```
-
-2. Add the pre-commit hook:
-```bash
-npx husky add .husky/pre-commit "npm run validate"
-```
-
-This will prevent commits if the JSON files don't conform to their schemas.
-
 ### JSON Schemas
 
 The JSON schemas are located in the `src/data/schemas` directory:
