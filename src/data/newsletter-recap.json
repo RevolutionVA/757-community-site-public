@@ -1,20 +1,21 @@
 {
   "body": [
-    "Did you miss <strong>Platform &amp; DevOps Engineering</strong> last week? The group took over Commence in Virginia Beach on Wednesday night for three talks that ran the whole range, with <a href=\"https://www.meetup.com/aicollectivehr/\">The AI Collective &ndash; Hampton Roads</a> co-sponsoring. Mark Bennett opened with <em>Letting Claude Take the Wheel</em> and then proved the point live — a working PLaDO-inspired ecommerce site with a mock Stripe plugin, built from a single prompt and deployed while the room watched.",
-    "Tiffany Richardson-Harrell followed with <em>How a Non-Technical Builder Uses Vibe Coding to Create Custom Apps</em>, the view from someone shipping real tools without a traditional dev background. Yuriy Shyyan closed at the far end of the spectrum, demoing <em>ClusterAPI</em> standing up a production-grade Kubernetes cluster on the latest release — his verdict on doing that live: <em>&ldquo;when it comes to k8s demos, <code>kubectl apply -f</code> for the win.&rdquo;</em>",
-    "Thanks to Chandler Pitcher and Commence for hosting, and to Ted Patterson and The AI Collective &ndash; Hampton Roads for sponsoring the food and backing the AICHR + PLaDO collaboration."
+    "Did you miss <strong>ARE We F*cked? An Anti-AI-Doomer's Perspective</strong> last week? Ryan Castillo brought the 757tech Pop-up Meetup to <a href=\"https://www.meetup.com/757dev/events/315707143/\">The HIVE by City of Virginia Beach</a> on Thursday night for a straight-talking look at where AI actually earns its keep &mdash; and where you are still better off with your own brain. It was a huge turnout, and the conversation kept going long after the last slide.",
+    "Ryan's through-line was practical rather than apocalyptic: when to reach for AI versus your awesome human self, and a starting list of which tools are worth using for which jobs. No doom, no hype &mdash; just what holds up in real work.",
+    "Thanks to Ryan for speaking, to The HIVE for hosting, and to everyone who turned out and kept the questions coming. Pop-up Meetups are built for exactly this kind of room &mdash; details on the next one at <a href=\"https://757tech.org/popup/\">757tech.org/popup</a>.",
+    "We are always looking for topic and speaker suggestions &mdash; let us know if you have thoughts! Just hit reply, or come find us in <a href=\"https://discord.gg/bPGsCKBqWp\">Discord</a>."
   ],
-  "quote": {
-    "text": "I was able to build this with one prompt in about 6 minutes and deploy it in about 4 minutes &mdash; all accessible over something OTHER than localhost. &hellip; Some parts of our jobs in the Platform space becomes making things with less friction, enjoyable, safe and secure, and fast.",
-    "attribution": "Mark Bennett",
-    "role": "Staff Platform Engineer"
-  },
-  "photoCredit": "Photo courtesy of Yuriy Shyyan",
+  "photoCredit": "Photo courtesy of Ryan Castillo",
   "photos": [
     {
-      "src": "https://757tech.org/images/recap/2026-08-12-platform-devops.jpg",
-      "alt": "Attendees at the Platform & DevOps Engineering meetup at Commence in Virginia Beach, seated in Adirondack chairs and bean bags around an indoor putting green, with presentation slides on two wall-mounted screens"
+      "src": "https://757tech.org/images/recap/2026-08-27-popup-meetup.jpg",
+      "alt": "A packed room at the 757tech Pop-up Meetup at The HIVE in Virginia Beach, with roughly three dozen attendees in tiered seating and at tables raising their hands for a selfie taken from the podium by speaker Ryan Castillo"
     }
   ],
-  "url": "https://www.meetup.com/platform-and-devops-eng/events/315594271/"
+  "url": "https://www.meetup.com/757dev/events/315707143/",
+  "quote": {
+    "text": "This is what Pop-up Meetups are for &mdash; get good people in a room, skip the hallway-track small talk, and let the discussion actually go somewhere. This one did exactly that, and then some.",
+    "attribution": "Kevin Griffin",
+    "role": "Organizer, 757tech"
+  }
 }
