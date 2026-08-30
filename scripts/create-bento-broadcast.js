@@ -78,6 +78,12 @@ function currentMonday() {
   return monday;
 }
 
+// Monday parsed from a weekly-meetups/<YYYY-MM-DD>-... filename, or null.
+function mondayFromFilename(file) {
+  const m = /(\d{4})-(\d{2})-(\d{2})-weekly-meetups/.exec(path.basename(file || ''));
+  return m ? new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3])) : null;
+}
+
 // "757Tech Weekly - Week of July 13th, 2026" — matches existing Bento naming
 function broadcastName(monday) {
   const day = monday.getDate();
@@ -270,7 +276,7 @@ function signature() {
 // Default preheader if --preheader isn't passed: first few event titles + count
 function defaultPreheader(days) {
   const events = days.flatMap((d) => d.events);
-  const names = events.slice(0, 3).map((e) => e.title.split(/[|:—-]/)[0].trim());
+  const names = events.slice(0, 3).map((e) => e.title.split(/\s[|—]\s|:/)[0].trim());
   return `${names.join(', ')}, and more — ${events.length} meetups this week.`;
 }
 
@@ -340,8 +346,11 @@ async function main() {
   const flagsWithValues = ['--exclude', '--html-out', '--preheader', '--greeting'];
   const positional = args.filter((a, i) => !a.startsWith('--') && !flagsWithValues.includes(args[i - 1]));
 
-  const monday = currentMonday();
-  const sourceFile = positional[0] || defaultSourceFile(monday);
+  // When a weekly file is passed explicitly, the week comes from its filename —
+  // drafting ahead (e.g. Sunday for the week starting tomorrow) must not title
+  // the broadcast with today's week.
+  const sourceFile = positional[0] || defaultSourceFile(currentMonday());
+  const monday = mondayFromFilename(sourceFile) || currentMonday();
 
   let days = parseWeeklyFile(sourceFile);
   for (const ex of excludes) {
