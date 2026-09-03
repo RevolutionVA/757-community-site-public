@@ -20,7 +20,7 @@
     "generate-llms-txt": "node scripts/generate-llms-txt.js"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.19.0"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
