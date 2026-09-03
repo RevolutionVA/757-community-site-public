@@ -1,0 +1,90 @@
+---
+// Full press archive. The homepage band shows only the newest entry or two and
+// links here; both read the same src/data/press.json through lib/press.ts.
+import LandingLayout from "../layouts/LandingLayout.astro";
+import LandingHeader from "../components/landing/LandingHeader.astro";
+import LandingFooter from "../components/landing/LandingFooter.astro";
+import Press from "../components/landing/Press.astro";
+import { COMMUNITY } from "../data/community";
+import { collectionPageNode } from "../lib/schema";
+import { SITE } from "../lib/seo";
+import { pressEntries } from "../lib/press";
+
+const items = pressEntries();
+const siteOrigin = Astro.site?.href ?? SITE.url;
+const canonical = "/press/";
+
+const jsonLd = [
+  collectionPageNode(siteOrigin, {
+    url: new URL(canonical, siteOrigin).href,
+    name: "757tech in the press",
+    description:
+      "News coverage of 757tech and the Hampton Roads tech community.",
+    items: items.map((p) => ({ name: p.title, url: p.url })),
+  }),
+];
+---
+
+<LandingLayout
+  title="Press"
+  description="News coverage of 757tech and the Hampton Roads tech community — every story reporters have written about the meetups, groups, and people behind the 757 tech scene."
+  canonical={canonical}
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Press", url: canonical },
+  ]}
+  jsonLd={jsonLd}
+>
+  <LandingHeader subpage />
+
+  <main>
+    <section class="section press-intro">
+      <span class="kicker">In the news</span>
+      <h1>757tech in the press</h1>
+      <p class="lead">
+        757tech is a volunteer-run network of tech meetups across Hampton Roads,
+        supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>,
+        a 501(c)(3) non-profit. Here's what reporters have found when they've
+        come to see it for themselves.
+      </p>
+    </section>
+
+    <Press items={items} heading={false} />
+
+    <section class="section press-contact">
+      <div class="press-contact-card">
+        <h2>Writing about tech in Hampton Roads?</h2>
+        <p>
+          We're glad to connect you with organizers, meetup hosts, and community
+          members across the region — and the full calendar of what's happening
+          is always public at <a href="/calendar">757tech.org/calendar</a>.
+        </p>
+        <p class="press-contact-links">
+          Find us on
+          <a href={COMMUNITY.slack} target="_blank" rel="noopener noreferrer">Slack</a>
+          or
+          <a href={COMMUNITY.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <LandingFooter />
+</LandingLayout>
+
+<style>
+  .press-intro { padding-bottom: 0; max-width: 900px; }
+  .press-intro h1 { font-size: clamp(34px, 5vw, 56px); font-weight: 800; color: var(--deep); margin: 0 0 18px; text-wrap: balance; }
+  .press-intro .lead { font-size: 18px; line-height: 1.6; color: var(--muted); margin: 0; max-width: 680px; }
+  .press-intro a { color: var(--tide); font-weight: 600; }
+
+  .press-contact { padding-top: 0; }
+  .press-contact-card {
+    background: linear-gradient(135deg, var(--deep) 0%, #0a4a6e 100%);
+    color: #fff; border-radius: 24px; padding: clamp(28px, 4vw, 44px);
+  }
+  .press-contact-card h2 { font-family: var(--font-head); font-size: clamp(24px, 3vw, 34px); font-weight: 800; margin: 0 0 14px; color: #fff; }
+  .press-contact-card p { margin: 0 0 12px; font-size: 16.5px; line-height: 1.6; color: color-mix(in srgb, #fff 82%, transparent); max-width: 620px; }
+  .press-contact-card p:last-child { margin-bottom: 0; }
+  .press-contact-card a { color: var(--seafoam); font-weight: 600; }
+</style>

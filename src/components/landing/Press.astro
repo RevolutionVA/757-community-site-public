@@ -1,0 +1,129 @@
+---
+// Third-party coverage of 757tech. Rendered as a compact band on the homepage
+// (newest one or two, with a link through to /press/) and as the full list on
+// the press page itself — same card either way, driven by src/data/press.json.
+//
+// Deliberately text-only: article photography belongs to the outlet, so the
+// card credits the publication and links out rather than reproducing its image.
+import type { PressVM } from "../../lib/press";
+
+interface Props {
+  items: PressVM[];
+  /** Set on the homepage band to link through to the full list. */
+  showAllHref?: string;
+  /** Total entries on file, so the band can say what it isn't showing. */
+  total?: number;
+  /** The press page is already headed by its own <h1>. */
+  heading?: boolean;
+}
+const { items, showAllHref, total = items.length, heading = true } = Astro.props;
+const more = total - items.length;
+---
+{items.length > 0 && (
+  <section class="section press-section" id="press">
+    {heading && (
+      <div class="section-head">
+        <div>
+          <span class="kicker">In the news</span>
+          <h2>757tech in the press</h2>
+        </div>
+        <p class="section-lead">What reporters find when they show up to a Hampton Roads meetup.</p>
+      </div>
+    )}
+
+    <div class="press-grid">
+      {items.map((p) => (
+        <article class="press-card">
+          <div class="press-meta">
+            <span class="press-outlet">{p.chip}</span>
+            <span class="press-date">{p.dateLabel}</span>
+          </div>
+
+          <h3 class="press-title">
+            <a href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a>
+          </h3>
+
+          {p.quote && (
+            <blockquote class="press-quote">
+              <p>{p.quote}</p>
+              <footer>{p.attribution}</footer>
+            </blockquote>
+          )}
+
+          {p.summary && <p class="press-summary">{p.summary}</p>}
+
+          <a class="press-read" href={p.url} target="_blank" rel="noopener noreferrer">
+            Read it on {p.outlet}
+            {p.author && <span class="press-byline"> · by {p.author}</span>}
+            <span aria-hidden="true"> →</span>
+          </a>
+        </article>
+      ))}
+    </div>
+
+    {showAllHref && (
+      <a class="press-all" href={showAllHref}>
+        {more > 0 ? `All coverage (${total})` : "More about 757tech in the press"} →
+      </a>
+    )}
+  </section>
+)}
+
+<style>
+  .press-section { padding-top: clamp(48px, 6vw, 72px); padding-bottom: clamp(48px, 6vw, 72px); }
+  .press-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; }
+
+  .press-card {
+    background: var(--sand-soft);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 24px 26px 22px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .press-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .press-outlet {
+    font-family: var(--font-head); font-weight: 700; font-size: 12px;
+    text-transform: uppercase; letter-spacing: .08em;
+    color: #fff; background: var(--deep);
+    padding: 4px 11px; border-radius: 999px;
+  }
+  .press-date { font-size: 13px; color: var(--muted); font-weight: 500; }
+
+  .press-title { font-family: var(--font-head); font-size: 23px; font-weight: 700; line-height: 1.25; margin: 0 0 16px; }
+  .press-title a { color: var(--deep); text-decoration: none; }
+  .press-title a:hover { color: var(--tide); text-decoration: underline; }
+
+  /* The pull quote is the point of the card — a reader's voice, not ours. */
+  .press-quote { position: relative; margin: 0 0 16px; padding: 0 0 0 20px; border-left: 3px solid var(--coral); }
+  .press-quote p {
+    margin: 0; font-family: var(--font-head); font-weight: 600;
+    font-size: clamp(17px, 1.5vw, 20px); line-height: 1.45; color: var(--deep);
+  }
+  .press-quote p::before { content: "\201C"; }
+  .press-quote p::after { content: "\201D"; }
+  .press-quote footer { margin-top: 8px; font-size: 13.5px; color: var(--muted); font-weight: 500; }
+  .press-quote footer::before { content: "— "; }
+
+  .press-summary { margin: 0 0 18px; font-size: 15px; line-height: 1.55; color: var(--ink); flex: 1; }
+
+  .press-read {
+    align-self: flex-start; font-family: var(--font-head); font-weight: 700;
+    font-size: 14.5px; color: var(--tide); text-decoration: none;
+  }
+  .press-read:hover { text-decoration: underline; }
+  .press-byline { font-weight: 500; color: var(--muted); }
+
+  .press-all {
+    display: inline-block; margin-top: 22px;
+    font-family: var(--font-head); font-weight: 700; font-size: 15px; color: var(--tide); text-decoration: none;
+  }
+  .press-all:hover { text-decoration: underline; }
+
+  @media (max-width: 560px) {
+    .press-card { padding: 20px; }
+    .press-grid { grid-template-columns: 1fr; }
+  }
+</style>
