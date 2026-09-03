@@ -30,3 +30,7 @@ jobs:
     - name: Validate meetups-combined.json
       run: |
         ajv validate -s src/data/schemas/meetups.schema.json -d src/data/meetups-combined.json --strict=false --all-errors
+
+    - name: Validate press.json
+      run: |
+        ajv validate -s src/data/schemas/press.schema.json -d src/data/press.json --strict=false --all-errors
