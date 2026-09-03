@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Press coverage",
+  "description": "Third-party media coverage of 757tech, newest first. Rendered by the homepage Press band and /press/.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["outlet", "title", "url", "date"],
+    "additionalProperties": false,
+    "properties": {
+      "outlet": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Publication name as it should be credited, e.g. \"WHRO Public Media\"."
+      },
+      "outletShort": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Short form for the card chip; falls back to `outlet`."
+      },
+      "title": { "type": "string", "minLength": 1, "description": "Article headline, verbatim." },
+      "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "description": "Publication date in YYYY-MM-DD format"
+      },
+      "author": { "type": "string", "minLength": 1 },
+      "summary": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Our own one-sentence description. Not an excerpt of the article body."
+      },
+      "quote": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Short pull quote from the article. Keep it to a sentence or two — fair use, not a reprint."
+      },
+      "quoteBy": { "type": "string", "minLength": 1, "description": "Who said it. Required whenever `quote` is set." },
+      "quoteRole": { "type": "string", "minLength": 1, "description": "Their group or role, e.g. \"Late Night Builders\"." }
+    },
+    "dependencies": { "quote": ["quoteBy"] }
+  }
+}

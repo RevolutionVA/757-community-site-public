@@ -33,6 +33,10 @@ const filesToValidate = [
   { 
     dataFile: 'meetups-combined.json', 
     schemaFile: 'meetups.schema.json' 
+  },
+  { 
+    dataFile: 'press.json', 
+    schemaFile: 'press.schema.json' 
   }
 ];
 

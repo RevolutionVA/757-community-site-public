@@ -3,6 +3,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
 import LandingHeader from "../components/landing/LandingHeader.astro";
 import SplitHero from "../components/landing/SplitHero.astro";
 import Featured from "../components/landing/Featured.astro";
+import Press from "../components/landing/Press.astro";
 import EventsExplorer from "../components/landing/EventsExplorer.astro";
 import Conferences from "../components/landing/Conferences.astro";
 import Groups from "../components/landing/Groups.astro";
@@ -15,6 +16,7 @@ import {
 import calendarEvents from "../data/calendar-events.json";
 import meetupsData from "../data/meetups-combined.json";
 import conferencesData from "../data/conferences.json";
+import { pressEntries, pressCount } from "../lib/press";
 
 const now = new Date();
 const todayKey = etDateKey(now);
@@ -104,6 +106,11 @@ const featured = calendarEvents
     };
   });
 
+// ---- Press ----
+// The band is social proof, not an archive: show the two newest stories and let
+// /press/ carry the rest.
+const press = pressEntries(2);
+
 // ---- Groups directory ----
 const groups = meetupsData.map((m) => ({
   name: m.name, url: m.url, tags: m.tags, category: m.category,
@@ -138,6 +145,7 @@ const conferences = conferencesData
   <main>
     <SplitHero nextEvents={nextEvents} />
     <Featured featured={featured} />
+    <Press items={press} total={pressCount} showAllHref="/press/" />
     <EventsExplorer events={events} calendarEvents={allEvents} counts={counts} categories={categories} todayKey={todayKey} groupCount={groups.length} />
     <Conferences conferences={conferences} />
     <Groups groups={groups} />
