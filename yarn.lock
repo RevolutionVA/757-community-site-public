@@ -91,12 +91,11 @@
     prismjs "^1.30.0"
 
 "@astrojs/sitemap@^3.3.0":
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.3.tgz#f6eed62e414fef334146b853d7c56fe626994cf8"
-  integrity sha512-f8euLVsyeAmAkSm/1M2Kb8sL8byQmfgbvBNaHFItCheTj/IpiJYSEWVcqDHZ/yEHxiS7+w87mQkzwZaPHmk5GA==
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.4.tgz#92ab986b9e107da82f71f470d9b4020915f6a34b"
+  integrity sha512-LbKNC24bdUWcQf/pThB6qLlSqHojxGjZDURIzFocY8rlWnAn2t74nnhnK6S5x0NHriHoAduLEpVjRykmeGiVvA==
   dependencies:
     sitemap "^9.0.0"
-    stream-replace-string "^2.0.0"
     zod "^4.3.6"
 
 "@astrojs/telemetry@3.3.2":
@@ -877,9 +876,9 @@
     "@types/unist" "*"
 
 "@types/node@*":
-  version "26.4.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.4.0.tgz#4c4ca071c42241fe602741d02999f16b4e64c468"
-  integrity sha512-faiGnoIrLH/V8cibOMEAZ8pMw6oXqSukl29ra4mN8GdaB2ZewzeaLj+INpV5N+Z1eKWzY+IzaIZH2EIR6YZRNQ==
+  version "26.4.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.4.1.tgz#3d8dc80515894958448ee266cf5d6bc3e5205bd5"
+  integrity sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==
   dependencies:
     undici-types "~8.3.0"
 
@@ -2738,11 +2737,6 @@ space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
-
-stream-replace-string@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/stream-replace-string/-/stream-replace-string-2.0.0.tgz#e49fd584bd1c633613e010bc73b9db49cb5024ad"
-  integrity sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==
 
 string-width@^7.0.0, string-width@^7.2.0:
   version "7.2.0"
