@@ -1,21 +1,20 @@
 {
   "body": [
-    "Did you miss <strong>ARE We F*cked? An Anti-AI-Doomer's Perspective</strong> last week? Ryan Castillo brought the 757tech Pop-up Meetup to <a href=\"https://www.meetup.com/757dev/events/315707143/\">The HIVE by City of Virginia Beach</a> on Thursday night for a straight-talking look at where AI actually earns its keep &mdash; and where you are still better off with your own brain. It was a huge turnout, and the conversation kept going long after the last slide.",
-    "Ryan's through-line was practical rather than apocalyptic: when to reach for AI versus your awesome human self, and a starting list of which tools are worth using for which jobs. No doom, no hype &mdash; just what holds up in real work.",
-    "Thanks to Ryan for speaking, to The HIVE for hosting, and to everyone who turned out and kept the questions coming. Pop-up Meetups are built for exactly this kind of room &mdash; details on the next one at <a href=\"https://757tech.org\">757tech.org</a>.",
+    "Some good news to share: <strong>WHRO came out to see what we're building.</strong> Reporter Ashley White spent time with the community and wrote <a href=\"https://www.whro.org/business-growth/2026-09-02/through-757-tech-developers-and-programmers-in-hampton-roads-find-community\">Through 757 Tech, developers and programmers in Hampton Roads find community</a> &mdash; a look at why so many of you keep showing up.",
+    "The piece covers a lot of ground: HTML Day in August, where about thirty people came out and nearly a dozen walked away with a site they had launched themselves; the Late Night Builders crew that meets after 9 p.m.; and the JavaScript, AI, and cybersecurity meetups that fill the calendar week to week.",
+    "Thanks to Ashley and WHRO for the thoughtful coverage, and to Chazona Baum and Paul Chin for talking with them. Mostly, thanks to all of you &mdash; the story is about this community, and there is no story without the people who show up.",
     "We are always looking for topic and speaker suggestions &mdash; let us know if you have thoughts! Just hit reply, or come find us in <a href=\"https://discord.gg/bPGsCKBqWp\">Discord</a>."
   ],
-  "photoCredit": "Photo courtesy of Ryan Castillo",
+  "photoCredit": "Photo by Ashley White / WHRO",
   "photos": [
     {
-      "src": "https://757tech.org/images/recap/2026-08-27-popup-meetup.jpg",
-      "alt": "A packed room at the 757tech Pop-up Meetup at The HIVE in Virginia Beach, with roughly three dozen attendees in tiered seating and at tables raising their hands for a selfie taken from the podium by speaker Ryan Castillo"
+      "src": "https://757tech.org/images/recap/2026-09-02-whro-article.jpg",
+      "alt": "Attendees at a 757tech workshop working on laptops around tables in a sunlit conference room, one person standing and talking with a seated participant whose laptop is covered in stickers"
     }
   ],
-  "url": "https://www.meetup.com/757dev/events/315707143/",
   "quote": {
-    "text": "This is what Pop-up Meetups are for — get good people in a room, skip the hallway-track small talk, and let the discussion actually go somewhere. This one did exactly that, and then some.",
-    "attribution": "Kevin Griffin",
-    "role": "Organizer, 757tech"
+    "text": "Everybody in this community has been the warmest, most wholesome group of people that I think I've ever met.",
+    "attribution": "Chazona Baum",
+    "role": "757tech member, speaking to WHRO"
   }
 }
