@@ -43,6 +43,10 @@ const RULES = [
 export default defineConfig({
   output: 'static',
   site: 'https://757tech.org',
+  // Astro 7 changed the default to 'jsx', which strips whitespace between
+  // inline elements by JSX rules. That glued prose to its links on seven pages
+  // ("please<a>let us know on GitHub</a>"). `true` is the pre-v7 behavior.
+  compressHTML: true,
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/api/'),
