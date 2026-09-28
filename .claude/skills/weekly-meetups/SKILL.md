@@ -47,7 +47,7 @@ Outcome handling:
 - **Different event entirely at that URL, or wrong date** → drop, flag as a calendar data problem.
 - **Fetch fails or is inconclusive** (timeout, bot block, "couldn't determine date") → retry once; if still unverifiable, exclude it from the outputs and list it for the user under "needs manual check" so they can verify and re-add before posting.
 
-The event count ("N events") in every output is the count of events that **passed** verification — not the count in the source file. Always report dropped or corrected events to the user with the reason (cancelled / 404 / wrong event or date / unverifiable / details corrected) so the calendar can be cleaned up. If an event's date falls outside the Monday–Sunday week, exclude it and flag it as a generator issue. If zero events pass, don't produce posts — tell the user the week is empty.
+**Never put an event count in any output** — no "N events" in a header, cover slide, or subject line. The lineup speaks for itself, and a count invites the reader to weigh the week rather than read it. Always report dropped or corrected events to the user with the reason (cancelled / 404 / wrong event or date / unverifiable / details corrected) so the calendar can be cleaned up. If an event's date falls outside the Monday–Sunday week, exclude it and flag it as a generator issue. If zero events pass, don't produce posts — tell the user the week is empty.
 
 ### 3. Generate the eight outputs
 
@@ -55,12 +55,11 @@ The event count ("N events") in every output is the count of events that **passe
 
 Shared rules for all formats:
 
-- **Dedup cross-listed events.** The same event is sometimes posted to two Meetup groups (recurring case: AI Collective Hampton Roads cross-lists the Peninsula Builders Study Group that 757 Developers also runs). Same title-modulo-prefix, same date, same start time = one event. Keep the **757dev listing** and drop the other. This is why the header count can be lower than the source file's — say so when it happens.
+- **Dedup cross-listed events.** The same event is sometimes posted to two Meetup groups (recurring case: AI Collective Hampton Roads cross-lists the Peninsula Builders Study Group that 757 Developers also runs). Same title-modulo-prefix, same date, same start time = one event. Keep the **757dev listing** and drop the other. Say so when it happens — the published lineup will be shorter than the source file.
 - Strip decorative emoji from event titles (e.g. 🧜‍♀️).
-- Em-dash (`—`) between title and time, and between header label and event count.
+- Em-dash (`—`) between title and time.
 - Times as `H:MM AM/PM` (no leading zero).
 - Group events under day headings in chronological order. Days with multiple events: list them on consecutive lines with **no blank line between events on the same day** (email is the exception — see its template); blank lines separate days.
-- Header count = number of validated events.
 - Intro lines, hashtags, greetings, and sign-offs shown in the templates are fixed boilerplate — copy verbatim.
 
 #### Slack
@@ -68,7 +67,7 @@ Shared rules for all formats:
 Single-asterisk bold (`*...*`):
 
 ```
-:calendar: *757tech Meetups This Week (Mon–Sun) — N events*
+:calendar: *757tech Meetups This Week (Mon–Sun)*
 
   *Tue, July 14*
   • *Event Title* — 5:45 PM (Group Name)
@@ -94,7 +93,7 @@ LinkedIn does **not** render markdown — no asterisks anywhere. Use the links-i
 Post body — no event URLs:
 
 ```
-📅 757tech Meetups This Week (Mon–Sun) — N events
+📅 757tech Meetups This Week (Mon–Sun)
 
 Hampton Roads has a packed week of tech meetups. Here's what's happening:
 
@@ -132,7 +131,7 @@ Repeat the day prefix for each event on a multi-event day, one blank line betwee
 **Hard limit: 280 characters** (any URL counts as 23 regardless of length). No markdown — X renders asterisks literally. One line per event, no blank lines between events, no hashtags, no per-event URLs — just the bare site domain on the last line:
 
 ```
-📅 757tech Meetups This Week — N events
+📅 757tech Meetups This Week
 
 Mon: Event Title, 5:45 PM (Group Name)
 Wed: Another Event, 1:00 PM (Group Name)
@@ -150,7 +149,7 @@ Wed: Second Wednesday Event, 6:00 PM (Group Name)
 **Hard limit: 300 graphemes.** Unlike X, Bluesky counts a URL at its **actual length** — no 23-char credit — so the bare `757tech.org/this-week/` costs 22. Same compact one-line-per-event shape as X, same compression ladder, same no-hashtags/no-per-event-URLs rule.
 
 ```
-📅 757tech Meetups This Week — N events
+📅 757tech Meetups This Week
 
 Mon: Event Title, 5:45 PM (Group Name)
 Wed: Another Event, 1:00 PM (Group Name)
@@ -166,7 +165,7 @@ Wed: Another Event, 1:00 PM (Group Name)
 **Limit: 500 characters.** Links are clickable and carry no reach penalty. A typical 7-event week fits in one post with group names intact, so use the uncompressed X shape — full titles where they fit, `(Group Name)` retained, blank line before the domain. No markdown; Threads renders asterisks literally.
 
 ```
-📅 757tech Meetups This Week — N events
+📅 757tech Meetups This Week
 
 Mon: Event Title, 5:45 PM (Group Name)
 Wed: Another Event, 1:00 PM (Group Name)
@@ -188,14 +187,13 @@ npm run generate-carousel -- --exclude <dropped-event-id>
 
 Writes `social/exports/<monday>/slide-NN-*.png` — 1080×1350 (4:5 portrait), cover slide plus one slide per event, on the wave background. Upload in filename order.
 
-- **Pass the same `--exclude` list you passed the Bento draft**, once per dropped or deduped event. The script parses the raw `weekly-meetups/<monday>-weekly-meetups.md`, which knows nothing about link verification or cross-listing — without the flag it renders a slide for a cancelled event and bakes the wrong count into the cover.
-- **The cover count must match the caption.** It comes from the post-exclusion event count; if the cover says 8 and the caption says 7, an exclusion is missing.
+- **Pass the same `--exclude` list you passed the Bento draft**, once per dropped or deduped event. The script parses the raw `weekly-meetups/<monday>-weekly-meetups.md`, which knows nothing about link verification or cross-listing — without the flag it renders a slide for a cancelled event.
 - A stale `--exclude` that matches nothing warns but still generates — check the warning rather than ignoring it, since a typo'd ID silently ships the slide it was meant to drop.
 - Reruns clear the week's previous slides first, so an exclusion that shortens the set won't leave an orphan slide behind.
 - Spot-check the cover and one event slide before handing them over; long titles auto-shrink and can still overflow at the smallest size.
 
 ```
-📅 757tech Meetups This Week — N events
+📅 757tech Meetups This Week
 
 Hampton Roads has a packed week of tech meetups 👇
 
@@ -240,7 +238,7 @@ Emoji count as one grapheme, not their UTF-16 length — `[...str].length` and `
 Plain text, links inline (email has no link penalty). Day headings in ALL CAPS; one blank line between events:
 
 ```
-Subject: 757tech Meetups This Week — N events (July 14–18)
+Subject: 757tech Meetups This Week (July 14–18)
 
 Hi 757tech!
 
@@ -305,7 +303,7 @@ Rules when writing one:
 | Verify links | WebFetch each event URL in parallel; drop cancelled/404/wrong-event, correct minor deltas from the live page |
 | Outputs | Slack (`*bold*`), Discord (`**bold**`), LinkedIn (no markdown, links in first comment), X (≤280), Bluesky (≤300 graphemes), Threads (≤500), Instagram (≤2200, link in bio, needs an image), Email (plain text, inline links) |
 | Character caps | X 280 (URL = 23) · Bluesky 300 graphemes (URL = actual length) · Threads 500 · Instagram 2200. Count with `Intl.Segmenter`, never by eye |
-| IG carousel | `npm run generate-carousel -- --exclude <dropped-event-id>` → `social/exports/<monday>/slide-NN-*.png` (1080×1350). Same exclusion list as the Bento draft; cover count must match the caption |
+| IG carousel | `npm run generate-carousel -- --exclude <dropped-event-id>` → `social/exports/<monday>/slide-NN-*.png` (1080×1350). Same exclusion list as the Bento draft |
 | Weekly recap | `src/data/newsletter-recap.json` — **never auto-updates**; check it describes *last* week before drafting. Delete or empty `body` to fall back to the boilerplate intro |
 | Bento draft (on request) | `op run --account revolutionva.1password.com --env-file .env -- node scripts/create-bento-broadcast.js --exclude <dropped-event-id>` — full branded newsletter, draft only; keys in 1Password (revolutionva account, Employee vault) |
 
@@ -313,7 +311,7 @@ Rules when writing one:
 
 | Mistake | Fix |
 |---------|-----|
-| Using the source file's event count in headers | Count only events that passed verification |
+| Putting an event count in a header, cover, or subject | Never publish a count — strip it from every format |
 | Skipping verification because the file was "just generated" | RSS lags cancellations; always fetch each event page |
 | Dropping a live event over a minor time/title delta | Keep it, use the live page's values, tell the user what changed |
 | Bold asterisks in the LinkedIn post | LinkedIn renders them literally — emoji + line breaks only |
@@ -324,8 +322,7 @@ Rules when writing one:
 | Squeezing a full week into one 300-char Bluesky post | If it only fits at exactly 300, thread it — the margin isn't worth the group names |
 | Clickable-looking URLs in an Instagram caption | IG captions don't linkify; point at the bio and verify the bio link resolves |
 | Delivering an Instagram caption with no image | Caption-only IG posts get no reach — run `npm run generate-carousel` |
-| Running the carousel without the `--exclude` list | It parses the raw `.md`, so it renders cancelled/deduped events and bakes a wrong cover count |
-| Carousel cover count disagreeing with the caption | An exclusion is missing — regenerate rather than shipping the mismatch |
+| Running the carousel without the `--exclude` list | It parses the raw `.md`, so it renders slides for cancelled/deduped events |
 | Listing a cross-listed event twice (AICHR + 757dev) | Same title/date/time = one event; keep the 757dev listing and note the dedup |
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |

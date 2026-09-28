@@ -273,11 +273,12 @@ function signature() {
 </table>`;
 }
 
-// Default preheader if --preheader isn't passed: first few event titles + count
+// Default preheader if --preheader isn't passed: first few event titles. No
+// event count — house style keeps counts out of every published surface.
 function defaultPreheader(days) {
   const events = days.flatMap((d) => d.events);
   const names = events.slice(0, 3).map((e) => e.title.split(/\s[|—]\s|:/)[0].trim());
-  return `${names.join(', ')}, and more — ${events.length} meetups this week.`;
+  return `${names.join(', ')}, and more — meetups across Hampton Roads this week.`;
 }
 
 function renderHtml({ days, featured, recap, greeting }) {

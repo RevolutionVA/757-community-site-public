@@ -90,7 +90,7 @@ Important utility scripts in `scripts/`:
 When asked to generate a Slack/Discord message for the weekly meetups (source: `weekly-meetups/<date>-weekly-meetups-slack.txt`), use this exact format:
 
 ```
-:calendar: *757tech Meetups This Week (Mon–Sun) — N events*
+:calendar: *757tech Meetups This Week (Mon–Sun)*
 
   *Mon, Month D*
   • *Event Title* — H:MM AM/PM (Group Name)
@@ -108,8 +108,8 @@ Formatting rules:
 - **Bold** the header, each day heading (`*Mon, Month D*`), and each event title using Slack single-asterisk bold (`*...*`). For Discord, swap to double-asterisk (`**...**`).
 - Strip decorative emoji (e.g. 🧜‍♀️) from event titles for a clean look.
 - One bullet per event: `• *Title* — Time (Group)`, with the bare Meetup URL on the next line.
-- Group events under day headings; use em-dash (`—`) between title and time, and between the header label and event count.
-- Count in the header is the number of validated events ("N events").
+- Group events under day headings; use em-dash (`—`) between title and time.
+- **Never include an event count** in a header, cover slide, or subject line.
 - End with `Full details → https://757tech.org/this-week/`.
 
 #### LinkedIn variant
@@ -119,7 +119,7 @@ LinkedIn does **not** render markdown — asterisks show literally. Use emoji + 
 **Standard (links inline):**
 
 ```
-📅 757tech Meetups This Week (Mon–Sun) — N events
+📅 757tech Meetups This Week (Mon–Sun)
 
 Hampton Roads has a packed week of tech meetups. Here's what's happening:
 

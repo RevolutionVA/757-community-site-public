@@ -13,7 +13,7 @@
  *
  * --exclude drops events whose Meetup URL contains the given substring (repeatable),
  * matching create-bento-broadcast.js so both outputs can share one exclusion list.
- * Excluded events are dropped from the cover count as well as the slides.
+ * Excluded events are dropped from the slides. The cover shows no event count.
  *
  * Output: social/exports/<monday>/slide-NN-*.png
  */
@@ -70,7 +70,9 @@ function parseWeeklyFile(markdown) {
   let currentDay = null;
   let current = null;
 
-  for (const line of markdown.split('\n')) {
+  // Normalize CRLF: a Windows checkout leaves a trailing \r that `$` won't match,
+  // which silently parses zero events.
+  for (const line of markdown.split(/\r?\n/)) {
     const dayMatch = line.match(/^### (\w+), (.+)$/);
     if (dayMatch) {
       currentDay = { weekday: dayMatch[1], date: dayMatch[2].trim() };
@@ -221,7 +223,7 @@ async function main() {
       textEl('757TECH · MEETUPS', { y: 620, size: 58, color: TEAL, spacing: 10 }),
       textEl('This Week', { y: 880, size: 200, color: NAVY }),
       textEl(formatWeekRange(monday), { y: 1030, size: 84, color: TEAL }),
-      textEl(`${events.length} meetups — swipe for the lineup →`, { y: 1190, size: 60, color: NAVY_SOFT, weight: 'normal' }),
+      textEl(`Swipe for the lineup →`, { y: 1190, size: 60, color: NAVY_SOFT, weight: 'normal' }),
       textEl('757tech.org', { y: 2010, size: 58, color: NAVY_SOFT }),
     ],
     null,
