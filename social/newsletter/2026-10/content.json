@@ -1,0 +1,114 @@
+{
+  "issue": "2026-10",
+  "broadcastName": "757tech Monthly - October 2026",
+  "subject": "757tech Monthly: Hacktoberfest, BSides, and Pop-up Meetup #2",
+  "preheader": "BSides Hampton Roads is Oct 9–10, Hacktoberfest Hack Day is Oct 17, and our next Pop-up Meetup lands Oct 22.",
+  "disclaimer": "You're receiving this newsletter because you registered for or attended a RevolutionVA event. If you'd like to [unsubscribe]({{ visitor.unsubscribe_url }}), we understand.",
+  "greeting": [
+    "Happy Friday! October is shaping up to be one of the busiest months Hampton Roads tech has seen in a while — a security conference, a hack day, and our second Pop-up Meetup, all in the span of two weeks. Here's what's coming up."
+  ],
+  "happening": {
+    "heading": "What's Happening This Month",
+    "items": [
+      {
+        "title": "BSides Hampton Roads",
+        "lead": "BSides Hampton Roads is a community-driven cybersecurity conference built to connect, educate, and inspire the local security community. It's part of the global Security BSides movement — open, collaborative, and welcoming to professionals, students, researchers, and the security-curious alike.",
+        "when": "October 9th–10th, 2026 at the ODU Webb University Center, Norfolk",
+        "url": "https://bsideshamptonroads.org/",
+        "ctaLabel": "Get tickets"
+      },
+      {
+        "title": "Hacktoberfest Hack Day Hampton x RevolutionVA",
+        "lead": "Spend a Saturday building in the open. This year's theme is open-source AI: bring a project you've been meaning to try, experiment with an open-weight model, tinker with an open-source agent, or just find someone to build with.",
+        "image": "https://757tech.org/images/newsletter/2026-10/hacktoberfest.jpg",
+        "imageAlt": "Hacktoberfest Hack Day Hampton x RevolutionVA",
+        "imageLink": "https://events.mlh.com/events/14937-hacktoberfest-hack-day-hampton-x-revolutionva",
+        "when": "October 17th, 2026, 10 am–4 pm at 757 Makerspace, Hampton",
+        "price": "Free",
+        "url": "https://events.mlh.com/events/14937-hacktoberfest-hack-day-hampton-x-revolutionva",
+        "ctaLabel": "Register on MLH",
+        "body": [
+          "It's open to all ages, and you don't have to live in Hampton — if you're willing to make the trip, come on out. Breakfast refreshments and lunch are provided; bring a laptop and charger."
+        ]
+      },
+      {
+        "title": "TODO Pop-up Meetup: <talk title>",
+        "lead": "TODO speaker + topic",
+        "when": "October 22nd, 2026, TODO time at TODO venue",
+        "price": "Free",
+        "url": "https://757tech.org/popup/",
+        "ctaLabel": "TODO RSVP on Meetup"
+      }
+    ]
+  },
+  "missed": {
+    "heading": "What You Missed Last Month",
+    "items": [
+      {
+        "title": "Pop-up Meetup #1",
+        "body": [
+          "Our first Pop-up Meetup packed The Hive on August 27th. More than 35 of you came out to hear Hampton Roads DevFest alum Ryan Castillo take on the AI doom and hype — where AI actually earns its keep in your day-to-day work, where it wastes your time, and where you're still the best person for the job."
+        ],
+        "photo": "https://757tech.org/images/recap/2026-08-27-popup-meetup.jpg",
+        "photoAlt": "Ryan Castillo takes a selfie from the podium at The Hive with a room of cheering Pop-up Meetup attendees behind him",
+        "bodyAfterPhoto": [
+          "Thanks to Ryan, and to everyone who showed up and kept the conversation going afterward. Pop-up #2 is on the calendar above — see you there."
+        ]
+      },
+      {
+        "title": "757tech in WHRO",
+        "body": [
+          "WHRO came out to see what we're building. Reporter Ashley White spent time with the community and wrote [Through 757 Tech, developers and programmers in Hampton Roads find community](https://www.whro.org/business-growth/2026-09-02/through-757-tech-developers-and-programmers-in-hampton-roads-find-community) — a look at why so many of you keep showing up."
+        ],
+        "photo": "https://757tech.org/images/recap/2026-09-02-whro-article.jpg",
+        "photoAlt": "Attendees at a 757tech workshop working on laptops around tables in a sunlit conference room, one person standing and talking with a seated participant whose laptop is covered in stickers",
+        "bodyAfterPhoto": [
+          "<em>“Everybody in this community has been the warmest, most wholesome group of people that I think I've ever met.”</em> — Chazona Baum, speaking to WHRO",
+          "The piece covers HTML Day, the Late Night Builders crew, and the JavaScript, AI, and cybersecurity meetups that fill the calendar week to week. Thanks to Ashley and WHRO, and to Chazona Baum and Paul Chin for talking with them. Photo by Ashley White / WHRO."
+        ]
+      }
+    ]
+  },
+  "regulars": {
+    "heading": "Just Show Up",
+    "lead": "New to 757tech? These happen on a regular rhythm, and you don't need an invitation — pick one and walk in. The [weekly calendar](https://757tech.org/this-week/) has every date.",
+    "items": [
+      {
+        "title": "Peninsula Builders Study Group",
+        "url": "https://www.meetup.com/757dev/",
+        "when": "every other Tuesday, 6 pm",
+        "note": "757 Developers and AI Collective Hampton Roads"
+      },
+      {
+        "title": "Late Night Builders",
+        "url": "https://www.meetup.com/757dev/",
+        "when": "first Thursday of the month, 9 pm",
+        "note": "757 Developers"
+      },
+      {
+        "title": "Norfolk Cybersecurity Networking & Happy Hour",
+        "url": "https://www.meetup.com/issa-hampton-roads/",
+        "when": "third Tuesday of the month, 6 pm",
+        "note": "ISSA Hampton Roads"
+      },
+      {
+        "title": "Cybersecurity Social",
+        "url": "https://www.meetup.com/issa-hampton-roads/",
+        "when": "monthly on a Wednesday, 6 pm",
+        "note": "ISSA Hampton Roads"
+      }
+    ]
+  },
+  "stayInTouch": {
+    "heading": "Stay in Touch",
+    "lead": "757tech is everywhere you are! Connect with us:",
+    "items": [
+      { "key": "slack", "label": "Slack", "note": "where the 757 tech community actually talks day-to-day" },
+      { "key": "discord", "label": "Discord", "note": "same crowd, different room" },
+      { "key": "linkedin", "label": "LinkedIn", "note": "event announcements and community news" },
+      { "key": "social", "label": "Bluesky · X · Instagram · Threads", "note": "" },
+      { "key": "site", "label": "757tech.org", "note": "the full calendar, always current" }
+    ]
+  },
+  "signoff": "See ya next month!"
+}

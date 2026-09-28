@@ -181,18 +181,37 @@ function happeningItem(item) {
   );
 }
 
+function missedItem(item) {
+  return (
+    (item.title ? itemHeading(item.title) : '') +
+    (item.body || []).map(paragraph).join('') +
+    (item.photo ? image({ src: item.photo, alt: item.photoAlt }) : '') +
+    (item.bodyAfterPhoto || []).map(paragraph).join('') +
+    (item.video
+      ? image({ src: item.video.image, alt: item.video.imageAlt, href: item.video.url }) +
+        paragraph(link(item.video.url, `${escapeHtml(item.video.label)} &rarr;`))
+      : '')
+  );
+}
+
+// `items` holds several recaps under one heading; a lone recap can still put its
+// fields directly on `missed`, as the 2026-08 issue does.
 function missedSection(missed) {
   if (!missed) return '';
+  return sectionHeading(missed.heading) + (missed.items || [missed]).map(missedItem).join('');
+}
+
+// Recurring events a newcomer can walk into without watching the weekly email.
+function regularsSection(section) {
+  if (!section?.items?.length) return '';
+  const rows = section.items.map(({ title, url, when, note }) => {
+    const detail = [when, note].filter(Boolean).map(escapeHtml).join(' &mdash; ');
+    return `<li style="${bodyFont};font-size:16px;line-height:1.5;color:${BRAND.ink};margin:0 0 8px 0;">${link(url, escapeHtml(title))}${detail ? ` &mdash; ${detail}` : ''}</li>`;
+  });
   return (
-    sectionHeading(missed.heading) +
-    (missed.title ? itemHeading(missed.title) : '') +
-    (missed.body || []).map(paragraph).join('') +
-    (missed.photo ? image({ src: missed.photo, alt: missed.photoAlt }) : '') +
-    (missed.bodyAfterPhoto || []).map(paragraph).join('') +
-    (missed.video
-      ? image({ src: missed.video.image, alt: missed.video.imageAlt, href: missed.video.url }) +
-        paragraph(link(missed.video.url, `${escapeHtml(missed.video.label)} &rarr;`))
-      : '')
+    sectionHeading(section.heading) +
+    (section.lead ? paragraph(section.lead) : '') +
+    `<ul style="margin:0 0 14px 0;padding:0 0 0 22px;">${rows.join('')}</ul>`
   );
 }
 
@@ -300,6 +319,7 @@ function renderHtml(content, links, preheader) {
             ${sectionHeading(content.happening.heading)}
             ${content.happening.items.map(happeningItem).join('')}
             ${missedSection(content.missed)}
+            ${regularsSection(content.regulars)}
             ${stayInTouch(content.stayInTouch, links)}
             ${paragraph(escapeHtml(content.signoff || ''))}
             ${signature()}
