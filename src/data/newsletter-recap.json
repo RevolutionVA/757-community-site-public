@@ -1,21 +1,8 @@
 {
   "body": [
-    "Some good news to share: <strong>WHRO came out to see what we're building.</strong> Reporter Ashley White spent time with the community and wrote <a href=\"https://www.whro.org/business-growth/2026-09-02/through-757-tech-developers-and-programmers-in-hampton-roads-find-community\">Through 757 Tech, developers and programmers in Hampton Roads find community</a> &mdash; a look at why so many of you keep showing up.",
-    "The piece covers a lot of ground: HTML Day in August, where about thirty people came out and nearly a dozen walked away with a site they had launched themselves; the Late Night Builders crew that meets after 9 p.m.; and the JavaScript, AI, and cybersecurity meetups that fill the calendar week to week.",
-    "Thanks to Ashley and WHRO for the thoughtful coverage, and to Chazona Baum and Paul Chin for talking with them. Mostly, thanks to all of you &mdash; the story is about this community, and there is no story without the people who show up.",
-    "Also &mdash; <strong>BSides Hampton Roads tickets are on sale.</strong> The conference runs October 9&ndash;10 at ODU's Webb University Center; grab yours at <a href=\"https://bsideshamptonroads.org/\">bsideshamptonroads.org</a>.",
+    "<strong>BSides Hampton Roads is next week.</strong> The region's community-driven cybersecurity conference runs Friday and Saturday, October 9&ndash;10, at ODU's Webb University Center &mdash; two days of talks and hallway conversations with security professionals, students, researchers, and anyone curious about the field. If you haven't grabbed a ticket yet, now's the time: <a href=\"https://events.humanitix.com/bsideshamptonroads2026\">register for BSides Hampton Roads</a>.",
+    "Warm up this week at ISSA Hampton Roads' Cybersecurity Social on Wednesday evening at The Casual Pint in Virginia Beach &mdash; a good chance to meet a few people before the conference.",
+    "Still ahead: <strong>Hacktoberfest Hack Day Hampton x RevolutionVA</strong> on Saturday, October 17, at the 757 Makerspace. It's free, open to all ages, and focused on open-source AI &mdash; <a href=\"https://events.mlh.com/events/14937-hacktoberfest-hack-day-hampton-x-revolutionva\">register on the MLH event page</a>.",
     "We are always looking for topic and speaker suggestions &mdash; let us know if you have thoughts! Just hit reply, or come find us in <a href=\"https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ\">Slack</a> or <a href=\"https://discord.gg/bPGsCKBqWp\">Discord</a>."
-  ],
-  "photoCredit": "Photo by Ashley White / WHRO",
-  "photos": [
-    {
-      "src": "https://757tech.org/images/recap/2026-09-02-whro-article.jpg",
-      "alt": "Attendees at a 757tech workshop working on laptops around tables in a sunlit conference room, one person standing and talking with a seated participant whose laptop is covered in stickers"
-    }
-  ],
-  "quote": {
-    "text": "Everybody in this community has been the warmest, most wholesome group of people that I think I've ever met.",
-    "attribution": "Chazona Baum",
-    "role": "757tech member, speaking to WHRO"
-  }
+  ]
 }
