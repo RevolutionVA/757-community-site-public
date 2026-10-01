@@ -32,12 +32,18 @@
         ]
       },
       {
-        "title": "TODO Pop-up Meetup: <talk title>",
-        "lead": "TODO speaker + topic",
-        "when": "October 22nd, 2026, TODO time at TODO venue",
+        "title": "Pop-up Meetup: Agent Incident Response and Retros",
+        "lead": "Pop-up Meetup #2 brings Mike Rollins to The Hive to talk about incidents where an AI agent was part of the problem. Agents can take actions a system would never normally take, which widens the blast radius and makes the retro harder. You may need to rebuild the conversation across several agents and read their thinking traces just to see what happened.",
+        "image": "https://757tech.org/images/newsletter/2026-10/popup-mike-rollins.jpg",
+        "imageAlt": "Pop-up Meetup at The Hive, guest Mike Rollins, in front of a full auditorium",
+        "imageLink": "https://www.meetup.com/757dev/events/316753818/",
+        "when": "October 22nd, 2026, 6 pm at The Hive, Virginia Beach",
         "price": "Free",
-        "url": "https://757tech.org/popup/",
-        "ctaLabel": "TODO RSVP on Meetup"
+        "url": "https://www.meetup.com/757dev/events/316753818/",
+        "ctaLabel": "RSVP on Meetup",
+        "body": [
+          "Mike will go through real agent incidents and retros, plus the Hugging Face incident, and pull out what may be the first best practices for handling them. Food and drinks are provided. Bring questions and a friend."
+        ]
       }
     ]
   },
