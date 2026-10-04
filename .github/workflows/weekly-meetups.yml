@@ -46,4 +46,16 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add weekly-meetups/
           git commit -m "Generate weekly meetups for $(date +%Y-%m-%d)"
-          git push 
+          git push
+
+      # Draft only — review, verify links, and send from the Bento dashboard.
+      # Each run adds another draft, so a manual re-run means deleting the duplicate.
+      - name: Create Bento newsletter draft
+        env:
+          BENTO_PUBLISHABLE_KEY: ${{ secrets.BENTO_PUBLISHABLE_KEY }}
+          BENTO_SECRET_KEY: ${{ secrets.BENTO_SECRET_KEY }}
+          BENTO_SITE_UUID: ${{ secrets.BENTO_SITE_UUID }}
+          BENTO_FROM_EMAIL: newsletter@revolutionva.org
+          BENTO_FROM_NAME: 757tech
+          BENTO_SEGMENT_ID: '33230'
+        run: node scripts/create-bento-broadcast.js
