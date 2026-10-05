@@ -1,6 +1,6 @@
 # Meetups This Week (Monday - Sunday)
 
-Generated on: 2026-10-05T06:21:22.067Z
+Generated on: 2026-10-05T13:23:19.090Z
 
 ## 4 Meetups This Week
 
