@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
+import { lintProse, reportTropes, weeklyProse } from './lib/tropes-lint.js';
 
 /**
  * Create a Bento broadcast DRAFT for the 757Tech Weekly newsletter.
@@ -22,6 +23,8 @@ import { fileURLToPath } from 'url';
  * --preheader sets the inbox preview text (default: auto-generated from event titles).
  * --dry-run prints the payload without calling the API (no credentials needed).
  * --html-out writes the rendered HTML to a file for browser preview.
+ * --allow-tropes creates the draft even if the tropes check flags the recap or
+ *   CLI copy (the check always runs; on --dry-run it only warns).
  *
  * Required env vars: BENTO_PUBLISHABLE_KEY, BENTO_SECRET_KEY, BENTO_SITE_UUID,
  * BENTO_FROM_EMAIL (must be an authorized author in Bento),
@@ -92,9 +95,12 @@ function broadcastName(monday) {
   return `757Tech Weekly - Week of ${month} ${day}${suffix}, ${monday.getFullYear()}`;
 }
 
+function isoDate(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
 function defaultSourceFile(monday) {
-  const iso = `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, '0')}-${String(monday.getDate()).padStart(2, '0')}`;
-  return path.join(rootDir, 'weekly-meetups', `${iso}-weekly-meetups-slack.txt`);
+  return path.join(rootDir, 'weekly-meetups', `${isoDate(monday)}-weekly-meetups-slack.txt`);
 }
 
 // Parse the generator's slack.txt: day headings `*Tuesday, July 14*`, then per event
@@ -126,15 +132,24 @@ function parseWeeklyFile(filePath) {
 
 // Featured Events = upcoming calendar entries flagged featuredEvent: true
 // Optional weekly recap. Absent file just means nobody wrote one this week.
-function loadRecap() {
+// The file never regenerates, so it only renders when its `forWeek` names the
+// Monday being drafted — otherwise last week's recap would ship again.
+function loadRecap(monday) {
   const file = path.join(rootDir, 'src', 'data', 'newsletter-recap.json');
   if (!fs.existsSync(file)) return null;
+  let recap;
   try {
-    const recap = JSON.parse(fs.readFileSync(file, 'utf8'));
-    return recap.body?.length ? recap : null;
+    recap = JSON.parse(fs.readFileSync(file, 'utf8'));
   } catch (err) {
     fail(`Could not parse src/data/newsletter-recap.json: ${err.message}`);
   }
+  if (!recap.body?.length) return null;
+  const week = isoDate(monday);
+  if (recap.forWeek !== week) {
+    console.warn(`⚠️  Skipping newsletter-recap.json: forWeek is ${recap.forWeek ? `"${recap.forWeek}"` : 'missing'}, this draft is for "${week}". Using the boilerplate intro.`);
+    return null;
+  }
+  return recap;
 }
 
 function loadFeatured() {
@@ -361,7 +376,12 @@ async function main() {
   if (eventCount === 0) fail(`No events left after parsing/exclusions in ${sourceFile}`);
 
   const preheader = preheaderArg || defaultPreheader(days);
-  const html = renderHtml({ days, featured: loadFeatured(), recap: loadRecap(), greeting });
+  const recap = loadRecap(monday);
+  const tropes = lintProse(weeklyProse(recap, { greeting: greetingIdx !== -1 ? greeting : null, preheader: preheaderArg }));
+  if (!reportTropes(tropes, { dryRun, allow: args.includes('--allow-tropes'), source: 'newsletter-recap.json / CLI copy' })) {
+    process.exit(1);
+  }
+  const html = renderHtml({ days, featured: loadFeatured(), recap, greeting });
   console.log(`Preview text: ${preheader}`);
   if (htmlOut) {
     fs.writeFileSync(htmlOut, html);
