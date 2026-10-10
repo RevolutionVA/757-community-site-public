@@ -25,7 +25,13 @@ const EMAIL_PATTERN = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
 <section class="hero hero-split" id="top">
   <div class="hero-split-grid">
     <div class="hero-copy">
-      <h1>The front door to tech in the <span class="hl">757</span></h1>
+      <div class="hero-head">
+        <h1>The front door to tech in the <span class="hl">757</span></h1>
+        <a class="hero-backer" href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">
+        <img src="/images/revolutionva-logo.webp" alt="" width="107" height="160" />
+        <span>Supported by <strong>RevolutionVA</strong></span>
+      </a>
+      </div>
       <p class="hero-sub">Every meetup, user group, and regional conference in the 757 — in one tide. Get the Monday digest and never miss what's happening.</p>
       <form
         class="hero-form"
@@ -82,6 +88,15 @@ const EMAIL_PATTERN = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
 </section>
 
 <style>
+  .hero-head { width: fit-content; }
+  .hero-backer {
+    display: flex; align-items: center; justify-content: center; gap: 9px; margin-top: 16px;
+    font-size: 14px; font-weight: 500; color: var(--muted);
+  }
+  @media (max-width: 860px) { .hero-backer { justify-content: flex-start; } }
+  .hero-backer img { height: 30px; width: auto; }
+  .hero-backer strong { color: var(--deep); font-weight: 700; }
+  .hero-backer:hover strong { text-decoration: underline; }
   .hero-form { display: flex; flex-direction: column; gap: 10px; max-width: 480px; margin-top: 4px; }
   .hero-form-row { display: flex; gap: 10px; }
   .hero-form input {
