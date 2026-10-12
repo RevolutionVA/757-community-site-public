@@ -37,6 +37,10 @@ const filesToValidate = [
   { 
     dataFile: 'press.json', 
     schemaFile: 'press.schema.json' 
+  },
+  { 
+    dataFile: 'nnpl-allowlist.json', 
+    schemaFile: 'nnpl-allowlist.schema.json' 
   }
 ];
 

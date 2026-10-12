@@ -1,0 +1,22 @@
+{
+  "feedUrl": "https://calendar.nnpl.org/api/feeds/ics/nnlibrary",
+  "group": "Newport News Public Library",
+  "events": [
+    { "id": "2576", "name": "Computer Essentials" },
+    { "id": "2578", "name": "Excel for Beginners" },
+    { "id": "2580", "name": "Budgeting with Excel" },
+    { "id": "2583", "name": "Word for Beginners" },
+    { "id": "2945", "name": "Canva for Beginners" },
+    { "id": "2948", "name": "Canva II" },
+    { "id": "4033", "name": "3D Printing" },
+    { "id": "4035", "name": "TinkerCAD" },
+    { "id": "4464", "name": "Photoshop for Beginners (Nov 10, 2026)" },
+    { "id": "4466", "name": "Illustrator for Beginners (Oct 13, 2026)" },
+    { "id": "4467", "name": "Illustrator for Beginners (Dec 8, 2026)" },
+    { "id": "4555", "name": "Robotics 101 (Oct 21, 2026)" },
+    { "id": "4556", "name": "Robotics 101 (Nov 18, 2026)" },
+    { "id": "4557", "name": "Robotics 101 (Dec 16, 2026)" },
+    { "id": "4570", "name": "Premiere Pro for Beginners (Oct 27, 2026)" },
+    { "id": "4571", "name": "2D Animation for Beginners (Oct 17, 2026)" }
+  ]
+}

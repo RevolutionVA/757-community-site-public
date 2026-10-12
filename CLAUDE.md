@@ -43,6 +43,7 @@ This is an **Astro-based static site** for the 757 Tech Community in Hampton Roa
 **Event Sources**: Events are automatically fetched from:
 - Meetup.com RSS feeds (defined in `meetups-combined.json`)
 - Manual entries in `calendar-events.json`
+- Newport News Public Library ICS feed, limited to the reviewed event IDs in `nnpl-allowlist.json` (see `src/data/README.md`)
 
 **Schema Validation**: All JSON data is validated against schemas in `src/data/schemas/`:
 - `meetups.schema.json` - Validates meetup group structure

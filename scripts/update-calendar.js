@@ -9,6 +9,11 @@ import path from "path";
 import https from "https";
 import { fileURLToPath } from "url";
 import Parser from "rss-parser";
+import {
+	parseIcs,
+	reconcileNnplEvents,
+	selectNnplEvents,
+} from "./lib/nnpl-source.js";
 
 // Get the directory name using ES modules approach
 const __filename = fileURLToPath(import.meta.url);
@@ -29,6 +34,15 @@ const MEETUPS_PATH = path.join(
 	"src",
 	"data",
 	"meetups-combined.json",
+);
+
+// Path to the reviewed list of Newport News Public Library events
+const NNPL_ALLOWLIST_PATH = path.join(
+	__dirname,
+	"..",
+	"src",
+	"data",
+	"nnpl-allowlist.json",
 );
 
 // Flag to use mock data if no real events are found
@@ -1157,6 +1171,58 @@ async function fetchAllEvents() {
 }
 
 /**
+ * Reconciles Newport News Public Library events against the library's ICS feed.
+ * A failed or empty fetch leaves the events already on the calendar alone.
+ * @param {Array} events - The calendar events after the Meetup merge
+ * @param {Date} now - The time of this run
+ * @returns {Promise<Array>} - The events with the NNPL entries brought up to date
+ */
+async function applyNnplEvents(events, now) {
+	try {
+		const allowlist = JSON.parse(
+			await fs.promises.readFile(NNPL_ALLOWLIST_PATH, "utf8"),
+		);
+		log(`Fetching NNPL events from ${allowlist.feedUrl}`, LOG_LEVELS.INFO);
+
+		const response = await fetch(allowlist.feedUrl, {
+			signal: AbortSignal.timeout(30000),
+		});
+		if (!response.ok) {
+			throw new Error(`Status code ${response.status}`);
+		}
+
+		const vevents = parseIcs(await response.text());
+		if (vevents.length === 0) {
+			throw new Error("Feed contained no events");
+		}
+
+		const { events: nnplEvents, candidates } = selectNnplEvents(
+			vevents,
+			allowlist,
+			now,
+		);
+		log(
+			`Found ${nnplEvents.length} allowlisted NNPL events in a feed of ${vevents.length}`,
+			LOG_LEVELS.INFO,
+		);
+		for (const candidate of candidates) {
+			log(
+				`NNPL event not on the allowlist: ${candidate.title} (id ${candidate.id}, next ${candidate.date})`,
+				LOG_LEVELS.INFO,
+			);
+		}
+
+		return reconcileNnplEvents(events, nnplEvents, now);
+	} catch (error) {
+		log(
+			`Could not update NNPL events, keeping existing ones: ${error.message}`,
+			LOG_LEVELS.WARN,
+		);
+		return events;
+	}
+}
+
+/**
  * Updates the calendar events JSON file with new events
  */
 async function updateCalendarEvents() {
@@ -1384,7 +1450,10 @@ async function updateCalendarEvents() {
 		}
 
 		// Convert the map back to an array
-		const uniqueEvents = Array.from(eventMap.values());
+		const uniqueEvents = await applyNnplEvents(
+			Array.from(eventMap.values()),
+			now,
+		);
 
 		log(
 			`Added ${newEventsCount} new events, updated ${updatedEventsCount} events`,

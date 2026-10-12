@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NNPL event allowlist",
+  "description": "Reviewed Newport News Public Library events that scripts/update-calendar.js may ingest from the library's ICS feed.",
+  "type": "object",
+  "required": ["feedUrl", "group", "events"],
+  "additionalProperties": false,
+  "properties": {
+    "feedUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "group": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Organizer name shown on every ingested event."
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]+$",
+            "description": "Tockify event ID: the first number after /detail/ in the event URL."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Label for reviewers; not used for matching."
+          }
+        }
+      }
+    }
+  }
+}

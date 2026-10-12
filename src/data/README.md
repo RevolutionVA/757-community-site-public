@@ -170,3 +170,28 @@ Optional fields the site also understands:
 3. Submit a pull request
 
 Thank you for contributing to the 757 Community website! 
+## Newport News Public Library Events
+
+Newport News Public Library (NNPL) publishes every library program in one ICS feed. Only reviewed events are ingested: `nnpl-allowlist.json` lists the Tockify event IDs that `scripts/update-calendar.js` may copy into `calendar-events.json` with `"source": "nnpl"`.
+
+### Adding an NNPL Event
+
+1. Open the event on the [NNPL calendar](https://calendar.nnpl.org/nnlibrary) and copy the first number after `/detail/` in its URL. For `https://calendar.nnpl.org/nnlibrary/detail/2578/1791987300000/30` the ID is `2578`.
+2. Add `{ "id": "2578", "name": "Excel for Beginners" }` to `events` in `nnpl-allowlist.json`. `name` is a label for reviewers and is not used for matching.
+3. Run `npm run validate`.
+
+Each calendar update logs upcoming tech-tagged events that are not on the list (`NNPL event not on the allowlist: …`), which is where to look for new ones.
+
+### How Often an Event Needs Review
+
+- Recurring classes such as Excel for Beginners or 3D Printing reuse one ID for every date, so they are approved once.
+- Classes the library creates fresh each time, such as Robotics 101, get a new ID per date and need a new entry each time. Put the date in `name` so stale entries are easy to prune.
+
+### What the Updater Does
+
+- Uses the date and time from the feed. The timestamp in an event URL is not the occurrence date.
+- Removes an event from the calendar when the library cancels it, removes it, or it leaves the allowlist.
+- Keeps a rescheduled event as the same calendar entry and records the old date in `previousVersion`.
+- Leaves existing NNPL events alone if the feed cannot be fetched.
+
+The feed has no registration status, capacity or price, so listings link out to the library page and do not say whether seats are left.

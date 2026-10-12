@@ -34,3 +34,7 @@ jobs:
     - name: Validate press.json
       run: |
         ajv validate -s src/data/schemas/press.schema.json -d src/data/press.json --strict=false --all-errors
+
+    - name: Validate nnpl-allowlist.json
+      run: |
+        ajv validate -s src/data/schemas/nnpl-allowlist.schema.json -d src/data/nnpl-allowlist.json --strict=false --all-errors
