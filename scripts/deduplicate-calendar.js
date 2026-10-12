@@ -6,17 +6,19 @@
  * It also collapses cross-posted events: a single real-world event announced by two
  * Meetup groups arrives as two entries with different URLs, so the URL key alone can
  * never catch them. See CROSS_POST_PREFERRED_GROUPS below.
+ *
+ * The update-calendar GitHub Action runs this before every commit, so the pure logic
+ * lives in exported `dedupeEvents()` (covered by deduplicate-calendar.test.js) and the
+ * file I/O only runs when the script is executed directly.
  */
 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Get the directory name using ES modules approach
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Path to the calendar events JSON file
 const CALENDAR_FILE_PATH = path.join(
 	__dirname,
 	"..",
@@ -28,7 +30,7 @@ const CALENDAR_FILE_PATH = path.join(
 // When the same event is cross-posted by multiple groups, the listing from the group
 // earliest in this list wins. Groups not named here rank last and fall back to the
 // most-recently-updated entry.
-const CROSS_POST_PREFERRED_GROUPS = ["757 Developers", "AI Collective Hampton Roads"];
+export const CROSS_POST_PREFERRED_GROUPS = ["757 Developers", "AI Collective Hampton Roads"];
 
 // Prefixes that groups put in front of a cross-posted title ("AICHR | Real Title").
 // Deliberately an explicit list rather than a generic "strip anything before a pipe":
@@ -37,7 +39,7 @@ const CROSS_POST_PREFERRED_GROUPS = ["757 Developers", "AI Collective Hampton Ro
 // a real event from the site. If a new group starts cross-posting, add its tag here.
 // Until then the worst case is a visible duplicate, which is far easier to notice than
 // a silently missing event.
-const CROSS_POST_TITLE_TAGS = ["AICHR"];
+export const CROSS_POST_TITLE_TAGS = ["AICHR"];
 
 const CROSS_POST_TAG_PATTERN = new RegExp(
 	`^(?:${CROSS_POST_TITLE_TAGS.map((tag) => tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\s*\\|\\s*`,
@@ -51,7 +53,7 @@ const CROSS_POST_TAG_PATTERN = new RegExp(
  * @param {string} title
  * @returns {string}
  */
-function normalizeTitle(title) {
+export function normalizeTitle(title) {
 	return (title || "")
 		.replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "")
 		.trim()
@@ -90,72 +92,53 @@ function incomingWinsCrossPost(incoming, existing) {
 	);
 }
 
-console.log("Starting calendar deduplication process...");
-
-// Check if the file exists
-if (!fs.existsSync(CALENDAR_FILE_PATH)) {
-	console.error(`Calendar events file not found at ${CALENDAR_FILE_PATH}`);
-	process.exit(1);
-}
-
-try {
-	// Read the file
-	const fileContents = fs.readFileSync(CALENDAR_FILE_PATH, "utf8");
-	const events = JSON.parse(fileContents);
-
-	console.log(`Read ${events.length} events from file`);
-
-	// Map to store unique events
-	// For meetup events: use URL as the primary key
-	// For other events: use title, date without time, and group
+/**
+ * Pure deduplication: exact duplicates first (URL for meetup events, title+day+group
+ * otherwise), then cross-posted copies of the same event. Never throws on a bad
+ * `date` — an event whose date doesn't parse can't be matched, so it passes through
+ * untouched rather than failing the whole calendar update.
+ * @param {Object[]} events
+ * @returns {{ events: Object[], duplicatesFound: Object[], crossPostsFound: Object[] }}
+ */
+export function dedupeEvents(events) {
 	const uniqueEventsMap = new Map();
 	const duplicatesFound = [];
 
-	// Process each event
 	for (const event of events) {
 		let key;
-		let isDuplicateKey;
-
-		// For meetup events with a link, use URL as the primary deduplication key
 		if (event.source === "meetup" && event.link) {
 			key = event.link;
-			isDuplicateKey = uniqueEventsMap.has(key);
 		} else {
-			// For non-meetup events, use title, date part, and group
 			const dateObj = new Date(event.date);
-			const datePart = dateObj.toISOString().split("T")[0];
+			const datePart = Number.isNaN(dateObj.getTime())
+				? String(event.date)
+				: dateObj.toISOString().split("T")[0];
 			key = `${event.title}|${datePart}|${event.group}`;
-			isDuplicateKey = uniqueEventsMap.has(key);
 		}
 
-		// If we already have this event, log it as a duplicate
-		if (isDuplicateKey) {
-			const existingEvent = uniqueEventsMap.get(key);
-			duplicatesFound.push({
-				key,
-				existingTitle: existingEvent.title,
-				duplicateTitle: event.title,
-				originalDate: existingEvent.date,
-				duplicateDate: event.date,
-				existingUpdated: existingEvent.updatedDate,
-				duplicateUpdated: event.updatedDate,
-			});
+		const existingEvent = uniqueEventsMap.get(key);
+		if (!existingEvent) {
+			uniqueEventsMap.set(key, event);
+			continue;
+		}
 
-			// Keep the event with the most recent updatedDate (latest info from source)
-			const eventUpdated = new Date(event.updatedDate || event.date);
-			const existingUpdated = new Date(
-				existingEvent.updatedDate || existingEvent.date,
-			);
-			if (eventUpdated > existingUpdated) {
-				uniqueEventsMap.set(key, event);
-			}
-		} else {
-			// This is a new unique event
+		duplicatesFound.push({
+			key,
+			existingTitle: existingEvent.title,
+			duplicateTitle: event.title,
+			originalDate: existingEvent.date,
+			duplicateDate: event.date,
+			existingUpdated: existingEvent.updatedDate,
+			duplicateUpdated: event.updatedDate,
+		});
+
+		const eventUpdated = new Date(event.updatedDate || event.date);
+		const existingUpdated = new Date(existingEvent.updatedDate || existingEvent.date);
+		if (eventUpdated > existingUpdated) {
 			uniqueEventsMap.set(key, event);
 		}
 	}
 
-	// Convert map back to array
 	const urlDedupedEvents = Array.from(uniqueEventsMap.values());
 
 	// Second pass: collapse cross-posted events. The same real-world event announced by
@@ -167,12 +150,13 @@ try {
 	const crossPostsFound = [];
 
 	for (const event of urlDedupedEvents) {
-		if (event.source !== "meetup" || !event.date) {
+		const start = new Date(event.date);
+		if (event.source !== "meetup" || Number.isNaN(start.getTime())) {
 			passThrough.push(event);
 			continue;
 		}
 
-		const key = `${normalizeTitle(event.title)}|${new Date(event.date).toISOString()}`;
+		const key = `${normalizeTitle(event.title)}|${start.toISOString()}`;
 		const existing = crossPostMap.get(key);
 
 		if (!existing) {
@@ -187,56 +171,67 @@ try {
 	}
 
 	const dedupedEvents = [...passThrough, ...crossPostMap.values()];
-
-	// Sort events by date
 	dedupedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-	// Log results
-	const removedCount = events.length - dedupedEvents.length;
-	console.log(`Found and removed ${removedCount} duplicate events`);
+	return { events: dedupedEvents, duplicatesFound, crossPostsFound };
+}
 
-	if (crossPostsFound.length > 0) {
-		console.log(
-			`Collapsed ${crossPostsFound.length} cross-posted events (preferring ${CROSS_POST_PREFERRED_GROUPS[0]}):`,
-		);
-		for (const cross of crossPostsFound) {
+function main() {
+	console.log("Starting calendar deduplication process...");
+
+	try {
+		const events = JSON.parse(fs.readFileSync(CALENDAR_FILE_PATH, "utf8"));
+		console.log(`Read ${events.length} events from file`);
+
+		const { events: dedupedEvents, duplicatesFound, crossPostsFound } = dedupeEvents(events);
+
+		const removedCount = events.length - dedupedEvents.length;
+		console.log(`Found and removed ${removedCount} duplicate events`);
+
+		if (crossPostsFound.length > 0) {
 			console.log(
-				`  "${cross.key}" - kept ${cross.keptGroup}, dropped ${cross.droppedGroup}`,
+				`Collapsed ${crossPostsFound.length} cross-posted events (preferring ${CROSS_POST_PREFERRED_GROUPS[0]}):`,
 			);
+			for (const cross of crossPostsFound) {
+				console.log(
+					`  "${cross.key}" - kept ${cross.keptGroup}, dropped ${cross.droppedGroup}`,
+				);
+			}
 		}
-	}
 
-	// Log the duplicates that were found
-	if (duplicatesFound.length > 0) {
-		console.log(
-			`Duplicates found (keeping the most recently updated version):`,
-		);
-		for (const dup of duplicatesFound) {
-			console.log(`  Key: ${dup.key}`);
+		if (duplicatesFound.length > 0) {
 			console.log(
-				`    Existing: "${dup.existingTitle}" (updated: ${dup.existingUpdated})`,
+				`Duplicates found (keeping the most recently updated version):`,
 			);
-			console.log(
-				`    Duplicate: "${dup.duplicateTitle}" (updated: ${dup.duplicateUpdated})`,
-			);
+			for (const dup of duplicatesFound) {
+				console.log(`  Key: ${dup.key}`);
+				console.log(
+					`    Existing: "${dup.existingTitle}" (updated: ${dup.existingUpdated})`,
+				);
+				console.log(
+					`    Duplicate: "${dup.duplicateTitle}" (updated: ${dup.duplicateUpdated})`,
+				);
+			}
 		}
+
+		const backupPath = `${CALENDAR_FILE_PATH}.bak`;
+		fs.copyFileSync(CALENDAR_FILE_PATH, backupPath);
+		console.log(`Backup created at ${backupPath}`);
+
+		fs.writeFileSync(CALENDAR_FILE_PATH, JSON.stringify(dedupedEvents, null, 2));
+
+		console.log(
+			`Successfully deduplicated events. New count: ${dedupedEvents.length} events (removed ${removedCount})`,
+		);
+	} catch (error) {
+		console.error(`Error deduplicating calendar events: ${error.message}`);
+		if (error.stack) {
+			console.error(error.stack);
+		}
+		process.exit(1);
 	}
+}
 
-	// Make a backup of the original file
-	const backupPath = `${CALENDAR_FILE_PATH}.bak`;
-	fs.copyFileSync(CALENDAR_FILE_PATH, backupPath);
-	console.log(`Backup created at ${backupPath}`);
-
-	// Write the deduplicated events back to the file
-	fs.writeFileSync(CALENDAR_FILE_PATH, JSON.stringify(dedupedEvents, null, 2));
-
-	console.log(
-		`Successfully deduplicated events. New count: ${dedupedEvents.length} events (removed ${removedCount})`,
-	);
-} catch (error) {
-	console.error(`Error deduplicating calendar events: ${error.message}`);
-	if (error.stack) {
-		console.error(error.stack);
-	}
-	process.exit(1);
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+	main();
 }

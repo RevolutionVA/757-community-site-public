@@ -30,10 +30,7 @@ jobs:
       - name: Run update-calendar script
         run: node scripts/update-calendar.js
       
-      # The fetch merges on URL, so an event cross-posted by two groups (different
-      # URLs, same title and start time) comes back as two entries every run.
-      # Collapse them before committing so the site, weekly file, and Bento draft
-      # each list the event once.
+      # update-calendar merges by URL, so cross-posted events (same title+time, different URL) need a second pass.
       - name: Deduplicate cross-posted events
         run: node scripts/deduplicate-calendar.js
       

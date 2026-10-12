@@ -17,7 +17,8 @@
     "fix-calendar": "node scripts/fix-calendar-duplicates.js",
     "add-meetup": "node scripts/add-meetup.js",
     "generate-carousel": "node scripts/generate-weekly-carousel.js",
-    "generate-llms-txt": "node scripts/generate-llms-txt.js"
+    "generate-llms-txt": "node scripts/generate-llms-txt.js",
+    "test": "node --test \"scripts/**/*.test.js\""
   },
   "engines": {
     "node": ">=22.19.0"

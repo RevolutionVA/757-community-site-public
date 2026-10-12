@@ -55,7 +55,7 @@ Outcome handling:
 
 Shared rules for all formats:
 
-- **Dedup cross-listed events.** The same event is sometimes posted to two Meetup groups (recurring case: AI Collective Hampton Roads cross-lists the Peninsula Builders Study Group that 757 Developers also runs). Same title-modulo-prefix, same date, same start time = one event. Keep the **757dev listing** and drop the other. Say so when it happens — the published lineup will be shorter than the source file. The calendar update Action runs `scripts/deduplicate-calendar.js` before every commit, so known cross-posts should already be gone from `calendar-events.json` and the weekly file; this manual check is the backstop. If a duplicate still shows up, the cross-posting group is using a title tag the script doesn't know — add it to `CROSS_POST_TITLE_TAGS` in that script rather than deduping by hand every week.
+- **Dedup cross-listed events.** The same event is sometimes posted to two Meetup groups (recurring case: AI Collective Hampton Roads cross-lists the Peninsula Builders Study Group that 757 Developers also runs). Same title-modulo-prefix, same date, same start time = one event. Keep the **757dev listing** and drop the other. Say so when it happens — the published lineup will be shorter than the source file. The calendar update Action already runs `scripts/deduplicate-calendar.js` before every commit; this manual check is the backstop.
 - Strip decorative emoji from event titles (e.g. 🧜‍♀️).
 - Em-dash (`—`) between title and time.
 - Times as `H:MM AM/PM` (no leading zero).
@@ -325,7 +325,7 @@ Rules when writing one:
 | Clickable-looking URLs in an Instagram caption | IG captions don't linkify; point at the bio and verify the bio link resolves |
 | Delivering an Instagram caption with no image | Caption-only IG posts get no reach — run `npm run generate-carousel` |
 | Running the carousel without the `--exclude` list | It parses the raw `.md`, so it renders slides for cancelled/deduped events |
-| Listing a cross-listed event twice (AICHR + 757dev) | Same title/date/time = one event; keep the 757dev listing and note the dedup. If it recurs, add the group's tag to `CROSS_POST_TITLE_TAGS` in `deduplicate-calendar.js` |
+| Listing a cross-listed event twice (AICHR + 757dev) | Same title/date/time = one event; keep the 757dev listing and note the dedup. If it recurs, add the group's tag to `CROSS_POST_TITLE_TAGS` in `deduplicate-calendar.js` (and, if which copy survives matters, the group to `CROSS_POST_PREFERRED_GROUPS`) |
 | Leaving decorative emoji in titles, or the ` (Event Link)` suffix on URLs | Strip both in every format |
 | Silently dropping a failed event | Tell the user which event was dropped and why |
 | Posting/committing the announcement text | Outputs are chat-only copy-paste blocks; the user publishes |

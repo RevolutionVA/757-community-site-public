@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'package.json'
+      - 'yarn.lock'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'package.json'
+      - 'yarn.lock'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # The script tests import only node builtins, so no install step is needed.
+      - name: Run script tests
+        run: npm test
