@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
+import { formatEventWhen } from './lib/event-dates.js';
 import { lintProse, reportTropes, weeklyProse } from './lib/tropes-lint.js';
 
 /**
@@ -158,24 +159,12 @@ function loadFeatured() {
   const events = data.events || data;
   const now = new Date();
 
-  const ordinal = (n) => `${n}${[11, 12, 13].includes(n % 100) ? 'th' : { 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th'}`;
-  const formatWhen = (startIso, endIso) => {
-    const start = new Date(startIso);
-    const month = start.toLocaleString('en-US', { month: 'long', timeZone: 'America/New_York' });
-    const year = start.getFullYear();
-    if (endIso) {
-      const end = new Date(endIso);
-      if (end.getDate() !== start.getDate()) return `${month} ${start.getDate()}-${ordinal(end.getDate())}, ${year}`;
-    }
-    return `${month} ${ordinal(start.getDate())}, ${year}`;
-  };
-
   return events
     .filter((e) => e.featuredEvent && new Date(e.endDate || e.date) >= now)
     .sort((a, b) => new Date(a.date) - new Date(b.date))
     .map((e) => ({
       name: stripEmoji(e.title),
-      when: formatWhen(e.date, e.endDate),
+      when: formatEventWhen(e.date, e.endDate),
       where: e.location || e.group || '',
       url: e.link,
     }));
