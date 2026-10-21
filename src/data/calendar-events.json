@@ -1,16 +1,5 @@
 [
   {
-    "title": "(CS)²AI Online™ Seminar: Cybersecurity Vulnerability Reporting & Remediation",
-    "link": "https://www.meetup.com/norfolk-cyber-security-for-control-systems/events/316909573/",
-    "date": "2026-10-21T17:00:00.000Z",
-    "description": "Last year Billy and his team hacked a connected wheelchair and sent it careening down a flight of stairs.\n\nRecently the manufacturer issued a patch to its customers that addresses the authentication and encryption weaknesses we exploited. The update has received 510(k) clearance from the FDA, and the patch is cleared for installation on devices. Thus, the circle is complete, the bugs are no more, and the issues we found have been mitigated. The time between public notification and patch release to the public was about 90 days. These 90 days include coordination for public notification, firmware development work, firmware testing, and the FDA’s 510(k) process.\n\nFor those interested in the behind-the-scenes process of vulnerability discovery, reporting and remediation, how it was built and operates, this talk is for you. Register now to learn more about one of the most mature cybersecurity regulatory frameworks in the world.\n\n**[CLICK HERE TO REGISTER for the event](https://events.zoom.us/ev/Aljz6-m4llDAzElKnALNZzssoVxOoaxdC7vE-JRaeTfND4L8PCLy~AkdOczai1xVOF184VCLSt1bDggkK1yNMaX5682m31MlERikSfdYEGoMTl1K5ImpRtrh3h0KgQlYnNz0csjl9DRcwoQ)**\n\n*[https://events.zoom.us/ev/Aljz6-m4llDAzElKnALNZzssoVxOoaxdC7vE-JRaeTfND4L8PCLy~AkdOczai1xVOF184VCLSt1bDggkK1yNMaX5682m31MlERikSfdYEGoMTl1K5ImpRtrh3h0KgQlYnNz0csjl9DRcwoQ](https://events.zoom.us/ev/Aljz6-m4llDAzElKnALNZzssoVxOoaxdC7vE-JRaeTfND4L8PCLy~AkdOczai1xVOF184VCLSt1bDggkK1yNMaX5682m31MlERikSfdYEGoMTl1K5ImpRtrh3h0KgQlYnNz0csjl9DRcwoQ)*\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBecoming a paid member is quick and easy (and helps us keep offering free educational opportunities!).\n\nPlease join now! [https://www.cs2ai.org/plans-pricing](https://www.cs2ai.org/plans-pricing)\n\nAll past seminars and symposiums are available to paid [CS2AI.ORG](http://cs2ai.org/) members. Check out the Resources area of our website in the Members Portal [https://www.cs2ai.org/](https://www.cs2ai.org/)\n\nCertificates for Professional Development/Continuing Education Units (PDUs/CEUs) are available for all registered individuals who attend at least one hour of the event. [https://www.cs2ai.org/get-involved](https://www.cs2ai.org/get-involved)\n\n\\*Please note that (CS)²AI Online™ events are provided free of charge as educational career development content through the support of our paid members and the generous contributions of our corporate Strategic Alliance Partners.\n\nContact information used in registering for our directly supported seminars may be shared with sponsors funding those specific events. Unless noted on our Zoom Event registration page, all events are open for direct funding support.\n\n© Control System Cyber Security Association International 2026",
-    "source": "meetup",
-    "group": "Hampton Roads Cyber Security for Control Systems",
-    "featuredEvent": false,
-    "createdDate": "2026-10-09T18:12:14.969Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
-  },
-  {
     "title": "Matt Gordon: Event-Driven Architecture On Data In Motion",
     "link": "https://www.meetup.com/hampton-roads-sql-server-user-group/events/316868786/",
     "date": "2026-10-21T22:00:00.000Z",
@@ -19,7 +8,7 @@
     "group": "Hampton Roads SQL Server User Group",
     "featuredEvent": false,
     "createdDate": "2026-10-06T18:12:32.102Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Pop-up Meetup: Agent Incident Response and Retros with Mike Rollins",
@@ -30,7 +19,7 @@
     "group": "757 Developers",
     "featuredEvent": true,
     "createdDate": "2026-09-28T18:42:18.155Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z",
+    "updatedDate": "2026-10-21T18:12:24.109Z",
     "location": "The HIVE, Virginia Beach",
     "endDate": "2026-10-23T01:00:00.000Z"
   },
@@ -54,7 +43,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-10-11T06:16:26.335Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -65,7 +54,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-08T00:27:35.304Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "(CS)²AI Online™ Symposium: Cybersecurity of Smart Buildings",
@@ -76,7 +65,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-10-21T06:16:08.630Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -87,7 +76,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-09-20T00:28:59.917Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "757 TechNite Presented by JPMorganChase",
@@ -111,7 +100,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:59.167Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -122,7 +111,18 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-05T00:32:14.736Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
+  },
+  {
+    "title": ".NET Conf 2026 Recap: What's New in .NET 11",
+    "link": "https://www.meetup.com/hampton-roads-net-users-group/events/317075229/",
+    "date": "2026-11-10T22:45:00.000Z",
+    "description": ".NET Conf 2026 kicks off today, and we're getting together to go through the highlights: what's new in .NET 11, C#, ASP.NET Core, Aspire, and the AI tooling across the stack.\n\nKevin Griffin (Microsoft MVP) will walk through the announcements. Bring your questions and your hot takes.\n\n5:45 PM: Doors open\n6:00 PM: Food, drinks, and networking\n6:30 PM: Recap and discussion\n\nMeeting is on the 2nd floor. Free parking is behind the building. Doors may be locked after 6:30, so check the sign on the door.\n\nThanks to our sponsors Issuetrak, Swift Kick, and Marathon Consulting.",
+    "source": "meetup",
+    "group": "Hampton Roads .NET User Group",
+    "featuredEvent": false,
+    "createdDate": "2026-10-21T18:11:53.174Z",
+    "updatedDate": "2026-10-21T18:11:53.174Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -133,7 +133,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-08T18:08:25.893Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -144,7 +144,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-15T00:12:20.067Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -155,7 +155,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-19T06:09:53.245Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "WSDG November Technical Presentation",
@@ -166,7 +166,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-10-17T00:23:55.689Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -177,7 +177,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -188,7 +188,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-19T00:11:51.063Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -199,7 +199,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-22T18:04:34.703Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -210,7 +210,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-10-04T19:02:05.743Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -221,7 +221,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-09-02T00:26:36.631Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -232,7 +232,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-10-04T19:02:07.599Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -243,7 +243,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -254,7 +254,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-28T02:52:27.664Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -265,7 +265,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-09-02T00:26:15.751Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -276,7 +276,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-09-04T06:16:03.291Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -287,7 +287,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -298,7 +298,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-02T06:17:07.225Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -309,7 +309,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-14T00:23:27.430Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -320,7 +320,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -331,7 +331,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -342,7 +342,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -353,7 +353,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-17T00:33:17.915Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -364,7 +364,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-08-21T06:10:41.746Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -375,7 +375,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-09-18T06:16:50.162Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -386,6 +386,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-10-16T06:16:36.260Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
+    "updatedDate": "2026-10-21T18:12:24.109Z"
   }
 ]
