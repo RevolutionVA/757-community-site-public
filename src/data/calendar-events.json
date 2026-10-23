@@ -1,29 +1,5 @@
 [
   {
-    "title": "Pop-up Meetup: Agent Incident Response and Retros with Mike Rollins",
-    "link": "https://www.meetup.com/757dev/events/316753818/",
-    "date": "2026-10-22T22:00:00.000Z",
-    "description": "Join us for our new Pop-up Meetups series, featuring great speakers from around Hampton Roads. If you loved Hampton Roads DevFest, these meetups are for deeper conversation, building on ideas, and seeing how you can be a better professional.\n\n**Agent Incident Response and Retros**\n\nAgent incidents are an entirely different beast than the average run-of-the-mill incidents, and the retros are incredibly complex. Agent involvement greatly increases the potential blast radius, and even if the underlying reason for the incident is possibly known, agent involvement can also hide and/or exacerbate the problem.\n\nBecause agents are decision-making principles in a given system, the result is that they can often take actions that would not have normally occurred within the system. In addition, in order to retro an agent incident, you must recreate the conversation thread if multiple agents are involved, and you may need to look at the thinking traces of at least one or all agents during that process.\n\nThe tooling for retroing these kinds of incidents is still not standard, but I will go through some of our agent incidents and retros as well as the Hugging Face incident and retro to bring out what may be the beginnings of agent incident best practices.\n\n**Bring:** curiosity, questions, and a friend.\n\n📍 The Hive, Virginia Beach\n🕕 Thurs, Oct 22nd · 6:00 PM\n\nFood and drinks will be provided.",
-    "source": "meetup",
-    "group": "757 Developers",
-    "featuredEvent": true,
-    "createdDate": "2026-09-28T18:42:18.155Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z",
-    "location": "The HIVE, Virginia Beach",
-    "endDate": "2026-10-23T01:00:00.000Z"
-  },
-  {
-    "title": "🧜‍♀️ AICHR | Connections & (grocery) carts",
-    "link": "https://www.meetup.com/aicollectivehr/events/316752085/",
-    "date": "2026-10-22T22:30:00.000Z",
-    "description": "Meet people and pick up your weekly groceries.\n\n🤝 **A casual networking hangout in the grocery store cafe**\nChats, connections, & grocery carts is a relaxed, social-first networking event for curious, friendly people across Hampton Roads who enjoy good conversation and knocking out life errands at the same time.\n\nThis is not a lecture.\nThis is not a pitch night.\nAnd you definitely do not need to “prepare” anything.\n\nIt is simply a low-pressure space to meet new people, have real conversations, and casually connect while wandering the aisles and picking up your weekly groceries.\n\nWhether you are deeply into AI and automation, adjacent to tech and creativity, or just someone who enjoys thoughtful conversations with interesting humans, you belong here.\n\n✨ **What to expect**\n\\- Casual\\, open networking with a mix of builders\\, creatives\\, technologists\\, founders\\, students\\, and professionals\n\\- Easy\\, organic conversations while shopping at your own pace\n\\- Light\\, optional conversation prompts to help break the ice if you want them\n\\- No presentations\\, no panels\\, no pressure to “network correctly”\n\\- A friendly\\, welcoming environment for all backgrounds and experience levels\n\\- Come as you are\\. Grab a cart or a basket\\. Pick up dinner for the week\\. \\- \\- Meet a few new people along the way\\.\n\n👥 **Who should attend**\nChats, Connections, & Grocery Carts is for:\n\nPeople who enjoy meeting others without forced networking vibes\nBuilders, creatives, technologists, and curious minds\nAI, automation, no-code, and tech-adjacent folks\nStudents and career switchers exploring what is next\nFounders, consultants, operators, and professionals\nAnyone who likes good conversation and low-stakes socializing\n\nIf you enjoy thoughtful chats and meeting people in unexpected places, you will fit right in.\n\n🏪 **Why a grocery store**\nYou were probably going to the store anyway.\n\nHosting this event in a grocery store keeps things human, practical, and approachable. It removes the pressure of traditional networking and turns it into something simple, efficient, and a little fun.\n\nTwo errands. One cart.\n\n💡 **Why this event exists**\nCommunity grows best in relaxed, everyday spaces.\n\nChats, Connections, & Grocery Carts exists to create an easy, human-centered way for people to connect without titles, talks, or expectations. It is about building relationships, sharing ideas naturally, and strengthening the local community one conversation at a time.\n\nCome say hi. Leave with groceries. Make a few new connections along the way.\n\n**ℹ️ Other bits of info & FAQs**\n\n* This is a free community event\n* Drinks or food are available for purchase depending on the venue\n* Photos or videos may be taken for community and marketing purposes\n* Come solo or bring a friend\n* ​​​Is there free parking in the area? Yes. They’ve got lots of spots available in their parking lot.\n* ​​​Is this free? Yes, but space is limited. Make sure to RSVP.\n\n**🤝 Organizers & partners**\n**Organizers**\n[The AI Collective Hampton Roads](https://linktr.ee/aicollectivehr)\n\n**​Platinum partners**\n[Regent University](https://www.regent.edu/)\n[ECPI University](https://www.ecpi.edu/)\n[Hampton Roads Chamber Foundation](https://hrchamber.com/)\n\n**Bronze partners**\n[Assembly](https://www.assemblynfk.com/)\n[757 Collab](https://757collab.org/)\n\n**🌍 ​Our parent org**\n[The AI Collective](https://www.aicollective.com/) is a global non-profit community uniting 1.3 million+ pioneers – founders, researchers, operators, and investors – exploring the frontier of AI in major tech hubs worldwide. Through events, workshops, and community-led research, we empower the AI ecosystem to collaboratively steer AI’s future toward trust, openness, and human flourishing.\n\n*All attendees and organizers at events affiliated with The AI Collective agree to our [privacy policy](https://www.aicollective.com/files/Data%20Privacy%20and%20Use%20Policy%20~%20The%20AI%20Collective.pdf) and are subject to our [code of conduct](https://www.aicollective.com/files/Code%20of%20Conduct%20~%20The%20AI%20Collective.pdf). Additionally, by registering for this event, you agree to The AI Collective Hampton Roads chapter [photo & video policy](https://sites.google.com/view/aicollectivehr/policies/photo-video).*",
-    "source": "meetup",
-    "group": "AI Collective Hampton Roads",
-    "featuredEvent": false,
-    "createdDate": "2026-09-28T18:13:07.731Z",
-    "updatedDate": "2026-10-21T12:14:15.705Z"
-  },
-  {
     "title": "October Open Build Night",
     "link": "https://www.meetup.com/norfolkjs/events/316929713/",
     "date": "2026-10-26T22:30:00.000Z",
@@ -32,7 +8,7 @@
     "group": "Norfolk.js",
     "featuredEvent": false,
     "createdDate": "2026-10-11T06:16:26.335Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -43,7 +19,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-08T00:27:35.304Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "(CS)²AI Online™ Symposium: Smart Building Cybersecurity",
@@ -54,7 +30,7 @@
     "group": "Hampton Roads Cyber Security for Control Systems",
     "featuredEvent": false,
     "createdDate": "2026-10-21T06:16:08.630Z",
-    "updatedDate": "2026-10-22T18:11:28.803Z",
+    "updatedDate": "2026-10-23T00:25:53.527Z",
     "previousVersion": {
       "title": "(CS)²AI Online™ Symposium: Cybersecurity of Smart Buildings",
       "date": "2026-10-28T17:00:00.000Z"
@@ -69,7 +45,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-09-20T00:28:59.917Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "757 TechNite Presented by JPMorganChase",
@@ -93,7 +69,7 @@
     "group": "AI Collective Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-07-27T12:49:59.167Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -104,7 +80,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-05T00:32:14.736Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": ".NET Conf 2026 Recap: What's New in .NET 11",
@@ -115,7 +91,7 @@
     "group": "Hampton Roads .NET User Group",
     "featuredEvent": false,
     "createdDate": "2026-10-21T18:11:53.174Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -126,7 +102,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-22T00:23:51.701Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -137,7 +113,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-15T00:12:20.067Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -148,7 +124,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-08-19T06:09:53.245Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "WSDG November Technical Presentation",
@@ -159,7 +135,7 @@
     "group": "The Williamsburg Software Developers Group",
     "featuredEvent": false,
     "createdDate": "2026-10-17T00:23:55.689Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -170,7 +146,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:12.503Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -181,7 +157,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-19T00:11:51.063Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -192,7 +168,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-22T18:04:34.703Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Cybersecurity - Chesapeake Weekend Afternoon Networking (WAN)",
@@ -203,7 +179,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-10-04T19:02:05.743Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.527Z"
   },
   {
     "title": "Norfolk Cybersecurity Networking & Happy Hour",
@@ -214,7 +190,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-09-02T00:26:36.631Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Cybersecurity Social/Happy Hour meetup for networking, meeting new people",
@@ -225,7 +201,7 @@
     "group": "Information Systems Security Association ISSA Hampton Roads",
     "featuredEvent": false,
     "createdDate": "2026-10-04T19:02:07.599Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -236,7 +212,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:13.524Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -247,7 +223,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-08-28T02:52:27.664Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -258,7 +234,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-09-02T00:26:15.751Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -269,7 +245,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-09-04T06:16:03.291Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -280,7 +256,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.517Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -291,7 +267,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-02T06:17:07.225Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Peninsula Builders Study Group",
@@ -302,7 +278,7 @@
     "group": "757 Developers",
     "featuredEvent": false,
     "createdDate": "2026-10-14T00:23:27.430Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -313,7 +289,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-05T00:37:15.725Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -324,7 +300,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-05-22T00:44:38.926Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -335,7 +311,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-06-19T00:57:09.734Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -346,7 +322,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-07-17T00:33:17.915Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -357,7 +333,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-08-21T06:10:41.746Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -368,7 +344,7 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-09-18T06:16:50.162Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   },
   {
     "title": "Bitcoin meetup Open Discussion",
@@ -379,6 +355,6 @@
     "group": "Virginia Beach Bitcoin",
     "featuredEvent": false,
     "createdDate": "2026-10-16T06:16:36.260Z",
-    "updatedDate": "2026-10-22T18:11:55.855Z"
+    "updatedDate": "2026-10-23T00:25:53.528Z"
   }
 ]
