@@ -8,211 +8,631 @@
       "file": "2016-11-03-hrdevfest-linda-nichols-001.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-03T19:26:38.044000-04:00",
-      "google_photos_id": "AF1QipMwpluB-S38q34tXiiTCk8MRGZF414f96XaQntw"
+      "google_photos_id": "AF1QipMwpluB-S38q34tXiiTCk8MRGZF414f96XaQntw",
+      "alt": "Sign on a door listing the Keynote speaker Michael Rollins for Hampton Roads DevFest",
+      "scene": "venue",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "quality": 21,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-03-hrdevfest-alex-proaps-002.jpg",
       "photographer": "Alex Proaps",
       "taken_at": "2016-11-03T19:39:08-04:00",
-      "google_photos_id": "AF1QipNahmLSXd6O95G80Fhvnu7E3H_SZGQ1h0qqazn6"
+      "google_photos_id": "AF1QipNahmLSXd6O95G80Fhvnu7E3H_SZGQ1h0qqazn6",
+      "alt": "World Usability Day placemat with hand-drawn sketches and notes about design thinking on the floor",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "swag"
+      ],
+      "quality": 39,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-003.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T08:16:43.883000-04:00",
-      "google_photos_id": "AF1QipNW0nnxqaGtDe1otEUxuAjW1JZNaSJjtU1WMBRN"
+      "google_photos_id": "AF1QipNW0nnxqaGtDe1otEUxuAjW1JZNaSJjtU1WMBRN",
+      "alt": "Attendees check in at a registration desk near glass entrance doors",
+      "scene": "networking",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-004.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T08:16:54.955000-04:00",
-      "google_photos_id": "AF1QipO0WhXvw49OhMLOoE0swe1fRrCkoy-0zVAq46Xs"
+      "google_photos_id": "AF1QipO0WhXvw49OhMLOoE0swe1fRrCkoy-0zVAq46Xs",
+      "alt": "Attendees check in at a registration table near glass doors with bright sunlight streaming in",
+      "scene": "networking",
+      "tags": [
+        "venue",
+        "networking",
+        "sponsor"
+      ],
+      "quality": 61,
+      "flags": [
+        "overexposed"
+      ],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-005.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T08:52:41-04:00",
-      "google_photos_id": "AF1QipPYB82UzetfjMn51WYQ4YrfpPWNHF7LXWgv7KlL"
+      "google_photos_id": "AF1QipPYB82UzetfjMn51WYQ4YrfpPWNHF7LXWgv7KlL",
+      "alt": "Large group of people sitting at tables in a conference room listening to a talk",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-006.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T08:52:43-04:00",
-      "google_photos_id": "AF1QipOS6milAb3zVlOUEDVhewlLfbXnrmxPs-XT_EHd"
+      "google_photos_id": "AF1QipOS6milAb3zVlOUEDVhewlLfbXnrmxPs-XT_EHd",
+      "alt": "Audience members seated at tables in a conference room attending a workshop or talk.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-007.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T08:52:55-04:00",
-      "google_photos_id": "AF1QipN8aHU0JFNUgtIyIjRBIij8O-KFyY2TjEfgHqjC"
+      "google_photos_id": "AF1QipN8aHU0JFNUgtIyIjRBIij8O-KFyY2TjEfgHqjC",
+      "alt": "Audience members seated at tables listening to two speakers standing in front of a presentation screen.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "quality": 50,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-008.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T08:59:59.335000-04:00",
-      "google_photos_id": "AF1QipMuNFuzTsCcS0ppYbQXWZzmdrljmJ_Ewbj9bomR"
+      "google_photos_id": "AF1QipMuNFuzTsCcS0ppYbQXWZzmdrljmJ_Ewbj9bomR",
+      "alt": "Audience listening to a talk at an issuetrak event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-009.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T09:00:03.736000-04:00",
-      "google_photos_id": "AF1QipN-1RjNnRPJcZTF1oj_JtdzH4UDWT4fyGimgeHm"
+      "google_photos_id": "AF1QipN-1RjNnRPJcZTF1oj_JtdzH4UDWT4fyGimgeHm",
+      "alt": "Audience members seated in rows listening to a speaker at a tech conference",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "quality": 57,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-010.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T09:00:11.766000-04:00",
-      "google_photos_id": "AF1QipMfL2cDXiSdzveQizROFdOyyO18KYmI4gFOI3Bu"
+      "google_photos_id": "AF1QipMfL2cDXiSdzveQizROFdOyyO18KYmI4gFOI3Bu",
+      "alt": "Speaker presenting at a tech event with colleagues standing by a window and slides projected on the wall",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "quality": 46,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-011.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T09:19:33.338000-04:00",
-      "google_photos_id": "AF1QipOMnjgvVE8RW4Z-Ri8Fr0HeywUb7CBrsduTZ8T1"
+      "google_photos_id": "AF1QipOMnjgvVE8RW4Z-Ri8Fr0HeywUb7CBrsduTZ8T1",
+      "alt": "Audience sitting in chairs facing a projector screen during a tech talk",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "quality": 29,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-012.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T09:19:39.639000-04:00",
-      "google_photos_id": "AF1QipOUygJ1Aedwo3-WgaEtzjFBSEA5Dab8znz0gr9Y"
+      "google_photos_id": "AF1QipOUygJ1Aedwo3-WgaEtzjFBSEA5Dab8znz0gr9Y",
+      "alt": "Audience seated in a conference room watching a presentation on a large screen",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-alex-proaps-013.jpg",
       "photographer": "Alex Proaps",
       "taken_at": "2016-11-04T09:20:11-04:00",
-      "google_photos_id": "AF1QipMeKWdtu3nuNJU9NuHIKm9v63cnMBame_ISzrg9"
+      "google_photos_id": "AF1QipMeKWdtu3nuNJU9NuHIKm9v63cnMBame_ISzrg9",
+      "alt": "Rows of assorted donuts in open boxes, featuring glazed, pink frosted, and powdered options.",
+      "scene": "food",
+      "tags": [
+        "food"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-014.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T09:46:00.460000-04:00",
-      "google_photos_id": "AF1QipO0dTImdSEr2MbtyoR4DUWffqGQyO8gNdTpJ42E"
+      "google_photos_id": "AF1QipO0dTImdSEr2MbtyoR4DUWffqGQyO8gNdTpJ42E",
+      "alt": "Audience listening to a speaker during a tech talk",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-015.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T10:00:51-04:00",
-      "google_photos_id": "AF1QipN4LRmFdW853UdeKbFJUzV9x2qyYoTkcJvYRwNZ"
+      "google_photos_id": "AF1QipN4LRmFdW853UdeKbFJUzV9x2qyYoTkcJvYRwNZ",
+      "alt": "Audience listening to a talk with food and laptops on tables",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "food",
+        "venue",
+        "signage"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-016.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T10:00:54-04:00",
-      "google_photos_id": "AF1QipO9jrqbBVEed1xqgSmJRquqowiDyY-2a1Ztdubf"
+      "google_photos_id": "AF1QipO9jrqbBVEed1xqgSmJRquqowiDyY-2a1Ztdubf",
+      "alt": "Audience members seated at tables watching a presentation with a projector",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-017.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T10:00:59.102000-04:00",
-      "google_photos_id": "AF1QipN_wZ-JGHizml4c0urzYQYj2R86iXaEz305RZeW"
+      "google_photos_id": "AF1QipN_wZ-JGHizml4c0urzYQYj2R86iXaEz305RZeW",
+      "alt": "Whiteboard with handwritten text reading HRDevFest That's No Moon!",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "quality": 36,
+      "flags": [],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-018.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T10:01:07.686000-04:00",
-      "google_photos_id": "AF1QipNtsH-nWTyovyHQZ2GhzhBlR6dI08NXYYj_Esla"
+      "google_photos_id": "AF1QipNtsH-nWTyovyHQZ2GhzhBlR6dI08NXYYj_Esla",
+      "alt": "Presenters at a podium during a Pokemon Go talk",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-019.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T10:02:54.585000-04:00",
-      "google_photos_id": "AF1QipM5jY7iJHV4sw3ugvkCkYXRl8qtXJgZxyL-IEMT"
+      "google_photos_id": "AF1QipM5jY7iJHV4sw3ugvkCkYXRl8qtXJgZxyL-IEMT",
+      "alt": "Audience watching a presentation from behind during a tech talk",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "quality": 43,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-020.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T10:05:35-04:00",
-      "google_photos_id": "AF1QipNqHeKW_gx-Z2xh3Muuj7rm858TuDF_TUdWhhly"
+      "google_photos_id": "AF1QipNqHeKW_gx-Z2xh3Muuj7rm858TuDF_TUdWhhly",
+      "alt": "Speaker presenting to an audience in a conference room",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-021.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T10:05:39-04:00",
-      "google_photos_id": "AF1QipP26AntyUP13m2RT5x9-rxmZuEj4_pISQbXkbUL"
+      "google_photos_id": "AF1QipP26AntyUP13m2RT5x9-rxmZuEj4_pISQbXkbUL",
+      "alt": "Audience members seated at tables listening to a talk at a tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-022.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T10:15:43.071000-04:00",
-      "google_photos_id": "AF1QipPNM4YaABQ-JwQdqz28IoXz21vWdlZ6ELqNe6-_"
+      "google_photos_id": "AF1QipPNM4YaABQ-JwQdqz28IoXz21vWdlZ6ELqNe6-_",
+      "alt": "Speaker presenting a slide showing a thermostat reading of 78 degrees to an audience in a dark room",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "quality": 32,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-023.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T10:17:38.191000-04:00",
-      "google_photos_id": "AF1QipOH5Gn2PsaOe10mE9LfdLhStes5V3bwliUI86Z3"
+      "google_photos_id": "AF1QipOH5Gn2PsaOe10mE9LfdLhStes5V3bwliUI86Z3",
+      "alt": "Speaker giving presentation next to projected slide",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "quality": 46,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-024.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T11:02:36.174000-04:00",
-      "google_photos_id": "AF1QipN9015E6TY4h9bAiUq9gAJ0QcFyaFLNDcyA7aDw"
+      "google_photos_id": "AF1QipN9015E6TY4h9bAiUq9gAJ0QcFyaFLNDcyA7aDw",
+      "alt": "Speaker standing at a podium giving a presentation to a small audience in a conference room",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "quality": 46,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-025.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T11:02:42.409000-04:00",
-      "google_photos_id": "AF1QipPvBt-HSyKldcLmEVIPolzSv9sLLxYrJFBwAwPa"
+      "google_photos_id": "AF1QipPvBt-HSyKldcLmEVIPolzSv9sLLxYrJFBwAwPa",
+      "alt": "Speaker standing at a podium giving a presentation with slides projected on a screen behind him",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "quality": 46,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-026.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T11:02:43.677000-04:00",
-      "google_photos_id": "AF1QipPi5N0emoXFo71HSiwWCBLUKDCCr6Mi_Bg0Xz8V"
+      "google_photos_id": "AF1QipPi5N0emoXFo71HSiwWCBLUKDCCr6Mi_Bg0Xz8V",
+      "alt": "Speaker standing at a podium next to a projection screen showing presentation slides",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "quality": 32,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-027.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T11:03:02.834000-04:00",
-      "google_photos_id": "AF1QipPG-RgcWcuaDtTrCfQ6pogQGLftSTP0YUtxjb_v"
+      "google_photos_id": "AF1QipPG-RgcWcuaDtTrCfQ6pogQGLftSTP0YUtxjb_v",
+      "alt": "Speaker standing at a podium next to a presentation slide about diversity topics",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "quality": 32,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-028.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T11:03:56.402000-04:00",
-      "google_photos_id": "AF1QipP6Kcm0NWfDawx1CiKxlWxkznRKgvHWFEmCymqV"
+      "google_photos_id": "AF1QipP6Kcm0NWfDawx1CiKxlWxkznRKgvHWFEmCymqV",
+      "alt": "Speaker presenting a slide about diversity on a projector screen in a conference room.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "quality": 46,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-029.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T12:12:43.762000-04:00",
-      "google_photos_id": "AF1QipMdqCKk0Sv3tKMYaPaG0iX5uHdfcN19jPj37WkX"
+      "google_photos_id": "AF1QipMdqCKk0Sv3tKMYaPaG0iX5uHdfcN19jPj37WkX",
+      "alt": "Speaker standing next to a projection screen displaying a presentation on GraphQL code and concepts.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-alex-proaps-030.jpg",
       "photographer": "Alex Proaps",
       "taken_at": "2016-11-04T12:22:56-04:00",
-      "google_photos_id": "AF1QipPhA6A48aRVE6qUO07Z_Y8Oc1_5YQ31ZTW-U4oG"
+      "google_photos_id": "AF1QipPhA6A48aRVE6qUO07Z_Y8Oc1_5YQ31ZTW-U4oG",
+      "alt": "Projector screen showing a quote about tiny leaders building powerful societies by Adam Brault",
+      "scene": "slides-only",
+      "tags": [
+        "slides",
+        "talk"
+      ],
+      "quality": 29,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-031.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T13:14:10-04:00",
-      "google_photos_id": "AF1QipN6Y1jB8_d7ob8H3jUmHHKN9RcBcw1SE8twz6Ix"
+      "google_photos_id": "AF1QipN6Y1jB8_d7ob8H3jUmHHKN9RcBcw1SE8twz6Ix",
+      "alt": "Crowd of people lining up for food at a buffet table",
+      "scene": "food",
+      "tags": [
+        "crowd",
+        "audience",
+        "food"
+      ],
+      "quality": 61,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-linda-nichols-032.jpg",
       "photographer": "Linda Nichols",
       "taken_at": "2016-11-04T13:14:40.360000-04:00",
-      "google_photos_id": "AF1QipO7Ohjs0CRHnQQIDee_WL34QwpJr3smbdZ0kdo4"
+      "google_photos_id": "AF1QipO7Ohjs0CRHnQQIDee_WL34QwpJr3smbdZ0kdo4",
+      "alt": "Attendees lining up for food at a conference buffet",
+      "scene": "food",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "quality": 64,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-033.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T13:14:53-04:00",
-      "google_photos_id": "AF1QipOWI4R-9Q1FggF2ZV-M9u0XR1XLbw0Gmjx-7kja"
+      "google_photos_id": "AF1QipOWI4R-9Q1FggF2ZV-M9u0XR1XLbw0Gmjx-7kja",
+      "alt": "Attendees waiting in a long hallway during a break",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 46,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-034.jpg",
       "photographer": "Kevin Griffin",
       "taken_at": "2016-11-04T13:14:54-04:00",
-      "google_photos_id": "AF1QipMqve4h_qSp4LadLIDaITH4og-XmkpZcaFqZBNc"
+      "google_photos_id": "AF1QipMqve4h_qSp4LadLIDaITH4og-XmkpZcaFqZBNc",
+      "alt": "Attendees standing in a crowded hallway waiting for an event to start",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-alex-proaps-035.jpg",
       "photographer": "Alex Proaps",
       "taken_at": "2016-11-04T20:26:57-04:00",
-      "google_photos_id": "AF1QipNzlLq7C6-EHEhdxgWLRTnAty-DmnteC4beoyM7"
+      "google_photos_id": "AF1QipNzlLq7C6-EHEhdxgWLRTnAty-DmnteC4beoyM7",
+      "alt": "Speaker presenting a hardware prototype on stage at a tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "hardware"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": true
     }
   ]
 }

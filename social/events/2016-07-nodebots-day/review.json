@@ -1,0 +1,2729 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2016-07-30-nodebots-day-linda-nichols-001.jpg": {
+      "description": "A young man in a yellow shirt sits at a long table focused on his laptop, surrounded by small drones and a sign labeled 'DRONES'.",
+      "alt_text": "Man working on a laptop with drones and a sign reading DRONES on the table.",
+      "tags": [
+        "hardware",
+        "workshop",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of a specific workshop activity, though the background is somewhat plain.",
+      "quality": 64,
+      "dhash": "679f38dddeed9f1b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-002.jpg": {
+      "description": "Two men in yellow shirts stand at a podium during a presentation, with one looking at a laptop and the other holding a small device. A projector screen displaying code is visible in the background.",
+      "alt_text": "Two presenters at a tech event standing by a laptop and projector screen showing code",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is functional for showing the speakers but the large desk in the foreground and the empty chair in the foreground reduce the visual impact.",
+      "quality": 54,
+      "dhash": "0000262121272921",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-003.jpg": {
+      "description": "An audience of adults and children sits in a tiered lecture hall, facing forward to watch a presentation or speaker.",
+      "alt_text": "Audience members sitting in rows at a tech event",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the room capacity and engaged attendees.",
+      "quality": 61,
+      "dhash": "c3c7cb65f5e83333",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-004.jpg": {
+      "description": "An audience of diverse attendees sits in tiered lecture hall rows, many with laptops open, listening to a presentation.",
+      "alt_text": "Audience members sitting in tiered lecture hall rows with laptops during a tech talk",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid crowd shot that captures the scale of attendance and engagement in a lecture hall setting.",
+      "quality": 61,
+      "dhash": "c9cc24b356444536",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-005.jpg": {
+      "description": "A presenter in a yellow shirt stands at the front of a lecture hall, pointing to a slide titled 'NodeBots Day Rules' while addressing an audience of young students seated at tiered desks.",
+      "alt_text": "Presenter teaching NodeBots rules to students in a classroom",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good context for a recap post showing the educational aspect of the event, though most attendees are seen from behind.",
+      "quality": 54,
+      "dhash": "662462c5cecec9b0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-006.jpg": {
+      "description": "A large group of children and adults are seated at long tables in a classroom, participating in a hands-on workshop or hack day.",
+      "alt_text": "Students working on computers and electronics during a community tech workshop",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the energy of a busy workshop with many engaged participants, making it great for social media.",
+      "quality": 75,
+      "dhash": "69f39787d7e7c918",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-007.jpg": {
+      "description": "Attendees are gathered in a lecture hall, standing and sitting at tiered desks while working on laptops or chatting during a break.",
+      "alt_text": "Crowd of people networking and using laptops in a university lecture hall",
+      "tags": [
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing attendance and venue, but the woman in the foreground has an unflattering expression.",
+      "quality": 61,
+      "dhash": "1299684149b0cf63",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-008.jpg": {
+      "description": "A group of people are gathered in a large room with tiered seating, appearing to work on laptops and collaborate at long tables.",
+      "alt_text": "Attendees working together at tables in a lecture hall",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "The image is too blurry and has poor composition to be useful for social media.",
+      "quality": 43,
+      "dhash": "96d61a2a8826337c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-009.jpg": {
+      "description": "Attendees in yellow shirts work on laptops and hardware projects at tables while a presentation is projected on the screen in the background.",
+      "alt_text": "People working on laptops and electronics during a workshop with a projector screen visible",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "slides",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of a hands-on workshop showing collaboration and engagement.",
+      "quality": 68,
+      "dhash": "e0d3b2b9339324a4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-010.jpg": {
+      "description": "Two small, wheeled robots are positioned on a green turf field marked with white lines and orange cones, while spectators stand around the perimeter watching.",
+      "alt_text": "Spectators watch two small robots on a green turf field during a robotics competition",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good action shot of the robots, but the composition is slightly cluttered by the heads and feet of onlookers.",
+      "quality": 54,
+      "dhash": "3c1c8cacbb703cb9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-011.jpg": {
+      "description": "Several children are gathered around a small, green robotic soccer field, watching and controlling small robots on the pitch.",
+      "alt_text": "Children watch as small robots play soccer on a miniature green field inside a classroom.",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot showing kids engaged in a robotics activity, perfect for highlighting the educational aspect of the event.",
+      "quality": 75,
+      "dhash": "cfb1b3f66c5bfe79",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-012.jpg": {
+      "description": "A man stands in a classroom holding a small drone with red lights while children watch from behind a desk equipped with a laptop.",
+      "alt_text": "Instructor demonstrating a drone to students in a classroom",
+      "tags": [
+        "workshop",
+        "hardware",
+        "kids",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of a hands-on workshop activity showing student engagement with technology.",
+      "quality": 64,
+      "dhash": "3205838e4acae660",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-013.jpg": {
+      "description": "A group of young people and adults are gathered around a long table with laptops, watching a small drone hovering in the air near a window.",
+      "alt_text": "Children and mentors watch a drone hover near a window during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "people_count": 7,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A great candid shot capturing the energy of a hands-on workshop and collaboration.",
+      "quality": 86,
+      "dhash": "930f3b23775383cf",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-014.jpg": {
+      "description": "A group of young students and an adult mentor are gathered around a table, focused on controlling a small drone using a laptop.",
+      "alt_text": "Students and a mentor work together on a drone project at a tech event",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience"
+      ],
+      "people_count": 6,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot showing engagement and learning; great for highlighting the educational aspect of the event.",
+      "quality": 86,
+      "dhash": "3ffbf9491b979309",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-015.jpg": {
+      "description": "Two children smile for the camera while standing behind a table with a small robot, watched by an adult in a yellow shirt.",
+      "alt_text": "Two smiling kids stand behind a table with a small robot while an adult watches.",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid shot showing kids engaged with robotics, perfect for a family-friendly event recap.",
+      "quality": 82,
+      "dhash": "f2dec9cc06cecfc6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-016.jpg": {
+      "description": "A group of children and adults are gathered in a lecture hall, participating in an interactive activity or workshop.",
+      "alt_text": "Children and adults participate in a hands-on workshop inside a lecture hall",
+      "tags": [
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "people_count": 12,
+      "scene": "workshop",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A candid shot that captures the energy of a youth-focused workshop, though slightly soft in focus.",
+      "quality": 68,
+      "dhash": "83996bdd9d3e3f3f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-017.jpg": {
+      "description": "A group of children and adults are gathered around laptops in a lecture hall, participating in a hands-on workshop or hackathon.",
+      "alt_text": "Children and mentors work together on laptops during a tech workshop in an auditorium.",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "A candid shot that captures the collaborative energy of a youth coding event.",
+      "quality": 68,
+      "dhash": "83bd6b9595be3f3f",
+      "duplicate_of": "2016-07-30-nodebots-day-troy-connor-016.jpg",
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-018.jpg": {
+      "description": "A white drone sits on a grassy field while a person operates it with a remote controller.",
+      "alt_text": "White quadcopter drone resting on green grass near a sidewalk",
+      "tags": [
+        "hardware",
+        "outdoor"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a hardware showcase post, but the composition is dominated by grass and the operator is only partially visible.",
+      "quality": 54,
+      "dhash": "0539e7cc1d0fa4b6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-019.jpg": {
+      "description": "A large group of attendees stands outdoors on a paved area, facing a speaker near a fountain and green lawn.",
+      "alt_text": "Crowd of people standing outside listening to a speaker near a fountain",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good energy showing the scale of the outdoor gathering.",
+      "quality": 68,
+      "dhash": "898dbad6406c7cb1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-020.jpg": {
+      "description": "A large group of people gathers outdoors on a paved plaza near a fountain, likely waiting in line or networking before an event begins.",
+      "alt_text": "Crowd of attendees standing outside near a fountain and trees at a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing event attendance and scale, though the subjects are mostly seen from behind.",
+      "quality": 64,
+      "dhash": "7111064aa8adbe26",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-021.jpg": {
+      "description": "A group of people stands on a paved path outdoors, watching a speaker in a yellow shirt address them near a large grassy field and fountain.",
+      "alt_text": "Crowd of attendees standing outside listening to a speaker near a park with a fountain",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of an outdoor session, though the main speaker is a bit small in the frame.",
+      "quality": 61,
+      "dhash": "9ad8d955240de4c2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-022.jpg": {
+      "description": "A large group of people stands outdoors on a paved area facing a speaker in a yellow shirt who is addressing the crowd near a park with trees and flags.",
+      "alt_text": "Crowd gathered outdoors listening to a speaker near a park",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing the scale of attendance, though the speaker is small and hard to see.",
+      "quality": 61,
+      "dhash": "c0c00e2aab2024b4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-023.jpg": {
+      "description": "A large group of people gathers outdoors on a paved area and grass, facing a speaker in a yellow shirt who is gesturing to the crowd near a fountain.",
+      "alt_text": "Crowd listening to an outdoor presentation near a fountain",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good energy and clear context for a recap post showing the scale of attendance.",
+      "quality": 68,
+      "dhash": "0181b4721226a281",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-024.jpg": {
+      "description": "A large group of people stands outdoors on a paved area facing a speaker in the distance, surrounded by trees and grass.",
+      "alt_text": "Crowd gathered outdoors listening to a speaker near a park",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing the scale of attendance and outdoor venue.",
+      "quality": 61,
+      "dhash": "40635b8b0464e0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-025.jpg": {
+      "description": "A large group of people gathers outdoors on a paved area near a grassy field and fountain, listening to a speaker in a yellow shirt who is gesturing with open arms.",
+      "alt_text": "Crowd gathered outside listening to a speaker standing in front of a green lawn",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good energy and clear context for a recap post showing the scale of attendance.",
+      "quality": 68,
+      "dhash": "4210809f95496860",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-026.jpg": {
+      "description": "A large group of people gathers outdoors on a paved area near a fountain, listening to a speaker in a yellow shirt who is gesturing towards the crowd.",
+      "alt_text": "Crowd gathered outside listening to a speaker near a fountain",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "Good energy showing the community gathering outdoors, though the foreground railing is slightly distracting.",
+      "quality": 68,
+      "dhash": "4230001e8d496860",
+      "duplicate_of": "2016-07-30-nodebots-day-troy-connor-025.jpg",
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-027.jpg": {
+      "description": "A large group of people stands outdoors on a paved area, facing away from the camera towards a grassy field and trees.",
+      "alt_text": "Crowd of attendees standing outside at an event",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor"
+      ],
+      "people_count": 35,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "This is a poor candidate for social media as it shows only the backs of heads and lacks any specific event context or energy.",
+      "quality": 43,
+      "dhash": "9219696b0cc9d1f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-028.jpg": {
+      "description": "A large group of adults and children stand in a long line outdoors, holding up small objects while posing for a photo near a building.",
+      "alt_text": "Large group of adults and kids standing in a line outside holding items up",
+      "tags": [
+        "crowd",
+        "group-photo",
+        "outdoor"
+      ],
+      "people_count": 60,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great energy and captures the full scope of the group, though the wide angle makes individual faces small.",
+      "quality": 82,
+      "dhash": "601889c5076e1b1b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-029.jpg": {
+      "description": "A large, diverse group of adults and children stands in a long line outdoors on a paved path next to a building, participating in an event.",
+      "alt_text": "Long line of adults and children standing outside near trees and a building during a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "group-photo",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 60,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great shot showing the scale and diversity of the community turnout, though the line is very long.",
+      "quality": 79,
+      "dhash": "138e8d8d5e5a1f1c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-030.jpg": {
+      "description": "A large group of adults and children gather outdoors on a paved path near a building, listening to a speaker in a yellow shirt.",
+      "alt_text": "Large crowd of diverse attendees standing outside listening to a speaker during an event",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent shot for a recap showing high attendance and community engagement.",
+      "quality": 79,
+      "dhash": "098187d787361513",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-031.jpg": {
+      "description": "A large group of children and adults pose for a photo outdoors, with many participants holding up small robots or devices.",
+      "alt_text": "Group of kids and adults posing outside with raised robots",
+      "tags": [
+        "group-photo",
+        "outdoor",
+        "hardware",
+        "kids"
+      ],
+      "people_count": 50,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent energy and clear subject matter for a recap post.",
+      "quality": 86,
+      "dhash": "4cc4474b161f1a0e",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-032.jpg": {
+      "description": "A large group of adults and children are gathered outdoors on a paved area, holding up small objects in the air while looking towards the left.",
+      "alt_text": "Large group of people standing outside a building holding items up in the air",
+      "tags": [
+        "crowd",
+        "audience",
+        "group-photo",
+        "outdoor"
+      ],
+      "people_count": 45,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures a high-energy group moment perfect for social media, though the framing is slightly tilted.",
+      "quality": 68,
+      "dhash": "38120b2c69696939",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-033.jpg": {
+      "description": "A large group of attendees stands outdoors in a park-like setting, facing away from the camera towards a gathering point near some flags.",
+      "alt_text": "Group of people standing outside at a tech event looking toward flags",
+      "tags": [
+        "crowd",
+        "audience",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the scale of attendance and outdoor venue, but the lighting is a bit flat and dark.",
+      "quality": 57,
+      "dhash": "11a51715b868743e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-034.jpg": {
+      "description": "A woman in a yellow t-shirt stands behind tables covered in yellow cloths, serving pizza and drinks at an event.",
+      "alt_text": "Volunteer serving pizza from a box at a food table",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The photo captures the food setup but the subject's pose is slightly awkward and the background is plain.",
+      "quality": 43,
+      "dhash": "8db8b8ccceecf4fc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-035.jpg": {
+      "description": "Volunteers in yellow shirts are preparing and serving pizza slices on a long table at an event.",
+      "alt_text": "Volunteers serving pizza slices from a long buffet table",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing food availability, but the woman on the right has an unflattering expression and looks like she is about to drop her plate.",
+      "quality": 46,
+      "dhash": "096090d2c2e2c380",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-036.jpg": {
+      "description": "A man in a black t-shirt and glasses stands eating a slice of pizza while holding a plate, with a drink on a table in the foreground.",
+      "alt_text": "Man standing and eating a slice of pizza at an event",
+      "tags": [
+        "food",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 1
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "This is a candid shot of someone eating with their mouth full, which may be considered unflattering for official social media posts.",
+      "quality": 36,
+      "dhash": "9fcc9d0e1e9c4af6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-037.jpg": {
+      "description": "A wide shot of a lecture hall where attendees, including children and adults, are eating pizza and socializing during a break.",
+      "alt_text": "Attendees eat pizza and chat in tiered rows at a tech event break",
+      "tags": [
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing community size and casual atmosphere, though the lighting is a bit flat.",
+      "quality": 61,
+      "dhash": "161c35ad2f0a094e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-038.jpg": {
+      "description": "Two men wearing yellow event t-shirts are kneeling on the carpet to set up a course using masking tape in front of a projector screen.",
+      "alt_text": "Two men in yellow shirts setting up a tape maze on the floor",
+      "tags": [
+        "venue",
+        "hardware"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good candid shot showing the team effort and setup process for a challenge.",
+      "quality": 61,
+      "dhash": "e0b048c4c94bdda0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-039.jpg": {
+      "description": "Attendees are gathered in a lecture hall, standing at tiered desks and collaborating on projects during a hackathon or workshop.",
+      "alt_text": "Hackers working together at tiered desks in a lecture hall",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "workshop"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good candid shot showing the collaborative atmosphere and venue layout.",
+      "quality": 68,
+      "dhash": "81e41292908816cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-040.jpg": {
+      "description": "A group of children and adults watch a presentation on a large screen showing a robotics competition, while a presenter in a yellow shirt stands to the side.",
+      "alt_text": "Children watching a projected screen showing a robot race during a tech workshop",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue",
+        "hardware",
+        "kids"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great shot capturing the audience's engagement with a robotics demo on screen.",
+      "quality": 71,
+      "dhash": "c499d859f8e868cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-041.jpg": {
+      "description": "A group of children and adults are gathered on the floor watching a small robot navigate a course marked by tape, while one child codes on a laptop nearby.",
+      "alt_text": "Children watch a small robot move along a taped track during a coding workshop",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot capturing the energy of a hands-on coding workshop with kids and robots.",
+      "quality": 86,
+      "dhash": "69292ced3d1d8921",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-042.jpg": {
+      "description": "A group of people are gathered in a classroom setting, working on laptops and collaborating around tables while a presentation is displayed on the screen.",
+      "alt_text": "Attendees work on laptops at desks during a workshop with a projection screen visible",
+      "tags": [
+        "crowd",
+        "audience",
+        "slides",
+        "venue",
+        "workshop"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is a bit dark and the projector screen is washed out, but it effectively shows the audience engaged in the event.",
+      "quality": 54,
+      "dhash": "387099b8f8a99ae3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-043.jpg": {
+      "description": "Attendees are gathered on the floor of a classroom, observing a small robot navigating a course marked with tape while watching a live feed on a large projector screen.",
+      "alt_text": "People watching a robot race on a projector screen in a classroom",
+      "tags": [
+        "crowd",
+        "audience",
+        "slides",
+        "hardware",
+        "robots"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This captures the unique energy of a robotics workshop perfectly by showing both the physical setup and the digital display.",
+      "quality": 71,
+      "dhash": "f838983c88ce5a3c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-044.jpg": {
+      "description": "A group of children and adults are gathered in a classroom, watching a demonstration on a large projector screen where small robots navigate an octagonal track.",
+      "alt_text": "Children and adults watch a robot race on a large projector screen during a tech workshop",
+      "tags": [
+        "audience",
+        "slides",
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Captures the engaged audience and the tech activity well, but the main subject (the screen) is slightly cut off at the top.",
+      "quality": 57,
+      "dhash": "24189999de5e380f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-045.jpg": {
+      "description": "A wide shot of a classroom or lecture hall filled with students and adults working on laptops during a coding workshop, while a presenter stands near the front projection screen.",
+      "alt_text": "Students sit at desks using laptops during a coding workshop in a lecture hall",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the scale of attendance, but the large amount of ceiling space makes it feel a bit empty and unbalanced.",
+      "quality": 57,
+      "dhash": "f289291999f4a467",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-046.jpg": {
+      "description": "A wide shot of a classroom or workshop room where attendees are seated at desks, working on laptops and collaborating. A person in a yellow shirt stands out in the foreground.",
+      "alt_text": "Attendees work on laptops at desks during a tech workshop",
+      "tags": [
+        "workshop",
+        "audience",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing the scale of the event, but avoid using the person in the foreground as they are looking directly at the camera with a neutral expression.",
+      "quality": 61,
+      "dhash": "991a5a6d770d78c3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-047.jpg": {
+      "description": "A wide shot of a crowded lecture hall during a hackathon or workshop, where attendees are seated at tiered desks working on laptops and hardware projects while others stand near the front.",
+      "alt_text": "Attendees work on laptops and robots in a lecture hall during a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "slides",
+        "hardware"
+      ],
+      "people_count": 45,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the busy energy of a hackathon well, though the lighting is dim and the image is slightly grainy.",
+      "quality": 61,
+      "dhash": "9c02746427d80ff4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-troy-connor-048.jpg": {
+      "description": "A wide shot of a large lecture hall filled with attendees working on laptops and hardware projects during a hackathon, while a group stands near the front screen.",
+      "alt_text": "Attendees work on laptops and robots in a tiered lecture hall during a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the busy energy of a hackathon well, though the foreground tables are cluttered with personal items.",
+      "quality": 68,
+      "dhash": "2119c7494be11fe8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-049.jpg": {
+      "description": "A view from the back of a classroom showing attendees in yellow shirts observing a presentation on a large screen, with students seated at desks working on laptops.",
+      "alt_text": "Attendees standing and watching a presentation screen while students work at desks in a classroom",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good context for a recap showing the mix of mentors and students, though the composition is slightly cluttered with foreground heads.",
+      "quality": 68,
+      "dhash": "c2c66e7233b025e4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-050.jpg": {
+      "description": "A group of adults and children are gathered on the floor in a circle, focused on a small robot or device during an interactive workshop.",
+      "alt_text": "Adults and kids sitting on the floor in a circle working with a robot",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot that captures the energy and engagement of a hands-on workshop with both kids and adults.",
+      "quality": 86,
+      "dhash": "61313357f373750b",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-051.jpg": {
+      "description": "A man and woman smile for the camera while seated at a desk with a small wooden robot, laptops, and craft supplies during a hackathon.",
+      "alt_text": "Smiling couple posing with a small wooden robot and laptop at a tech workshop",
+      "tags": [
+        "portrait",
+        "hardware",
+        "crowd"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid shot that captures the friendly atmosphere and hands-on nature of the event.",
+      "quality": 79,
+      "dhash": "c939c4c746201e6e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-052.jpg": {
+      "description": "A wide shot of a lecture hall during a tech event, showing an audience seated at desks with laptops while presenters stand near the front and a large projection screen.",
+      "alt_text": "Audience in a lecture hall watching a presentation on a large screen with presenters standing nearby",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing the venue and crowd size, but the people in the foreground have their backs turned and the image is a bit cluttered.",
+      "quality": 54,
+      "dhash": "64ea7392b291e218",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-053.jpg": {
+      "description": "A group of children sit in a circle on the floor around a taped-off area, programming and watching small robots using laptops.",
+      "alt_text": "Children sitting in a circle programming small robots with laptops",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 9,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A great candid shot showing active engagement and learning, perfect for a newsletter recap.",
+      "quality": 86,
+      "dhash": "a98ad45692d0b0f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-054.jpg": {
+      "description": "Participants in yellow shirts are gathered on the floor around a small robot, with one person standing and another moving quickly near a projection screen.",
+      "alt_text": "Attendees work on a robot during a workshop while others watch",
+      "tags": [
+        "hardware",
+        "workshop",
+        "crowd",
+        "slides"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the energy of a robotics challenge well, though motion blur makes it less suitable for high-quality print.",
+      "quality": 75,
+      "dhash": "40e2b2b2606074d0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-055.jpg": {
+      "description": "A group of children and adults are gathered on the floor in a classroom, focused on small robots while an instructor at a podium looks on.",
+      "alt_text": "Children and adults sitting on the floor working with small robots during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 7,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot capturing the energy of a kids' coding workshop and hands-on learning.",
+      "quality": 82,
+      "dhash": "e37232e0e0f080a0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-056.jpg": {
+      "description": "A group of children and adult mentors are gathered in a circle on the floor, watching a small robot navigate a path marked by tape while using laptops.",
+      "alt_text": "Children and mentors watch a robot move along a taped track during a hands-on workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "networking"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is an excellent photo for social media as it captures the energy and engagement of a youth robotics workshop.",
+      "quality": 86,
+      "dhash": "59d9989c910dc7e4",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-057.jpg": {
+      "description": "A group of children and a few adults are sitting on the floor in a circle, participating in a robotics workshop with laptops and small robots.",
+      "alt_text": "Children and adults sit on the floor in a circle working on small robots and laptops during a tech workshop",
+      "tags": [
+        "kids",
+        "hardware",
+        "workshop",
+        "crowd"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A great candid shot that captures the energy and engagement of a youth coding or robotics session.",
+      "quality": 86,
+      "dhash": "3ab9b3a5369e8533",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-058.jpg": {
+      "description": "A young girl wearing a patterned headscarf and event lanyard focuses on assembling a small electronic robot kit at a table, while other children and adults look on in the background.",
+      "alt_text": "Young girl working on an electronics project with other kids nearby",
+      "tags": [
+        "kids",
+        "hardware",
+        "workshop",
+        "crowd"
+      ],
+      "people_count": 5,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot that captures the energy and engagement of a youth coding workshop.",
+      "quality": 86,
+      "dhash": "d44542999c3461f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-059.jpg": {
+      "description": "A group of children and adults are gathered on the floor around a small robot, participating in a hands-on robotics workshop or hackathon.",
+      "alt_text": "Children and mentors gather on the floor to program and watch a small robot during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "people_count": 9,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot that captures the energy and engagement of a hands-on learning environment.",
+      "quality": 86,
+      "dhash": "dc9612d9ddcee274",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-paul-chin-jr-060.jpg": {
+      "description": "A group of children sits on the floor around a taped-off course, watching a small robot navigate the path while another child operates it from a laptop.",
+      "alt_text": "Children watch a small robot navigate a tape-marked course during a tech workshop",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A vibrant and engaging shot that perfectly captures the energy of a youth-focused tech workshop.",
+      "quality": 93,
+      "dhash": "b066ca4a84a6fb91",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-061.jpg": {
+      "description": "Several children are gathered on a carpeted floor, using laptops to control small robots along a track marked with tape.",
+      "alt_text": "Children sitting on the floor controlling robots with laptops at a tech event",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 7,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid shot capturing the energy of a youth robotics workshop.",
+      "quality": 75,
+      "dhash": "c2939383cb4f5c18",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-paul-chin-jr-062.jpg": {
+      "description": "A group of children and an adult mentor are gathered on the floor around a taped-off track, programming small robots with laptops.",
+      "alt_text": "Children and a mentor program robots on a carpeted floor during a workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent high-angle shot that captures the energy and engagement of a hands-on coding workshop.",
+      "quality": 86,
+      "dhash": "dc485a3385e5addf",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-amanda-ashdown-063.jpg": {
+      "description": "A group of children and adults are gathered on the floor watching a robotics demonstration, while a presenter stands near a large projection screen showing a live feed of the activity.",
+      "alt_text": "Attendees watch a robotics demo projected on a screen at a tech event",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "hardware",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good energy showing the audience engaged with the hardware demo.",
+      "quality": 68,
+      "dhash": "181ab4b490f8fcb8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-064.jpg": {
+      "description": "An overhead view of a group of children and an adult mentor gathered around a tape-marked arena on the floor, working with small robots and laptops during a coding workshop.",
+      "alt_text": "Children and a mentor sitting on the floor around a robot arena made of tape, using laptops to control small robots.",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots",
+        "workshop",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent high-angle shot that clearly shows the workshop activity and engagement; great for social media.",
+      "quality": 86,
+      "dhash": "c48d3721c2df3c6c",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-065.jpg": {
+      "description": "A table covered in colorful craft supplies like pipe cleaners, rubber bands, and plastic containers, likely after a workshop or hackathon activity.",
+      "alt_text": "Craft supplies including pipe cleaners and rubber bands scattered on a table after an event",
+      "tags": [
+        "workshop",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a decent documentation shot of the materials used, but lacks human engagement for social media.",
+      "quality": 36,
+      "dhash": "0c0cdeff243ab8f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-066.jpg": {
+      "description": "A table is covered in a large assortment of stickers, cutouts, and other swag items scattered across the surface.",
+      "alt_text": "Assorted event stickers and swag scattered on a table",
+      "tags": [
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the variety of swag available, but lacks people and energy to be a strong social post.",
+      "quality": 29,
+      "dhash": "3c70c9b0667f7c7c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-067.jpg": {
+      "description": "Attendees are focused on their laptops and hardware projects at curved tables during a hackathon or workshop.",
+      "alt_text": "People working on laptops and robots at a tech event",
+      "tags": [
+        "hardware",
+        "audience"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great action shot showing the collaborative and technical nature of the event.",
+      "quality": 79,
+      "dhash": "052131e131592159",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-068.jpg": {
+      "description": "Participants are seated at long tables in a lecture hall, focused on building and programming robots with laptops and hardware components.",
+      "alt_text": "Attendees work on robot projects with laptops and parts during a hackathon",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong action shot that clearly shows the hands-on nature of the event and captures the energy of participants building robots.",
+      "quality": 79,
+      "dhash": "89190990925a234b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-069.jpg": {
+      "description": "A young man stands at a table in a workshop setting, smiling as he uses a hot glue gun to assemble a green plastic component.",
+      "alt_text": "Smiling participant using a hot glue gun on a project during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot that captures the energy and engagement of a hands-on workshop.",
+      "quality": 79,
+      "dhash": "7f1c9c933e9ecd0c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-070.jpg": {
+      "description": "Attendees are gathered in a classroom setting, working on laptops and collaborating at tables while a presentation plays on the screen at the front of the room.",
+      "alt_text": "Attendees work on laptops during a tech workshop with a projector screen visible",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a solid documentation shot for a recap showing the workshop environment, though the lighting on the foreground subjects is slightly dim.",
+      "quality": 54,
+      "dhash": "0e098ecb333233e8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-071.jpg": {
+      "description": "A man in a yellow shirt and baseball cap sits at a desk with laptops, holding a game controller while two children watch from the floor nearby.",
+      "alt_text": "Man demonstrating a video game to children at a tech event",
+      "tags": [
+        "hardware",
+        "kids",
+        "workshop"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good candid shot showing engagement and hands-on learning.",
+      "quality": 71,
+      "dhash": "b1a58ca167b2b73e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-072.jpg": {
+      "description": "Several children are gathered on the floor around a green turf field, operating small robots with controllers during a robotics workshop.",
+      "alt_text": "Children controlling small robots on a green turf field during a workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 5,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is an excellent action shot that captures the energy of a youth robotics activity and would work well for social media.",
+      "quality": 79,
+      "dhash": "1c4c9e5a1f6ccf7c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-073.jpg": {
+      "description": "Three children sit on the floor operating small robots on a green turf field marked with white lines for a game called 'Soccer Bots'.",
+      "alt_text": "Children controlling robots on a green turf field during a youth robotics workshop.",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent shot capturing the energy and engagement of a youth robotics activity.",
+      "quality": 89,
+      "dhash": "a9110dccb5b5fdb0",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-074.jpg": {
+      "description": "A group of children and an adult volunteer are gathered on the floor of a lecture hall, controlling small robots on a green mat during a hands-on workshop.",
+      "alt_text": "Children and an instructor control robots on a green mat in a classroom",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent shot capturing the energy of a youth coding or robotics workshop with clear engagement.",
+      "quality": 86,
+      "dhash": "9e6876bccdfb3fca",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-075.jpg": {
+      "description": "A group of children and an adult volunteer are gathered around a green turf field, actively controlling small robots with game controllers during a robotics workshop.",
+      "alt_text": "Children and a mentor control robots on a green turf field during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent action shot capturing the energy of a robotics competition; great for social media.",
+      "quality": 86,
+      "dhash": "ce38deee6816d73b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-076.jpg": {
+      "description": "Two young boys in blue shirts watch small robots maneuver on a green turf field marked like a football pitch.",
+      "alt_text": "Two children watching robot cars on a miniature football field",
+      "tags": [
+        "kids",
+        "robots",
+        "hardware"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Great shot for a 'kids' or 'hardware' post showing engagement and fun.",
+      "quality": 75,
+      "dhash": "37323620a0c0e0c4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-077.jpg": {
+      "description": "A group of children and a young adult are gathered around a green mat in a classroom, actively playing with small robots on a makeshift field.",
+      "alt_text": "Children watching and controlling small robots on a green mat during a tech workshop",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 6,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A lively and engaging shot that captures the energy of a youth robotics workshop.",
+      "quality": 75,
+      "dhash": "6462a0c66a228612",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-078.jpg": {
+      "description": "A woman named Donna wearing a yellow t-shirt and name tag stands in the foreground while other attendees mingle and look at equipment in the background.",
+      "alt_text": "Woman named Donna in yellow shirt standing near registration table with people behind her",
+      "tags": [
+        "portrait",
+        "networking",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a portrait of an attendee with a visible name tag; avoid posting without explicit permission.",
+      "quality": 68,
+      "dhash": "27273771f97923f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-079.jpg": {
+      "description": "A group of adults and children sit on the floor in a circle around a small robot, watching it move within a taped boundary while one person operates a laptop nearby.",
+      "alt_text": "Group of people sitting on the floor watching a small robot navigate a course",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 7,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot that captures the energy of a workshop or hackathon session with both kids and adults engaged.",
+      "quality": 75,
+      "dhash": "4c65c65614fcc834",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-080.jpg": {
+      "description": "Participants sit on the floor around a taped hexagon course labeled 'NODE' while working on laptops and testing small robots.",
+      "alt_text": "People sitting on the floor coding laptops and testing robots inside a taped hexagon marked NODE",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent shot for a newsletter recap as it clearly illustrates the hands-on nature of the workshop.",
+      "quality": 71,
+      "dhash": "f8cc92b5b6c6c2b1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-081.jpg": {
+      "description": "A group of children and an adult mentor sit on the floor around a small wooden robot, watching it navigate a course marked by tape on the carpet.",
+      "alt_text": "Children and a mentor watch a small wooden robot move along a taped path on the floor",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the energy of a hands-on robotics workshop well, though the lighting is slightly dim.",
+      "quality": 71,
+      "dhash": "d8c8d6fc180cc4e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-082.jpg": {
+      "description": "A group of people, including children and adults, are gathered on the floor around a small robot and a laptop, participating in a hands-on workshop or coding session.",
+      "alt_text": "Participants sit on the floor collaborating with a small robot and laptop during a tech workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "audience"
+      ],
+      "people_count": 6,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot that captures the energy of a hands-on workshop and collaboration.",
+      "quality": 75,
+      "dhash": "f0c81d7a60bcd8d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-083.jpg": {
+      "description": "A participant sits on the floor using a laptop to control a small, homemade robot navigating a course marked by tape.",
+      "alt_text": "Participant coding a small wooden robot on a taped track",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good action shot for a workshop recap showing the hands-on nature of the event.",
+      "quality": 54,
+      "dhash": "060632321d134f8d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-084.jpg": {
+      "description": "A participant is focused on soldering a small electronic component at a long table filled with tools and circuit boards.",
+      "alt_text": "Participant soldering a circuit board at a hackathon table",
+      "tags": [
+        "hardware",
+        "workshop"
+      ],
+      "people_count": 1,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong candid shot that captures the hands-on spirit of a hackathon.",
+      "quality": 68,
+      "dhash": "bf6b1afcf01e2e83",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-085.jpg": {
+      "description": "Two smiling volunteers wearing yellow t-shirts and name tags sit behind a table displaying robotics components and kits.",
+      "alt_text": "Two female volunteers in yellow shirts smile at the camera while sitting at a table with robot parts.",
+      "tags": [
+        "portrait",
+        "hardware",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clear and friendly portrait of staff that works well for a 'meet the team' or volunteer spotlight post.",
+      "quality": 68,
+      "dhash": "d436303c2c307030",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-086.jpg": {
+      "description": "A collection of small, wooden wheeled robots with blue circuit boards and colorful decorations are displayed on a table.",
+      "alt_text": "Several small wooden robots with electronic components and colorful decorations sit on a table.",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good detail on the hardware projects, but the lighting is a bit dim and there are no people visible to show engagement.",
+      "quality": 43,
+      "dhash": "819e4621ab483a00",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-087.jpg": {
+      "description": "A collection of small, wooden wheeled robots with blue circuit boards and colorful decorations are arranged on a table.",
+      "alt_text": "Several small wooden robots with wheels and electronic components sit on a grey table.",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good detail on the hardware, but lacks human energy for a main social post.",
+      "quality": 36,
+      "dhash": "a69ada26685e5523",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-088.jpg": {
+      "description": "A presenter in a yellow shirt stands before a group of young students, while a large projection screen displays a video call with other participants.",
+      "alt_text": "Presenter leads a workshop for children watching a video call on a large screen",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "workshop",
+        "kids"
+      ],
+      "people_count": 8,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent shot capturing the energy of a youth coding workshop and remote collaboration.",
+      "quality": 75,
+      "dhash": "04e2d6b4d012d240",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-089.jpg": {
+      "description": "A presenter in a yellow shirt interacts with a group of young students standing near a large projection screen displaying a video call.",
+      "alt_text": "Presenter guiding children during a tech workshop",
+      "tags": [
+        "workshop",
+        "kids",
+        "slides",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures a positive educational moment with engaged students.",
+      "quality": 68,
+      "dhash": "0844ec24a2a5e581",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-090.jpg": {
+      "description": "An instructor in a yellow shirt demonstrates a small device to a group of children in a classroom, while adults watch from tiered seating in the background.",
+      "alt_text": "Instructor showing a device to kids in a classroom",
+      "tags": [
+        "workshop",
+        "kids",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot capturing the energy of a youth workshop and clear engagement.",
+      "quality": 75,
+      "dhash": "e6cd3969ed859dad",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-091.jpg": {
+      "description": "Children are gathered around a taped-off track on the floor, watching small robots race while connected to laptops.",
+      "alt_text": "Kids watching small robots race inside a tape outline on the floor",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 5,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Captures the energy of a youth coding workshop perfectly and is highly engaging for social media.",
+      "quality": 75,
+      "dhash": "704ed25e188bc0d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-092.jpg": {
+      "description": "A group of children and adults sit on the floor in a circle around small robots, participating in an interactive workshop or coding session.",
+      "alt_text": "Children and mentors sitting on the floor watching small robots move inside a taped hexagon course",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent candid shot that captures the energy and engagement of a hands-on robotics workshop.",
+      "quality": 86,
+      "dhash": "466667e6441a3231",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-linda-nichols-093.jpg": {
+      "description": "Two small, wheeled robots with exposed circuit boards are positioned on a carpeted floor marked with tape.",
+      "alt_text": "Two small DIY robots with visible electronics sit on a carpeted floor near a taped line",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "people_count": 0,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clear shot of the hardware projects suitable for a recap post about robotics or coding workshops.",
+      "quality": 39,
+      "dhash": "1425a4e5da5a2c4b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-paul-chin-jr-094.jpg": {
+      "description": "A group of children and adult volunteers are gathered on the floor around a small robot, participating in a hands-on coding or robotics workshop.",
+      "alt_text": "Adults and kids sit on the floor watching a small robot move inside a taped boundary during a workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is a high-energy, engaging shot that perfectly captures the spirit of a youth tech workshop and would work well for social media.",
+      "quality": 86,
+      "dhash": "c0d8d09edbcb4637",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-07-30-nodebots-day-paul-chin-jr-095.jpg": {
+      "description": "A group of children and adults are gathered on the floor around a makeshift robot arena, watching small robots compete while an instructor uses a laptop.",
+      "alt_text": "Children and adults watch small robots in a taped-off arena during a workshop",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd",
+        "kids"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent energy and engagement; great for showcasing the educational aspect of the event.",
+      "quality": 86,
+      "dhash": "a0c2d8d422c1cbc6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-096.jpg": {
+      "description": "A group of men are gathered on the floor around a tape-marked course, working with small robots and laptops during a robotics workshop.",
+      "alt_text": "Men collaborating on small robots inside a taped circle marked 'NODE' on the carpet",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot showing the collaborative spirit of a hackathon or workshop.",
+      "quality": 75,
+      "dhash": "a4d4d4343279617c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-097.jpg": {
+      "description": "Two men are crouching on the floor of a classroom, working together to program and test a small robot near a laptop.",
+      "alt_text": "Two men crouching on the floor testing a small robot during a tech workshop",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong image for social media as it clearly shows the hands-on, collaborative nature of the event.",
+      "quality": 79,
+      "dhash": "95d9d863e7e6e6d7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-098.jpg": {
+      "description": "Two small robots compete inside a taped octagon on the floor while participants sit around them using laptops.",
+      "alt_text": "Participants controlling small robots in a taped arena during a tech workshop",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 2,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent action shot that captures the energy of a robotics challenge.",
+      "quality": 68,
+      "dhash": "d6b3c5c9196a9ab9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-099.jpg": {
+      "description": "Participants are gathered on the floor around a taped-off course, testing small robots and laptops during a hands-on workshop.",
+      "alt_text": "People sitting on the floor testing small robots inside a tape-marked course",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good action shot for a recap, but the blue hat at the bottom cuts off the frame awkwardly.",
+      "quality": 57,
+      "dhash": "8eb2a2227a596c68",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-100.jpg": {
+      "description": "Two small robots are positioned on a carpeted floor inside an octagon marked with gray tape, while participants sit nearby using laptops.",
+      "alt_text": "Participants code robots during a robotics competition",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid action shot showing the robots in use, though the framing cuts off the participants' faces.",
+      "quality": 54,
+      "dhash": "ab2122e061c5dd7c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-101.jpg": {
+      "description": "A small, wooden wheeled robot sits on a carpeted floor inside a circle of grey tape, with a person's hand visible in the background operating a controller.",
+      "alt_text": "Wooden robot on carpet inside taped circle",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "people_count": 1,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the hardware aspect of a hackathon, but the composition is cluttered and the subject is cut off.",
+      "quality": 36,
+      "dhash": "80b4c8483068feec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-102.jpg": {
+      "description": "Two men are sitting on the floor of a conference room, collaborating on small robots and laptops during a hackathon.",
+      "alt_text": "Two men sit on the floor working on small robots and laptops",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot showing the collaborative spirit and technical work of a hackathon.",
+      "quality": 79,
+      "dhash": "e6a76d64d6d3d3e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-103.jpg": {
+      "description": "Two men are sitting on the floor working together on a small robot project, with one typing on a laptop and the other observing.",
+      "alt_text": "Two men sit on the floor collaborating on a small robot project with a laptop",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot that captures the collaborative energy of a hackathon or workshop.",
+      "quality": 79,
+      "dhash": "b1b1e2e3d3939ac9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-104.jpg": {
+      "description": "Attendees are gathered in a classroom setting, standing around tables with laptops and equipment while a large projection screen displays an image of the room.",
+      "alt_text": "Attendees stand around tables with laptops in front of a projection screen showing a video feed",
+      "tags": [
+        "venue",
+        "audience",
+        "slides"
+      ],
+      "people_count": 6,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and cluttered to be effective for social media.",
+      "quality": 36,
+      "dhash": "e4e8ece8e87262d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-105.jpg": {
+      "description": "A smiling man in a red shirt stands at a table holding an electronics kit and a small robot, likely after completing a workshop or hackathon project.",
+      "alt_text": "Smiling man holding an electronics kit and a small robot at a workbench",
+      "tags": [
+        "hardware",
+        "portrait",
+        "workshop"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid shot showing a participant's pride in their work; the background is slightly cluttered but adds to the workshop atmosphere.",
+      "quality": 82,
+      "dhash": "ecbb6178db2c2c00",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-30-nodebots-day-linda-nichols-106.jpg": {
+      "description": "Attendees collaborate on a robotics project at a long table, with one woman typing on a laptop while others examine hardware components.",
+      "alt_text": "Women working together on a robot and laptop at a hackathon table",
+      "tags": [
+        "hardware",
+        "workshop",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong image showing active collaboration and technical work, perfect for a recap of the hands-on workshops.",
+      "quality": 79,
+      "dhash": "7c69e2b29ecd1366",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-07-31-nodebots-day-linda-nichols-107.jpg": {
+      "description": "A young boy with glasses and a name tag sits at a table next to a small robot he built, looking directly at the camera while others work on laptops in the background.",
+      "alt_text": "Young boy with glasses sitting at a table next to a small DIY robot during a workshop",
+      "tags": [
+        "kids",
+        "hardware",
+        "workshop",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot for social media showing the 'kids' aspect of the event and hands-on learning.",
+      "quality": 75,
+      "dhash": "dcdc9ab8dde5f3d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-08-01-nodebots-day-linda-nichols-108.jpg": {
+      "description": "A group of adults and children gather around a table to examine small hardware components, while a woman in the foreground smiles and gives two thumbs up.",
+      "alt_text": "Smiling woman gives thumbs up while kids and adults look at electronics on a table",
+      "tags": [
+        "hardware",
+        "crowd",
+        "workshop"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is a high-energy shot that perfectly captures the collaborative spirit of a hack day and would make an excellent social media post.",
+      "quality": 86,
+      "dhash": "602819992f6dcc9c",
+      "duplicate_of": null,
+      "pick": true
+    }
+  }
+}
