@@ -1,0 +1,656 @@
+{
+  "event": "NodeBots Day 2016",
+  "sources": [
+    "https://photos.google.com/share/AF1QipPRUOn0SXMnZDWvXjdMSLP8AXLpoFVxAdkAkNYMRH7OZiEHAUsfZDAXEwdl9QW5cQ?key=VHJib0RkWGgzeXpxOWRJUHNQSXVZX3ZWeTVLX0RB"
+  ],
+  "photos": [
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-001.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T08:48:30-04:00",
+      "google_photos_id": "AF1QipOwhohTdOkzbN-PkJSDkz9tPh9uqFXTmsNtgTTP"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-002.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T09:42:31-04:00",
+      "google_photos_id": "AF1QipO61iwU2JwplCHMM47H9L7WIVQORPlousEuLo9t"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-003.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T10:16:17-04:00",
+      "google_photos_id": "AF1QipMVamASbTK3CEIBvHZqy4xG0dKs7GXgXTXXi4rE"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-004.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T10:16:24-04:00",
+      "google_photos_id": "AF1QipPbRXDqIrkW_v_sQ1TIrcXSgReggFx8HjflEJJA"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-005.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T10:18:04-04:00",
+      "google_photos_id": "AF1QipPffPy43NoVHHxMI2Ro4B610lFI2ewrPQrNfnig"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-006.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T10:30:59-04:00",
+      "google_photos_id": "AF1QipMYDUTMJrRXkkHa1GtywcGLYKEUfl5-EvDr-QSQ"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-007.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T10:31:00-04:00",
+      "google_photos_id": "AF1QipPb0heMD7VZPpeoQnuAs4BiTL0bVu8tXmaSBXWu"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-008.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T10:31:03-04:00",
+      "google_photos_id": "AF1QipMNrj160XgvBgHKK0IaNPTv0AYT4ZjAU02r6Tv5"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-009.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T10:31:10-04:00",
+      "google_photos_id": "AF1QipN_CxSinNIJkdn5atLSpBallYq4bXSH2GRIJxPG"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-010.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:08:56-04:00",
+      "google_photos_id": "AF1QipOkNQgKKIIgO0NHbGzWNO1vlQZQU5aNTWO-awCu"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-011.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:09:02-04:00",
+      "google_photos_id": "AF1QipPPm2oQCl0v2MLtmnox_uVRCoRDUa49-hZAo69V"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-012.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:09:21-04:00",
+      "google_photos_id": "AF1QipPeYzEv4WRTz1mdnEofC_R5m7l4MozZh8mJRQB-"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-013.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:09:43-04:00",
+      "google_photos_id": "AF1QipPjes1rFbYPn3CX035tC2uCGmcMA6QYbT5opiVg"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-014.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:10:07-04:00",
+      "google_photos_id": "AF1QipPX_rixFCfiGFVWHn21FB7Q8q-j7I0qdUPaa7aT"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-015.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T11:13:22-04:00",
+      "google_photos_id": "AF1QipN4yCp-xdxGY3EKhq1_j8UzcliK0ewYHQPg0uGl"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-016.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:16:34-04:00",
+      "google_photos_id": "AF1QipMF9Yq0BqYOh7XsWoRVUoNlWWw3EB4-mo1jyB7l"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-017.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:16:36-04:00",
+      "google_photos_id": "AF1QipNMJoqQEBhEzuaq2GJj3jSnw9F3w-ljP9z-2bHy"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-018.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:50:15-04:00",
+      "google_photos_id": "AF1QipN1EO6VbYsDxNPgHrR8vAvINyAJfTQRGfS1iHxx"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-019.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:07-04:00",
+      "google_photos_id": "AF1QipOAdyEPWfymr2my0jg6h2i7FXmCsatQ7IczVtb_"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-020.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:08-04:00",
+      "google_photos_id": "AF1QipNTsTZtYM1TbS5MMFXNizMTXofEYhpXVuDlansn"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-021.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:10-04:00",
+      "google_photos_id": "AF1QipNtBiX0I2ynkfu1mmmjXSxE4EO1BUXhMZsdxJ_T"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-022.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:16-04:00",
+      "google_photos_id": "AF1QipMLsLrf3EoT0EIBwvuIs0LEUf3sOz_EGflksVU0"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-023.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:17-04:00",
+      "google_photos_id": "AF1QipN6wA40CkEtT6xOwBUI_KU0L-E-6zFhFlqzcVQJ"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-024.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:51:23-04:00",
+      "google_photos_id": "AF1QipNmy0gr-fDSPZeTPdLLwx0cZnni9Nw4-J026v-b"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-025.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:24-04:00",
+      "google_photos_id": "AF1QipOwJWH4TJR-UqHD34RwvR5YGacc4r_nwFTKIHBk"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-026.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T11:51:25-04:00",
+      "google_photos_id": "AF1QipOX8QzjOaJyNt35_TWG1dxbXNKDxm6iox7594Ug"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-027.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:51:36-04:00",
+      "google_photos_id": "AF1QipOLBCkyKGHcpaH90GTk9R1mDHGGwrjbPI0KfiZm"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-028.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:51:49-04:00",
+      "google_photos_id": "AF1QipOwxX6ZIgHxb8NpjAD6ChhTgnqTI6zJXKVIrxl-"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-029.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:51:53-04:00",
+      "google_photos_id": "AF1QipOILAOl-O6Jce06G8djeeFPpKF5UJEk5ryHMKgu"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-030.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:54:51-04:00",
+      "google_photos_id": "AF1QipPyuEnmJDlBy21VQJQGQXvSfqTS_sFJaABoVOtV"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-031.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:55:14-04:00",
+      "google_photos_id": "AF1QipNBGXDX-6d4Gle4czKSQ1rb0jmkzNkezF8yJ7yC"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-032.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:55:15-04:00",
+      "google_photos_id": "AF1QipOutmUt8omGqFCrVThaP5vUdPxeU_BT4gKnjZ4s"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-033.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:55:43-04:00",
+      "google_photos_id": "AF1QipPlOWxY6Ld9uuplFM8EI2cF5opG7r7oZaoPXVCM"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-034.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:57:16-04:00",
+      "google_photos_id": "AF1QipPwBJSN_RJcIgGsxhMeFEmCPwUzG1Eml6LvcYnZ"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-035.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:57:35-04:00",
+      "google_photos_id": "AF1QipPttPGxpLCB7AUkODuinFdErj25VdDIODVUgN0U"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-036.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T11:58:29-04:00",
+      "google_photos_id": "AF1QipO8nZ0bsdnb3ag0k_wLoiwmKHAh2aQIwv_lxGN6"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-037.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:09:04-04:00",
+      "google_photos_id": "AF1QipOvU9oDYlLsg_GdRclzGDBF7M0cGP6PhmcDFYPO"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-038.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:10:46-04:00",
+      "google_photos_id": "AF1QipOnurtfKgJ8KiZHq0QE1VqfPa1znIACvwsauN3M"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-039.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:11:08-04:00",
+      "google_photos_id": "AF1QipOrt2cX3TbG27YdT0sWVqqSn9RD7JrCtly4CboB"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-040.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:45:49-04:00",
+      "google_photos_id": "AF1QipMS-6yMjc-tSKWDXoWd0BdhiygO-0D2vAo3-GGt"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-041.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:46:16-04:00",
+      "google_photos_id": "AF1QipMgcux5fUvUhC7d8wXz94CGmCzzXzDs6L7HSMyI"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-042.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T12:49:58-04:00",
+      "google_photos_id": "AF1QipPc7Oy_WC9M1on-gTHsaT4NTiA8OGmy29vrKOby"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-043.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T12:50:02-04:00",
+      "google_photos_id": "AF1QipMrB2u2IV1r9VU4wArYNbeuHGd8Q426dhbObkfw"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-044.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T12:50:26-04:00",
+      "google_photos_id": "AF1QipNlE_oxGy5YmvMAFQ8wiNTQIXTPB6W7p_fZ1dzv"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-045.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T12:52:17-04:00",
+      "google_photos_id": "AF1QipPzQAVmA4qMcrBNGN4a8cdO0dckmTGE6KABhEpu"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-046.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T12:52:20-04:00",
+      "google_photos_id": "AF1QipNFlH_FzVEZr_yv4HMEjpf_xnb2yiQxBZVHF0iH"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-047.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T12:52:33-04:00",
+      "google_photos_id": "AF1QipNvpNkrj5unmeKep-1oSZU-ufZJrhfz5VbqgZ7u"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-troy-connor-048.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2016-07-30T12:52:34-04:00",
+      "google_photos_id": "AF1QipP2AX0uPQH_ZPEbbxxykEO9l-z5WF1khvUiVVE6"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-049.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T12:53:55-04:00",
+      "google_photos_id": "AF1QipMAj3UnESARdTSzltd8BJ3EV7pSMgTG3O2z69QV"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-050.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:55:47-04:00",
+      "google_photos_id": "AF1QipN0ab8pq9n8DvNC5DBd2O7msAenDiTBM3aaXjI-"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-051.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T12:56:11-04:00",
+      "google_photos_id": "AF1QipN98te3Q04OMphiFMnp78W3c__nr7qyNWlpgUU6"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-052.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T13:02:28-04:00",
+      "google_photos_id": "AF1QipONZuF7opAeWYl-IXCSA3NXFBheLUtd3roCXgCp"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-053.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:13:46-04:00",
+      "google_photos_id": "AF1QipMTOB0qVlKvkamN-wYqhaW5F9oRqYphltnJu1wo"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-054.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T13:23:06-04:00",
+      "google_photos_id": "AF1QipMMjoPZ30aIyNk4vEoK4ViKZ5owXipuGq_nQLQt"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-055.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T13:23:48-04:00",
+      "google_photos_id": "AF1QipNfbdtr-Qk0XHxCnPtaSv6t7v8UYmp7VCkphTdo"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-056.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:30:29-04:00",
+      "google_photos_id": "AF1QipMMrlVEz3f9bZXZMtMBMdRH2yVv3NSwCACqLubs"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-057.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:31:51-04:00",
+      "google_photos_id": "AF1QipO7egMu_u_9ou6nLyQ2KwjimQDU4KT3_KQ3pf9f"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-058.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:31:57-04:00",
+      "google_photos_id": "AF1QipMKzfg2X0fhpFHWc7ubQjKiyLlPsDrG43tGZoG4"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-059.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:33:15-04:00",
+      "google_photos_id": "AF1QipP904SLQWcV7Aji5ZJT_CYwfpcs5H2l0-81qBcG"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-paul-chin-jr-060.jpg",
+      "photographer": "Paul Chin Jr.",
+      "taken_at": "2016-07-30T13:36:28-04:00",
+      "google_photos_id": "AF1QipOmoKTo2p2lCbNI_ztLCgpawVHlm5IE3pfYA54i"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-061.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:43:47-04:00",
+      "google_photos_id": "AF1QipOFV-vTB1M86oYyxp0h52Demhmk49oKcVO8CjV7"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-paul-chin-jr-062.jpg",
+      "photographer": "Paul Chin Jr.",
+      "taken_at": "2016-07-30T13:45:50-04:00",
+      "google_photos_id": "AF1QipMyPXKN8olpALfLLOdKG9ANdz2uhE2WF18maBKz"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-amanda-ashdown-063.jpg",
+      "photographer": "Amanda Ashdown",
+      "taken_at": "2016-07-30T13:46:27-04:00",
+      "google_photos_id": "AF1QipNviy4E3wCe5qtjChyZjoMZ7h0gzmPty9rX2kyi"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-064.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T13:52:04-04:00",
+      "google_photos_id": "AF1QipPphyyMRJpUGLeqJLf3acLAJOozoAOb-NIQjrqV"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-065.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:06:40-04:00",
+      "google_photos_id": "AF1QipPw8pOLwe0rvHU79gyD-rgE_4gFZrEnxLw8_IZ8"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-066.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:06:50-04:00",
+      "google_photos_id": "AF1QipM4GeSl93je8Ha4_Rn3cSDaPJpFiJ5lUQF6_B3z"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-067.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:07:33-04:00",
+      "google_photos_id": "AF1QipOW1GblOh6DlQjdH-_XTvDCV0etCqcF-IUmCPNz"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-068.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:07:37-04:00",
+      "google_photos_id": "AF1QipMGV6TC73egdZ7WrUN1O2GWtbKify5etvKvkPpM"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-069.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:07:55-04:00",
+      "google_photos_id": "AF1QipNoJEQBHnNu8sSiCFUlGcG6EC66il5mPZgn0zve"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-070.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:08:19-04:00",
+      "google_photos_id": "AF1QipPLbkuGgyZJL7CQD-_V7etvRgtKUKQWIHjfME2D"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-071.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:14:13-04:00",
+      "google_photos_id": "AF1QipNMJFs6ODEwoLSZfSgQhDOHE_RlgYkBD2FAKyBI"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-072.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:15:19-04:00",
+      "google_photos_id": "AF1QipM-bvRYov0uhlmMiciztEPDtpWpQm8vWy_e5-XM"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-073.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:15:45-04:00",
+      "google_photos_id": "AF1QipPCUoKKp2QF0xEJ5BfCde4l5-i31AUtEOCqOs69"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-074.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:15:53-04:00",
+      "google_photos_id": "AF1QipOaImgXQ3VslBD7SeoJaQh25DnYQsHaLok6i5np"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-075.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:15:59-04:00",
+      "google_photos_id": "AF1QipMQNpVsI_Ggri6GQ8SSvCVs0saOgT1oI5xTFoyl"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-076.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:16:51-04:00",
+      "google_photos_id": "AF1QipPvfmpr6sNnsN2So_s-jIJe5ia_TUjydf2jkD8j"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-077.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:48:40-04:00",
+      "google_photos_id": "AF1QipNJYRArBKmrsyHv7wASAbmTQRrKpvoWF-fI8OfE"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-078.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T14:50:56-04:00",
+      "google_photos_id": "AF1QipO36VeuUoRc0FYHxy1i1zoDFNZr8q_UAJ-CthrD"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-079.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:10:18-04:00",
+      "google_photos_id": "AF1QipNr2gOTeYP9kdGxVF9oPioaBs7fuu1B4CXAyxYF"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-080.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:16:35-04:00",
+      "google_photos_id": "AF1QipP-d24Sxf3w0xhzWOK7GETPuzpPdZsgcNcrDcVr"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-081.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:16:37-04:00",
+      "google_photos_id": "AF1QipN85KAe2VQ2WOGnwywSkw1dLcmQwdftygBfa6px"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-082.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:16:47-04:00",
+      "google_photos_id": "AF1QipMt11cQMF3x_9r2c0HmtfT_nie6tHnEgKfQI8gB"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-083.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:17:15-04:00",
+      "google_photos_id": "AF1QipMkKHPE1HnfP8GMtTiAYtBjaM1J0ym2SHnXm9Ny"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-084.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:18:22-04:00",
+      "google_photos_id": "AF1QipO4Q1DyfI93D1-jrPscqE8C07xptxmJSR00CeTX"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-085.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:18:38-04:00",
+      "google_photos_id": "AF1QipNg7ZF57YUfK4CxzIJK3d9B_4EpTeyL5vpMp3Xo"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-086.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:18:55-04:00",
+      "google_photos_id": "AF1QipM0FWrK5DM3lfX4SUtXMNixPYfPCXddcrtQFIdc"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-087.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:18:58-04:00",
+      "google_photos_id": "AF1QipPDLNQbKWnwqKplOyxLqo3gXBCJw8OQoRo2EpWc"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-088.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:21:57-04:00",
+      "google_photos_id": "AF1QipPv51minN6NqjNlhhDejIPQ-qOv_iRngSEmx8xX"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-089.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:21:59-04:00",
+      "google_photos_id": "AF1QipMKjEUxGaoK5XTKtA7KkvAnnYmqAnzNAYuQa8lB"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-090.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:22:21-04:00",
+      "google_photos_id": "AF1QipOQL9_5Ln9Xdt9zliaG09uUn2x3lWEcE8nCr2F3"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-091.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:28:53-04:00",
+      "google_photos_id": "AF1QipNcro6Us_nLZwjQDuI4UKD8amO4P6H5cKNPwIXY"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-092.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:29:40-04:00",
+      "google_photos_id": "AF1QipMM89orWqwnEviRtwJtGqarw2JkjyYd8NXLt93h"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-093.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:30:57-04:00",
+      "google_photos_id": "AF1QipPGQlieWrfSsPCl_Ob-RMIsY0j_l62cEI_sk43K"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-paul-chin-jr-094.jpg",
+      "photographer": "Paul Chin Jr.",
+      "taken_at": "2016-07-30T15:31:13-04:00",
+      "google_photos_id": "AF1QipN8WrRDNycWfnIwj8Gg_H5kgXSLvwYBPZR5woT9"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-paul-chin-jr-095.jpg",
+      "photographer": "Paul Chin Jr.",
+      "taken_at": "2016-07-30T15:31:16-04:00",
+      "google_photos_id": "AF1QipMbmEqVsNQuP1dSf7sFEKQmECRnMEaZbbOo8CBl"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-096.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:38:34-04:00",
+      "google_photos_id": "AF1QipOXVJfcyNv1Gn4CE_X4tP4DIPqjeM0gGhD_XA2G"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-097.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:38:37-04:00",
+      "google_photos_id": "AF1QipOZtOuk9gLFmBcIdDKSMF2VStCLC0Ppjg_AB0CL"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-098.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:39:55-04:00",
+      "google_photos_id": "AF1QipPi4E9xOMBn0xcHG_CkKhFSkzmH-fBP0klNVplL"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-099.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:43:18-04:00",
+      "google_photos_id": "AF1QipN_GpN_sLEz2gOAMnEOjVCBLFumfT_NDDWWxm8T"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-100.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:44:13-04:00",
+      "google_photos_id": "AF1QipNjmuXADEng2liUENCncJkxWCXBh6s9QF4u28Ri"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-101.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:45:37-04:00",
+      "google_photos_id": "AF1QipNv4HTK-o22TTJGVd9MhuA9RA2T_OhyQgXNfX1F"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-102.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:52:13-04:00",
+      "google_photos_id": "AF1QipOEdFc2l1Sd6VVNZsQSB3_a9qXKx-JPIT2PRw_7"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-103.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:52:18-04:00",
+      "google_photos_id": "AF1QipODizvOdZrHnZA2T-I0KtIy4vJcYBdZnXB6mjq3"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-104.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T15:57:05-04:00",
+      "google_photos_id": "AF1QipMHSavay2lF6V9aEM880OtAlISzHkugrqefLnSi"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-105.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T16:00:43-04:00",
+      "google_photos_id": "AF1QipO8afIHNoAfFOR-QmtBhNGEeNDw7PF-MnzwaE5S"
+    },
+    {
+      "file": "2016-07-30-nodebots-day-linda-nichols-106.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-30T20:00:12-04:00",
+      "google_photos_id": "AF1QipN0Xxgzf2IyRe7odRujk2K9r4Lti1FxQk6hd-YN"
+    },
+    {
+      "file": "2016-07-31-nodebots-day-linda-nichols-107.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-07-31T15:02:27-04:00",
+      "google_photos_id": "AF1QipP19qk9gb5fcmyyhnH0Uk_pfM9_3R75mtGJQ7WG"
+    },
+    {
+      "file": "2016-08-01-nodebots-day-linda-nichols-108.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2016-08-01T15:35:16-04:00",
+      "google_photos_id": "AF1QipPMfQ8tAgT6GQMDJ3xJVSSGvNbXeHuvlCKOmho-"
+    }
+  ]
+}

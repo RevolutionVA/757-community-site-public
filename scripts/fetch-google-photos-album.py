@@ -105,7 +105,8 @@ def main(album_url, out_dir, event, dry):
         photos.append({"id": it[0], "url": it[1][0], "taken": taken,
                        "photographer": names.get(it[6][0] if it[6] else None, "Unknown")})
     photos.sort(key=lambda p: (p["taken"], p["id"]))
-    print(f"{title}: {len(photos)} items, {len({p['photographer'] for p in photos})} photographers")
+    print(f"{title}: {len(photos)} items, {len({p['photographer'] for p in photos})} photographers, "
+          f"{photos[0]['taken']:%Y-%m-%d} to {photos[-1]['taken']:%Y-%m-%d}")
     if dry:
         return
     os.makedirs(out_dir, exist_ok=True)
@@ -137,7 +138,7 @@ def main(album_url, out_dir, event, dry):
             credits.append({"file": fname, "photographer": p["photographer"],
                             "taken_at": p["taken"].isoformat(), "google_photos_id": p["id"]})
     with open(os.path.join(out_dir, "credits.json"), "w", encoding="utf-8", newline="\n") as f:
-        json.dump({"event": title, "source": album_url, "photos": credits}, f, indent=2, ensure_ascii=False)
+        json.dump({"event": title, "sources": [album_url], "photos": credits}, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
 

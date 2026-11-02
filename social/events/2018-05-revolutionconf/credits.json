@@ -1,6 +1,8 @@
 {
   "event": "RevolutionConf 2018",
-  "source": "https://photos.app.goo.gl/kDMcTQMTyMDKSbKZ7",
+  "sources": [
+    "https://photos.app.goo.gl/kDMcTQMTyMDKSbKZ7"
+  ],
   "photos": [
     {
       "file": "2018-05-16-revolutionconf-alex-proaps-001.jpg",

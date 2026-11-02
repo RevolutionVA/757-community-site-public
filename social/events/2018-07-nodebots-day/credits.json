@@ -1,6 +1,8 @@
 {
   "event": "NodeBots Day 2018",
-  "source": "https://photos.app.goo.gl/eWW27J11z8rC27e56",
+  "sources": [
+    "https://photos.app.goo.gl/eWW27J11z8rC27e56"
+  ],
   "photos": [
     {
       "file": "2018-07-22-nodebots-day-alex-proaps-001.jpg",
