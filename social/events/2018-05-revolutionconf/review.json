@@ -1,0 +1,5085 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2018-05-16-revolutionconf-alex-proaps-001.jpg": {
+      "description": "A close-up flat lay of conference swag including a 'Revolution Conf '18' badge for Alex Proaps, a lanyard, and stickers next to a printed schedule.",
+      "alt_text": "Conference badge, lanyard, and schedule on a table",
+      "tags": [
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Contains a visible attendee name and affiliation on the badge; avoid posting without blurring personal details.",
+      "quality": 39,
+      "dhash": "63b4b75a372ccfce",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-002.jpg": {
+      "description": "A large, colorful mural featuring geometric patterns and arrows is being painted on the side of a building, with paint buckets and supplies visible on the ground.",
+      "alt_text": "Painting supplies sit on the pavement in front of a large wall mural with pink dots and blue arrows under a cloudy sky",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing the venue's exterior or a community art project, but lacks specific event action.",
+      "quality": 32,
+      "dhash": "fff78cfcf7fde000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-003.jpg": {
+      "description": "An exterior shot of a black brick building featuring a large orange social media 'like' icon painted on the wall above a row of windows.",
+      "alt_text": "A large orange speech bubble with a heart and number 1701 painted on the side of a black brick building.",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for establishing the location or branding of the event space.",
+      "quality": 36,
+      "dhash": "6ec4587036f4ecb3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-004.jpg": {
+      "description": "A group of people are gathered in a white room for an interactive art workshop, with one woman gesturing towards paintings on the wall while others listen and observe.",
+      "alt_text": "Group of people participating in an art workshop with paintings displayed on the walls",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A candid shot that captures the collaborative energy of a workshop, though the framing is slightly cluttered.",
+      "quality": 68,
+      "dhash": "9d9b325b1e37630c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-005.jpg": {
+      "description": "Several bottles of Winking Owl wine are chilling in a black trash bag filled with ice cubes.",
+      "alt_text": "Winking Owl wine bottles chilling in a black trash bag filled with ice",
+      "tags": [
+        "food",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and the presentation in a trash bag is unflattering for social media.",
+      "quality": 21,
+      "dhash": "399922cbc96a1b03",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-006.jpg": {
+      "description": "A close-up view of a black trash bin filled with crushed beverage cans and ice, showing the aftermath of a refreshment station.",
+      "alt_text": "Trash bin full of empty soda cans and ice",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Do not use; images of trash bins are unflattering and unlikely to be well-received by attendees.",
+      "quality": 21,
+      "dhash": "c9e8a93849e99d0b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-007.jpg": {
+      "description": "A large silver platter filled with an assortment of cookies and brownies, featuring a mix of chocolate chip, red velvet, and other varieties arranged around a central pile of brownies dusted with powdered sugar.",
+      "alt_text": "Overhead view of a dessert tray with assorted cookies and brownies on a white doily",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Great overhead shot for a social post about the event's catering or break time.",
+      "quality": 43,
+      "dhash": "7f570f17279ee0c1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-008.jpg": {
+      "description": "A close-up view of a beer keg sitting in a blue tub filled with ice, featuring a manual pump dispenser on top.",
+      "alt_text": "Beer keg in an ice-filled blue tub with a hand pump dispenser",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "This is a functional shot of the beverage station but lacks the energy or context needed for a strong social media post.",
+      "quality": 32,
+      "dhash": "e0c7a771b9fedcdc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-009.jpg": {
+      "description": "A close-up view of a buffet table featuring silver chafing dishes with blue napkins, set against a white wood-paneled wall. A large orange sign hangs above the food displaying an Albert Einstein quote about creativity and intelligence.",
+      "alt_text": "Orange sign reading 'Creativity is Intelligence Having Fun' hanging above silver catering trays at an event",
+      "tags": [
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a 'behind the scenes' or food recap post, but lacks the energy of a live event.",
+      "quality": 36,
+      "dhash": "3c26320e0696161e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-alex-proaps-010.jpg": {
+      "description": "A group of people are gathered in a casual indoor space with white brick walls, socializing and holding drinks near an easel.",
+      "alt_text": "Attendees mingling at a tech event with drinks and an easel in the background",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid shot for social media showing attendees mingling and enjoying the venue atmosphere.",
+      "quality": 61,
+      "dhash": "a4a9363649d83c1f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-kristina-krasnolobova-011.jpg": {
+      "description": "Attendees mingle and chat in a large room with white walls during an event, while others work on projects at tables in the background.",
+      "alt_text": "Crowd of people networking and standing around tables at an indoor tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid shot capturing the social atmosphere of the event.",
+      "quality": 61,
+      "dhash": "d8f8d9b9accc8c0f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-kristina-krasnolobova-012.jpg": {
+      "description": "A group of people are gathered around tables in a large room with white walls and colorful abstract art, eating and chatting during a break.",
+      "alt_text": "Attendees eating and socializing at round tables during a break",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 18,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid candid shot capturing the social atmosphere and energy of the lunch break.",
+      "quality": 75,
+      "dhash": "f0703494b4f6d532",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-kristina-krasnolobova-013.jpg": {
+      "description": "A group of people are gathered around tables in a casual indoor setting, eating and socializing during a break at an event.",
+      "alt_text": "Attendees eating and chatting at round tables during a break",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "While it captures the community atmosphere, the candid nature of people eating makes it potentially sensitive for public social media use.",
+      "quality": 61,
+      "dhash": "4c6c6c62349c9ac6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-kristina-krasnolobova-014.jpg": {
+      "description": "A group of people are seated around tables in a casual indoor setting, eating and chatting during a break. Red plastic cups and food containers are visible on the tables.",
+      "alt_text": "Attendees eating and socializing at round tables during a break",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of the community eating and networking, though the composition is a bit cluttered with foreground chairs.",
+      "quality": 61,
+      "dhash": "666e6271361f9999",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-16-revolutionconf-keith-l-privette-015.jpg": {
+      "description": "The exterior of a venue with a large orange heart logo and the number 1701 on the wall, alongside a blue picnic table.",
+      "alt_text": "Exterior view of a building with an orange heart sign and a blue picnic table outside",
+      "tags": [
+        "venue",
+        "outdoor"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good establishing shot for a venue recap, but lacks the energy of an active event.",
+      "quality": 32,
+      "dhash": "60c9d8d9dad8de9f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-016.jpg": {
+      "description": "A scenic view of a coastline with the sun shining brightly over the ocean, casting reflections on the water and illuminating clouds in the sky.",
+      "alt_text": "Sunlight reflecting off the ocean waves near a sandy beach under a cloudy sky",
+      "tags": [
+        "outdoor"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "This is a generic landscape photo that does not depict any event activities or attendees.",
+      "quality": 21,
+      "dhash": "0400000080000010",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-017.jpg": {
+      "description": "Attendees gather around a Cloudreach booth to interact with staff and review materials on the table.",
+      "alt_text": "Crowd of people standing at a Cloudreach conference booth",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "sponsor",
+        "booth"
+      ],
+      "people_count": 12,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing event activity but lighting is dim and the image is slightly grainy.",
+      "quality": 54,
+      "dhash": "131e8f0f8c893131",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-018.jpg": {
+      "description": "Attendees gather around a Cloudreach vendor booth in a conference hall, interacting with staff and reviewing materials on the table.",
+      "alt_text": "Crowd of people standing at a Cloudreach sponsor booth during a tech event",
+      "tags": [
+        "sponsor",
+        "booth",
+        "crowd",
+        "networking"
+      ],
+      "people_count": 10,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good for showing event activity, but the bright light flare on the left is distracting.",
+      "quality": 54,
+      "dhash": "9383ba1b1b9b8b23",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-019.jpg": {
+      "description": "Attendees are gathered around round tables in a conference room, engaged in discussion and working on laptops during a networking break.",
+      "alt_text": "People sitting at round tables talking and using laptops during a conference break",
+      "tags": [
+        "networking",
+        "venue",
+        "food"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid candid shot showing the community atmosphere and attendees collaborating.",
+      "quality": 68,
+      "dhash": "89337cece16c92ca",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-020.heic": {
+      "description": "A speaker in a red shirt presents to an audience seated at round tables, with a large screen displaying 'Wifi: surfside' behind him.",
+      "alt_text": "Speaker presenting slides to an audience at a conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that captures the setting and speaker, though the audience is mostly seen from behind.",
+      "quality": 46,
+      "dhash": "5e4bd22ed3f2e2fd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-021.jpg": {
+      "description": "A speaker in a red shirt stands on stage presenting to an audience seated at round tables, with a large screen displaying the word 'Schedule'.",
+      "alt_text": "Speaker presenting schedule slide to audience at conference tables",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 40,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the scale of attendance and venue setup, though lighting is dim.",
+      "quality": 54,
+      "dhash": "4be7e271c8ccf063",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-022.jpg": {
+      "description": "A large audience sits at round tables in a conference hall, watching a speaker present on stage with slides projected on a screen.",
+      "alt_text": "Audience listening to a presentation at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid wide shot that captures the scale of the event and audience engagement.",
+      "quality": 68,
+      "dhash": "c2c969d35a71e006",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-steve-albers-023.jpg": {
+      "description": "A speaker in a red shirt stands on stage presenting a large venue map displayed on a projector screen, with the audience visible in the foreground.",
+      "alt_text": "Speaker presenting a venue map slide at a conference while an audience watches.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a newsletter recap about the venue or logistics, but the speaker is cut off and the image quality is low.",
+      "quality": 54,
+      "dhash": "135c504236627032",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-024.jpg": {
+      "description": "A wide shot of a large conference hall filled with an audience seated at round tables, watching a presentation on a screen at the front.",
+      "alt_text": "Audience in a large hotel ballroom facing a stage with a presentation screen and speaker.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 100,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "Good for showing the scale of the event, but many people in the foreground are looking at phones rather than the speaker.",
+      "quality": 46,
+      "dhash": "65b9985348591101",
+      "duplicate_of": "2018-05-17-revolutionconf-alex-proaps-025.jpg",
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-025.jpg": {
+      "description": "A speaker in a red shirt presents to a large audience seated at round tables in a conference hall, with a presentation slide visible on the screen.",
+      "alt_text": "Speaker presenting slides to an audience seated at round tables",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 100,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a general recap showing attendance, but the lighting is dim and the image lacks sharpness.",
+      "quality": 54,
+      "dhash": "25b9985348581101",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-026.jpg": {
+      "description": "A speaker in a red shirt stands at a podium presenting to an audience, with a large projection screen behind him displaying the text 'Need help? Find a Red Shirt.'",
+      "alt_text": "Speaker in red shirt presents slides to seated audience at conference.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good context for a recap post showing the speaker and audience interaction.",
+      "quality": 61,
+      "dhash": "b4b74a82f1e16161",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-027.jpg": {
+      "description": "A speaker in a red shirt presents to a large audience seated at round tables in a conference room, with attendees listening and using laptops.",
+      "alt_text": "Speaker presenting to an audience at round tables during a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good wide shot showing the scale of attendance and engagement with the speaker.",
+      "quality": 68,
+      "dhash": "97226387c1d9f82c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-028.jpg": {
+      "description": "A wide shot of a conference room where attendees are seated at round tables facing a stage, watching a presentation titled 'Teaching Coding to Kids... by a 12 year old'.",
+      "alt_text": "Attendees watch a speaker present on teaching coding to kids during a workshop.",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the workshop topic and room setup, but the lighting is dim and the audience is mostly seen from behind.",
+      "quality": 46,
+      "dhash": "e2656f5a3424363a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-029.jpg": {
+      "description": "A wide shot of a conference room where an audience is seated at round tables watching a presentation on a large screen titled 'Teaching Coding to Kids... by a 12 year old'.",
+      "alt_text": "Audience in a conference hall watching a presentation about teaching coding to kids.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the event venue and topic, but the foreground chairs are distracting and the audience is mostly seen from behind.",
+      "quality": 54,
+      "dhash": "e4654b1824263a78",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-030.jpg": {
+      "description": "A young presenter stands at a podium delivering a talk titled 'Teaching Coding to Kids... by a 12 year old' while another man stands near the stage in an empty conference room.",
+      "alt_text": "Young boy giving a presentation on stage with a slide about teaching coding to kids",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for illustrating the specific talk topic, but the empty room and standing man make it feel less like a finished event recap.",
+      "quality": 54,
+      "dhash": "838be32723232373",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-031.jpg": {
+      "description": "A young speaker stands at a podium on stage, presenting a slide titled 'What is Scratch?' to an unseen audience.",
+      "alt_text": "Young presenter speaking at a podium with a presentation screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The speaker is cut off at the knees and the framing includes too much empty ceiling, making it less ideal for social media.",
+      "quality": 50,
+      "dhash": "1084e060b0b078c0",
+      "duplicate_of": "2018-05-17-revolutionconf-keith-l-privette-032.jpg",
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-032.jpg": {
+      "description": "A young speaker stands at a podium presenting a slide titled 'Why Scratch?' to an audience, while another person walks in the background.",
+      "alt_text": "Young presenter speaking at a podium during a tech talk about Scratch programming",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing youth participation in tech, but the angle is slightly awkward and cuts off the top of the screen.",
+      "quality": 61,
+      "dhash": "108460a0b13878c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-033.jpg": {
+      "description": "A young speaker stands at a podium presenting a project on a large screen during a conference session.",
+      "alt_text": "Young boy giving a presentation at a podium with a diagram on the screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of a young presenter that highlights youth participation in the event.",
+      "quality": 68,
+      "dhash": "80e4e0a1913869c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-034.heic": {
+      "description": "A speaker stands at a podium presenting slides on 'Code Blocks' to an audience seated at round tables in a conference hall.",
+      "alt_text": "Speaker presenting code blocks slide to audience at round tables",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the presentation; good for context but lacks high energy.",
+      "quality": 46,
+      "dhash": "cecc6dcccccdfef8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-035.heic": {
+      "description": "A speaker stands at a podium presenting a slide titled 'Code Blocks' to an audience in a conference room.",
+      "alt_text": "Speaker presenting code blocks on a large screen while audience members watch from their seats",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and the slide text is difficult to read, making it less effective for social media than a clearer shot.",
+      "quality": 39,
+      "dhash": "e17f83b3b3a2a2df",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-036.jpg": {
+      "description": "A speaker stands on stage in front of a presentation screen displaying 'Git it Done' while an audience watches from their seats.",
+      "alt_text": "Speaker presenting to an audience with a slide titled Git it Done",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good for showing the event is in progress, but the glare on the screen makes the slide content hard to read.",
+      "quality": 54,
+      "dhash": "9932d2e40410188f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-037.jpg": {
+      "description": "A young speaker stands at a podium on stage, presenting in front of a large projection screen displaying a colorful interface.",
+      "alt_text": "Young boy giving a presentation at a podium with a large screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The photo captures the speaker but is framed too low, cutting off his head and including excessive carpet.",
+      "quality": 54,
+      "dhash": "3080c061a0b0f080",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-038.jpg": {
+      "description": "A young speaker stands at a podium presenting in front of a large projection screen displaying a coding interface.",
+      "alt_text": "Young presenter standing at a podium giving a talk with a large screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing a youth speaker in action, but the image is quite dark and the angle is slightly low.",
+      "quality": 54,
+      "dhash": "0c10c0e0a1b830d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-039.jpg": {
+      "description": "An audience sits at round tables facing a large projection screen during a presentation, with a speaker visible at the podium on the left.",
+      "alt_text": "Audience watching a presentation on a large screen in a conference room",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a general recap of the event venue or session, but lacks engaging action.",
+      "quality": 43,
+      "dhash": "1c3cfe293684a6e8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-040.heic": {
+      "description": "A close-up shot of a conference badge for 'Revolution Conf '18' belonging to Karen Jackson, resting on a textured surface.",
+      "alt_text": "Conference badge for Revolution Conf '18 belonging to Karen Jackson",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Do not use; this photo displays a person's name and title on a badge, which is a privacy risk.",
+      "quality": 32,
+      "dhash": "46cfc7663e9f29e8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-041.jpg": {
+      "description": "A speaker stands at a podium presenting to an audience seated at round tables, with a large projection screen displaying a software interface behind them.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a standard event shot that works for a recap, but the lighting is dim and the audience engagement is hard to see.",
+      "quality": 39,
+      "dhash": "385ccc737353c1c1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-042.jpg": {
+      "description": "A table display featuring Cloudreach branding, including stickers and orange 'Women in Tech' cards alongside a jar of blue tokens.",
+      "alt_text": "Table with Cloudreach stickers and Women in Tech promotional materials",
+      "tags": [
+        "sponsor",
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "Good for showing specific sponsor swag, but lacks the energy of a live event.",
+      "quality": 29,
+      "dhash": "063734487a72d949",
+      "duplicate_of": "2018-05-17-revolutionconf-alex-proaps-043.jpg",
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-043.jpg": {
+      "description": "A table display at a tech event features stacks of orange 'Women in Tech' stickers and blue tokens, alongside clear acrylic boxes.",
+      "alt_text": "Orange Women in Tech stickers and blue tokens on a conference table",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event swag and sponsors, but lacks the energy of a live scene.",
+      "quality": 32,
+      "dhash": "063734587872d949",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-044.jpg": {
+      "description": "A display of event swag on a table, including PopSockets phone grips in packaging, stacks of business cards, and various stickers featuring robots and ninja characters.",
+      "alt_text": "Table displaying event swag including PopSockets, stickers, and brochures",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing off the specific swag available at the event, though it lacks human energy.",
+      "quality": 32,
+      "dhash": "5e1ccdc50c3cb6a7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-045.heic": {
+      "description": "A speaker stands at a podium facing a large projection screen displaying a presentation slide titled 'Who is Datadog'.",
+      "alt_text": "Speaker presenting slides on a projector screen in an empty conference room.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The room is mostly empty and the lighting is dim, making it less engaging for social media than a shot with an audience.",
+      "quality": 39,
+      "dhash": "0e1e8fcbd9d9f8e4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-046.jpg": {
+      "description": "A woman in a blue shirt stands next to a WR Systems banner displaying their services in navigation, engineering, and cybersecurity.",
+      "alt_text": "Woman standing beside a company banner listing services like navigation and cybersecurity",
+      "tags": [
+        "sponsor",
+        "booth",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The subject's hand placement looks slightly unnatural and the pose is stiff, making it less ideal for a dynamic social post.",
+      "quality": 46,
+      "dhash": "8999b76e6c6c2462",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-047.jpg": {
+      "description": "A speaker stands at a podium presenting a slide titled 'Dockerfile Anti-pattern: Using Latest' to an audience seated in a conference room.",
+      "alt_text": "Speaker presenting Docker slides to an audience from behind",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 8,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good context for a recap showing the topic and audience engagement, though lighting is dim.",
+      "quality": 54,
+      "dhash": "9899ece6e6e6e607",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-048.jpg": {
+      "description": "An audience sits at round tables facing a large projection screen displaying a presentation slide titled 'Dockerfile Anti-pattern: Using Latest' during a conference talk.",
+      "alt_text": "Audience members seated at round tables watching a presentation on a large screen in a hotel ballroom",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the scale of attendance and specific technical topic, but the audience is mostly seen from behind.",
+      "quality": 46,
+      "dhash": "1b692ad3d9d0f0e5",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kyle-welch-049.jpg": {
+      "description": "A group of attendees poses for a selfie in a busy conference hall, with one man making a peace sign and another smiling broadly at the camera.",
+      "alt_text": "Group of smiling tech conference attendees posing for a selfie in a crowded hall",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Captures the fun energy of the crowd, though the selfie angle and foreground face are a bit distracting.",
+      "quality": 75,
+      "dhash": "ca848c0d8eee60a4",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-050.jpg": {
+      "description": "Attendees are gathered in a hotel ballroom, lining up at a buffet table for lunch during a break.",
+      "alt_text": "Crowd of people standing in line at a buffet table with stacks of plates and bowls of food.",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the lunch break that shows the venue and crowd size.",
+      "quality": 61,
+      "dhash": "c841ece436c8ec4c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-051.jpg": {
+      "description": "A view through an open doorway into the Mariner B room, where attendees are seated at tables working on laptops in a designated rest and work area.",
+      "alt_text": "Attendees working on laptops inside the Mariner B room, viewed through an open door with signage.",
+      "tags": [
+        "venue",
+        "workshop",
+        "networking",
+        "signage"
+      ],
+      "people_count": 7,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the venue layout and work area, but the lighting is dim and the people are mostly seen from behind.",
+      "quality": 46,
+      "dhash": "cac9c94b4ad8c8cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-052.jpg": {
+      "description": "A smiling woman stands behind a laptop at an event booth while shaking hands with another attendee in the background.",
+      "alt_text": "Smiling woman standing behind a laptop at an event booth shaking hands with another attendee",
+      "tags": [
+        "networking",
+        "portrait",
+        "hardware"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is an excellent candid shot that captures the friendly energy of the event and works perfectly for social media.",
+      "quality": 89,
+      "dhash": "60d2e3e363637069",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-053.jpg": {
+      "description": "Attendees gather around a long buffet table in a hotel ballroom during a break at a tech conference.",
+      "alt_text": "Crowd of people standing near a buffet table with chandeliers in a hotel ballroom",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing the scale of attendance and venue, but the foreground figure is a back-of-head distraction.",
+      "quality": 61,
+      "dhash": "c9c050302c1c2cdd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-054.jpg": {
+      "description": "Two men are engaged in an animated conversation during a break at a tech event, with other attendees mingling and standing near tables in the background.",
+      "alt_text": "Attendees networking and talking in groups at a conference break",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a great candid shot for showing community energy, but the lighting is quite dim and grainy.",
+      "quality": 71,
+      "dhash": "8d1116bcbeb3988c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-055.heic": {
+      "description": "A group of men are gathered in front of a Cloudreach banner, with one man in the center smiling and giving two thumbs up while holding a striped shirt.",
+      "alt_text": "Smiling attendee gives two thumbs up in front of a Cloudreach booth banner at a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "sponsor",
+        "booth",
+        "swag"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-energy shot that captures the positive atmosphere of the event and highlights a sponsor presence.",
+      "quality": 79,
+      "dhash": "63758fb3b3ad6d7e",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-linda-nichols-056.heic": {
+      "description": "An aerial view of a wide, empty sandy beach and the ocean under an overcast sky.",
+      "alt_text": "Aerial view of a long stretch of empty sand meeting the ocean waves under cloudy skies",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a scenic landscape shot with no people or event activity, making it unsuitable for a tech conference recap.",
+      "quality": 32,
+      "dhash": "f070b0bc3df0308c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-057.heic": {
+      "description": "A high-angle view of a wide, sandy beach and the ocean under an overcast sky, with a few scattered people and volleyball nets visible.",
+      "alt_text": "Overcast beach scene with sand, ocean waves, and distant houses along the coast",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good scenic shot of the venue location, but lacks specific event activity or people to make it engaging for a recap.",
+      "quality": 36,
+      "dhash": "727ee3c096dcf60f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-s-z-058.jpg": {
+      "description": "A view of the Yaya Tea counter featuring digital menu screens, shelves of tea ingredients, and large glass beverage dispensers.",
+      "alt_text": "Interior shot of a bubble tea shop counter with digital menus and drink dispensers",
+      "tags": [
+        "venue",
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for establishing the location or showing off the menu, but lacks human energy for a main social post.",
+      "quality": 36,
+      "dhash": "0cce56a1b9d0f40c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-s-z-059.jpg": {
+      "description": "A wide shot of a tea shop interior featuring an exposed brick wall lined with wire racks displaying colorful packages of snacks and ingredients, alongside a wooden service counter.",
+      "alt_text": "Interior view of a tea shop with a brick wall displaying various packaged snacks and ingredients on wire racks next to a wooden counter.",
+      "tags": [
+        "venue",
+        "food",
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "This is a clean architectural shot of the venue's retail display, suitable for establishing the location but lacking human energy.",
+      "quality": 36,
+      "dhash": "833b93d121d2c280",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-060.jpg": {
+      "description": "A close-up view of a white plate filled with an assortment of colorful mini cheesecakes and desserts, featuring various toppings like fruit, chocolate, and nuts.",
+      "alt_text": "An assortment of mini cheesecakes on a white plate with different toppings including fruit, chocolate, and nuts",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Great detail on the desserts for a food recap, but lacks event context or energy.",
+      "quality": 36,
+      "dhash": "16363b4f17176584",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-061.jpg": {
+      "description": "A close-up overhead shot of a white plate containing three assorted pastries and one chocolate truffle, with a 'Revolution Conf '18' conference badge visible in the background.",
+      "alt_text": "Three pastries on a white plate next to a Revolution Conf '18 badge",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a 'behind the scenes' or food recap post, but lacks the energy of an event shot.",
+      "quality": 32,
+      "dhash": "8e373e4fc30767ec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kristina-krasnolobova-062.jpg": {
+      "description": "A speaker presents a slide titled 'We Can Do It!' to an audience seated at round tables in a conference room with large chandeliers.",
+      "alt_text": "Audience watches a presentation on a large screen in a banquet hall",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good context for a recap showing the venue and audience engagement.",
+      "quality": 61,
+      "dhash": "86e5e19b64656de4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-063.jpg": {
+      "description": "An audience sits at round tables facing a large projection screen during a presentation, with drinks and food visible on the foreground table.",
+      "alt_text": "Audience members seated at tables watching a presentation on a large screen",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "The image is too blurry and low-resolution for high-quality social media posts, though it clearly depicts the event setting.",
+      "quality": 39,
+      "dhash": "e3cf664d0fbb784e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-064.jpg": {
+      "description": "A speaker presents on stage in front of a large screen displaying slides about the history of women coders, while an audience member is visible in the foreground.",
+      "alt_text": "Speaker presenting to an audience with a slide titled 'History of Women Coders' projected behind them",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is an excellent shot for social media as it clearly captures the speaker's energy and the specific topic of the presentation.",
+      "quality": 79,
+      "dhash": "20e0e27cd8d9b882",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-greg-norman-065.jpg": {
+      "description": "An audience sits at round tables watching a presentation titled 'The forgotten Coders - The History of Women Coders' on a large projector screen.",
+      "alt_text": "Audience seated at tables watching a presentation slide about women coders",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Good for a newsletter recap of the topic, but avoid social media as many attendees have their backs turned or are obscured.",
+      "quality": 46,
+      "dhash": "6e151d6466667a78",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-066.jpg": {
+      "description": "An audience sits at round tables facing a presentation screen displaying a slide about Ada Lovelace, with drinks and food visible in the foreground.",
+      "alt_text": "Audience members seated at tables watching a presentation on Ada Lovelace projected on a large screen",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and the foreground table clutter distracts from the presentation content.",
+      "quality": 39,
+      "dhash": "dc58204318180c02",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-067.jpg": {
+      "description": "An audience sits at a round table with drinks and snacks while watching a presentation about Edith Clarke on a large screen.",
+      "alt_text": "Audience members seated at a table watching a presentation slide about Edith Clarke",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The foreground table clutter distracts from the presentation; better to crop out the food or use a photo focused on the screen.",
+      "quality": 43,
+      "dhash": "834a2c2259181842",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-068.jpg": {
+      "description": "An audience sits in a conference room watching a presentation on the 'Women of ENIAC' displayed on a large projector screen.",
+      "alt_text": "Audience members watching a presentation about the Women of ENIAC projected on a large screen",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 3,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a newsletter recap to show the topic, but the lighting is too dim and the audience backs are turned for social media.",
+      "quality": 36,
+      "dhash": "7060096d6c687ece",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-069.jpg": {
+      "description": "An audience member takes a photo of a presentation slide about Grace Hopper while others watch the talk.",
+      "alt_text": "Audience watching a presentation on Grace Hopper",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a newsletter recap about the speaker's topic, but too dark and focused on the screen for an engaging social post.",
+      "quality": 46,
+      "dhash": "e1e009797c787acc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-070.jpg": {
+      "description": "An audience watches a presentation about Evelyn Boyd Granville on a large projection screen in a conference room.",
+      "alt_text": "Audience members watching a presentation slide about Evelyn Boyd Granville",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event content, but the audience is seen from behind and lacks engagement.",
+      "quality": 46,
+      "dhash": "f070852c7c7e7ec6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-071.jpg": {
+      "description": "An audience is seated in a conference room watching a presentation about Sister Mary Kenneth Keller on a large projection screen.",
+      "alt_text": "Audience members watch a presentation slide about computer scientist Sister Mary Kenneth Keller.",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a newsletter recap to illustrate the topic, but the audience is seen from behind so it lacks engagement energy for social media.",
+      "quality": 46,
+      "dhash": "d838c6b6367c7e66",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-072.jpg": {
+      "description": "An audience sits at round tables facing a presentation screen displaying a slide about Sister Mary Kenneth Keller, while a speaker stands at a podium to the left.",
+      "alt_text": "Audience watching a presentation on Sister Mary Kenneth Keller at a conference",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that captures the setting and topic, though the audience is mostly seen from behind.",
+      "quality": 54,
+      "dhash": "8c98363636323b7d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-073.jpg": {
+      "description": "An audience sits in a conference room watching a presentation about Hedy Lamarr on a large projection screen.",
+      "alt_text": "Audience members watch a presentation slide about Hedy Lamarr at a tech event",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event content, though the audience is seen from behind.",
+      "quality": 46,
+      "dhash": "60480d7cecf8dc50",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-074.jpg": {
+      "description": "A speaker stands at a podium presenting to an audience in a large conference room, with a large projection screen displaying slides behind him.",
+      "alt_text": "Speaker at a podium presenting to an audience with slides on a large screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a standard event shot that captures the context of the talk, though the lighting is dim and the image is slightly grainy.",
+      "quality": 46,
+      "dhash": "8e330838343c003c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-075.jpg": {
+      "description": "An audience watches a presentation on a large screen featuring a slide titled 'More Women to inspire us' with profiles of Susan Kare, Carol Shaw, and Katherine G. Johnson.",
+      "alt_text": "Audience watching a presentation about inspiring women including Susan Kare and Katherine Johnson",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a newsletter recap about the topic, but too dark and static for social media engagement.",
+      "quality": 43,
+      "dhash": "c3e19013d8d4d0fc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-076.jpg": {
+      "description": "A speaker stands at a podium on the left side of a stage, presenting a slide titled 'Your Unconscious Biases' to an unseen audience.",
+      "alt_text": "Speaker standing at a podium next to a projection screen displaying slides about unconscious biases.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's eyes are closed and she appears to be looking down at her notes rather than engaging with the audience, making it less ideal for social media.",
+      "quality": 39,
+      "dhash": "00420bf16171c9f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-077.jpg": {
+      "description": "An audience sits in chairs facing a large projection screen displaying a presentation slide about male advocacy for gender diversity.",
+      "alt_text": "Audience members watching a presentation on gender diversity and male advocacy projected on a large screen.",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a newsletter recap to illustrate the specific topic discussed, though the audience is seen from behind.",
+      "quality": 46,
+      "dhash": "61f00969646878ce",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-078.jpg": {
+      "description": "A speaker stands at a podium addressing an audience seated at round tables in a banquet hall, with a presentation slide visible on the screen behind them.",
+      "alt_text": "Speaker presenting to an audience at round tables during a conference talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event setting and slide content, though the audience is mostly seen from behind.",
+      "quality": 54,
+      "dhash": "091d342666727a78",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-079.jpg": {
+      "description": "A speaker stands at a podium delivering a presentation to an audience, with the slide titled 'We need REAL Men to be Advocates' displayed on a large screen.",
+      "alt_text": "Speaker presenting slides about male advocacy to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is useful for showing the specific topic of the talk, but the speaker is small and cut off by the frame edge.",
+      "quality": 46,
+      "dhash": "1a72c3c3c2c2cbe0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-080.jpg": {
+      "description": "A view of a presentation slide featuring a cartoon avatar and social media handles for 'TechGirl', with the backs of two audience members visible in the foreground.",
+      "alt_text": "Presentation screen showing a TechGirl avatar and social media links, viewed from behind two audience members",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for documenting the specific content of a talk, but the back-of-head perspective makes it less engaging for general social media.",
+      "quality": 32,
+      "dhash": "1a1aac86b692f61e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-081.jpg": {
+      "description": "A speaker presents a slide featuring a cartoon character to an audience seated at round tables in a large conference room with chandeliers.",
+      "alt_text": "Audience watches a presentation on a large screen during a tech event.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker is looking down at their notes rather than engaging with the audience, making this less ideal for social media.",
+      "quality": 46,
+      "dhash": "ac8a323232333d3c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-082.jpg": {
+      "description": "A smiling woman sits at a Cloudreach booth with a laptop, surrounded by sponsor signage and promotional materials.",
+      "alt_text": "Smiling woman sitting at a Cloudreach conference booth with a laptop and sponsor signs behind her",
+      "tags": [
+        "sponsor",
+        "portrait",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait suitable for a sponsor recap or staff spotlight post.",
+      "quality": 57,
+      "dhash": "98d86a2e73f6f8e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-083.jpg": {
+      "description": "A speaker stands at a podium presenting to an audience in a dimly lit conference room, with the 'Developer UX' logo displayed on a large projection screen.",
+      "alt_text": "Speaker presenting Developer UX slides to an audience in a darkened conference hall",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark to be effective for social media without significant editing.",
+      "quality": 50,
+      "dhash": "c7a68e6060f0d069",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-jesse-weigel-084.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Challenges' at the RevConf event, with social media handles overlaid on the image.",
+      "alt_text": "Speaker presenting challenges slide on large screen at conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for social media due to the speaker's engagement and clear slide text, though lighting is somewhat dim.",
+      "quality": 57,
+      "dhash": "99f8d827e4e4e4fc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kyle-welch-085.jpg": {
+      "description": "A speaker stands at a podium presenting slides on a large screen, with the Wyndham Virginia Beach Oceanfront sign visible on the lectern.",
+      "alt_text": "Speaker presenting at a conference next to a large projection screen showing slides about Olympic vaults.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a speaker profile or recap, but the lighting is dim and the audience is not visible.",
+      "quality": 46,
+      "dhash": "32131290981ecab3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-086.jpg": {
+      "description": "A presentation slide displayed on a large screen featuring a spooky, zombie-like character and the name of speaker Jennifer Voss.",
+      "alt_text": "Presentation slide showing a scary zombie character with text for speaker Jennifer Voss",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a standard speaker introduction slide; it works well for social media to announce the next session but lacks event atmosphere.",
+      "quality": 29,
+      "dhash": "110590dab0f0f170",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-087.jpg": {
+      "description": "A speaker stands on stage presenting to an audience in a conference room, with a large screen displaying colorful dice behind them.",
+      "alt_text": "Speaker presenting slides of colorful dice to an audience at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the event in progress, though the audience is mostly seen from behind.",
+      "quality": 57,
+      "dhash": "adb169b334342072",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-kyle-welch-088.jpg": {
+      "description": "A speaker stands at a podium delivering a presentation on cloud computing architectures, with a detailed slide visible behind him.",
+      "alt_text": "Speaker presenting cloud architecture slides at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is partially cut off by the frame edge, which detracts from the composition.",
+      "quality": 46,
+      "dhash": "38f9c4c4e4e4e4f4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-089.jpg": {
+      "description": "Three attendees pose for a close-up selfie, holding up their 'Revolution Conf '18' name badges which feature cat illustrations.",
+      "alt_text": "Attendees at Revolution Conf '18 hold up name badges featuring cats in a group selfie",
+      "tags": [
+        "crowd",
+        "portrait",
+        "networking"
+      ],
+      "people_count": 3,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, engaging shot that captures the community spirit and event branding perfectly for social media.",
+      "quality": 79,
+      "dhash": "e6c7dbde2e166d6f",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-alex-proaps-090.jpg": {
+      "description": "A speaker presents a technical slide to an audience seated at tables with laptops during a conference session.",
+      "alt_text": "Speaker presenting slides to an audience with laptops in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the event in progress, suitable for a recap but lacking dynamic energy.",
+      "quality": 54,
+      "dhash": "f0b1d49be6c6b099",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-091.jpg": {
+      "description": "A speaker stands at the front of a conference room presenting to an audience, with a slide on the screen displaying 'Questions?'.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a standard event shot showing the audience and speaker, but the lighting is dim and the angle is slightly awkward.",
+      "quality": 43,
+      "dhash": "312b753fd83b673c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-092.jpg": {
+      "description": "An audience sits in rows of chairs facing a presentation screen at the front of a conference room.",
+      "alt_text": "Audience members seated in rows facing a presentation screen during a tech talk",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "slides",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing attendance at a specific session, though most faces are turned away from the camera.",
+      "quality": 46,
+      "dhash": "b666a958152f7fbf",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-093.jpg": {
+      "description": "An empty conference room set up with round tables covered in white cloths and decorated with colorful leis and buckets, likely before an event begins.",
+      "alt_text": "Empty banquet hall with decorated tables and chairs ready for a party",
+      "tags": [
+        "venue",
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a 'behind the scenes' or setup post, but lacks the energy of an active event.",
+      "quality": 36,
+      "dhash": "e1f9696b360546e6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-094.jpg": {
+      "description": "Pink foil balloons spelling 'ALOHA' are attached to a black curtain backdrop, with a microphone visible in the foreground and a table of supplies on the left.",
+      "alt_text": "Pink letter balloons spelling ALOHA on a black curtain at an event",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for establishing the event theme or location, but lacks human interest.",
+      "quality": 32,
+      "dhash": "3363232337332b2f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-095.jpg": {
+      "description": "A tropical-themed photo backdrop featuring two large pink flamingos and paper flowers, taped to a wall.",
+      "alt_text": "Tropical photo backdrop with two pink flamingos and paper flowers taped to a wall",
+      "tags": [
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing the event atmosphere or venue setup, but lacks human interest for a main recap post.",
+      "quality": 36,
+      "dhash": "4b5b36272f4f4b3d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-096.jpg": {
+      "description": "A blue bucket filled with colorful photo booth props, including foam glasses and signs, sits on a white tablecloth.",
+      "alt_text": "Blue bucket of colorful photo booth props on a table",
+      "tags": [
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event amenities, but lacks the energy of a live event photo.",
+      "quality": 36,
+      "dhash": "e1880c0c36e0ccfe",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-097.jpg": {
+      "description": "A festive 'LUAU' banner hangs against a black curtain backdrop, featuring glittery letters and tiki-themed decorations.",
+      "alt_text": "A decorative banner spelling out LUAU with glittery letters and tiki mugs hanging on a string",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "This is a clear detail shot of the event signage that works well for establishing the theme or atmosphere.",
+      "quality": 36,
+      "dhash": "2e0d4ba6b69be0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-098.jpg": {
+      "description": "An empty conference room set up with round tables and chairs, decorated with colorful leis for a community tech event.",
+      "alt_text": "Empty banquet hall with round tables and chairs decorated with colorful leis",
+      "tags": [
+        "venue",
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for establishing the location or showing setup, but lacks energy and people.",
+      "quality": 32,
+      "dhash": "0f8731d36f6ef87c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-099.jpg": {
+      "description": "A tropical-themed backdrop featuring palm trees and a beach scene is hung on a wall, decorated with hanging paper flowers.",
+      "alt_text": "Tropical party backdrop with palm trees and hanging paper flowers",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event decor but lacks the energy of a live gathering.",
+      "quality": 32,
+      "dhash": "93372327370f1717",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-100.jpg": {
+      "description": "An empty conference room with round tables and chairs, decorated with a colorful summer-themed banner on the wall.",
+      "alt_text": "Empty event room with tables and a summer banner",
+      "tags": [
+        "venue",
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [],
+      "notes": "Good for showing the venue setup, but lacks energy and people.",
+      "quality": 21,
+      "dhash": "3f3e96f6d2486cdc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-101.jpg": {
+      "description": "A long buffet table is set up with stacks of white plates in the foreground and chafing dishes, while people stand and socialize in the background.",
+      "alt_text": "Buffet line at a conference with stacked plates and food trays",
+      "tags": [
+        "food",
+        "venue",
+        "networking"
+      ],
+      "people_count": 6,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the catering setup, but the lighting is dim and the people in the background are not the main focus.",
+      "quality": 39,
+      "dhash": "2129a3c46ca89858",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-102.jpg": {
+      "description": "A decorated food table with orange slices and tropical drink cutouts sits below a sign for the 'Revolution Conf '18 Luau' event.",
+      "alt_text": "Sign for Revolution Conf '18 Luau above a table with fruit and decorations",
+      "tags": [
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event details and atmosphere, but lacks people to show engagement.",
+      "quality": 32,
+      "dhash": "0e0c4d35fe5f1ffd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-103.jpg": {
+      "description": "A decorated table at a conference features signs for a 'Tiki Bar' and 'Hosted Wine/Beer', alongside branded napkins and drink umbrellas.",
+      "alt_text": "Signs for a Tiki Bar and hosted drinks on a floral tablecloth at an event",
+      "tags": [
+        "food",
+        "venue",
+        "signage",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good detail for social posts about event amenities, but lacks people to show crowd energy.",
+      "quality": 43,
+      "dhash": "7c3efdded9383b73",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-104.jpg": {
+      "description": "A festive tiki bar setup featuring a 'TIKI BAR' sign, colorful plastic straws, and branded blue napkins for Cloudreach. A poster for the Revolution Conf '18 event is visible on the wall in the background.",
+      "alt_text": "Tiki bar station with branded napkins and decorations at a tech conference",
+      "tags": [
+        "swag",
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing off event branding and swag, though the lighting is slightly dim.",
+      "quality": 43,
+      "dhash": "3030389e3b7b6d78",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-105.jpg": {
+      "description": "A tropical-themed party backdrop featuring a beach scene with palm trees, pink foil balloons spelling 'ALOHA', and paper cutouts of toucans and parrots.",
+      "alt_text": "Tropical Aloha party decoration with palm tree banner and pink foil balloons on a wall",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing the event theme or venue setup, but lacks people and energy.",
+      "quality": 32,
+      "dhash": "43b41626260d6fe3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-106.jpg": {
+      "description": "A tropical-themed party decoration featuring a beach backdrop with palm trees, pink 'ALOHA' letter balloons, and paper flowers.",
+      "alt_text": "Tropical Aloha party decorations including palm tree backdrop and pink letter balloons",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing the event theme, but lacks people and energy for a main social post.",
+      "quality": 36,
+      "dhash": "361637272f4c1fb7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-107.jpg": {
+      "description": "Two men wearing colorful leis and a straw hat smile for a selfie at an indoor event, with other attendees visible in the background.",
+      "alt_text": "Two smiling men wearing leis pose for a selfie at a conference.",
+      "tags": [
+        "portrait",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, candid shot that captures the friendly atmosphere of the event.",
+      "quality": 75,
+      "dhash": "7366d78767bcec3e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-108.jpg": {
+      "description": "Two cats, one orange and white and one tortoiseshell, are standing in a garden area next to a wooden animal hutch.",
+      "alt_text": "Two cats standing in a garden near a wooden hutch",
+      "tags": [
+        "outdoor"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "This is a candid shot of animals and does not depict the tech event or its attendees.",
+      "quality": 32,
+      "dhash": "818115d4d6e652e7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-109.jpg": {
+      "description": "A man in a festive Hawaiian shirt and lei poses enthusiastically in front of an 'ALOHA' balloon display.",
+      "alt_text": "Man in Hawaiian shirt posing with balloons",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "High energy and fun, perfect for social media.",
+      "quality": 79,
+      "dhash": "0f232733328e1f73",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-alex-proaps-110.jpg": {
+      "description": "A man in a festive Hawaiian shirt and sunglasses poses enthusiastically with a ukulele in front of an 'ALOHA' balloon backdrop.",
+      "alt_text": "Man in Hawaiian shirt posing with ukulele at event photo booth",
+      "tags": [
+        "portrait",
+        "swag",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "High energy and fun, perfect for showing the community spirit of the event.",
+      "quality": 79,
+      "dhash": "2b673733279e8e37",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-keith-l-privette-111.jpg": {
+      "description": "A selfie taken by a smiling attendee in the foreground, with a large conference room full of people seated at round tables for networking or dining in the background.",
+      "alt_text": "Smiling man takes a selfie in a crowded event hall where attendees sit at round tables chatting and eating.",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing crowd size and energy, but the selfie framing is too casual and personal for a professional newsletter recap.",
+      "quality": 57,
+      "dhash": "f6dbda72338fa036",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-112.jpg": {
+      "description": "Two smiling women wearing colorful flower leis pose together in front of a flamingo-themed backdrop.",
+      "alt_text": "Two smiling women with flower leis posing in front of a flamingo backdrop",
+      "tags": [
+        "portrait",
+        "swag"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, candid selfie that captures the playful atmosphere of the event.",
+      "quality": 79,
+      "dhash": "5d9e8e8e5ac74fde",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-linda-nichols-113.jpg": {
+      "description": "A person in a colorful Hawaiian shirt and lei dances energetically across a carpeted event hall while an audience watches from tables in the background.",
+      "alt_text": "Person in Hawaiian shirt dancing at conference",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "other",
+      "scores": {
+        "sharpness": 1,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures great energy and fun but is too blurry for high-quality social posts.",
+      "quality": 64,
+      "dhash": "40c0010ccc11f80c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-114.jpg": {
+      "description": "Attendees are seated at round tables in a conference room, watching a speaker on stage near a large projection screen.",
+      "alt_text": "Audience members seated at tables watch a speaker on stage during a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image captures the event atmosphere but is cluttered and lacks a clear focal point.",
+      "quality": 50,
+      "dhash": "cbadaa83c959d9c8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-greg-norman-115.jpg": {
+      "description": "Attendees wearing leis and party hats are seated at round tables in a conference hall, facing a large projection screen on stage.",
+      "alt_text": "Audience members at tables with leis watching a presentation screen",
+      "tags": [
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Captures the venue and audience atmosphere, but the foreground faces are partially cut off or in profile.",
+      "quality": 54,
+      "dhash": "960f598e9a939399",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-116.jpg": {
+      "description": "A large pink inflatable flamingo and a toucan cutout serve as a colorful centerpiece on a table, with attendees seated in the background.",
+      "alt_text": "Inflatable flamingo and toucan centerpiece at a conference event",
+      "tags": [
+        "venue",
+        "swag"
+      ],
+      "people_count": 10,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A fun detail shot that captures the party atmosphere of the event.",
+      "quality": 50,
+      "dhash": "1f1ec96a6edc4d7e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-117.jpg": {
+      "description": "A close-up of a festive table centerpiece featuring an inflatable pink flamingo and a paper toucan in a yellow bucket, with attendees seated at tables in the background.",
+      "alt_text": "Inflatable flamingo and paper toucan decoration on a conference table with people dining in the background",
+      "tags": [
+        "venue",
+        "food",
+        "crowd"
+      ],
+      "people_count": 10,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A fun shot capturing the event's atmosphere and swag, though the people in the background are out of focus.",
+      "quality": 50,
+      "dhash": "1f1cc97a7c4d5ffe",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-118.jpg": {
+      "description": "Two attendees pose for a photo in front of a flamingo backdrop, wearing leis and holding props like oversized glasses and a 'Beach Bum' sign.",
+      "alt_text": "Smiling man and woman posing with beach props and leis at an event",
+      "tags": [
+        "portrait",
+        "swag",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, high-energy shot perfect for social media to show the event's festive atmosphere.",
+      "quality": 79,
+      "dhash": "4b0f4d0c2213cf19",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-alex-proaps-119.jpg": {
+      "description": "A bearded man in a red shirt poses playfully with flamingo props and novelty glasses in front of a tropical-themed backdrop.",
+      "alt_text": "Man posing with flamingo props at event",
+      "tags": [
+        "portrait",
+        "swag",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, engaging portrait that captures the lighthearted spirit of a tech event.",
+      "quality": 79,
+      "dhash": "1c5717268d5a561b",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-alex-proaps-120.jpg": {
+      "description": "A bearded man in a red shirt and lei poses with a drink in front of a flamingo-themed photo backdrop.",
+      "alt_text": "Man posing with a drink in front of a flamingo photo booth backdrop",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, high-energy portrait that captures the festive atmosphere of the event.",
+      "quality": 79,
+      "dhash": "8f4f2363992f4f0c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-121.heic": {
+      "description": "A man in a colorful shirt and hat performs on stage with a microphone, while an audience watches from tables in the background.",
+      "alt_text": "Man performing on stage at a tech event with audience watching",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the energy of a live performance but is slightly blurry and dark.",
+      "quality": 61,
+      "dhash": "f78fce4a705d97c7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-122.heic": {
+      "description": "A man in a Hawaiian shirt and hat dances enthusiastically on a small stage while an audience watches from tables in the background.",
+      "alt_text": "Man dancing on stage at event with audience watching",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the fun energy of the event perfectly despite motion blur.",
+      "quality": 79,
+      "dhash": "750c8c4cf1bb2f0f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-123.jpg": {
+      "description": "A person in a colorful shirt dances on a small stage under purple lights, with an audience watching from tables in the background.",
+      "alt_text": "Person dancing on a stage at a social event",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the fun energy of a social event but is too blurry for high-quality use.",
+      "quality": 54,
+      "dhash": "a848d7571e92a3c7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-124.jpg": {
+      "description": "A man in a patterned shirt and hat performs on a small stage with colorful lighting, while an audience watches from tables in the background.",
+      "alt_text": "Man singing into microphone on stage at event",
+      "tags": [
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the energy of a live performance but is too dark and grainy for high-quality social media posts.",
+      "quality": 54,
+      "dhash": "406af74f0f12bbef",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-alex-proaps-125.jpg": {
+      "description": "Attendees are gathered around round tables in a banquet hall, eating and socializing during a break at the event.",
+      "alt_text": "Group of people sitting at round tables eating and talking during an event break",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "The image captures the social atmosphere of a break but is slightly blurry and lacks a clear focal point.",
+      "quality": 54,
+      "dhash": "9faf47228ed72436",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-126.jpg": {
+      "description": "A smiling man sits at a table in the foreground of a busy bar or pub, while other attendees socialize and sit at the bar counter in the background.",
+      "alt_text": "Smiling man sitting at a table in a crowded bar during an event",
+      "tags": [
+        "portrait",
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 7,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent candid portrait that captures the friendly atmosphere of the event.",
+      "quality": 82,
+      "dhash": "5ff3d39ab8b8f0f2",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-127.jpg": {
+      "description": "Two people are singing karaoke into microphones in a room decorated with hats and mirrors, while others watch in the background.",
+      "alt_text": "A man and woman sing karaoke into microphones at an event",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Captures great energy and fun atmosphere for social media.",
+      "quality": 86,
+      "dhash": "8b949898b8e9f6f2",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-128.jpg": {
+      "description": "A man and a woman are singing into microphones during an event, standing in front of a wall decorated with various hats.",
+      "alt_text": "Two people singing karaoke at a tech event with hats on the wall behind them",
+      "tags": [
+        "crowd",
+        "networking"
+      ],
+      "people_count": 3,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, candid shot that captures the social atmosphere of the event.",
+      "quality": 82,
+      "dhash": "6e7256f872d2d4f6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-129.jpg": {
+      "description": "A close-up, slightly blurry shot of a man in a blue polo shirt sitting at a table during an event.",
+      "alt_text": "Man in blue shirt sitting at a table with chairs and another person visible in the background",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 1,
+        "exposure": 2,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "blurry",
+        "dark"
+      ],
+      "notes": "The image is too blurry and poorly lit to be useful for social media.",
+      "quality": 29,
+      "dhash": "2d6ccfcf4fff9b1c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-130.jpg": {
+      "description": "Attendees wearing leis and Hawaiian shirts are laughing and socializing in a dimly lit room with blue lighting, likely during an after-party or networking event.",
+      "alt_text": "Attendees in Hawaiian shirts laugh together at a tech event party",
+      "tags": [
+        "crowd",
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the fun energy of the event, though the dark lighting makes details harder to see.",
+      "quality": 61,
+      "dhash": "026262222222e2e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-paul-chin-jr-131.jpg": {
+      "description": "Three men are singing karaoke with microphones at a community tech event, while a woman stands behind them smiling.",
+      "alt_text": "Three men holding microphones and singing together at an indoor event.",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a high-energy shot that captures the fun side of the event and would work well for social media.",
+      "quality": 79,
+      "dhash": "222c28b6b4f578e6",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-17-revolutionconf-linda-nichols-132.jpg": {
+      "description": "Two people wearing shiny helmets are dancing on a stage under bright purple and blue lights, while an audience watches from the foreground.",
+      "alt_text": "Two performers in helmets dance on a stage under purple lights at a tech event",
+      "tags": [
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "This photo captures the fun energy of a hackathon party or social event and is great for showing community spirit.",
+      "quality": 75,
+      "dhash": "21666a838723d862",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-17-revolutionconf-linda-nichols-133.heic": {
+      "description": "Attendees in wigs and costumes are dancing on a small stage during an after-party, with a wall of hats visible in the background.",
+      "alt_text": "Attendees in wigs dance on stage at a party",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the fun energy of the event despite motion blur.",
+      "quality": 68,
+      "dhash": "e0f2f24adafe5c9a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-134.jpg": {
+      "description": "A group of people are dancing and celebrating in a dimly lit venue with purple lighting, while others watch from the sidelines.",
+      "alt_text": "Group of people dancing at a tech event party",
+      "tags": [
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 15,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the fun energy of the event well, though the low light makes it a bit grainy.",
+      "quality": 57,
+      "dhash": "366b694f49b43a7b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-paul-chin-jr-135.jpg": {
+      "description": "A man in a sparkly hat and blue feather boa sings into a microphone, likely performing karaoke at an event.",
+      "alt_text": "Man singing karaoke with a blue feather boa",
+      "tags": [
+        "portrait",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the fun energy of a social event and would work well for a 'fun moments' recap.",
+      "quality": 79,
+      "dhash": "c4c08de8d49872fa",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-linda-nichols-136.heic": {
+      "description": "A group of people are dancing and having fun in a dimly lit venue with purple lighting, while others watch from tables.",
+      "alt_text": "Crowd dancing at an event in a bar with purple lights",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the high energy and fun of the event, though the low light makes it slightly grainy.",
+      "quality": 75,
+      "dhash": "b60737938f0d1f1b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-137.heic": {
+      "description": "A group of people are dancing and having fun in a bar with purple lighting, while others watch from tables.",
+      "alt_text": "Attendees dancing at a karaoke night during a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "people_count": 15,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the energy of a social event, but motion blur makes faces indistinct.",
+      "quality": 79,
+      "dhash": "635f7dd5d39c7673",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-138.jpg": {
+      "description": "A group of people are gathered in a dimly lit venue with purple lighting, singing karaoke on stage while others watch from tables.",
+      "alt_text": "Group singing karaoke at a tech event with purple lighting",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "people_count": 15,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the fun social energy of the event, though the low light makes it slightly grainy.",
+      "quality": 61,
+      "dhash": "263e1d8f4f8c327a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-139.jpg": {
+      "description": "A group of people are singing karaoke on a small stage in a dimly lit venue with purple lighting, while an audience watches from tables.",
+      "alt_text": "Group singing karaoke on stage at a tech meetup event",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "people_count": 15,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the fun social atmosphere of the event, but the low light makes faces a bit hard to see.",
+      "quality": 57,
+      "dhash": "2e2e1d1b0b8d340e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-140.jpg": {
+      "description": "Two men are singing karaoke on a small stage in front of an audience, with one wearing a colorful shirt and the other in dark clothing. The room is lit with purple lights and features inflatable guitars hanging on the wall.",
+      "alt_text": "Men singing karaoke at a tech event party",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "food"
+      ],
+      "people_count": 10,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the fun energy of a social mixer, though motion blur makes it less suitable for high-quality print.",
+      "quality": 68,
+      "dhash": "cccfd6d64e6667e7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-141.jpg": {
+      "description": "A view from a table looking out at a crowded karaoke event in a bar, with people singing on stage and an audience watching.",
+      "alt_text": "Crowd enjoying karaoke night at a tech meetup venue with singers on stage",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the fun, relaxed energy of a community event and works well for social media.",
+      "quality": 75,
+      "dhash": "d0919a685fae9c09",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-142.heic": {
+      "description": "Attendees are dancing on a small stage in a karaoke room, with one man jumping in the air and another wearing a lei. The background features a wall of hats and a mirror reflecting the party atmosphere.",
+      "alt_text": "Attendees dancing on a stage in a karaoke room with colorful lights",
+      "tags": [
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 5,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures high energy and fun, perfect for social media to show the event's vibe.",
+      "quality": 79,
+      "dhash": "cc58d89a86dcfcfa",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-143.jpg": {
+      "description": "Attendees are having fun and dancing in a karaoke booth at a tech event, with one man singing into a microphone and another jumping in the air.",
+      "alt_text": "Two men dancing and singing in a karaoke booth at a tech meetup",
+      "tags": [
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the high energy and fun atmosphere of the event, perfect for a social post.",
+      "quality": 75,
+      "dhash": "cac8899b968acece",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-linda-nichols-144.heic": {
+      "description": "Two men are performing on a small stage in a venue with purple lighting, surrounded by props like hats and boas.",
+      "alt_text": "Men performing on stage at an event with purple lighting",
+      "tags": [
+        "crowd",
+        "venue",
+        "food"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the fun energy of a social mixer or party.",
+      "quality": 68,
+      "dhash": "edc7b0bb0e8edef0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-paul-chin-jr-145.jpg": {
+      "description": "A man in a Hawaiian shirt and lei sings enthusiastically into a microphone while holding a guitar controller, with other attendees dancing and watching in the background.",
+      "alt_text": "Man singing karaoke at a tech event wearing a lei and holding a guitar controller",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 5,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "This is a high-energy shot that perfectly captures the fun atmosphere of the event and would make an excellent social media post.",
+      "quality": 93,
+      "dhash": "dcf0e7abaaaeacee",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-alex-proaps-146.jpg": {
+      "description": "A man in a colorful shirt and hat dances enthusiastically on stage during an event, with a screen displaying mirrored text behind him.",
+      "alt_text": "Man dancing on stage at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "Captures the energy of a fun event moment despite being blurry.",
+      "quality": 71,
+      "dhash": "e393db493c769806",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-147.jpg": {
+      "description": "Two people are singing karaoke on a small stage in a dimly lit venue with purple lighting and a screen behind them.",
+      "alt_text": "Two people singing into microphones on a stage under purple lights",
+      "tags": [
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 1,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The photo captures the fun energy of a social event but is too dark for clear visibility.",
+      "quality": 46,
+      "dhash": "66f3e9c8eea619d9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-148.jpg": {
+      "description": "A woman stands on a small stage in a dimly lit venue, singing into a microphone under purple and red lights.",
+      "alt_text": "Woman singing on stage at an event with colorful lighting",
+      "tags": [
+        "venue",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 1,
+        "exposure": 1,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [
+        "dark",
+        "sensitive"
+      ],
+      "notes": "Too dark and grainy for a professional recap; the subject is not clearly visible.",
+      "quality": 36,
+      "dhash": "215969959d6df2b6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-149.jpg": {
+      "description": "A speaker stands on a stage in a dimly lit venue, illuminated by purple and white lights, while presenting to an audience.",
+      "alt_text": "Speaker standing on stage with purple lighting at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 1,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image captures the event atmosphere but is too dark and grainy for high-quality social media posts.",
+      "quality": 46,
+      "dhash": "8300e5c5e53231f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-150.jpg": {
+      "description": "A speaker stands on a small stage in a dimly lit venue, illuminated by purple and blue lighting while presenting to an audience seated at tables.",
+      "alt_text": "Speaker standing on stage under purple lights addressing an audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good energy and atmosphere for a recap, but the low light makes details hard to see.",
+      "quality": 50,
+      "dhash": "90eb8b8acf64ec47",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-151.jpg": {
+      "description": "A speaker stands on a small stage in a dimly lit venue with purple lighting, addressing an audience seated at tables.",
+      "alt_text": "Speaker holding a microphone on stage in front of a crowd in a dark room with purple lights",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image captures the event atmosphere but is too dark and grainy for high-quality social media posts.",
+      "quality": 50,
+      "dhash": "8135979289d9f90c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-152.jpg": {
+      "description": "A group of people are gathered in a dimly lit room with purple neon lighting, appearing to be dancing or socializing at an event.",
+      "alt_text": "People dancing and socializing in a dark room illuminated by purple neon lights.",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 1,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The photo captures the energy of the crowd but is too dark and grainy for high-quality social media posts.",
+      "quality": 46,
+      "dhash": "0093a74d67b54a0c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-keith-l-privette-153.jpg": {
+      "description": "A man in a pink t-shirt smiles for a selfie in front of a Revolution Conf '18 banner.",
+      "alt_text": "Man smiling for a selfie next to a Revolution Conf '18 event banner",
+      "tags": [
+        "portrait",
+        "signage"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a personal attendee recap but lacks the energy of a larger crowd.",
+      "quality": 54,
+      "dhash": "93e373537df080e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-154.heic": {
+      "description": "A speaker in a red shirt presents to an audience seated at round tables in a large conference hall with chandeliers.",
+      "alt_text": "Speaker presenting to an audience seated at round tables in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 40,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good wide shot of the venue and crowd, but the speaker is small in the frame and some audience members are looking at phones.",
+      "quality": 50,
+      "dhash": "66212434dacaf0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-kristina-krasnolobova-155.jpg": {
+      "description": "A speaker stands at a podium delivering a presentation on debugging JavaScript to an audience seated at round tables.",
+      "alt_text": "Speaker presenting a slide about debugging JavaScript to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the presentation content, but the speaker is small and cut off on the left.",
+      "quality": 46,
+      "dhash": "5666aad2d9d1a998",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-156.jpg": {
+      "description": "A speaker stands at a podium presenting a slide with a cartoon illustration and the text 'WHEN you GOOGLE?' to an audience in a dimly lit room.",
+      "alt_text": "Speaker presenting a slide titled 'When you Google' featuring a cartoon character",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The slide content is clear and engaging, but the speaker is underexposed and difficult to see.",
+      "quality": 46,
+      "dhash": "256378f4f4f0f0ec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-kyle-welch-157.jpg": {
+      "description": "A speaker with a beard stands at a podium presenting a slide that features the text 'NODE.JS' inside a yellow comic-style speech bubble.",
+      "alt_text": "Speaker presenting a Node.js slide on a large screen to an audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a newsletter recap about the specific topic, but the speaker is small and the audience backs are turned.",
+      "quality": 46,
+      "dhash": "ceda832161e18313",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-paul-chin-jr-158.jpg": {
+      "description": "Two smiling attendees stand in front of a Cloudreach branded banner, with the man on the right wearing a matching company t-shirt.",
+      "alt_text": "Two people standing in front of a Cloudreach event banner",
+      "tags": [
+        "sponsor",
+        "booth",
+        "portrait"
+      ],
+      "people_count": 3,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-quality portrait suitable for a sponsor recap or social post.",
+      "quality": 82,
+      "dhash": "d5981b9b9191d0f8",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-paul-chin-jr-159.jpg": {
+      "description": "A representative at a Cloudreach booth engages in conversation with an attendee, gesturing while seated behind a table displaying swag and stickers.",
+      "alt_text": "Cloudreach booth representative talking to an attendee at a tech conference",
+      "tags": [
+        "sponsor",
+        "booth",
+        "swag",
+        "networking"
+      ],
+      "people_count": 3,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong networking shot that captures the energy of the event and highlights sponsor engagement.",
+      "quality": 82,
+      "dhash": "62723a26747470e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-steve-albers-160.jpg": {
+      "description": "A speaker in a black shirt stands on stage next to a podium and a large projection screen, gesturing as he presents.",
+      "alt_text": "Speaker presenting at a tech event next to an empty projector screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is a bit dark and grainy, but it clearly captures the speaker in action.",
+      "quality": 54,
+      "dhash": "70c0d7ffccec7e77",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-161.jpg": {
+      "description": "A view from a balcony overlooking a beach and the ocean on an overcast day, with lounge chairs and umbrellas visible below.",
+      "alt_text": "View of a sandy beach and ocean from a balcony on a cloudy day",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a 'behind the scenes' or location shot, but lacks event energy and people.",
+      "quality": 32,
+      "dhash": "d096839ef2e2f3e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-162.jpg": {
+      "description": "A view from a balcony overlooking a beach with volleyball nets and lounge chairs on an overcast day.",
+      "alt_text": "View of a sandy beach and ocean from a balcony, featuring rows of empty lounge chairs and volleyball nets under a cloudy sky.",
+      "tags": [
+        "venue",
+        "outdoor"
+      ],
+      "people_count": 5,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a scenic venue shot rather than an event photo; the finger in the corner and lack of activity make it unsuitable for social posts.",
+      "quality": 21,
+      "dhash": "79e3e3febcf8d8f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-163.jpg": {
+      "description": "Attendees line up for a buffet lunch in a conference hall, with a sponsor booth visible in the background.",
+      "alt_text": "Crowd of people lining up at a buffet table during a break at a tech event",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing the scale of attendance and casual networking, though the woman in the background is reaching over a table which might be considered awkward.",
+      "quality": 61,
+      "dhash": "fe3c5c0c644c7cfc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-164.jpg": {
+      "description": "Attendees are lined up at a buffet table serving themselves food during a break, while others sit at a sponsor booth in the background.",
+      "alt_text": "Attendees line up for food at a conference buffet with a Cloudreach sponsor booth visible nearby",
+      "tags": [
+        "crowd",
+        "food",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The man in the foreground has an unflattering expression and is looking directly at the camera, making it risky for social media.",
+      "quality": 61,
+      "dhash": "fc3cb5346c49fcfc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-165.jpg": {
+      "description": "A view of a sandy beach and the ocean under an overcast, cloudy sky.",
+      "alt_text": "An empty beach with gentle waves rolling in under a grey, cloudy sky",
+      "tags": [
+        "outdoor"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "non-photo"
+      ],
+      "notes": "This is a landscape photo of the ocean and does not depict any event activities or people.",
+      "quality": 25,
+      "dhash": "e5c6f8b99998ba3f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-166.jpg": {
+      "description": "Two smiling men wearing conference badges pose for a selfie in a hallway near an exit sign.",
+      "alt_text": "Two smiling men wearing conference badges pose for a selfie in a hallway",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A friendly selfie that works well for social media to show attendee engagement.",
+      "quality": 68,
+      "dhash": "997fcfd3139fc6cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-jesse-weigel-167.jpg": {
+      "description": "A panel of five speakers sits on stools in front of a large projection screen while a moderator stands to the right holding a microphone.",
+      "alt_text": "Panel discussion with five seated speakers and one standing moderator at a conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 6,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the panel; good for showing who was there but lacks dynamic energy.",
+      "quality": 61,
+      "dhash": "2468fa7d39717979",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-jesse-weigel-168.jpg": {
+      "description": "A panel discussion is taking place on a stage with two women seated and one man standing while speaking into a microphone.",
+      "alt_text": "Three speakers participate in a panel discussion on a conference stage.",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A clear shot of the panelists that effectively captures the event atmosphere.",
+      "quality": 79,
+      "dhash": "4d29a02a9a9ddb59",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-keith-l-privette-169.jpg": {
+      "description": "A wide shot of a conference panel discussion where five speakers sit on stage in front of an audience seated at round tables.",
+      "alt_text": "Panel of five speakers sitting on chairs on a stage facing an audience seated at round tables",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot that captures the event atmosphere and audience engagement.",
+      "quality": 68,
+      "dhash": "e2a6ecd9d999c9d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-keith-l-privette-170.jpg": {
+      "description": "An audience sits at round tables facing a panel of speakers on stage during a conference presentation.",
+      "alt_text": "Audience listening to a panel discussion at a tech conference",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Avoid posting this as it captures attendees in unflattering angles with heads down or looking at phones.",
+      "quality": 46,
+      "dhash": "d8e83b366666f0f6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-keith-l-privette-171.jpg": {
+      "description": "A panel of five speakers sits on stage in front of a large projection screen, addressing an audience seated at round tables.",
+      "alt_text": "Panel discussion with five speakers on stage facing an audience at a conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the panel; it captures the event context but lacks dynamic energy for a featured social post.",
+      "quality": 57,
+      "dhash": "969cda686976787d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-kristina-krasnolobova-172.jpg": {
+      "description": "A panel of five speakers sits on stage in front of a large projection screen, engaging with an audience seated at tables.",
+      "alt_text": "Five panelists sit on stools on a stage while an audience watches from the floor",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that captures the panel discussion but lacks dynamic energy for social media.",
+      "quality": 61,
+      "dhash": "c766e652daa4a0b0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-steve-albers-173.jpg": {
+      "description": "A speaker stands at a podium presenting slides titled 'The process' to an audience in a conference room.",
+      "alt_text": "Speaker presenting slides on screen during a tech talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap showing the speaker and content, but the audience is mostly cut off.",
+      "quality": 46,
+      "dhash": "262388b8fafbcfe4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-174.jpg": {
+      "description": "A speaker stands at a podium presenting slides titled 'Tell a visual story' to an audience in a dimly lit conference room.",
+      "alt_text": "Speaker presenting charts on screen to seated audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark to be effective for social media without significant editing.",
+      "quality": 50,
+      "dhash": "4c89aaf0f9bab82d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-175.jpg": {
+      "description": "A speaker stands at a podium presenting a line graph on a large projection screen to an audience seated in a conference room.",
+      "alt_text": "Speaker presenting a data chart on a projector screen to an audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and the audience members are seen only from behind, making it less engaging for social media.",
+      "quality": 39,
+      "dhash": "897c4ff8f4f0f8f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-176.jpg": {
+      "description": "A speaker stands at a podium presenting a line graph on a large projection screen to an audience seated in a dimly lit conference room.",
+      "alt_text": "Speaker presenting a chart on a projector screen to an audience in a dark room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The photo is too dark to be useful for social media without significant editing.",
+      "quality": 39,
+      "dhash": "513aaaf0f1f0f079",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-kristina-krasnolobova-177.jpg": {
+      "description": "A smiling attendee sits on a small tricycle holding a yellow rubber duck, with a basket full of more ducks attached to the front.",
+      "alt_text": "Smiling man on a tricycle holding a rubber duck in an event hall",
+      "tags": [
+        "portrait",
+        "swag"
+      ],
+      "people_count": 3,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, engaging portrait that captures the playful spirit of a tech conference.",
+      "quality": 79,
+      "dhash": "27339b8f5b4f6666",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-steve-albers-178.jpg": {
+      "description": "A speaker stands on stage in front of a large projection screen displaying the title 'Making Sense of Multiplayer' for RevolutionConf 2018.",
+      "alt_text": "Speaker presenting at RevolutionConf 2018 with slides behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a recap post to identify the speaker and topic, but lacks crowd engagement energy.",
+      "quality": 57,
+      "dhash": "b3c3d28ae4a2e2e6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-alex-proaps-179.jpg": {
+      "description": "A black dog on a blue leash sits on a patterned carpet, looking up at a person's feet wearing jeans and jeweled sandals.",
+      "alt_text": "Black dog sitting on patterned carpet looking up at person's feet in sandals",
+      "tags": [
+        "outdoor"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a personal candid shot of a dog and feet that does not convey the context or energy of a tech event.",
+      "quality": 29,
+      "dhash": "73b99c3c99fc7fbf",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-kyle-welch-180.jpg": {
+      "description": "A speaker stands at a podium presenting a slide titled 'keep things small' which details how to optimize images using HTML srcset attributes.",
+      "alt_text": "Speaker presenting code for image optimization on a large screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for illustrating a specific technical point about image optimization in a newsletter recap.",
+      "quality": 46,
+      "dhash": "2030b4b0b8beb09d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-181.jpg": {
+      "description": "An audience watches a presentation on animation techniques, featuring a slide with the lyrics to 'I'm a Transformer' from The Chipmunks.",
+      "alt_text": "Audience members watching a presentation screen displaying an animated laptop and lyrics about CSS transforms.",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, engaging shot that captures the humor of a specific talk; good for social media to show event personality.",
+      "quality": 54,
+      "dhash": "7c0c9a7a68696678",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-182.jpg": {
+      "description": "A speaker stands at a podium giving a presentation to an audience in a conference room, with the words 'always measure first' displayed on the projector screen.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 8,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good context for a recap showing the presentation topic, though the lighting is dim.",
+      "quality": 54,
+      "dhash": "b8ad3c38f8f87acc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-183.jpg": {
+      "description": "Two presenters in red shirts stand on a stage next to a podium, with a large projection screen displaying the word 'Statistics' behind them.",
+      "alt_text": "Two speakers standing on stage beside a podium during a presentation titled Statistics",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a standard presentation shot that works for context but lacks the energy of an engaged audience.",
+      "quality": 46,
+      "dhash": "f41f737272636df6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-184.jpg": {
+      "description": "Two men in red shirts stand on a stage during a presentation, with one man gesturing toward a large screen displaying the text 'Gallons of Coffee Consumed NaN'.",
+      "alt_text": "Presenter standing next to a projection screen showing a slide about coffee consumption.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker and slide content, though the framing is slightly wide showing the ceiling.",
+      "quality": 61,
+      "dhash": "f40e667272636bf6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-185.jpg": {
+      "description": "An audience sits at round tables facing a large projection screen displaying 'Thanks to our organizers' during a conference presentation.",
+      "alt_text": "Audience watching a presentation screen that reads Thanks to our organizers",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The slide text is visible but the audience is mostly seen from behind; avoid for social media as it lacks engagement.",
+      "quality": 43,
+      "dhash": "8b4fcf4d4e5cf89c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-186.jpg": {
+      "description": "An attendee sits at a round table with a laptop and drink, facing a large screen displaying 'Thanks to our organizers' during a conference presentation.",
+      "alt_text": "Attendee looking at a laptop while watching a presentation screen in a conference room",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a recap showing the audience and closing slides, though the foreground laptop screen is distracting.",
+      "quality": 61,
+      "dhash": "c303c9c7d92e3cf8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-187.jpg": {
+      "description": "A man in a teal t-shirt plays a black grand piano while looking at a yellow rubber duck and a drink on the music stand.",
+      "alt_text": "Man playing piano with a rubber duck and drink on the stand",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good candid shot of a relaxed moment, but the framing cuts off the top of the piano and the subject's head.",
+      "quality": 46,
+      "dhash": "37c56b369a5353cd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-jesse-weigel-188.jpg": {
+      "description": "A view through a black metal railing of an indoor after-party where people are gathered around tables, with text overlay reading '#revconf After-party!'.",
+      "alt_text": "People mingling at an indoor after-party seen through a black metal railing.",
+      "tags": [
+        "crowd",
+        "venue",
+        "networking"
+      ],
+      "people_count": 5,
+      "scene": "other",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 1,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "blurry",
+        "cropped-subject"
+      ],
+      "notes": "The image is taken through a railing which obstructs the view and creates visual clutter, making it less suitable for professional social posts.",
+      "quality": 32,
+      "dhash": "b468cdc57ddc1d21",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-keith-l-privette-189.jpg": {
+      "description": "A group of four smiling attendees in matching pink shirts pose for a selfie at a table during an event, with other guests and a bar area visible in the background.",
+      "alt_text": "Four smiling people in pink shirts take a selfie at a table during a tech conference.",
+      "tags": [
+        "crowd",
+        "audience",
+        "group-photo",
+        "portrait",
+        "networking",
+        "food"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-energy shot that captures the fun and camaraderie of the community.",
+      "quality": 79,
+      "dhash": "d56c6d3f97dad6c7",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-s-z-190.jpg": {
+      "description": "A group of people are gathered around a long wooden table at a brewery, looking at menus and drinking beer.",
+      "alt_text": "Group of friends sitting at a bar counter with drinks and menus",
+      "tags": [
+        "crowd",
+        "food",
+        "venue",
+        "networking"
+      ],
+      "people_count": 10,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot showing the social atmosphere and venue details.",
+      "quality": 79,
+      "dhash": "699193dbddd8d8ec",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2018-05-18-revolutionconf-s-z-191.gif": {
+      "description": "A group of smiling attendees are gathered around a table at an indoor venue, likely during a social mixer or happy hour.",
+      "alt_text": "Group of friends laughing and drinking at a table in a brewery setting",
+      "tags": [
+        "crowd",
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures great energy and engagement, but the lighting is quite dim.",
+      "quality": 71,
+      "dhash": "aea6b4999edcd9f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-greg-norman-192.jpg": {
+      "description": "A group of people are sitting at a long wooden table in a bar or restaurant, looking at their phones and having drinks.",
+      "alt_text": "Group of friends sitting at a bar table looking at phones",
+      "tags": [
+        "crowd",
+        "food",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "This photo is not suitable for social media as most attendees are looking down at their phones rather than engaging with each other.",
+      "quality": 43,
+      "dhash": "d2c7d5b17ad7f3f5",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-193.heic": {
+      "description": "A group of people are gathered around a long wooden table at a bar, laughing and talking while enjoying drinks.",
+      "alt_text": "Group of friends laughing and drinking beer at a long wooden table",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "food"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 2,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The image captures great energy and engagement, but the close-up selfie angle makes it risky for social media.",
+      "quality": 68,
+      "dhash": "f6f4d429a99b9ade",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-194.heic": {
+      "description": "A group of people are gathered around a long table for a meal, with one person in the foreground taking a selfie while others chat and eat.",
+      "alt_text": "Group of people eating and chatting at a long table during an event",
+      "tags": [
+        "crowd",
+        "food",
+        "networking"
+      ],
+      "people_count": 10,
+      "scene": "food",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "blurry"
+      ],
+      "notes": "The image captures the social atmosphere of a dinner but is too blurry for high-quality social media posts.",
+      "quality": 50,
+      "dhash": "341160e868d8cced",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-18-revolutionconf-s-z-195.heic": {
+      "description": "A group of people are gathered around a long table at a restaurant, eating and socializing during an after-hours meetup.",
+      "alt_text": "Group of tech community members dining together at a long table",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This captures the community spirit well, but the close-up selfie in the foreground is unflattering and should be avoided for public use.",
+      "quality": 68,
+      "dhash": "18e0e06861714dcd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-19-revolutionconf-greg-norman-196.jpg": {
+      "description": "A group of people are gathered around a table at a brewery, smiling and posing for a photo while enjoying drinks.",
+      "alt_text": "Group of friends smiling and laughing together at a table in a brewery with brewing equipment visible in the background",
+      "tags": [
+        "crowd",
+        "food",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "dark",
+        "near-duplicate"
+      ],
+      "notes": "A warm, candid shot that captures the community vibe well despite being slightly underexposed.",
+      "quality": 71,
+      "dhash": "8ea634dbdcdcd9f8",
+      "duplicate_of": "2018-05-18-revolutionconf-s-z-191.gif",
+      "pick": false
+    },
+    "2018-05-19-revolutionconf-keith-l-privette-197.jpg": {
+      "description": "A smiling man wearing a 'Revolution Conf' t-shirt and a blue cap poses for a selfie in an outdoor seating area.",
+      "alt_text": "Smiling man wearing a Revolution Conf t-shirt and blue hat posing for a selfie outdoors",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Good quality portrait of an attendee, but requires consent before posting due to the visible face.",
+      "quality": 61,
+      "dhash": "b1d17813b0b71303",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-19-revolutionconf-alex-proaps-198.jpg": {
+      "description": "A speaker stands on stage next to a projector screen displaying a cartoon cloud and the text 'There is NO cloud, it's just someone else's computer'.",
+      "alt_text": "Speaker presenting a slide with a cartoon cloud that reads 'There is NO cloud'",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for illustrating the specific topic of the talk, though the lighting is a bit dim.",
+      "quality": 54,
+      "dhash": "46e2a7507af8fb3f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2018-05-19-revolutionconf-alex-proaps-199.jpg": {
+      "description": "Three colorful drinks with cocktail umbrellas sit on a wooden table alongside scattered puzzle pieces, with a person sitting in the background.",
+      "alt_text": "Three colorful drinks and puzzle pieces on a table",
+      "tags": [
+        "food"
+      ],
+      "people_count": 1,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A pleasant shot of event refreshments that works well for a social post about the break.",
+      "quality": 50,
+      "dhash": "716cfc7ad8e9495c",
+      "duplicate_of": null,
+      "pick": false
+    }
+  }
+}
