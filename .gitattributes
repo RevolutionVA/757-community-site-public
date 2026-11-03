@@ -1,0 +1,6 @@
+social/events/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+social/events/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+social/events/**/*.gif filter=lfs diff=lfs merge=lfs -text
+social/events/**/*.heic filter=lfs diff=lfs merge=lfs -text
+social/events/**/*.webp filter=lfs diff=lfs merge=lfs -text
+social/events/**/*.png filter=lfs diff=lfs merge=lfs -text

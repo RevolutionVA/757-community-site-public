@@ -1,0 +1,5406 @@
+{
+  "event": "NodeBots Day 2017",
+  "sources": [
+    "https://photos.app.goo.gl/B5gP7mlwgUHTvquG2"
+  ],
+  "photos": [
+    {
+      "file": "2017-07-21-nodebots-day-alex-proaps-001.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-21T15:27:15-04:00",
+      "google_photos_id": "AF1QipP2g2Rlgu9JfLFZub6ilRQd7ubnOeo2vbRcZHQ2",
+      "alt": "Bins of colorful craft supplies including pipe cleaners, LEGOs, and markers for a workshop",
+      "scene": "other",
+      "tags": [
+        "workshop",
+        "hardware"
+      ],
+      "quality": 36,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-21-nodebots-day-alex-proaps-002.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-21T15:35:42-04:00",
+      "google_photos_id": "AF1QipMBkkMyVlFrJan72Vz-wRUb1fk3xvj1IROcARUq",
+      "alt": "Close-up of a MakerBot 3D printer printing with purple lighting",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-28-nodebots-day-alex-proaps-003.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-28T12:53:03-04:00",
+      "google_photos_id": "AF1QipNqtUGdcZKkt5eA93l6WZshQRip55avblaivaCa",
+      "alt": "Several clear plastic containers holding stacks of assorted cookies like chocolate chip and dark chocolate.",
+      "scene": "food",
+      "tags": [
+        "food"
+      ],
+      "quality": 29,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-004.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T09:57:41-04:00",
+      "google_photos_id": "AF1QipPs6W91PiNKif0mYW3MuL8R4wwsP1WW-byXfNND",
+      "alt": "A small 3D printed wooden robot sits on a table with workshop instructions nearby",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-005.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T09:58:05-04:00",
+      "google_photos_id": "AF1QipMoQltkrHxu4lqWknrJ-FSrvQWje9Q0XTlA4vnV",
+      "alt": "Assorted tech conference stickers and swag on a table, featuring O'Reilly Media and Revolution Conf logos.",
+      "scene": "other",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "quality": 32,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-006.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T09:58:12-04:00",
+      "google_photos_id": "AF1QipOSER3DPW-6p9Ojvuv0k9WkltQTj61_kNRiivhz",
+      "alt": "A collection of colorful plastic toy figures in a black bin",
+      "scene": "other",
+      "tags": [
+        "swag"
+      ],
+      "quality": 29,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-007.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T09:58:17-04:00",
+      "google_photos_id": "AF1QipPbWXMqhn69rjQQlH0XDCBtuyhI_XCLrc1un8c6",
+      "alt": "Cardboard animal figures displayed on a table near a red storage bin",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "workshop"
+      ],
+      "quality": 32,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-008.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:00:35-04:00",
+      "google_photos_id": "AF1QipPO0I8vSr352w_-sn1vEObUobJPKnL9y8UNUPjo",
+      "alt": "Sign reading Soccer Bots next to a small indoor soccer field",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "signage",
+        "hardware"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-009.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:00:48-04:00",
+      "google_photos_id": "AF1QipNPIUS_3i8jl5qSuluDQgKBGWNGze4AWWsbNf4m",
+      "alt": "Three small robots with cardboard bunnies on top sit on a table next to a laptop",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-010.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:00:53-04:00",
+      "google_photos_id": "AF1QipODpmMnABiwpvmPf2C04jsAPyWLJzxdH5eVc_uZ",
+      "alt": "DIY football field game made with green carpet and tape for an event activity",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "outdoor"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-011.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:01:28-04:00",
+      "google_photos_id": "AF1QipPuj3XWZ4FWLfWekU-hDBkokqIJ1uK58UeB0yFI",
+      "alt": "Two homemade wooden arcade controllers sit on a table in front of a TV screen showing a fighting game roster.",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "screenshot"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-012.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:13:57-04:00",
+      "google_photos_id": "AF1QipMib6zA5o8qLtEXvqBSmBWrSyurCWMHKOyhoD0D",
+      "alt": "Young girl and adult assemble a wooden robot kit at a workshop table",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-013.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:16:23-04:00",
+      "google_photos_id": "AF1QipN6iJWz0FVsU1m5BbmdSD58I0W01UtBDqCQ5Fl9",
+      "alt": "Large room full of people sitting at round tables for a tech event",
+      "scene": "hacking",
+      "tags": [
+        "venue",
+        "crowd",
+        "audience",
+        "food"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-014.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T10:17:36.163000-04:00",
+      "google_photos_id": "AF1QipOMZoCbWVWo3OvHE9sIONdmQDO55zXKoQFvbDZA",
+      "alt": "Attendees sit at round tables using laptops in a large conference hall",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "workshop",
+        "hardware"
+      ],
+      "quality": 71,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-015.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T10:28:49.167000-04:00",
+      "google_photos_id": "AF1QipM1wj0qFDXGUdan5wQvUcnaAUlClEar0EviBdqW",
+      "alt": "Attendees work on projects at round tables in a large event hall",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 64,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-016.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:34:54-04:00",
+      "google_photos_id": "AF1QipOu3JAUPniIEQpHMizZd5oPq9iwVaRx9XnQh-Ug",
+      "alt": "Crowd of people working at tables in a large conference room with screens on the wall",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-017.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:35:18-04:00",
+      "google_photos_id": "AF1QipPkCMzKnHqlmY-c_AV2Sam73b5Cr6rCzDe4Y-RN",
+      "alt": "Large group of people sitting at round tables in a conference hall facing a presentation stage",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-018.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:35:29-04:00",
+      "google_photos_id": "AF1QipMTJjTSo0kklKfPkr_8_NfUQYX6aHGqkOOASBof",
+      "alt": "Attendees seated at round tables enjoying food and conversation in a large event hall.",
+      "scene": "food",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-019.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:35:31-04:00",
+      "google_photos_id": "AF1QipNq2l56PYlutaNzEMmcnJEVh4Vf63UjIeZAC_gN",
+      "alt": "Attendees working at round tables in a large event hall with overhead lighting rigs",
+      "scene": "hacking",
+      "tags": [
+        "venue",
+        "crowd",
+        "audience"
+      ],
+      "quality": 46,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-020.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T10:47:01-04:00",
+      "google_photos_id": "AF1QipMMB0Lf9P1NpCzJXbCIihwyaoOuT6wyLVHn7oDI",
+      "alt": "Attendees working at tables in a large conference room during a tech event.",
+      "scene": "hacking",
+      "tags": [
+        "venue",
+        "crowd",
+        "audience"
+      ],
+      "quality": 50,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-021.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T10:47:53-04:00",
+      "google_photos_id": "AF1QipNTG8XdBUVi1PvtLR64LfjAyNs9dErzZ2V5_HA-",
+      "alt": "Crowd of people seated at round tables in a large convention center hall with screens mounted on pillars.",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-022.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T10:48:07-04:00",
+      "google_photos_id": "AF1QipPid3-DhnWiyqWeJbvy0PzIVD4AqbOxeRpDI3Nq",
+      "alt": "Attendees gather in a large hall with tables and screens displaying event content",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "slides",
+        "networking"
+      ],
+      "quality": 46,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-023.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:53:58-04:00",
+      "google_photos_id": "AF1QipMPM4VObqMEMqfc8lWKjL58EBxYCYJRTpLmlgbc",
+      "alt": "Participants work on laptops and build robots at tables during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-024.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T10:54:03-04:00",
+      "google_photos_id": "AF1QipNbnCfPI77mckNehz6A9dAD4-hWSKUXjlSGWE2w",
+      "alt": "Young boys playing a video game at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "kids",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-025.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T10:55:51-04:00",
+      "google_photos_id": "AF1QipOjAbwLJvdMx84BEpkzSN9iLeqqmAVIOKgnfMCa",
+      "alt": "Close up of two people collaborating on an electronics build at a table",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-026.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T10:57:00-04:00",
+      "google_photos_id": "AF1QipPOgpPNh8YuChnNQsYv7i5KEwOQvoszvCpWMp3t",
+      "alt": "Groups of people sitting at round tables assembling small electronic devices during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "workshop",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-027.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T11:03:56-04:00",
+      "google_photos_id": "AF1QipMhMYTsiF1z7s9auys-TmajosVEgaKUGhOMuFAz",
+      "alt": "Hands sorting through a large pile of tech event stickers and swag on a table",
+      "scene": "other",
+      "tags": [
+        "swag",
+        "networking"
+      ],
+      "quality": 29,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-028.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T11:16:45-04:00",
+      "google_photos_id": "AF1QipO8S_E6P7biV6HFUoh7iMHMbU_vPfFrEaGh6GRv",
+      "alt": "Green circular robot prototype on a wooden table next to a laptop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 21,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-029.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T11:18:36-04:00",
+      "google_photos_id": "AF1QipPwJqnJxoj1gNxk5h8LKwWU_Grrwe-CFHHdQLmt",
+      "alt": "Crowd of people standing and sitting around tables watching a presentation on a screen",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "quality": 54,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-030.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T11:19:34-04:00",
+      "google_photos_id": "AF1QipNR_m5hJnZu1UDyRhTtneCiztUhSlEXpaUpqjmZ",
+      "alt": "Adults and kids working together on laptops at a community hack day",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-031.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:36:46-04:00",
+      "google_photos_id": "AF1QipPCAPGPkAEk8YJSSx6UB1GB5kXR6Yq-r4thXoPS",
+      "alt": "Participants work together at long tables with laptops during a tech workshop in a large room.",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "workshop",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-032.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:36:52-04:00",
+      "google_photos_id": "AF1QipMAJkbSNYj6bRQ1rVFdDwLHaWtI79xC7M7RZImV",
+      "alt": "Men working together on electronics projects at a hackathon table",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "networking",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-033.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:36:58-04:00",
+      "google_photos_id": "AF1QipNa7cJGwvs10bLXBLF53j2r04be4WH3HA8IxNTv",
+      "alt": "A white game controller sits next to a green robot base with circuit boards and wires on a wooden table beside Kotlin brochures.",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-034.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:37:02-04:00",
+      "google_photos_id": "AF1QipM__alF_rH7Rgma4g0i0piMPuLykmEZJijvpmcl",
+      "alt": "Close-up of a DIY green robot with exposed circuitry and wires sitting on a wooden table",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-035.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:37:56-04:00",
+      "google_photos_id": "AF1QipP261KV_v0bLhptAMq9WdN19MJC7nM_EG6QivMO",
+      "alt": "Attendees mingle and sit at round tables in a large event hall with overhead lighting trusses",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-036.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T11:38:14-04:00",
+      "google_photos_id": "AF1QipMQtjAfpn-465MxU3qxDbtF40q5UN3SuMk_LoLR",
+      "alt": "Attendees mingling and sitting at round tables in a large conference room during a break.",
+      "scene": "networking",
+      "tags": [
+        "venue",
+        "crowd",
+        "audience",
+        "networking"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-037.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:43:29.870000-04:00",
+      "google_photos_id": "AF1QipMgt9GejriGHLZI3PFN21UlVerMyI_N71dFpPIy",
+      "alt": "Crowd of people sitting at round tables working on projects during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "venue",
+        "slides"
+      ],
+      "quality": 71,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-038.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:43:38.903000-04:00",
+      "google_photos_id": "AF1QipNaC3GvHfnukGDvtqSuHnRTiWNx9swarKN6C9Ko",
+      "alt": "Attendees including children waiting in line for refreshments at a community event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-039.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:43:59.104000-04:00",
+      "google_photos_id": "AF1QipMJSsOMRa3Vw-yLjkBem7eoMzcqZ4Uh2GNgJJLI",
+      "alt": "Volunteers serve pizza to children in a line at an event",
+      "scene": "food",
+      "tags": [
+        "food",
+        "crowd"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-040.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:14.534000-04:00",
+      "google_photos_id": "AF1QipNgmhi3n6zP7IRGIR34LMrZumnbMT3YvPFwx2Gp",
+      "alt": "Smiling attendees posing together at a tech event with people celebrating behind them",
+      "scene": "group-photo",
+      "tags": [
+        "portrait",
+        "networking",
+        "swag"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-041.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:16.769000-04:00",
+      "google_photos_id": "AF1QipMzr6_vCGsMhV_0850fxKe5n5RRaU7lIF9dQZIM",
+      "alt": "Smiling man and woman in matching Heroku shirts posing together at a tech event",
+      "scene": "networking",
+      "tags": [
+        "portrait",
+        "networking",
+        "swag"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-042.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:22.741000-04:00",
+      "google_photos_id": "AF1QipNPgmO2v0NHTEsZ55xFNZZtjM-Msq0U5pJVjDhq",
+      "alt": "Three smiling people in matching Heroku shirts posing together at a tech meetup",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "portrait",
+        "venue"
+      ],
+      "quality": 82,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-043.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:23.742000-04:00",
+      "google_photos_id": "AF1QipMCWo6R6pDOVWsGHKGKkI4HjRh1-a2FYisFtBoN",
+      "alt": "Three smiling people posing together at a tech event",
+      "scene": "group-photo",
+      "tags": [
+        "portrait",
+        "group-photo",
+        "networking"
+      ],
+      "quality": 82,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-044.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:55.483000-04:00",
+      "google_photos_id": "AF1QipOpZz8B5TouLW3u9VjkoogrullmAwkAtFb0D3CK",
+      "alt": "Two smiling attendees hold up small robots at a tech event",
+      "scene": "group-photo",
+      "tags": [
+        "portrait",
+        "group-photo",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-045.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T11:47:58.319000-04:00",
+      "google_photos_id": "AF1QipNH7npnADkvc0qkOzIKZCwh7rR1dYFAayNRDc8X",
+      "alt": "Two people standing side-by-side holding small robots in a conference room",
+      "scene": "group-photo",
+      "tags": [
+        "portrait",
+        "group-photo",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-046.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T11:49:09-04:00",
+      "google_photos_id": "AF1QipPZ8YAJiAT_Cxedr_7ChIeBTIUgSG8_Puz4uRbM",
+      "alt": "Two volunteers in yellow shirts stand behind a long table filled with pizza boxes and slices.",
+      "scene": "food",
+      "tags": [
+        "food",
+        "venue",
+        "networking"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-047.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T12:02:22-04:00",
+      "google_photos_id": "AF1QipPk_9YLV3tBy9soZ6ocsIMVLkKGhMV1dFKAFX4i",
+      "alt": "Children watch a presenter control a small robot on a green mat in a conference room",
+      "scene": "hacking",
+      "tags": [
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-048.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T12:18:15-04:00",
+      "google_photos_id": "AF1QipPH6M2fMzdWJVgr_8S9c1qtblnS8V4QiVjmiM5g",
+      "alt": "Children and adults watching a robotics demo with laptops on a marked floor mat",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-049.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T12:21:52-04:00",
+      "google_photos_id": "AF1QipOShndaY1uveb_WQzJNHNfKjYP3rpk7IZMxU4oJ",
+      "alt": "Children programming robots on a black mat with blue circles while adults watch from the sidelines",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-050.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T12:21:55-04:00",
+      "google_photos_id": "AF1QipNnFGwv0WoU3Oli8XydRSrQRSAZsaMt4rvrQ7W3",
+      "alt": "Crowd of adults and kids gathered around laptops during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-051.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T12:22:04-04:00",
+      "google_photos_id": "AF1QipOv_7RtxsX5kBiF5HXP4WAicym1zj4DiAiCt-8y",
+      "alt": "Mentor helping kids with laptops at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "hardware"
+      ],
+      "quality": 57,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-052.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:22:05-04:00",
+      "google_photos_id": "AF1QipP05u7ITZ8MBVPxJTEF1xqcQQ7NHDGT5OQ2UVYl",
+      "alt": "Table displaying various event stickers and swag near recycling bins",
+      "scene": "sponsor",
+      "tags": [
+        "swag",
+        "venue"
+      ],
+      "quality": 29,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-053.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:22:08-04:00",
+      "google_photos_id": "AF1QipOkEvA5PmFA1dju95yoDuW2axCpNf_IhmGFhpo8",
+      "alt": "Man teaching a workshop to a child and adult at a community tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-054.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:22:14-04:00",
+      "google_photos_id": "AF1QipPtUBrI8z31KJncp4ESrekik2-s4U9TNMLmC-7q",
+      "alt": "Crowd of people sitting at tables in a large conference hall during an event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-055.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:22:35-04:00",
+      "google_photos_id": "AF1QipM__YbzGCueAAYh3AXjtBkLw_y8wYtRcYJLJ7m5",
+      "alt": "Speaker in yellow shirt addressing kids and adults at tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-056.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:22:37-04:00",
+      "google_photos_id": "AF1QipM7MRpG88Qx1EHRW7v6s8SIOlUe7ad6PFyfHQMQ",
+      "alt": "Crowd of adults and children working together at tables during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "venue"
+      ],
+      "quality": 57,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-057.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:07-04:00",
+      "google_photos_id": "AF1QipMl1pmb6uLt7VIRqoGJFkspWEUNiIrH53O1pA40",
+      "alt": "Attendees standing and sitting in a room watching a TV screen during an event",
+      "scene": "other",
+      "tags": [
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-058.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:24-04:00",
+      "google_photos_id": "AF1QipNk3gHeyu3pnm6bllBndsTF0Sgbr01hubqwZdBn",
+      "alt": "Young boy looking up in awe at a tech demo while a crowd watches in the background",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-059.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:25-04:00",
+      "google_photos_id": "AF1QipO-xZbOC8Mr9cep2WRloN8DXPNqi2WYHZmTSlwB",
+      "alt": "Young boy holding a small robot looks up at presenters on a stage during a community event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 75,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-060.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:27-04:00",
+      "google_photos_id": "AF1QipMyKYgTIVxQw0q96KY2uTsrT4_B1IFAQ6LZwew0",
+      "alt": "Young boy looking up at a presentation while holding an electronic device",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "hardware"
+      ],
+      "quality": 75,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-061.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:38-04:00",
+      "google_photos_id": "AF1QipONFVZXNJ257DW1SXGHBvlqJ1q-LwR6_vys1VS4",
+      "alt": "Team members collaborate to assemble a large black panel at an event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "networking"
+      ],
+      "quality": 57,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-062.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:41-04:00",
+      "google_photos_id": "AF1QipN6i4dfU7fpSI53qywg5BEEE8wCOlxpN503Qs4Y",
+      "alt": "Volunteers in yellow shirts setting up a display panel at an event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-063.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:42-04:00",
+      "google_photos_id": "AF1QipN8Mnori7L3ttZLhoAtm9Ho9ZI3F7JC-zhLCVzG",
+      "alt": "Group of people standing and sitting while assembling electronics at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "hardware"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-064.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:46-04:00",
+      "google_photos_id": "AF1QipNyaN0jQCdW8e77Zg7nmWeDylQMoBgrv7dnN0yu",
+      "alt": "Attendees gather around a large mirror at a tech event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-065.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:48-04:00",
+      "google_photos_id": "AF1QipOhjOGoh8hoQvxH22sUORJasKN5EfI5qz8m2ZE5",
+      "alt": "Audience watching a presentation on a screen at an indoor event",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-066.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:23:52-04:00",
+      "google_photos_id": "AF1QipObhf2xdB083HD1_3YtsZzxXgSJBICa7h5qduDl",
+      "alt": "Attendees gather around a large panel being held by a man in a yellow shirt",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-067.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:22-04:00",
+      "google_photos_id": "AF1QipODQKD1zwv-IH7Uvn1UMO4yRBtvVGlcJuoLA7gw",
+      "alt": "Children competing in a robotics event are shown on a large screen during a live stream.",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-068.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:33-04:00",
+      "google_photos_id": "AF1QipNEUWWSEawCx_y5UKActEHmd1ApfVe96ix11oqN",
+      "alt": "Two men collaborating over a laptop in front of curtains",
+      "scene": "hacking",
+      "tags": [
+        "networking",
+        "hardware"
+      ],
+      "quality": 54,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-069.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:34-04:00",
+      "google_photos_id": "AF1QipOCyR08S6H7qqUsiP7c0OWpXL-_u5HbaqljvD4c",
+      "alt": "Two men celebrating on stage with a laptop during a tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "quality": 71,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-070.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:50-04:00",
+      "google_photos_id": "AF1QipOYRsw9MbI-_VsR2JDbCJnhK95MhRAlf83tMSfI",
+      "alt": "Three men standing in a hallway, one holding a laptop",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 32,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-071.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:52-04:00",
+      "google_photos_id": "AF1QipPxvES4Z5bQis549uRiczJ_1S8Wu0x2viwVkT4k",
+      "alt": "Two men standing indoors near a curtain",
+      "scene": "other",
+      "tags": [
+        "venue"
+      ],
+      "quality": 25,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-072.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:24:54-04:00",
+      "google_photos_id": "AF1QipNSpQ1CM7Ce4fjmHAzAakJypK-bKx9IEg1r98_K",
+      "alt": "Backs of heads of attendees watching a screen during an event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 21,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-073.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:25:22-04:00",
+      "google_photos_id": "AF1QipMcDAxF2GUBmB2gHl0MLo-qpDt2u4sCEfC2lq-3",
+      "alt": "Attendee watching a screen showing a live stream of a robotics event with kids and laptops.",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-074.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T12:26:23-04:00",
+      "google_photos_id": "AF1QipNgmqc3CB1E5vCkuxRg0P0ytcETTSJDLiIYz2lo",
+      "alt": "Children sit on the floor coding laptops and watching small robots during a robotics workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-075.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T12:26:25-04:00",
+      "google_photos_id": "AF1QipNn4MxscFo8GFrqdfFExM_IHn25X6YXWvMMYs-k",
+      "alt": "Kids sitting on the floor controlling small robots in a circle using laptops",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 82,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-076.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:27-04:00",
+      "google_photos_id": "AF1QipPu0WjMqfAhLlhNMfs2iJarPwHoAyEdR4E0gd2M",
+      "alt": "Man in yellow shirt speaking into microphone on stage with others during event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-077.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:39-04:00",
+      "google_photos_id": "AF1QipN1kvE3h5qIO6REmHp812oBJfDKZ9orWhuWeTSr",
+      "alt": "Man in yellow shirt presenting with a blue laptop in front of curtains",
+      "scene": "hacking",
+      "tags": [
+        "talk",
+        "audience",
+        "hardware"
+      ],
+      "quality": 46,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-078.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:49-04:00",
+      "google_photos_id": "AF1QipMH8O1sioALilYHIZFHRDEvk0pEYKXciZgTz9HF",
+      "alt": "Smiling man in glasses standing next to someone holding a blue laptop",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-079.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:51-04:00",
+      "google_photos_id": "AF1QipMbAW_dRepj5ucNvk-qYZZ9vUE8a0WbItO2V2VP",
+      "alt": "Man in yellow shirt holding blue box over head",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "crowd"
+      ],
+      "quality": 61,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-080.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:52-04:00",
+      "google_photos_id": "AF1QipNQ0MwOIbgm69-u2bjIkeGZ6P7BlkHJGD82PoWx",
+      "alt": "Smiling attendee in a yellow shirt at a tech event",
+      "scene": "networking",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-081.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:26:56-04:00",
+      "google_photos_id": "AF1QipOntkaqsOOqYxpDRlEPhNwmWEku7gdQRB6EwqMj",
+      "alt": "Attendees standing in a hallway with laptops and a cardboard computer prop",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "hardware"
+      ],
+      "quality": 68,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-082.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:27:50-04:00",
+      "google_photos_id": "AF1QipNU4jcDlUbEyEMb3BJKQRr1QWTX6h-H-5ihn1QA",
+      "alt": "Small robots racing on a green turf field while children watch from behind",
+      "scene": "hacking",
+      "tags": [
+        "robots",
+        "hardware",
+        "kids"
+      ],
+      "quality": 64,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-083.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:28:02-04:00",
+      "google_photos_id": "AF1QipNA0mFBy57wlMb3WLGO30tX77BlVSUmrpCDg7I6",
+      "alt": "A TV screen showing a fighting game with two custom arcade joysticks on the table in front of it",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "screenshot"
+      ],
+      "quality": 32,
+      "flags": [
+        "sensitive"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-084.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:28:27-04:00",
+      "google_photos_id": "AF1QipMyux34RjR-Zvt1VPxjXvlo69DCJkZaeUhpyq9q",
+      "alt": "Man raises arms in celebration at a tech meetup",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 71,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-085.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:28:33-04:00",
+      "google_photos_id": "AF1QipOYG3rzILONYhfeKRaFxo5NMzojlEcPreJKshJx",
+      "alt": "Man in plaid shirt points to a screen while others watch in a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-skip-morrow-086.jpg",
+      "photographer": "Skip Morrow",
+      "taken_at": "2017-07-29T12:38:03-04:00",
+      "google_photos_id": "AF1QipN6oixqW8Xg2MP3OdaA8v6YOy6zwZuyydzKjBQM",
+      "alt": "Participants programming small robots on a track during a youth robotics workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 79,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-087.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T12:40:02-04:00",
+      "google_photos_id": "AF1QipNMlOEya7a8xkZiYaVJCSfExEEcoysLTyb0ZZwr",
+      "alt": "A small robot with yellow wheels moves along a blue tape circle on a carpeted floor as people code on laptops nearby",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-088.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:44:19.744000-04:00",
+      "google_photos_id": "AF1QipMP62o3oPelEWI6VjpOvZdlid2hiZqX6mp3dTYl",
+      "alt": "Children and adults sitting on the floor working on laptops during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-089.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:44:31.900000-04:00",
+      "google_photos_id": "AF1QipM8wS3Wx4jBYQJ7q1HH12YLGJC8sp3NVwUau5Yx",
+      "alt": "Children and adults huddled around laptops and robots during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-090.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:44:52.055000-04:00",
+      "google_photos_id": "AF1QipPjBPYyIOZMdjPqkrcB_SFR8wFC7ORbtoTCtnUD",
+      "alt": "Mentor helping a child code on a laptop during a robotics workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-091.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:45:29.617000-04:00",
+      "google_photos_id": "AF1QipPcZ4ibUaGWVkInzxWCqWuiJWtGGGBd5zriI3Hf",
+      "alt": "Kids and adults coding and controlling small robots on a stage during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-092.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T12:46:18-04:00",
+      "google_photos_id": "AF1QipPi3KQfg6Mg14kVN17L1duNxT-yO0SJVVnf97J0",
+      "alt": "Two small robots facing each other inside a blue tape circle on the floor",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 39,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-093.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:46:59.315000-04:00",
+      "google_photos_id": "AF1QipPBHOPVDw7Drdjj6eZ7unyYcWOIAocl8zKqv75c",
+      "alt": "Children and adults working together on laptops and hardware on a stage",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-094.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:47:02.690000-04:00",
+      "google_photos_id": "AF1QipMBSOls1q36mhbbZ7lPBNDkSb6_pXwHS8OmkE-j",
+      "alt": "Volunteers helping children with electronics projects during a community tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "hardware"
+      ],
+      "quality": 75,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-095.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:47:53.306000-04:00",
+      "google_photos_id": "AF1QipOWHl6qOTRMotAvF2B09NfC7sntC6jmm8d5jqAB",
+      "alt": "Children and an adult building robots at a community hack day event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-096.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:06-04:00",
+      "google_photos_id": "AF1QipPxzbAY-Gh58ri6GLVohd2TVK2v1hsNGmE94cXy",
+      "alt": "Speaker addressing a crowd of adults and children at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "workshop",
+        "venue"
+      ],
+      "quality": 64,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-097.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:26-04:00",
+      "google_photos_id": "AF1QipP4jpuDG7vY_wkZEgkE9J4FhFF1W0jXv33ixxEo",
+      "alt": "Children watching an activity on a stage at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "kids"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-098.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:28-04:00",
+      "google_photos_id": "AF1QipMnQD9-df5mLCT6UOB2ayeNfo11nv4F3G8V5RR-",
+      "alt": "Children playing video games at a tech event with volunteers setting up on stage",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "stage",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-099.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:29-04:00",
+      "google_photos_id": "AF1QipMlP4MibzoHzu-s-JW3dOKUe7J860FBIPFhDYnA",
+      "alt": "Children watching adults set up equipment on a stage at an event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "stage",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-100.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:35-04:00",
+      "google_photos_id": "AF1QipPFLADKL9Z9MyX0wjY8fqTXEwc8IeABqN2-hW9a",
+      "alt": "Children participating in a robotics competition with a crowd watching behind them",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "signage"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-101.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:48:47-04:00",
+      "google_photos_id": "AF1QipO8QpHy6Sw4JpcffL4csJAKlWEBBCbKdP0yiRoD",
+      "alt": "Man in yellow shirt holds up a screen during a tech workshop with children and adults watching",
+      "scene": "hacking",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "venue",
+        "hardware"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-102.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:08-04:00",
+      "google_photos_id": "AF1QipNCkJWCYmdnJTpGrld-L5sQ3sZpwOUqRBZbOVy0",
+      "alt": "Adults and kids working with robots on a stage floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 64,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-103.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:09-04:00",
+      "google_photos_id": "AF1QipMqgXooATii0gF32hjjfa7efPEGXVMsCP4MR4n-",
+      "alt": "Adults and children work together on the floor with small robots at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-104.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:15-04:00",
+      "google_photos_id": "AF1QipPiy--CdVO9_q5lecnr2zQD1TsEmv6LcmrsiKUo",
+      "alt": "Adults and children sitting on the floor during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "kids"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-105.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:49:15.423000-04:00",
+      "google_photos_id": "AF1QipMI-gPWP9loBpEZunMgZ1Rhchpv0aNZQNwyf9gH",
+      "alt": "Adults and kids sitting on the floor working with robots and laptops at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-106.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:17-04:00",
+      "google_photos_id": "AF1QipM2ZsWtOSM0AhczP6nxNqveuf1WEfZ_9fgbNKRs",
+      "alt": "Instructor kneeling to show children how to use technology during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "hardware"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-107.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:26-04:00",
+      "google_photos_id": "AF1QipNNwHA4jAGKtrhrFZCkiwgLhQbqQPNgbABRVqZ_",
+      "alt": "Children and adults sitting on the floor at a tech event workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-108.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:29-04:00",
+      "google_photos_id": "AF1QipPN3UBabg0nfMhudLXQUCPFijYKxj6Yd3s3m5oR",
+      "alt": "Adults and children sitting on the floor working together on a laptop and electronics project",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-109.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:49:40.099000-04:00",
+      "google_photos_id": "AF1QipOkofRnfyBlhfy1ALfnhq6ytejX8z4sVHCIzhXL",
+      "alt": "Smiling participants display their small robots during a kids' coding workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-110.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:49:40.707000-04:00",
+      "google_photos_id": "AF1QipMNu8hd6KjIcZR698vPQ85gzGSqw5IT41VEipGL",
+      "alt": "Participants working on small robots at tables during a community tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-111.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:51-04:00",
+      "google_photos_id": "AF1QipMS545yNmWsYN5rU4hB01bHtUGZq8l6aZwEh072",
+      "alt": "Man helping a child with a laptop on stage during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware"
+      ],
+      "quality": 71,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-112.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:49:53-04:00",
+      "google_photos_id": "AF1QipPDVGbvFmSOBHe_0o_mrRxFEaUO-25TWKvW_XIN",
+      "alt": "Children and adults participate in a hands-on tech workshop on a stage",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "hardware",
+        "venue"
+      ],
+      "quality": 71,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-113.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:50:00.522000-04:00",
+      "google_photos_id": "AF1QipOYXSJ8oLZau1RHI-bho2qwydXI9sR5r7KzQ0-7",
+      "alt": "Three people smile at a table full of robotics kits and papers",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 82,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-114.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:50:25-04:00",
+      "google_photos_id": "AF1QipN_nKy81X-8aakQKl5C-ab2uEcCHhWlWQ9XCxH3",
+      "alt": "Adults and children working together on laptops and robots during a community tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "workshop",
+        "kids"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-115.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:50:28-04:00",
+      "google_photos_id": "AF1QipPZktJ3ol65LW-Mvc0FwbeHShwfJl_Z_oumDPrO",
+      "alt": "Children and adults gather on a stage at an indoor event, with one boy standing near a laptop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "quality": 57,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-116.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:50:32-04:00",
+      "google_photos_id": "AF1QipOsdVgjYOrrvCm_RHlk6hxmmNuuu7b4rTjmpBdb",
+      "alt": "Young boy standing on stage watching a monitor while adults work with equipment",
+      "scene": "hacking",
+      "tags": [
+        "stage",
+        "kids",
+        "hardware",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-117.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:50:35-04:00",
+      "google_photos_id": "AF1QipOdSMZD5zjOo7tTW1NLLK6aiPmkA8rgpnnfGHvz",
+      "alt": "Children and adults participate in a tech workshop on stage with laptops and controllers",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd",
+        "audience",
+        "stage"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-118.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:50:50.892000-04:00",
+      "google_photos_id": "AF1QipNs02CrSiIHvANTYrkM8jr6_vKvwjhjmKxuwmXA",
+      "alt": "Children and adults watch robots navigate a course during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-119.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:50:59-04:00",
+      "google_photos_id": "AF1QipNd_YjiSCmoQTrTNJ6p11GerAeAFor-ieG8C7gV",
+      "alt": "Instructor demonstrating a robot to kids at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "audience",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-120.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:01-04:00",
+      "google_photos_id": "AF1QipNAN79eDBf48tYtcSmbTJdEUaF1DQNZwnKXCDNK",
+      "alt": "Presenters in yellow shirts on stage with an audience including kids",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "kids"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-121.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:51:01.925000-04:00",
+      "google_photos_id": "AF1QipNMldN-SCABF9XWNQP_kxhy1g5q30pdaFKMx-F_",
+      "alt": "Children and an instructor watch a robot navigate a blue tape track on the floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-122.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:03-04:00",
+      "google_photos_id": "AF1QipO30iDYawhkcq8uYWLUKpt2IcDNChnCJ55NqRBe",
+      "alt": "Hosts in yellow shirts lead an activity on stage with an audience watching",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-123.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:20-04:00",
+      "google_photos_id": "AF1QipMOZpwFPPALEfIUs924G5oQEGl7sw8m5Ou4lrow",
+      "alt": "Two participants in yellow t-shirts standing and working on a project during an indoor event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 36,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-124.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:21-04:00",
+      "google_photos_id": "AF1QipP0JJkeyhlpRAH82pYDhTS1ToMWDLVyJH-IOwoB",
+      "alt": "Two presenters in yellow shirts standing on a stage with an audience seated behind them",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-125.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:45-04:00",
+      "google_photos_id": "AF1QipPOt-kp-6pkOiFPa4WYDLzq5a-oa6TyN_MgTlFg",
+      "alt": "Attendees collaborate on laptops during a hands-on workshop session",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-126.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:51:48-04:00",
+      "google_photos_id": "AF1QipOaugItAwYG7IvQR_fvSk-WTlEOzhEgdBKyOidG",
+      "alt": "Children and adults collaborate around a laptop on the floor at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware"
+      ],
+      "quality": 61,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-127.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:52:01-04:00",
+      "google_photos_id": "AF1QipOqLXmPo2DTNEds2tF20I9lKzojp4ktEUxTcX_v",
+      "alt": "Volunteer helping kids with a project at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "kids"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-128.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:52:17-04:00",
+      "google_photos_id": "AF1QipN-sos51jaY4s4W2Ady3qMSCKNPWzLxc-tCYQ2A",
+      "alt": "Crowd standing near a stage railing observing an event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue",
+        "stage"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-129.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:52:46.468000-04:00",
+      "google_photos_id": "AF1QipPo09Xm9npcoUi23iIewJpgCvwpJ-9bc6RLBb1d",
+      "alt": "Kids and mentors watch a small robot navigate a course on the floor during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-130.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:52:52-04:00",
+      "google_photos_id": "AF1QipPkJllt7oF-N_dYKtYb8XmsyW6BDF8tbOvDw7W3",
+      "alt": "Attendees working together on the floor during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience",
+        "hardware"
+      ],
+      "quality": 57,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-131.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:53:21.980000-04:00",
+      "google_photos_id": "AF1QipPWco8h_IntQeo1Zr42tv-tG4GUkN6TI4Sx0Fi3",
+      "alt": "Children and adults participate in a robotics workshop on a stage floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-132.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:53:30.504000-04:00",
+      "google_photos_id": "AF1QipPdY5vkkwxAehqwbAeaCUXBGWzNfveTGrVRAn0T",
+      "alt": "Young boy coding a robot in a competition circle while a photographer takes pictures",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "prize",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-133.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:53:52-04:00",
+      "google_photos_id": "AF1QipOjLBR61laymes0-H3H23EA4wKt8vDbw791khJP",
+      "alt": "Man in yellow shirt speaking into microphone on stage at tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "venue"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-134.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:53:53-04:00",
+      "google_photos_id": "AF1QipMo4fm7Ak_URvVQtsqzOWsIDBSyBUJV5GG-goSb",
+      "alt": "Speaker holding a microphone and paper addressing an audience at a tech event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-135.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:54:15-04:00",
+      "google_photos_id": "AF1QipOQwm0U4Zosnbx8YoTK53jnS6pDIeexpjbKT_tk",
+      "alt": "Man in yellow shirt speaking into microphone at event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "audience"
+      ],
+      "quality": 54,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-136.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:55:20-04:00",
+      "google_photos_id": "AF1QipN2Z0jwMWU-Cs2m4UDEutvejToCF7ugW-YgotEa",
+      "alt": "Participant points at a small robot on a track while someone types on a laptop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-137.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:56:11-04:00",
+      "google_photos_id": "AF1QipOxTj46isHp_jnIzrCICSMEMeajQPOQBcy5d66M",
+      "alt": "People standing on a stage during an event with yellow boxes",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "stage",
+        "venue"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-138.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:56:15-04:00",
+      "google_photos_id": "AF1QipPH-d2GCZC7zHI2SW2Ga0WbAefjpKs6eqgzNE7N",
+      "alt": "Crowd of people standing and sitting on stage near yellow voting boxes",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-139.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:56:19-04:00",
+      "google_photos_id": "AF1QipMFpyHE-6M4MXwziXajmPC4JUCan6iz_W_9zfZj",
+      "alt": "People standing on a stage near yellow boxes and equipment",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 36,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-140.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:56:23-04:00",
+      "google_photos_id": "AF1QipOtheZmteoj21CtkBTkYuNZqnmSbqTS6yd65x8X",
+      "alt": "Man in yellow shirt checking phone next to yellow boxes",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "venue"
+      ],
+      "quality": 29,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-141.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:56:36.054000-04:00",
+      "google_photos_id": "AF1QipPeKu8yBDmLNyxGPlmHl7XPlPyhk-3nfa_1arsb",
+      "alt": "Attendees working on laptops and robots during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "audience",
+        "venue"
+      ],
+      "quality": 64,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-142.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:58:08-04:00",
+      "google_photos_id": "AF1QipMKNVhdrphmTKeG_u8dTlG-mUELvVgRCJVxHvRq",
+      "alt": "Attendees watching a robotics demo with laptops",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-143.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:58:10-04:00",
+      "google_photos_id": "AF1QipML6ijXcez4RbaMUKesy2HfRSFXIrl0Wv5Co02r",
+      "alt": "Hackathon participants competing with robots on the floor while an audience watches",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "networking"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-144.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:58:52-04:00",
+      "google_photos_id": "AF1QipMeerxagfNuZQj3-zSNNykdSDKYBFu_S51s5PjY",
+      "alt": "Stacked chairs next to a supply table at an event",
+      "scene": "other",
+      "tags": [
+        "venue"
+      ],
+      "quality": 21,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-145.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:58:55-04:00",
+      "google_photos_id": "AF1QipPl9TPn5a0ICT78HpW1i_mgs0JntR_JzbEXUdZm",
+      "alt": "Scattered stickers and swag on a table at a tech event",
+      "scene": "other",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "quality": 29,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-146.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T12:59:01-04:00",
+      "google_photos_id": "AF1QipMP79_M-6aXXTV9-pMRuqkQVGY0Cv-1Cr-xpQqb",
+      "alt": "Kids watching robot competition on floor with laptop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-147.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:59:18-04:00",
+      "google_photos_id": "AF1QipO1QuZoNRJpLvHs2NiPvrxdRAFsUWWokQIgoU72",
+      "alt": "People walking past tables and chairs in a conference room with a TV screen on the wall",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "networking"
+      ],
+      "quality": 36,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-148.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T12:59:28-04:00",
+      "google_photos_id": "AF1QipPfF0xVRnTrnTXWtcShP0pIu7sGe2GhxJcr9XMn",
+      "alt": "People working on a small robot at a table during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "workshop",
+        "networking"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-149.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:05-04:00",
+      "google_photos_id": "AF1QipOxOMsazR0kxvuWd7htUyUd0LPoCGGiETGCCTC-",
+      "alt": "Children playing with robots on a small indoor soccer field",
+      "scene": "hacking",
+      "tags": [
+        "kids",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-150.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:09-04:00",
+      "google_photos_id": "AF1QipNP9jPxmafGf5avF_3W3kqD3ClwrCFrwrcCuiiY",
+      "alt": "Man standing on stage during an event with children sitting on the floor",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "quality": 29,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-151.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:10-04:00",
+      "google_photos_id": "AF1QipNbxFqUd2bTobYg8nUWl1CL3P_fX5pLdxbN4ssP",
+      "alt": "Man standing on stage at an event with hands in pockets",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "portrait"
+      ],
+      "quality": 32,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-152.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:17-04:00",
+      "google_photos_id": "AF1QipNqBTttRvhRIX-SJvMavnH3RfOQ-ulEm0EtxjmG",
+      "alt": "Audience members watch a robotics event on dual screens at the ODU venue",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue",
+        "signage",
+        "hardware"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-153.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T13:00:30-04:00",
+      "google_photos_id": "AF1QipOk6c1Dvf--XmPbo_D4U2VNpvSLcKOI3a-zNdsa",
+      "alt": "Wooden motorized robot with a geometric bunny figure on top and technical schematics in the background",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-154.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:50-04:00",
+      "google_photos_id": "AF1QipMc6aVQyIu5Sn2KQ5_1NK9IZ1PyxhDDS8AVGZQY",
+      "alt": "Children participating in a tech workshop, one wearing an EEG headset",
+      "scene": "hacking",
+      "tags": [
+        "kids",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-155.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:00:52-04:00",
+      "google_photos_id": "AF1QipOhI2huengU4_vmP_9RDgK_egwIGgb0YoiFn-I7",
+      "alt": "Participants working on robot building projects at tables during a hackathon",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-156.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:01:29-04:00",
+      "google_photos_id": "AF1QipNhK8xwO-wWV8mlaSjL6j8mcDjSwRNK1WtWHzcX",
+      "alt": "Man in yellow shirt standing in a crowded room with backs of heads in foreground",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "networking"
+      ],
+      "quality": 32,
+      "flags": [
+        "blurry",
+        "sensitive"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-157.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:01:31-04:00",
+      "google_photos_id": "AF1QipOa1d-ltcvAh1JJkQBEEj84zbnktX3DkJzQRegG",
+      "alt": "Smiling participant holds a robot wheel while talking to a friend at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "networking",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 68,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-158.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:01:41-04:00",
+      "google_photos_id": "AF1QipMEfypkUDOGLcj0mpkaduYH7qrBlGvAij9eP6Kz",
+      "alt": "Children and adults watch a demonstration on a stage at a community event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-159.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:03:39-04:00",
+      "google_photos_id": "AF1QipM0YGpiP8mQTVCtY_SwVPXgAUSRA2YPKLSDJCku",
+      "alt": "Attendees in yellow shirts networking at a tech event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-160.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:03:43-04:00",
+      "google_photos_id": "AF1QipMmPde0Kj4RZ2TrEGhjIY75Iz2O-YmBGb-92yhy",
+      "alt": "Three men standing and looking up at something off-camera during an event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-161.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:03:45-04:00",
+      "google_photos_id": "AF1QipNkZe_G_T0ojMwxYCHnl27sNMrXdiHbDM0aQ0AK",
+      "alt": "Two men in yellow t-shirts and one in a blue shirt standing and talking in an office setting",
+      "scene": "networking",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-162.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:03:48-04:00",
+      "google_photos_id": "AF1QipNObNptcEz-nRJ2zCzDg3H56cGJWgSlk2ThbWuu",
+      "alt": "Attendees laughing and networking during a break at a tech meetup",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-163.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:03:49-04:00",
+      "google_photos_id": "AF1QipMnnDMarVtqqah_Gq25hl-Le4AS6uo5t4phJhuj",
+      "alt": "Attendees in yellow shirts laughing together during an event break",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-164.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:04:03-04:00",
+      "google_photos_id": "AF1QipNswl9iGyVOiXVrj36g0amRj5RXw_2RzdiTRiIM",
+      "alt": "Crowd of diverse attendees watching an event from behind",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-165.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:04:05-04:00",
+      "google_photos_id": "AF1QipM-Xmws6CAboEgNYxB92wOvEsPiCTI0bpaVbEuI",
+      "alt": "Crowd of people gathered around a table watching a demonstration at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-166.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:04:12-04:00",
+      "google_photos_id": "AF1QipNyzxPwiun53iij1HoOTM6dq1IlDJeSK4G5Hqdu",
+      "alt": "Children and adults sit on the floor working with laptops and robots at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "audience",
+        "crowd"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-167.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:04:16-04:00",
+      "google_photos_id": "AF1QipMm10ejphUjqRcUxEjLLCzYw8Ovx_AVqyDxpCON",
+      "alt": "Kids and adults participate in a robot battle on a stage during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "stage",
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-168.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:04:16-04:00",
+      "google_photos_id": "AF1QipPbG0TuYa7dAXgw_7qTZOqQZktLzPdwLSnBUWTN",
+      "alt": "Two small robots with yellow wheels inside a blue tape circle on the floor",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 36,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-169.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:04:59.712000-04:00",
+      "google_photos_id": "AF1QipO5vd6JjCadaMtVMqk96zHFk1KRVioBIIya0x_A",
+      "alt": "Crowd of kids and adults watching a demo at a tech event",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-170.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:09-04:00",
+      "google_photos_id": "AF1QipOL9EYw7Y_kXnXDWasxg8cN4ZPhdwdLRqKJv6bg",
+      "alt": "Woman in yellow shirt stands near tables at an event, viewed from behind a backpack.",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-171.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:10-04:00",
+      "google_photos_id": "AF1QipMOtOZ-604x9EGL-gqxIDFriBLHGeqYSoyVXRo7",
+      "alt": "Woman in yellow shirt standing with arms crossed at an event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-172.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:12-04:00",
+      "google_photos_id": "AF1QipNQm4NScmAap6T9XWzuATj4sYySrAdaq3llhNN4",
+      "alt": "Woman in yellow shirt stands with arms crossed at a crowded event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-173.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:18-04:00",
+      "google_photos_id": "AF1QipMivb0F5CnYVxxP0caTNBPk1_9eeV9wMIl_G13y",
+      "alt": "Two men presenting on stage, one holding a microphone and paper.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "quality": 57,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-174.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:20-04:00",
+      "google_photos_id": "AF1QipOgV1MH2DONncxL0pbL00Ik0dh7tL8xRhxvs3PQ",
+      "alt": "A man with a microphone stands next to another man raising his hand during a presentation.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-175.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:22-04:00",
+      "google_photos_id": "AF1QipPxKNEkkuNriVeTvZjXREabMmzTvT8nKwTWK2Wz",
+      "alt": "A group of three people celebrating on stage at an event, with one holding a microphone.",
+      "scene": "talk",
+      "tags": [
+        "crowd",
+        "audience",
+        "group-photo"
+      ],
+      "quality": 46,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-176.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:05:23-04:00",
+      "google_photos_id": "AF1QipPFCVKoRpkgmUhxHzIrD_fW2HM8LTr1slveuVUc",
+      "alt": "Two men presenting on stage, one speaking into a mic while the other raises his hands excitedly",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-skip-morrow-177.jpg",
+      "photographer": "Skip Morrow",
+      "taken_at": "2017-07-29T13:06:56-04:00",
+      "google_photos_id": "AF1QipPjA65L2VDPxgBhPI3aZU15mvr7OV-QwYmC3omE",
+      "alt": "Children and an adult program a small robot on a stage during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-skip-morrow-178.jpg",
+      "photographer": "Skip Morrow",
+      "taken_at": "2017-07-29T13:07:09-04:00",
+      "google_photos_id": "AF1QipO02sbD-gKeCvshEiD8rds82O24dYUMMXEJ-hqG",
+      "alt": "Children and adults coding robots on a stage during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids",
+        "crowd"
+      ],
+      "quality": 93,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-179.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:07:40-04:00",
+      "google_photos_id": "AF1QipMceZYu_YjF35xoZ4Q2Cubg08UsNH0-K54vq7X5",
+      "alt": "Instructor stands over a group of kids working on a robot during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 82,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-skip-morrow-180.jpg",
+      "photographer": "Skip Morrow",
+      "taken_at": "2017-07-29T13:09:14-04:00",
+      "google_photos_id": "AF1QipN6SSziVyGwiQaLkDlce0O6KKgXropjGedzkCMM",
+      "alt": "Man helping children with laptops and robots at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-181.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:11:56.252000-04:00",
+      "google_photos_id": "AF1QipPPAY3MmsZHBC7DDdyugO16cPIWq71eEJJc0QSq",
+      "alt": "Kids watching a robot race on a track during a youth coding workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-182.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:12:02.200000-04:00",
+      "google_photos_id": "AF1QipMB9zUzqvYbn-kRh94m6gteuc7JqHx8saKtiGW5",
+      "alt": "Kids sitting on the floor watching a small robot inside a blue tape circle during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-183.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:13:00-04:00",
+      "google_photos_id": "AF1QipP8yTTS1bMK2b6zNyl3N-ujxKpIudAaPTDAcEcV",
+      "alt": "Woman standing in a tech event room holding a phone with others working on laptops nearby",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-184.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:13:04-04:00",
+      "google_photos_id": "AF1QipO55Q_xoN2WMJ9rperE9324xs79CTN5duUPcp3W",
+      "alt": "Attendees standing and sitting at a tech event, featuring a woman in yellow talking and a girl in a black shirt.",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-185.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:14:17-04:00",
+      "google_photos_id": "AF1QipN-DAGJ3Mw5Q3mokCki0RMAVSomzsg60anj43Rh",
+      "alt": "Kids and adults working on robots on the floor at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 68,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-186.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:14:47-04:00",
+      "google_photos_id": "AF1QipPxAhp9xi4gI_rJLI_jQbnYYg4iF8OZFh1vM5vQ",
+      "alt": "Attendees standing in a crowded hallway, featuring a woman in a yellow shirt and a child wearing a name tag",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-187.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:15:20-04:00",
+      "google_photos_id": "AF1QipNRNTycROszkWAQolcF_4jC6Y4XxfGKJd3Vbbf6",
+      "alt": "Smiling man and woman in matching yellow shirts posing together at an event",
+      "scene": "group-photo",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-188.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:15:22-04:00",
+      "google_photos_id": "AF1QipMGYxQXPfXK4wZsRsZGvuaGjhhMloVEvM4ISMpg",
+      "alt": "Smiling man and woman in matching yellow shirts standing together at an event",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "crowd"
+      ],
+      "quality": 61,
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-189.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:15:23-04:00",
+      "google_photos_id": "AF1QipMTkUZqP_kVy9NycY1EZno7ynG0gWpivQ_uZzNr",
+      "alt": "Smiling man and woman in matching yellow shirts posing together at a tech event",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-190.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:17:09-04:00",
+      "google_photos_id": "AF1QipPruNAdVk-L_czANpL7VVzZeY54Po5aUpjSvdV6",
+      "alt": "Woman standing near empty tables and chairs in a conference room",
+      "scene": "venue",
+      "tags": [
+        "venue",
+        "crowd"
+      ],
+      "quality": 21,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-191.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:17:12-04:00",
+      "google_photos_id": "AF1QipO1fTlVXTgbpVmbqhuu6crb6Gz--_AWIrCApVAr",
+      "alt": "Man carries water jugs while a woman stands near round tables in a conference room.",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "food"
+      ],
+      "quality": 43,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-192.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:17:13-04:00",
+      "google_photos_id": "AF1QipNP0_r74DoHN34GGyXaGXTYF7sAUXzgQKP2_N0M",
+      "alt": "People standing near tables in a conference room",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "networking"
+      ],
+      "quality": 25,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-193.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:17:39-04:00",
+      "google_photos_id": "AF1QipNT0c5UYTNGDp4mH8y2reMru0p2pvwQAvu3ac9b",
+      "alt": "Group of people standing on a stage during a tech event with laptops and a presenter holding up a paper",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "hardware",
+        "kids"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-194.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:17:40-04:00",
+      "google_photos_id": "AF1QipO1QiCT0yxM0Acubla-jYhg_ExlD1411l5VHcgf",
+      "alt": "Adults and kids standing on a stage with laptops and a child holding up a paper",
+      "scene": "other",
+      "tags": [
+        "group-photo",
+        "kids",
+        "hardware"
+      ],
+      "quality": 54,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-195.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:18:56-04:00",
+      "google_photos_id": "AF1QipMLXvDxFQcgOpasoYO7kSxtvD5Ka-KdU7j1urnh",
+      "alt": "People standing around a table with electronics and papers during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 46,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-196.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:18:58.928000-04:00",
+      "google_photos_id": "AF1QipOcEgST6SZZLwBQXBTqmyWAzDGuIjufiFJezoLa",
+      "alt": "Children and mentors sit on the floor working with small robots and laptops during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-197.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:19:25.373000-04:00",
+      "google_photos_id": "AF1QipOLO24uG57XhmFrE_wm2gHjLnnGsubrLJf64Tc9",
+      "alt": "Children and adults sit on the floor at a tech event working on laptops near taped circles",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-198.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:19:46-04:00",
+      "google_photos_id": "AF1QipP2dK8fZDkOduoWsc9I8KB7ZfdpmxhE5YTPNe0J",
+      "alt": "Screen capture of a laptop broadcasting a robotics event with kids controlling bots on a blue taped track.",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "screenshot"
+      ],
+      "quality": 64,
+      "flags": [
+        "screenshot"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-199.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:19:47-04:00",
+      "google_photos_id": "AF1QipPk7x66HPouxGjJspb8Pv8bnTENWulW3mHbvM_K",
+      "alt": "Screen capture showing kids controlling robots in a race during a tech event broadcast",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "kids",
+        "screenshot"
+      ],
+      "quality": 50,
+      "flags": [
+        "screenshot"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-200.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:19:48.207000-04:00",
+      "google_photos_id": "AF1QipN8-xZcpmjVUwQkpTa6cg8MbMeueZses9VncqYY",
+      "alt": "Students work on robots at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 82,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-201.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:19:58-04:00",
+      "google_photos_id": "AF1QipNRACaC7Vw_xJeLQCGuAdVEOk50LOLKLuLkeJUF",
+      "alt": "Kids and adults controlling robots on a track during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 68,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-202.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:19:59-04:00",
+      "google_photos_id": "AF1QipONZrbj-ruj6MCZ2OO7fuFXBIHkou0vFrSiVbFG",
+      "alt": "People sitting on the floor operating small robots in an arena with laptops",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-203.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:20:00-04:00",
+      "google_photos_id": "AF1QipPBzZpQd0bTbLifny5csLIMWdMXlD1K-IZKE-wZ",
+      "alt": "People sitting on the floor controlling robots on a blue circular track with laptops nearby",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-204.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:20:01-04:00",
+      "google_photos_id": "AF1QipOWJo99ioLqdrBJeomu3Im01UNxSvSJBVgxLk9Y",
+      "alt": "Small robots racing on a blue circular track during a live event broadcast",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "screenshot"
+      ],
+      "quality": 54,
+      "flags": [
+        "screenshot",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-205.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:22:40.467000-04:00",
+      "google_photos_id": "AF1QipOJDWJSVtGuopQmlK0mg6gKV-u_cG2SQ5rnZLZe",
+      "alt": "Five smiling attendees standing side-by-side posing for a photo at a tech event venue.",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "venue",
+        "audience"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-206.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:22:43.904000-04:00",
+      "google_photos_id": "AF1QipP56vVauQJ9HM9OQscQA1o3rh1CoJ-QLqwHmTpI",
+      "alt": "Six diverse attendees posing for a group photo at a tech conference venue",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "audience",
+        "venue"
+      ],
+      "quality": 68,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-207.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:22:44.838000-04:00",
+      "google_photos_id": "AF1QipME_lj7iXz0EAqbfYVT5TGefFkfs3S54rTGaW4r",
+      "alt": "Six diverse attendees standing side-by-side posing for a group photo at an indoor tech event.",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "audience",
+        "venue"
+      ],
+      "quality": 71,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-208.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:25:15.047000-04:00",
+      "google_photos_id": "AF1QipPaACV2Rn1ePGpNz-mQBs3XlSXenz6lTl-ZmWpD",
+      "alt": "Children and a mentor work with small robots and laptops on a stage floor",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "audience"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-209.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:25:34.512000-04:00",
+      "google_photos_id": "AF1QipNva6ESkD7NTwUYMGJVTNNQT6TvFNN-8YWVBo3T",
+      "alt": "Small robots on a taped course at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-210.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:25:35.720000-04:00",
+      "google_photos_id": "AF1QipNrasD-wfWvXuQUzkzme3wSexKsNGFVziNA4wuR",
+      "alt": "A small robot moves along a blue tape line on a black carpet during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 64,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-211.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:25:39.679000-04:00",
+      "google_photos_id": "AF1QipOHiNqtUyMETXycYBx_imAik1UHgd1-XNyTOx_U",
+      "alt": "Teenager coding a robot on a track during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-212.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:25:41.587000-04:00",
+      "google_photos_id": "AF1QipOMlwJm2PvNnGmZlOeaUmnwRZeJkuaTPDV2EpSf",
+      "alt": "Teenager coding a robot during a tech competition",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-213.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:26:04-04:00",
+      "google_photos_id": "AF1QipOGFFNBcjzdK0oGtQZ_0T8wwbz9Ab7S1rlOmRZq",
+      "alt": "Two smiling conference attendees pose for a selfie in a hallway.",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 75,
+      "flags": [
+        "sensitive"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-214.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:27:07-04:00",
+      "google_photos_id": "AF1QipMFE8j7L9ntiIanPXJls6qzf1CnXPTlKjCi-G2Z",
+      "alt": "Two decorated cardboard robots on a taped track floor",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-215.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:27:17-04:00",
+      "google_photos_id": "AF1QipOxL6YA_hviL6HdEiZyflJBu1VO5l-nGTJbpiTW",
+      "alt": "Students working on robots at a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "crowd"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-216.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:27:31-04:00",
+      "google_photos_id": "AF1QipO3rSnA13sfIttr1FAUftrMNvp4GXZ-6pdgJnbi",
+      "alt": "People sitting on the floor working on laptops during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "crowd"
+      ],
+      "quality": 64,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-217.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:27:34.461000-04:00",
+      "google_photos_id": "AF1QipN1_OsiktLaLPlqNzZDCZukA5cwlxSn5AKs59gk",
+      "alt": "Small tan 3D printed Pikachu model sitting on a table",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 32,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-218.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:27:44.777000-04:00",
+      "google_photos_id": "AF1QipN2EnTt0m0Lyv7f5ayQwuRhrqXMCvlDlwDORx7V",
+      "alt": "Close-up of two small hobbyist robots sitting on a workbench next to tools",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-219.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:28:00.210000-04:00",
+      "google_photos_id": "AF1QipNvMv_R0AFP_lVSUPTDZd31yzWPNf2ZGB1VgE0K",
+      "alt": "Young boy crouching on stage programming a small robot with a laptop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-220.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:28:05.318000-04:00",
+      "google_photos_id": "AF1QipNBuP-F4JG21jdmZsq8_NOs8jUIhTK3NRaLUTvj",
+      "alt": "Boy sitting on stage controlling a small robot with a laptop",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop",
+        "kids"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-221.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:28:19.521000-04:00",
+      "google_photos_id": "AF1QipMhSkHctC9a_10Ml2FmsuooHE_g5nthsyzO0k8R",
+      "alt": "Wooden robot with electronics and a toy dinosaur on a skateboard attached to the front",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-222.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:28:42.071000-04:00",
+      "google_photos_id": "AF1QipNORzkXdX5UosO4unmiCYPdBMhQ3Xz3R_ORX_9e",
+      "alt": "Wooden robot chassis with googly eyes sitting in a green storage bin",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-223.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:28:47.600000-04:00",
+      "google_photos_id": "AF1QipN8VxJT7XILqGdYrxN-5XTp2j4ZAEGXg2Zd8rFp",
+      "alt": "DIY robot with wooden parts and electronics in a green bin",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 32,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-224.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:29:08.627000-04:00",
+      "google_photos_id": "AF1QipNgaw_GTxygSLaCB5Fw8b7KHHi6-gnfvWqynupt",
+      "alt": "Wooden robot chassis with electronics on a workbench",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 39,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-225.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:29:10.195000-04:00",
+      "google_photos_id": "AF1QipORk-4pEe5D56SM4_qZbLPM-cuiR6GcXABMyFT1",
+      "alt": "Wooden robot prototype with exposed electronics sitting on a workbench",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-226.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:29:43-04:00",
+      "google_photos_id": "AF1QipPXSTt-AQnS_XmTjlOmKLgfurcdtjx-nuYz-gJc",
+      "alt": "Children watch a small green robot inside a taped circle on the floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-227.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:29:49-04:00",
+      "google_photos_id": "AF1QipNl_lW-wBtKa4YkcU3EZpzethqJ3oPs9cXk-mSe",
+      "alt": "Kids watching two small robots race in a circle on a carpeted floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-228.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:29:57-04:00",
+      "google_photos_id": "AF1QipPBOVe-AZM5MUqBnKKLrmuBY6k2ylGIW9Yao583",
+      "alt": "Kids watching small robots race on a taped-off course during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-229.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:30:06-04:00",
+      "google_photos_id": "AF1QipOwloFTW4IqsryWiDlU9Qz46H3RFHQJ0kHI_I9J",
+      "alt": "Close up of small DIY robots on a carpeted floor at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 57,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-230.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:30:20-04:00",
+      "google_photos_id": "AF1QipNp-9QkKAfW1aVlv0cBl2eDEFm52fCsIiDZeS_F",
+      "alt": "Kids controlling robots in a circle on the floor",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-231.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:30:20-04:00",
+      "google_photos_id": "AF1QipOrQLAAf2F2L_jifwFcUbKSSucb07ErZEUdPLFh",
+      "alt": "Small robots compete on a carpeted floor during an event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-232.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:30:24-04:00",
+      "google_photos_id": "AF1QipNfEWZFpBGMvZn1HyNXrZfkcUG1ajlaxV5MWjgj",
+      "alt": "Two small robots on a carpet, one glowing purple, watched by standing spectators",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-233.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:30:30-04:00",
+      "google_photos_id": "AF1QipNKys4ZX9oW9y3HizLsRBeDefYHdveGWI9Y4nLV",
+      "alt": "Custom robots lined up on a carpet inside a taped circle at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "robots",
+        "hardware",
+        "workshop"
+      ],
+      "quality": 57,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-234.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:31-04:00",
+      "google_photos_id": "AF1QipPmNU9dEMSjczq-Q_JMKzzA8EaxkUKDN0YwO1sE",
+      "alt": "Group of attendees in yellow t-shirts networking at a tech event",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-235.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:33-04:00",
+      "google_photos_id": "AF1QipO8z_jK3gPdVIeJl8yQVGXWTprKw3zQBaWcAjkY",
+      "alt": "Smiling woman in yellow shirt standing among crowd",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-236.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:30:35.398000-04:00",
+      "google_photos_id": "AF1QipNJumzuXNrRhdxjqG8mBZ_UYs29XkkH6u2rTCQ1",
+      "alt": "Group of seven tech event attendees posing with their hardware projects",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "hardware",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-237.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:30:36.499000-04:00",
+      "google_photos_id": "AF1QipMFeMQMmp-9Gio8SJ-A13g5qPIBWo-7Ys5VK-AP",
+      "alt": "Group of seven people standing together holding small robots in an event room",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 79,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-238.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:37-04:00",
+      "google_photos_id": "AF1QipMpHT4iSuAiaHu58qQJD5NT5MRT_jAViaCs7sJy",
+      "alt": "Attendees in yellow shirts gather for a photo, including a smiling woman and a man holding a paper.",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "networking"
+      ],
+      "quality": 39,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-239.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:30:37.667000-04:00",
+      "google_photos_id": "AF1QipNNDqsPf38_wX4vHTbCHJXbG2Wzpo16M493BPUM",
+      "alt": "Group of seven people standing in a line holding small electronics projects",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "hardware",
+        "robots"
+      ],
+      "quality": 79,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-240.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:38-04:00",
+      "google_photos_id": "AF1QipPzKqZ5_GsIOZgZa4WdGDS8_lhiHb2uOTTFWIfE",
+      "alt": "Attendees in yellow shirts networking and discussing notes",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-241.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:30:38.368000-04:00",
+      "google_photos_id": "AF1QipNJKjN8Xpd2SY_cg5o9gMYrDRxwhQ_ZEIIBG7d2",
+      "alt": "Group of seven tech event participants posing with their handmade robot projects",
+      "scene": "group-photo",
+      "tags": [
+        "group-photo",
+        "hardware",
+        "robots",
+        "prize",
+        "workshop"
+      ],
+      "quality": 79,
+      "flags": [
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-242.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:39-04:00",
+      "google_photos_id": "AF1QipOxk5GeJEU8-HJs5lkRRkA7mHTGZX8g7fw2zywb",
+      "alt": "Attendees in yellow shirts collaborating around a whiteboard during a workshop",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "networking",
+        "crowd"
+      ],
+      "quality": 54,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-243.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:48-04:00",
+      "google_photos_id": "AF1QipPNfiwvVbtSPtXeqKNrPuqvOQUAdOPNokaEIySm",
+      "alt": "Audience watching a presentation screen at a tech event",
+      "scene": "talk",
+      "tags": [
+        "audience",
+        "slides",
+        "venue",
+        "kids",
+        "robots"
+      ],
+      "quality": 61,
+      "flags": [
+        "overexposed"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-244.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:30:54-04:00",
+      "google_photos_id": "AF1QipNfwHExEIJx9t40a4ZNCdlIJJMBfFsYyZEWV7Sp",
+      "alt": "Attendees working together at a round table during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd",
+        "audience"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-245.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:30:57.497000-04:00",
+      "google_photos_id": "AF1QipOwSRNRx9QVtsZWg6qRBGqDVeODUdXW-bfXAF1n",
+      "alt": "Close-up of a wooden robot chassis with blue electronics and large black wheels, labeled BOT SCRAPER",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 46,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-246.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:31:01-04:00",
+      "google_photos_id": "AF1QipPyizcAY9kKFP34tRWJ83oNs4xb3mCEoDmdtopL",
+      "alt": "Group of people looking at a small robot on a table",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-247.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:31:02-04:00",
+      "google_photos_id": "AF1QipOAq92_McJQ2iJAArUgErT518iFvdGAuGm-FrkQ",
+      "alt": "People working on a small robot at a conference table",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "networking",
+        "crowd"
+      ],
+      "quality": 61,
+      "flags": [
+        "dark",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-248.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:31:06.522000-04:00",
+      "google_photos_id": "AF1QipPTgzdAzHOuOhMkAXQ5oCXdiKOnFmcFwVw1Hjnv",
+      "alt": "Close up of a wooden robot chassis with sponsor logos and the text BOT SCRAPER",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 39,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-249.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:31:36-04:00",
+      "google_photos_id": "AF1QipPtZ8iGovuJooOwyTbkRp5lWI12zGczDYFpws6M",
+      "alt": "Three people standing in a conference room with tables and chairs.",
+      "scene": "other",
+      "tags": [
+        "venue",
+        "networking"
+      ],
+      "quality": 14,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-250.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:32:10-04:00",
+      "google_photos_id": "AF1QipNOVTvFN8oRT3lt_hzxyfxR9QfWxrwbBmF6qYG9",
+      "alt": "Children and adults watch a small robot navigate a line on the floor at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-251.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:32:19-04:00",
+      "google_photos_id": "AF1QipOpIlavNDUcpiau41cfB6e9bkOMBGlrSNYSAblg",
+      "alt": "Children and adults watching small robots race on a taped track in a carpeted room",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-252.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:32:27-04:00",
+      "google_photos_id": "AF1QipOmcrtQfn_u0qyI8vCGYsKTtfrFA_QjrnGWl2vw",
+      "alt": "Kids and adults watch and control a small robot on the floor at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop",
+        "venue"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-253.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T13:33:04-04:00",
+      "google_photos_id": "AF1QipPVfOgfOIgrum7q3OEmGphLqNYq18hfaW8yp1qN",
+      "alt": "Custom robots racing on a colorful striped carpet with spectators watching from above",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd",
+        "audience"
+      ],
+      "quality": 61,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-254.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:34:02.441000-04:00",
+      "google_photos_id": "AF1QipOT4n3HxzE5xAve-7EGoar_fLPPd0Tv4wliFQ8d",
+      "alt": "Kids program robots on a mat while a crowd watches",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-255.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:34:14.376000-04:00",
+      "google_photos_id": "AF1QipOvuRNHOZJnzazaV0HcCqyfUvDrdfqEUoEyyY2f",
+      "alt": "Two boys program a robot on a competition floor while spectators watch.",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "prize",
+        "outdoor"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-256.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:36:27.444000-04:00",
+      "google_photos_id": "AF1QipMRB9eafnt3ph5r_nceLo5lMSovCusCSydzHjlj",
+      "alt": "Children and mentors watch as two kids control small robots on a large floor mat at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-257.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:36:45.885000-04:00",
+      "google_photos_id": "AF1QipMVyfI-urHPdA2FHwjfbCz9w_1C5p96v1GJwCv2",
+      "alt": "Children and adults watching small robots race on a circular track at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-258.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:36:47-04:00",
+      "google_photos_id": "AF1QipPEZqsIDsoPPyLBsaCyYlBnbr_XI_yOId1aJ7UX",
+      "alt": "Men standing on a stage at a tech event with a laptop on the floor",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "venue"
+      ],
+      "quality": 43,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-259.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:36:49.319000-04:00",
+      "google_photos_id": "AF1QipNC_r-xEKKmjujYuE9Db1Hz8KzQmnYm48qeyDyU",
+      "alt": "Children and adults watching small robots race on a blue tape track",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-260.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:36:53-04:00",
+      "google_photos_id": "AF1QipP1NfITjPAAxjPgOS6kypsY3E6WllAYICu3ap9N",
+      "alt": "Kids and adults watching a robot race on a blue tape track with laptops nearby",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-261.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:36:54-04:00",
+      "google_photos_id": "AF1QipOl5j0P03syWFAlWQxfRjHsGu1KF0AovYz-ELcA",
+      "alt": "Children and adults watch robot cars race on a track during a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-262.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:36:56.521000-04:00",
+      "google_photos_id": "AF1QipOSs-MA3Px0JJBbQmR1xjf8pQl8ItH8l3xO5kIV",
+      "alt": "Crowd watching kids demonstrate robots on a stage floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 89,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-263.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:07-04:00",
+      "google_photos_id": "AF1QipMJ8gaxfEk40iA6psi44nQCPbcETzgQk49h_dZH",
+      "alt": "Men standing on stage during an event presentation",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "quality": 46,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-264.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:07-04:00",
+      "google_photos_id": "AF1QipOLv8g9BA6SFo8tjI_OwPrD6U2G6pFA5zsgRTQr",
+      "alt": "Men standing on stage at an event, one speaking into a microphone",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "quality": 43,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-265.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:09-04:00",
+      "google_photos_id": "AF1QipO87EvHoMO1PyZ8d9VnBqV_6CD7oTPSW-iF1su2",
+      "alt": "Speaker with microphone stands beside two men in yellow shirts during an event",
+      "scene": "other",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "quality": 46,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-266.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:37:12-04:00",
+      "google_photos_id": "AF1QipN1yvzVwW1I9C6Z3mPf3qJPaug7ue9yvIiwpydI",
+      "alt": "Kids sitting on the floor coding and testing robots in a workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-267.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:37:14-04:00",
+      "google_photos_id": "AF1QipNKyudRnGGRqIwqMqem15giHsZKl0BHHTCVVq_Y",
+      "alt": "Children sitting on the floor working with a small robot and laptops during a tech workshop",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-268.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:37:21-04:00",
+      "google_photos_id": "AF1QipMwQaXaHkC0XwdYvstHTEXAJnTcWfPdSbRiP8Am",
+      "alt": "Children and adults watching small robots race on a table at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-269.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T13:37:31-04:00",
+      "google_photos_id": "AF1QipMmIoeS2GPRuk4tR5ytalABrcg-CwnwAfu-epPn",
+      "alt": "Crowd of kids and adults watching robot cars race on a blue circular track",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-270.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:31-04:00",
+      "google_photos_id": "AF1QipOMhKOOfFLQgNel6gUbVMvcfo-Ex-4cJbFIFarl",
+      "alt": "A speaker in a yellow shirt addresses an audience from a stage, flanked by two other team members.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-271.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:32-04:00",
+      "google_photos_id": "AF1QipNpnlWOGHtgVrBOwuDK0qx_NR2WgrsD2zErLA_k",
+      "alt": "A speaker in a yellow shirt addresses an audience from a stage while two other team members stand nearby.",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "group-photo"
+      ],
+      "quality": 54,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-272.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:35-04:00",
+      "google_photos_id": "AF1QipO7bAnPv_SSUOJ7XdInY3dEdfae4Dro70_4Blzf",
+      "alt": "Attendees in yellow shirts waiting in a hallway",
+      "scene": "networking",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 39,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-273.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:36-04:00",
+      "google_photos_id": "AF1QipM8Djmz9N8MGDnCyQ5MtFHBOpyiGm2GD1TFKUes",
+      "alt": "People in yellow shirts standing in a doorway",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "quality": 36,
+      "flags": [
+        "dark",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-274.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:40-04:00",
+      "google_photos_id": "AF1QipNDmnotzw2jReuTfLaBVVMIYs8QEyD9kne8ROx2",
+      "alt": "Two attendees stand by a whiteboard during a workshop session",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "crowd"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-275.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:37:44-04:00",
+      "google_photos_id": "AF1QipPVjQKNdxuvZ3WxC91Q7-wj7LVgnTe6U3qt5ncd",
+      "alt": "Girl holding selfie stick watches kids code on laptops",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "kids",
+        "audience"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-276.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:38:10.344000-04:00",
+      "google_photos_id": "AF1QipPOZMZokGr830M5nbMk2zQ7wEekvAvD1O_2n6CX",
+      "alt": "Children watching a small robot move inside a blue circle on the floor",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-277.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:38:36.057000-04:00",
+      "google_photos_id": "AF1QipOOnH3yfdvPnPj7eIN1TH3C1TOjeeX-m9_61ho3",
+      "alt": "Children watching a small robot on a blue track at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "workshop",
+        "hardware",
+        "robots"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-278.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:38:42-04:00",
+      "google_photos_id": "AF1QipPMtp7hQBz948QYgX7ntgqzjCAazcziTX2IYUk-",
+      "alt": "Kids sitting on the floor coding and testing small robots at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "workshop",
+        "hardware",
+        "robots",
+        "crowd",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-279.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:39:43-04:00",
+      "google_photos_id": "AF1QipP2UT4bFs2OdeOyAYZzknxBz_RIupa99TTfHTLj",
+      "alt": "Three people standing on a stage with laptops in the foreground",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "hardware"
+      ],
+      "quality": 43,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-280.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:39:44-04:00",
+      "google_photos_id": "AF1QipOlUv2uZiSM0hD-GcatPOLL_cutfbNsDHJLxBEj",
+      "alt": "Speakers standing on a stage with laptops in the foreground",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "hardware"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-281.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:39:45-04:00",
+      "google_photos_id": "AF1QipON-aTLXt1KoPS0_lO44venBme1V7ckPG8ohkSu",
+      "alt": "Presenters standing on stage with laptops in the foreground",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "hardware"
+      ],
+      "quality": 57,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-282.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:39:50-04:00",
+      "google_photos_id": "AF1QipOGFOMauAz1Us7vbZq4BpaAYgfOKejYBLb8G-2p",
+      "alt": "Audience watching a presentation at a tech event",
+      "scene": "talk",
+      "tags": [
+        "audience",
+        "stage",
+        "venue"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-283.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:40:05-04:00",
+      "google_photos_id": "AF1QipPupRhVb42AWfF6e7J0QPz8FB0TGRRfRPHOdeUD",
+      "alt": "Audience members standing and watching an event, including a young girl in pink and a man clapping",
+      "scene": "other",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-284.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T13:40:06-04:00",
+      "google_photos_id": "AF1QipOgyBEIK5gO3JVlqmzPJBf9PF9lbWeoKX0EMko2",
+      "alt": "Attendees standing and interacting at tables during a community tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "workshop"
+      ],
+      "quality": 75,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-285.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:40:09.825000-04:00",
+      "google_photos_id": "AF1QipNeFaBND2_UwjxjrC5Qz1ReLAajgwzWvnRrJ0Oh",
+      "alt": "Two boys present a robot on stage at a tech event while others watch",
+      "scene": "hacking",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "hardware",
+        "prize",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-286.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:40:12.503000-04:00",
+      "google_photos_id": "AF1QipNv3Rsq1pw86DJ9veMEXjZF9AzHBtwPF61Go_Et",
+      "alt": "Two boys presenting a robot on stage while a crowd watches",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 79,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-287.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T13:40:13.486000-04:00",
+      "google_photos_id": "AF1QipOabMoMQK_0pg-pEC6yEBAnOu3SvSEX2OlW15wU",
+      "alt": "Two boys presenting a robot on stage at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 71,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-288.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:01:53-04:00",
+      "google_photos_id": "AF1QipP6X9oRcZX5T5MCmtzoRsSCl00O-gt5U9SLCyoW",
+      "alt": "Small robot navigating a course in a robotics competition",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "prize",
+        "crowd"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-289.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:09:23-04:00",
+      "google_photos_id": "AF1QipPswfznSTMnoUMmVAfkpmi9Ug1HDXqHhPLQzBDh",
+      "alt": "A small robot made from a plastic bin with an Arduino board and two toy dinosaurs attached to it.",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 39,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-290.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:10:01-04:00",
+      "google_photos_id": "AF1QipM0gm2GybbjcVcttiMMS7eWYMx9rdX2vEBcXG4I",
+      "alt": "Children and adults watching a screen during a robotics event",
+      "scene": "hacking",
+      "tags": [
+        "crowd",
+        "audience",
+        "hardware",
+        "robots",
+        "venue"
+      ],
+      "quality": 68,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-benjamin-earley-291.jpg",
+      "photographer": "Benjamin Earley",
+      "taken_at": "2017-07-29T14:18:37-04:00",
+      "google_photos_id": "AF1QipPi8_pBu5mwE9_N6ixAieSRphjnW1Y3mjkT1yEj",
+      "alt": "Man sitting on floor controlling a robot during a robotics competition",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "crowd",
+        "venue"
+      ],
+      "quality": 86,
+      "flags": [],
+      "pick": true
+    },
+    {
+      "file": "2017-07-29-nodebots-day-aoibhe-wilson-292.jpg",
+      "photographer": "Aoibhe Wilson",
+      "taken_at": "2017-07-29T14:20:15-04:00",
+      "google_photos_id": "AF1QipObfeL-yliVojoamjxgxboMmQcevCSmsU5dNK3e",
+      "alt": "Children watching a custom robot with bright red lights at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "kids"
+      ],
+      "quality": 68,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-aoibhe-wilson-293.jpg",
+      "photographer": "Aoibhe Wilson",
+      "taken_at": "2017-07-29T14:20:17-04:00",
+      "google_photos_id": "AF1QipP8-OgZ5gzKaEUglsR1OS2PGoGfU2-VKZHYsXD_",
+      "alt": "Close-up of a wheeled robot with exposed circuitry and bright red LED lights on the floor",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-294.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:22:36-04:00",
+      "google_photos_id": "AF1QipMvbFlZHDwHf5PZEG70sTZQW8u1-gztCRqMGEvZ",
+      "alt": "Close-up of a wooden robot with sponsor logos resting on a stack of red, yellow, and blue laptops",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots",
+        "sponsor"
+      ],
+      "quality": 50,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-295.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T14:25:18-04:00",
+      "google_photos_id": "AF1QipMGdza0t3sP9V3eYYdUg7PJ-KZIdLGDMroRplkS",
+      "alt": "Buffet table with catering including fried chicken, cheese cubes, fruit, and crackers",
+      "scene": "food",
+      "tags": [
+        "food"
+      ],
+      "quality": 32,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-296.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:25:57-04:00",
+      "google_photos_id": "AF1QipNd54Bvos49pXvXcRIfL4vL0B5e6lyxveM3spSz",
+      "alt": "Hand holding a crumpled paper with a handwritten list of robot names and numbers.",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "non-photo"
+      ],
+      "quality": 36,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-297.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T14:27:09-04:00",
+      "google_photos_id": "AF1QipO5ps2VEduXPO23ba9rSxnSCBrToLxEpPV9-6IR",
+      "alt": "People serving themselves food from a long buffet table with trays of vegetables and pizza",
+      "scene": "food",
+      "tags": [
+        "food",
+        "networking",
+        "venue"
+      ],
+      "quality": 46,
+      "flags": [
+        "awkward-moment"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-linda-nichols-298.jpg",
+      "photographer": "Linda Nichols",
+      "taken_at": "2017-07-29T14:41:06.576000-04:00",
+      "google_photos_id": "AF1QipOvXVbvmvSLxXy9jNN9ZminpzyfoGqwivvrFniv",
+      "alt": "Top-down view of a homemade robot made of cardboard and electronics with pink fuzzy decorations",
+      "scene": "other",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 46,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-s-z-299.jpg",
+      "photographer": "s z",
+      "taken_at": "2017-07-29T16:06:57-04:00",
+      "google_photos_id": "AF1QipMzQExPUZgtKBWlNha4OlDvlRnr3w8Q0bFNNv8g",
+      "alt": "Margarita on a table with people in the background",
+      "scene": "food",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "quality": 36,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-300.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T16:55:26-04:00",
+      "google_photos_id": "AF1QipPCJkcM360y3FWXk7KsgAXxnrie6sjYMba8fZ36",
+      "alt": "Small robot on the floor next to a red sneaker at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "workshop"
+      ],
+      "quality": 46,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-301.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T16:55:39-04:00",
+      "google_photos_id": "AF1QipMmB0ofCOF2QBaWXRSyV31APQXmjuOCMgrfMzSi",
+      "alt": "Person pointing at a laptop screen while sitting on the floor with children nearby",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "workshop"
+      ],
+      "quality": 50,
+      "flags": [
+        "cropped-subject"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-troy-connor-302.jpg",
+      "photographer": "Troy Connor",
+      "taken_at": "2017-07-29T16:56:05-04:00",
+      "google_photos_id": "AF1QipOLjueSdCXeQefskETEd4CzHWKXdL630ElHOEtj",
+      "alt": "Group of people in yellow shirts standing on a stage during an event",
+      "scene": "talk",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd"
+      ],
+      "quality": 50,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-alex-proaps-303.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-29T17:46:12-04:00",
+      "google_photos_id": "AF1QipOKaYJQZt-zCcn0mmM83-LMdUjzG0rRmvMP2UU1",
+      "alt": "Robot navigating a taped circle course at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots",
+        "prize"
+      ],
+      "quality": 54,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-aoibhe-wilson-304.jpg",
+      "photographer": "Aoibhe Wilson",
+      "taken_at": "2017-07-29T18:08:53-04:00",
+      "google_photos_id": "AF1QipOnN8UJUeUNsB63OAqw0t1LV6OMkbvc5M1hrfbw",
+      "alt": "Two small robots compete on a dark arena floor marked with blue tape and glowing red LEDs",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 43,
+      "flags": [
+        "blurry"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-29-nodebots-day-aoibhe-wilson-305.jpg",
+      "photographer": "Aoibhe Wilson",
+      "taken_at": "2017-07-29T18:20:10-04:00",
+      "google_photos_id": "AF1QipOownFXhoyPHYy60HQru00ZF2k8QoJle4ngU2T8",
+      "alt": "Close up of a wheeled robot with glowing red lights and exposed wiring at a tech event",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 39,
+      "flags": [
+        "dark"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-31-nodebots-day-alex-proaps-306.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-31T08:43:27-04:00",
+      "google_photos_id": "AF1QipMa4D6GOXt3csylTZcsmZen3QRMZw0YH6JvWQhe",
+      "alt": "Blank dark grey screen",
+      "scene": "other",
+      "tags": [
+        "non-photo"
+      ],
+      "quality": 0,
+      "flags": [
+        "non-photo"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-31-nodebots-day-alex-proaps-307.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-31T08:43:32-04:00",
+      "google_photos_id": "AF1QipP1z7nrFL-YIoh4qoGIcXqezb-eJajYQIzEHLII",
+      "alt": "Two small robots with circuit boards and cardboard figures on green turf",
+      "scene": "hacking",
+      "tags": [
+        "hardware",
+        "robots"
+      ],
+      "quality": 39,
+      "flags": [],
+      "pick": false
+    },
+    {
+      "file": "2017-07-31-nodebots-day-alex-proaps-308.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-31T08:43:34-04:00",
+      "google_photos_id": "AF1QipOwvAo87V-HYbcKrqvCKvYDih9aGNlpULvvtviU",
+      "alt": "Blank dark gray screen",
+      "scene": "other",
+      "tags": [
+        "non-photo"
+      ],
+      "quality": 0,
+      "flags": [
+        "non-photo",
+        "near-duplicate"
+      ],
+      "pick": false
+    },
+    {
+      "file": "2017-07-31-nodebots-day-alex-proaps-309.jpg",
+      "photographer": "Alex Proaps",
+      "taken_at": "2017-07-31T08:43:35-04:00",
+      "google_photos_id": "AF1QipN6wJOZgQgav9k6059Ge956r0qHJdOuVNkKYoi2",
+      "alt": "Blank dark gray screen",
+      "scene": "other",
+      "tags": [
+        "non-photo"
+      ],
+      "quality": 0,
+      "flags": [
+        "non-photo",
+        "near-duplicate"
+      ],
+      "pick": false
+    }
+  ]
+}

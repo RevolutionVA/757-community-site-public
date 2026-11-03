@@ -1,0 +1,1852 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2026-10-17-hacktoberfest-major-league-hacking-001.jpg": {
+      "description": "A top-down view of three large cardboard boxes filled with an assortment of breakfast pastries, including bagels, muffins, danishes, and cinnamon rolls, alongside napkins and tongs.",
+      "alt_text": "Overhead shot of catering boxes containing bagels, muffins, danishes, and napkins for a hackathon event.",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a clear, appetizing overhead shot perfect for social media posts about event catering or food breaks.",
+      "quality": 50,
+      "dhash": "49418298982d5cd8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-002.jpg": {
+      "description": "A speaker stands on stage presenting at a Hacktoberfest event, with an audience seated in the foreground and a large projection screen displaying the event title.",
+      "alt_text": "Speaker presenting slides to an audience at a Hacktoberfest event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good documentation of the speaker and slides, but the composition is cluttered with foreground chairs and a partially visible person.",
+      "quality": 54,
+      "dhash": "35b71d79393f1246",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-003.jpg": {
+      "description": "A wide shot of a Hacktoberfest event in an office space, showing attendees working at tables and a presenter standing near a projection screen while a woman in the foreground smiles at the camera.",
+      "alt_text": "Attendees work on laptops during a hackathon while a presenter speaks to the group near a screen.",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot capturing the event atmosphere and a happy participant, though the foreground chair is slightly distracting.",
+      "quality": 68,
+      "dhash": "377466dfe6e5fcf6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-004.jpg": {
+      "description": "A speaker stands at the front of a room presenting slides to an audience seated at tables, while others sit in the background near a whiteboard.",
+      "alt_text": "Speaker presenting slides to an audience in a blue conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The image is clear but the audience appears disengaged and the speaker's pose is slightly awkward, making it less suitable for high-energy social posts.",
+      "quality": 46,
+      "dhash": "17168687cdcce407",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-005.jpg": {
+      "description": "Attendees are seated in a large room with blue walls, listening to a presentation or workshop at a Major League Hacking event.",
+      "alt_text": "Audience members sitting in chairs facing forward during a workshop at an MLH hackathon",
+      "tags": [
+        "audience",
+        "venue",
+        "workshop",
+        "group-photo"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The photo captures the venue and audience well, but most people are looking away or have their backs turned, making it less engaging for social media.",
+      "quality": 54,
+      "dhash": "3bb6f673d2d6d615",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-006.jpg": {
+      "description": "A speaker stands at the front of a room presenting slides on a projector screen to an audience seated at tables.",
+      "alt_text": "Speaker presenting slides to an audience in a blue conference room",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good documentation of the event, but the composition is cluttered with a large trash can in the foreground and the speaker is cut off at the top.",
+      "quality": 43,
+      "dhash": "f3f3b0b9f3e37ff6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-007.jpg": {
+      "description": "A presenter stands at the front of a room with blue walls, gesturing towards a projection screen while an audience sits at tables listening and working on laptops.",
+      "alt_text": "Presenter speaking to an audience in a workshop room with blue walls",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of the event atmosphere and speaker engagement.",
+      "quality": 61,
+      "dhash": "d757db989cccf2f9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-008.jpg": {
+      "description": "A bearded man in a green t-shirt and baseball cap stands facing a projector screen displaying a slide titled 'The people making today possible' inside a blue room.",
+      "alt_text": "Man standing next to a presentation screen showing a list of sponsors or contributors.",
+      "tags": [
+        "slides",
+        "venue",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The subject is looking directly at the screen rather than engaging with an audience, making it less dynamic for social media.",
+      "quality": 39,
+      "dhash": "bd3d6e71f061e1fe",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-009.jpg": {
+      "description": "A speaker stands on the left addressing a room of attendees seated at tables with laptops, likely during a workshop or hackathon session.",
+      "alt_text": "Speaker presenting to a group of people working on laptops in a blue-walled conference room",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "workshop"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of the event atmosphere and audience engagement.",
+      "quality": 68,
+      "dhash": "79b8a6301cae1c30",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-010.jpg": {
+      "description": "Attendees are seated at tables facing a projector screen displaying a 'Code of Conduct' slide during an indoor event.",
+      "alt_text": "Audience sitting in chairs facing a presentation screen showing Code of Conduct text",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The image is mostly a slide with backs to the audience and no clear focal point, making it less engaging for social media.",
+      "quality": 43,
+      "dhash": "f3cceb296c6ee6f9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-011.jpg": {
+      "description": "A young participant with curly hair and glasses walks through a hackathon room holding a drink, while other attendees work on laptops at tables in the background.",
+      "alt_text": "Young hacker walking through event space carrying a drink",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot that captures the energy of a hackathon with an engaged subject and active background.",
+      "quality": 75,
+      "dhash": "b31809b6b435b0c4",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-012.jpg": {
+      "description": "Attendees are focused on their laptops during a hackathon session in a room with blue walls and colorful chairs.",
+      "alt_text": "Hackers working on laptops at tables during an MLH event",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the atmosphere and activity of the event.",
+      "quality": 68,
+      "dhash": "4f5a3534de5747cf",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-013.jpg": {
+      "description": "A wide shot of a hackathon room where participants are working at tables with laptops while an organizer stands in the center speaking to the group.",
+      "alt_text": "Hackers work on laptops at tables while a speaker addresses the room during a Major League Hacking event.",
+      "tags": [
+        "crowd",
+        "venue",
+        "food"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good energy showing the collaborative atmosphere of the event.",
+      "quality": 68,
+      "dhash": "4f05d3c95d94c691",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-014.jpg": {
+      "description": "A group of participants are gathered around tables working on laptops during a hackathon, while an instructor stands nearby offering guidance.",
+      "alt_text": "Instructor helping participants with laptops at a hackathon event",
+      "tags": [
+        "crowd",
+        "venue",
+        "workshop"
+      ],
+      "people_count": 10,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong candid shot that captures the collaborative energy of the event and shows people actively engaged in problem-solving.",
+      "quality": 75,
+      "dhash": "4f0552c95c94c68c",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-015.jpg": {
+      "description": "Attendees are gathered around tables working on laptops during a hackathon event, with one person raising their hand to ask a question.",
+      "alt_text": "Hackers work on laptops at tables in a blue room while one attendee raises a hand",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures the collaborative energy of the event well, though the foreground table is slightly distracting.",
+      "quality": 68,
+      "dhash": "fe7c49d1b05f5701",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-016.jpg": {
+      "description": "Two participants are seated at a table working on laptops in the background, while a long table in the foreground is stacked with pizza boxes and snacks.",
+      "alt_text": "Hackathon participants work on laptops near tables of food supplies",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the hacking atmosphere and food support, but the composition is weak as the foreground tables dominate the frame.",
+      "quality": 50,
+      "dhash": "f71a8ccc63f68e3b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-017.jpg": {
+      "description": "Attendees gather around a table to grab pizza and appetizers during a break at the Hacktoberfest event.",
+      "alt_text": "Hackers grabbing food from a buffet table during an event break",
+      "tags": [
+        "food",
+        "networking",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid candid shot that captures the community atmosphere and energy of a hackathon break.",
+      "quality": 68,
+      "dhash": "9f8ffe3051dcad25",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-018.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying a voting slide, gesturing with his arms raised while another person sits nearby at a table.",
+      "alt_text": "Speaker presenting slides to an audience during a hackathon event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event atmosphere and speaker engagement.",
+      "quality": 57,
+      "dhash": "279f193939392f11",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-019.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying voting instructions while attendees sit at tables working on laptops.",
+      "alt_text": "Speaker presenting to an audience seated at tables with laptops during a hackathon event",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the event context and slide content, but the main speaker is partially cut off by the frame edge.",
+      "quality": 46,
+      "dhash": "d8dcff79397a6b49",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-020.jpg": {
+      "description": "A speaker stands in front of a blue wall presenting a slide with data tables, while a projector is mounted on the ceiling above.",
+      "alt_text": "Speaker standing next to a projection screen showing data tables at an MLH event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is cut off at the knees and the framing feels a bit awkward, making it less ideal for social media than a full-body shot.",
+      "quality": 43,
+      "dhash": "bfdf7c7d7dfdede1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-021.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying a Venn diagram during a presentation, while an audience member sits in the foreground.",
+      "alt_text": "Speaker presenting a slide with a Venn diagram on a projector screen at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the speaker and slides; good for a recap but lacks dynamic energy.",
+      "quality": 54,
+      "dhash": "275f5c7c3cfcfcf1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-022.jpg": {
+      "description": "A presenter stands at a table next to a large projection screen displaying a presentation slide with the text 'ISSUES. SEE WHO VOTED FOR THEM.'",
+      "alt_text": "Presenter standing next to a projection screen showing a slide about voting issues.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "The image is clear but the presenter's posture looks like he is looking down or adjusting something rather than engaging with an audience.",
+      "quality": 39,
+      "dhash": "9fdd7c7dfdfde7b8",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-048.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-023.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying a software interface during a presentation at an MLH event.",
+      "alt_text": "Speaker presenting next to a projection screen showing a software dashboard",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The image is clear and usable for a recap, but the framing cuts off the legs of the person sitting on the right.",
+      "quality": 54,
+      "dhash": "6fdf5c3cbcfcfdf1",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-021.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-024.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying a map during a presentation, with an audience member partially visible on the right.",
+      "alt_text": "Speaker presenting a map on a large projection screen at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event, though the composition is slightly cluttered by cables and furniture.",
+      "quality": 61,
+      "dhash": "375f5c58f8f8fdf1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-025.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying a map and code, pointing to the content during a presentation.",
+      "alt_text": "Speaker presenting a project with a map on a large projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the specific topic of a talk, but lacks audience engagement energy.",
+      "quality": 46,
+      "dhash": "bf9fd9f9f1f9ef60",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-026.jpg": {
+      "description": "A presenter stands next to a large projection screen displaying a slide that reads 'Find your next great build.'",
+      "alt_text": "Presenter standing beside a projection screen showing a slide with the text 'Find your next great build.'",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The presenter is cut off at the knees and the framing is dominated by the screen, making it less engaging for social media.",
+      "quality": 43,
+      "dhash": "bf9ff979f9f9eff8",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-060.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-027.jpg": {
+      "description": "A speaker in a yellow shirt stands on stage presenting a slide that reads 'Find your next great build' while another man works at a table nearby.",
+      "alt_text": "Speaker standing next to a projection screen displaying a presentation slide with the text Find your next great build",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "Good documentation of the presentation content and speaker, though the composition is slightly cluttered by the table and chair.",
+      "quality": 57,
+      "dhash": "6f5f5c7cf4fcfff0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-029.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-028.jpg": {
+      "description": "Two men stand on a stage in front of a blue wall, presenting slides projected onto a screen during an MLH event.",
+      "alt_text": "Two presenters standing next to a projection screen displaying code or a website interface",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is functional but has a wide field of view that includes distracting ceiling elements and empty floor space.",
+      "quality": 46,
+      "dhash": "bfbffdf9fdfdfff4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-029.jpg": {
+      "description": "A presenter in a yellow shirt points to a technical slide on a projector screen while another man stands nearby at a community tech event.",
+      "alt_text": "Speaker presenting code examples on a large projection screen during a hackathon talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good documentation of the presentation content, but the framing cuts off the audience and feels a bit wide-angle.",
+      "quality": 61,
+      "dhash": "6f5f5c7cfdfdfff0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-030.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying slides during a presentation, while an audience member sits at a table to the right.",
+      "alt_text": "Speaker presenting next to a projection screen with text on it",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker is looking away from the camera and the audience member appears to be sleeping, making it less suitable for social media.",
+      "quality": 46,
+      "dhash": "6f5f5b7bfbf9fda7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-031.jpg": {
+      "description": "A speaker stands in front of a blue wall presenting slides from a projector, while another person works at a table to the right.",
+      "alt_text": "Speaker presenting code on a projector screen during a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the presentation content, though the composition is slightly cluttered by the projector and cables.",
+      "quality": 61,
+      "dhash": "67df5979f9fdfdf3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-032.jpg": {
+      "description": "A presenter stands in front of a large projection screen displaying a 'DEMO AGENT' interface, pointing to the content while another person works at a table nearby.",
+      "alt_text": "Presenter pointing at a demo agent slide on a projector screen during a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the presentation content and speaker, though the second person in the background is slightly distracting.",
+      "quality": 54,
+      "dhash": "bf9bf2f3f3fdeffc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-033.jpg": {
+      "description": "A speaker stands in front of a blue wall pointing at code projected on a screen, while another person works on a laptop nearby.",
+      "alt_text": "Speaker presenting code on a projector screen with another person working on a laptop",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good documentation of the presentation, but the framing is slightly awkward as it cuts off the speaker's feet and includes a lot of ceiling.",
+      "quality": 54,
+      "dhash": "bf97f6f7f5fde7fc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-034.jpg": {
+      "description": "A speaker stands in front of a projection screen displaying code during a presentation, while another person works at a table to the right.",
+      "alt_text": "Speaker presenting code on a projector screen at an MLH event",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "Good documentation of the presentation content, but lacks audience engagement for a social post.",
+      "quality": 46,
+      "dhash": "bf9b73fbfbfdeff0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-032.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-035.jpg": {
+      "description": "A presenter stands in front of a blue wall pointing to a large projection screen displaying code, while another person works at a table nearby.",
+      "alt_text": "Presenter pointing at a code slide on a projector screen during a hackathon",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event environment and presentation, though the text on the screen is not legible.",
+      "quality": 54,
+      "dhash": "6fdb7a73fbfdfff4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-036.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'DEMO 2' to an audience, while another person works at a table in the background.",
+      "alt_text": "Speaker presenting a demo slide on a projector screen during a hackathon event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The main speaker is looking away from the camera and the person in the background appears to be slumped over a laptop, making it less ideal for social media.",
+      "quality": 54,
+      "dhash": "bfb3f3fbfbfbe779",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-037.jpg": {
+      "description": "A large projection screen displays a software interface on a blue wall, while a person stands at a table to the right.",
+      "alt_text": "Projector screen showing code and a person standing next to it",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "The person is looking down and obscured by the chair, making it unflattering for social media.",
+      "quality": 29,
+      "dhash": "bfddf9fdf9fde379",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-059.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-038.jpg": {
+      "description": "A presenter stands at a table next to a large projection screen displaying a software interface during a presentation.",
+      "alt_text": "Presenter standing next to a projection screen showing code and a UI window",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The image is functional for showing the topic but lacks energy and the subject is cut off at the bottom.",
+      "quality": 36,
+      "dhash": "bf9ff9f9f9f9efe0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-025.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-039.jpg": {
+      "description": "A presenter stands on stage next to a large projection screen displaying a software interface during a presentation.",
+      "alt_text": "Presenter standing beside a large projection screen showing a software interface",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good shot of a speaker in action, though the projected text is slightly difficult to read.",
+      "quality": 61,
+      "dhash": "7b7f6f6f6fe7f93e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-040.jpg": {
+      "description": "A large projection screen displaying a software interface is mounted on a blue wall, while a person stands at a table to the right organizing items.",
+      "alt_text": "Projector screen showing code and a chair in an event room",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is dominated by the screen and empty wall; the person on the right is cut off and not clearly interacting with the presentation.",
+      "quality": 36,
+      "dhash": "6bbf9c7cfcfcfcc7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-041.jpg": {
+      "description": "A large projector screen displays a software interface on a blue wall, while a person stands at a table to the right.",
+      "alt_text": "Projector screen showing code and a UI on a blue wall with a person standing nearby",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "This is mostly a screenshot of the room; it lacks energy and engagement for social media.",
+      "quality": 21,
+      "dhash": "bfb9f9f9f9ffe279",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-059.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-042.jpg": {
+      "description": "A large projection screen displays code on a blue wall, while a person sits at a table in the corner.",
+      "alt_text": "Code projected on a screen with a person sitting nearby",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Not suitable for social media as the subject is cut off and it lacks event energy.",
+      "quality": 29,
+      "dhash": "bfbdf9edf9fdf7f9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-043.jpg": {
+      "description": "A large projection screen displays a software interface on a blue wall while a person stands at a table to the right, appearing to set up equipment.",
+      "alt_text": "Projector screen showing code on a blue wall with a person standing nearby",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a poor candidate for social media as it focuses on the screen with no audience engagement and cuts off the subject.",
+      "quality": 21,
+      "dhash": "ff9fdd7dfdfdeff0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-044.jpg": {
+      "description": "A speaker stands next to a projector screen displaying a software interface during a presentation at an MLH event.",
+      "alt_text": "Speaker standing beside a projector screen showing a software dashboard",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker is looking down rather than engaging with the audience, making it less dynamic for social media.",
+      "quality": 43,
+      "dhash": "bf9df96979fdeff4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-045.jpg": {
+      "description": "A speaker stands next to a table while presenting slides projected onto a blue wall at an MLH event.",
+      "alt_text": "Speaker standing next to a projector screen displaying technical slides on a blue wall",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The speaker is cut off at the knees and looks distracted looking down rather than engaging with the audience.",
+      "quality": 39,
+      "dhash": "bfdd7c7d7dfde7b0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-020.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-046.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying a 'Trick Wizard' interface during a presentation, with a yellow chair and messy cables visible in the foreground.",
+      "alt_text": "Speaker standing beside a projector screen showing a trick wizard interface at an MLH event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The framing is awkward as the speaker's head is cut off by the top edge of the image.",
+      "quality": 43,
+      "dhash": "6fdfdc7c7cfcfde7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-047.jpg": {
+      "description": "A speaker stands beside a large projection screen displaying a software interface during a presentation at an MLH event.",
+      "alt_text": "Speaker standing next to a projected slide showing a software dashboard",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is cut off at the bottom and the angle is slightly awkward, making it less ideal for social media.",
+      "quality": 43,
+      "dhash": "bfb9f97979f9e7f9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-048.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying a complex software dashboard during a presentation.",
+      "alt_text": "Speaker standing beside a projector screen showing a software dashboard interface",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is cut off at the top and bottom by the frame edges, making it less suitable for social media than a better-framed shot.",
+      "quality": 43,
+      "dhash": "bfdf7d6dfdfde7b0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-049.jpg": {
+      "description": "A projector screen displays a presentation slide titled 'Dante's HELL O World' in an empty room, with the projector mounted on the ceiling and cables visible on the floor.",
+      "alt_text": "Projector screen showing a slide titled Dante's HELL O World in an empty conference room",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This image is too static and empty for social media; it lacks the energy or human element needed to engage an audience.",
+      "quality": 21,
+      "dhash": "6f59fbfcecfd92f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-050.jpg": {
+      "description": "A presentation slide titled 'Dante's HELLO World' is projected onto a white screen in an empty room, with messy cables and a power strip visible on the carpeted floor.",
+      "alt_text": "Presentation screen showing a slide titled Dante's HELLO World in an empty conference room",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a poor quality image for social media due to the messy cables on the floor and lack of people or event energy.",
+      "quality": 21,
+      "dhash": "9d68abfefcfeded9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-051.jpg": {
+      "description": "A presentation slide displayed on a projector screen in an empty room, reading \"Hello World\" is broken. The MLH logo is visible in the bottom left corner.",
+      "alt_text": "Projector screen displaying text that reads 'Hello World' is broken",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "screenshot"
+      ],
+      "notes": "This is a screenshot of a slide rather than a photo of the event; it lacks people and energy.",
+      "quality": 21,
+      "dhash": "bf695bfffdfdbdb2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-052.jpg": {
+      "description": "A projector screen displays a presentation slide titled 'What we built' with technical details about a quantum simulator and blockchain, set against a blue wall in an empty room.",
+      "alt_text": "Projector screen showing a slide titled 'What we built' listing technical bullet points on a blue wall",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a functional documentation shot of the content but lacks energy and engagement for social media.",
+      "quality": 21,
+      "dhash": "9f702bfffcfcfed1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-053.jpg": {
+      "description": "A projected presentation slide titled 'Polyglot explosion' is displayed on a white screen in an empty room, with cables and a power strip visible on the carpeted floor.",
+      "alt_text": "Projected slide showing text about Polyglot explosion languages in an empty conference room",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a functional shot of the slide content but lacks energy and people, making it unsuitable for social media.",
+      "quality": 21,
+      "dhash": "ae691bfffcfcbc9a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-054.jpg": {
+      "description": "A group of people are gathered in a room with blue walls, standing near a table and sitting in chairs while a ViewSonic presentation is displayed on a large screen.",
+      "alt_text": "Attendees stand and sit near a table while a presentation plays on a projector screen",
+      "tags": [
+        "talk",
+        "slides",
+        "venue",
+        "networking"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is too wide and the people are small in the frame, making it better suited for a background than a main social post.",
+      "quality": 29,
+      "dhash": "b39f2f3e5878f8e7",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-055.jpg": {
+      "description": "Three people stand on a stage next to a large projection screen displaying code, with a Major League Hacking logo visible in the corner.",
+      "alt_text": "Three presenters standing beside a projector screen showing code during an MLH event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The framing is too wide and includes excessive ceiling space; the people are small in the frame compared to the screen.",
+      "quality": 43,
+      "dhash": "bfb97969f9ffe279",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-059.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-056.jpg": {
+      "description": "Three people stand in front of a blue wall with a large projector screen displaying code, likely during a hackathon presentation or workshop.",
+      "alt_text": "Three people standing next to a projector screen showing code on a blue wall",
+      "tags": [
+        "slides",
+        "talk",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is too wide and the people are small on the right; it would work better as a cropped detail shot of the screen or the group.",
+      "quality": 50,
+      "dhash": "bfbdf969f9fbebeb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-057.jpg": {
+      "description": "Three people stand near a large projection screen displaying code, likely during a presentation or judging session at a hackathon.",
+      "alt_text": "Three people standing in front of a projector screen showing code on a blue wall",
+      "tags": [
+        "talk",
+        "slides",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is clear and usable for a recap, but the composition is cluttered by cables and the chair, making it less ideal for social media.",
+      "quality": 50,
+      "dhash": "6bbffd3dfdfdfde3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-058.jpg": {
+      "description": "Three people stand on a stage in front of a large projection screen displaying code, appearing to be in the middle of a presentation or judging session.",
+      "alt_text": "Three presenters standing near a projector screen showing code during a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The image is functional for showing the event context but is not ideal for social media because the subject is cut off by the frame edge and the composition includes distracting cables on the floor.",
+      "quality": 50,
+      "dhash": "6bbf9d39bdf9fde3",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-057.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-059.jpg": {
+      "description": "Three people stand on a stage next to a large projection screen displaying code, with one person giving a thumbs-up.",
+      "alt_text": "Three presenters standing beside a projector screen showing code during a presentation.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good shot of the presenters and their work, though the ceiling space is a bit distracting.",
+      "quality": 61,
+      "dhash": "bffd7979f9fde279",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-060.jpg": {
+      "description": "A presenter stands in front of a blue wall pointing at code on a large projection screen, while two other people stand nearby observing.",
+      "alt_text": "Presenter pointing at code on a projector screen with two observers standing next to her",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A clear shot of a presentation in progress that effectively demonstrates the event's educational atmosphere.",
+      "quality": 71,
+      "dhash": "bf9d5979f9f9e778",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-061.jpg": {
+      "description": "A projector screen displays a presentation slide titled 'Water where it shouldn't be?' while a person stands at a table to the right, appearing to organize equipment or supplies.",
+      "alt_text": "Projector screen showing a presentation slide with text about water, next to a person organizing items at a table",
+      "tags": [
+        "slides",
+        "venue",
+        "hardware"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "This is a functional shot of the slide content but lacks visual energy or clear context for social media engagement.",
+      "quality": 21,
+      "dhash": "bf9ff9f1f9f9eff0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-025.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-062.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying a slide titled 'Water where it shouldn't be?' while addressing an audience in a room with blue walls.",
+      "alt_text": "Speaker presenting a project on water technology during a hackathon presentation",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good shot of the presentation content and speaker, though the composition is slightly off-center with a lot of empty wall space.",
+      "quality": 61,
+      "dhash": "3f5f7c7cf4fce7f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-063.jpg": {
+      "description": "A large projection screen displays a software interface on a blue wall, while a person stands at a table to the right working on a laptop.",
+      "alt_text": "Projector screen showing code and a man standing next to it in a conference room",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The image is mostly a slide with no audience engagement and the person on the right looks like they are setting up rather than presenting.",
+      "quality": 29,
+      "dhash": "bfbff9f1f1fde7f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-064.jpg": {
+      "description": "A large projector screen displays a presentation slide in an empty room, while a man stands at a table on the right side adjusting equipment.",
+      "alt_text": "Projector screen showing a quiz question with a man standing at a table to the right",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "This image is likely not suitable for social media as it shows an empty room and the subject appears to be setting up or packing away rather than presenting.",
+      "quality": 21,
+      "dhash": "bf9ffdf1f1fdefe0",
+      "duplicate_of": "2026-10-17-hacktoberfest-major-league-hacking-025.jpg",
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-065.jpg": {
+      "description": "A view of a presentation room with a large projection screen displaying a software interface, while a person stands at a table in the foreground.",
+      "alt_text": "Projector screen showing code and a person standing at a table in a blue room",
+      "tags": [
+        "slides",
+        "venue",
+        "hardware"
+      ],
+      "people_count": 2,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This image is too static and focused on the screen to be engaging for social media.",
+      "quality": 21,
+      "dhash": "5f5c7cf0f8fdf1f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-066.jpg": {
+      "description": "A view of a presentation screen displaying slides about coastal water events, with a person standing at a table to the right and an empty chair in the foreground.",
+      "alt_text": "Presentation screen showing slides on a blue wall with a person standing nearby",
+      "tags": [
+        "slides",
+        "venue",
+        "screenshot"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is dominated by the screen and ceiling; it lacks the energy or clear subject needed for a social post.",
+      "quality": 21,
+      "dhash": "9fdd78f1f9fdf1f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-067.jpg": {
+      "description": "Attendees are seated at tables working on laptops in a blue-walled room while a presenter speaks at the front near a projection screen.",
+      "alt_text": "Hackathon attendees work on laptops while a speaker presents slides at the front of the room",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard wide shot of the room that captures the venue and attendees but lacks dynamic energy for social media.",
+      "quality": 54,
+      "dhash": "1b1a5a31b139e39b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-068.jpg": {
+      "description": "Attendees are seated at tables working on laptops in a blue-walled room, facing a projector screen displaying code while a speaker sits nearby.",
+      "alt_text": "Hackathon attendees coding on laptops facing a presentation screen",
+      "tags": [
+        "talk",
+        "slides",
+        "crowd",
+        "audience",
+        "venue",
+        "food"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing the venue and coding atmosphere, but the person in the foreground has their eyes closed which may be flagged as awkward.",
+      "quality": 46,
+      "dhash": "2f37b9e262f6863f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-069.jpg": {
+      "description": "Attendees are seated at tables in a blue-walled room, listening to a presentation projected on a screen while food is served in the foreground.",
+      "alt_text": "Hackathon attendees listen to a speaker during a presentation with food in the foreground",
+      "tags": [
+        "talk",
+        "slides",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The photo captures the event atmosphere but includes an attendee with their back turned and another leaning back awkwardly.",
+      "quality": 46,
+      "dhash": "1f971972337ad63d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-070.jpg": {
+      "description": "Attendees are seated at tables in a blue-walled room, working on laptops and watching a presentation projected on the wall.",
+      "alt_text": "Hackathon participants work on laptops while watching a presentation screen",
+      "tags": [
+        "crowd",
+        "audience",
+        "slides",
+        "venue",
+        "food"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good context for a recap, but the person in the foreground has their head down which is slightly unflattering.",
+      "quality": 54,
+      "dhash": "2f373569337bd637",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2026-10-17-hacktoberfest-major-league-hacking-071.jpg": {
+      "description": "An audience sits at tables facing a presentation screen displaying 'Meet Your New Sidekick' in a blue-walled room, with laptops open and food trays visible in the foreground.",
+      "alt_text": "Audience watching a presentation on a projector screen during an indoor tech event",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "food",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the venue and audience engagement, but the foreground food trays and back-of-head perspective make it less ideal for a polished social post.",
+      "quality": 50,
+      "dhash": "6f65486273e63e7c",
+      "duplicate_of": null,
+      "pick": false
+    }
+  },
+  "exclude": {
+    "2026-10-17-hacktoberfest-major-league-hacking-001.jpg": "food tray only"
+  }
+}

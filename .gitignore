@@ -69,3 +69,5 @@ social/newsletter/**/*.jpg
 # so re-include the directory here; .serena/.gitignore still keeps the
 # machine-local bits (cache/, project.local.yml) out.
 !.serena/
+
+__pycache__/

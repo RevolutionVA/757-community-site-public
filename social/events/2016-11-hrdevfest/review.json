@@ -1,0 +1,918 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2016-11-03-hrdevfest-linda-nichols-001.jpg": {
+      "description": "A printed sign taped to a dark wooden door indicating the location for the Hampton Roads DevFest keynote presentation by Michael Rollins.",
+      "alt_text": "Sign on a door listing the Keynote speaker Michael Rollins for Hampton Roads DevFest",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Useful for a logistical update or room map, but lacks the energy and visual appeal needed for a main social media post.",
+      "quality": 21,
+      "dhash": "ff0f617939293303",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-03-hrdevfest-alex-proaps-002.jpg": {
+      "description": "A close-up view of a World Usability Day placemat featuring a large blue arrow and handwritten graphic notes on design thinking, resting on a carpeted floor.",
+      "alt_text": "World Usability Day placemat with hand-drawn sketches and notes about design thinking on the floor",
+      "tags": [
+        "venue",
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing event branding and swag, but lacks the energy of a live event scene.",
+      "quality": 39,
+      "dhash": "347ac48c938eb871",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-003.jpg": {
+      "description": "Attendees gather around a registration table near the entrance doors, interacting with staff and checking in for the event.",
+      "alt_text": "Attendees check in at a registration desk near glass entrance doors",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good candid shot of the check-in process, but strong backlighting makes faces difficult to see.",
+      "quality": 54,
+      "dhash": "ecc9e9c9cde9e185",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-004.jpg": {
+      "description": "Attendees gather near the entrance of a venue, interacting with staff at a registration table while strong sunlight streams through the glass doors.",
+      "alt_text": "Attendees check in at a registration table near glass doors with bright sunlight streaming in",
+      "tags": [
+        "venue",
+        "networking",
+        "sponsor"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good candid shot of the check-in process, though the strong backlighting creates high contrast.",
+      "quality": 61,
+      "dhash": "e4e9e8c9d9d184d1",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-005.jpg": {
+      "description": "A wide shot of a conference room filled with attendees seated at tables, listening to a presentation or speaker.",
+      "alt_text": "Large group of people sitting at tables in a conference room listening to a talk",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot that captures the size of the audience and the venue layout.",
+      "quality": 61,
+      "dhash": "c96bce0d1f4368e6",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-006.jpg": {
+      "description": "A wide shot of a conference room filled with attendees sitting at long tables, listening to a presentation and working on laptops.",
+      "alt_text": "Audience members seated at tables in a conference room attending a workshop or talk.",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the scale of attendance and engagement with the event.",
+      "quality": 61,
+      "dhash": "23587e627e1e4030",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-007.jpg": {
+      "description": "A wide-angle view of a conference room where an audience is seated at tables facing two presenters standing near the front.",
+      "alt_text": "Audience members seated at tables listening to two speakers standing in front of a presentation screen.",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The image captures the event context but includes an awkward moment where a man in the foreground is looking down at his phone instead of paying attention to the speakers.",
+      "quality": 50,
+      "dhash": "78724d1c1c26706c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-008.jpg": {
+      "description": "A large audience sits in rows of tables facing a presentation area, with an 'issuetrak' banner visible on the wall behind them.",
+      "alt_text": "Audience listening to a talk at an issuetrak event",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid crowd shot that establishes the event size and branding, though it lacks dynamic energy.",
+      "quality": 61,
+      "dhash": "f8c012b2d25078c8",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-linda-nichols-009.jpg": {
+      "description": "A large audience is seated in rows facing the front of a conference room, listening to a presentation at an IssueTrak event.",
+      "alt_text": "Audience members seated in rows listening to a speaker at a tech conference",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "venue",
+        "sponsor"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing attendance size, but the foreground subject is looking down at a phone rather than engaging with the event.",
+      "quality": 57,
+      "dhash": "8a32b29ad038c848",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-010.jpg": {
+      "description": "A speaker in a blue shirt presents on stage next to a large projection screen, while two other men stand nearby near a window.",
+      "alt_text": "Speaker presenting at a tech event with colleagues standing by a window and slides projected on the wall",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image captures the event context but is too dark and has low contrast to be effective for social media without editing.",
+      "quality": 46,
+      "dhash": "f8fe6c8db79f9f33",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-011.jpg": {
+      "description": "A view from the back of a conference room showing an audience seated in rows facing a presentation screen at the front.",
+      "alt_text": "Audience sitting in chairs facing a projector screen during a tech talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 40,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The shot is taken from behind the audience with backs to the camera, making it less engaging for social media than a front-facing angle.",
+      "quality": 29,
+      "dhash": "3c34c4d6332bf871",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-012.jpg": {
+      "description": "An audience sits in rows of chairs facing a presentation screen at the front of a conference room, with speakers visible near the stage area.",
+      "alt_text": "Audience seated in a conference room watching a presentation on a large screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 45,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a standard wide shot of the room; it works for context but lacks the energy or detail needed for a compelling social media post.",
+      "quality": 50,
+      "dhash": "070f1a722f6bacb8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-alex-proaps-013.jpg": {
+      "description": "A high-angle shot displays several open boxes of assorted donuts, including glazed, pink-frosted with sprinkles, and powdered varieties, arranged on a table.",
+      "alt_text": "Rows of assorted donuts in open boxes, featuring glazed, pink frosted, and powdered options.",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "A clear and appetizing shot of the refreshments, suitable for a post highlighting event catering.",
+      "quality": 32,
+      "dhash": "146567432b2a62b6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-014.jpg": {
+      "description": "An audience sits in rows of chairs facing a presentation screen and speaker at the front of a conference room.",
+      "alt_text": "Audience listening to a speaker during a tech talk",
+      "tags": [
+        "talk",
+        "audience",
+        "slides",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event attendance and setting, though faces are not visible.",
+      "quality": 50,
+      "dhash": "2be5e70eae2c1cdf",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-015.jpg": {
+      "description": "A large audience sits in rows facing a presentation area with an Issuetrak banner, while some attendees eat pizza and use laptops at tables in the foreground.",
+      "alt_text": "Audience listening to a talk with food and laptops on tables",
+      "tags": [
+        "talk",
+        "crowd",
+        "audience",
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 40,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing attendance size, but the low light makes faces hard to see and it lacks dynamic energy.",
+      "quality": 54,
+      "dhash": "72787b702c1dc8cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-016.jpg": {
+      "description": "An audience sits at long tables in a conference room, listening to a speaker who is partially visible on the left. A projector and laptops are set up on the tables.",
+      "alt_text": "Audience members seated at tables watching a presentation with a projector",
+      "tags": [
+        "talk",
+        "audience",
+        "venue",
+        "slides"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Captures the audience engagement well, but the low lighting makes it a bit dark for social media.",
+      "quality": 54,
+      "dhash": "9919c96999397020",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-017.jpg": {
+      "description": "A whiteboard displays the event name 'HRDevFest' and a humorous slogan 'That's No Moon!' written in orange marker, with additional notes about an apostrophe.",
+      "alt_text": "Whiteboard with handwritten text reading HRDevFest That's No Moon!",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a quick social post showing the event theme, but lacks people and energy for a main recap image.",
+      "quality": 36,
+      "dhash": "98bf76375fdfbf4f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-018.jpg": {
+      "description": "Two presenters stand behind a podium giving a talk titled 'Pokemon Go: Don't Copy it - Learn from it' to an unseen audience.",
+      "alt_text": "Presenters at a podium during a Pokemon Go talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a newsletter recap to show the specific topic, but the lighting is dim and the audience is missing.",
+      "quality": 54,
+      "dhash": "072139617363626e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-019.jpg": {
+      "description": "An audience sits in a conference room facing a presentation screen while a speaker stands at the front.",
+      "alt_text": "Audience watching a presentation from behind during a tech talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 30,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and the audience members are mostly seen from behind, making it less engaging for social media.",
+      "quality": 43,
+      "dhash": "4d6049cb313371f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-020.jpg": {
+      "description": "A speaker stands at a podium addressing an audience seated at tables with laptops during a presentation.",
+      "alt_text": "Speaker presenting to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the event; usable for a recap but lacks dynamic energy.",
+      "quality": 54,
+      "dhash": "c7ec5a47e9e4edb3",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-021.jpg": {
+      "description": "An audience of attendees sits at long tables in a conference room, listening to a presentation while looking toward the front of the room.",
+      "alt_text": "Audience members seated at tables listening to a talk at a tech event",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "people_count": 18,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This image captures the audience well but is a bit dark and grainy; it works for a recap post showing attendance.",
+      "quality": 54,
+      "dhash": "d32e64349e94b820",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-022.jpg": {
+      "description": "A speaker stands at a podium presenting a slide about a thermostat set to 78 degrees, while the audience sits in a dimly lit room.",
+      "alt_text": "Speaker presenting a slide showing a thermostat reading of 78 degrees to an audience in a dark room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 2,
+        "exposure": 1,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark to be useful for social media without significant editing.",
+      "quality": 32,
+      "dhash": "39b9273858d8da65",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-023.jpg": {
+      "description": "A speaker stands at a podium presenting a slide titled 'What Can We Learn' on a large projection screen.",
+      "alt_text": "Speaker giving presentation next to projected slide",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for a recap but the lighting is dim and the speaker's face is in shadow.",
+      "quality": 46,
+      "dhash": "43234346c6c6c7cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-024.jpg": {
+      "description": "A speaker stands at a podium presenting to an audience in a conference room, with a large projection screen displaying the text 'Before we really start....'",
+      "alt_text": "Speaker standing at a podium giving a presentation to a small audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap slide showing the speaker, but the audience is mostly cut off and the angle feels slightly casual.",
+      "quality": 46,
+      "dhash": "3c0947464ecbcbdb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-025.jpg": {
+      "description": "A speaker stands at a podium gesturing to the audience while presenting slides on a large projector screen.",
+      "alt_text": "Speaker standing at a podium giving a presentation with slides projected on a screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is cut off at the top by the frame edge, which detracts from the composition.",
+      "quality": 46,
+      "dhash": "3f83e183a3a7070e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-026.jpg": {
+      "description": "A speaker stands at a podium presenting slides to an empty room, with the screen displaying 'Before we really start...'",
+      "alt_text": "Speaker standing at a podium next to a projection screen showing presentation slides",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The room is empty and the lighting is dim, making this less engaging for social media than a shot with an audience.",
+      "quality": 32,
+      "dhash": "3f0bc183a6a7a78e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-027.jpg": {
+      "description": "A speaker stands at a podium in a dimly lit room, presenting a slide titled 'What we are going to talk about...' on a large projection screen.",
+      "alt_text": "Speaker standing at a podium next to a presentation slide about diversity topics",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark to see the speaker clearly and lacks audience engagement, making it less suitable for social media.",
+      "quality": 32,
+      "dhash": "426136e6c4c7c4c8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-028.jpg": {
+      "description": "A speaker stands at a podium in a darkened room, gesturing towards a large projection screen displaying a slide titled 'What is diversity?'",
+      "alt_text": "Speaker presenting a slide about diversity on a projector screen in a conference room.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for illustrating the specific topic of the talk, but the speaker is too silhouetted to be a strong portrait.",
+      "quality": 46,
+      "dhash": "4331c2c6c6c5c6c8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-linda-nichols-029.jpg": {
+      "description": "A speaker stands at a podium presenting a slide titled 'What is GraphQL?' to an audience in a dimly lit conference room.",
+      "alt_text": "Speaker standing next to a projection screen displaying a presentation on GraphQL code and concepts.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is quite dark and grainy, but the slide content is legible enough for a technical recap.",
+      "quality": 54,
+      "dhash": "73737cfcf8f8f8f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-alex-proaps-030.jpg": {
+      "description": "A presentation slide displayed on a projector screen during a talk, featuring the quote 'Tiny leaders build on other tiny leaders to make tiny powerful fearless societies' by Adam Brault.",
+      "alt_text": "Projector screen showing a quote about tiny leaders building powerful societies by Adam Brault",
+      "tags": [
+        "slides",
+        "talk"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for sharing the quote text, but lacks visual energy or people engagement.",
+      "quality": 29,
+      "dhash": "f6cfee8eb8c08080",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-031.jpg": {
+      "description": "Attendees line up along a long table filled with catering trays during a break at the event.",
+      "alt_text": "Crowd of people lining up for food at a buffet table",
+      "tags": [
+        "crowd",
+        "audience",
+        "food"
+      ],
+      "people_count": 20,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing attendance and catering, but some faces are obscured or in unflattering poses.",
+      "quality": 61,
+      "dhash": "59494c4e71757159",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-linda-nichols-032.jpg": {
+      "description": "A large group of attendees stands in a long line at a buffet table, serving themselves food during a break at the event.",
+      "alt_text": "Attendees lining up for food at a conference buffet",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing attendance numbers, but the line is long and people are mostly looking at food or away from the camera.",
+      "quality": 64,
+      "dhash": "3a1b63a79c9c6833",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-033.jpg": {
+      "description": "A group of attendees stands in a long hallway, with some looking at phones and others chatting.",
+      "alt_text": "Attendees waiting in a long hallway during a break",
+      "tags": [
+        "crowd",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The hallway setting is boring and the lighting makes faces look a bit washed out.",
+      "quality": 46,
+      "dhash": "97959dddccb4f0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-kevin-griffin-034.jpg": {
+      "description": "A group of attendees stands in a long hallway, with some chatting in the foreground and others waiting in line further back.",
+      "alt_text": "Attendees standing in a crowded hallway waiting for an event to start",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The lighting is dim and yellow, but it captures the candid energy of a crowd waiting in line.",
+      "quality": 50,
+      "dhash": "3b359c8cccf4f0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-11-04-hrdevfest-alex-proaps-035.jpg": {
+      "description": "A speaker stands on stage holding a small electronic device while gesturing with his other hand, demonstrating hardware to an audience.",
+      "alt_text": "Speaker presenting a hardware prototype on stage at a tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "hardware"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good action shot showing the hardware demo in progress, though the framing is slightly tight.",
+      "quality": 68,
+      "dhash": "800037d7cf0b0303",
+      "duplicate_of": null,
+      "pick": true
+    }
+  },
+  "exclude": {
+    "2016-11-04-hrdevfest-linda-nichols-012.jpg": "backs of heads"
+  }
+}

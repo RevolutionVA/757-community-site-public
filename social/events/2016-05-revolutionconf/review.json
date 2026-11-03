@@ -1,0 +1,1770 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2016-05-13-revolutionconf-ken-taylor-001.jpg": {
+      "description": "A large group of attendees sits at long tables in a conference hall, listening to a presentation and working on laptops.",
+      "alt_text": "Attendees seated at tables in a conference room listening to a talk",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid crowd shot that effectively shows the size of the audience and engagement level.",
+      "quality": 61,
+      "dhash": "e34746c456ca9949",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-002.jpg": {
+      "description": "A large audience sits at long tables in a conference hall, listening to a speaker visible in the background. Many attendees have laptops open and are wearing event lanyards.",
+      "alt_text": "Audience members seated at tables listening to a presentation at a tech conference",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the crowd that works well for a recap post showing attendance.",
+      "quality": 61,
+      "dhash": "1819399312a6d260",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-003.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Substitution' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the event; usable for a recap but lacks dynamic energy.",
+      "quality": 54,
+      "dhash": "fb7919999b9b9bb6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-004.jpg": {
+      "description": "A speaker stands on stage presenting to an audience seated at long tables in a conference room, with a large projection screen displaying slides.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the event in progress; good for a recap but lacks high-energy action.",
+      "quality": 54,
+      "dhash": "26b6978da627b7f2",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-005.jpg": {
+      "description": "An audience sits in rows of tables facing a presentation screen and speaker at the front of a conference room.",
+      "alt_text": "Audience members seated at tables watching a presentation on a large screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good context for a recap showing the room setup, but the audience backs are turned and lighting is dim.",
+      "quality": 46,
+      "dhash": "32aec84b191090e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-006.jpg": {
+      "description": "An audience sits at long tables facing a presentation screen displaying technical diagrams, while a speaker stands near the front of the room.",
+      "alt_text": "Audience watching a presentation on a projector screen in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The photo captures the event setting well, but the speaker is facing away from the camera and looking at the screen, making it less ideal for social media than a frontal shot.",
+      "quality": 46,
+      "dhash": "e33332684c4e7465",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-007.jpg": {
+      "description": "A female speaker stands on stage pointing at a projection screen while giving a presentation.",
+      "alt_text": "Speaker presenting slides on stage",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good capture of the speaker's energy, but the projection screen is too bright to see details.",
+      "quality": 54,
+      "dhash": "be33333283818b83",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-008.jpg": {
+      "description": "A speaker stands at the front of a conference room presenting slides to an audience seated at long tables.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker appears to be looking down at the floor rather than engaging with the audience or the screen.",
+      "quality": 46,
+      "dhash": "e171594db4b737bb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-009.jpg": {
+      "description": "A large group of attendees gathers in a conference room with windows, standing and sitting while waiting for an event to begin or take place.",
+      "alt_text": "Crowd of diverse people standing and sitting in a conference room with large windows",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 35,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good energy and crowd size, but the composition is cluttered with a person's head cut off in the foreground.",
+      "quality": 57,
+      "dhash": "c19131b26b6980b8",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-010.jpg": {
+      "description": "A speaker stands on stage with arms outstretched while presenting a slide titled 'Consulting Economy' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting Consulting Economy slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that captures the presentation context but lacks dynamic energy for social media.",
+      "quality": 54,
+      "dhash": "5a6337b2b3b32c31",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-011.jpg": {
+      "description": "A man wearing a red Revolution Conf t-shirt and glasses stands in the foreground of a conference room, while other attendees mingle near tables in the background.",
+      "alt_text": "Attendee posing for a photo at a tech conference with people mingling in the background",
+      "tags": [
+        "portrait",
+        "networking",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good clear portrait of an attendee, though the background windows are slightly blown out.",
+      "quality": 68,
+      "dhash": "d11504ccc446c6a0",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-012.jpg": {
+      "description": "A smiling man in an orange t-shirt stands indoors with his arms spread wide, gesturing towards the camera.",
+      "alt_text": "Smiling man in orange shirt gestures with open arms at a tech event",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "A clear portrait of a friendly attendee, though the background is plain and lacks specific event context.",
+      "quality": 64,
+      "dhash": "cf8f058189cb3e03",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-013.jpg": {
+      "description": "A smiling woman in an orange t-shirt sits at a table and gives a thumbs-up, surrounded by boxes of clothing.",
+      "alt_text": "Smiling woman giving a thumbs up while sitting at a table with boxes of clothes",
+      "tags": [
+        "portrait",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A cheerful portrait that works well for social media to show attendee engagement.",
+      "quality": 71,
+      "dhash": "dac4dbceccc8cccc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-014.jpg": {
+      "description": "A man in a red t-shirt and glasses stands smiling next to a sign for the Virginia Parole and Probation Association.",
+      "alt_text": "Man in red shirt standing next to event sign",
+      "tags": [
+        "portrait",
+        "venue",
+        "signage"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait suitable for a speaker profile or attendee feature.",
+      "quality": 64,
+      "dhash": "cb4ccc89ce6e08e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-015.jpg": {
+      "description": "A bald man wearing glasses and a red t-shirt with an 'Open Source Day' logo stands in the foreground looking at the camera, while another person sits at a table in the background.",
+      "alt_text": "Man in red shirt and glasses standing indoors",
+      "tags": [
+        "portrait"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The subject's expression is ambiguous and could be interpreted as unflattering or awkward for a public social media post.",
+      "quality": 54,
+      "dhash": "f6b6dececcc8c0c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-016.jpg": {
+      "description": "Staff members in matching orange shirts are setting up tables with red cables and swag cards in a conference hallway.",
+      "alt_text": "Event staff preparing registration tables with cables and badges in a hallway",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of the team working behind the scenes, though the background is a bit cluttered.",
+      "quality": 61,
+      "dhash": "f2e0f1fb636b67eb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-017.jpg": {
+      "description": "A close-up view of a table at the Revolution Conf event displaying stacks of black name badges for attendees like Matt Paddock and Ryan Edging, alongside orange lanyards and hardware.",
+      "alt_text": "Stacks of black conference name badges with red logos on a white table next to orange lanyards",
+      "tags": [
+        "swag",
+        "hardware",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good detail on the badges and hardware, but lacks human energy for a main social post.",
+      "quality": 32,
+      "dhash": "30326a6aa296d0d9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-018.jpg": {
+      "description": "A collection of 'Revolution Camp' name badges and lanyards are laid out on a table next to a registration sheet, ready for distribution.",
+      "alt_text": "Several Revolution Camp name badges and orange lanyards arranged on a table near a sign-in sheet",
+      "tags": [
+        "swag",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event branding and swag, but lacks the energy of a live event scene.",
+      "quality": 32,
+      "dhash": "dcf2c29fa3c7ce6a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-019.jpg": {
+      "description": "A close-up view of a white registration sign for the 'Revolution Conference' sitting on a table, with blurred feet visible in the background.",
+      "alt_text": "Registration sign for the Revolution Conference event",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a functional sign photo rather than an engaging event shot; it lacks the energy or faces needed for social media engagement.",
+      "quality": 32,
+      "dhash": "f4f047554dd5e9eb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-020.jpg": {
+      "description": "A man in a red t-shirt sits at a registration table, smiling and holding a pen while looking off-camera.",
+      "alt_text": "Smiling man in red shirt sitting behind a registration table with pens and badges",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait of a speaker, but the busy table with supplies makes for a cluttered background.",
+      "quality": 57,
+      "dhash": "c9c9e574686cece8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-021.jpg": {
+      "description": "A man in an orange t-shirt sits behind a table displaying rows of USB drives and other promotional items, likely at a sponsor booth.",
+      "alt_text": "Man sitting at a conference table with rows of USB drives and swag displayed for attendees.",
+      "tags": [
+        "sponsor",
+        "swag",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a clear, usable shot for social media to highlight a specific sponsor or their products.",
+      "quality": 64,
+      "dhash": "344a92f2cccc98bc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-022.jpg": {
+      "description": "A table is covered with event materials, including a large pile of orange lanyards, stacks of black name badges, and rows of packaged keychains.",
+      "alt_text": "Event registration table displaying orange lanyards, name badges, and packaged keychains.",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good detail on the swag items, but lacks human energy for a main social post.",
+      "quality": 32,
+      "dhash": "0d2570ec6989d3f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-023.jpg": {
+      "description": "A registration table at a tech event is covered in swag, including stacks of lanyards and piles of orange cables, with a person visible in the background.",
+      "alt_text": "Registration table filled with conference lanyards and orange cables",
+      "tags": [
+        "swag",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good detail on the swag for a recap post, but the composition is cluttered and cuts off the person in the background.",
+      "quality": 46,
+      "dhash": "d8e0e6daca6c3898",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-024.jpg": {
+      "description": "A table at a tech event is covered with stacks of branded lanyards, coasters, and other promotional items, with a person sitting behind the table.",
+      "alt_text": "Table displaying stacks of blue lanyards and coasters with orange cords for an event booth",
+      "tags": [
+        "swag",
+        "sponsor",
+        "booth"
+      ],
+      "people_count": 1,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This image shows a person's torso and arm in an unflattering way, so it is flagged as sensitive for social media.",
+      "quality": 39,
+      "dhash": "8c343430bed8f4b1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-025.jpg": {
+      "description": "A stack of black bottle openers branded with the 'ETA | Emerging Technology Advisors' logo are displayed in plastic packaging on a table.",
+      "alt_text": "Stacked promotional bottle openers featuring the ETA logo and text for Emerging Technology Advisors.",
+      "tags": [
+        "swag",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good for showing sponsor swag, but the glare on the plastic packaging is distracting.",
+      "quality": 36,
+      "dhash": "6b230323ab8a8a82",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-026.jpg": {
+      "description": "A close-up shot of black conference name badges featuring the 'Revolution Conf' logo and attendee names on a white table.",
+      "alt_text": "Close up of Revolution Conf name badges with red logos on a table",
+      "tags": [
+        "swag",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Do not use for social media as it displays attendee names and personal information.",
+      "quality": 36,
+      "dhash": "a7a76b4a569cbc98",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-027.jpg": {
+      "description": "A close-up view of several black conference name badges for 'Revolution Conf' laid out on a white table, displaying names like Derek Lindahl and Trish Mahan.",
+      "alt_text": "Several Revolution Conf name badges with red logos are arranged on a table.",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Avoid posting this as it displays personal names and company affiliations on badges.",
+      "quality": 39,
+      "dhash": "7e656c69dbdb9e95",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-028.jpg": {
+      "description": "A smiling man in an orange t-shirt stands facing the camera, wearing a conference badge and lanyard.",
+      "alt_text": "Smiling man in orange shirt with conference badge",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait for a speaker profile or attendee recap.",
+      "quality": 61,
+      "dhash": "d990d4446458f83c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-029.jpg": {
+      "description": "A man in a grey hoodie stands smiling at the camera, posing for a portrait near a glass railing.",
+      "alt_text": "Man in grey hoodie smiling for a portrait photo",
+      "tags": [
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait suitable for a speaker profile or attendee spotlight.",
+      "quality": 57,
+      "dhash": "9195d4cdc9c9ede1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-030.jpg": {
+      "description": "A man in a red graphic t-shirt and backpack stands indoors, looking at the camera with a slight smile.",
+      "alt_text": "Man in red shirt and backpack standing inside a convention center",
+      "tags": [
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait of an attendee, but lacks specific event context or energy.",
+      "quality": 64,
+      "dhash": "979686ccccccccce",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-031.jpg": {
+      "description": "A speaker stands on a stage presenting to an audience seated at tables, with a slide titled 'Who Am I' displayed on a large screen.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that documents the session but lacks dynamic energy or a unique angle for social media.",
+      "quality": 54,
+      "dhash": "9c5a78d9c2cdfbc2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-032.jpg": {
+      "description": "A speaker stands at the front of a conference room presenting slides to an audience seated at tables.",
+      "alt_text": "Speaker presenting 'Who Am I' slide to audience in conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and grainy for a high-quality social post, though it documents the event.",
+      "quality": 46,
+      "dhash": "27b49ea46565bce0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-033.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Who Am I' to an audience seated at long tables in a conference room.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot that clearly establishes the event context and speaker.",
+      "quality": 64,
+      "dhash": "737b29c9cccfdbf2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-034.jpg": {
+      "description": "A large audience is seated at long tables in a conference hall, attentively watching a presentation on a screen in the distance.",
+      "alt_text": "Audience members seated at tables listening to a speaker during a tech conference presentation",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "venue",
+        "slides"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the scale of the event and audience engagement.",
+      "quality": 64,
+      "dhash": "ce4c6964eae2e2e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-035.jpg": {
+      "description": "A large audience sits at long tables in a conference hall, many with laptops open as they participate in a workshop or hackathon.",
+      "alt_text": "Attendees sitting at long tables with laptops during a tech workshop",
+      "tags": [
+        "audience",
+        "crowd",
+        "venue",
+        "workshop",
+        "hardware"
+      ],
+      "people_count": 45,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the scale of attendance and engagement with laptops.",
+      "quality": 68,
+      "dhash": "3070685970989890",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-036.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Contact' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting slides to an audience at a conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 6,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is cut off at the knees, but it serves as a decent background for text overlays.",
+      "quality": 46,
+      "dhash": "535bdb696e6b6b73",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-037.jpg": {
+      "description": "A large audience sits at long tables in a conference hall, listening to a speaker standing near the front of the room.",
+      "alt_text": "Audience members seated at tables facing a speaker in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot showing the scale of the event and audience engagement.",
+      "quality": 61,
+      "dhash": "67662ca9aaf1f1f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-038.jpg": {
+      "description": "A speaker with curly hair stands on stage presenting to an audience seated at long tables, while a large projection screen displays a slide titled 'Contact'.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "Good for a recap showing the event in progress, but the foreground table is distracting and the speaker's feet are cut off.",
+      "quality": 54,
+      "dhash": "1696be484a4adaf2",
+      "duplicate_of": "2016-05-13-revolutionconf-ken-taylor-039.jpg",
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-039.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Contact' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that captures the presentation context well.",
+      "quality": 61,
+      "dhash": "9616be484e4acaf2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-040.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'What are we talking about?' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting slides to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Functional documentation of the event but lacks dynamic energy or strong visual appeal for social media.",
+      "quality": 46,
+      "dhash": "cc3119486a466df1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-041.jpg": {
+      "description": "A speaker stands on stage presenting a slide about the 'Clipper Chip' to an unseen audience.",
+      "alt_text": "Speaker presenting Clipper Chip slides at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a newsletter recap of the specific talk, but lacks crowd energy for social media.",
+      "quality": 46,
+      "dhash": "3b1b8ac8c9cbc2cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-042.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Clipper Chip' to an audience, with tables and chairs visible in the foreground.",
+      "alt_text": "Speaker presenting Clipper Chip slide at tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a newsletter recap of the specific talk, but the composition is slightly cluttered by the foreground tables and the speaker is cut off at the knees.",
+      "quality": 46,
+      "dhash": "bbbecbcbcbc7cbca",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-043.jpg": {
+      "description": "A speaker with curly hair and glasses stands on stage presenting, gesturing towards a projection screen displaying technical bullet points.",
+      "alt_text": "Speaker presenting slides at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid portrait of a speaker in action that works well for event recaps.",
+      "quality": 79,
+      "dhash": "490f0b1a1a1a3a33",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-044.jpg": {
+      "description": "A speaker stands in front of a projector screen displaying 'Let's Do Math!' while presenting to an audience seated at tables.",
+      "alt_text": "Speaker presenting math concepts on a large projection screen during a conference talk",
+      "tags": [
+        "talk",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that effectively shows the speaker and content, though the audience is mostly seen from behind.",
+      "quality": 54,
+      "dhash": "6e6e2c8e96978e94",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-045.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'OPEN SOURCE' to an audience member seated at a table.",
+      "alt_text": "Speaker presenting open source topic with large projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "The audience member's pose looks bored or tired, which might be unflattering for a recap.",
+      "quality": 54,
+      "dhash": "ee6e6c8f96968f96",
+      "duplicate_of": "2016-05-13-revolutionconf-ken-taylor-044.jpg",
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-046.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'OPEN SOURCE' to an audience, with a large mirror reflecting the room behind him.",
+      "alt_text": "Speaker presenting open source slides at a conference with a mirror reflection in the background",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "Good for a recap but the speaker is slightly cut off and the mirror reflection adds visual clutter.",
+      "quality": 54,
+      "dhash": "ee6e6c8f96968f96",
+      "duplicate_of": "2016-05-13-revolutionconf-ken-taylor-044.jpg",
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-047.jpg": {
+      "description": "A speaker stands on stage presenting to an audience, with a laptop and projector screen visible in the room.",
+      "alt_text": "Speaker presenting at a conference with slides projected on a screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that effectively captures the speaker and audience engagement.",
+      "quality": 61,
+      "dhash": "ac6c6c2d2d050420",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-048.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'OPEN SOURCE' to an audience seated at tables.",
+      "alt_text": "Speaker presenting open source slides to an audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid event recap image showing the speaker and topic clearly.",
+      "quality": 64,
+      "dhash": "f15ac2c24eccccc8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-049.jpg": {
+      "description": "A speaker stands on stage presenting a slide about 'The Hyperloop' while gesturing to the audience.",
+      "alt_text": "Speaker presenting a slide about The Hyperloop at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A clear, well-lit shot of a speaker in action that works well for event recaps.",
+      "quality": 79,
+      "dhash": "ab8c0c9c9c9e9c9c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-050.jpg": {
+      "description": "A speaker in a grey polo shirt stands on stage gesturing with both hands while presenting to an audience seated at tables.",
+      "alt_text": "Speaker standing on stage gesturing while giving a presentation to an audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid shot of a speaker in action that works well for social media to highlight the event's content.",
+      "quality": 71,
+      "dhash": "7b8c8f8f0c2e3e3c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-051.jpg": {
+      "description": "A speaker stands on stage presenting a slide about 'The Hyperloop' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker presenting a slide about The Hyperloop to an audience in a conference room",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot that clearly shows the speaker and the topic being discussed.",
+      "quality": 64,
+      "dhash": "dc6cccccccc8c838",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-052.jpg": {
+      "description": "A male speaker stands in front of patterned curtains, gesturing with his hands while holding a clicker during a presentation.",
+      "alt_text": "Male speaker presenting in front of patterned curtains",
+      "tags": [
+        "talk",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good clear shot of the speaker, but the background is plain and lacks event context.",
+      "quality": 54,
+      "dhash": "c9c9c38307c42424",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-053.jpg": {
+      "description": "A speaker stands on stage in front of patterned curtains, smiling and gesturing while holding a presentation clicker.",
+      "alt_text": "Smiling male speaker standing on stage with a microphone clipped to his shirt",
+      "tags": [
+        "talk",
+        "stage",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality portrait of the speaker, though the background is plain and lacks event context.",
+      "quality": 54,
+      "dhash": "4848c8c989604090",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-054.jpg": {
+      "description": "A man in an orange t-shirt stands in the foreground of a conference room, looking directly at the camera with a neutral expression while other attendees sit at tables in the background.",
+      "alt_text": "Man in orange shirt looks at camera during a break at a tech event",
+      "tags": [
+        "portrait",
+        "venue",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "sensitive",
+        "near-duplicate"
+      ],
+      "notes": "The subject's expression is neutral and unflattering, making this a risky choice for social media.",
+      "quality": 36,
+      "dhash": "dadb6a4ecc982000",
+      "duplicate_of": "2016-05-13-revolutionconf-ken-taylor-055.jpg",
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-055.jpg": {
+      "description": "A man in a red shirt stands in the foreground of a conference room, looking back over his shoulder with a playful expression while gesturing with his hand. Other attendees are seated at tables in the background.",
+      "alt_text": "Man in red shirt looks back and gestures playfully at a tech event",
+      "tags": [
+        "portrait",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "The subject's expression is engaging and fun, making it a great candidate for social media.",
+      "quality": 79,
+      "dhash": "d2db6a4ecc982000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-056.jpg": {
+      "description": "A speaker stands at the front of a conference room gesturing towards a large projection screen displaying an 'Ask me anything!' slide with her contact information.",
+      "alt_text": "Speaker presenting to an audience next to a screen showing an Ask Me Anything slide",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap slide showing the session topic, but the speaker is cut off at the knees.",
+      "quality": 54,
+      "dhash": "3b9bceccc4cc87e4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-057.jpg": {
+      "description": "A speaker stands next to a large projection screen displaying 'Ask me anything!' while audience members sit at tables in the foreground.",
+      "alt_text": "Speaker standing beside a slide that says Ask me anything with her name Adina Shanholz",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "Good for a recap showing the speaker and topic, but the audience is mostly seen from behind.",
+      "quality": 46,
+      "dhash": "1b9aceccc4c4c7f4",
+      "duplicate_of": "2016-05-13-revolutionconf-ken-taylor-056.jpg",
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-058.jpg": {
+      "description": "A speaker with glasses and curly hair stands on stage presenting, while the back of an audience member's head is visible in the foreground.",
+      "alt_text": "Speaker standing on stage during a presentation at a conference",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good quality shot of a speaker in action suitable for event recaps.",
+      "quality": 61,
+      "dhash": "cc4cccccccccccec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-059.jpg": {
+      "description": "A speaker stands next to a projector screen displaying 'Ask me anything!' while addressing an audience seated at tables with laptops.",
+      "alt_text": "Speaker presenting slides to an audience at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of a presentation moment with clear audience engagement.",
+      "quality": 68,
+      "dhash": "ee6e1a9a9a9b929e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-060.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Ask me anything!' to an audience seated at tables in a conference room.",
+      "alt_text": "Speaker standing next to a projection screen displaying an 'Ask me anything' slide during a presentation.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap showing the speaker and slide content, but the audience is mostly seen from behind.",
+      "quality": 54,
+      "dhash": "723286ca8ecccc0c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-061.jpg": {
+      "description": "A female speaker with curly hair and glasses stands on stage, smiling and gesturing enthusiastically while presenting to an audience.",
+      "alt_text": "Smiling woman giving a presentation on stage with one arm raised",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A vibrant and engaging shot that captures the energy of a live presentation.",
+      "quality": 89,
+      "dhash": "44182d3d9f3e381c",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-ken-taylor-062.jpg": {
+      "description": "A speaker with glasses and curly hair smiles while seated at a table with a laptop during a presentation, with an audience member visible in the foreground.",
+      "alt_text": "Smiling female speaker presenting at a conference with a laptop on the table",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A strong candid shot that captures the speaker's personality and engagement with the audience.",
+      "quality": 82,
+      "dhash": "fccc3cbc0c9c1890",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-063.jpg": {
+      "description": "A female speaker with glasses and curly hair laughs while presenting at a table, with a laptop covered in stickers and a projection screen visible in the background.",
+      "alt_text": "Smiling woman speaking at a conference table with a sticker-covered laptop",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures a genuine moment of joy and engagement, making it excellent for social media.",
+      "quality": 75,
+      "dhash": "fcacbc3a1a989498",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-064.jpg": {
+      "description": "A speaker with glasses and a red lanyard stands at a table giving a presentation, gesturing towards a large projection screen displaying a simple game interface.",
+      "alt_text": "Speaker presenting a talk in front of an audience with a projected slide on a large screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of a speaker in action; the audience members are cropped at the bottom but the focus is clearly on the presenter.",
+      "quality": 64,
+      "dhash": "ac3c0c068484a4a4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-ken-taylor-065.gif": {
+      "description": "A speaker stands on stage giving a presentation next to a projection screen, with tables and audio equipment visible in the foreground.",
+      "alt_text": "Speaker standing on stage presenting next to a projector screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a standard event shot that works for a recap, but the framing cuts off the speaker's feet and includes distracting foreground tables.",
+      "quality": 50,
+      "dhash": "bf3737368785c1cb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-kevin-griffin-066.jpg": {
+      "description": "A speaker with glasses and a beard stands in front of a projector screen displaying code, gesturing to the audience.",
+      "alt_text": "Speaker presenting technical slides on Docker and Node.js at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of a speaker in action with relevant technical content visible on the screen behind him.",
+      "quality": 71,
+      "dhash": "adc68747c7070606",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-kevin-griffin-067.jpg": {
+      "description": "A bearded man in a blue fleece jacket stands outdoors holding a glass of wine, with other attendees visible in the background under a white metal structure.",
+      "alt_text": "Man in blue fleece holding a drink at an outdoor event",
+      "tags": [
+        "portrait",
+        "networking",
+        "outdoor",
+        "food"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good quality portrait for social media, though the background sky is slightly blown out.",
+      "quality": 68,
+      "dhash": "f54d9c3c34b53182",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-kevin-griffin-068.jpg": {
+      "description": "A bearded man in a blue polo shirt smiles while wearing an HTC Vive VR headset and holding controllers, with another attendee visible in the background.",
+      "alt_text": "Smiling man using VR headset and controllers at a tech event",
+      "tags": [
+        "hardware",
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 5,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent engagement and clear subject make this perfect for social media.",
+      "quality": 86,
+      "dhash": "978b2a2e2c2c3020",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2016-05-13-revolutionconf-kevin-griffin-069.jpg": {
+      "description": "Two men are testing a VR headset and controller at a tech event, with one man wearing the headset while the other assists him.",
+      "alt_text": "A man tries out a VR headset while another man helps him adjust the equipment.",
+      "tags": [
+        "hardware",
+        "portrait",
+        "workshop"
+      ],
+      "people_count": 3,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "A great candid shot that captures the hands-on energy of a tech workshop and clearly shows the hardware in use.",
+      "quality": 89,
+      "dhash": "2b9b939b4dc9e4c0",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2016-05-13-revolutionconf-kevin-griffin-070.jpg": {
+      "description": "A man wearing a VR headset and holding controllers is actively engaged in a virtual reality experience at an event.",
+      "alt_text": "Man using VR headset and controllers",
+      "tags": [
+        "hardware",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great action shot showing engagement with technology.",
+      "quality": 71,
+      "dhash": "464e964e4cecd8f4",
+      "duplicate_of": null,
+      "pick": false
+    }
+  }
+}

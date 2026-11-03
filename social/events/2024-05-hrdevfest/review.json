@@ -1,0 +1,5439 @@
+{
+  "model": "qwen3.6:35b-a3b",
+  "photos": {
+    "2024-05-31-hrdevfest-kurt-kemple-001.jpg": {
+      "description": "A black and white photograph looking down a quiet, empty city street lined with trees and buildings.",
+      "alt_text": "Empty street view with trees and storefronts in black and white",
+      "tags": [
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is an artistic street shot rather than a community event photo; the heavy vignette obscures the edges and there are no people.",
+      "quality": 21,
+      "dhash": "c8daf272733431f1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-002.jpg": {
+      "description": "Attendees interact with representatives at a sponsor booth inside a venue with large windows overlooking city buildings.",
+      "alt_text": "People standing and sitting around a table at an event booth near large windows",
+      "tags": [
+        "sponsor",
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clear shot of the event atmosphere and sponsor engagement, though the background is quite bright.",
+      "quality": 61,
+      "dhash": "bfa3839d6c3d9d1d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-003.jpg": {
+      "description": "A variety of donuts, bananas, and candy are arranged on platters at a refreshment table.",
+      "alt_text": "Assorted donuts and snacks on white trays at an event food station",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality shot of the snacks, but lacks human energy for a main social post.",
+      "quality": 39,
+      "dhash": "39e99999a6e5270a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-004.jpg": {
+      "description": "A close-up view of a refreshment table featuring trays of assorted donuts with various toppings and bananas in the background.",
+      "alt_text": "Trays of assorted donuts and bananas on a table at an event",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event catering, but lacks human energy or context.",
+      "quality": 39,
+      "dhash": "c567e6ca9298c917",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-005.jpg": {
+      "description": "A table is laden with an assortment of bagels, donuts, and fresh berries for a community breakfast.",
+      "alt_text": "Assortment of bagels, donuts, and berries on a buffet table",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality shot of the food, but lacks human interaction to make it engaging for social media.",
+      "quality": 39,
+      "dhash": "6059d74d378dc646",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-006.jpg": {
+      "description": "A stack of yellow paper cups with colorful artwork sits in the foreground, while orange cardboard boxes resembling cameras are lined up behind them on a table.",
+      "alt_text": "Yellow printed cups and orange camera-shaped boxes on a table",
+      "tags": [
+        "swag",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good detail on the swag items, but lacks human energy for a main social post.",
+      "quality": 39,
+      "dhash": "06985c9a5ac6963a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-007.jpg": {
+      "description": "A blue glass bowl filled with purple-wrapped chocolates sits on a table next to stacks of event cards and brochures for 'HR Dev Fest'.",
+      "alt_text": "Blue glass bowl of chocolate candies next to stack of HR Dev Fest event cards.",
+      "tags": [
+        "swag",
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a clear detail shot of event swag and food that works well for social media to show what attendees received.",
+      "quality": 50,
+      "dhash": "4e65e4cc1f178c11",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-008.jpg": {
+      "description": "Attendees are gathered in a bright, modern venue lobby, with some standing near a food table on the left and others seated at sponsor booths along the right wall.",
+      "alt_text": "Attendees mingling and eating snacks near sponsor tables in a large event lobby",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid shot for showing the venue and crowd size, though the composition is slightly cluttered with multiple focal points.",
+      "quality": 68,
+      "dhash": "913d39276961694e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-009.jpg": {
+      "description": "Attendees gather around a buffet table to serve themselves food, with stacks of yellow cups and orange boxes in the foreground.",
+      "alt_text": "Attendees serving food at a buffet table during an event break",
+      "tags": [
+        "food",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the catering setup; useful for showing that food was provided but lacks high energy or unique storytelling.",
+      "quality": 54,
+      "dhash": "a46667668613152c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-010.jpg": {
+      "description": "Attendees are gathered in a modern, sunlit venue lobby for networking and visiting sponsor booths during a break.",
+      "alt_text": "Crowd of people mingling at tables near large windows at a tech conference.",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good representation of the event atmosphere and venue, though the composition is slightly cluttered with people in the foreground.",
+      "quality": 75,
+      "dhash": "e0d09343d6d67753",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-011.jpg": {
+      "description": "Attendees gather in a sunlit hallway with large windows, interacting near sponsor tables and chatting in small groups.",
+      "alt_text": "Crowd of people networking at tables in a bright conference hall",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A bright, high-quality shot that effectively captures the social atmosphere and energy of the event.",
+      "quality": 79,
+      "dhash": "381bb327653727b7",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-alex-proaps-012.jpg": {
+      "description": "A large group of attendees gathers in a bright, modern lobby area with floor-to-ceiling windows, chatting and holding coffee cups during a break.",
+      "alt_text": "Crowd of people networking and drinking coffee in a sunlit conference lobby",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue",
+        "food"
+      ],
+      "people_count": 40,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent energy and lighting for a social post, though the composition is slightly cluttered with people on the left edge.",
+      "quality": 82,
+      "dhash": "b1d15a7677b6b3b1",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-013.jpg": {
+      "description": "A large pile of colorful stickers and badges is scattered on the floor of an empty stage, likely left over from a conference.",
+      "alt_text": "Pile of event stickers and badges scattered on a dark stage floor",
+      "tags": [
+        "stage",
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a 'behind the scenes' or post-event recap showing the aftermath of swag distribution.",
+      "quality": 29,
+      "dhash": "d8d890b0a0e0c0f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-014.jpg": {
+      "description": "A blue event sign on an easel instructs attendees to tag photos with #HRDEVFEST and mentions the RevolutionVA Code of Conduct, while people mingle in the background.",
+      "alt_text": "Blue sign on an easel reading Tag Your Photos With #HRDEVFEST at a conference venue",
+      "tags": [
+        "signage",
+        "venue",
+        "networking"
+      ],
+      "people_count": 3,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for establishing the event hashtag and location, but the background people are cut off by the frame.",
+      "quality": 54,
+      "dhash": "963b4b717949c92b",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-015.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Execution Plans' while another person stands near a podium to the left.",
+      "alt_text": "Speaker standing on stage next to a large screen showing an 'Execution Plans' presentation slide",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a standard wide shot of the stage; it works for context but lacks the energy or engagement of a closer action shot.",
+      "quality": 54,
+      "dhash": "30fcd0d6febcbe7e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-016.jpg": {
+      "description": "A wide-angle view of a large audience seated in tiered lecture hall chairs, attentively watching a presentation or speaker from the stage.",
+      "alt_text": "Audience members sitting in tiered rows facing a stage during a tech conference talk",
+      "tags": [
+        "talk",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong crowd shot that captures the scale of the event and audience engagement, making it perfect for a recap post.",
+      "quality": 79,
+      "dhash": "2773b899477feb37",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-017.jpg": {
+      "description": "A speaker stands on a stage holding a microphone and a card, addressing an audience in a dark auditorium.",
+      "alt_text": "Speaker standing on stage with microphone at tech event",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that clearly shows the speaker and setting.",
+      "quality": 61,
+      "dhash": "0000001050150d1c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-018.jpg": {
+      "description": "A black and white photograph showing the exterior of a modern building with large glass windows, likely a tech venue or conference center. A few people are visible walking on the sidewalk in front of the entrance.",
+      "alt_text": "Exterior view of a modern multi-story building with glass windows and a street in the foreground",
+      "tags": [
+        "venue",
+        "outdoor"
+      ],
+      "people_count": 2,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a good establishing shot of the venue, but it lacks the energy and engagement needed for social media posts.",
+      "quality": 39,
+      "dhash": "582000e3c28b19f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-019.jpg": {
+      "description": "A blue sign on an easel displays the text 'NO FOOD ALLOWED' in large green and white letters, with a logo for 'HR DEV FEST' in the corner.",
+      "alt_text": "Sign reading NO FOOD ALLOWED at HR Dev Fest",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a humorous social post about event rules, but not suitable for a professional newsletter recap.",
+      "quality": 39,
+      "dhash": "3c0e7cc4d59ed2d3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-020.jpg": {
+      "description": "Two smiling attendees pose for a photo in the event lobby, standing near sponsor booths with large windows in the background.",
+      "alt_text": "Smiling man and woman posing together at a tech conference near sponsor tables",
+      "tags": [
+        "portrait",
+        "networking",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Great portrait of attendees that works well for social media to show community engagement.",
+      "quality": 79,
+      "dhash": "878fcfcae2453521",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-021.jpg": {
+      "description": "Two attendees pose playfully for a photo in the event hall, with sponsor booths and other guests visible in the background.",
+      "alt_text": "Two smiling attendees posing playfully together at a tech conference near sponsor booths",
+      "tags": [
+        "portrait",
+        "networking",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A fun, candid shot that captures the friendly atmosphere of the event.",
+      "quality": 86,
+      "dhash": "8387cecec2cf2521",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-linda-nichols-022.jpg": {
+      "description": "Two smiling women wearing conference badges pose for a photo, with one holding a banana and the other pointing to her shoulder.",
+      "alt_text": "Two smiling women in conference badges posing together, one holding a banana",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A bright, engaging portrait that captures the friendly atmosphere of the event.",
+      "quality": 79,
+      "dhash": "13b39b0b0b273628",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-023.jpg": {
+      "description": "Attendees are seen through a glass wall in the 'American Dream Theater' hallway, with some standing near a table and others walking by.",
+      "alt_text": "Attendees mingling in a hallway outside the American Dream Theater, viewed through a glass wall.",
+      "tags": [
+        "venue",
+        "networking",
+        "crowd",
+        "signage"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A stylish black and white shot that captures the venue atmosphere and attendee movement well.",
+      "quality": 64,
+      "dhash": "86968a9a960c1416",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-024.jpg": {
+      "description": "A black and white artistic shot capturing the reflection of a person in a glass window, layered over the view of buildings outside.",
+      "alt_text": "Reflection of a person looking out through a large glass window at city buildings",
+      "tags": [
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "This is a strong artistic shot suitable for a 'behind the scenes' or aesthetic social post, though it lacks clear event context.",
+      "quality": 54,
+      "dhash": "801280929897e4c5",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-025.jpg": {
+      "description": "Attendees are gathered at a booth or station, viewed through a glass partition with reflections of the outside visible.",
+      "alt_text": "Attendees standing at an event booth seen through a reflective glass window.",
+      "tags": [
+        "networking",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 8,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The reflections on the glass and the back of the woman's head make this composition cluttered and potentially unflattering for social media.",
+      "quality": 50,
+      "dhash": "c38e4c14862d0040",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-026.jpg": {
+      "description": "Two men are sitting on an outdoor bench engaged in conversation, with one holding a coffee cup and the other looking at a small notebook.",
+      "alt_text": "Two men sit on an outdoor bench talking, one holding a coffee cup and the other a notebook.",
+      "tags": [
+        "networking",
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid shot that captures the friendly atmosphere and networking aspect of the event.",
+      "quality": 86,
+      "dhash": "73c2673713332301",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-027.jpg": {
+      "description": "A black and white photograph showing two men walking through glass doors, one carrying a sign with an 'S' logo.",
+      "alt_text": "Two men walk through glass doors at a venue, one carrying a sign with an S logo.",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "The strong geometric lines and black and white style make this a great artistic shot for an 'about' section or event recap.",
+      "quality": 54,
+      "dhash": "c4c5edcdc4cc8dbc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-028.jpg": {
+      "description": "A black and white photo showing a group of men engaged in conversation during a break at an event, with bright ceiling lights visible above.",
+      "alt_text": "Men talking in a group at a tech event",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of attendees connecting, though the bright ceiling lights are distracting.",
+      "quality": 61,
+      "dhash": "bcf665dbc3071e04",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-029.jpg": {
+      "description": "A group of attendees gathers around a high-top table for a conversation, with one man in a floral shirt smiling at the camera while others listen.",
+      "alt_text": "Attendees networking and chatting around a table at a tech event",
+      "tags": [
+        "networking",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a great candid shot that captures the friendly atmosphere of the event and works well for social media.",
+      "quality": 79,
+      "dhash": "87b398891d1b1310",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-030.jpg": {
+      "description": "A smiling attendee gives two thumbs up while standing near a window, interacting with another person whose back is to the camera.",
+      "alt_text": "Smiling woman giving two thumbs up during a tech event",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-energy portrait that captures the positive atmosphere of the event perfectly.",
+      "quality": 79,
+      "dhash": "2602889e049c9a1c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-031.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'MISSING INDEXES' to an empty auditorium.",
+      "alt_text": "Speaker standing at a podium next to a large screen displaying a presentation slide about missing indexes.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good technical quality of the speaker and slide, but the empty audience makes it less engaging for social media.",
+      "quality": 39,
+      "dhash": "0605083870d81e1e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-032.jpg": {
+      "description": "A wide-angle view of a large lecture hall during a tech event, featuring an empty stage in the foreground and a diverse audience seated in tiered rows under bright overhead lights.",
+      "alt_text": "Audience seated in a large auditorium facing an empty stage with dramatic lighting beams",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience",
+        "venue"
+      ],
+      "people_count": 75,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent wide shot for a newsletter recap to show venue size and attendance, though the empty stage makes it less dynamic than a speaker photo.",
+      "quality": 71,
+      "dhash": "1f7ff9cc2e1fafef",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-033.jpg": {
+      "description": "A bearded man with glasses sits on a white bench, smiling as he focuses on solving a Rubik's cube.",
+      "alt_text": "Smiling man with glasses and beard solves a Rubik's cube while sitting on a bench",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A great candid portrait showing engagement and fun; the black and white style works well for social media.",
+      "quality": 79,
+      "dhash": "c0c2c5933c0c0dcc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-034.jpg": {
+      "description": "A wide-angle view of a conference presentation in an auditorium, showing a speaker on stage and the audience seated in tiered rows.",
+      "alt_text": "Speaker presenting slides to an audience in a large auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 35,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid, well-lit wide shot that effectively captures the venue and the event atmosphere.",
+      "quality": 68,
+      "dhash": "cb56d2b33372d2b2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-035.jpg": {
+      "description": "Two event staff members in matching polo shirts stand behind a high-top table, looking down at a plate of food and some papers.",
+      "alt_text": "Two staff members standing at a table with food and papers",
+      "tags": [
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Avoid posting; the subjects appear to be eating or looking at food in a candid moment that may not be flattering.",
+      "quality": 32,
+      "dhash": "6ce425673139b5ad",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-036.jpg": {
+      "description": "Three men pose for a black and white photo in a hallway, with one on the right making a funny face and another on the left scratching his head.",
+      "alt_text": "Three men posing together at an event, one making a funny face.",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The candid expressions and humor make this a great candidate for social media engagement.",
+      "quality": 75,
+      "dhash": "baf250c9e85832b2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-037.jpg": {
+      "description": "Three men stand together in a hallway, engaged in conversation during a break at a tech event.",
+      "alt_text": "Three men standing and talking in a hallway at an event",
+      "tags": [
+        "networking",
+        "portrait"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A candid shot that captures the social atmosphere of the event well.",
+      "quality": 64,
+      "dhash": "98f2f1c9e81933f2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-038.jpg": {
+      "description": "A black and white photograph showing a man with a backpack walking past the modern glass entrance of a building.",
+      "alt_text": "Black and white photo of a man with a backpack walking past a modern building entrance.",
+      "tags": [
+        "venue",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "While the composition is artistic, the subject's profile and expression are ambiguous enough that it may be considered unflattering or sensitive for a public post.",
+      "quality": 54,
+      "dhash": "5018b2bd8dce8c2c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-039.jpg": {
+      "description": "Four smiling attendees wearing conference badges stand together for a group photo in front of a large window overlooking an outdoor plaza.",
+      "alt_text": "Four smiling people with conference badges standing together for a group photo.",
+      "tags": [
+        "group-photo",
+        "portrait",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid group shot suitable for a newsletter recap or social post highlighting community attendance.",
+      "quality": 79,
+      "dhash": "26321292d2f27668",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-040.jpg": {
+      "description": "A smiling man in sunglasses and a cap stands outside, holding the strap of a bag over his shoulder.",
+      "alt_text": "Smiling man wearing sunglasses and a cap standing outdoors with a bag on his shoulder",
+      "tags": [
+        "portrait",
+        "outdoor"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "Good quality portrait, but the subject is wearing sunglasses which hides his eyes and makes it harder to gauge engagement.",
+      "quality": 57,
+      "dhash": "b49c5bd2c2e2e260",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-041.jpg": {
+      "description": "A speaker stands on stage in front of a large projection screen displaying technical slides and a cat image.",
+      "alt_text": "Speaker presenting technical slides on a large screen at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The speaker is slightly cut off at the bottom and the angle is a bit low, but it clearly shows the presentation context.",
+      "quality": 46,
+      "dhash": "c0e0f0b534f2f2f2",
+      "duplicate_of": "2024-05-31-hrdevfest-kevin-griffin-042.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-042.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'KEY LOOKUPS' to an audience, with a table of swag badges displayed in the foreground.",
+      "alt_text": "Speaker presenting on stage with slides and swag badges in the foreground",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good context showing the speaker and event swag, though the audience is mostly out of frame.",
+      "quality": 64,
+      "dhash": "c0f0f0b534f2f2c2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-043.jpg": {
+      "description": "A speaker stands on stage presenting a technical slide titled 'KEY LOOKUPS' to an audience, with a large screen displaying diagrams and code behind her.",
+      "alt_text": "Speaker presenting a technical talk on stage in front of a large projection screen showing database diagrams.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a newsletter recap to show the topic, but the wide angle makes the speaker feel small and disconnected from the audience.",
+      "quality": 46,
+      "dhash": "e0f0f85838e2d2d2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-044.jpg": {
+      "description": "A speaker wearing a patterned shirt and backwards cap stands behind a table of 'Code For Insanity' boxes, looking up with an animated expression.",
+      "alt_text": "Speaker standing behind branded boxes at a tech event",
+      "tags": [
+        "portrait",
+        "networking",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid energy and clear branding make this ideal for social media.",
+      "quality": 79,
+      "dhash": "6b3b1212c28e6424",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-045.jpg": {
+      "description": "A close-up, black and white shot of a person's hands signing a conference badge with a marker on a table.",
+      "alt_text": "Hands signing a tech conference badge with a marker",
+      "tags": [
+        "networking",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good detail on the action of signing, but lacks context or energy for a main social post.",
+      "quality": 50,
+      "dhash": "f43298db6b6f31d9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-046.jpg": {
+      "description": "A group of attendees and staff are gathered in a bright hallway, checking their phones and holding coffee cups while waiting.",
+      "alt_text": "Attendees standing in a hallway looking at phones and drinking coffee",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "eyes-closed"
+      ],
+      "notes": "Good lighting and candid feel, but the subjects are mostly looking down at phones rather than interacting.",
+      "quality": 54,
+      "dhash": "4b9a1b1bbb393dde",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-047.jpg": {
+      "description": "A wide-angle view of a speaker presenting on stage in an auditorium, with the audience seated in tiered rows and a large projection screen displaying slides.",
+      "alt_text": "Speaker presenting to an audience in a dark auditorium with a large projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "This is a solid venue shot that establishes the location and scale of the event, though the lighting is low.",
+      "quality": 50,
+      "dhash": "7070e4e0c8c0c1c9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-048.jpg": {
+      "description": "A wide-angle view of a large auditorium during a presentation, showing an audience seated in tiered rows and two speakers on stage next to a projection screen.",
+      "alt_text": "Wide shot of an audience watching two speakers present slides on a large screen in a dark auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 100,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the scale of the venue and attendance, but the low lighting makes it hard to see details.",
+      "quality": 50,
+      "dhash": "5241e0e090e0e0b0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-049.jpg": {
+      "description": "A wide-angle view from the upper balcony of a lecture hall shows an audience seated in tiered rows watching a speaker presenting on stage.",
+      "alt_text": "Speaker presenting to an audience in a large, modern lecture hall with tiered seating",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 60,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent wide shot that captures the scale of the venue and audience engagement.",
+      "quality": 75,
+      "dhash": "0785cbd3c2924020",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-050.jpg": {
+      "description": "Attendees are gathered in a lobby area near a large Zeidman America sign, engaging in conversation and networking.",
+      "alt_text": "Crowd of people networking in a convention center lobby next to a large Zeidman America sign",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "venue",
+        "signage"
+      ],
+      "people_count": 15,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot for showing event attendance and atmosphere, though the black and white filter may not suit all social platforms.",
+      "quality": 68,
+      "dhash": "194b6686c6462764",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-051.jpg": {
+      "description": "A framed portrait of Nicolas Cage dressed as a historical figure sits on a desk, with a person working at a computer blurred in the background.",
+      "alt_text": "Framed photo of Nicolas Cage in costume on a desk with a blurry coworker behind it",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The image is sharp and well-composed, but the subject is a celebrity portrait which may not be relevant to a general tech recap.",
+      "quality": 50,
+      "dhash": "3c3434646ca1964e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-052.jpg": {
+      "description": "A woman in a patterned top takes a selfie with her phone while standing near a table, with other attendees mingling and chatting in the background.",
+      "alt_text": "Woman taking a selfie at a tech event with people networking in the background",
+      "tags": [
+        "networking",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Captures a candid moment of engagement and networking energy typical of event breaks.",
+      "quality": 75,
+      "dhash": "e4e4e2d1f6dec2e6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-053.jpg": {
+      "description": "A woman in a patterned blouse stands in the foreground holding a phone, while a group of attendees socializes and drinks coffee at high-top tables in the background.",
+      "alt_text": "Attendees networking with coffee near a doorway",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "Good candid shot of the crowd energy, though the main subject is looking away from the camera.",
+      "quality": 61,
+      "dhash": "e5e5e2c1dedec6e6",
+      "duplicate_of": "2024-05-31-hrdevfest-kurt-kemple-052.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-054.jpg": {
+      "description": "A speaker stands on stage presenting a slide about execution plans, viewed from the perspective of an audience member in the aisle.",
+      "alt_text": "Speaker presenting slides on stage at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The framing is obstructed by the foreground walls and stairs, making the speaker appear small and off-center.",
+      "quality": 50,
+      "dhash": "62f0f8f0d3c3c3c3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-055.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'Execution Plans' to an audience, viewed from the perspective of the back of the room.",
+      "alt_text": "Speaker presenting a slide about execution plans on a large screen at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The shot is framed awkwardly with large railings in the foreground and the speaker's feet are cut off by the bottom edge.",
+      "quality": 50,
+      "dhash": "c0ececa133c98989",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-056.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Execution Plans' to an unseen audience, framed by the railings of the auditorium seating.",
+      "alt_text": "Speaker presenting on stage with a slide about execution plans visible on the screen behind her",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The framing is obstructed by foreground railings which makes the composition feel cluttered and limits the view of the speaker.",
+      "quality": 57,
+      "dhash": "c0cccc696bc98989",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-057.jpg": {
+      "description": "A speaker stands on stage behind a podium, presenting slides about execution plans to an unseen audience.",
+      "alt_text": "Speaker standing at a podium on stage with presentation screen visible in background",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is obstructed by foreground railings and the speaker's pose is static, making it less engaging for social media.",
+      "quality": 43,
+      "dhash": "c0f8d8b133930b11",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-058.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'LIVE QUERY STATS' to an unseen audience, viewed from the perspective of the aisle seating.",
+      "alt_text": "Speaker presenting on stage with a slide about live query stats visible behind her",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The large foreground railings and stairs distract from the speaker, making it less ideal for social media than a direct shot.",
+      "quality": 50,
+      "dhash": "e0e0e0f2d6c68607",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-059.jpg": {
+      "description": "A speaker stands at a podium on stage presenting to an audience, with a large projection screen displaying a software interface behind her.",
+      "alt_text": "Speaker standing at a podium on stage in front of a large projection screen showing code",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap showing the speaker and topic, but the angle is slightly low and the slide text is too small to read.",
+      "quality": 46,
+      "dhash": "fe3666f0f2929282",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-060.jpg": {
+      "description": "A man wearing a conference lanyard speaks into a microphone while standing near a bar area, with other attendees visible in the background and foreground.",
+      "alt_text": "Man speaking into microphone at event near bar",
+      "tags": [
+        "networking",
+        "venue",
+        "portrait"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's expression looks slightly strained or mid-sentence in a way that might be unflattering for social media.",
+      "quality": 46,
+      "dhash": "b2726240c2c2d260",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-061.jpg": {
+      "description": "Attendees are gathered on a stage, collaborating to arrange a large collection of stickers into the shape of a map while others watch from the audience seating.",
+      "alt_text": "Group of people arranging stickers on a stage floor in an auditorium",
+      "tags": [
+        "crowd",
+        "audience",
+        "group-photo",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "hacking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent energy and engagement showing community collaboration.",
+      "quality": 86,
+      "dhash": "38343459195c7070",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-062.jpg": {
+      "description": "A speaker stands on a stage presenting to an audience, while two attendees in the foreground watch and hold drinks.",
+      "alt_text": "Speaker on stage with audience members watching from the foreground",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 4,
+        "story": 5
+      },
+      "flags": [],
+      "notes": "Excellent composition that captures the atmosphere of a live presentation.",
+      "quality": 82,
+      "dhash": "c0c02112968c3e13",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-063.jpg": {
+      "description": "A black and white portrait of a young person with short hair standing in a conference venue, looking off to the side.",
+      "alt_text": "Young attendee stands in profile at a tech event venue, wearing a lanyard and t-shirt.",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a candid portrait of a minor; avoid posting without explicit parental consent due to privacy and safety concerns.",
+      "quality": 71,
+      "dhash": "99c4c79d86a6efef",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-064.jpg": {
+      "description": "Two men are seated at a table covered with mechanical keyboards, engaged in conversation.",
+      "alt_text": "Two men talking at a table full of mechanical keyboards",
+      "tags": [
+        "hardware",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid shot showing engagement with the hardware theme, though the black and white format may limit social media impact.",
+      "quality": 64,
+      "dhash": "1919313137332306",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-065.jpg": {
+      "description": "A speaker stands on a stage in an auditorium, gesturing towards the audience seated in tiered rows.",
+      "alt_text": "Speaker presenting to an audience in a dark auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clear shot of the speaker and audience, though the lighting is low and the image is in black and white.",
+      "quality": 57,
+      "dhash": "004490b0b0b236a2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-066.jpg": {
+      "description": "A speaker stands on a dimly lit stage next to a laptop and coffee cup, looking down at her notes during a presentation.",
+      "alt_text": "Speaker standing on stage with laptop and coffee cup",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good artistic shot of the speaker, but the dark background and low angle make it less energetic for social media.",
+      "quality": 50,
+      "dhash": "6e6c6c7969c29328",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-067.jpg": {
+      "description": "A speaker stands on a stage in front of a large, blank projection screen and green curtains. The photo is taken from the side of the room, showing the stairs leading up to the stage.",
+      "alt_text": "Speaker standing on stage with a large blank screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The blank screen makes this a poor choice for social media unless the speaker's face is clearly visible and recognizable.",
+      "quality": 43,
+      "dhash": "80a0b137b2b2be3f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-068.jpg": {
+      "description": "A speaker stands on a stage in front of a large, blank projection screen and green curtains, while an audience member is partially visible in the foreground.",
+      "alt_text": "Speaker standing on stage with blank screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The blank screen makes this less engaging for social media.",
+      "quality": 46,
+      "dhash": "0040606e7c767e3f",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-069.jpg": {
+      "description": "A speaker stands on a stage in front of a large projection screen and green curtains, with a podium to his left.",
+      "alt_text": "Speaker standing on stage next to a podium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a speaker recap, but the empty screen and lack of audience reduce engagement.",
+      "quality": 39,
+      "dhash": "00a02026f6d4d2d8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-070.jpg": {
+      "description": "A speaker stands on a stage in front of a large projection screen and green curtains, posing next to a podium with a laptop.",
+      "alt_text": "Speaker standing on stage next to a podium with a laptop",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker is looking at the camera rather than engaging with an audience, which makes it less dynamic for social media.",
+      "quality": 39,
+      "dhash": "003022b4f4c8e0f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-071.jpg": {
+      "description": "A speaker stands on a stage during a presentation, with a podium visible to the left and an audience member seated in the background.",
+      "alt_text": "Speaker standing on stage at a tech conference next to a podium",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's expression appears distracted or bored, which may not be flattering for social media.",
+      "quality": 54,
+      "dhash": "0000003131360717",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-072.jpg": {
+      "description": "A speaker stands on a stage in an auditorium, presenting to an audience seated in the background under bright overhead lights.",
+      "alt_text": "Speaker standing on stage addressing an audience in an auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good wide shot of the event atmosphere, though the audience is somewhat distant and dimly lit.",
+      "quality": 61,
+      "dhash": "ff87c0e0e4c68313",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-073.jpg": {
+      "description": "A black and white photograph captures a speaker standing on stage next to a podium with a laptop, viewed from the perspective of the audience.",
+      "alt_text": "Speaker standing at a podium on a dimly lit stage during a presentation",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "The high-contrast black and white style creates a dramatic mood, though the speaker's back is turned which limits engagement.",
+      "quality": 61,
+      "dhash": "6060f072f29d2d2c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-074.jpg": {
+      "description": "A sign on an easel reading 'NO FOOD ALLOWED' stands in a doorway, likely marking the entrance to a conference room or workshop area.",
+      "alt_text": "Sign on an easel reading NO FOOD ALLOWED at a tech event",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Useful for a humorous recap about strict room rules, but not suitable for general event promotion.",
+      "quality": 29,
+      "dhash": "e5e383e3d1c9693a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-075.jpg": {
+      "description": "A speaker stands on a stage presenting a graph of an exponential function to an audience seated in tiered rows.",
+      "alt_text": "Speaker presenting a math graph on a large screen at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 7,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good wide shot of the event atmosphere, though the audience is mostly seen from behind.",
+      "quality": 64,
+      "dhash": "66e2f0e96b80a1a0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-076.jpg": {
+      "description": "A wide-angle view from the back of an auditorium shows a speaker presenting on stage to a seated audience, with a large screen displaying a graph.",
+      "alt_text": "Speaker standing on stage in front of a projection screen while an audience watches from tiered seating",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong establishing shot for a recap that shows the scale of the venue and the event in progress.",
+      "quality": 64,
+      "dhash": "4d69e0f06464f1e1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-077.jpg": {
+      "description": "A wide-angle view from the back of a theater shows a speaker presenting on stage to an audience, with a large screen displaying a graph.",
+      "alt_text": "Speaker presenting on stage in front of a graph slide while an audience watches from tiered seating",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong establishing shot that captures the scale of the venue and the event atmosphere.",
+      "quality": 64,
+      "dhash": "98d850e0f0c8c0e4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-078.jpg": {
+      "description": "A speaker in a blazer and jeans stands on stage gesturing towards a large projection screen displaying a mathematical graph.",
+      "alt_text": "Speaker presenting a graph on a large screen during a tech conference talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker and slides, but the large amount of empty floor space makes the composition feel a bit unbalanced.",
+      "quality": 61,
+      "dhash": "e1e4ffd6f6040424",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-079.jpg": {
+      "description": "An audience sits in a theater-style venue, looking towards an empty stage covered in stickers.",
+      "alt_text": "Audience members seated in rows of chairs facing an empty stage at a tech event",
+      "tags": [
+        "audience",
+        "venue",
+        "stage"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The empty stage makes this a poor representation of the event energy.",
+      "quality": 43,
+      "dhash": "c443210c68ecbabb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-080.jpg": {
+      "description": "A group of attendees sits in tiered auditorium chairs, with a young person in the foreground looking at a paper while others watch forward.",
+      "alt_text": "Attendees seated in an auditorium listening to a presentation",
+      "tags": [
+        "audience",
+        "crowd",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "eyes-closed"
+      ],
+      "notes": "Good for showing attendance, but the woman in the back row has her eyes closed which might be flagged as unflattering.",
+      "quality": 46,
+      "dhash": "8806a7197126acd3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-081.jpg": {
+      "description": "A speaker stands at a podium on stage, looking down at his laptop while presenting a slide featuring a mathematical graph on a large screen behind him.",
+      "alt_text": "Speaker standing at a podium on stage with a large projection screen displaying a graph behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good technical shot of the speaker and content, but the dark stage lighting makes it less dynamic for social media.",
+      "quality": 46,
+      "dhash": "070209b9e0303c1e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-082.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a graph of a sigmoid function projected on a large screen behind him.",
+      "alt_text": "Speaker presenting a math graph on stage",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark",
+        "near-duplicate"
+      ],
+      "notes": "Good technical shot of the presentation, but the lighting is dim and the speaker's face is in shadow.",
+      "quality": 46,
+      "dhash": "070101b3f0303c1e",
+      "duplicate_of": "2024-05-31-hrdevfest-linda-nichols-081.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-083.jpg": {
+      "description": "A speaker stands on stage in a large auditorium, gesturing with one hand while addressing an audience seated in tiered rows.",
+      "alt_text": "Speaker on stage gesturing to an audience in a dark auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 20,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong action shot capturing the speaker's energy and engagement with the crowd.",
+      "quality": 79,
+      "dhash": "dbedde9692fafdf9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-084.jpg": {
+      "description": "A speaker stands on a stage in an auditorium, shielding his eyes from bright overhead lights while addressing the audience.",
+      "alt_text": "Speaker standing on stage with hand over eyes to block bright lights",
+      "tags": [
+        "talk",
+        "stage",
+        "crowd",
+        "audience"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "Good energy and clear subject, though the speaker is blocking his face with his hand.",
+      "quality": 71,
+      "dhash": "d9edd69692fafdfd",
+      "duplicate_of": "2024-05-31-hrdevfest-linda-nichols-083.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-085.jpg": {
+      "description": "A wide shot of a large audience seated in tiered theater-style chairs, attentively watching a presentation or speaker from the front.",
+      "alt_text": "Audience members sitting in rows of green and yellow theater seats at a tech conference event",
+      "tags": [
+        "audience",
+        "crowd",
+        "venue",
+        "talk"
+      ],
+      "people_count": 60,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent for showing the scale of attendance and engagement at the event.",
+      "quality": 79,
+      "dhash": "77dbc9997a87df37",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-086.jpg": {
+      "description": "A speaker stands on stage in an auditorium, smiling while looking out at the audience. The crowd is seated in tiered rows, with some people clapping and others watching attentively.",
+      "alt_text": "Speaker standing on stage in an auditorium with an audience clapping",
+      "tags": [
+        "talk",
+        "stage",
+        "audience"
+      ],
+      "people_count": 25,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong image for social media as it captures the speaker's personality and the positive energy of the audience.",
+      "quality": 71,
+      "dhash": "c6e24959c8f8fefe",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-087.jpg": {
+      "description": "Two event staff members in matching polo shirts walk through a dimly lit hallway, passing a sign directing attendees to seats.",
+      "alt_text": "Two staff members walking past a directional sign for seating",
+      "tags": [
+        "venue",
+        "signage",
+        "portrait"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clean black and white shot that captures the behind-the-scenes atmosphere of the event.",
+      "quality": 64,
+      "dhash": "f88acc9a9b990838",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-088.jpg": {
+      "description": "A man wearing a conference badge walks through a dimly lit hallway, passing a wall sign that directs attendees to seats 100-200.",
+      "alt_text": "Man with conference badge walking past a sign pointing to seats in a dark hallway",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 1,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong artistic black and white shot that captures the atmosphere of the venue.",
+      "quality": 61,
+      "dhash": "f0c4f11a9c9499b0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-089.jpg": {
+      "description": "A woman walks through a dimly lit hallway holding a coffee cup, passing a large sign directing attendees to seats 100-200.",
+      "alt_text": "Woman walking past a sign pointing to seats in a dark conference hallway",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 3,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 5,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Strong artistic composition and candid feel, but the dark lighting makes it less suitable for standard social media feeds.",
+      "quality": 64,
+      "dhash": "f095cc8c8d929898",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-090.jpg": {
+      "description": "A group of attendees walks through a dimly lit hallway toward a sign indicating seats 100-200.",
+      "alt_text": "Attendees walking down a dark hallway past a sign pointing to seats 100-200",
+      "tags": [
+        "crowd",
+        "venue",
+        "signage"
+      ],
+      "people_count": 4,
+      "scene": "other",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is too dark and grainy for a main social post, but works as an atmospheric B-roll shot.",
+      "quality": 39,
+      "dhash": "f997e36d959098a0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-091.jpg": {
+      "description": "Three men are standing together and laughing during a break at an event, with one holding a coffee cup in front of a decorative backdrop.",
+      "alt_text": "Attendees laughing and networking near a food table",
+      "tags": [
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent candid shot capturing genuine laughter and connection, perfect for a social post.",
+      "quality": 86,
+      "dhash": "6653ccccdcdcf0e1",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-092.jpg": {
+      "description": "A black and white photo captures three men standing together in a large, modern building lobby. The man on the left is smiling at the camera, while the other two look off to the side.",
+      "alt_text": "Three men standing in a bright building lobby, one smiling at the camera and another wearing glasses.",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid portrait that captures the friendly atmosphere of the event.",
+      "quality": 68,
+      "dhash": "70687434252d314c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-093.jpg": {
+      "description": "A large pile of colorful, cartoon-style stickers scattered on a black surface, featuring various characters and logos.",
+      "alt_text": "A variety of colorful character stickers piled together on a table",
+      "tags": [
+        "swag"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing off event swag, but lacks the energy of a live event scene.",
+      "quality": 39,
+      "dhash": "d6b2cb718eddf21e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-094.jpg": {
+      "description": "A man in a blazer sits on a white bench looking down at his phone, while another person stands in the background near a counter.",
+      "alt_text": "Man in glasses and blazer sitting on a bench checking his phone at an event",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The subject is looking down at a phone and appears disengaged, which may be unflattering for public use.",
+      "quality": 57,
+      "dhash": "1fd7719193c34ccc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-095.jpg": {
+      "description": "A smiling man wearing a John Deere cap and backpack stands in the foreground, while other attendees mingle at tables in the background.",
+      "alt_text": "Smiling attendee with a hat and backpack standing in front of a busy conference room.",
+      "tags": [
+        "portrait",
+        "networking",
+        "crowd"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a high-quality portrait that captures the friendly atmosphere of the event and works well for social media.",
+      "quality": 86,
+      "dhash": "b19099acaca9b1b3",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-096.jpg": {
+      "description": "A smiling man with a distinctive handlebar mustache and glasses stands in the foreground, while other attendees converse near a Marathon Consulting sign in the background.",
+      "alt_text": "Smiling man with handlebar mustache at tech event",
+      "tags": [
+        "portrait",
+        "networking",
+        "sponsor"
+      ],
+      "people_count": 5,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A great candid portrait that captures the friendly atmosphere of the event.",
+      "quality": 79,
+      "dhash": "28321636363c2c6c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-097.jpg": {
+      "description": "A black and white portrait of a man with glasses looking towards the right, standing near a Marathon Consulting banner.",
+      "alt_text": "Man with glasses stands in profile next to a Marathon Consulting banner at an event.",
+      "tags": [
+        "portrait",
+        "sponsor",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "overexposed"
+      ],
+      "notes": "Good portrait of an attendee, but the background is very bright and blown out.",
+      "quality": 61,
+      "dhash": "c3c3e6e6c6c6c046",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-098.jpg": {
+      "description": "A smiling woman with long hair sits at a table, holding a utensil over a bowl during a break.",
+      "alt_text": "Smiling woman with long hair sitting at a table and eating from a bowl",
+      "tags": [
+        "portrait",
+        "food"
+      ],
+      "people_count": 1,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A high-quality portrait that captures genuine joy and energy, perfect for a social post about the community atmosphere.",
+      "quality": 79,
+      "dhash": "6565634b4b0b0bc9",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-099.jpg": {
+      "description": "A smiling woman with glasses sits at a table in the foreground, while a beverage station and menu board are visible in the background.",
+      "alt_text": "Smiling woman with glasses sitting near a drink station",
+      "tags": [
+        "portrait",
+        "food",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid portrait of an attendee enjoying the break area.",
+      "quality": 71,
+      "dhash": "e544466724242c26",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-100.jpg": {
+      "description": "A smiling man with a beard, glasses, and a cap stands in front of large windows overlooking city buildings.",
+      "alt_text": "Smiling man with glasses and cap standing in front of windows",
+      "tags": [
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A high-quality portrait suitable for a speaker profile or attendee spotlight.",
+      "quality": 75,
+      "dhash": "06066d2d2c2c3434",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-101.jpg": {
+      "description": "A speaker stands on a stage next to a podium, introducing herself as Chazona in front of a large projection screen.",
+      "alt_text": "Speaker standing on stage next to a podium with a presentation slide behind her",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's hand gesture is slightly ambiguous and could be misinterpreted as a middle finger, making it risky for social media.",
+      "quality": 46,
+      "dhash": "f1e4ecacf0100002",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-102.jpg": {
+      "description": "A speaker stands at a podium on a stage, introducing herself as Chazona in front of a large projection screen displaying her presentation slides.",
+      "alt_text": "Speaker standing at a podium on stage with a large slide behind her reading Hello I'm Chazona",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for identifying the speaker and topic, but the framing is wide with a lot of empty stage floor.",
+      "quality": 46,
+      "dhash": "f0f4ecacf212d202",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-103.jpg": {
+      "description": "A speaker stands on stage at a podium delivering a presentation, with a large projection screen visible behind her.",
+      "alt_text": "Speaker presenting at a podium during a conference talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard event shot that works well for a recap, though the lack of audience makes it feel less dynamic.",
+      "quality": 46,
+      "dhash": "c9ec484c4c45e4a4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-104.jpg": {
+      "description": "A speaker presents on stage in a large auditorium, with an audience seated in tiered rows and a presentation slide visible on the screen.",
+      "alt_text": "Speaker presenting slides to an audience in a dark auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 15,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good wide shot of the venue and event in progress, though the audience is somewhat distant.",
+      "quality": 50,
+      "dhash": "b0f0b3b0e6e465f1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-105.jpg": {
+      "description": "A black and white photograph showing the exterior of a modern building with large glass windows, featuring signage for 'Zeidler American Dream' visible through the reflection.",
+      "alt_text": "Exterior view of a modern building with large glass windows and Zeidler American Dream signage",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 4,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good architectural detail for a venue post, but the dark monochrome style and lack of event activity make it less engaging for social media.",
+      "quality": 39,
+      "dhash": "8382800501050987",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-106.jpg": {
+      "description": "Two tables draped in black cloths display stacks of yellow boxes containing food samples, accompanied by a sign encouraging attendees to tag their photos with #HRDEVFEST.",
+      "alt_text": "Stacks of yellow food sample boxes on black tables next to a social media hashtag sign",
+      "tags": [
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing event amenities and branding, but lacks the energy of people attending.",
+      "quality": 39,
+      "dhash": "b31b192539313393",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-107.jpg": {
+      "description": "A display of stacked yellow boxes on a table in front of a large, illustrated backdrop featuring a theater stage and the letter 'Z'.",
+      "alt_text": "Stacks of yellow boxes on a table in front of an illustrated theater stage backdrop with a large Z logo.",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing the event branding and setup, but lacks people or activity to make it engaging for social media.",
+      "quality": 39,
+      "dhash": "41c5c5a737737371",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-108.jpg": {
+      "description": "Stacks of yellow food boxes labeled with menu items like 'Baked Ham' and 'Turkey' are arranged in front of a colorful, illustrated backdrop featuring a large letter 'Z'.",
+      "alt_text": "Rows of stacked yellow food boxes labeled with meal options in front of an illustrated event backdrop.",
+      "tags": [
+        "food",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for showing catering details, but lacks the energy and people engagement needed for a primary social post.",
+      "quality": 39,
+      "dhash": "e262e2923d32b716",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-109.jpg": {
+      "description": "Attendees are gathered in a bright, modern venue lobby for a networking break, with some eating snacks at tables and others standing in conversation near sponsor booths.",
+      "alt_text": "Attendees eat snacks and network in a sunny event lobby with large windows",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "sponsor",
+        "food",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Great energy and lighting for a recap post, though the man on the right is mid-bite which might be considered an awkward moment.",
+      "quality": 75,
+      "dhash": "b3333331a1c1c8cc",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-110.jpg": {
+      "description": "Attendees are gathered in a lobby area, queuing at a registration desk and browsing stacks of yellow swag boxes near a large branded backdrop.",
+      "alt_text": "Attendees queueing for swag boxes near a large event backdrop",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "swag",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event atmosphere and swag distribution, though the composition is a bit cluttered with people in the foreground.",
+      "quality": 68,
+      "dhash": "70a286cb951d4021",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-111.jpg": {
+      "description": "Attendees are gathered in a lobby area near a large, colorful 'Taste' themed backdrop and stacks of yellow boxes, likely participating in a food tasting or sponsor activation.",
+      "alt_text": "Attendees gather around a colorful event booth with stacked boxes and signage",
+      "tags": [
+        "crowd",
+        "audience",
+        "sponsor",
+        "venue",
+        "signage"
+      ],
+      "people_count": 10,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a solid candid shot that captures the atmosphere of the event and attendee engagement with the sponsor booth.",
+      "quality": 75,
+      "dhash": "60406537971d0420",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-112.jpg": {
+      "description": "A line of attendees waits in a modern hallway, likely for registration or to enter the main event space.",
+      "alt_text": "Attendees waiting in a long line inside a conference center hallway",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "signage"
+      ],
+      "people_count": 15,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for showing venue scale, but the people are mostly looking down or away, making it less engaging for social media.",
+      "quality": 50,
+      "dhash": "f1311f9f81891adc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-113.jpg": {
+      "description": "Attendees are gathered in a lobby area, queuing at tables to receive swag boxes near a large event backdrop.",
+      "alt_text": "Attendees queueing for swag boxes at a tech conference entrance",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "swag",
+        "venue",
+        "signage"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing event attendance and swag distribution, though the foreground person is partially cut off.",
+      "quality": 68,
+      "dhash": "98e01217551603e0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-114.jpg": {
+      "description": "Attendees gather on an outdoor terrace outside a modern glass building, with some sitting and chatting while others walk by.",
+      "alt_text": "Crowd of people socializing on an outdoor patio next to a glass conference center",
+      "tags": [
+        "crowd",
+        "audience",
+        "venue",
+        "networking",
+        "outdoor"
+      ],
+      "people_count": 25,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing the venue exterior and attendee turnout, though the lighting is high-contrast.",
+      "quality": 61,
+      "dhash": "28202192088844d2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-115.jpg": {
+      "description": "A smiling man with long hair and glasses sits at a table during an event, looking directly at the camera.",
+      "alt_text": "Smiling man with long hair sitting at a table during an event",
+      "tags": [
+        "portrait",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-quality portrait that captures the friendly atmosphere of the event.",
+      "quality": 86,
+      "dhash": "599ea63039a1a5a4",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-116.jpg": {
+      "description": "A smiling man in a suit stands near a large window, looking back over his shoulder while holding a smartphone.",
+      "alt_text": "Smiling man in a suit looking back over his shoulder near a window",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-quality portrait that captures a positive attendee vibe, suitable for social media.",
+      "quality": 82,
+      "dhash": "a430b1b0c6c7e5e5",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-117.jpg": {
+      "description": "A speaker stands at a podium on a stage in an auditorium, presenting to an audience while a large screen displays a remote presenter.",
+      "alt_text": "Speaker at a podium on stage with a large projection screen showing a remote presenter",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good wide shot of the venue and presentation setup, though the audience is mostly out of frame.",
+      "quality": 64,
+      "dhash": "f00be1e9e1818370",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-118.jpg": {
+      "description": "A speaker stands at a podium on a stage presenting a slide titled 'A TEAM OF DEVELOPERS' to an audience in a large auditorium.",
+      "alt_text": "Speaker presenting slides on a large screen during a conference talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good wide shot of the venue and speaker, though the audience is mostly out of frame.",
+      "quality": 54,
+      "dhash": "e00be9e9e3a383f1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-119.jpg": {
+      "description": "A speaker stands at a podium on stage, looking up at a large projection screen displaying a video call with another person.",
+      "alt_text": "Speaker standing at a podium on stage looking up at a large screen showing a remote presenter on a video call",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of a speaker presenting with remote participants, effectively showing the hybrid nature of the event.",
+      "quality": 64,
+      "dhash": "e2f6e6e6d0e0e040",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-120.jpg": {
+      "description": "A speaker stands at a podium on a stage, looking up at a large projection screen displaying an image of hands.",
+      "alt_text": "Speaker standing at a podium on stage looking at a large projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "near-duplicate"
+      ],
+      "notes": "A standard documentation shot of the speaker and slides; usable for a recap but lacks dynamic energy.",
+      "quality": 46,
+      "dhash": "e6f6e6e6c0e0e201",
+      "duplicate_of": "2024-05-31-hrdevfest-kevin-griffin-119.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-121.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a graph titled 'Accumulated Panicked Calls' to an unseen audience.",
+      "alt_text": "Speaker standing at a podium on stage with a large screen showing a line graph behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is usable for a recap but the framing is slightly awkward with foreground railings and the speaker is small in the frame.",
+      "quality": 54,
+      "dhash": "f4bc0dc5e0a0a0a0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-122.jpg": {
+      "description": "Attendees are gathered around a large display of stacked boxes labeled 'TASTE' and a catering bag, likely waiting for food or swag at an event.",
+      "alt_text": "People standing near stacks of boxes labeled Taste and a catering bag at an indoor event.",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 3,
+        "composition": 2,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The image is black and white and mostly shows the backs of people waiting in line, making it less engaging for social media.",
+      "quality": 32,
+      "dhash": "32139756521a13b6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-123.jpg": {
+      "description": "A man in a branded t-shirt is stacking boxes of popcorn at an event booth, while another person stands nearby.",
+      "alt_text": "Man stacking popcorn boxes at a sponsor booth with a large backdrop behind him",
+      "tags": [
+        "sponsor",
+        "booth",
+        "food",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The subject's facial expression appears grumpy or annoyed, which is likely unflattering for a social post.",
+      "quality": 46,
+      "dhash": "75732f6d2d2769cd",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-124.jpg": {
+      "description": "A stack of branded 'Taste' boxes sits near a sign encouraging attendees to tag their photos with #HRD.",
+      "alt_text": "Stacked boxes with the Taste logo next to a social media hashtag sign",
+      "tags": [
+        "sponsor",
+        "swag",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This is a good shot for sponsor recognition but lacks the energy of people attending.",
+      "quality": 36,
+      "dhash": "7e60606062e08602",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-125.jpg": {
+      "description": "A speaker stands on a stage in a dark auditorium, viewed from the back through a doorway, with a small audience seated in the background.",
+      "alt_text": "Speaker standing on stage facing an audience in a dark theater",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong artistic composition that captures the atmosphere of a presentation.",
+      "quality": 57,
+      "dhash": "c0e0f8f0e60d2c56",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-126.jpg": {
+      "description": "A speaker stands on a dimly lit stage in profile, looking toward a presentation screen while partially obscured by a large dark structure.",
+      "alt_text": "Speaker standing on stage in profile next to a projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image has high contrast and is quite dark, but the profile view of the speaker against the light screen creates a strong visual.",
+      "quality": 50,
+      "dhash": "585bd078e968e3e3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-127.jpg": {
+      "description": "A speaker stands on a dimly lit stage in profile, gesturing towards a presentation screen while the surrounding area remains dark.",
+      "alt_text": "Speaker standing on stage presenting to an unseen audience",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The dramatic lighting creates a strong mood and focuses attention on the speaker's action.",
+      "quality": 64,
+      "dhash": "38b0b0fad9c4d696",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-128.jpg": {
+      "description": "A display table with stacks of branded boxes and snacks sits in front of a large, colorful mural featuring an art deco theater stage design.",
+      "alt_text": "Stacks of yellow boxes on a black table in front of a painted theater stage backdrop",
+      "tags": [
+        "sponsor",
+        "booth",
+        "swag",
+        "food",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 1,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for showing off event swag or sponsor presence, but lacks the energy of people attending.",
+      "quality": 50,
+      "dhash": "e2686d2b333bb9f8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-129.jpg": {
+      "description": "Two people are walking up a wide set of stone stairs in an outdoor amphitheater or plaza, viewed from a high angle.",
+      "alt_text": "Two attendees walk up stone steps in an outdoor amphitheater",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The high angle makes the subjects look small and unflattering, and they are looking down rather than engaging with the camera.",
+      "quality": 39,
+      "dhash": "2e9b99c1c2402010",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-130.jpg": {
+      "description": "A large promotional poster for the HR Dev Fest event is displayed on an easel, featuring the date and a list of sponsors at the bottom.",
+      "alt_text": "Poster for HR Dev Fest event listing sponsors like Appwrite and Custom Ink",
+      "tags": [
+        "sponsor",
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for identifying the event and sponsors, but lacks energy or human interest for a main social post.",
+      "quality": 32,
+      "dhash": "fcf49c8624341011",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-131.jpg": {
+      "description": "A speaker stands on a dimly lit stage in profile, holding a clicker near a podium while looking toward the audience.",
+      "alt_text": "Speaker standing on stage in profile giving a presentation",
+      "tags": [
+        "talk",
+        "stage",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The photo is too dark and the angle is obstructed by a foreground wall, making it less suitable for social media.",
+      "quality": 43,
+      "dhash": "b0f4f4f0f3f2ce86",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-132.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying an introduction slide titled 'Who are we?' with photos and bios for the speakers.",
+      "alt_text": "Two female speakers standing on a stage during a presentation, with a large screen behind them showing their names and titles.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the speakers and their introduction slide, though the angle is slightly obstructed by foreground railings.",
+      "quality": 61,
+      "dhash": "fafa94f0d0b05040",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-133.jpg": {
+      "description": "Two women are presenting on a stage, with one standing behind a podium and the other gesturing towards a large screen displaying presentation slides.",
+      "alt_text": "Two female speakers presenting on stage in front of a projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the speakers and their presentation content.",
+      "quality": 61,
+      "dhash": "0cec2c696d04c000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-134.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying their profiles and the Jefferson Lab logo.",
+      "alt_text": "Two female speakers standing on a stage with a presentation slide behind them showing their names and photos.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard wide shot of the speakers; good for context but lacks dynamic energy or close-up engagement.",
+      "quality": 61,
+      "dhash": "e0f4d49df181b050",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-135.jpg": {
+      "description": "Two speakers present on stage at a conference, standing near a podium and a high table while a large screen displays their colorful presentation slides.",
+      "alt_text": "Two women presenting on stage in front of a large projection screen with slides",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard documentation shot of the speakers and their slides; good for a recap but lacks dynamic energy.",
+      "quality": 54,
+      "dhash": "03003127fcd4c4ec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-136.jpg": {
+      "description": "A wide, high-angle shot of a conference hall showing two speakers on stage and an audience seated in tiered rows.",
+      "alt_text": "Two presenters stand on a stage with a large screen while an audience watches from the seats below.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 30,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for establishing the venue size and layout, but the audience is too small to see individual engagement.",
+      "quality": 50,
+      "dhash": "cccaf2f1cdcfc8f0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-137.jpg": {
+      "description": "A wide shot taken from the back of an auditorium shows two speakers presenting on stage to a seated audience, with a large projection screen displaying slides.",
+      "alt_text": "Two presenters stand on a stage in front of a large screen and an audience in an auditorium",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 50,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a solid establishing shot that captures the scale of the venue and the event atmosphere.",
+      "quality": 64,
+      "dhash": "c4e8c8e0e8c8c0e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-138.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying slides about Jefferson Lab and particle physics.",
+      "alt_text": "Two female speakers standing on a stage with a large projection screen behind them showing diagrams of atoms and molecules.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good clear shot of the speakers and their presentation content, suitable for a recap post.",
+      "quality": 64,
+      "dhash": "f3f3ff59f1f1e3c3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-139.jpg": {
+      "description": "Two women are presenting on a stage in front of a large projection screen displaying slides about particle physics and low-code solutions.",
+      "alt_text": "Two female speakers standing on a stage with a large presentation screen behind them showing diagrams of particles.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the speakers and their presentation content, suitable for a recap post.",
+      "quality": 64,
+      "dhash": "fbfb4a0af2f262d2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-140.jpg": {
+      "description": "Two women are presenting on a stage in front of a large projection screen displaying slides about Jefferson Lab.",
+      "alt_text": "Two female speakers standing on a dark stage next to a podium, with a large screen behind them showing a presentation slide.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the speakers and their content, though the lighting on the presenters is a bit dim.",
+      "quality": 57,
+      "dhash": "f80ec2c1f9c9c10e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-141.jpg": {
+      "description": "Two women are presenting on stage in front of a large screen displaying a slide about Jefferson Lab and particle physics.",
+      "alt_text": "Two female speakers presenting on stage next to a large projection screen showing a diagram of atoms and molecules.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a strong, clear shot of the speakers and their presentation content, making it ideal for social media updates about the event.",
+      "quality": 79,
+      "dhash": "7f646cf0d0f0c0c3",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-greg-norman-142.jpg": {
+      "description": "A close-up photograph of a presentation slide illustrating the scale of matter, from atoms down to quarks and gluons, featuring the Jefferson Lab logo.",
+      "alt_text": "Slide showing diagrams of atomic structures including atoms, molecules, protons, neutrons, and quarks with labels.",
+      "tags": [
+        "slides",
+        "screenshot"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for illustrating a specific technical topic, but lacks the energy of a live event and has text cut off on the left.",
+      "quality": 39,
+      "dhash": "91cec98d94612586",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-143.jpg": {
+      "description": "A speaker wearing a cap stands on stage during a presentation, gesturing with his hand while standing next to a table with a laptop.",
+      "alt_text": "Speaker in a cap gesturing on stage next to a laptop",
+      "tags": [
+        "talk",
+        "stage",
+        "portrait"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong candid shot of a speaker in action that works well for social media.",
+      "quality": 71,
+      "dhash": "d9f9f0f068348d91",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-144.jpg": {
+      "description": "A speaker stands on a dimly lit stage behind a podium, presenting to an unseen audience with a projection screen visible in the background.",
+      "alt_text": "Speaker standing at a podium on a dark stage giving a presentation",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "The strong framing makes this a great atmospheric shot for a recap, though the dark lighting limits its use for highlighting specific details.",
+      "quality": 54,
+      "dhash": "6270f8f0636bcb93",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-145.jpg": {
+      "description": "Two women are presenting on a stage in front of a large projection screen displaying slides for the 'Sponsored Research Portal'.",
+      "alt_text": "Two female speakers standing on a stage next to a podium, with a large presentation screen behind them.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A clear documentation shot of the speakers and their presentation content.",
+      "quality": 57,
+      "dhash": "f97c868989892eaa",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-146.jpg": {
+      "description": "Two women are presenting on a stage in front of a large projection screen displaying a slide titled 'Low-Code by Accident'.",
+      "alt_text": "Two female speakers standing on a stage in front of a presentation screen showing a flowchart.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The photo is functional but the speakers are small and far from the camera; a closer shot would be better for social media.",
+      "quality": 54,
+      "dhash": "f0fa8a00307000ca",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-147.jpg": {
+      "description": "Two women are presenting on a stage in front of a large projection screen displaying slides about low-code solutions.",
+      "alt_text": "Two female speakers standing on a stage with a presentation screen behind them",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the speakers and their presentation content.",
+      "quality": 64,
+      "dhash": "e0f90c80a181806a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-148.jpg": {
+      "description": "Two speakers present on a stage in front of an audience, with a large projection screen displaying slides about low-code solutions.",
+      "alt_text": "Two women presenting on stage at a tech conference with a slide titled 'Our Low-Code Journey' behind them",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the speakers and their presentation that works well for a recap post.",
+      "quality": 64,
+      "dhash": "4cece0d8d8e1e080",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-149.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying slides about the 'Emergence of Low-Code / No-Code'.",
+      "alt_text": "Two presenters standing on a dark stage with a large projection screen behind them showing slides.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is a bit dark and the subjects are small in the frame, but it clearly documents the presentation topic.",
+      "quality": 54,
+      "dhash": "fd74c7c0b0c0d575",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-150.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying 'Key Takeaways' about low-code and no-code solutions.",
+      "alt_text": "Two female speakers standing at podiums on a stage with a presentation slide visible behind them.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good documentation of the presentation content and speakers, though the audience is not visible.",
+      "quality": 64,
+      "dhash": "9f030135f0fc7c3c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-151.jpg": {
+      "description": "Two women are presenting on a stage in front of a large screen displaying 'Key Takeaways' about low-code solutions.",
+      "alt_text": "Two female speakers standing on a stage with a presentation slide visible behind them.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a recap of the specific topic, but the angle is slightly obstructed by foreground equipment.",
+      "quality": 54,
+      "dhash": "7f070229e0f0787c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-152.jpg": {
+      "description": "An audience is seated in a tiered auditorium, looking towards the stage area during a presentation.",
+      "alt_text": "Audience sitting in tiered rows of an auditorium facing the stage",
+      "tags": [
+        "talk",
+        "audience",
+        "venue"
+      ],
+      "people_count": 60,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid crowd shot that establishes the venue and attendance, though faces are mostly distant.",
+      "quality": 57,
+      "dhash": "122f7abec70f7fff",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-153.jpg": {
+      "description": "Three people are walking up a set of outdoor concrete stairs next to a building with a sign indicating 'Public Terrace' and 'Elevator'.",
+      "alt_text": "People walking up outdoor stairs near a public terrace sign.",
+      "tags": [
+        "outdoor",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 2,
+        "story": 1
+      },
+      "flags": [],
+      "notes": "Good architectural shot with strong lighting, but the people are facing away and it lacks event context.",
+      "quality": 43,
+      "dhash": "90e4a6a620dcb000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-154.jpg": {
+      "description": "Attendees gather around a table at an event booth, interacting with games and hardware while a staff member sits nearby.",
+      "alt_text": "People standing at a booth table looking at games and hardware near a window",
+      "tags": [
+        "booth",
+        "networking",
+        "hardware"
+      ],
+      "people_count": 4,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of the booth in action, though the seated person's face is partially obscured by shadow.",
+      "quality": 71,
+      "dhash": "0b0c4d5636f33b7a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-155.jpg": {
+      "description": "A woman wearing a unique neck brace sits at a table displaying a framed portrait of Nicolas Cage, while another person stands nearby.",
+      "alt_text": "Woman with neck brace sitting at a table next to a framed photo of Nicolas Cage.",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "This is a fun, candid shot that captures the quirky atmosphere of a tech event.",
+      "quality": 75,
+      "dhash": "59d9d8c1139210d8",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-linda-nichols-156.jpg": {
+      "description": "Attendees gather around a sponsor table displaying hardware and swag, including Rubik's cubes and stickers, while interacting with representatives in a sunlit venue.",
+      "alt_text": "People gathered around a black table looking at tech gadgets and stickers",
+      "tags": [
+        "sponsor",
+        "booth",
+        "swag",
+        "hardware",
+        "networking",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "sponsor",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good lighting and clear view of the booth items, though faces are mostly obscured by angles.",
+      "quality": 71,
+      "dhash": "9f1f37b399c9cb49",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-linda-nichols-157.jpg": {
+      "description": "Attendees gather around a table at an event booth, examining items and interacting near large windows in a modern venue.",
+      "alt_text": "People standing around a black table at an event booth looking at items",
+      "tags": [
+        "networking",
+        "sponsor",
+        "booth",
+        "venue"
+      ],
+      "people_count": 6,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the event atmosphere and venue, though the subjects are not fully engaged with the camera.",
+      "quality": 64,
+      "dhash": "73260f1b2db595b5",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-158.jpg": {
+      "description": "A speaker stands at a podium on stage giving a presentation, with a large screen behind him displaying an image of a hand holding a marker.",
+      "alt_text": "Speaker presenting at a podium in front of a large projection screen showing a hand holding a marker",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good documentation of the speaker and slides, but the lighting is a bit dim and the composition includes a lot of empty stage floor.",
+      "quality": 46,
+      "dhash": "0731001939303c1c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-159.jpg": {
+      "description": "A speaker stands at a podium on stage giving a presentation, with a large screen behind him displaying an image of a hand writing 'HELLO REVENUE'.",
+      "alt_text": "Speaker presenting on stage next to a podium with a large screen showing a hand writing.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for documenting the event, but the composition is wide and the audience engagement is low.",
+      "quality": 54,
+      "dhash": "870110043c181a1a",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-160.jpg": {
+      "description": "A black and white photograph of the exterior signage for a Legal Sea Foods restaurant, featuring large lettering above an awning with hanging lights.",
+      "alt_text": "Exterior sign for Legal Sea Foods restaurant with hanging lights",
+      "tags": [
+        "venue",
+        "signage"
+      ],
+      "people_count": 0,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality shot of the venue exterior, but lacks event-specific context or people.",
+      "quality": 36,
+      "dhash": "e1e3377ffbf3f3f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-161.jpg": {
+      "description": "A speaker stands on a stage at a podium, gesturing towards a large projection screen displaying his presentation slides.",
+      "alt_text": "Speaker presenting on stage with a large slide screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid documentation shot of the speaker in action that works well for a recap post.",
+      "quality": 64,
+      "dhash": "02d3d11efee2e2e6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-162.jpg": {
+      "description": "A speaker stands on a stage presenting a technical slide titled 'OVER ESTIMATING ROWS' to an unseen audience.",
+      "alt_text": "Speaker standing on stage next to a large screen displaying a presentation about database query optimization.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good documentation of the specific topic being discussed, though the speaker is small in the frame and no audience engagement is visible.",
+      "quality": 46,
+      "dhash": "f0f8fc2cf8e1e1e1",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-163.jpg": {
+      "description": "A speaker stands on stage in front of a large projection screen displaying a mathematical graph, with a pile of swag stickers visible on the floor.",
+      "alt_text": "Speaker standing on stage next to a podium with a graph displayed on the screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "swag"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's pose is somewhat static and the audience is mostly out of frame, making it less engaging for social media.",
+      "quality": 39,
+      "dhash": "e0f0f86426d0c0c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-164.jpg": {
+      "description": "A speaker stands on a stage in front of a large projection screen and green curtains, gesturing while presenting. A podium with a laptop sits to the left, and scattered stickers are visible on the floor.",
+      "alt_text": "Speaker presenting on stage at a tech event with a large screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker in action, though the empty screen is a bit distracting.",
+      "quality": 61,
+      "dhash": "e8e0e969e0a082c2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-165.jpg": {
+      "description": "A speaker stands on a stage presenting in front of a large blank projection screen, with a podium to his left and an audience member visible in the foreground.",
+      "alt_text": "Speaker standing on stage next to a podium with a large blank screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment",
+        "near-duplicate"
+      ],
+      "notes": "The speaker appears to be in a transition moment with a blank screen, which lacks the energy needed for a strong social post.",
+      "quality": 46,
+      "dhash": "e8e0e969e0a082c2",
+      "duplicate_of": "2024-05-31-hrdevfest-kevin-griffin-164.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-166.jpg": {
+      "description": "A speaker stands on a stage in front of a large projection screen, gesturing with his hands while addressing the audience. A podium and a table are visible to the left, and a pile of stickers lies on the floor in the foreground.",
+      "alt_text": "Speaker presenting on stage at an event with a large screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker in action, though the empty screen and foreground clutter make it less dynamic than a photo with slides visible.",
+      "quality": 61,
+      "dhash": "e8e8f0e96df2b2f2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-167.jpg": {
+      "description": "A speaker stands on a stage in front of a large projection screen, gesturing while presenting to an audience.",
+      "alt_text": "Speaker standing on stage with a laptop and screen behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The speaker is cut off at the top by the frame edge, which detracts from the composition.",
+      "quality": 54,
+      "dhash": "e8e8f0e96df092b2",
+      "duplicate_of": "2024-05-31-hrdevfest-kevin-griffin-166.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-168.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'Spectrum of Choices' to an empty auditorium.",
+      "alt_text": "Speaker standing next to a podium with a large screen showing a colorful spectrum graphic behind him",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "The speaker's hand gesture looks like he is holding a small object rather than gesturing, and the empty room makes it less engaging for social media.",
+      "quality": 39,
+      "dhash": "08003bdefcf6f6fe",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-169.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled 'TODAY'S AI' and 'AI OF TOMORROW', which features a colorful bar chart.",
+      "alt_text": "Speaker on stage presenting a slide about the evolution of AI from today to tomorrow.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 3,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for illustrating the specific topic of the talk, but the speaker is small in the frame and audience engagement is not visible.",
+      "quality": 46,
+      "dhash": "387b76f0a0a0839c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-170.jpg": {
+      "description": "Two women are standing on a stage during a presentation, with one speaking at a podium and a large screen visible to the left.",
+      "alt_text": "Two speakers presenting on stage in front of a projection screen",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of speakers in action, though the dark background limits the sense of crowd energy.",
+      "quality": 57,
+      "dhash": "b2b4b5b1d28e9e92",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-171.jpg": {
+      "description": "Two women stand on a stage in front of a large projection screen, appearing to present or prepare for a talk.",
+      "alt_text": "Two women standing on a dimly lit stage next to a large presentation screen.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "portrait"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image is high-contrast and dark, making the subjects hard to see; it lacks the energy of a live talk.",
+      "quality": 46,
+      "dhash": "d9dad279eae6efce",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-172.jpg": {
+      "description": "A presentation slide titled 'SQL AGENTS' displays logos for WrenAI, Vanna.AI, and DataGPT alongside a diagram illustrating single table prompts.",
+      "alt_text": "Presentation slide showing SQL Agents tools including WrenAI, Vanna.AI, and DataGPT with a colorful diagram.",
+      "tags": [
+        "slides",
+        "screenshot"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for a technical recap or blog post about the specific tools discussed, but lacks energy for social media.",
+      "quality": 39,
+      "dhash": "fcf4ccacccc8d8ec",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-173.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a slide titled 'SQL AGENTS' to an audience, with the feet of a person in the foreground visible.",
+      "alt_text": "Speaker presenting SQL Agents slides from a podium on stage",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The image is a decent shot of the speaker and slides, but the prominent feet in the foreground make it look like an accidental snapshot rather than a professional event photo.",
+      "quality": 50,
+      "dhash": "b3334131f0ec7c3c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-174.jpg": {
+      "description": "A speaker stands on a stage pointing up at a large projection screen displaying a complex diagram titled 'Agentic Choreography'.",
+      "alt_text": "Speaker presenting a slide titled Agentic Choreography on a large screen.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker and content, though the audience is not visible.",
+      "quality": 64,
+      "dhash": "fcfc6dc8d0d0c471",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-175.jpg": {
+      "description": "A speaker stands on stage presenting a slide titled 'Agentic Choreography' to an unseen audience.",
+      "alt_text": "Speaker presenting a technical diagram on a large screen at a tech conference",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a newsletter recap of the specific talk, but lacks crowd energy for social media.",
+      "quality": 46,
+      "dhash": "fefc6dccc0d2ca82",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-176.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a bar chart titled 'PROVISIONED -> TOKEN-BASED INFERENCE' to an audience in a theater.",
+      "alt_text": "Speaker presenting a bar chart on a large screen during a tech talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for a newsletter recap to illustrate the specific topic being discussed.",
+      "quality": 57,
+      "dhash": "e1d0a3e1f8e0f8e8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-177.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a bar chart titled 'PROVISIONED -> TOKEN-BASED INFERENCE' to an audience in a theater.",
+      "alt_text": "Speaker presenting slides on a large screen during a tech conference talk",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good view of the presentation content and stage, but the audience area is quite dark.",
+      "quality": 57,
+      "dhash": "8098e3e168e0f8c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-178.jpg": {
+      "description": "A speaker stands on stage next to a podium while presenting a technical slide titled 'Experts.js' on a large screen.",
+      "alt_text": "Speaker standing on stage next to a large screen displaying an Experts.js flowchart diagram",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Good shot of the speaker and the presentation content, suitable for a recap post.",
+      "quality": 71,
+      "dhash": "3636d4f0f0d0c091",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-greg-norman-179.jpg": {
+      "description": "A presentation slide at the Experts.js conference displaying a technical diagram of an AI agent workflow involving tools like OpenSearch and Code Interpreter.",
+      "alt_text": "Technical flowchart showing how a company assistant uses various tools to process user messages, displayed on a large screen.",
+      "tags": [
+        "slides",
+        "screenshot"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a clear technical diagram suitable for a newsletter recap or blog post, but it lacks the energy and engagement needed for social media.",
+      "quality": 29,
+      "dhash": "f4f8f4f4f4d4f4f4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-180.jpg": {
+      "description": "A speaker stands on a stage next to a podium, presenting a slide titled 'INTER-AGENT PROTOCOLS' on a large screen.",
+      "alt_text": "Speaker standing on stage next to a large screen displaying a presentation slide about inter-agent protocols.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is small in the frame and slightly off-center, making it less dynamic for social media than a closer shot.",
+      "quality": 46,
+      "dhash": "f9ff73e268720201",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-181.jpg": {
+      "description": "A black and white photo captures a moment of surprise at a tech event, where a person sitting behind a table with keyboards has their mouth open in shock while looking up at a standing colleague.",
+      "alt_text": "Person sitting at a desk looks up with an open mouth in surprise as a colleague stands nearby.",
+      "tags": [
+        "portrait",
+        "networking",
+        "hardware"
+      ],
+      "people_count": 2,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 5,
+        "story": 5
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "The candid expression is funny but risky; use only if the subject has given permission for their reaction to be shared publicly.",
+      "quality": 82,
+      "dhash": "60238cbf67763c78",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-182.jpg": {
+      "description": "A speaker stands at a podium on stage next to a large projection screen displaying slides, while several other people stand nearby in conversation.",
+      "alt_text": "Speaker at a podium on stage with audience members standing nearby and presentation slides on the screen behind them",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 6,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "sensitive"
+      ],
+      "notes": "This image is flagged as sensitive because the attendees standing on stage have their backs turned and appear to be looking down or at screens, which may look unflattering if posted publicly.",
+      "quality": 46,
+      "dhash": "e0fc6d6868e5c0e4",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-183.jpg": {
+      "description": "A smiling man wearing a cap and t-shirt stands on stage with a presentation screen visible in the background.",
+      "alt_text": "Smiling speaker wearing a cap standing on stage during a tech talk",
+      "tags": [
+        "portrait",
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Excellent portrait of a speaker that captures the energy and personality of the event.",
+      "quality": 82,
+      "dhash": "cbd3d292c2c50024",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-184.jpg": {
+      "description": "Three people are standing on a stage with a black curtain backdrop, engaged in conversation near a laptop.",
+      "alt_text": "Three attendees talking on stage during an event break",
+      "tags": [
+        "portrait",
+        "networking"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 5,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of attendees connecting, though the foreground laptop is slightly distracting.",
+      "quality": 71,
+      "dhash": "efad8d8c6c848d90",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-185.jpg": {
+      "description": "A group of three people are engaged in conversation during a break at an event, with one man gesturing while speaking to a woman and another man.",
+      "alt_text": "Two men and a woman standing together talking in a dark room",
+      "tags": [
+        "networking",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A candid shot that captures the energy of networking well.",
+      "quality": 79,
+      "dhash": "b797d333533909c8",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-186.jpg": {
+      "description": "Two men are standing on a stage near a podium, appearing to be in the middle of a presentation or rehearsal, while a small audience sits in the tiered seating to the left.",
+      "alt_text": "Two speakers on stage during a tech talk with an audience seated nearby",
+      "tags": [
+        "talk",
+        "stage",
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 4,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The large obstruction on the left edge ruins the composition, making it unsuitable for a polished social post.",
+      "quality": 50,
+      "dhash": "f4f4ecc4c45e5b57",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-187.jpg": {
+      "description": "A speaker stands on stage presenting at a 'Day of Learning' event, framed by the dark railings of an aisle staircase.",
+      "alt_text": "Speaker on stage giving presentation at Day of Learning event",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The speaker is framed awkwardly by the foreground railings and appears small in the frame.",
+      "quality": 50,
+      "dhash": "f0f0e0f0d2e3c383",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-188.jpg": {
+      "description": "A speaker stands on a stage at the Hampton Roads DevFest, presenting in front of a large screen displaying 'Day of Learning' and event branding.",
+      "alt_text": "Speaker standing on stage next to a podium with a laptop during the Hampton Roads DevFest",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "awkward-moment"
+      ],
+      "notes": "Good for establishing the event context, but the speaker is looking down at his laptop rather than engaging with the audience.",
+      "quality": 46,
+      "dhash": "fbdbfad8d0d0f000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-189.jpg": {
+      "description": "A speaker stands on a stage in front of a large screen displaying a presentation slide with a QR code and sponsor logos.",
+      "alt_text": "Speaker standing on stage next to a podium with a large projection screen behind him showing slides.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "sponsor"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A standard presentation shot that works well for identifying the speaker and topic.",
+      "quality": 46,
+      "dhash": "a7e2dad8e0800000",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-190.jpg": {
+      "description": "A speaker stands on stage in front of a large screen displaying his presentation slides and sponsor logos.",
+      "alt_text": "Speaker standing on stage next to a podium with a laptop, presenting slides on a large screen behind him.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "sponsor"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "The framing is slightly off-center with a railing in the foreground, but it clearly identifies the speaker and event sponsors.",
+      "quality": 46,
+      "dhash": "f2fde4e4f8e0c0c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-191.jpg": {
+      "description": "A speaker stands on a stage next to a podium, presenting in front of a large screen displaying his name and presentation slides.",
+      "alt_text": "Speaker standing on stage beside a podium with a large projection screen behind him showing slides.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for showing the speaker and slide content, but the composition is slightly off-center with a railing in the foreground.",
+      "quality": 46,
+      "dhash": "f0fcece4d0d0c0c0",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-192.jpg": {
+      "description": "A speaker stands on a stage presenting to an audience, with a large screen behind them displaying a slide titled 'ABOUT ME'.",
+      "alt_text": "Speaker presenting on stage in front of a large screen showing an 'About Me' slide.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "crowd"
+      ],
+      "people_count": 5,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Strong composition with the audience silhouettes framing the speaker and screen.",
+      "quality": 64,
+      "dhash": "b4616390f2e2f2e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-193.jpg": {
+      "description": "A close-up shot of a table at a tech event featuring a custom candle with a humorous portrait, surrounded by mechanical keyboards and promotional materials.",
+      "alt_text": "Tabletop display with a custom saint-themed candle next to mechanical keyboards and event swag",
+      "tags": [
+        "hardware",
+        "swag",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "The unique candle makes for a fun social post, but the composition is cluttered with keyboards and papers.",
+      "quality": 54,
+      "dhash": "2c98d8611e96e6e2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-194.jpg": {
+      "description": "A framed portrait of Nicolas Cage in a military uniform sits on a table next to a sign that reads 'VOLUNTEER'.",
+      "alt_text": "Framed portrait of Nicolas Cage as a general sitting on a table next to a volunteer sign.",
+      "tags": [
+        "swag",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "other",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 2,
+        "story": 2
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "Good for a 'fun swag' post, but the background clutter and partial sign make it less suitable for a main recap.",
+      "quality": 39,
+      "dhash": "01d4d69692fc9b2d",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-195.jpg": {
+      "description": "A large promotional sign for the HR Dev Fest event stands in a lobby, with attendees visible in the background near a high-top table.",
+      "alt_text": "HR Dev Fest poster on an easel in a venue lobby with people standing in the background",
+      "tags": [
+        "venue",
+        "signage",
+        "sponsor",
+        "crowd"
+      ],
+      "people_count": 4,
+      "scene": "venue",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 3,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good for establishing the event location and sponsors, but the people in the background are too small to be the main focus.",
+      "quality": 54,
+      "dhash": "33727363331b23f3",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-196.jpg": {
+      "description": "A speaker stands on a stage facing a large projection screen displaying slides, with their arm raised in a gesture.",
+      "alt_text": "Speaker presenting on stage next to a large projection screen showing slides",
+      "tags": [
+        "talk",
+        "stage",
+        "slides"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "The strong composition and clear subject make this a great shot for a recap, though the speaker's back is to the camera.",
+      "quality": 54,
+      "dhash": "64606171b49696c6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-197.jpg": {
+      "description": "A speaker stands on a stage presenting to an audience, with a large screen displaying slides about AI agents and copilots behind them.",
+      "alt_text": "Speaker presenting on stage in front of a large screen showing slides about AI agents and copilots.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 10,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good wide shot of the event context, but the dark lighting makes faces hard to see and the overall image feels a bit low-contrast.",
+      "quality": 57,
+      "dhash": "28e1f1bbd0d2d2c2",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-198.jpg": {
+      "description": "A speaker stands on a dimly lit stage presenting slides about SQL Agents, framed by the dark railings of an empty auditorium staircase.",
+      "alt_text": "Speaker presenting on stage with a large screen displaying SQL Agent diagrams.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "venue"
+      ],
+      "people_count": 1,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 2,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The composition is striking and professional, but the heavy shadows make it less ideal for social media where bright engagement photos perform better.",
+      "quality": 54,
+      "dhash": "61e0e833c3cb8937",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-greg-norman-199.jpg": {
+      "description": "A close-up, angled shot of a presentation screen displaying audience questions from a Q&A session.",
+      "alt_text": "Screen showing audience questions about leadership and work during a tech event Q&A.",
+      "tags": [
+        "slides",
+        "screenshot"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 2,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for illustrating the Q&A portion of a recap, but lacks energy and people.",
+      "quality": 21,
+      "dhash": "a7f7f6ffffffe37e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-200.jpg": {
+      "description": "A group of four people are standing on a stage in an auditorium, engaged in conversation during a break or networking session.",
+      "alt_text": "Four attendees chatting on a dark stage with empty theater seats visible in the background.",
+      "tags": [
+        "networking",
+        "group-photo",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "Good candid shot of attendees connecting, though the dark background makes it less visually striking than a color photo.",
+      "quality": 68,
+      "dhash": "b4ae9696d6148503",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-201.jpg": {
+      "description": "A group of four people are standing together in a dark auditorium, engaged in conversation near the stage area.",
+      "alt_text": "Four attendees talking in an empty auditorium with rows of seats visible in the background",
+      "tags": [
+        "audience",
+        "venue"
+      ],
+      "people_count": 4,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 3,
+        "composition": 4,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid shot of attendees connecting, though the dark background makes it less visually striking than a well-lit photo.",
+      "quality": 68,
+      "dhash": "a4ec9496d415a503",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kurt-kemple-202.jpg": {
+      "description": "Attendees are gathered in the foreground of an auditorium, engaged in conversation while others sit in the tiered seating behind them.",
+      "alt_text": "Group of attendees talking in an auditorium with rows of empty seats in the background",
+      "tags": [
+        "audience",
+        "networking",
+        "venue"
+      ],
+      "people_count": 12,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "Great candid shot capturing the social energy of a break or networking session.",
+      "quality": 79,
+      "dhash": "c6c69425278386a2",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-greg-norman-203.jpg": {
+      "description": "A presentation slide titled 'Alert Review' is projected onto a wall, detailing the review of alerts received in practice and considerations for managing them.",
+      "alt_text": "Presentation slide showing text about alert analysis and review considerations on a white background.",
+      "tags": [
+        "slides",
+        "venue"
+      ],
+      "people_count": 0,
+      "scene": "slides-only",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 2,
+        "people": 1,
+        "story": 1
+      },
+      "flags": [
+        "cropped-subject"
+      ],
+      "notes": "This is a functional documentation shot of the slide content but lacks people or event energy for social media.",
+      "quality": 21,
+      "dhash": "fefcb0b0a484f898",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-204.jpg": {
+      "description": "A speaker stands at a podium on stage presenting a slide titled '2.3 Days' to an audience, viewed from the side of the room.",
+      "alt_text": "Speaker presenting on stage with a large screen showing metrics and '2.3 Days'.",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "Good for showing the event context and slide content, but the lighting is dim and the angle is slightly obstructed by the railing.",
+      "quality": 54,
+      "dhash": "c41fe3e9e8e8f8cc",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-kevin-griffin-205.jpg": {
+      "description": "A speaker stands on a stage presenting a slide titled '2.3 Days' to an audience, viewed from the side of the room near a staircase.",
+      "alt_text": "Speaker presenting on stage with a large screen displaying metrics and '2.3 Days'",
+      "tags": [
+        "talk",
+        "stage",
+        "slides",
+        "audience",
+        "venue"
+      ],
+      "people_count": 2,
+      "scene": "talk",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 3,
+        "story": 3
+      },
+      "flags": [
+        "cropped-subject",
+        "near-duplicate"
+      ],
+      "notes": "The image is clear and readable but the composition is dominated by the foreground railing, making it less ideal for social media than a straight-on shot.",
+      "quality": 54,
+      "dhash": "c61fe3e9e8e8f8c0",
+      "duplicate_of": "2024-05-31-hrdevfest-kevin-griffin-204.jpg",
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-206.jpg": {
+      "description": "A pink menu for the Bahama Breeze Island Grille signature package listing various drink options, resting on a speckled grey countertop.",
+      "alt_text": "Pink Bahama Breeze menu listing drinks and alcohol packages on a counter",
+      "tags": [
+        "food",
+        "sponsor"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good for sponsor recognition but lacks the energy of a live event.",
+      "quality": 39,
+      "dhash": "0e0505072e0b1bca",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-207.jpg": {
+      "description": "Attendees are gathered around a table made from a blue barrel, enjoying lunch and conversation in an outdoor covered patio area.",
+      "alt_text": "A group of people eating lunch at a round table made from a blue barrel on an outdoor patio.",
+      "tags": [
+        "crowd",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid candid shot of the community enjoying a meal, though the composition is slightly cluttered with foreground elements.",
+      "quality": 64,
+      "dhash": "696358684c422b08",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-208.jpg": {
+      "description": "Attendees are gathered on an outdoor patio, sitting at tables and chatting near a large patio heater.",
+      "alt_text": "A group of people socializing on an outdoor patio with blue chairs and a tall heater in the foreground",
+      "tags": [
+        "crowd",
+        "audience",
+        "networking",
+        "food",
+        "venue"
+      ],
+      "people_count": 20,
+      "scene": "networking",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 5,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [],
+      "notes": "A solid shot for showing the venue and crowd energy, though the large heater in the foreground is slightly distracting.",
+      "quality": 68,
+      "dhash": "5916162d070566e6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-209.jpg": {
+      "description": "A close-up shot of a slice of lemon meringue pie on a white plate, featuring toasted meringue peaks and decorative red and yellow sauce drizzles.",
+      "alt_text": "Slice of lemon meringue pie with toasted meringue and colorful sauce drizzle",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 5,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good quality food photography suitable for a newsletter recap about event catering.",
+      "quality": 39,
+      "dhash": "13474fdbd224f0f6",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-210.jpg": {
+      "description": "A close-up shot of a slice of lemon meringue pie on a white plate, featuring a thick layer of toasted meringue over a crumb crust and custard filling.",
+      "alt_text": "Slice of lemon meringue pie with toasted meringue topping on a white plate",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good detail on the meringue texture, but the framing is slightly tight and cuts off the edge of the plate.",
+      "quality": 32,
+      "dhash": "c21b2b5929b3763e",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-211.jpg": {
+      "description": "Three attendees, one adult and two children, are seated at a table enjoying cake and trivia on a tablet during a break.",
+      "alt_text": "Attendees eating cake and playing trivia on a tablet during an event break",
+      "tags": [
+        "food",
+        "portrait",
+        "kids"
+      ],
+      "people_count": 3,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 3,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A candid shot that captures the relaxed atmosphere and community aspect of the event.",
+      "quality": 79,
+      "dhash": "a19a2d24a9688e2c",
+      "duplicate_of": null,
+      "pick": true
+    },
+    "2024-05-31-hrdevfest-linda-nichols-212.jpg": {
+      "description": "Three attendees, including a man and two younger participants, sit at a table enjoying cake and drinks during a break.",
+      "alt_text": "Attendees eating cake at a table with a view of the parking lot through large windows",
+      "tags": [
+        "food",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 2,
+        "composition": 3,
+        "people": 4,
+        "story": 3
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The image captures a nice community moment but the foreground is too dark and underexposed to be used without editing.",
+      "quality": 57,
+      "dhash": "b589adace969ac2c",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-213.jpg": {
+      "description": "Attendees are seated at tables on an outdoor patio, eating and socializing during a break. A large patio heater stands in the foreground while staff serve food in the background.",
+      "alt_text": "Attendees eat and chat at tables on an outdoor patio during an event break",
+      "tags": [
+        "crowd",
+        "audience",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 4,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A solid candid shot for social media showing the community atmosphere and food break.",
+      "quality": 71,
+      "dhash": "5d115d4f37134391",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-214.jpg": {
+      "description": "Attendees are gathered at tables on an outdoor patio, eating and using laptops during a break.",
+      "alt_text": "Group of people sitting at tables on a covered patio with laptops and food, looking out toward a parking lot.",
+      "tags": [
+        "crowd",
+        "food",
+        "venue"
+      ],
+      "people_count": 15,
+      "scene": "food",
+      "scores": {
+        "sharpness": 3,
+        "exposure": 2,
+        "composition": 4,
+        "people": 3,
+        "story": 4
+      },
+      "flags": [
+        "dark"
+      ],
+      "notes": "The photo captures the venue and attendees well, but the heavy backlighting makes faces too dark to see clearly.",
+      "quality": 57,
+      "dhash": "9636256e68480c35",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-linda-nichols-215.jpg": {
+      "description": "A close-up shot of a slice of lemon meringue pie on a white plate, featuring a large toasted meringue topping and decorative red and yellow sauce drizzles.",
+      "alt_text": "Slice of lemon meringue pie with toasted meringue and fruit sauce drizzle",
+      "tags": [
+        "food"
+      ],
+      "people_count": 0,
+      "scene": "food",
+      "scores": {
+        "sharpness": 4,
+        "exposure": 4,
+        "composition": 3,
+        "people": 1,
+        "story": 2
+      },
+      "flags": [],
+      "notes": "Good detail on the dessert texture, but the background clutter and lack of context make it less engaging for a general event recap.",
+      "quality": 36,
+      "dhash": "0f0f37b7f6e8d8cb",
+      "duplicate_of": null,
+      "pick": false
+    },
+    "2024-05-31-hrdevfest-alex-proaps-216.jpg": {
+      "description": "Three smiling event organizers stand together holding a large poster for the 'HR Dev Fest' conference against a blue wall.",
+      "alt_text": "Three people posing with an HR Dev Fest sign",
+      "tags": [
+        "group-photo",
+        "portrait",
+        "venue"
+      ],
+      "people_count": 3,
+      "scene": "group-photo",
+      "scores": {
+        "sharpness": 5,
+        "exposure": 4,
+        "composition": 4,
+        "people": 5,
+        "story": 4
+      },
+      "flags": [],
+      "notes": "A high-quality promotional shot perfect for social media announcements or the event homepage.",
+      "quality": 86,
+      "dhash": "d990b21a35960202",
+      "duplicate_of": null,
+      "pick": true
+    }
+  }
+}
