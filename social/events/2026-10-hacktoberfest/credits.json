@@ -17,7 +17,7 @@
       ],
       "quality": 50,
       "flags": [],
-      "pick": true,
+      "pick": false,
       "scene": "food"
     },
     {

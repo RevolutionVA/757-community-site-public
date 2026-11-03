@@ -546,7 +546,7 @@
       "quality": 68,
       "dhash": "c2c969d35a71e006",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2018-05-17-revolutionconf-steve-albers-023.jpg": {
       "description": "A speaker in a red shirt stands on stage presenting a large venue map displayed on a projector screen, with the audience visible in the foreground.",
@@ -683,7 +683,7 @@
       "quality": 68,
       "dhash": "97226387c1d9f82c",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2018-05-17-revolutionconf-keith-l-privette-028.jpg": {
       "description": "A wide shot of a conference room where attendees are seated at round tables facing a stage, watching a presentation titled 'Teaching Coding to Kids... by a 12 year old'.",
@@ -1588,7 +1588,7 @@
       "quality": 61,
       "dhash": "86e5e19b64656de4",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2018-05-17-revolutionconf-greg-norman-063.jpg": {
       "description": "An audience sits at round tables facing a large projection screen during a presentation, with drinks and food visible on the foreground table.",
@@ -2771,7 +2771,7 @@
       "quality": 79,
       "dhash": "0f232733328e1f73",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2018-05-17-revolutionconf-alex-proaps-110.jpg": {
       "description": "A man in a festive Hawaiian shirt and sunglasses poses enthusiastically with a ukulele in front of an 'ALOHA' balloon backdrop.",
@@ -2846,7 +2846,7 @@
       "quality": 79,
       "dhash": "5d9e8e8e5ac74fde",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2018-05-17-revolutionconf-linda-nichols-113.jpg": {
       "description": "A person in a colorful Hawaiian shirt and lei dances energetically across a carpeted event hall while an audience watches from tables in the background.",
@@ -2996,7 +2996,7 @@
       "quality": 79,
       "dhash": "4b0f4d0c2213cf19",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2018-05-17-revolutionconf-alex-proaps-119.jpg": {
       "description": "A bearded man in a red shirt poses playfully with flamingo props and novelty glasses in front of a tropical-themed backdrop.",
@@ -3020,7 +3020,7 @@
       "quality": 79,
       "dhash": "1c5717268d5a561b",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2018-05-17-revolutionconf-alex-proaps-120.jpg": {
       "description": "A bearded man in a red shirt and lei poses with a drink in front of a flamingo-themed photo backdrop.",
@@ -4307,7 +4307,7 @@
       "quality": 68,
       "dhash": "e2a6ecd9d999c9d8",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2018-05-18-revolutionconf-keith-l-privette-170.jpg": {
       "description": "An audience sits at round tables facing a panel of speakers on stage during a conference presentation.",
@@ -4690,7 +4690,7 @@
       "quality": 61,
       "dhash": "f40e667272636bf6",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2018-05-18-revolutionconf-s-z-185.jpg": {
       "description": "An audience sits at round tables facing a large projection screen displaying 'Thanks to our organizers' during a conference presentation.",
@@ -4821,7 +4821,7 @@
       "quality": 79,
       "dhash": "d56c6d3f97dad6c7",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2018-05-18-revolutionconf-s-z-190.jpg": {
       "description": "A group of people are gathered around a long wooden table at a brewery, looking at menus and drinking beer.",
@@ -5081,5 +5081,8 @@
       "duplicate_of": null,
       "pick": false
     }
+  },
+  "exclude": {
+    "2018-05-17-revolutionconf-alex-proaps-112.jpg": "blurry"
   }
 }

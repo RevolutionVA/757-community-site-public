@@ -5267,7 +5267,7 @@
       "flags": [
         "cropped-subject"
       ],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-07-29-nodebots-day-troy-connor-302.jpg",
@@ -5301,7 +5301,7 @@
       ],
       "quality": 54,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-07-29-nodebots-day-aoibhe-wilson-304.jpg",

@@ -33,7 +33,7 @@
       ],
       "quality": 71,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-05-31-revolutionconf-s-z-003.jpg",
@@ -574,7 +574,7 @@
       ],
       "quality": 71,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-06-01-revolutionconf-kevin-griffin-036.jpg",
@@ -1224,7 +1224,7 @@
       ],
       "quality": 71,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-06-01-revolutionconf-s-z-072.jpg",
@@ -1603,7 +1603,7 @@
       ],
       "quality": 71,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-06-01-revolutionconf-s-z-093.jpg",
@@ -2301,7 +2301,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-01-revolutionconf-greg-norman-132.jpg",
@@ -2387,7 +2387,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-01-revolutionconf-s-z-137.jpg",
@@ -2423,7 +2423,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-01-revolutionconf-greg-norman-139.jpg",
@@ -2441,7 +2441,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-01-revolutionconf-greg-norman-140.jpg",
@@ -2525,7 +2525,7 @@
       ],
       "quality": 82,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-01-revolutionconf-kevin-griffin-145.jpg",
@@ -4882,7 +4882,7 @@
       ],
       "quality": 71,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-06-02-revolutionconf-ken-taylor-279.jpg",
@@ -5206,7 +5206,7 @@
       ],
       "quality": 75,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2017-06-02-revolutionconf-ken-taylor-296.jpg",
@@ -5481,7 +5481,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2017-06-02-revolutionconf-linda-nichols-311.jpg",

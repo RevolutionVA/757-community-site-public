@@ -3,6 +3,7 @@
 Usage: python scripts/review-event-photos.py social/events/<folder> [more folders...] [--picks N] [--repick]
 --repick re-runs duplicate marking and picks from review.json without calling the model.
 Requires: pip install pillow pillow-heif
+Hand-reviewed rejects go in review.json "exclude" ({file: reason}); they are never picked.
 Env: OLLAMA_URL (default http://192.168.0.142:11434/v1/chat/completions), OLLAMA_MODEL
 
 Writes review.json (full results, resumable) and adds alt/tags/quality/flags/pick to credits.json.
@@ -107,21 +108,25 @@ def review_one(folder, fname):
     return fname, r
 
 
-def pick(results, n, meta):
+def pick(results, n, meta, exclude=()):
     """Top-n by quality, spread across the day.
 
-    With timestamps: at most 2 picks per 20-minute window and 1 per photographer burst (2 min).
+    With timestamps: at most 2 picks per 20-minute window, 1 per photographer burst (2 min),
+    and evening shots (after-parties, 6 PM-5 AM local) capped at a third of n.
     Without (date-only): at most 2 per scene and nothing visually similar to an earlier pick.
     Photos under MIN_QUALITY are never picked, so a thin event gets fewer than n.
     """
     ham = lambda a, b: bin(int(a, 16) ^ int(b, 16)).count("1")
     bad = {"blurry", "dark", "eyes-closed", "sensitive", "screenshot", "non-photo", "near-duplicate"}
     ok = [(f, r) for f, r in results.items()
-          if "error" not in r and not bad & set(r["flags"]) and r.get("scene") != "slides-only"
+          if "error" not in r and f not in exclude and not bad & set(r["flags"]) and r.get("scene") != "slides-only"
           and r["quality"] >= MIN_QUALITY]
     ok.sort(key=lambda x: (-x[1]["quality"], -x[1]["scores"]["story"], -x[1].get("people_count", 0)))
     t = {f: datetime.fromisoformat(m["taken_at"]).timestamp()
          for f, m in meta.items() if "T" in m.get("taken_at", "")}
+    evening = {f for f, m in meta.items()
+               if "T" in m.get("taken_at", "")
+               and not 5 <= datetime.fromisoformat(m["taken_at"]).hour < 18}
     chosen = []
 
     def fits(f, r):
@@ -129,7 +134,8 @@ def pick(results, n, meta):
             same_window = sum(1 for c in chosen if c in t and abs(t[c] - t[f]) < 1200)
             same_burst = any(c in t and meta[c]["photographer"] == meta[f]["photographer"]
                              and abs(t[c] - t[f]) < 120 for c in chosen)
-            return same_window < 2 and not same_burst
+            too_late = f in evening and sum(c in evening for c in chosen) >= n // 3
+            return same_window < 2 and not same_burst and not too_late
         scene = r.get("scene", "other")
         return (sum(results[c].get("scene") == scene for c in chosen) < 2
                 and all(ham(r["dhash"], results[c]["dhash"]) > 10 for c in chosen))
@@ -184,7 +190,7 @@ def run(folder, n_picks, repick=False):
 
     mark_dupes(results)
     n = n_picks or max(8, min(20, len(credits["photos"]) // 10))
-    picks = pick(results, n, {p["file"]: p for p in credits["photos"]})
+    picks = pick(results, n, {p["file"]: p for p in credits["photos"]}, review.get("exclude", {}))
     for f, r in results.items():
         r["pick"] = f in picks
     save()

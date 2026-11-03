@@ -46,7 +46,7 @@
       "quality": 71,
       "dhash": "27213336260e1e78",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-05-31-revolutionconf-s-z-003.jpg": {
       "description": "A close-up shot of a sign announcing a VIP Party sponsored by Leesa, displayed on an easel.",
@@ -851,7 +851,7 @@
       "quality": 71,
       "dhash": "79192b6b4e0e22b3",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-06-01-revolutionconf-kevin-griffin-036.jpg": {
       "description": "Three smiling attendees wearing conference lanyards and t-shirts pose for a selfie in the background of a busy event hall.",
@@ -1789,7 +1789,7 @@
       "quality": 71,
       "dhash": "9e9a506171119190",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-06-01-revolutionconf-s-z-072.jpg": {
       "description": "A speaker stands at a podium in an empty conference room, presenting a slide titled 'Luau && Happy Hours' on a large screen.",
@@ -2336,7 +2336,7 @@
       "quality": 71,
       "dhash": "6c6ad3accb24b146",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-06-01-revolutionconf-s-z-093.jpg": {
       "description": "Attendees sit at round tables in a conference room facing a large projection screen, while two women stand near the front of the room.",
@@ -3346,7 +3346,7 @@
       "quality": 79,
       "dhash": "944a038100e49f89",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-01-revolutionconf-greg-norman-132.jpg": {
       "description": "A high-angle view of a beachside venue where attendees are gathered near tables on the left, while others walk along a path or relax on the sand and grass in the background.",
@@ -3472,7 +3472,7 @@
       "quality": 79,
       "dhash": "616c31a7b676dc98",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-01-revolutionconf-s-z-137.jpg": {
       "description": "A large group of people are gathered outdoors on a beach for an event, sitting at round tables with the ocean in the background.",
@@ -3524,7 +3524,7 @@
       "quality": 79,
       "dhash": "3381e1d197b38c4c",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-01-revolutionconf-greg-norman-139.jpg": {
       "description": "A large group of people are seated at round tables enjoying a meal outdoors on a beachside patio, with the ocean visible in the background.",
@@ -3550,7 +3550,7 @@
       "quality": 79,
       "dhash": "088826afdfb1b7f5",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-01-revolutionconf-greg-norman-140.jpg": {
       "description": "Attendees gather at round tables for an outdoor lunch near the beach, with event staff serving food and sponsor banners visible in the background.",
@@ -3674,7 +3674,7 @@
       "quality": 82,
       "dhash": "cae666b21a04cc4d",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-01-revolutionconf-kevin-griffin-145.jpg": {
       "description": "A man in a green shirt and flower lei smiles for a selfie during an outdoor networking break at a tech event.",
@@ -7079,7 +7079,7 @@
       "quality": 71,
       "dhash": "2713754d868687e7",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-06-02-revolutionconf-ken-taylor-279.jpg": {
       "description": "A speaker in a red t-shirt presents to an audience seated at tables with laptops, standing next to a large projection screen displaying a slide about app design.",
@@ -7539,7 +7539,7 @@
       "quality": 75,
       "dhash": "1464339b9e939694",
       "duplicate_of": null,
-      "pick": false
+      "pick": true
     },
     "2017-06-02-revolutionconf-ken-taylor-296.jpg": {
       "description": "A speaker stands at a podium delivering a presentation to an audience seated at round tables in a conference room.",
@@ -7934,7 +7934,7 @@
       "quality": 79,
       "dhash": "2d2f2e2f27a5a5a6",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2017-06-02-revolutionconf-linda-nichols-311.jpg": {
       "description": "Three attendees in red event t-shirts sit at a table on an outdoor patio, enjoying drinks and conversation during the evening.",

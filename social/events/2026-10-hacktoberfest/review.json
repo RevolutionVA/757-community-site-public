@@ -22,7 +22,7 @@
       "quality": 50,
       "dhash": "49418298982d5cd8",
       "duplicate_of": null,
-      "pick": true
+      "pick": false
     },
     "2026-10-17-hacktoberfest-major-league-hacking-002.jpg": {
       "description": "A speaker stands on stage presenting at a Hacktoberfest event, with an audience seated in the foreground and a large projection screen displaying the event title.",
@@ -1845,5 +1845,8 @@
       "duplicate_of": null,
       "pick": false
     }
+  },
+  "exclude": {
+    "2026-10-17-hacktoberfest-major-league-hacking-001.jpg": "food tray only"
   }
 }

@@ -218,7 +218,7 @@
       "flags": [
         "cropped-subject"
       ],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2016-11-04-hrdevfest-alex-proaps-013.jpg",
@@ -249,7 +249,7 @@
       ],
       "quality": 50,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2016-11-04-hrdevfest-kevin-griffin-015.jpg",

@@ -373,7 +373,7 @@
       ],
       "quality": 68,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2018-05-17-revolutionconf-steve-albers-023.jpg",
@@ -470,7 +470,7 @@
       ],
       "quality": 68,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2018-05-17-revolutionconf-keith-l-privette-028.jpg",
@@ -1095,7 +1095,7 @@
       ],
       "quality": 61,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2018-05-17-revolutionconf-greg-norman-063.jpg",
@@ -1902,7 +1902,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2018-05-17-revolutionconf-alex-proaps-110.jpg",
@@ -1953,7 +1953,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2018-05-17-revolutionconf-linda-nichols-113.jpg",
@@ -2055,7 +2055,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2018-05-17-revolutionconf-alex-proaps-119.jpg",
@@ -2071,7 +2071,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2018-05-17-revolutionconf-alex-proaps-120.jpg",
@@ -2958,7 +2958,7 @@
       ],
       "quality": 68,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2018-05-18-revolutionconf-keith-l-privette-170.jpg",
@@ -3221,7 +3221,7 @@
       ],
       "quality": 61,
       "flags": [],
-      "pick": false
+      "pick": true
     },
     {
       "file": "2018-05-18-revolutionconf-s-z-185.jpg",
@@ -3312,7 +3312,7 @@
       ],
       "quality": 79,
       "flags": [],
-      "pick": true
+      "pick": false
     },
     {
       "file": "2018-05-18-revolutionconf-s-z-190.jpg",
