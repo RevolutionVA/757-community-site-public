@@ -75,6 +75,8 @@ The regulars list goes stale quietly. Check each cadence (`every other Tuesday, 
 
 ### 6. Tropes pass
 
+`create-monthly-broadcast.js` runs a mechanical subset of these rules (`scripts/lib/tropes-lint.js`: em dashes, banned words, prose arrows) over every prose field. It warns on `--dry-run` and refuses to create the draft until the problems are fixed (`--allow-tropes` overrides). The script only catches what a regex can; the skill pass below still applies.
+
 Invoke the `/tropes` skill on every freeform sentence you wrote or changed: greeting, leads, bodies, recap text, subject, preheader. Cite the tropes you found and fix them. Em-dash asides in prose count; rewrite them. The fixed boilerplate (`disclaimer`, `stayInTouch`, `signoff`) and the renderer's own `&mdash;`/`&rarr;` are format spec, not prose, so leave them alone. Organizer quotes stay verbatim.
 
 ### 7. Approval, then draft
