@@ -1,0 +1,121 @@
+{
+  "issue": "2026-11",
+  "broadcastName": "757tech Monthly - November 2026",
+  "subject": "757tech Monthly: Pull Up a Chair, cyber happy hours, and October recaps",
+  "preheader": "Pull Up a Chair is Nov 19, ISSA happy hours are Nov 17 and 18, and we have recaps from BSides, Hack Day, and Pop-up #2.",
+  "disclaimer": "You're receiving this newsletter because you registered for or attended a RevolutionVA event. If you'd like to [unsubscribe]({{ visitor.unsubscribe_url }}), we understand.",
+  "greeting": [
+    "Happy Friday! October gave Hampton Roads its first BSides, a Saturday of open-source AI at 757 Makerspace, and our second Pop-up Meetup. November is quieter, with a few good evenings to get out and meet people before the holidays. Here's what's coming up."
+  ],
+  "happening": {
+    "heading": "What's Happening This Month",
+    "items": [
+      {
+        "title": "Nov 19: Pull Up a Chair: Women in Cyber & Tech Social",
+        "lead": "A casual after-work social for women in or moving toward cybersecurity, IT, AI, data, software, and GRC roles, including students and career changers. Brittany Oliver hosts, with drinks and bites available to buy and an optional round of asks and offers. The group is capped at 15, so register early.",
+        "when": "November 19th, 2026, 6–8 pm at Keagan's Irish Pub & Kitchen, Virginia Beach",
+        "price": "Free",
+        "url": "https://www.eventbrite.com/e/pull-up-a-chair-women-in-cyber-tech-social-tickets-2003976173681",
+        "ctaLabel": "Register on Eventbrite"
+      },
+      {
+        "title": "Nov 17: Norfolk Cybersecurity Networking & Happy Hour",
+        "lead": "ISSA Hampton Roads hosts a networking evening for cybersecurity and infosec professionals, with happy-hour deals until 8 pm.",
+        "when": "November 17th, 2026, 6 pm at The OV Beach Tavern, Norfolk",
+        "price": "Free",
+        "url": "https://www.meetup.com/issa-hampton-roads/events/qxtwvtyjcpbwb/",
+        "ctaLabel": "RSVP on Meetup"
+      },
+      {
+        "title": "Nov 18: Cybersecurity Social",
+        "lead": "The next night, ISSA Hampton Roads gets together in Virginia Beach for people at any career level in security, or curious about it. You don't have to drink to come.",
+        "when": "November 18th, 2026, 6 pm at The Casual Pint, Virginia Beach",
+        "url": "https://www.meetup.com/issa-hampton-roads/events/315950066/",
+        "ctaLabel": "RSVP on Meetup"
+      },
+      {
+        "title": "Nov 19: Bitcoin Meetup Open Discussion",
+        "lead": "Bring your Bitcoin questions to an open discussion that welcomes any experience level. The group has a new location at the Oceanfront.",
+        "when": "November 19th, 2026, 6:30 pm at Smartmouth Brewing, Virginia Beach",
+        "url": "https://www.meetup.com/virginia-beach-bitcoin/events/kgcxptyjcpbzb/",
+        "ctaLabel": "RSVP on Meetup"
+      },
+      {
+        "title": "Nov 24: Peninsula Builders Study Group",
+        "lead": "A study group for students and developers on the Peninsula who want a regular habit of learning new tools. Bring a laptop. You don't need to be an expert.",
+        "when": "November 24th, 2026, 6–7:30 pm at Christopher Newport University (Luter 170), Newport News",
+        "url": "https://www.meetup.com/757dev/events/tbxfztyjcpbgc/",
+        "ctaLabel": "RSVP on Meetup"
+      }
+    ]
+  },
+  "missed": {
+    "heading": "What You Missed Last Month",
+    "items": [
+      {
+        "title": "BSides Hampton Roads",
+        "body": [
+          "Hampton Roads got its first BSides on October 9th and 10th at ODU's Webb University Center. Sessions covered risk aggregation, threat modeling for wildlife conservation, tabletop exercises, and AI security, and the schedule mixed talks for people starting out with talks for twenty-year veterans."
+        ],
+        "photo": "https://757tech.org/images/newsletter/2026-11/bsides-session-room.jpg",
+        "photoAlt": "Attendees seated in rows facing a presentation screen in a session room at BSides Hampton Roads",
+        "bodyAfterPhoto": [
+          "Congratulations to Sumanth Thyagarajan and Suprajha Kanna, who took 2nd place in the CTF, and to ODU student Joshua Osei-Nimoh, a Student Scholarship Giveaway winner. Thanks to the organizers, speakers, volunteers, and sponsors. Photo: BSides Hampton Roads."
+        ]
+      },
+      {
+        "title": "Hacktoberfest Hack Day",
+        "body": [
+          "On October 17th we spent a Saturday at 757 Makerspace in Hampton building with open-source AI. People worked on laptops, watched demos including a hands-on look at Hermes Agent, and a few went home with book prizes."
+        ],
+        "photo": "https://757tech.org/images/newsletter/2026-11/hacktoberfest-full-room.jpg",
+        "photoAlt": "Attendees at laptops watching three presenters in front of a projected screen at 757 Makerspace",
+        "bodyAfterPhoto": [
+          "Thanks to hosts Chazona Baum and Ryan McGovern, to 757 Makerspace for the space, and to AI Collective Hampton Roads for sponsoring. Photo: Major League Hacking."
+        ]
+      },
+      {
+        "title": "Pop-up Meetup #2",
+        "body": [
+          "Mike Rollins came to The Hive on October 22nd to talk about incidents where an AI agent was part of the problem, including the Hugging Face incident, and how to run a retro when you have to rebuild the conversation across several agents. Thanks to Mike and to everyone who came out."
+        ]
+      }
+    ]
+  },
+  "regulars": {
+    "heading": "Just Show Up",
+    "lead": "New to 757tech? These happen on a regular rhythm, and you don't need an invitation. Pick one and walk in. The [weekly calendar](https://757tech.org/this-week/) has every date.",
+    "items": [
+      {
+        "title": "Peninsula Builders Study Group",
+        "url": "https://www.meetup.com/757dev/",
+        "when": "every other Tuesday, 6 pm",
+        "note": "757 Developers and AI Collective Hampton Roads"
+      },
+      {
+        "title": "Norfolk Cybersecurity Networking & Happy Hour",
+        "url": "https://www.meetup.com/issa-hampton-roads/",
+        "when": "third Tuesday of the month, 6 pm",
+        "note": "ISSA Hampton Roads"
+      },
+      {
+        "title": "Cybersecurity Social",
+        "url": "https://www.meetup.com/issa-hampton-roads/",
+        "when": "third Wednesday of the month, 6 pm",
+        "note": "ISSA Hampton Roads"
+      }
+    ]
+  },
+  "stayInTouch": {
+    "heading": "Stay in Touch",
+    "lead": "757tech is everywhere you are! Connect with us:",
+    "items": [
+      { "key": "slack", "label": "Slack", "note": "where the 757 tech community actually talks day-to-day" },
+      { "key": "discord", "label": "Discord", "note": "same crowd, different room" },
+      { "key": "linkedin", "label": "LinkedIn", "note": "event announcements and community news" },
+      { "key": "social", "label": "Bluesky · X · Instagram · Threads", "note": "" },
+      { "key": "site", "label": "757tech.org", "note": "the full calendar, always current" }
+    ]
+  },
+  "signoff": "See ya next month!"
+}
