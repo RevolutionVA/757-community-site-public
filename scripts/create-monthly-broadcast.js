@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
+import { lintProse, monthlyProse, reportTropes } from './lib/tropes-lint.js';
 
 /**
  * Create a Bento broadcast DRAFT for the 757tech Monthly newsletter.
@@ -22,6 +23,8 @@ import { fileURLToPath } from 'url';
  * --preheader overrides the inbox preview text from content.json.
  * --dry-run prints the payload without calling the API (no credentials needed).
  * --html-out writes the rendered HTML to a file for browser preview.
+ * --allow-tropes creates the draft even if the tropes check flags the prose
+ *   (the check always runs; on --dry-run it only warns).
  *
  * Required env vars: BENTO_PUBLISHABLE_KEY, BENTO_SECRET_KEY, BENTO_SITE_UUID,
  * BENTO_FROM_EMAIL (must be an authorized author in Bento),
@@ -386,6 +389,11 @@ async function main() {
 
   console.log(`📰 Issue ${issue} — "${content.subject}"`);
   console.log(`   ${content.happening.items.length} featured item(s), ${Math.round(html.length / 1024)} KB HTML`);
+
+  const tropes = lintProse(monthlyProse(content));
+  if (!reportTropes(tropes, { dryRun, allow: args.includes('--allow-tropes'), source: `social/newsletter/${issue}/content.json` })) {
+    process.exit(1);
+  }
 
   if (dryRun) {
     console.log(`Dry run — would create draft "${content.broadcastName}". No API call made.`);

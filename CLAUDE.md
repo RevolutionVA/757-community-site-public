@@ -68,6 +68,8 @@ Important utility scripts in `scripts/`:
 - `generate-weekly-meetups.js` - Creates weekly meetup summaries
 - `deduplicate-calendar.js` - Removes duplicate events
 
+**Git LFS**: images under `social/events/` are stored in LFS, so `git-lfs` must be installed or merges and `git status` can crash. Recap photos in `public/images/recap/` are regular files.
+
 ### Site Configuration
 
 - **Site URL**: https://757tech.org
