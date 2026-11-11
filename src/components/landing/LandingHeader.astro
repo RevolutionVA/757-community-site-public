@@ -5,7 +5,7 @@
 // anchors to real page URLs — anchors would bounce an inner-page visitor back
 // to the homepage to find the section.
 import { COMMUNITY } from "../../data/community";
-const { slack: SLACK, discord: DISCORD } = COMMUNITY;
+const { slack: SLACK, discord: DISCORD, donate: DONATE } = COMMUNITY;
 
 interface Props {
   subpage?: boolean;
@@ -49,6 +49,7 @@ const currentPath = Astro.url.pathname.replace(/\/+$/, "") || "/";
           aria-current={href.replace(/\/+$/, "") === currentPath ? "page" : undefined}
         >{label}</a>
       ))}
+      <a href={DONATE} target="_blank" rel="noopener noreferrer">Donate</a>
     </nav>
     <div class="header-social">
       <a class="social-ico slack" href={SLACK} target="_blank" rel="noopener noreferrer" aria-label="Join us on Slack" title="Join us on Slack">

@@ -3,7 +3,7 @@ import { COMMUNITY } from "../../data/community";
 const {
   slack: SLACK, discord: DISCORD, github: GITHUB,
   linkedin: LINKEDIN, x: X, instagram: INSTAGRAM, threads: THREADS, bluesky: BLUESKY,
-  submitEvent: SUBMIT_EVENT, addGroup: ADD_GROUP,
+  submitEvent: SUBMIT_EVENT, addGroup: ADD_GROUP, donate: DONATE,
 } = COMMUNITY;
 
 // `subpage`: the anchor targets live on the landing page, so links get a
@@ -40,6 +40,7 @@ const year = new Date().getFullYear();
         <a href={SUBMIT_EVENT} target="_blank" rel="noopener noreferrer">Submit an event</a>
         <a href={ADD_GROUP} target="_blank" rel="noopener noreferrer">Add your group</a>
         <a href={`${root}#subscribe`}>Newsletter</a>
+        <a href={DONATE} target="_blank" rel="noopener noreferrer">Donate</a>
       </div>
       <div class="footer-col">
         <h4>Connect</h4>
@@ -58,7 +59,7 @@ const year = new Date().getFullYear();
     </div>
   </div>
   <div class="footer-base">
-    <span>© {year} 757tech.org · Supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>, a 501(c)(3) non-profit — built by the community, for the community.</span>
+    <span>© {year} 757tech.org · Supported by <a href="https://revolutionva.org" target="_blank" rel="noopener noreferrer">RevolutionVA</a>, a 501(c)(3) non-profit — built by the community, for the community. <a href={DONATE} target="_blank" rel="noopener noreferrer">Donate</a></span>
     {/* Carried over from the old MainLayout footer, which the inner pages used
         until this footer replaced it. Kept rather than dropped so the build
         credit doesn't silently disappear from 11 pages. */}
