@@ -109,6 +109,8 @@ section[id], #subscribe { scroll-margin-top: 86px; }
 .social-ico.slack:hover { background: #4A154B; }
 .social-ico.discord:hover { background: #5865F2; }
 @media (max-width: 920px) { .header-social { display: none; } }
+/* The 7-link inner-page nav needs ~40px more than the landing nav to stay on one row. */
+@media (max-width: 1000px) { .site-header.subpage .header-social { display: none; } }
 
 @media (max-width: 760px) {
   .nav-toggle { display: grid; margin-left: auto; }

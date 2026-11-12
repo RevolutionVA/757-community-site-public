@@ -12,4 +12,7 @@ export const COMMUNITY = {
   instagram: "https://www.instagram.com/757techorg/",
   threads: "https://www.threads.com/@757techorg",
   bluesky: "https://bsky.app/profile/757tech.org",
+  // RevolutionVA Stripe payment link. No query string: `client_reference_id`
+  // is only for visits from the Stripe public profile.
+  donate: "https://donate.stripe.com/fZu3cv4eGaSFevXbPI4AU07",
 };
