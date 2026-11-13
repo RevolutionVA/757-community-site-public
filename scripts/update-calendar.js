@@ -1391,8 +1391,10 @@ async function updateCalendarEvents() {
 			LOG_LEVELS.INFO,
 		);
 
-		// Sort events by date
+		// Skip the canceled November 24 occurrence even if Meetup still returns it.
+		const canceledMeetup = /^https?:\/\/(?:www\.)?meetup\.com\/757dev\/events\/317290966\/?(?:[?#].*)?$/i;
 		const sortedEvents = uniqueEvents
+			.filter((event) => !canceledMeetup.test(event.link))
 			.filter((event) => new Date(event.date) >= now)
 			.sort((a, b) => new Date(a.date) - new Date(b.date));
 
