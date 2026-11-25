@@ -1,5 +1,14 @@
 [
   {
+    "name": "Hampton Roads DevFest 2027",
+    "url": "https://hrdevfest.org/",
+    "description": "Save the date for Hampton Roads DevFest 2027. Details are coming soon.",
+    "date": "2027-04-23",
+    "location": "Zeiders",
+    "tags": ["Web", "Cloud", "Mobile", "Community"],
+    "coverImage": "/images/devfest.png"
+  },
+  {
     "name": "BSides Hampton Roads 2026",
     "url": "https://bsideshamptonroads.org/",
     "description": "A community-driven information security conference at ODU's Webb University Center — talks, hands-on villages, and networking for the Hampton Roads infosec community.",
